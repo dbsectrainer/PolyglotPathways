@@ -3,13 +3,13 @@ import os
 import time
 from gtts import gTTS
 
-# This file contains days 27-31 of language phrases
-# It follows the same structure as previous scripts but includes enhanced content
-# focusing on Software Engineering, Digital/Tech, Environmental/Geographical Terms,
-# Indigenous Influence, and Contemporary Slang for South America
+# This file contains days 16-26 of language phrases for PolyglotPathways
+# It follows the same structure as previous scripts but includes content
+# focusing on Living & Working in South America, including housing, jobs,
+# banking, healthcare, cultural integration, daily life, and social integration
 
-# Day 27: Software Engineering & Tech Workplace, Programming Languages & Concepts, Development Tools & Methodologies, Tech Problem Solving, Tech Workplace Communication
-day27_phrases = {
+# Day 16: Essential Living Topics - Finding Housing and Accommodation
+day16_phrases = {
     "Software Engineering & Tech Workplace": [
         {"en": "I'm a software engineer", "es": "Soy ingeniero/a de software", "pt": "Sou engenheiro/a de software",
          "fr": "Je suis ingénieur en logiciel", "de": "Ich bin Softwareentwickler"},
@@ -122,8 +122,8 @@ day27_phrases = {
     ]
 }
 
-# Day 28: Digital Life & Tech Vocabulary, Social Media & Apps, Digital Security & Privacy, Online Services, Tech Support & Troubleshooting
-day28_phrases = {
+# Day 18: Essential Living Topics - Banking and Finance
+day18_phrases = {
     "Digital Life & Tech Vocabulary": [
         {"en": "I need to update my software", "es": "Necesito actualizar mi software", "pt": "Preciso atualizar meu software",
          "fr": "J'ai besoin de mettre à jour mon logiciel", "de": "Ich muss meine Software aktualisieren"},
@@ -236,8 +236,8 @@ day28_phrases = {
     ]
 }
 
-# Day 29: Environmental & Geographical Terms, Climate & Weather, Natural Landscapes, Sustainability & Conservation, Outdoor Activities
-day29_phrases = {
+# Day 20: Cultural Integration - Regional Cultural Nuances
+day20_phrases = {
     "South American Geography": [
         {"en": "The Amazon Rainforest is the largest in the world", "es": "La Selva Amazónica es la más grande del mundo", "pt": "A Floresta Amazônica é a maior do mundo",
          "fr": "La forêt amazonienne est la plus grande au monde", "de": "Der Amazonas-Regenwald ist der größte der Welt"},
@@ -350,8 +350,8 @@ day29_phrases = {
     ]
 }
 
-# Day 30: Indigenous Influence & Cultural Heritage, Indigenous Words in Spanish/Portuguese, Traditional Knowledge & Practices, Cultural Celebrations, Indigenous Communities
-day30_phrases = {
+# Day 22: Cultural Integration - Renting and Housing Vocabulary
+day22_phrases = {
     "Indigenous Words in Spanish/Portuguese": [
         {"en": "Canoe (from Arawak 'canoa')", "es": "Canoa", "pt": "Canoa",
          "fr": "Canoë", "de": "Kanu"},
@@ -464,8 +464,8 @@ day30_phrases = {
     ]
 }
 
-# Day 31: Contemporary Slang & Expressions, Modern Workplace Slang, Digital Communication Slang, Youth Culture & Expressions, Regional Modern Expressions
-day31_phrases = {
+# Day 24: Practical Daily Life - Transportation and Logistics
+day24_phrases = {
     "Contemporary Slang in Argentina": [
         {"en": "Cool/Awesome", "es": "Zarpado/Re copado", "pt": "Maneiro/Muito legal",
          "fr": "Cool/Impressionnant", "de": "Cool/Spitze"},
@@ -580,11 +580,17 @@ day31_phrases = {
 
 # Dictionary mapping day numbers to phrase dictionaries
 all_phrases = {
-    27: day27_phrases,
-    28: day28_phrases,
-    29: day29_phrases,
-    30: day30_phrases,
-    31: day31_phrases
+    16: day16_phrases,  # Finding Housing and Accommodation
+    # 17: day17_phrases,  # Job Hunting in South America
+    18: day18_phrases,  # Banking and Finance
+    # 19: day19_phrases,  # Healthcare Systems
+    20: day20_phrases,  # Regional Cultural Nuances
+    # 21: day21_phrases,  # Workplace Language and Etiquette
+    22: day22_phrases,  # Renting and Housing Vocabulary
+    # 23: day23_phrases,  # Banking and Bureaucracy
+    24: day24_phrases,  # Transportation and Logistics
+    # 25: day25_phrases,  # Social Integration - Making Friends and Building Community
+    # 26: day26_phrases,  # Social Integration - Dating, Safety, and Traditions
 }
 
 def generate_text_file(day, language_code, language_name):
@@ -623,9 +629,9 @@ def generate_audio(day, language_code, language_name):
     print(f"✓ Saved to audio_files/day{day}_{language_code}.mp3 ({elapsed:.2f}s)")
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate enhanced language learning files (Days 27-31)")
-    parser.add_argument("--day", "-d", type=int, choices=list(range(27, 32)), default=None,
-                        help="Day number to generate (27-31). If not specified, generates all days.")
+    parser = argparse.ArgumentParser(description="Generate language learning files for Living & Working in South America (Days 16-26)")
+    parser.add_argument("--day", "-d", type=int, choices=list(range(16, 27)), default=None,
+                        help="Day number to generate (16-26). If not specified, generates all available days.")
     parser.add_argument("--languages", "-l", nargs="+", choices=["es", "pt", "en", "fr", "de"], 
                         default=["es", "pt"], help="Languages to generate (es=Spanish, pt=Portuguese, en=English, fr=French, de=German)")
     parser.add_argument("--text-only", "-t", action="store_true", 
@@ -637,7 +643,7 @@ def main():
     # Check if we have content for the requested days
     available_days = list(all_phrases.keys())
     if not available_days:
-        print("No content available yet. Please add content for days 27-31.")
+        print("No content available yet. Please add content for days 16-26.")
         return
     
     # Determine which days to process
@@ -663,12 +669,12 @@ def main():
                 generate_audio(day, lang, language_names[lang])
     
     print("\nAll files generated successfully!")
-    print("\nUsage examples:")
-    print("  - Generate text files only: python language_phrases_advanced_enhanced.py --text-only")
-    print("  - Generate files for just Day 27: python language_phrases_advanced_enhanced.py --day 27")
-    print("  - Generate files for just Spanish: python language_phrases_advanced_enhanced.py --languages es")
-    print("  - Generate Day 30 Portuguese text only: python language_phrases_advanced_enhanced.py --day 30 --languages pt --text-only")
-    print("  - Generate all available days: python language_phrases_advanced_enhanced.py")
+    print("\nUsage examples for PolyglotPathways:")
+    print("  - Generate text files only: python language_phrases_advanced_extended.py --text-only")
+    print("  - Generate files for just Day 16: python language_phrases_advanced_extended.py --day 16")
+    print("  - Generate files for just Spanish: python language_phrases_advanced_extended.py --languages es")
+    print("  - Generate Day 22 Portuguese text only: python language_phrases_advanced_extended.py --day 22 --languages pt --text-only")
+    print("  - Generate all available days: python language_phrases_advanced_extended.py")
 
 if __name__ == "__main__":
     main()

@@ -1,7 +1,7 @@
 # South American Language Learning Project
 
 ## Overview
-This project provides comprehensive language learning resources for English speakers learning Spanish, Portuguese, French, and German, with a focus on living and working in South America. It includes audio files and text transcripts for 31 days of language learning content, covering basic to advanced topics.
+This project provides comprehensive language learning resources for English speakers learning Spanish, Portuguese, French, and German, with a focus on living and working in South America. It includes audio files and text transcripts for 50 days of language learning content, covering basic to advanced topics.
 
 ## Project Structure
 - **audio_files/**: Contains all MP3 audio files for each day and language
@@ -77,6 +77,70 @@ Additional specialized content for software engineers and tech professionals wor
 - Modern workplace expressions
 - Digital communication slang
 
+### Advanced Academic & Professional Communication (Days 32-35)
+Advanced language skills for academic and professional settings:
+- Academic writing and presentations
+- Professional negotiations and conflict resolution
+- Complex business proposals and reports
+- Scientific and research terminology
+
+### Literary & Cultural Mastery (Days 36-40)
+Deep dive into cultural and literary aspects:
+- Literary analysis and criticism
+- Poetry and figurative language
+- Historical and cultural references
+- Film and media analysis
+- Art and architecture vocabulary
+
+### Advanced Social Interaction (Days 41-44)
+Sophisticated social communication:
+- Subtle humor and wordplay
+- Irony, sarcasm, and cultural jokes
+- Complex social etiquette
+- Diplomatic language and political discourse
+
+### Regional Variations & Dialects (Days 45-47)
+Advanced understanding of language variations:
+- Country-specific expressions beyond basics
+- Regional accents and pronunciation differences
+- Historical evolution of language in different regions
+- Indigenous language influences
+
+### Abstract & Philosophical Discourse (Days 48-50)
+High-level conceptual communication:
+- Philosophical concepts and terminology
+- Ethical debates and moral reasoning
+- Theoretical frameworks and abstract thinking
+- Expressing complex opinions and hypothetical scenarios
+
+### Implementation Features for C2 Level (Days 32-50)
+
+#### Language Depth
+Each phrase includes:
+- Usage notes
+- Register information (formal/informal/colloquial)
+- Cultural context
+- Synonyms with subtle differences
+
+#### Grammar Complexity
+Advanced grammatical structures:
+- Complex subjunctive uses
+- Literary tenses
+- Advanced conditional expressions
+- Complex sentence structures
+
+#### Pronunciation Focus
+Specific pronunciation challenges:
+- Regional accent variations
+- Subtle phonetic distinctions
+- Rhythm and intonation patterns
+
+#### Cultural Integration
+Deeper cultural context:
+- Historical references
+- Cultural attitudes and values
+- Media and literary references
+
 ## Languages
 All content is available in five languages:
 - English (en)
@@ -91,22 +155,24 @@ The Python scripts can generate audio files and text transcripts for specific da
 ### Generate Audio and Text Files
 ```bash
 # Generate all files for all days in all supported languages (default: Spanish and Portuguese)
-python scripts/language_phrases.py                     # Days 1–7
-python scripts/language_phrases_advanced.py            # Days 8–15
-python scripts/language_phrases_advanced_extended.py   # Days 16–26
-python scripts/language_phrases_advanced_enhanced.py   # Days 27–31 (Tech Professional content)
+python scripts/language_phrases_days_01_07.py          # Days 1–7
+python scripts/language_phrases_days_08_15.py          # Days 8–15
+python scripts/language_phrases_days_16_26.py          # Days 16–26
+python scripts/language_phrases_days_27_31.py          # Days 27–31
+python scripts/language_phrases_days_32_44.py          # Days 32-44
+python scripts/language_phrases_days_45_50.py          # Days 45-50
 
 # Generate files for a specific day
-python scripts/language_phrases_advanced_extended.py --day 20
-python scripts/language_phrases_advanced_enhanced.py --day 27
+python scripts/language_phrases_days_32_44.py --day 32
+python scripts/language_phrases_days_45_50.py --day 48
 
 # Generate files for a specific language
-python scripts/language_phrases_advanced_extended.py --languages fr
-python scripts/language_phrases_advanced_enhanced.py --languages de
+python scripts/language_phrases_days_32_44.py --languages fr
+python scripts/language_phrases_days_45_50.py --languages de
 
 # Generate text files only (no audio)
-python scripts/language_phrases_advanced_extended.py --text-only
-python scripts/language_phrases_advanced_enhanced.py --text-only
+python scripts/language_phrases_days_32_44.py --text-only
+python scripts/language_phrases_days_45_50.py --text-only
 ```
 
 ### Learning Approach
