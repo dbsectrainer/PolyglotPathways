@@ -442,11 +442,11 @@
 
             // Load audio from audio_files directory
             const audio = document.getElementById('audio-player');
-            audio.src = `../audio_files/day${day}_${lang}.mp3`;
+            audio.src = `audio_files/day${day}_${lang}.mp3`;
 
             // Load text content from text_files directory
-            console.log(`Attempting to load: ../text_files/day${day}_${lang}.txt`);
-            fetch(`../text_files/day${day}_${lang}.txt`)
+            console.log(`Attempting to load: text_files/day${day}_${lang}.txt`);
+            fetch(`text_files/day${day}_${lang}.txt`)
                 .then(response => {
                     console.log('Response status:', response.status);
                     if (!response.ok) {
