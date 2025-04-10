@@ -217,6 +217,65 @@
             100% { opacity: 0; transform: translateY(-20px); }
         }
 
+        @media (max-width: 768px) {
+            .language-selector {
+                gap: 5px;
+            }
+            
+            .language-btn {
+                padding: 6px 10px;
+                font-size: 0.9em;
+            }
+
+            .lesson-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+
+            .language-selector {
+                width: 100%;
+                justify-content: flex-start;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .language-selector {
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                gap: 8px;
+            }
+            
+            .language-btn {
+                padding: 5px 8px;
+                font-size: 0.8em;
+            }
+
+            .navigation {
+                flex-direction: column;
+                gap: 10px;
+                align-items: stretch;
+            }
+
+            .nav-btn, .home-btn {
+                width: 100%;
+                justify-content: center;
+                padding: 12px;
+                font-size: 0.9em;
+            }
+        }
+
+        @media (max-width: 768px) and (min-width: 481px) {
+            .navigation {
+                gap: 10px;
+            }
+
+            .nav-btn, .home-btn {
+                padding: 8px 15px;
+                font-size: 0.95em;
+            }
+        }
+
         .lesson-actions {
             display: flex;
             justify-content: center;
