@@ -1,0 +1,13 @@
+include:
+  - "*.mp3"
+  - "audio_files/*"
+
+defaults:
+  - scope:
+      path: "audio_files"
+    values:
+      audio: true
+
+# Ensure proper MIME types
+mime_types:
+  mp3: audio/mpeg
