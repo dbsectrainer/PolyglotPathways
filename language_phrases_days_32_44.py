@@ -973,3 +973,72 @@ def generate_text_file(day, language_code, language_name):
     print(f"✓ Saved to text_files/day{day}_{language_code}.txt")
 
 def generate_audio(day, language_code, language_name):
+    """Generate audio file for a specific day and language"""
+    print(f"\nGenerating Day {day} {language_name} audio file...")
+    start_time = time.time()
+    
+    phrases_dict = all_phrases[day]
+    
+    # Generate text for the entire language
+    text = ""
+    for category, phrase_list in phrases_dict.items():
+        for phrase in phrase_list:
+            text += phrase[language_code] + ". "
+    
+    # Generate audio
+    tts = gTTS(text=text, lang=language_code)
+    tts.save(f"audio_files/day{day}_{language_code}.mp3")
+    
+    elapsed = time.time() - start_time
+    print(f"✓ Saved to audio_files/day{day}_{language_code}.mp3 ({elapsed:.2f}s)")
+
+def main():
+    parser = argparse.ArgumentParser(description="Generate language learning files for Academic & Professional Communication (Days 32-44)")
+    parser.add_argument("--day", "-d", type=int, choices=list(range(32, 45)), default=None,
+                        help="Day number to generate (32-44). If not specified, generates all available days.")
+    parser.add_argument("--languages", "-l", nargs="+", choices=["es", "pt", "en", "fr", "de"],
+                        default=["es", "pt", "fr", "de"], help="Languages to generate (es=Spanish, pt=Portuguese, en=English, fr=French, de=German)")
+    parser.add_argument("--text-only", "-t", action="store_true",
+                        help="Generate only text files (no audio)")
+    args = parser.parse_args()
+    
+    language_names = {"es": "Spanish", "pt": "Portuguese", "en": "English", "fr": "French", "de": "German"}
+    
+    # Check if we have content for the requested days
+    available_days = list(all_phrases.keys())
+    if not available_days:
+        print("No content available yet. Please add content for days 32-44.")
+        return
+    
+    # Determine which days to process
+    if args.day:
+        if args.day not in all_phrases:
+            print(f"Content for day {args.day} is not available yet.")
+            return
+        days_to_process = [args.day]
+    else:
+        days_to_process = available_days
+    
+    # Process each day
+    for day in days_to_process:
+        print(f"\n=== Processing Day {day} ===")
+        
+        # Generate text files for all selected languages
+        for lang in args.languages:
+            generate_text_file(day, lang, language_names[lang])
+        
+        # Generate audio files if not text-only mode
+        if not args.text_only:
+            for lang in args.languages:
+                generate_audio(day, lang, language_names[lang])
+    
+    print("\nAll files generated successfully!")
+    print("\nUsage examples for PolyglotPathways:")
+    print("  - Generate text files only: python language_phrases_days_32_44.py --text-only")
+    print("  - Generate files for just Day 32: python language_phrases_days_32_44.py --day 32")
+    print("  - Generate files for just Spanish: python language_phrases_days_32_44.py --languages es")
+    print("  - Generate Day 40 Portuguese text only: python language_phrases_days_32_44.py --day 40 --languages pt --text-only")
+    print("  - Generate all available days: python language_phrases_days_32_44.py")
+
+if __name__ == "__main__":
+    main()
