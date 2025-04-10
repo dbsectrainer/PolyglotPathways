@@ -1,0 +1,65 @@
+
+Banking Services
+----------------
+Ich möchte ein Bankkonto eröffnen
+Welche Dokumente benötige ich?
+Ich muss eine Einzahlung machen
+Ich möchte Bargeld abheben
+Wie ist der Wechselkurs?
+Ich muss Geld ins Ausland überweisen
+Gibt es Gebühren für diese Transaktion?
+Ich möchte eine Direkteinzahlung einrichten
+Kann ich online auf mein Konto zugreifen?
+Ich muss eine verlorene Karte melden
+
+Financial Terminology
+---------------------
+Wie hoch ist der Zinssatz?
+Ich muss meinen Kontostand überprüfen
+Was ist die Mindesteinlage?
+Ich möchte einen Kredit beantragen
+Was ist die monatliche Gebühr?
+Ich muss meine Kontoinformationen aktualisieren
+Was ist das Überziehungslimit?
+Ich möchte automatische Zahlungen einrichten
+Welche Anlagemöglichkeiten bieten Sie an?
+Ich muss mein Konto schließen
+
+Government Offices
+------------------
+Wo ist das Einwanderungsbüro?
+Ich muss mein Visum verlängern
+Wo kann ich eine Steueridentifikationsnummer bekommen?
+Ich muss meine Adresse anmelden
+Wo ist der nächste Notar?
+Ich muss eine Arbeitserlaubnis beantragen
+Wie ist der Prozess für die Aufenthaltserlaubnis?
+Ich muss meine Steuern einreichen
+Wo ist das Sozialversicherungsamt?
+Ich muss meine Dokumente beglaubigen lassen
+
+Bureaucratic Procedures
+-----------------------
+Welche Formulare muss ich ausfüllen?
+Muss ich einen Termin vereinbaren?
+Wie lange dauert die Bearbeitung?
+Muss ich Originaldokumente mitbringen?
+Gibt es eine Online-Bewerbung?
+Wie ist der Status meines Antrags?
+Muss ich eine Gebühr bezahlen?
+Wo kann ich beglaubigte Kopien bekommen?
+Ich muss diese Dokumente bis zur Frist einreichen
+Gibt es ein Berufungsverfahren?
+
+Legal and Administrative Terms
+------------------------------
+Was bedeutet diese Klausel?
+Ich brauche rechtlichen Rat
+Was sind meine Rechte in dieser Situation?
+Ich muss einen Vertrag unterschreiben
+Was sind die Geschäftsbedingungen?
+Ich muss eine Beschwerde einreichen
+Was ist das rechtliche Verfahren dafür?
+Ich muss eine Vollmacht bekommen
+Was sind die Strafen für Nichteinhaltung?
+Ich muss meine steuerlichen Verpflichtungen verstehen
