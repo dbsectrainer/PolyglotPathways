@@ -1914,11 +1914,11 @@ def main():
     
     print("\nAll files generated successfully!")
     print("\nUsage examples:")
-    print("  - Generate text files only: python language_phrases_advanced_enhanced.py --text-only")
-    print("  - Generate files for just Day 27: python language_phrases_advanced_enhanced.py --day 27")
-    print("  - Generate files for just Spanish: python language_phrases_advanced_enhanced.py --languages es")
-    print("  - Generate Day 30 Portuguese text only: python language_phrases_advanced_enhanced.py --day 30 --languages pt --text-only")
-    print("  - Generate all available days: python language_phrases_advanced_enhanced.py")
+    print("  - Generate text files only: python language_phrases_days_27_31.py --text-only")
+    print("  - Generate files for just Day 27: python language_phrases_days_27_31.py --day 27")
+    print("  - Generate files for just Spanish: python language_phrases_days_27_31.py --languages es")
+    print("  - Generate Day 30 Portuguese text only: python language_phrases_days_27_31.py --day 30 --languages pt --text-only")
+    print("  - Generate all available days: python language_phrases_days_27_31.py")
 
 if __name__ == "__main__":
     main()

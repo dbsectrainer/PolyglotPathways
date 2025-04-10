@@ -1,0 +1,65 @@
+
+Banking Services
+----------------
+Me gustaría abrir una cuenta bancaria
+¿Qué documentos necesito?
+Necesito hacer un depósito
+Me gustaría retirar efectivo
+¿Cuál es la tasa de cambio?
+Necesito transferir dinero al extranjero
+¿Hay alguna comisión por esta transacción?
+Me gustaría configurar un depósito directo
+¿Puedo acceder a mi cuenta en línea?
+Necesito reportar una tarjeta perdida
+
+Financial Terminology
+---------------------
+¿Cuál es la tasa de interés?
+Necesito verificar mi saldo
+¿Cuál es el depósito mínimo?
+Me gustaría solicitar un préstamo
+¿Cuál es la tarifa mensual?
+Necesito actualizar la información de mi cuenta
+¿Cuál es el límite de sobregiro?
+Me gustaría configurar pagos automáticos
+¿Qué opciones de inversión ofrecen?
+Necesito cerrar mi cuenta
+
+Government Offices
+------------------
+¿Dónde está la oficina de inmigración?
+Necesito renovar mi visa
+¿Dónde puedo obtener un número de identificación fiscal?
+Necesito registrar mi dirección
+¿Dónde está el notario más cercano?
+Necesito solicitar un permiso de trabajo
+¿Cuál es el proceso para la residencia?
+Necesito presentar mis impuestos
+¿Dónde está la oficina de seguridad social?
+Necesito autenticar mis documentos
+
+Bureaucratic Procedures
+-----------------------
+¿Qué formularios necesito completar?
+¿Necesito hacer una cita?
+¿Cuál es el tiempo de procesamiento?
+¿Necesito traer documentos originales?
+¿Hay una solicitud en línea?
+¿Cuál es el estado de mi solicitud?
+¿Necesito pagar una tarifa?
+¿Dónde puedo obtener copias certificadas?
+Necesito presentar estos documentos antes de la fecha límite
+¿Hay un proceso de apelación?
+
+Legal and Administrative Terms
+------------------------------
+¿Qué significa esta cláusula?
+Necesito asesoramiento legal
+¿Cuáles son mis derechos en esta situación?
+Necesito firmar un contrato
+¿Cuáles son los términos y condiciones?
+Necesito presentar una queja
+¿Cuál es el procedimiento legal para esto?
+Necesito obtener un poder notarial
+¿Cuáles son las sanciones por incumplimiento?
+Necesito entender mis obligaciones fiscales

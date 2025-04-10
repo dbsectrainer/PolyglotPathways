@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polyglot Pathways - Daily Lesson</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .lesson-container {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+
+        .lesson-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .lesson-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .lesson-title .flag {
+            font-size: 1.5em;
+        }
+
+        .language-selector {
+            display: flex;
+            gap: 10px;
+        }
+
+        .language-btn {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 8px;
+            background: var(--secondary-color);
+            color: var(--text-color);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .language-btn:hover,
+        .language-btn.active {
+            background: var(--accent-color);
+            color: white;
+        }
+
+        .audio-player {
+            width: 100%;
+            margin: 20px 0;
+            padding: 15px;
+            background: var(--secondary-color);
+            border-radius: 10px;
+        }
+
+        .audio-player audio {
+            width: 100%;
+        }
+
+        .text-content {
+            margin: 20px 0;
+            line-height: 1.8;
+            font-size: 1.1em;
+        }
+
+        .phrase-section {
+            margin-bottom: 30px;
+            background: var(--secondary-color);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .phrase-section h3 {
+            color: var(--accent-color);
+            margin: 0 0 15px 0;
+            font-size: 1.3em;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 5px;
+        }
+
+        .phrase-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .phrase-item {
+            background: white;
+            padding: 12px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .phrase-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .copy-btn {
+            background: none;
+            border: none;
+            color: var(--accent-color);
+            cursor: pointer;
+            padding: 5px;
+            opacity: 0.7;
+            transition: all 0.3s ease;
+        }
+
+        .copy-btn:hover {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .navigation:last-child {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid var(--secondary-color);
+        }
+
+        .nav-btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            background: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background: var(--hover-color);
+            transform: translateY(-2px);
+        }
+
+        .nav-btn.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .home-btn {
+            padding: 10px 20px;
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .home-btn:hover {
+            background: #34495e;
+            transform: translateY(-2px);
+        }
+
+        .section-info {
+            background: var(--secondary-color);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .section-info h3 {
+            color: var(--accent-color);
+            margin: 0 0 10px 0;
+        }
+
+        .section-info p {
+            margin: 0;
+            color: #666;
+        }
+
+        .copy-notification {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--success-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            display: none;
+            animation: fadeInOut 2s ease;
+        }
+
+        @keyframes fadeInOut {
+            0% { opacity: 0; transform: translateY(20px); }
+            20% { opacity: 1; transform: translateY(0); }
+            80% { opacity: 1; transform: translateY(0); }
+            100% { opacity: 0; transform: translateY(-20px); }
+        }
+
+        .lesson-actions {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+        }
+
+        .complete-btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            background: var(--success-color);
+            color: white;
+            font-size: 1.1em;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .complete-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .complete-btn.completed {
+            background: var(--accent-color);
+            cursor: default;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Polyglot Pathways</h1>
+        <p>Your Journey to Multilingual Mastery</p>
+    </header>
+
+    <main>
+        <div class="lesson-container">
+            <div class="lesson-header">
+                <div class="lesson-title">
+                    <span class="flag" id="language-flag"></span>
+                    <h2>Day <span id="day-number"></span></h2>
+                </div>
+                <div class="language-selector">
+                    <button class="language-btn" data-lang="en"><span class="flag">🇬🇧</span> English</button>
+                    <button class="language-btn" data-lang="es"><span class="flag">🇪🇸</span> Spanish</button>
+                    <button class="language-btn" data-lang="pt"><span class="flag">🇧🇷</span> Portuguese</button>
+                    <button class="language-btn" data-lang="fr"><span class="flag">🇫🇷</span> French</button>
+                    <button class="language-btn" data-lang="de"><span class="flag">🇩🇪</span> German</button>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <a href="#" class="nav-btn" id="prev-btn-top">
+                    <i class="fas fa-arrow-left"></i> Previous Day
+                </a>
+                <a href="index.html" class="home-btn">
+                    <i class="fas fa-home"></i> Back to Home
+                </a>
+                <a href="#" class="nav-btn" id="next-btn-top">
+                    Next Day <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="section-info">
+                <h3 id="section-title"></h3>
+                <p id="section-description"></p>
+            </div>
+
+            <div class="audio-player">
+                <audio controls id="audio-player">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="text-content" id="text-content">
+                <!-- Text content will be dynamically added here -->
+            </div>
+
+            <div class="lesson-actions">
+                <button id="complete-btn" class="complete-btn">
+                    <i class="fas fa-check"></i> Mark as Complete
+                </button>
+            </div>
+
+            <div class="navigation">
+                <a href="#" class="nav-btn" id="prev-btn">
+                    <i class="fas fa-arrow-left"></i> Previous Day
+                </a>
+                <a href="index.html" class="home-btn">
+                    <i class="fas fa-home"></i> Back to Home
+                </a>
+                <a href="#" class="nav-btn" id="next-btn">
+                    Next Day <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Polyglot Pathways | Empowering Language Learning</p>
+    </footer>
+
+    <div class="copy-notification" id="copy-notification">
+        Phrase copied to clipboard!
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const day = parseInt(urlParams.get('day')) || 1;
+            const lang = urlParams.get('lang') || 'es';
+            
+            // Update day number
+            document.getElementById('day-number').textContent = day;
+
+            // Check if day is completed
+            const completedDays = JSON.parse(localStorage.getItem('completedDays') || '{}');
+            const completeBtn = document.getElementById('complete-btn');
+            
+            if (completedDays[`${day}_${lang}`]) {
+                completeBtn.classList.add('completed');
+                completeBtn.innerHTML = '<i class="fas fa-check-circle"></i> Completed';
+                completeBtn.disabled = true;
+            }
+
+            completeBtn.addEventListener('click', () => {
+                // Mark day as complete
+                completedDays[`${day}_${lang}`] = true;
+                localStorage.setItem('completedDays', JSON.stringify(completedDays));
+                
+                // Update button state
+                completeBtn.classList.add('completed');
+                completeBtn.innerHTML = '<i class="fas fa-check-circle"></i> Completed';
+                completeBtn.disabled = true;
+
+                // Calculate total completed days
+                const totalCompleted = Object.keys(completedDays).filter(key => key.endsWith(`_${lang}`)).length;
+
+                // Update progress in localStorage
+                localStorage.setItem('currentProgress', JSON.stringify({
+                    lang: lang,
+                    completed: totalCompleted
+                }));
+
+                // Update progress on the page
+                updatePageProgress(lang, totalCompleted);
+
+                // Show completion notification
+                const notification = document.getElementById('copy-notification');
+                notification.textContent = 'Day marked as complete!';
+                notification.style.display = 'block';
+                notification.style.animation = 'none';
+                notification.offsetHeight; // Trigger reflow
+                notification.style.animation = 'fadeInOut 2s ease';
+                setTimeout(() => {
+                    notification.style.display = 'none';
+                    notification.textContent = 'Phrase copied to clipboard!';
+                }, 2000);
+            });
+
+            // Function to update progress UI
+            function updatePageProgress(lang, completed) {
+                // Update day status icons
+                const dayGrid = document.querySelector('.day-grid');
+                if (dayGrid) {
+                    const dayLinks = dayGrid.querySelectorAll('a');
+                    dayLinks.forEach((link, index) => {
+                        const day = index + 1;
+                        const status = link.querySelector('.day-status i');
+                        if (completedDays[`${day}_${lang}`]) {
+                            status.className = 'fas fa-check-circle';
+                            status.style.color = 'var(--success-color)';
+                        } else {
+                            status.className = 'fas fa-circle';
+                            status.style.color = 'var(--warning-color)';
+                        }
+                    });
+                }
+
+                // Update progress bar and text if on index page
+                const progressContainer = document.querySelector('.progress-container');
+                if (progressContainer) {
+                    const progressText = progressContainer.querySelector('p');
+                    const progressBar = progressContainer.querySelector('.progress-fill');
+                    if (progressText && progressBar) {
+                        progressText.textContent = `Progress: Day ${completed}/50`;
+                        progressBar.style.width = `${(completed / 50) * 100}%`;
+                    }
+                }
+            }
+
+            // Initialize progress on page load
+            const initialCompleted = Object.keys(completedDays).filter(key => key.endsWith(`_${lang}`)).length;
+            updatePageProgress(lang, initialCompleted);
+            
+            // Set active language
+            const languageBtns = document.querySelectorAll('.language-btn');
+            languageBtns.forEach(btn => {
+                if (btn.dataset.lang === lang) {
+                    btn.classList.add('active');
+                }
+                btn.addEventListener('click', () => {
+                    window.location.href = `day.html?day=${day}&lang=${btn.dataset.lang}`;
+                });
+            });
+
+            // Set language flag
+            const flagMap = {
+                'en': '🇬🇧',
+                'es': '🇪🇸',
+                'pt': '🇧🇷',
+                'fr': '🇫🇷',
+                'de': '🇩🇪'
+            };
+            document.getElementById('language-flag').textContent = flagMap[lang];
+
+            // Update section info
+            const sectionInfo = getSectionInfo(day);
+            document.getElementById('section-title').textContent = sectionInfo.title;
+            document.getElementById('section-description').textContent = sectionInfo.description;
+
+            // Load audio from audio_files directory
+            const audio = document.getElementById('audio-player');
+            audio.src = `../audio_files/day${day}_${lang}.mp3`;
+
+            // Load text content from text_files directory
+            console.log(`Attempting to load: ../text_files/day${day}_${lang}.txt`);
+            fetch(`../text_files/day${day}_${lang}.txt`)
+                .then(response => {
+                    console.log('Response status:', response.status);
+                    if (!response.ok) {
+                        throw new Error(`Network response was not ok: ${response.status}`);
+                    }
+                    return response.text();
+                })
+                .then(text => {
+                    console.log('Text loaded successfully, length:', text.length);
+                    console.log('First 100 characters:', text.substring(0, 100));
+                    formatAndDisplayContent(text);
+                })
+                .catch(error => {
+                    console.error('Error loading text:', error);
+                    document.getElementById('text-content').innerHTML = '<p class="error">Text content not available.</p>';
+                });
+
+            // Update navigation
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const prevBtnTop = document.getElementById('prev-btn-top');
+            const nextBtnTop = document.getElementById('next-btn-top');
+
+            if (day > 1) {
+                prevBtn.href = `day.html?day=${day - 1}&lang=${lang}`;
+                prevBtnTop.href = `day.html?day=${day - 1}&lang=${lang}`;
+            } else {
+                prevBtn.classList.add('disabled');
+                prevBtnTop.classList.add('disabled');
+                prevBtn.href = '#';
+                prevBtnTop.href = '#';
+            }
+
+            if (day < 50) {
+                nextBtn.href = `day.html?day=${day + 1}&lang=${lang}`;
+                nextBtnTop.href = `day.html?day=${day + 1}&lang=${lang}`;
+            } else {
+                nextBtn.classList.add('disabled');
+                nextBtnTop.classList.add('disabled');
+                nextBtn.href = '#';
+                nextBtnTop.href = '#';
+            }
+        });
+
+        function formatAndDisplayContent(text) {
+            console.log('Starting to format content');
+            // First, normalize line endings and remove any extra whitespace
+            text = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+            
+            // Split into sections based on titles (lines ending with multiple dashes)
+            const sections = text.split(/\n(?=\w[^\n]+\n-+\n)/);
+            console.log('Number of sections:', sections.length);
+            
+            const contentDiv = document.getElementById('text-content');
+            contentDiv.innerHTML = '';
+
+            sections.forEach((section, index) => {
+                console.log(`Processing section ${index + 1}`);
+                if (section.trim()) {
+                    const lines = section.split('\n');
+                    
+                    // Get the title (first line) and remove any trailing dashes
+                    let title = lines[0].replace(/\s*[-]+\s*$/, '').trim();
+                    
+                    // Skip empty sections or sections that are just separators
+                    if (!title || /^[-\s]+$/.test(title)) {
+                        return;
+                    }
+                    
+                    // Get phrases, skipping empty lines, separator lines, and the line of dashes after the title
+                    let phrases = lines.slice(1).filter(line => {
+                        const trimmed = line.trim();
+                        return trimmed && !/^[-\s]+$/.test(trimmed);
+                    });
+                    
+                    const sectionDiv = document.createElement('div');
+                    sectionDiv.className = 'phrase-section';
+                    
+                    const titleEl = document.createElement('h3');
+                    titleEl.textContent = title;
+                    sectionDiv.appendChild(titleEl);
+                    
+                    const phraseList = document.createElement('div');
+                    phraseList.className = 'phrase-list';
+                    
+                    phrases.forEach(phrase => {
+                        if (phrase.trim()) {
+                            const phraseItem = document.createElement('div');
+                            phraseItem.className = 'phrase-item';
+                            
+                            const phraseText = document.createElement('span');
+                            phraseText.textContent = phrase.trim();
+                            
+                            const copyBtn = document.createElement('button');
+                            copyBtn.className = 'copy-btn';
+                            copyBtn.innerHTML = '<i class="fas fa-copy"></i>';
+                            copyBtn.addEventListener('click', () => copyPhrase(phrase.trim()));
+                            
+                            phraseItem.appendChild(phraseText);
+                            phraseItem.appendChild(copyBtn);
+                            phraseList.appendChild(phraseItem);
+                        }
+                    });
+                    
+                    sectionDiv.appendChild(phraseList);
+                    contentDiv.appendChild(sectionDiv);
+                }
+            });
+        }
+
+        function copyPhrase(phrase) {
+            navigator.clipboard.writeText(phrase).then(() => {
+                const notification = document.getElementById('copy-notification');
+                notification.style.display = 'block';
+                notification.style.animation = 'none';
+                notification.offsetHeight; // Trigger reflow
+                notification.style.animation = 'fadeInOut 2s ease';
+                setTimeout(() => {
+                    notification.style.display = 'none';
+                }, 2000);
+            });
+        }
+
+        function getSectionInfo(day) {
+            if (day <= 7) {
+                return {
+                    title: 'Basic Vocabulary & Essential Phrases',
+                    description: 'Learn fundamental vocabulary and essential phrases for beginners.'
+                };
+            } else if (day <= 15) {
+                return {
+                    title: 'Advanced Phrases',
+                    description: 'More complex conversations and vocabulary for intermediate learners.'
+                };
+            } else if (day <= 26) {
+                return {
+                    title: 'International Living & Working',
+                    description: 'Practical phrases for global living and professional environments.'
+                };
+            } else if (day <= 31) {
+                return {
+                    title: 'Tech Professional Content',
+                    description: 'Specialized content for software engineers and tech professionals.'
+                };
+            } else {
+                return {
+                    title: 'Advanced Academic & Professional',
+                    description: 'Advanced language skills for academic and professional settings.'
+                };
+            }
+        }
+    </script>
+</body>
+</html>

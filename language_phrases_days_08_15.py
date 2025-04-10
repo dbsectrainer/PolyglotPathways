@@ -4,7 +4,7 @@ import time
 from gtts import gTTS
 
 # This file contains days 8-15 of language phrases
-# It follows the same structure as language_phrases.py but for advanced content
+# It follows the same structure as language_phrases_days_01_07.py but for advanced content
 
 # Day 8: Philosophical & Deep Conversations, Expressing Abstract Ideas, Giving a Speech or Presentation, Storytelling Techniques, Analyzing Art & Literature, Debating & Persuasion, Describing Complex Situations
 day8_phrases = {
@@ -1293,11 +1293,11 @@ def main():
     
     print("\nAll files generated successfully!")
     print("\nUsage examples:")
-    print("  - Generate text files only: python language_phrases_advanced.py --text-only")
-    print("  - Generate files for just Day 8: python language_phrases_advanced.py --day 8")
-    print("  - Generate files for just Spanish: python language_phrases_advanced.py --languages es")
-    print("  - Generate Day 10 Portuguese text only: python language_phrases_advanced.py --day 10 --languages pt --text-only")
-    print("  - Generate all available days: python language_phrases_advanced.py")
+    print("  - Generate text files only: python language_phrases_days_08_15.py --text-only")
+    print("  - Generate files for just Day 8: python language_phrases_days_08_15.py --day 8")
+    print("  - Generate files for just Spanish: python language_phrases_days_08_15.py --languages es")
+    print("  - Generate Day 10 Portuguese text only: python language_phrases_days_08_15.py --day 10 --languages pt --text-only")
+    print("  - Generate all available days: python language_phrases_days_08_15.py")
 
 if __name__ == "__main__":
     main()

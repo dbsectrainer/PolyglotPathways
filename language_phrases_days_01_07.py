@@ -701,13 +701,13 @@ def main():
     
     print("\nAll files generated successfully!")
     print("\nUsage examples:")
-    print("  - Generate text files only: python language_phrases.py --text-only")
-    print("  - Generate files for just Day 1: python language_phrases.py --day 1")
-    print("  - Generate files for just Spanish: python language_phrases.py --languages es")
-    print("  - Generate Day 2 Portuguese text only: python language_phrases.py --day 2 --languages pt --text-only")
-    print("  - Generate Day 3 English audio: python language_phrases.py --day 3 --languages en")
-    print("  - Generate Day 6 Spanish and Portuguese: python language_phrases.py --day 6")
-    print("  - Generate Day 7 all languages: python language_phrases.py --day 7 --languages es pt en fr de")
+    print("  - Generate text files only: python language_phrases_days_01_07.py --text-only")
+    print("  - Generate files for just Day 1: python language_phrases_days_01_07.py --day 1")
+    print("  - Generate files for just Spanish: python language_phrases_days_01_07.py --languages es")
+    print("  - Generate Day 2 Portuguese text only: python language_phrases_days_01_07.py --day 2 --languages pt --text-only")
+    print("  - Generate Day 3 English audio: python language_phrases_days_01_07.py --day 3 --languages en")
+    print("  - Generate Day 6 Spanish and Portuguese: python language_phrases_days_01_07.py --day 6")
+    print("  - Generate Day 7 all languages: python language_phrases_days_01_07.py --day 7 --languages es pt en fr de")
 
 if __name__ == "__main__":
     main()

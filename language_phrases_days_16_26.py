@@ -1354,11 +1354,11 @@ def main():
     
     print("\nAll files generated successfully!")
     print("\nUsage examples for PolyglotPathways:")
-    print("  - Generate text files only: python language_phrases_advanced_extended.py --text-only")
-    print("  - Generate files for just Day 16: python language_phrases_advanced_extended.py --day 16")
-    print("  - Generate files for just Spanish: python language_phrases_advanced_extended.py --languages es")
-    print("  - Generate Day 22 Portuguese text only: python language_phrases_advanced_extended.py --day 22 --languages pt --text-only")
-    print("  - Generate all available days: python language_phrases_advanced_extended.py")
+    print("  - Generate text files only: python language_phrases_days_16_26.py --text-only")
+    print("  - Generate files for just Day 16: python language_phrases_days_16_26.py --day 16")
+    print("  - Generate files for just Spanish: python language_phrases_days_16_26.py --languages es")
+    print("  - Generate Day 22 Portuguese text only: python language_phrases_days_16_26.py --day 22 --languages pt --text-only")
+    print("  - Generate all available days: python language_phrases_days_16_26.py")
 
 if __name__ == "__main__":
     main()

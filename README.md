@@ -1,187 +1,118 @@
-# South American Language Learning Project
+# Polyglot Pathways
 
 ## Overview
-This project provides comprehensive language learning resources for English speakers learning Spanish, Portuguese, French, and German, with a focus on living and working in South America. It includes audio files and text transcripts for 50 days of language learning content, covering basic to advanced topics.
+A comprehensive multilingual learning platform that helps users master English, Spanish, Portuguese, French, and German through a structured 50-day program. The project combines interactive web interfaces with rich audio-visual content, focusing on global professional and cultural integration.
 
 ## Project Structure
-- **audio_files/**: Contains all MP3 audio files for each day and language
-- **text_files/**: Contains text transcripts of all phrases
-- **scripts/**: Contains Python scripts used to generate the audio and text files
+- **website/**: Web interface for interactive learning
+  - `index.html`: Main dashboard with language progress tracking
+  - `day.html`: Daily lesson interface with audio and text content
+  - `css/`: Stylesheets for the web interface
+  - `js/`: JavaScript functionality
+- **audio_files/**: MP3 audio files for each day and language
+- **text_files/**: Text transcripts of all phrases
+- **language_phrases_days_*.py**: Python scripts for content generation
 
-## Content Overview
+## Course Structure
 
-### Basic Phrases (Days 1–7)
-Basic vocabulary and essential phrases for beginners.
+### Basic Vocabulary & Essential Phrases (Days 1-7)
+- Fundamental vocabulary and essential phrases for beginners
+- Core communication building blocks
+- Basic grammar structures
 
-### Advanced Phrases (Days 8–15)
-More complex conversations and vocabulary for intermediate learners:
-- Philosophical conversations
-- Storytelling techniques
-- Debating and persuasion
-- Advanced humor and wit
-- Professional vocabulary
-- Cultural expressions
+### Advanced Phrases (Days 8-15)
+- Complex conversations and intermediate vocabulary
+- Professional communication
+- Cultural expressions and idioms
 
-### Living & Working in South America (Days 16–26)
-Practical phrases specifically for expatriates and travelers in South America:
+### International Living & Working (Days 16-26)
+- Global professional environments
+- Cross-cultural communication
+- Business and workplace vocabulary
+- Housing and daily life across cultures
 
-#### Days 16–19: Essential Living Topics
-- Finding housing and accommodation
-- Job hunting in South America
-- Banking and finance
-- Healthcare systems
+### Tech Professional Content (Days 27-31)
+- Software engineering terminology
+- Technical vocabulary
+- Digital communication
+- Industry-specific phrases
 
-#### Days 20–22: Cultural Integration
-- Regional cultural nuances
-- Workplace language and etiquette
-- Renting and housing vocabulary
-
-#### Days 23–24: Practical Daily Life
-- Banking and bureaucracy
-- Transportation and logistics
-
-#### Days 25–26: Social Integration
-- Making local friends and building community
-- Dating and relationships
-- Safety and street smarts
-- Religion, traditions, and holidays
-- Country-specific slang (Argentina, Brazil, Colombia, Peru, Chile)
-
-### Enhanced Content for Tech Professionals (Days 27–31)
-Additional specialized content for software engineers and tech professionals working in South America:
-
-#### Days 27–28: Tech & Software Engineering
-- Software engineering workplace vocabulary
-- Programming languages and concepts
-- Development tools and methodologies
-- Tech problem solving
-- Digital life and tech vocabulary
-- Digital security and privacy
-
-#### Day 29: Environmental & Geographical Terms
-- South American geography
-- Climate and weather terminology
-- Natural landscapes
-- Sustainability and conservation
-- Outdoor activities
-
-#### Day 30: Indigenous Influence & Cultural Heritage
-- Indigenous words in Spanish/Portuguese
-- Indigenous cultural heritage
-- Traditional knowledge and practices
-- Cultural celebrations
-- Indigenous communities today
-
-#### Day 31: Contemporary Slang & Modern Communication
-- Country-specific contemporary slang
-- Modern workplace expressions
-- Digital communication slang
-
-### Advanced Academic & Professional Communication (Days 32-35)
-Advanced language skills for academic and professional settings:
+### Advanced Academic & Professional (Days 32-50)
+- Advanced language skills for global contexts
 - Academic writing and presentations
-- Professional negotiations and conflict resolution
-- Complex business proposals and reports
-- Scientific and research terminology
+- Professional negotiations
+- Complex business communication
 
-### Literary & Cultural Mastery (Days 36-40)
-Deep dive into cultural and literary aspects:
-- Literary analysis and criticism
-- Poetry and figurative language
-- Historical and cultural references
-- Film and media analysis
-- Art and architecture vocabulary
+## Features
 
-### Advanced Social Interaction (Days 41-44)
-Sophisticated social communication:
-- Subtle humor and wordplay
-- Irony, sarcasm, and cultural jokes
-- Complex social etiquette
-- Diplomatic language and political discourse
+### Interactive Web Interface
+- Progress tracking for each language
+- Audio playback with text transcripts
+- Copy-to-clipboard functionality
+- Mobile-responsive design
+- Session persistence
 
-### Regional Variations & Dialects (Days 45-47)
-Advanced understanding of language variations:
-- Country-specific expressions beyond basics
-- Regional accents and pronunciation differences
-- Historical evolution of language in different regions
-- Indigenous language influences
-
-### Abstract & Philosophical Discourse (Days 48-50)
-High-level conceptual communication:
-- Philosophical concepts and terminology
-- Ethical debates and moral reasoning
-- Theoretical frameworks and abstract thinking
-- Expressing complex opinions and hypothetical scenarios
-
-### Implementation Features for C2 Level (Days 32-50)
-
-#### Language Depth
-Each phrase includes:
-- Usage notes
-- Register information (formal/informal/colloquial)
-- Cultural context
-- Synonyms with subtle differences
-
-#### Grammar Complexity
-Advanced grammatical structures:
-- Complex subjunctive uses
-- Literary tenses
-- Advanced conditional expressions
-- Complex sentence structures
-
-#### Pronunciation Focus
-Specific pronunciation challenges:
-- Regional accent variations
-- Subtle phonetic distinctions
-- Rhythm and intonation patterns
-
-#### Cultural Integration
-Deeper cultural context:
-- Historical references
-- Cultural attitudes and values
-- Media and literary references
-
-## Languages
+### Language Support
 All content is available in five languages:
-- English (en)
-- Spanish (es)
-- Portuguese (pt)
-- French (fr)
-- German (de)
+- 🇬🇧 English (en)
+- 🇪🇸 Spanish (es)
+- 🇧🇷 Portuguese (pt)
+- 🇫🇷 French (fr)
+- 🇩🇪 German (de)
 
-## How to Use
-The Python scripts can generate audio files and text transcripts for specific days and languages:
+### Key Benefits
+1. **Global Reach & Communication**
+   - English: Global lingua franca for business, science, and tech
+   - Spanish: 2nd most spoken native language worldwide
+   - Portuguese: Key for Brazil's huge market and African nations
+   - French: Official in 29 countries across multiple continents
+   - German: Most spoken native language in Europe
 
-### Generate Audio and Text Files
-```bash
-# Generate all files for all days in all supported languages (default: Spanish and Portuguese)
-python scripts/language_phrases_days_01_07.py          # Days 1–7
-python scripts/language_phrases_days_08_15.py          # Days 8–15
-python scripts/language_phrases_days_16_26.py          # Days 16–26
-python scripts/language_phrases_days_27_31.py          # Days 27–31
-python scripts/language_phrases_days_32_44.py          # Days 32-44
-python scripts/language_phrases_days_45_50.py          # Days 45-50
+2. **Career & Business Opportunities**
+   - Access to global job markets
+   - International freelancing opportunities
+   - Positions in international organizations
+   - Enhanced remote work capabilities
 
-# Generate files for a specific day
-python scripts/language_phrases_days_32_44.py --day 32
-python scripts/language_phrases_days_45_50.py --day 48
+3. **Strategic Language Combinations**
+   - Spanish + Portuguese: Covers almost all of Latin America
+   - French + English: Dominates diplomacy & Africa
+   - German + English: Opens EU corporate doors
+   - All 5 Languages: Communicate with ~2 billion people
 
-# Generate files for a specific language
-python scripts/language_phrases_days_32_44.py --languages fr
-python scripts/language_phrases_days_45_50.py --languages de
+## Development
 
-# Generate text files only (no audio)
-python scripts/language_phrases_days_32_44.py --text-only
-python scripts/language_phrases_days_45_50.py --text-only
-```
-
-### Learning Approach
-1. Listen to the audio files for your target language
-2. Use the text files as reference for reading practice
-3. Progress through the days sequentially, or focus on specific topics relevant to your needs
-
-## Requirements
-- Python 3.6+
+### Requirements
+- Python 3.12+
 - gTTS (Google Text-to-Speech) library
 ```bash
 pip install gtts
+```
+
+### Content Generation
+```bash
+# Generate content for specific days
+python language_phrases_days_01_07.py
+python language_phrases_days_08_15.py
+python language_phrases_days_16_26.py
+python language_phrases_days_27_31.py
+python language_phrases_days_32_44.py
+python language_phrases_days_45_50.py
+```
+
+### Running the Website
+The website can be accessed directly by opening `website/index.html` in a web browser. No server setup is required as it uses client-side JavaScript for all functionality.
+
+## Usage
+1. Open `website/index.html` in a web browser
+2. Select your target language
+3. Progress through daily lessons sequentially
+4. Use the audio player and text content for comprehensive learning
+5. Mark lessons as complete to track your progress
+6. Switch between languages to practice multiple languages simultaneously
+
+## Storage
+The application uses localStorage to maintain:
+- Progress tracking for each language
+- Completed lessons
+- Current language selection

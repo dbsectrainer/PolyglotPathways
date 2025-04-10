@@ -514,11 +514,11 @@ def main():
     
     print("\nAll files generated successfully!")
     print("\nUsage examples:")
-    print("  - Generate text files only: python language_phrases_advanced_additional_extended.py --text-only")
-    print("  - Generate files for just Day 45: python language_phrases_advanced_additional_extended.py --day 45")
-    print("  - Generate files for just Spanish: python language_phrases_advanced_additional_extended.py --languages es")
-    print("  - Generate Day 48 Portuguese text only: python language_phrases_advanced_additional_extended.py --day 48 --languages pt --text-only")
-    print("  - Generate all available days: python language_phrases_advanced_additional_extended.py")
+    print("  - Generate text files only: python language_phrases_days_45_50.py --text-only")
+    print("  - Generate files for just Day 45: python language_phrases_days_45_50.py --day 45")
+    print("  - Generate files for just Spanish: python language_phrases_days_45_50.py --languages es")
+    print("  - Generate Day 48 Portuguese text only: python language_phrases_days_45_50.py --day 48 --languages pt --text-only")
+    print("  - Generate all available days: python language_phrases_days_45_50.py")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,39 @@
+
+Art Terminology
+---------------
+Composición
+Perspectiva
+Claroscuro
+Pincelada
+Paleta de colores
+Textura
+Espacio negativo
+Trampantojo
+Esfumado
+Empaste
+
+Architectural Elements
+----------------------
+Fachada
+Columnata
+Contrafuerte
+Cornisa
+Frontón
+Pórtico
+Cúpula
+Friso
+Arquitrabe
+Enjuta
+
+Architectural Styles
+--------------------
+Gótico
+Barroco
+Modernismo
+Brutalismo
+Neoclásico
+Modernismo
+Posmodernismo
+Deconstructivismo
+Art Déco
+Bauhaus

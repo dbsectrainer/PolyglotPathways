@@ -1,0 +1,65 @@
+
+Software Engineering & Tech Workplace
+-------------------------------------
+Soy ingeniero/a de software
+Trabajo en desarrollo web
+Me especializo en desarrollo backend
+Soy desarrollador/a frontend
+Trabajo con aplicaciones móviles
+Estoy trabajando en una nueva funcionalidad
+Necesitamos arreglar este error
+Programemos una revisión de código
+Estoy buscando un trabajo remoto en tecnología
+La industria tecnológica está creciendo aquí
+
+Programming Languages & Concepts
+--------------------------------
+Programo en JavaScript/Python/Java
+Esta función no está funcionando
+Necesitamos refactorizar este código
+Implementemos este algoritmo
+Este es un enfoque orientado a objetos
+Deberíamos usar un patrón de diseño aquí
+La API no está respondiendo
+Necesitamos optimizar esta consulta
+Probemos este componente
+Esta es una solución recursiva
+
+Development Tools & Methodologies
+---------------------------------
+Usamos Git para control de versiones
+Creemos una solicitud de extracción
+Seguimos la metodología Ágil
+Tenemos reuniones diarias de pie
+Planifiquemos el próximo sprint
+Necesitamos documentar esta API
+Uso VS Code como mi IDE
+Configuremos la integración continua
+Deberíamos escribir pruebas unitarias
+Despleguemos a producción
+
+Tech Problem Solving
+--------------------
+Estoy depurando este problema
+Revisemos los registros de errores
+El servidor está caído
+Necesitamos escalar nuestra infraestructura
+Este es un cuello de botella de rendimiento
+Implementemos una solución alternativa
+Necesitamos optimizar para móviles
+La base de datos está funcionando lento
+Ejecutemos una prueba de carga
+Necesitamos arreglar esta vulnerabilidad de seguridad
+
+Tech Workplace Communication
+----------------------------
+Discutamos esto en la próxima reunión
+Compartiré mi pantalla para mostrarte
+¿Puedes revisar mi código?
+Te enviaré la documentación
+Configuremos una videollamada
+Necesito acceso al repositorio
+¿Cuál es el estado de tu tarea?
+Actualizaré el ticket
+Creemos un nuevo tablero de proyecto
+Agregaré comentarios para explicar esto
