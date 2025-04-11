@@ -1,0 +1,126 @@
+{
+  "header": {
+    "title": "Polyglot Pathways",
+    "subtitle": "Votre Voyage vers la Maîtrise Multilingue"
+  },
+  "hero": {
+    "title": "Maîtrisez Plusieurs Langues",
+    "subtitle": "Embarquez pour un voyage de 50 jours à travers l'apprentissage complet des langues pour vivre et travailler à l'échelle mondiale"
+  },
+  "courseStructure": {
+    "title": "Structure du Cours",
+    "sections": {
+      "days1_7": {
+        "title": "Jours 1-7",
+        "description": "Vocabulaire de base et phrases essentielles pour débutants"
+      },
+      "days8_15": {
+        "title": "Jours 8-15",
+        "description": "Phrases avancées pour niveau intermédiaire"
+      },
+      "days16_26": {
+        "title": "Jours 16-26",
+        "description": "Vie et Travail International"
+      },
+      "days27_31": {
+        "title": "Jours 27-31",
+        "description": "Contenu Professionnel Technique"
+      },
+      "days32_50": {
+        "title": "Jours 32-50",
+        "description": "Communication Académique et Professionnelle Avancée"
+      }
+    }
+  },
+  "daySelection": {
+    "title": "Leçons Quotidiennes",
+    "controls": {
+      "previous": "Précédent",
+      "next": "Suivant",
+      "daysRange": "Jours"
+    }
+  },
+  "benefits": {
+    "title": "Pourquoi Apprendre Ces Langues ?",
+    "globalReach": {
+      "title": "Portée Mondiale et Communication",
+      "items": {
+        "english": "Anglais : Lingua franca mondiale pour les affaires, la science et la technologie",
+        "spanish": "Espagnol : Deuxième langue maternelle la plus parlée au monde",
+        "portuguese": "Portugais : Clé pour l'immense marché brésilien et les nations africaines",
+        "french": "Français : Officiel dans 29 pays sur plusieurs continents",
+        "german": "Allemand : Langue maternelle la plus parlée en Europe"
+      }
+    },
+    "career": {
+      "title": "Opportunités de Carrière et d'Affaires",
+      "items": [
+        "Accès aux marchés du travail mondiaux sur tous les continents",
+        "Opportunités freelance avec des clients internationaux",
+        "Postes dans les organisations internationales (ONU, UE, OTAN)",
+        "Meilleures capacités d'import/export et de travail à distance"
+      ]
+    },
+    "monetization": {
+      "title": "Potentiel de Monétisation",
+      "items": [
+        "Création de contenu en plusieurs langues",
+        "Services de traduction et de localisation",
+        "Tutorat linguistique pour professionnels",
+        "Marketing et e-commerce multilingue"
+      ]
+    },
+    "cognitive": {
+      "title": "Avantages Cognitifs",
+      "items": [
+        "Amélioration de la mémoire et de la résolution de problèmes",
+        "Créativité accrue et compréhension culturelle",
+        "Acquisition plus facile de langues supplémentaires"
+      ]
+    },
+    "travel": {
+      "title": "Accès aux Voyages et à la Culture",
+      "items": [
+        "Naviguez sur plusieurs continents comme un local",
+        "Profitez d'expériences culturelles authentiques",
+        "Construisez de véritables relations internationales"
+      ]
+    },
+    "combinations": {
+      "title": "Combinaisons Stratégiques de Langues",
+      "combos": {
+        "spanishPortuguese": {
+          "langs": "Espagnol + Portugais",
+          "benefit": "Couvre presque toute l'Amérique latine"
+        },
+        "frenchEnglish": {
+          "langs": "Français + Anglais",
+          "benefit": "Domine la diplomatie et l'Afrique"
+        },
+        "germanEnglish": {
+          "langs": "Allemand + Anglais",
+          "benefit": "Ouvre les portes des entreprises de l'UE"
+        },
+        "allFive": {
+          "langs": "Les 5 Langues",
+          "benefit": "Parlez à ~2 milliards de personnes"
+        }
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Polyglot Pathways | Autonomiser l'Apprentissage des Langues"
+  },
+  "languages": {
+    "en": "Anglais",
+    "es": "Espagnol",
+    "pt": "Portugais",
+    "fr": "Français",
+    "de": "Allemand"
+  },
+  "progress": {
+    "status": "Progression : Jour {completed}/50",
+    "days": "Jours",
+    "levels": "Niveaux"
+  }
+}

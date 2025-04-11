@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
 let currentDayPage = 1;
 const daysPerPage = 10;
 const totalDays = 50;
-const selectedLanguage = 'es'; // Default to Spanish
+let selectedLanguage = window.i18n ? window.i18n.currentLang : 'en'; // Use i18n language or default to English
 
 function generateDayGrid() {
     const dayGrid = document.querySelector('.day-grid');
@@ -38,7 +38,10 @@ function generateDayGrid() {
     
     for (let i = startDay; i <= endDay; i++) {
         const dayLink = document.createElement('a');
-        dayLink.href = `day.html?day=${i}&lang=${selectedLanguage}`;
+        // Get current language from URL or i18n
+        const urlParams = new URLSearchParams(window.location.search);
+        const currentLang = urlParams.get('lang') || window.i18n?.currentLang || selectedLanguage;
+        dayLink.href = `day.html?day=${i}&lang=${currentLang}`;
         dayLink.className = 'animate-fade-in hover-scale';
         dayLink.style.animationDelay = `${(i - startDay) * 0.05}s`;
         
@@ -161,6 +164,11 @@ function initializeLanguageCards() {
 }
 
 function updateDayGridLanguage(language) {
+    // Update selected language
+    selectedLanguage = language;
+    // Update localStorage
+    localStorage.setItem('preferredLanguage', language);
+    // Update day links
     const dayLinks = document.querySelectorAll('.day-grid a');
     dayLinks.forEach(link => {
         const day = link.querySelector('.day-number').textContent;
@@ -241,8 +249,12 @@ function updateProgress(day) {
     });
     
     // Update all progress texts
-    document.querySelectorAll('.progress-container p').forEach(text => {
-        text.textContent = `Progress: Day ${day}/50`;
+    document.querySelectorAll('.progress-container p span').forEach(text => {
+        text.setAttribute('data-i18n', 'progress.status');
+        text.setAttribute('data-i18n-params', JSON.stringify({ completed: day }));
+        if (window.i18n) {
+            window.i18n.updateLanguage(window.i18n.currentLang);
+        }
     });
 }
 

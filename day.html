@@ -9,11 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/day-i18n.js"></script>
 </head>
 <body>
     <header>
-        <h1>Polyglot Pathways</h1>
-        <p>Your Journey to Multilingual Mastery</p>
+        <h1 data-i18n="header.title">Polyglot Pathways</h1>
+        <p data-i18n="header.subtitle">Your Journey to Multilingual Mastery</p>
     </header>
 
     <main>
@@ -32,23 +33,23 @@
                     <h2>Day <span id="day-number"></span></h2>
                 </div>
                 <div class="language-selector">
-                    <button class="language-btn" data-lang="en"><span class="flag">🇬🇧</span> English</button>
-                    <button class="language-btn" data-lang="es"><span class="flag">🇪🇸</span> Spanish</button>
-                    <button class="language-btn" data-lang="pt"><span class="flag">🇧🇷</span> Portuguese</button>
-                    <button class="language-btn" data-lang="fr"><span class="flag">🇫🇷</span> French</button>
-                    <button class="language-btn" data-lang="de"><span class="flag">🇩🇪</span> German</button>
+                    <button class="language-btn" data-lang="en"><span class="flag">🇬🇧</span> <span class="language-text" data-i18n="languages.english">English</span></button>
+                    <button class="language-btn" data-lang="es"><span class="flag">🇪🇸</span> <span class="language-text" data-i18n="languages.spanish">Spanish</span></button>
+                    <button class="language-btn" data-lang="pt"><span class="flag">🇧🇷</span> <span class="language-text" data-i18n="languages.portuguese">Portuguese</span></button>
+                    <button class="language-btn" data-lang="fr"><span class="flag">🇫🇷</span> <span class="language-text" data-i18n="languages.french">French</span></button>
+                    <button class="language-btn" data-lang="de"><span class="flag">🇩🇪</span> <span class="language-text" data-i18n="languages.german">German</span></button>
                 </div>
             </div>
 
             <div class="navigation">
                 <a href="#" class="nav-btn" id="prev-btn-top">
-                    <i class="fas fa-arrow-left"></i> Previous Day
+                    <i class="fas fa-arrow-left"></i> <span data-i18n="navigation.previousDay">Previous Day</span>
                 </a>
                 <a href="index.html" class="home-btn">
-                    <i class="fas fa-home"></i> Back to Home
+                    <i class="fas fa-home"></i> <span data-i18n="navigation.backToHome">Back to Home</span>
                 </a>
                 <a href="#" class="nav-btn" id="next-btn-top">
-                    Next Day <i class="fas fa-arrow-right"></i>
+                    <span data-i18n="navigation.nextDay">Next Day</span> <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
 
@@ -59,7 +60,7 @@
 
             <div class="audio-player">
                 <audio controls id="audio-player" type="audio/mpeg">
-                    Your browser does not support the audio element.
+                    <span data-i18n="lesson.audioNotSupported">Your browser does not support the audio element.</span>
                 </audio>
                 <div id="audio-fallback"></div>
             </div>
@@ -70,7 +71,7 @@
 
             <div class="lesson-actions">
                 <button id="complete-btn" class="complete-btn">
-                    <i class="fas fa-check"></i> Mark as Complete
+                    <i class="fas fa-check"></i> <span data-i18n="lesson.markComplete">Mark as Complete</span>
                 </button>
             </div>
 
@@ -79,13 +80,13 @@
             
             <div class="navigation">
                 <a href="#" class="nav-btn" id="prev-btn">
-                    <i class="fas fa-arrow-left"></i> Previous Day
+                    <i class="fas fa-arrow-left"></i> <span data-i18n="navigation.previousDay">Previous Day</span>
                 </a>
                 <a href="index.html" class="home-btn">
-                    <i class="fas fa-home"></i> Back to Home
+                    <i class="fas fa-home"></i> <span data-i18n="navigation.backToHome">Back to Home</span>
                 </a>
                 <a href="#" class="nav-btn" id="next-btn">
-                    Next Day <i class="fas fa-arrow-right"></i>
+                    <span data-i18n="navigation.nextDay">Next Day</span> <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
         </div>
@@ -95,11 +96,11 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Polyglot Pathways | Empowering Language Learning</p>
+        <p data-i18n="footer.copyright">&copy; 2025 Polyglot Pathways | Empowering Language Learning</p>
     </footer>
 
     <div class="copy-notification" id="copy-notification">
-        Phrase copied to clipboard!
+        <span data-i18n="lesson.phraseCopied">Phrase copied to clipboard!</span>
     </div>
 
     <script>
@@ -117,7 +118,7 @@
             
             if (completedDays[`${day}_${lang}`]) {
                 completeBtn.classList.add('completed');
-                completeBtn.innerHTML = '<i class="fas fa-check-circle"></i> Completed';
+                completeBtn.innerHTML = `<i class="fas fa-check-circle"></i> <span data-i18n="lesson.completed">Completed</span>`;
                 completeBtn.disabled = true;
             }
 
@@ -145,14 +146,14 @@
 
                 // Show completion notification
                 const notification = document.getElementById('copy-notification');
-                notification.textContent = 'Day marked as complete!';
+                notification.innerHTML = `<span data-i18n="lesson.dayMarkedComplete">Day marked as complete!</span>`;
                 notification.style.display = 'block';
                 notification.style.animation = 'none';
                 notification.offsetHeight; // Trigger reflow
                 notification.style.animation = 'fadeInOut 2s ease';
                 setTimeout(() => {
                     notification.style.display = 'none';
-                    notification.textContent = 'Phrase copied to clipboard!';
+                    notification.innerHTML = `<span data-i18n="lesson.phraseCopied">Phrase copied to clipboard!</span>`;
                 }, 2000);
             });
 
@@ -239,7 +240,7 @@
                 })
                 .catch(error => {
                     console.error('Error loading text:', error);
-                    document.getElementById('text-content').innerHTML = '<p class="error">Text content not available.</p>';
+                    document.getElementById('text-content').innerHTML = `<p class="error" data-i18n="lesson.textNotAvailable">Text content not available.</p>`;
                 });
 
             // Update navigation
@@ -349,32 +350,7 @@
         }
 
         function getSectionInfo(day) {
-            if (day <= 7) {
-                return {
-                    title: 'Basic Vocabulary & Essential Phrases',
-                    description: 'Learn fundamental vocabulary and essential phrases for beginners.'
-                };
-            } else if (day <= 15) {
-                return {
-                    title: 'Advanced Phrases',
-                    description: 'More complex conversations and vocabulary for intermediate learners.'
-                };
-            } else if (day <= 26) {
-                return {
-                    title: 'International Living & Working',
-                    description: 'Practical phrases for global living and professional environments.'
-                };
-            } else if (day <= 31) {
-                return {
-                    title: 'Tech Professional Content',
-                    description: 'Specialized content for software engineers and tech professionals.'
-                };
-            } else {
-                return {
-                    title: 'Advanced Academic & Professional',
-                    description: 'Advanced language skills for academic and professional settings.'
-                };
-            }
+            return window.i18n.getSectionInfo(day);
         }
     </script>
     

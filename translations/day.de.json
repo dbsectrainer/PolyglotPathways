@@ -1,0 +1,52 @@
+{
+  "header": {
+    "title": "Polyglot Pathways",
+    "subtitle": "Ihr Weg zur mehrsprachigen Meisterschaft"
+  },
+  "navigation": {
+    "previousDay": "Vorheriger Tag",
+    "nextDay": "Nächster Tag",
+    "backToHome": "Zurück zur Startseite"
+  },
+  "lesson": {
+    "day": "Tag",
+    "markComplete": "Als abgeschlossen markieren",
+    "completed": "Abgeschlossen",
+    "dayMarkedComplete": "Tag als abgeschlossen markiert!",
+    "phraseCopied": "Phrase in die Zwischenablage kopiert!",
+    "textNotAvailable": "Textinhalt nicht verfügbar.",
+    "audioNotSupported": "Ihr Browser unterstützt das Audio-Element nicht."
+  },
+  "languages": {
+    "english": "Englisch",
+    "spanish": "Spanisch",
+    "portuguese": "Portugiesisch",
+    "french": "Französisch",
+    "german": "Deutsch"
+  },
+  "sections": {
+    "basic": {
+      "title": "Grundwortschatz & wichtige Redewendungen",
+      "description": "Lerne grundlegenden Wortschatz und wichtige Redewendungen für Anfänger."
+    },
+    "advanced": {
+      "title": "Fortgeschrittene Redewendungen",
+      "description": "Komplexere Gespräche und Vokabeln für fortgeschrittene Lernende."
+    },
+    "international": {
+      "title": "Internationales Leben & Arbeiten",
+      "description": "Praktische Redewendungen für globales Leben und berufliche Umgebungen."
+    },
+    "tech": {
+      "title": "Technischer Fachinhalt",
+      "description": "Spezialisierte Inhalte für Softwareentwickler und technische Fachkräfte."
+    },
+    "academic": {
+      "title": "Fortgeschrittene Akademische & Berufliche Kommunikation",
+      "description": "Fortgeschrittene Sprachkenntnisse für akademische und berufliche Umgebungen."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Polyglot Pathways | Sprachenlernen ermöglichen"
+  }
+}

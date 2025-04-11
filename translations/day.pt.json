@@ -1,0 +1,52 @@
+{
+  "header": {
+    "title": "Polyglot Pathways",
+    "subtitle": "Sua Jornada para o Domínio Multilíngue"
+  },
+  "navigation": {
+    "previousDay": "Dia Anterior",
+    "nextDay": "Próximo Dia",
+    "backToHome": "Voltar para Início"
+  },
+  "lesson": {
+    "day": "Dia",
+    "markComplete": "Marcar como Concluído",
+    "completed": "Concluído",
+    "dayMarkedComplete": "Dia marcado como concluído!",
+    "phraseCopied": "Frase copiada para a área de transferência!",
+    "textNotAvailable": "Conteúdo de texto não disponível.",
+    "audioNotSupported": "Seu navegador não suporta o elemento de áudio."
+  },
+  "languages": {
+    "english": "Inglês",
+    "spanish": "Espanhol",
+    "portuguese": "Português",
+    "french": "Francês",
+    "german": "Alemão"
+  },
+  "sections": {
+    "basic": {
+      "title": "Vocabulário Básico e Frases Essenciais",
+      "description": "Aprenda vocabulário fundamental e frases essenciais para iniciantes."
+    },
+    "advanced": {
+      "title": "Frases Avançadas",
+      "description": "Conversas e vocabulário mais complexos para alunos intermediários."
+    },
+    "international": {
+      "title": "Vida e Trabalho Internacional",
+      "description": "Frases práticas para vida global e ambientes profissionais."
+    },
+    "tech": {
+      "title": "Conteúdo Profissional Técnico",
+      "description": "Conteúdo especializado para engenheiros de software e profissionais de tecnologia."
+    },
+    "academic": {
+      "title": "Acadêmico e Profissional Avançado",
+      "description": "Habilidades linguísticas avançadas para ambientes acadêmicos e profissionais."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Polyglot Pathways | Capacitando o Aprendizado de Idiomas"
+  }
+}

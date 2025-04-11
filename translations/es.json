@@ -1,0 +1,126 @@
+{
+  "header": {
+    "title": "Polyglot Pathways",
+    "subtitle": "Tu Camino hacia el Dominio Multilingüe"
+  },
+  "hero": {
+    "title": "Domina Múltiples Idiomas",
+    "subtitle": "Embárcate en un viaje de 50 días a través del aprendizaje integral de idiomas para vivir y trabajar globalmente"
+  },
+  "courseStructure": {
+    "title": "Estructura del Curso",
+    "sections": {
+      "days1_7": {
+        "title": "Días 1-7",
+        "description": "Vocabulario básico y frases esenciales para principiantes"
+      },
+      "days8_15": {
+        "title": "Días 8-15",
+        "description": "Frases avanzadas para estudiantes intermedios"
+      },
+      "days16_26": {
+        "title": "Días 16-26",
+        "description": "Vida y Trabajo Internacional"
+      },
+      "days27_31": {
+        "title": "Días 27-31",
+        "description": "Contenido Profesional Técnico"
+      },
+      "days32_50": {
+        "title": "Días 32-50",
+        "description": "Comunicación Académica y Profesional Avanzada"
+      }
+    }
+  },
+  "daySelection": {
+    "title": "Lecciones Diarias",
+    "controls": {
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "daysRange": "Días"
+    }
+  },
+  "benefits": {
+    "title": "¿Por qué Aprender Estos Idiomas?",
+    "globalReach": {
+      "title": "Alcance Global y Comunicación",
+      "items": {
+        "english": "Inglés: Lengua franca global para negocios, ciencia y tecnología",
+        "spanish": "Español: Segundo idioma nativo más hablado en el mundo",
+        "portuguese": "Portugués: Clave para el enorme mercado de Brasil y naciones africanas",
+        "french": "Francés: Oficial en 29 países a través de múltiples continentes",
+        "german": "Alemán: Idioma nativo más hablado en Europa"
+      }
+    },
+    "career": {
+      "title": "Oportunidades Profesionales y de Negocios",
+      "items": [
+        "Acceso a mercados laborales globales en todos los continentes",
+        "Oportunidades de trabajo freelance con clientes internacionales",
+        "Posiciones en organizaciones internacionales (ONU, UE, OTAN)",
+        "Mejores capacidades de importación/exportación y trabajo remoto"
+      ]
+    },
+    "monetization": {
+      "title": "Potencial de Monetización",
+      "items": [
+        "Creación de contenido en múltiples idiomas",
+        "Servicios de traducción y localización",
+        "Tutoría de idiomas para profesionales",
+        "Marketing y comercio electrónico multilingüe"
+      ]
+    },
+    "cognitive": {
+      "title": "Beneficios Cognitivos",
+      "items": [
+        "Mejora de la memoria y resolución de problemas",
+        "Mayor creatividad y comprensión cultural",
+        "Facilidad para adquirir idiomas adicionales"
+      ]
+    },
+    "travel": {
+      "title": "Acceso a Viajes y Cultura",
+      "items": [
+        "Navega por múltiples continentes como un local",
+        "Disfruta de experiencias culturales auténticas",
+        "Construye relaciones internacionales genuinas"
+      ]
+    },
+    "combinations": {
+      "title": "Combinaciones Estratégicas de Idiomas",
+      "combos": {
+        "spanishPortuguese": {
+          "langs": "Español + Portugués",
+          "benefit": "Cubre casi toda América Latina"
+        },
+        "frenchEnglish": {
+          "langs": "Francés + Inglés",
+          "benefit": "Domina la diplomacia y África"
+        },
+        "germanEnglish": {
+          "langs": "Alemán + Inglés",
+          "benefit": "Abre puertas corporativas en la UE"
+        },
+        "allFive": {
+          "langs": "Los 5 Idiomas",
+          "benefit": "Habla con ~2 mil millones de personas"
+        }
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Polyglot Pathways | Potenciando el Aprendizaje de Idiomas"
+  },
+  "languages": {
+    "en": "Inglés",
+    "es": "Español",
+    "pt": "Portugués",
+    "fr": "Francés",
+    "de": "Alemán"
+  },
+  "progress": {
+    "status": "Progreso: Día {completed}/50",
+    "days": "Días",
+    "levels": "Niveles"
+  }
+}
