@@ -5,7 +5,7 @@ from gtts import gTTS
 
 # This file contains days 16-26 of language phrases for PolyglotPathways
 # It follows the same structure as previous scripts but includes content
-# focusing on Living & Working in South America, including housing, jobs,
+# focusing on practical topics for living and working abroad, including housing, jobs,
 # banking, healthcare, cultural integration, daily life, and social integration
 
 # Day 16: Essential Living Topics - Finding Housing and Accommodation
@@ -238,49 +238,49 @@ day18_phrases = {
 
 # Day 20: Cultural Integration - Regional Cultural Nuances
 day20_phrases = {
-    "South American Geography": [
-        {"en": "The Amazon Rainforest is the largest in the world", "es": "La Selva Amazónica es la más grande del mundo", "pt": "A Floresta Amazônica é a maior do mundo",
-         "fr": "La forêt amazonienne est la plus grande au monde", "de": "Der Amazonas-Regenwald ist der größte der Welt"},
-        {"en": "The Andes Mountains run through South America", "es": "La Cordillera de los Andes atraviesa Sudamérica", "pt": "A Cordilheira dos Andes atravessa a América do Sul",
-         "fr": "Les montagnes des Andes traversent l'Amérique du Sud", "de": "Die Anden durchziehen Südamerika"},
-        {"en": "The Atacama Desert is one of the driest places", "es": "El Desierto de Atacama es uno de los lugares más secos", "pt": "O Deserto do Atacama é um dos lugares mais secos",
-         "fr": "Le désert d'Atacama est l'un des endroits les plus arides", "de": "Die Atacama-Wüste ist einer der trockensten Orte"},
-        {"en": "The Pantanal is the world's largest wetland", "es": "El Pantanal es el humedal más grande del mundo", "pt": "O Pantanal é a maior área úmida do mundo",
-         "fr": "Le Pantanal est la plus grande zone humide du monde", "de": "Der Pantanal ist das größte Feuchtgebiet der Welt"},
-        {"en": "Lake Titicaca is the highest navigable lake", "es": "El Lago Titicaca es el lago navegable más alto", "pt": "O Lago Titicaca é o lago navegável mais alto",
-         "fr": "Le lac Titicaca est le lac navigable le plus haut", "de": "Der Titicaca-See ist der höchstgelegene schiffbare See"},
-        {"en": "The Patagonia region is known for its beauty", "es": "La región de la Patagonia es conocida por su belleza", "pt": "A região da Patagônia é conhecida por sua beleza",
-         "fr": "La région de la Patagonie est connue pour sa beauté", "de": "Die Region Patagonien ist für ihre Schönheit bekannt"},
-        {"en": "The Pampas are fertile lowlands", "es": "Las Pampas son tierras bajas fértiles", "pt": "Os Pampas são planícies férteis",
-         "fr": "Les Pampas sont des plaines fertiles", "de": "Die Pampas sind fruchtbare Tieflandgebiete"},
-        {"en": "The Galapagos Islands are unique ecosystems", "es": "Las Islas Galápagos son ecosistemas únicos", "pt": "As Ilhas Galápagos são ecossistemas únicos",
-         "fr": "Les îles Galápagos sont des écosystèmes uniques", "de": "Die Galapagos-Inseln sind einzigartige Ökosysteme"},
-        {"en": "The Amazon River is the largest by volume", "es": "El Río Amazonas es el más grande por volumen", "pt": "O Rio Amazonas é o maior em volume",
-         "fr": "Le fleuve Amazone est le plus grand en termes de volume", "de": "Der Amazonas ist der volumenmäßig größte Fluss"},
-        {"en": "Angel Falls is the world's highest waterfall", "es": "El Salto Ángel es la cascada más alta del mundo", "pt": "O Salto Angel é a cachoeira mais alta do mundo",
-         "fr": "Les chutes d'Angel sont les plus hautes du monde", "de": "Der Angel Falls ist der höchste Wasserfall der Welt"}
+    "Geography & Landscapes": [
+        {"en": "This region has high mountains", "es": "Esta región tiene montañas altas", "pt": "Esta região tem montanhas altas",
+         "fr": "Cette région a de hautes montagnes", "de": "Diese Region hat hohe Berge"},
+        {"en": "A major river flows through the valley", "es": "Un río importante fluye por el valle", "pt": "Um rio importante flui pelo vale",
+         "fr": "Une rivière majeure traverse la vallée", "de": "Ein großer Fluss fließt durch das Tal"},
+        {"en": "The coastline features sandy beaches and rocky cliffs", "es": "La costa presenta playas de arena y acantilados rocosos", "pt": "A costa apresenta praias de areia e falésias rochosas",
+         "fr": "Le littoral présente des plages de sable et des falaises rocheuses", "de": "Die Küste weist Sandstrände und felsige Klippen auf"},
+        {"en": "There are vast forests in this area", "es": "Hay vastos bosques en esta área", "pt": "Existem vastas florestas nesta área",
+         "fr": "Il y a de vastes forêts dans cette région", "de": "In dieser Gegend gibt es ausgedehnte Wälder"},
+        {"en": "This large lake is popular for recreation", "es": "Este gran lago es popular para la recreación", "pt": "Este grande lago é popular para recreação",
+         "fr": "Ce grand lac est populaire pour les loisirs", "de": "Dieser große See ist beliebt zur Erholung"},
+        {"en": "The desert landscape extends for many kilometers", "es": "El paisaje desértico se extiende por muchos kilómetros", "pt": "A paisagem desértica se estende por muitos quilômetros",
+         "fr": "Le paysage désertique s'étend sur de nombreux kilomètres", "de": "Die Wüstenlandschaft erstreckt sich über viele Kilometer"},
+        {"en": "These islands have unique ecosystems", "es": "Estas islas tienen ecosistemas únicos", "pt": "Estas ilhas têm ecossistemas únicos",
+         "fr": "Ces îles ont des écosystèmes uniques", "de": "Diese Inseln haben einzigartige Ökosysteme"},
+        {"en": "The waterfall is a famous natural landmark", "es": "La cascada es un famoso hito natural", "pt": "A cachoeira é um famoso marco natural",
+         "fr": "La cascade est un célèbre repère naturel", "de": "Der Wasserfall ist ein berühmtes Naturdenkmal"},
+        {"en": "Fertile plains are used for agriculture", "es": "Las llanuras fértiles se utilizan para la agricultura", "pt": "As planícies férteis são usadas para a agricultura",
+         "fr": "Les plaines fertiles sont utilisées pour l'agriculture", "de": "Fruchtbare Ebenen werden für die Landwirtschaft genutzt"},
+        {"en": "Wetlands are important habitats for wildlife", "es": "Los humedales son hábitats importantes para la vida silvestre", "pt": "As zonas úmidas são habitats importantes para a vida selvagem",
+         "fr": "Les zones humides sont des habitats importants pour la faune", "de": "Feuchtgebiete sind wichtige Lebensräume für Wildtiere"}
     ],
     "Climate & Weather": [
-        {"en": "The rainy season lasts from November to April", "es": "La temporada de lluvias dura de noviembre a abril", "pt": "A estação chuvosa dura de novembro a abril",
-         "fr": "La saison des pluies dure de novembre à avril", "de": "Die Regenzeit dauert von November bis April"},
-        {"en": "The dry season is from May to October", "es": "La temporada seca es de mayo a octubre", "pt": "A estação seca é de maio a outubro",
-         "fr": "La saison sèche va de mai à octobre", "de": "Die Trockenzeit ist von Mai bis Oktober"},
-        {"en": "It's very humid in the rainforest", "es": "Es muy húmedo en la selva", "pt": "É muito úmido na floresta tropical",
-         "fr": "Il fait très humide dans la forêt tropicale", "de": "Im Regenwald ist es sehr feucht"},
-        {"en": "The highlands have cooler temperatures", "es": "Las tierras altas tienen temperaturas más frescas", "pt": "As terras altas têm temperaturas mais frescas",
-         "fr": "Les hautes terres ont des températures plus fraîches", "de": "In den Hochebenen ist es kühler"},
-        {"en": "The coastal areas are often foggy", "es": "Las zonas costeras suelen ser neblinosas", "pt": "As áreas costeiras costumam ser nebulosas",
-         "fr": "Les zones côtières sont souvent brumeuses", "de": "Die Küstengebiete sind oft neblig"},
-        {"en": "We're expecting a thunderstorm", "es": "Esperamos una tormenta eléctrica", "pt": "Estamos esperando uma tempestade",
-         "fr": "Nous prévoyons un orage", "de": "Wir erwarten ein Gewitter"},
-        {"en": "The temperature varies greatly between day and night", "es": "La temperatura varía mucho entre el día y la noche", "pt": "A temperatura varia muito entre o dia e a noite",
-         "fr": "La température varie considérablement entre le jour et la nuit", "de": "Die Temperatur schwankt stark zwischen Tag und Nacht"},
-        {"en": "The altitude affects the climate", "es": "La altitud afecta el clima", "pt": "A altitude afeta o clima",
-         "fr": "L'altitude influence le climat", "de": "Die Höhe beeinflusst das Klima"},
-        {"en": "The El Niño phenomenon affects our weather", "es": "El fenómeno de El Niño afecta nuestro clima", "pt": "O fenômeno El Niño afeta nosso clima",
-         "fr": "Le phénomène El Niño affecte notre climat", "de": "Das El Niño-Phänomen beeinflusst unser Wetter"},
-        {"en": "The microclimates vary within short distances", "es": "Los microclimas varían en distancias cortas", "pt": "Os microclimas variam em curtas distâncias",
-         "fr": "Les microclimats varient sur de courtes distances", "de": "Die Mikroklimata variieren über kurze Distanzen"}
+        {"en": "The climate varies depending on the region", "es": "El clima varía según la región", "pt": "O clima varia dependendo da região",
+         "fr": "Le climat varie en fonction de la région", "de": "Das Klima variiert je nach Region"},
+        {"en": "Some areas have distinct rainy and dry seasons", "es": "Algunas áreas tienen estaciones lluviosas y secas distintas", "pt": "Algumas áreas têm estações chuvosas e secas distintas",
+         "fr": "Certaines régions ont des saisons des pluies et sèches distinctes", "de": "Einige Gebiete haben ausgeprägte Regen- und Trockenzeiten"},
+        {"en": "It can be very humid in the dense forests", "es": "Puede ser muy húmedo en los bosques densos", "pt": "Pode ser muito úmido nas florestas densas",
+         "fr": "Il peut faire très humide dans les forêts denses", "de": "In dichten Wäldern kann es sehr feucht sein"},
+        {"en": "The highlands generally have cooler temperatures", "es": "Las tierras altas generalmente tienen temperaturas más frescas", "pt": "As terras altas geralmente têm temperaturas mais frescas",
+         "fr": "Les hautes terres ont généralement des températures plus fraîches", "de": "Die Hochebenen haben im Allgemeinen kühlere Temperaturen"},
+        {"en": "Coastal areas can experience fog", "es": "Las zonas costeras pueden experimentar niebla", "pt": "As áreas costeiras podem ter neblina",
+         "fr": "Les zones côtières peuvent connaître du brouillard", "de": "Küstengebiete können Nebel erleben"},
+        {"en": "We're expecting a thunderstorm later", "es": "Esperamos una tormenta eléctrica más tarde", "pt": "Estamos esperando uma tempestade mais tarde",
+         "fr": "Nous prévoyons un orage plus tard", "de": "Wir erwarten später ein Gewitter"},
+        {"en": "Temperature can vary greatly between day and night", "es": "La temperatura puede variar mucho entre el día y la noche", "pt": "A temperatura pode variar muito entre o dia e a noite",
+         "fr": "La température peut varier considérablement entre le jour et la nuit", "de": "Die Temperatur kann zwischen Tag und Nacht stark variieren"},
+        {"en": "Altitude significantly affects the local climate", "es": "La altitud afecta significativamente el clima local", "pt": "A altitude afeta significativamente o clima local",
+         "fr": "L'altitude affecte considérablement le climat local", "de": "Die Höhe beeinflusst das lokale Klima erheblich"},
+        {"en": "Weather patterns can influence daily activities", "es": "Los patrones climáticos pueden influir en las actividades diarias", "pt": "Os padrões climáticos podem influenciar as atividades diárias",
+         "fr": "Les conditions météorologiques peuvent influencer les activités quotidiennes", "de": "Wettermuster können tägliche Aktivitäten beeinflussen"},
+        {"en": "Microclimates can vary within short distances", "es": "Los microclimas pueden variar en distancias cortas", "pt": "Os microclimas podem variar em curtas distâncias",
+         "fr": "Les microclimats peuvent varier sur de courtes distances", "de": "Mikroklimata können über kurze Distanzen variieren"}
     ],
     "Natural Landscapes": [
         {"en": "The valley is surrounded by mountains", "es": "El valle está rodeado de montañas", "pt": "O vale é cercado por montanhas",
@@ -352,115 +352,65 @@ day20_phrases = {
 
 # Day 22: Cultural Integration - Renting and Housing Vocabulary
 day22_phrases = {
-    "Indigenous Words in Spanish/Portuguese": [
-        {"en": "Canoe (from Arawak 'canoa')", "es": "Canoa", "pt": "Canoa",
-         "fr": "Canoë", "de": "Kanu"},
-        {"en": "Hammock (from Taíno 'hamaca')", "es": "Hamaca", "pt": "Rede",
-         "fr": "Hamac", "de": "Hängematte"},
-        {"en": "Potato (from Quechua 'papa')", "es": "Papa", "pt": "Batata",
-         "fr": "Pomme de terre", "de": "Kartoffel"},
-        {"en": "Chocolate (from Nahuatl 'xocolatl')", "es": "Chocolate", "pt": "Chocolate",
-         "fr": "Chocolat", "de": "Schokolade"},
-        {"en": "Jaguar (from Tupi 'jaguara')", "es": "Jaguar", "pt": "Onça-pintada",
-         "fr": "Jaguar", "de": "Jaguar"},
-        {"en": "Avocado (from Nahuatl 'ahuacatl')", "es": "Aguacate", "pt": "Abacate",
-         "fr": "Avocat", "de": "Avocado"},
-        {"en": "Condor (from Quechua 'kuntur')", "es": "Cóndor", "pt": "Condor",
-         "fr": "Condor", "de": "Kondor"},
-        {"en": "Coca (from Aymara 'kuka')", "es": "Coca", "pt": "Coca",
-         "fr": "Coca", "de": "Koka"},
-        {"en": "Guava (from Arawak 'guayaba')", "es": "Guayaba", "pt": "Goiaba",
-         "fr": "Goyave", "de": "Guave"},
-        {"en": "Maize/Corn (from Taíno 'mahiz')", "es": "Maíz", "pt": "Milho",
-         "fr": "Maïs", "de": "Mais"}
+    "Loanwords & Linguistic Influence": [
+        {"en": "Many languages borrow words from others", "es": "Muchos idiomas toman prestadas palabras de otros", "pt": "Muitas línguas emprestam palavras de outras", "fr": "De nombreuses langues empruntent des mots à d'autres", "de": "Viele Sprachen leihen Wörter von anderen"},
+        {"en": "'Ballet' comes from French", "es": "'Ballet' viene del francés", "pt": "'Ballet' vem do francês", "fr": "'Ballet' vient du français", "de": "'Ballett' kommt aus dem Französischen"},
+        {"en": "'Algebra' has Arabic origins", "es": "'Álgebra' tiene orígenes árabes", "pt": "'Álgebra' tem origens árabes", "fr": "'Algèbre' a des origines arabes", "de": "'Algebra' hat arabische Ursprünge"},
+        {"en": "'Schadenfreude' is a German loanword", "es": "'Schadenfreude' es un préstamo del alemán", "pt": "'Schadenfreude' é um empréstimo do alemão", "fr": "'Schadenfreude' est un emprunt de l'allemand", "de": "'Schadenfreude' ist ein deutsches Lehnwort"},
+        {"en": "'Sofa' comes from Arabic 'suffah'", "es": "'Sofá' viene del árabe 'suffah'", "pt": "'Sofá' vem do árabe 'suffah'", "fr": "'Sofa' vient de l'arabe 'suffah'", "de": "'Sofa' kommt vom arabischen 'suffah'"},
+        {"en": "'Café' is used in many languages", "es": "'Café' se usa en muchos idiomas", "pt": "'Café' é usado em muitas línguas", "fr": "'Café' est utilisé dans de nombreuses langues", "de": "'Café' wird in vielen Sprachen verwendet"},
+        {"en": "'Tsunami' is a Japanese word", "es": "'Tsunami' es una palabra japonesa", "pt": "'Tsunami' é uma palavra japonesa", "fr": "'Tsunami' est un mot japonais", "de": "'Tsunami' ist ein japanisches Wort"},
+        {"en": "'Guerilla' comes from Spanish", "es": "'Guerrilla' viene del español", "pt": "'Guerrilha' vem do espanhol", "fr": "'Guérilla' vient de l'espagnol", "de": "'Guerilla' kommt aus dem Spanischen"},
+        {"en": "'Robot' was coined by a Czech writer", "es": "'Robot' fue acuñado por un escritor checo", "pt": "'Robot' foi cunhado por um escritor tcheco", "fr": "'Robot' a été inventé par un écrivain tchèque", "de": "'Roboter' wurde von einem tschechischen Schriftsteller geprägt"},
+        {"en": "Understanding loanwords helps language learning", "es": "Entender los préstamos lingüísticos ayuda al aprendizaje de idiomas", "pt": "Entender empréstimos linguísticos ajuda no aprendizado de idiomas", "fr": "Comprendre les emprunts aide à l'apprentissage des langues", "de": "Das Verständnis von Lehnwörtern hilft beim Sprachenlernen"}
     ],
-    "Indigenous Cultural Heritage": [
-        {"en": "The Incas built Machu Picchu", "es": "Los Incas construyeron Machu Picchu", "pt": "Os Incas construíram Machu Picchu",
-         "fr": "Les Incas ont construit le Machu Picchu", "de": "Die Inkas bauten Machu Picchu"},
-        {"en": "The Mayans developed a complex calendar", "es": "Los Mayas desarrollaron un calendario complejo", "pt": "Os Maias desenvolveram um calendário complexo",
-         "fr": "Les Mayas ont développé un calendrier complexe", "de": "Die Maya entwickelten einen komplexen Kalender"},
-        {"en": "The Guaraní are known for their yerba mate", "es": "Los Guaraníes son conocidos por su yerba mate", "pt": "Os Guaranis são conhecidos por sua erva-mate",
-         "fr": "Les Guaraní sont connus pour leur yerba maté", "de": "Die Guaraní sind bekannt für ihren Yerba Mate"},
-        {"en": "The Mapuche resisted colonization", "es": "Los Mapuches resistieron la colonización", "pt": "Os Mapuches resistiram à colonização",
-         "fr": "Les Mapuches ont résisté à la colonisation", "de": "Die Mapuche widersetzten sich der Kolonisation"},
-        {"en": "The Quechua language is still widely spoken", "es": "La lengua quechua todavía se habla ampliamente", "pt": "A língua quéchua ainda é amplamente falada",
-         "fr": "La langue quechua est encore largement parlée", "de": "Die Quechua-Sprache wird immer noch weit verbreitet gesprochen"},
-        {"en": "The Aymara people live around Lake Titicaca", "es": "El pueblo Aymara vive alrededor del Lago Titicaca", "pt": "O povo Aymara vive ao redor do Lago Titicaca",
-         "fr": "Le peuple aymara vit autour du lac Titicaca", "de": "Die Aymara leben rund um den Titicaca-See"},
-        {"en": "The Yanomami inhabit the Amazon rainforest", "es": "Los Yanomami habitan la selva amazónica", "pt": "Os Yanomami habitam a floresta amazônica",
-         "fr": "Les Yanomami habitent la forêt amazonienne", "de": "Die Yanomami bewohnen den Amazonas-Regenwald"},
-        {"en": "The Nazca created the famous lines", "es": "Los Nazca crearon las famosas líneas", "pt": "Os Nazca criaram as famosas linhas",
-         "fr": "Les Nazca ont créé les fameuses lignes", "de": "Die Nazca erschufen die berühmten Linien"},
-        {"en": "The Wari preceded the Inca Empire", "es": "Los Wari precedieron al Imperio Inca", "pt": "Os Wari precederam o Império Inca",
-         "fr": "Les Wari ont précédé l'Empire Inca", "de": "Die Wari gingen dem Inka-Reich voraus"},
-        {"en": "The Tiwanaku civilization was advanced", "es": "La civilización Tiwanaku era avanzada", "pt": "A civilização Tiwanaku era avançada",
-         "fr": "La civilisation Tiwanaku était avancée", "de": "Die Tiwanaku-Zivilisation war fortschrittlich"}
+    "Historical & Cultural Heritage": [
+        {"en": "Ancient ruins tell stories of past civilizations", "es": "Las ruinas antiguas cuentan historias de civilizaciones pasadas", "pt": "Ruínas antigas contam histórias de civilizações passadas", "fr": "Les ruines antiques racontent des histoires de civilisations passées", "de": "Antike Ruinen erzählen Geschichten vergangener Zivilisationen"},
+        {"en": "Medieval castles are common in Europe", "es": "Los castillos medievales son comunes en Europa", "pt": "Castelos medievais são comuns na Europa", "fr": "Les châteaux médiévaux sont courants en Europe", "de": "Mittelalterliche Burgen sind in Europa verbreitet"},
+        {"en": "Pre-Columbian sites reveal ancient American history", "es": "Los sitios precolombinos revelan la historia antigua de América", "pt": "Sítios pré-colombianos revelam a história antiga da América", "fr": "Les sites précolombiens révèlent l'histoire ancienne de l'Amérique", "de": "Präkolumbianische Stätten enthüllen die alte Geschichte Amerikas"},
+        {"en": "Roman aqueducts are impressive engineering feats", "es": "Los acueductos romanos son impresionantes hazañas de ingeniería", "pt": "Os aquedutos romanos são impressionantes feitos de engenharia", "fr": "Les aqueducs romains sont d'impressionnantes prouesses d'ingénierie", "de": "Römische Aquädukte sind beeindruckende Ingenieursleistungen"},
+        {"en": "Viking longships explored distant lands", "es": "Los drakkars vikingos exploraron tierras lejanas", "pt": "Os dracares vikings exploraram terras distantes", "fr": "Les drakkars vikings ont exploré des terres lointaines", "de": "Wikinger-Langschiffe erkundeten ferne Länder"},
+        {"en": "Many cultures have complex mythologies", "es": "Muchas culturas tienen mitologías complejas", "pt": "Muitas culturas têm mitologias complexas", "fr": "De nombreuses cultures ont des mythologies complexes", "de": "Viele Kulturen haben komplexe Mythologien"},
+        {"en": "Historical trade routes connected continents", "es": "Las rutas comerciales históricas conectaban continentes", "pt": "Rotas comerciais históricas conectavam continentes", "fr": "Les routes commerciales historiques reliaient les continents", "de": "Historische Handelsrouten verbanden Kontinente"},
+        {"en": "Colonial architecture reflects historical influences", "es": "La arquitectura colonial refleja influencias históricas", "pt": "A arquitetura colonial reflete influências históricas", "fr": "L'architecture coloniale reflète les influences historiques", "de": "Kolonialarchitektur spiegelt historische Einflüsse wider"},
+        {"en": "Archaeological sites offer glimpses into the past", "es": "Los sitios arqueológicos ofrecen vistazos al pasado", "pt": "Sítios arqueológicos oferecem vislumbres do passado", "fr": "Les sites archéologiques offrent des aperçus du passé", "de": "Archäologische Stätten bieten Einblicke in die Vergangenheit"},
+        {"en": "Preserving cultural heritage is important", "es": "Preservar el patrimonio cultural es importante", "pt": "Preservar o patrimônio cultural é importante", "fr": "Préserver le patrimoine culturel est important", "de": "Die Bewahrung des Kulturerbes ist wichtig"}
     ],
     "Traditional Knowledge & Practices": [
-        {"en": "Traditional medicine uses local plants", "es": "La medicina tradicional usa plantas locales", "pt": "A medicina tradicional usa plantas locais",
-         "fr": "La médecine traditionnelle utilise des plantes locales", "de": "Traditionelle Medizin verwendet einheimische Pflanzen"},
-        {"en": "Shamans are spiritual healers", "es": "Los chamanes son sanadores espirituales", "pt": "Os xamãs são curandeiros espirituais",
-         "fr": "Les chamans sont des guérisseurs spirituels", "de": "Schamanen sind spirituelle Heiler"},
-        {"en": "Weaving techniques are passed down generations", "es": "Las técnicas de tejido se transmiten por generaciones", "pt": "As técnicas de tecelagem são transmitidas por gerações",
-         "fr": "Les techniques de tissage se transmettent de génération en génération", "de": "Webtechniken werden von Generation zu Generation weitergegeben"},
-        {"en": "Terrace farming was developed by the Incas", "es": "La agricultura en terrazas fue desarrollada por los Incas", "pt": "A agricultura em terraços foi desenvolvida pelos Incas",
-         "fr": "L'agriculture en terrasses a été développée par les Incas", "de": "Die Terrassenlandwirtschaft wurde von den Inkas entwickelt"},
-        {"en": "Traditional fishing methods are sustainable", "es": "Los métodos tradicionales de pesca son sostenibles", "pt": "Os métodos tradicionais de pesca são sustentáveis",
-         "fr": "Les méthodes de pêche traditionnelles sont durables", "de": "Traditionelle Fischereimethoden sind nachhaltig"},
-        {"en": "Pottery techniques date back thousands of years", "es": "Las técnicas de cerámica datan de miles de años", "pt": "As técnicas de cerâmica datam de milhares de anos",
-         "fr": "Les techniques de poterie remontent à des milliers d'années", "de": "Töpfertechniken gibt es seit Tausenden von Jahren"},
-        {"en": "Traditional navigation uses stars", "es": "La navegación tradicional usa las estrellas", "pt": "A navegação tradicional usa as estrelas",
-         "fr": "La navigation traditionnelle utilise les étoiles", "de": "Traditionelle Navigation nutzt die Sterne"},
-        {"en": "Oral traditions preserve cultural knowledge", "es": "Las tradiciones orales preservan el conocimiento cultural", "pt": "As tradições orais preservam o conhecimento cultural",
-         "fr": "Les traditions orales préservent le savoir culturel", "de": "Mündliche Überlieferungen bewahren das kulturelle Wissen"},
-        {"en": "Traditional architecture uses local materials", "es": "La arquitectura tradicional usa materiales locales", "pt": "A arquitetura tradicional usa materiais locais",
-         "fr": "L'architecture traditionnelle utilise des matériaux locaux", "de": "Traditionelle Architektur verwendet lokale Materialien"},
-        {"en": "Ancestral farming practices are still used", "es": "Las prácticas agrícolas ancestrales todavía se usan", "pt": "As práticas agrícolas ancestrais ainda são usadas",
-         "fr": "Les pratiques agricoles ancestrales sont encore utilisées", "de": "Uralte landwirtschaftliche Praktiken werden immer noch angewendet"}
+        {"en": "Traditional medicine often uses local plants", "es": "La medicina tradicional suele usar plantas locales", "pt": "A medicina tradicional frequentemente usa plantas locais", "fr": "La médecine traditionnelle utilise souvent des plantes locales", "de": "Traditionelle Medizin verwendet oft lokale Pflanzen"},
+        {"en": "Spiritual healers play roles in some cultures", "es": "Los sanadores espirituales juegan roles en algunas culturas", "pt": "Curandeiros espirituais desempenham papéis em algumas culturas", "fr": "Les guérisseurs spirituels jouent un rôle dans certaines cultures", "de": "Spirituelle Heiler spielen in einigen Kulturen eine Rolle"},
+        {"en": "Weaving techniques are passed down generations", "es": "Las técnicas de tejido se transmiten por generaciones", "pt": "As técnicas de tecelagem são transmitidas por gerações", "fr": "Les techniques de tissage se transmettent de génération en génération", "de": "Webtechniken werden über Generationen weitergegeben"},
+        {"en": "Terrace farming is an ancient agricultural method", "es": "La agricultura en terrazas es un método agrícola antiguo", "pt": "A agricultura em terraços é um método agrícola antigo", "fr": "L'agriculture en terrasses est une méthode agricole ancienne", "de": "Terrassenfeldbau ist eine alte landwirtschaftliche Methode"},
+        {"en": "Traditional fishing methods can be sustainable", "es": "Los métodos tradicionales de pesca pueden ser sostenibles", "pt": "Os métodos tradicionais de pesca podem ser sustentáveis", "fr": "Les méthodes de pêche traditionnelles peuvent être durables", "de": "Traditionelle Fischfangmethoden können nachhaltig sein"},
+        {"en": "Pottery techniques date back thousands of years", "es": "Las técnicas de cerámica datan de miles de años", "pt": "As técnicas de cerâmica datam de milhares de anos", "fr": "Les techniques de poterie remontent à des milliers d'années", "de": "Töpfertechniken reichen Tausende von Jahren zurück"},
+        {"en": "Traditional navigation sometimes uses stars", "es": "La navegación tradicional a veces usa las estrellas", "pt": "A navegação tradicional às vezes usa as estrelas", "fr": "La navigation traditionnelle utilise parfois les étoiles", "de": "Traditionelle Navigation nutzt manchmal Sterne"},
+        {"en": "Oral traditions preserve cultural knowledge", "es": "Las tradiciones orales preservan el conocimiento cultural", "pt": "As tradições orais preservam o conhecimento cultural", "fr": "Les traditions orales préservent le savoir culturel", "de": "Mündliche Überlieferungen bewahren kulturelles Wissen"},
+        {"en": "Traditional architecture often uses local materials", "es": "La arquitectura tradicional suele usar materiales locales", "pt": "A arquitetura tradicional frequentemente usa materiais locais", "fr": "L'architecture traditionnelle utilise souvent des matériaux locaux", "de": "Traditionelle Architektur verwendet oft lokale Materialien"},
+        {"en": "Ancestral farming practices are still used today", "es": "Las prácticas agrícolas ancestrales todavía se usan hoy", "pt": "As práticas agrícolas ancestrais ainda são usadas hoje", "fr": "Les pratiques agricoles ancestrales sont encore utilisées aujourd'hui", "de": "Alte landwirtschaftliche Praktiken werden heute noch angewendet"}
     ],
-    "Cultural Celebrations": [
-        {"en": "Inti Raymi celebrates the sun god", "es": "El Inti Raymi celebra al dios sol", "pt": "O Inti Raymi celebra o deus sol",
-         "fr": "L'Inti Raymi célèbre le dieu soleil", "de": "Inti Raymi feiert den Sonnengott"},
-        {"en": "Carnival is a major celebration", "es": "El Carnaval es una celebración importante", "pt": "O Carnaval é uma celebração importante",
-         "fr": "Le Carnaval est une grande célébration", "de": "Karneval ist eine wichtige Feierlichkeit"},
-        {"en": "Day of the Dead honors ancestors", "es": "El Día de los Muertos honra a los antepasados", "pt": "O Dia dos Mortos honra os antepassados",
-         "fr": "Le Jour des Morts honore les ancêtres", "de": "Der Tag der Toten ehrt die Vorfahren"},
-        {"en": "Traditional dances tell stories", "es": "Las danzas tradicionales cuentan historias", "pt": "As danças tradicionais contam histórias",
-         "fr": "Les danses traditionnelles racontent des histoires", "de": "Traditionelle Tänze erzählen Geschichten"},
-        {"en": "Pachamama rituals honor Mother Earth", "es": "Los rituales a la Pachamama honran a la Madre Tierra", "pt": "Os rituais à Pachamama honram a Mãe Terra",
-         "fr": "Les rituels de Pachamama honorent la Terre Mère", "de": "Pachamama-Rituale ehren Mutter Erde"},
-        {"en": "Festivals follow the agricultural calendar", "es": "Los festivales siguen el calendario agrícola", "pt": "Os festivais seguem o calendário agrícola",
-         "fr": "Les festivals suivent le calendrier agricole", "de": "Festivals richten sich nach dem landwirtschaftlichen Kalender"},
-        {"en": "Music is central to celebrations", "es": "La música es central en las celebraciones", "pt": "A música é central nas celebrações",
-         "fr": "La musique est centrale dans les célébrations", "de": "Musik ist zentral für Feierlichkeiten"},
-        {"en": "Traditional costumes are colorful", "es": "Los trajes tradicionales son coloridos", "pt": "As roupas tradicionais são coloridas",
-         "fr": "Les costumes traditionnels sont colorés", "de": "Traditionelle Kostüme sind farbenfroh"},
-        {"en": "Ceremonies often include offerings", "es": "Las ceremonias a menudo incluyen ofrendas", "pt": "As cerimônias frequentemente incluem oferendas",
-         "fr": "Les cérémonies incluent souvent des offrandes", "de": "Zeremonien beinhalten oft Opfergaben"},
-        {"en": "Festivals strengthen community bonds", "es": "Los festivales fortalecen los lazos comunitarios", "pt": "Os festivais fortalecem os laços comunitários",
-         "fr": "Les festivals renforcent les liens communautaires", "de": "Festivals stärken die Gemeinschaftsbande"}
+    "Cultural Celebrations & Festivals": [
+        {"en": "Many cultures celebrate the New Year", "es": "Muchas culturas celebran el Año Nuevo", "pt": "Muitas culturas celebram o Ano Novo", "fr": "De nombreuses cultures célèbrent le Nouvel An", "de": "Viele Kulturen feiern das Neujahr"},
+        {"en": "Carnival is a major celebration in many places", "es": "El Carnaval es una celebración importante en muchos lugares", "pt": "O Carnaval é uma celebração importante em muitos lugares", "fr": "Le Carnaval est une célébration majeure dans de nombreux endroits", "de": "Karneval ist an vielen Orten eine wichtige Feier"},
+        {"en": "Oktoberfest is a famous German festival", "es": "El Oktoberfest es un famoso festival alemán", "pt": "A Oktoberfest é um famoso festival alemão", "fr": "L'Oktoberfest est un célèbre festival allemand", "de": "Das Oktoberfest ist ein berühmtes deutsches Fest"},
+        {"en": "Traditional dances often tell stories", "es": "Las danzas tradicionales suelen contar historias", "pt": "As danças tradicionais frequentemente contam histórias", "fr": "Les danses traditionnelles racontent souvent des histoires", "de": "Traditionelle Tänze erzählen oft Geschichten"},
+        {"en": "Harvest festivals celebrate agricultural abundance", "es": "Las fiestas de la cosecha celebran la abundancia agrícola", "pt": "Os festivais da colheita celebram a abundância agrícola", "fr": "Les fêtes des récoltes célèbrent l'abondance agricole", "de": "Erntedankfeste feiern die landwirtschaftliche Fülle"},
+        {"en": "Midsummer is celebrated in Nordic countries", "es": "El solsticio de verano se celebra en los países nórdicos", "pt": "O solstício de verão é celebrado nos países nórdicos", "fr": "La Saint-Jean est célébrée dans les pays nordiques", "de": "Mittsommer wird in nordischen Ländern gefeiert"},
+        {"en": "Music is central to many celebrations", "es": "La música es central en muchas celebraciones", "pt": "A música é central em muitas celebrações", "fr": "La musique est au cœur de nombreuses célébrations", "de": "Musik ist zentral für viele Feiern"},
+        {"en": "Traditional costumes are worn during festivals", "es": "Se usan trajes tradicionales durante los festivales", "pt": "Roupas tradicionais são usadas durante os festivais", "fr": "Les costumes traditionnels sont portés pendant les festivals", "de": "Traditionelle Kostüme werden während Festivals getragen"},
+        {"en": "Religious holidays are important in many cultures", "es": "Las festividades religiosas son importantes en muchas culturas", "pt": "Feriados religiosos são importantes em muitas culturas", "fr": "Les fêtes religieuses sont importantes dans de nombreuses cultures", "de": "Religiöse Feiertage sind in vielen Kulturen wichtig"},
+        {"en": "Festivals often strengthen community bonds", "es": "Los festivales suelen fortalecer los lazos comunitarios", "pt": "Os festivais frequentemente fortalecem os laços comunitários", "fr": "Les festivals renforcent souvent les liens communautaires", "de": "Festivals stärken oft die Gemeinschaftsbande"}
     ],
-    "Indigenous Communities Today": [
-        {"en": "Many indigenous communities face challenges", "es": "Muchas comunidades indígenas enfrentan desafíos", "pt": "Muitas comunidades indígenas enfrentam desafios",
-         "fr": "De nombreuses communautés autochtones font face à des défis", "de": "Viele indigene Gemeinschaften stehen vor Herausforderungen"},
-        {"en": "Land rights are an important issue", "es": "Los derechos a la tierra son un tema importante", "pt": "Os direitos à terra são uma questão importante",
-         "fr": "Les droits fonciers sont une question importante", "de": "Landrechte sind ein wichtiges Thema"},
-        {"en": "Traditional languages are being revitalized", "es": "Las lenguas tradicionales están siendo revitalizadas", "pt": "As línguas tradicionais estão sendo revitalizadas",
-         "fr": "Les langues traditionnelles sont en cours de revitalisation", "de": "Traditionelle Sprachen werden revitalisiert"},
-        {"en": "Indigenous knowledge is valuable for conservation", "es": "El conocimiento indígena es valioso para la conservación", "pt": "O conhecimento indígena é valioso para a conservação",
-         "fr": "Le savoir indigène est précieux pour la conservation", "de": "Indigenes Wissen ist wertvoll für den Naturschutz"},
-        {"en": "Many communities maintain their traditions", "es": "Muchas comunidades mantienen sus tradiciones", "pt": "Muitas comunidades mantêm suas tradições",
-         "fr": "De nombreuses communautés préservent leurs traditions", "de": "Viele Gemeinschaften bewahren ihre Traditionen"},
-        {"en": "Indigenous art is internationally recognized", "es": "El arte indígena es reconocido internacionalmente", "pt": "A arte indígena é reconhecida internacionalmente",
-         "fr": "L'art indigène est reconnu internationalement", "de": "Indigene Kunst wird international anerkannt"},
-        {"en": "Education often includes cultural teachings", "es": "La educación a menudo incluye enseñanzas culturales", "pt": "A educação frequentemente inclui ensinamentos culturais",
-         "fr": "L'éducation inclut souvent des enseignements culturels", "de": "Bildung umfasst oft kulturelle Lehren"},
-        {"en": "Tourism can support indigenous communities", "es": "El turismo puede apoyar a las comunidades indígenas", "pt": "O turismo pode apoiar comunidades indígenas",
-         "fr": "Le tourisme peut soutenir les communautés autochtones", "de": "Tourismus kann indigene Gemeinschaften unterstützen"},
-        {"en": "Traditional medicine complements modern healthcare", "es": "La medicina tradicional complementa la atención médica moderna", "pt": "A medicina tradicional complementa os cuidados de saúde modernos",
-         "fr": "La médecine traditionnelle complète les soins de santé modernes", "de": "Traditionelle Medizin ergänzt die moderne Gesundheitsversorgung"},
-        {"en": "Indigenous leaders advocate for their rights", "es": "Los líderes indígenas defienden sus derechos", "pt": "Os líderes indígenas defendem seus direitos",
-         "fr": "Les dirigeants autochtones défendent leurs droits", "de": "Indigene Führer setzen sich für ihre Rechte ein"}
+    "Cultural Communities & Modern Issues": [
+        {"en": "Many cultural communities face modern challenges", "es": "Muchas comunidades culturales enfrentan desafíos modernos", "pt": "Muitas comunidades culturais enfrentam desafios modernos", "fr": "De nombreuses communautés culturelles font face à des défis modernes", "de": "Viele Kulturgemeinschaften stehen vor modernen Herausforderungen"},
+        {"en": "Minority rights are an important issue globally", "es": "Los derechos de las minorías son un tema importante a nivel mundial", "pt": "Os direitos das minorias são uma questão importante globalmente", "fr": "Les droits des minorités sont une question importante au niveau mondial", "de": "Minderheitenrechte sind weltweit ein wichtiges Thema"},
+        {"en": "Regional languages are being revitalized", "es": "Las lenguas regionales están siendo revitalizadas", "pt": "As línguas regionais estão sendo revitalizadas", "fr": "Les langues régionales sont en cours de revitalisation", "de": "Regionalsprachen werden wiederbelebt"},
+        {"en": "Cultural knowledge is valuable for society", "es": "El conocimiento cultural es valioso para la sociedad", "pt": "O conhecimento cultural é valioso para a sociedade", "fr": "Le savoir culturel est précieux pour la société", "de": "Kulturelles Wissen ist wertvoll für die Gesellschaft"},
+        {"en": "Many communities work to maintain their traditions", "es": "Muchas comunidades trabajan para mantener sus tradiciones", "pt": "Muitas comunidades trabalham para manter suas tradições", "fr": "De nombreuses communautés s'efforcent de maintenir leurs traditions", "de": "Viele Gemeinschaften arbeiten daran, ihre Traditionen zu bewahren"},
+        {"en": "Local art forms gain international recognition", "es": "Las formas de arte locales ganan reconocimiento internacional", "pt": "Formas de arte locais ganham reconhecimento internacional", "fr": "Les formes d'art locales obtiennent une reconnaissance internationale", "de": "Lokale Kunstformen gewinnen internationale Anerkennung"},
+        {"en": "Education often includes cultural awareness", "es": "La educación a menudo incluye la conciencia cultural", "pt": "A educação frequentemente inclui a consciência cultural", "fr": "L'éducation inclut souvent la sensibilisation culturelle", "de": "Bildung beinhaltet oft kulturelles Bewusstsein"},
+        {"en": "Sustainable tourism can support local communities", "es": "El turismo sostenible puede apoyar a las comunidades locales", "pt": "O turismo sustentável pode apoiar comunidades locais", "fr": "Le tourisme durable peut soutenir les communautés locales", "de": "Nachhaltiger Tourismus kann lokale Gemeinschaften unterstützen"},
+        {"en": "Traditional practices can complement modern life", "es": "Las prácticas tradicionales pueden complementar la vida moderna", "pt": "Práticas tradicionais podem complementar a vida moderna", "fr": "Les pratiques traditionnelles peuvent compléter la vie moderne", "de": "Traditionelle Praktiken können das moderne Leben ergänzen"},
+        {"en": "Community leaders advocate for cultural preservation", "es": "Los líderes comunitarios abogan por la preservación cultural", "pt": "Líderes comunitários defendem a preservação cultural", "fr": "Les dirigeants communautaires plaident pour la préservation culturelle", "de": "Gemeinschaftsführer setzen sich für den Kulturerhalt ein"}
     ]
 }
 
@@ -532,6 +482,50 @@ day24_phrases = {
         {"en": "To be angry", "es": "Estar emberracado/Estar ofendido", "pt": "Estar bravo/Estar irritado",
          "fr": "Être vénère", "de": "Sauer sein"}
     ],
+    "Contemporary Slang in France": [
+        {"en": "Cool/Awesome", "es": "Genial", "pt": "Legal",
+         "fr": "Stylé/Kiffant", "de": "Cool/Spitze"},
+        {"en": "Dude/Friend", "es": "Tío/Amigo", "pt": "Cara/Amigo",
+         "fr": "Mec/Pote", "de": "Kumpel/Freund"},
+        {"en": "What's up?", "es": "¿Qué pasa?", "pt": "E aí?",
+         "fr": "Ça roule?/Quoi de neuf?", "de": "Was geht?"},
+        {"en": "To hang out", "es": "Pasar el rato", "pt": "Sair",
+         "fr": "Traîner/Se poser", "de": "Abhängen"},
+        {"en": "Money", "es": "Dinero", "pt": "Dinheiro",
+         "fr": "Thune/Fric/Blé", "de": "Kohle"},
+        {"en": "Work", "es": "Trabajo", "pt": "Trabalho",
+         "fr": "Boulot/Taf", "de": "Job"},
+        {"en": "Annoying/Bothersome", "es": "Molesto", "pt": "Chato",
+         "fr": "Relou/Chiante", "de": "Nervig"},
+        {"en": "Crazy/Insane", "es": "Loco", "pt": "Louco",
+         "fr": "Ouf/Dingue/Taré", "de": "Verrückt"},
+        {"en": "Excellent/Great", "es": "Excelente", "pt": "Ótimo",
+         "fr": "Nickel/Au top", "de": "Spitze"},
+        {"en": "To be angry", "es": "Estar enfadado", "pt": "Estar zangado",
+         "fr": "Avoir le seum/Être vénère", "de": "Sauer sein"}
+    ],
+    "Contemporary Slang in Germany": [
+        {"en": "Cool/Awesome", "es": "Genial", "pt": "Legal",
+         "fr": "Cool", "de": "Geil/Krass/Hammer"},
+        {"en": "Dude/Friend", "es": "Tío/Amigo", "pt": "Cara/Amigo",
+         "fr": "Mec", "de": "Alter/Digga/Kollege"},
+        {"en": "What's up?", "es": "¿Qué pasa?", "pt": "E aí?",
+         "fr": "Quoi de neuf?", "de": "Was geht?/Na?"},
+        {"en": "To hang out", "es": "Pasar el rato", "pt": "Sair",
+         "fr": "Traîner", "de": "Abhängen/Chillen"},
+        {"en": "Money", "es": "Dinero", "pt": "Dinheiro",
+         "fr": "Argent", "de": "Kohle/Knete/Asche"},
+        {"en": "Work", "es": "Trabajo", "pt": "Trabalho",
+         "fr": "Travail", "de": "Job/Arbeit"},
+        {"en": "Annoying/Bothersome", "es": "Molesto", "pt": "Chato",
+         "fr": "Ennuyeux", "de": "Nervig/Ätzend"},
+        {"en": "Crazy/Insane", "es": "Loco", "pt": "Louco",
+         "fr": "Fou", "de": "Verrückt/Irre/Bekloppt"},
+        {"en": "Excellent/Great", "es": "Excelente", "pt": "Ótimo",
+         "fr": "Excellent", "de": "Spitze/Super/Toll"},
+        {"en": "To be angry", "es": "Estar enfadado", "pt": "Estar zangado",
+         "fr": "Être en colère", "de": "Sauer sein/Angepisst sein"}
+    ],
     "Modern Workplace Slang": [
         {"en": "I'm swamped with work", "es": "Estoy hasta el cuello de trabajo", "pt": "Estou atolado de trabalho",
          "fr": "Je suis débordé au boulot", "de": "Ich bin mit Arbeit überhäuft"},
@@ -541,7 +535,7 @@ day24_phrases = {
          "fr": "Je travaille à distance aujourd'hui", "de": "Ich arbeite heute remote"},
         {"en": "Let's take this offline", "es": "Hablemos de esto en privado", "pt": "Vamos discutir isso em particular",
          "fr": "Parlons-en en privé", "de": "Lass uns das offline besprechen"},
-        {"en": "I need to pick your brain", "es": "Necesito tu opinión", "pt": "Preciso da sua opinião",
+        {"en": "I need to pick your brain", "es": "Necesito tu opinión", "pt": "Preciso da sua opinión",
          "fr": "J'ai besoin de ton avis", "de": "Ich muss deine Meinung einholen"},
         {"en": "Let's circle back on this", "es": "Volvamos a esto más tarde", "pt": "Vamos voltar a isso mais tarde",
          "fr": "Revenons à ce sujet plus tard", "de": "Lass uns später darauf zurückkommen"},
@@ -1148,7 +1142,7 @@ day19_phrases = {
     ]
 }
 
-# Day 17: Job Hunting in South America
+# Day 17: Job Hunting Abroad
 day17_phrases = {
     "Job Search Vocabulary": [
         {"en": "I'm looking for a job in tech", "es": "Estoy buscando trabajo en tecnología", "pt": "Estou procurando emprego em tecnologia",
@@ -1265,12 +1259,12 @@ day17_phrases = {
 # Dictionary mapping day numbers to phrase dictionaries
 all_phrases = {
     16: day16_phrases,  # Finding Housing and Accommodation
-    17: day17_phrases,  # Job Hunting in South America
+    17: day17_phrases,  # Job Hunting Abroad
     18: day18_phrases,  # Banking and Finance
     19: day19_phrases,  # Healthcare Systems
-    20: day20_phrases,  # Regional Cultural Nuances
+    20: day20_phrases,  # Geography and Environment
     21: day21_phrases,  # Workplace Language and Etiquette
-    22: day22_phrases,  # Renting and Housing Vocabulary
+    22: day22_phrases,  # Cultural Heritage and Influence
     23: day23_phrases,  # Banking and Bureaucracy
     24: day24_phrases,  # Transportation and Logistics
     25: day25_phrases,  # Social Integration - Making Friends and Building Community
@@ -1313,7 +1307,7 @@ def generate_audio(day, language_code, language_name):
     print(f"✓ Saved to audio_files/day{day}_{language_code}.mp3 ({elapsed:.2f}s)")
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate language learning files for Living & Working in South America (Days 16-26)")
+    parser = argparse.ArgumentParser(description="Generate language learning files for Living & Working Abroad (Days 16-26)")
     parser.add_argument("--day", "-d", type=int, choices=list(range(16, 27)), default=None,
                         help="Day number to generate (16-26). If not specified, generates all available days.")
     parser.add_argument("--languages", "-l", nargs="+", choices=["es", "pt", "en", "fr", "de"], 
