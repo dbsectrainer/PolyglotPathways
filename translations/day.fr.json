@@ -15,7 +15,9 @@
     "dayMarkedComplete": "Jour marqué comme terminé !",
     "phraseCopied": "Phrase copiée dans le presse-papiers !",
     "textNotAvailable": "Contenu textuel non disponible.",
-    "audioNotSupported": "Votre navigateur ne prend pas en charge l'élément audio."
+    "audioNotSupported": "Votre navigateur ne prend pas en charge l'élément audio.",
+    "watchPracticeVideos": "Regarder les Vidéos de Pratique",
+    "videoUnavailable": "Vidéo actuellement indisponible"
   },
   "languages": {
     "english": "Anglais",

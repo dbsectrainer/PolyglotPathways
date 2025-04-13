@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/video-player.css">
+    <link rel="stylesheet" href="css/native-speaker.css">
     <script src="js/day-i18n.js"></script>
 </head>
 <body>
@@ -69,6 +71,20 @@
                 <!-- Text content will be dynamically added here -->
             </div>
 
+            <!-- Practice with Native Speaker Videos -->
+            <div id="video-section" style="display: none;">
+                <div class="section-divider"></div>
+                <h3 class="practice-heading">
+                    <span data-i18n="lesson.watchPracticeVideos">Watch Practice Videos</span>
+                </h3>
+                <div class="video-player" id="video-player">
+                    <iframe id="youtube-video" frameborder="0" allowfullscreen></iframe>
+                    <div id="video-fallback">
+                        <span data-i18n="lesson.videoUnavailable">Video currently unavailable</span>
+                    </div>
+                </div>
+            </div>
+
             <div class="lesson-actions">
                 <button id="complete-btn" class="complete-btn">
                     <i class="fas fa-check"></i> <span data-i18n="lesson.markComplete">Mark as Complete</span>
@@ -103,6 +119,7 @@
         <span data-i18n="lesson.phraseCopied">Phrase copied to clipboard!</span>
     </div>
 
+    <script src="js/video-loader.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const urlParams = new URLSearchParams(window.location.search);
@@ -212,6 +229,15 @@
                 'de': '🇩🇪'
             };
             document.getElementById('language-flag').textContent = flagMap[lang];
+
+            // Show video section for all languages and load video
+            const videoSection = document.getElementById('video-section');
+            videoSection.style.display = 'block';
+            
+            // Load video for current day and language
+            if (window.videoLoader) {
+                window.videoLoader.loadVideo(day, lang);
+            }
 
             // Update section info
             const sectionInfo = getSectionInfo(day);

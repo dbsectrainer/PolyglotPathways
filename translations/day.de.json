@@ -15,7 +15,9 @@
     "dayMarkedComplete": "Tag als abgeschlossen markiert!",
     "phraseCopied": "Phrase in die Zwischenablage kopiert!",
     "textNotAvailable": "Textinhalt nicht verfügbar.",
-    "audioNotSupported": "Ihr Browser unterstützt das Audio-Element nicht."
+    "audioNotSupported": "Ihr Browser unterstützt das Audio-Element nicht.",
+    "watchPracticeVideos": "Übungsvideos ansehen",
+    "videoUnavailable": "Video derzeit nicht verfügbar"
   },
   "languages": {
     "english": "Englisch",

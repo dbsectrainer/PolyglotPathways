@@ -15,7 +15,9 @@
     "dayMarkedComplete": "Day marked as complete!",
     "phraseCopied": "Phrase copied to clipboard!",
     "textNotAvailable": "Text content not available.",
-    "audioNotSupported": "Your browser does not support the audio element."
+    "audioNotSupported": "Your browser does not support the audio element.",
+    "watchPracticeVideos": "Watch Practice Videos",
+    "videoUnavailable": "Video currently unavailable"
   },
   "languages": {
     "english": "English",
