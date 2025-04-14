@@ -55,33 +55,35 @@ def get_topic(identifier, language_code="en"):
         25: "online meetings phrases",
         26: "remote work vocabulary",
 
-        # Tech Professional (Days 27-31)
-        27: "email writing phrases",
-        28: "presentations phrases",
-        29: "technical terms vocabulary",
-        30: "professional conduct",
-        31: "formal expressions",
+        # Tech & Environment (Days 27-31)
+        27: "software engineering tech workplace vocabulary",
+        28: "digital life tech vocabulary",
+        29: "environmental geographical terms",
+        30: "indigenous influence cultural heritage",
+        31: "contemporary slang expressions",
 
-        # Advanced Professional (Days 32-50)
-        32: "idioms expressions",
-        33: "formal expressions",
-        34: "casual slang",
-        35: "debate discussion phrases",
-        36: "storytelling phrases",
-        37: "persuasive speech",
-        38: "advanced dialogue",
-        39: "role play scenarios",
-        40: "complex conversations",
-        41: "business negotiations",
-        42: "academic presentations",
-        43: "professional writing",
-        44: "advanced grammar",
-        45: "cultural differences",
-        46: "business meetings",
-        47: "job interviews",
-        48: "professional networking",
-        49: "public speaking",
-        50: "advanced communication"
+        # Academic & Professional (Days 32-44)
+        32: "academic writing research",
+        33: "professional negotiations conflict resolution",
+        34: "business proposals reports",
+        35: "scientific research terminology",
+        36: "literary analysis criticism",
+        37: "poetry figurative language",
+        38: "historical cultural references",
+        39: "film media analysis",
+        40: "art architecture vocabulary",
+        41: "subtle humor wordplay",
+        42: "irony sarcasm cultural jokes",
+        43: "complex social etiquette",
+        44: "diplomatic language political discourse",
+
+        # Regional & Philosophical (Days 45-50)
+        45: "regional variations dialects",
+        46: "regional accents pronunciation",
+        47: "historical evolution language",
+        48: "philosophical concepts terminology",
+        49: "ethical debates moral reasoning",
+        50: "theoretical frameworks abstract thinking"
     }
 
     base_topic = topics.get(identifier, "language lesson")
@@ -126,14 +128,26 @@ PREFERRED_CHANNELS = {
 def search_youtube_video(youtube, query, language_code="en", max_results=10, retry_count=0):
     """Search for a language learning video matching criteria"""
     try:
-        print(f"Searching for: {query}")
+        # Add educational indicators to ensure educational content
+        educational_query = f"learn {query} educational"
+        print(f"Searching for: {educational_query}")
+        
+        # Map language codes to YouTube relevanceLanguage parameter
+        language_relevance = {
+            'en': 'en',
+            'es': 'es',
+            'pt': 'pt',
+            'fr': 'fr',
+            'de': 'de'
+        }
         
         request = youtube.search().list(
-            q=query,
+            q=educational_query,
             part='snippet',
             type='video',
             videoDefinition='high',
             videoEmbeddable='true',
+            relevanceLanguage=language_relevance.get(language_code, 'en'),
             maxResults=max_results
         )
         response = request.execute()
@@ -174,11 +188,51 @@ def search_youtube_video(youtube, query, language_code="en", max_results=10, ret
         preferred_videos.sort(key=lambda x: x[1], reverse=True)
         other_videos.sort(key=lambda x: x[1], reverse=True)
         
-        if preferred_videos:
-            print(f"Found {len(preferred_videos)} videos from preferred channels")
+        # Check for educational indicators in video titles and descriptions
+        educational_preferred = []
+        educational_others = []
+        
+        # Educational terms to look for in titles and descriptions
+        edu_terms = ['lesson', 'tutorial', 'learn', 'course', 'class', 'education', 'teaching', 
+                    'language learning', 'beginner', 'intermediate', 'advanced']
+        
+        # Filter for videos with educational indicators in title or description
+        for video_data in preferred_videos:
+            video_id, views, channel = video_data
+            # Get the video details to check title and description
+            for video in duration_response['items']:
+                if video['id'] == video_id:
+                    title = video['snippet']['title'].lower()
+                    description = video['snippet']['description'].lower()
+                    # Check if any educational term is in title or description
+                    if any(term in title or term in description for term in edu_terms):
+                        educational_preferred.append(video_data)
+                    break
+        
+        for video_data in other_videos:
+            video_id, views, channel = video_data
+            # Get the video details to check title and description
+            for video in duration_response['items']:
+                if video['id'] == video_id:
+                    title = video['snippet']['title'].lower()
+                    description = video['snippet']['description'].lower()
+                    # Check if any educational term is in title or description
+                    if any(term in title or term in description for term in edu_terms):
+                        educational_others.append(video_data)
+                    break
+        
+        # Prioritize videos with educational indicators
+        if educational_preferred:
+            print(f"Found {len(educational_preferred)} educational videos from preferred channels")
+            return educational_preferred[0][0]
+        elif educational_others:
+            print(f"Found {len(educational_others)} educational videos from other channels")
+            return educational_others[0][0]
+        elif preferred_videos:
+            print(f"Found {len(preferred_videos)} videos from preferred channels (no explicit educational indicators)")
             return preferred_videos[0][0]
         elif other_videos:
-            print("Using video from non-preferred channel")
+            print("Using video from non-preferred channel (no explicit educational indicators)")
             return other_videos[0][0]
         else:
             print("No suitable videos found")
