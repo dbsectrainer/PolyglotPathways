@@ -245,13 +245,16 @@ def main():
                         if f'day{day_num}' not in videos:
                             videos[f'day{day_num}'] = {'en': '', 'es': '', 'pt': '', 'fr': '', 'de': ''}
         
-        for lang in languages:
-            print(f"\nProcessing language: {lang}")
-            for day in range(1, 51):
-                print(f"\nProcessing Day {day} for {lang}")
-                day_key = f"day{day}"
-                if day_key not in videos:
-                    videos[day_key] = {'en': '', 'es': '', 'pt': '', 'fr': '', 'de': ''}
+        # Process one day at a time for all languages
+        for day in range(1, 51):
+            print(f"\nProcessing Day {day} for all languages")
+            day_key = f"day{day}"
+            if day_key not in videos:
+                videos[day_key] = {'en': '', 'es': '', 'pt': '', 'fr': '', 'de': ''}
+            
+            # Process each language for this day
+            for lang in languages:
+                print(f"\nProcessing language: {lang} for Day {day}")
                 
                 # Skip if we already have this video
                 if videos[day_key][lang]:
