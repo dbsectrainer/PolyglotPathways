@@ -1,5 +1,9 @@
 # Polyglot Pathways: Multilingual Learning Platform
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![CI](https://github.com/dbsectrainer/PolyglotPathways/actions/workflows/ci.yml/badge.svg)](https://github.com/dbsectrainer/PolyglotPathways/actions/workflows/ci.yml)
+[![Coverage Status](https://img.shields.io/badge/coverage-unknown-lightgrey)](https://github.com/dbsectrainer/PolyglotPathways)
+
 ## Overview
 Polyglot Pathways is an innovative, interactive web application designed to facilitate comprehensive language learning across five languages: English, Spanish, Portuguese, French, and German. The platform offers a structured 50-day program that combines cutting-edge web technologies with sophisticated internationalization techniques.
 
