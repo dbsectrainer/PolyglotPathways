@@ -1,0 +1,146 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Complete the Greetings",
+      "instructions": "Drag the correct words to complete each greeting phrase.",
+      "sentences": [
+        {
+          "text": "Good [morning] everyone!",
+          "blanks": [
+            {
+              "placeholder": "morning",
+              "correct": "morning"
+            }
+          ]
+        },
+        {
+          "text": "How [are] you today?",
+          "blanks": [
+            {
+              "placeholder": "are",
+              "correct": "are"
+            }
+          ]
+        },
+        {
+          "text": "Nice to [meet] you!",
+          "blanks": [
+            {
+              "placeholder": "meet",
+              "correct": "meet"
+            }
+          ]
+        }
+      ],
+      "extraWords": ["afternoon", "see", "is"]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Fill in Basic Phrases",
+      "instructions": "Complete these common English phrases by filling in the missing words.",
+      "sentences": [
+        {
+          "text": "Thank [you] very much.",
+          "blanks": [
+            {
+              "placeholder": "you",
+              "correct": ["you"],
+              "hint": "The person you're thanking"
+            }
+          ]
+        },
+        {
+          "text": "Excuse [me], where is the bathroom?",
+          "blanks": [
+            {
+              "placeholder": "me",
+              "correct": ["me"],
+              "hint": "Polite way to get attention"
+            }
+          ]
+        },
+        {
+          "text": "I'm [sorry] for being late.",
+          "blanks": [
+            {
+              "placeholder": "sorry",
+              "correct": ["sorry", "apologetic"],
+              "hint": "Expression of regret"
+            }
+          ]
+        }
+      ],
+      "wordBank": ["you", "me", "sorry", "please", "welcome"]
+    },
+    {
+      "type": "matching",
+      "title": "Match Greetings with Responses",
+      "instructions": "Match each greeting with the appropriate response.",
+      "leftTitle": "Greetings",
+      "rightTitle": "Responses",
+      "leftItems": [
+        {
+          "id": "greeting1",
+          "text": "Good morning!",
+          "type": "text"
+        },
+        {
+          "id": "greeting2", 
+          "text": "How are you?",
+          "type": "text"
+        },
+        {
+          "id": "greeting3",
+          "text": "What's your name?",
+          "type": "text"
+        },
+        {
+          "id": "greeting4",
+          "text": "Thank you!",
+          "type": "text"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "response1",
+          "text": "Good morning!",
+          "type": "text"
+        },
+        {
+          "id": "response2",
+          "text": "I'm fine, thank you",
+          "type": "text"
+        },
+        {
+          "id": "response3",
+          "text": "My name is...",
+          "type": "text"
+        },
+        {
+          "id": "response4",
+          "text": "You're welcome!",
+          "type": "text"
+        }
+      ],
+      "correctPairs": [
+        {
+          "leftId": "greeting1",
+          "rightId": "response1"
+        },
+        {
+          "leftId": "greeting2", 
+          "rightId": "response2"
+        },
+        {
+          "leftId": "greeting3",
+          "rightId": "response3"
+        },
+        {
+          "leftId": "greeting4",
+          "rightId": "response4"
+        }
+      ]
+    }
+  ]
+}

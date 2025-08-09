@@ -1,0 +1,146 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Completa los Saludos",
+      "instructions": "Arrastra las palabras correctas para completar cada frase de saludo.",
+      "sentences": [
+        {
+          "text": "Buenos [días] a todos!",
+          "blanks": [
+            {
+              "placeholder": "días",
+              "correct": "días"
+            }
+          ]
+        },
+        {
+          "text": "¿Cómo [estás] hoy?",
+          "blanks": [
+            {
+              "placeholder": "estás",
+              "correct": "estás"
+            }
+          ]
+        },
+        {
+          "text": "Mucho [gusto] en conocerte!",
+          "blanks": [
+            {
+              "placeholder": "gusto",
+              "correct": "gusto"
+            }
+          ]
+        }
+      ],
+      "extraWords": ["tardes", "vemos", "es"]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Completa las Frases Básicas",
+      "instructions": "Completa estas frases comunes en español llenando las palabras que faltan.",
+      "sentences": [
+        {
+          "text": "[Muchas] gracias por todo.",
+          "blanks": [
+            {
+              "placeholder": "Muchas",
+              "correct": ["Muchas"],
+              "hint": "Expresión de cantidad"
+            }
+          ]
+        },
+        {
+          "text": "Disculpe, ¿dónde está el [baño]?",
+          "blanks": [
+            {
+              "placeholder": "baño",
+              "correct": ["baño", "servicio"],
+              "hint": "Lugar para necesidades básicas"
+            }
+          ]
+        },
+        {
+          "text": "Lo [siento] por llegar tarde.",
+          "blanks": [
+            {
+              "placeholder": "siento",
+              "correct": ["siento"],
+              "hint": "Expresión de lamento"
+            }
+          ]
+        }
+      ],
+      "wordBank": ["Muchas", "baño", "siento", "por favor", "de nada"]
+    },
+    {
+      "type": "matching",
+      "title": "Relaciona Saludos con Respuestas",
+      "instructions": "Relaciona cada saludo con la respuesta apropiada.",
+      "leftTitle": "Saludos",
+      "rightTitle": "Respuestas",
+      "leftItems": [
+        {
+          "id": "greeting1",
+          "text": "¡Buenos días!",
+          "type": "text"
+        },
+        {
+          "id": "greeting2", 
+          "text": "¿Cómo estás?",
+          "type": "text"
+        },
+        {
+          "id": "greeting3",
+          "text": "¿Cómo te llamas?",
+          "type": "text"
+        },
+        {
+          "id": "greeting4",
+          "text": "¡Gracias!",
+          "type": "text"
+        }
+      ],
+      "rightItems": [
+        {
+          "id": "response1",
+          "text": "¡Buenos días!",
+          "type": "text"
+        },
+        {
+          "id": "response2",
+          "text": "Bien, gracias",
+          "type": "text"
+        },
+        {
+          "id": "response3",
+          "text": "Me llamo...",
+          "type": "text"
+        },
+        {
+          "id": "response4",
+          "text": "¡De nada!",
+          "type": "text"
+        }
+      ],
+      "correctPairs": [
+        {
+          "leftId": "greeting1",
+          "rightId": "response1"
+        },
+        {
+          "leftId": "greeting2", 
+          "rightId": "response2"
+        },
+        {
+          "leftId": "greeting3",
+          "rightId": "response3"
+        },
+        {
+          "leftId": "greeting4",
+          "rightId": "response4"
+        }
+      ]
+    }
+  ]
+}
