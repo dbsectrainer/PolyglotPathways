@@ -1,0 +1,109 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Vervollständigen Sie die Food & Dining-Phrasen",
+      "instructions": "Ziehen Sie die richtigen Wörter, um jede Phrase zu vervollständigen.",
+      "sentences": [
+        {
+          "text": "Ich [habe] Durst",
+          "blanks": [
+            {
+              "placeholder": "habe",
+              "correct": "habe"
+            }
+          ]
+        },
+        {
+          "text": "Ich [habe] Hunger",
+          "blanks": [
+            {
+              "placeholder": "habe",
+              "correct": "habe"
+            }
+          ]
+        },
+        {
+          "text": "Die Speisekarte, [bitte]",
+          "blanks": [
+            {
+              "placeholder": "bitte",
+              "correct": "bitte"
+            }
+          ]
+        },
+        {
+          "text": "Das ist [köstlich]",
+          "blanks": [
+            {
+              "placeholder": "köstlich",
+              "correct": "köstlich"
+            }
+          ]
+        }
+      ],
+      "extraWords": []
+    },
+    {
+      "type": "fill-blank",
+      "title": "Füllen Sie die Restaurants-Phrasen aus",
+      "instructions": "Vervollständigen Sie diese Phrasen, indem Sie die fehlenden Wörter einfügen.",
+      "sentences": [
+        {
+          "text": "Wasser",
+          "blanks": [
+            {
+              "placeholder": "wasser",
+              "correct": [
+                "wasser"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Tisch für [zwei]",
+          "blanks": [
+            {
+              "placeholder": "zwei",
+              "correct": [
+                "zwei"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Ich [hätte] gerne",
+          "blanks": [
+            {
+              "placeholder": "hätte",
+              "correct": [
+                "hätte"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Kaffee",
+          "blanks": [
+            {
+              "placeholder": "kaffee",
+              "correct": [
+                "kaffee"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "wasser",
+        "zwei",
+        "hätte",
+        "kaffee"
+      ]
+    }
+  ]
+}

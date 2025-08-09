@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Completa las Frases de Weather & Time",
+      "instructions": "Arrastra las palabras correctas para completar cada frase.",
+      "sentences": [
+        {
+          "text": "Ayer",
+          "blanks": [
+            {
+              "placeholder": "ayer",
+              "correct": "ayer"
+            }
+          ]
+        },
+        {
+          "text": "Está [lloviendo]",
+          "blanks": [
+            {
+              "placeholder": "lloviendo",
+              "correct": "lloviendo"
+            }
+          ]
+        },
+        {
+          "text": "Mañana",
+          "blanks": [
+            {
+              "placeholder": "mañana",
+              "correct": "mañana"
+            }
+          ]
+        },
+        {
+          "text": "Está [soleado]",
+          "blanks": [
+            {
+              "placeholder": "soleado",
+              "correct": "soleado"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "hora"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Completa las Frases de Feelings & Opinions",
+      "instructions": "Completa estas frases llenando las palabras que faltan.",
+      "sentences": [
+        {
+          "text": "No me [gusta]",
+          "blanks": [
+            {
+              "placeholder": "gusta",
+              "correct": [
+                "gusta"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Me [gusta]",
+          "blanks": [
+            {
+              "placeholder": "gusta",
+              "correct": [
+                "gusta"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Estoy [feliz]",
+          "blanks": [
+            {
+              "placeholder": "feliz",
+              "correct": [
+                "feliz"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Estoy [cansado]",
+          "blanks": [
+            {
+              "placeholder": "cansado",
+              "correct": [
+                "cansado"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "gusta",
+        "gusta",
+        "feliz",
+        "cansado"
+      ]
+    }
+  ]
+}

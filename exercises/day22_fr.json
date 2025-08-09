@@ -1,0 +1,109 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Complétez les Phrases de Food & Dining",
+      "instructions": "Faites glisser les mots corrects pour compléter chaque phrase.",
+      "sentences": [
+        {
+          "text": "Le menu, s'il [vous] plaît",
+          "blanks": [
+            {
+              "placeholder": "vous",
+              "correct": "vous"
+            }
+          ]
+        },
+        {
+          "text": "J'ai [soif]",
+          "blanks": [
+            {
+              "placeholder": "soif",
+              "correct": "soif"
+            }
+          ]
+        },
+        {
+          "text": "J'ai [faim]",
+          "blanks": [
+            {
+              "placeholder": "faim",
+              "correct": "faim"
+            }
+          ]
+        },
+        {
+          "text": "C'est [délicieux]",
+          "blanks": [
+            {
+              "placeholder": "délicieux",
+              "correct": "délicieux"
+            }
+          ]
+        }
+      ],
+      "extraWords": []
+    },
+    {
+      "type": "fill-blank",
+      "title": "Remplissez les Phrases de Restaurants",
+      "instructions": "Complétez ces phrases en remplissant les mots manquants.",
+      "sentences": [
+        {
+          "text": "Je [voudrais]",
+          "blanks": [
+            {
+              "placeholder": "voudrais",
+              "correct": [
+                "voudrais"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Table pour [deux]",
+          "blanks": [
+            {
+              "placeholder": "deux",
+              "correct": [
+                "deux"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Eau",
+          "blanks": [
+            {
+              "placeholder": "eau",
+              "correct": [
+                "eau"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Café",
+          "blanks": [
+            {
+              "placeholder": "café",
+              "correct": [
+                "café"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "voudrais",
+        "deux",
+        "eau",
+        "café"
+      ]
+    }
+  ]
+}

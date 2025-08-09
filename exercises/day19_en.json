@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Complete the Travel & Directions Phrases",
+      "instructions": "Drag the correct words to complete each phrase.",
+      "sentences": [
+        {
+          "text": "It's [far]",
+          "blanks": [
+            {
+              "placeholder": "far",
+              "correct": "far"
+            }
+          ]
+        },
+        {
+          "text": "Turn [left]",
+          "blanks": [
+            {
+              "placeholder": "left",
+              "correct": "left"
+            }
+          ]
+        },
+        {
+          "text": "Turn [right]",
+          "blanks": [
+            {
+              "placeholder": "right",
+              "correct": "right"
+            }
+          ]
+        },
+        {
+          "text": "Go [straight]",
+          "blanks": [
+            {
+              "placeholder": "straight",
+              "correct": "straight"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "near"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Fill in Transportation Phrases",
+      "instructions": "Complete these phrases by filling in the missing words.",
+      "sentences": [
+        {
+          "text": "Bus",
+          "blanks": [
+            {
+              "placeholder": "bus",
+              "correct": [
+                "bus"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Airport",
+          "blanks": [
+            {
+              "placeholder": "airport",
+              "correct": [
+                "airport"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Taxi",
+          "blanks": [
+            {
+              "placeholder": "taxi",
+              "correct": [
+                "taxi"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Train",
+          "blanks": [
+            {
+              "placeholder": "train",
+              "correct": [
+                "train"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "bus",
+        "airport",
+        "taxi",
+        "train"
+      ]
+    }
+  ]
+}

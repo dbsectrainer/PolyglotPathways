@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Vervollständigen Sie die Daily Conversations-Phrasen",
+      "instructions": "Ziehen Sie die richtigen Wörter, um jede Phrase zu vervollständigen.",
+      "sentences": [
+        {
+          "text": "Einen [schönen] Tag noch",
+          "blanks": [
+            {
+              "placeholder": "schönen",
+              "correct": "schönen"
+            }
+          ]
+        },
+        {
+          "text": "Wie läuft [alles]?",
+          "blanks": [
+            {
+              "placeholder": "alles",
+              "correct": "alles"
+            }
+          ]
+        },
+        {
+          "text": "Bis [später]",
+          "blanks": [
+            {
+              "placeholder": "später",
+              "correct": "später"
+            }
+          ]
+        },
+        {
+          "text": "Sehr [gut]",
+          "blanks": [
+            {
+              "placeholder": "gut",
+              "correct": "gut"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "tag"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Füllen Sie die Learning Progress-Phrasen aus",
+      "instructions": "Vervollständigen Sie diese Phrasen, indem Sie die fehlenden Wörter einfügen.",
+      "sentences": [
+        {
+          "text": "Ich [lerne]",
+          "blanks": [
+            {
+              "placeholder": "lerne",
+              "correct": [
+                "lerne"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Ich [verstehe]",
+          "blanks": [
+            {
+              "placeholder": "verstehe",
+              "correct": [
+                "verstehe"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Das ist Lektion 10",
+          "blanks": [
+            {
+              "placeholder": "lektion",
+              "correct": [
+                "lektion"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Das ist [nützlich]",
+          "blanks": [
+            {
+              "placeholder": "nützlich",
+              "correct": [
+                "nützlich"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "lerne",
+        "verstehe",
+        "lektion",
+        "nützlich"
+      ]
+    }
+  ]
+}

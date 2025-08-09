@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Completa las Frases de Daily Conversations",
+      "instructions": "Arrastra las palabras correctas para completar cada frase.",
+      "sentences": [
+        {
+          "text": "Hasta [luego]",
+          "blanks": [
+            {
+              "placeholder": "luego",
+              "correct": "luego"
+            }
+          ]
+        },
+        {
+          "text": "Muy [bien]",
+          "blanks": [
+            {
+              "placeholder": "bien",
+              "correct": "bien"
+            }
+          ]
+        },
+        {
+          "text": "¿Cómo está [todo]?",
+          "blanks": [
+            {
+              "placeholder": "todo",
+              "correct": "todo"
+            }
+          ]
+        },
+        {
+          "text": "Que tengas un [buen] día",
+          "blanks": [
+            {
+              "placeholder": "buen",
+              "correct": "buen"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "día"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Completa las Frases de Learning Progress",
+      "instructions": "Completa estas frases llenando las palabras que faltan.",
+      "sentences": [
+        {
+          "text": "Esta es la [lección] 6",
+          "blanks": [
+            {
+              "placeholder": "lección",
+              "correct": [
+                "lección"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Estoy [aprendiendo]",
+          "blanks": [
+            {
+              "placeholder": "aprendiendo",
+              "correct": [
+                "aprendiendo"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Esto es [útil]",
+          "blanks": [
+            {
+              "placeholder": "útil",
+              "correct": [
+                "útil"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Entiendo",
+          "blanks": [
+            {
+              "placeholder": "entiendo",
+              "correct": [
+                "entiendo"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "lección",
+        "aprendiendo",
+        "útil",
+        "entiendo"
+      ]
+    }
+  ]
+}

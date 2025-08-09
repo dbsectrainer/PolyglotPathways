@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Vervollständigen Sie die Travel & Directions-Phrasen",
+      "instructions": "Ziehen Sie die richtigen Wörter, um jede Phrase zu vervollständigen.",
+      "sentences": [
+        {
+          "text": "Links [abbiegen]",
+          "blanks": [
+            {
+              "placeholder": "abbiegen",
+              "correct": "abbiegen"
+            }
+          ]
+        },
+        {
+          "text": "Es ist [weit]",
+          "blanks": [
+            {
+              "placeholder": "weit",
+              "correct": "weit"
+            }
+          ]
+        },
+        {
+          "text": "Rechts [abbiegen]",
+          "blanks": [
+            {
+              "placeholder": "abbiegen",
+              "correct": "abbiegen"
+            }
+          ]
+        },
+        {
+          "text": "Es ist [nah]",
+          "blanks": [
+            {
+              "placeholder": "nah",
+              "correct": "nah"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "gehen"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Füllen Sie die Transportation-Phrasen aus",
+      "instructions": "Vervollständigen Sie diese Phrasen, indem Sie die fehlenden Wörter einfügen.",
+      "sentences": [
+        {
+          "text": "Bus",
+          "blanks": [
+            {
+              "placeholder": "bus",
+              "correct": [
+                "bus"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Flughafen",
+          "blanks": [
+            {
+              "placeholder": "flughafen",
+              "correct": [
+                "flughafen"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Zug",
+          "blanks": [
+            {
+              "placeholder": "zug",
+              "correct": [
+                "zug"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Taxi",
+          "blanks": [
+            {
+              "placeholder": "taxi",
+              "correct": [
+                "taxi"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "bus",
+        "flughafen",
+        "zug",
+        "taxi"
+      ]
+    }
+  ]
+}

@@ -2,142 +2,176 @@
   "exercises": [
     {
       "type": "drag-drop",
-      "title": "Completa los Saludos",
-      "instructions": "Arrastra las palabras correctas para completar cada frase de saludo.",
+      "title": "Completa las Frases de Numbers",
+      "instructions": "Arrastra las palabras correctas para completar cada frase.",
       "sentences": [
         {
-          "text": "Buenos [días] a todos!",
+          "text": "Dos",
           "blanks": [
             {
-              "placeholder": "días",
-              "correct": "días"
+              "placeholder": "dos",
+              "correct": "dos"
             }
           ]
         },
         {
-          "text": "¿Cómo [estás] hoy?",
+          "text": "Cinco",
           "blanks": [
             {
-              "placeholder": "estás",
-              "correct": "estás"
+              "placeholder": "cinco",
+              "correct": "cinco"
             }
           ]
         },
         {
-          "text": "Mucho [gusto] en conocerte!",
+          "text": "Cuatro",
           "blanks": [
             {
-              "placeholder": "gusto",
-              "correct": "gusto"
+              "placeholder": "cuatro",
+              "correct": "cuatro"
+            }
+          ]
+        },
+        {
+          "text": "Uno",
+          "blanks": [
+            {
+              "placeholder": "uno",
+              "correct": "uno"
             }
           ]
         }
       ],
-      "extraWords": ["tardes", "vemos", "es"]
+      "extraWords": [
+        "tres"
+      ]
     },
     {
       "type": "fill-blank",
-      "title": "Completa las Frases Básicas",
-      "instructions": "Completa estas frases comunes en español llenando las palabras que faltan.",
+      "title": "Completa las Frases de Travel Phrases",
+      "instructions": "Completa estas frases llenando las palabras que faltan.",
       "sentences": [
         {
-          "text": "[Muchas] gracias por todo.",
+          "text": "¿Cuánto [cuesta]?",
           "blanks": [
             {
-              "placeholder": "Muchas",
-              "correct": ["Muchas"],
-              "hint": "Expresión de cantidad"
+              "placeholder": "cuesta",
+              "correct": [
+                "cuesta"
+              ],
+              "hint": "Key word from this phrase"
             }
           ]
         },
         {
-          "text": "Disculpe, ¿dónde está el [baño]?",
+          "text": "Necesito [ayuda]",
+          "blanks": [
+            {
+              "placeholder": "ayuda",
+              "correct": [
+                "ayuda"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "¿Dónde está el [baño]?",
           "blanks": [
             {
               "placeholder": "baño",
-              "correct": ["baño", "servicio"],
-              "hint": "Lugar para necesidades básicas"
+              "correct": [
+                "baño"
+              ],
+              "hint": "Key word from this phrase"
             }
           ]
         },
         {
-          "text": "Lo [siento] por llegar tarde.",
+          "text": "¿Dónde está...?",
           "blanks": [
             {
-              "placeholder": "siento",
-              "correct": ["siento"],
-              "hint": "Expresión de lamento"
+              "placeholder": "dónde",
+              "correct": [
+                "dónde"
+              ],
+              "hint": "Key word from this phrase"
             }
           ]
         }
       ],
-      "wordBank": ["Muchas", "baño", "siento", "por favor", "de nada"]
+      "wordBank": [
+        "cuesta",
+        "ayuda",
+        "baño",
+        "dónde"
+      ]
     },
     {
       "type": "matching",
-      "title": "Relaciona Saludos con Respuestas",
-      "instructions": "Relaciona cada saludo con la respuesta apropiada.",
-      "leftTitle": "Saludos",
+      "title": "Relaciona Elementos de Basic Greetings & Common Phrases",
+      "instructions": "Relaciona cada elemento con su pareja apropiada.",
+      "leftTitle": "Frases",
       "rightTitle": "Respuestas",
       "leftItems": [
         {
-          "id": "greeting1",
-          "text": "¡Buenos días!",
+          "id": "item1",
+          "text": "Hola",
           "type": "text"
         },
         {
-          "id": "greeting2", 
+          "id": "item2",
+          "text": "Por favor",
+          "type": "text"
+        },
+        {
+          "id": "item3",
+          "text": "Disculpe",
+          "type": "text"
+        },
+        {
+          "id": "item4",
           "text": "¿Cómo estás?",
-          "type": "text"
-        },
-        {
-          "id": "greeting3",
-          "text": "¿Cómo te llamas?",
-          "type": "text"
-        },
-        {
-          "id": "greeting4",
-          "text": "¡Gracias!",
           "type": "text"
         }
       ],
       "rightItems": [
         {
           "id": "response1",
-          "text": "¡Buenos días!",
+          "text": "Hola",
           "type": "text"
         },
         {
           "id": "response2",
-          "text": "Bien, gracias",
+          "text": "favor",
           "type": "text"
         },
         {
           "id": "response3",
-          "text": "Me llamo...",
+          "text": "Disculpe",
           "type": "text"
         },
         {
           "id": "response4",
-          "text": "¡De nada!",
+          "text": "Tal vez",
           "type": "text"
         }
       ],
       "correctPairs": [
         {
-          "leftId": "greeting1",
+          "leftId": "item1",
           "rightId": "response1"
         },
         {
-          "leftId": "greeting2", 
+          "leftId": "item2",
           "rightId": "response2"
         },
         {
-          "leftId": "greeting3",
+          "leftId": "item3",
           "rightId": "response3"
         },
         {
-          "leftId": "greeting4",
+          "leftId": "item4",
           "rightId": "response4"
         }
       ]

@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Complete the Daily Conversations Phrases",
+      "instructions": "Drag the correct words to complete each phrase.",
+      "sentences": [
+        {
+          "text": "Good [day] 4!",
+          "blanks": [
+            {
+              "placeholder": "day",
+              "correct": "day"
+            }
+          ]
+        },
+        {
+          "text": "Have a nice [day]",
+          "blanks": [
+            {
+              "placeholder": "day",
+              "correct": "day"
+            }
+          ]
+        },
+        {
+          "text": "See [you] later",
+          "blanks": [
+            {
+              "placeholder": "you",
+              "correct": "you"
+            }
+          ]
+        },
+        {
+          "text": "How is [everything]?",
+          "blanks": [
+            {
+              "placeholder": "everything",
+              "correct": "everything"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "well"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Fill in Learning Progress Phrases",
+      "instructions": "Complete these phrases by filling in the missing words.",
+      "sentences": [
+        {
+          "text": "I am [learning]",
+          "blanks": [
+            {
+              "placeholder": "learning",
+              "correct": [
+                "learning"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "I [understand]",
+          "blanks": [
+            {
+              "placeholder": "understand",
+              "correct": [
+                "understand"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "This is [lesson] 4",
+          "blanks": [
+            {
+              "placeholder": "lesson",
+              "correct": [
+                "lesson"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "This is [useful]",
+          "blanks": [
+            {
+              "placeholder": "useful",
+              "correct": [
+                "useful"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "learning",
+        "understand",
+        "lesson",
+        "useful"
+      ]
+    }
+  ]
+}

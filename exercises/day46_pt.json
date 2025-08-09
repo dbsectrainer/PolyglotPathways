@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Complete as Frases de Weather & Time",
+      "instructions": "Arraste as palavras corretas para completar cada frase.",
+      "sentences": [
+        {
+          "text": "Ontem",
+          "blanks": [
+            {
+              "placeholder": "ontem",
+              "correct": "ontem"
+            }
+          ]
+        },
+        {
+          "text": "Está [chovendo]",
+          "blanks": [
+            {
+              "placeholder": "chovendo",
+              "correct": "chovendo"
+            }
+          ]
+        },
+        {
+          "text": "Está [ensolarado]",
+          "blanks": [
+            {
+              "placeholder": "ensolarado",
+              "correct": "ensolarado"
+            }
+          ]
+        },
+        {
+          "text": "Que horas [são]?",
+          "blanks": [
+            {
+              "placeholder": "são",
+              "correct": "são"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "amanhã"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Preencha as Frases de Feelings & Opinions",
+      "instructions": "Complete essas frases preenchendo as palavras em falta.",
+      "sentences": [
+        {
+          "text": "Estou [cansado]",
+          "blanks": [
+            {
+              "placeholder": "cansado",
+              "correct": [
+                "cansado"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Eu não [gosto]",
+          "blanks": [
+            {
+              "placeholder": "gosto",
+              "correct": [
+                "gosto"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Estou [feliz]",
+          "blanks": [
+            {
+              "placeholder": "feliz",
+              "correct": [
+                "feliz"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Eu [gosto]",
+          "blanks": [
+            {
+              "placeholder": "gosto",
+              "correct": [
+                "gosto"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "cansado",
+        "gosto",
+        "feliz",
+        "gosto"
+      ]
+    }
+  ]
+}

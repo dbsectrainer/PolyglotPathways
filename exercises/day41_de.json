@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Vervollständigen Sie die Weather & Time-Phrasen",
+      "instructions": "Ziehen Sie die richtigen Wörter, um jede Phrase zu vervollständigen.",
+      "sentences": [
+        {
+          "text": "Es ist [sonnig]",
+          "blanks": [
+            {
+              "placeholder": "sonnig",
+              "correct": "sonnig"
+            }
+          ]
+        },
+        {
+          "text": "Wie spät [ist] es?",
+          "blanks": [
+            {
+              "placeholder": "ist",
+              "correct": "ist"
+            }
+          ]
+        },
+        {
+          "text": "Es [regnet]",
+          "blanks": [
+            {
+              "placeholder": "regnet",
+              "correct": "regnet"
+            }
+          ]
+        },
+        {
+          "text": "Morgen",
+          "blanks": [
+            {
+              "placeholder": "morgen",
+              "correct": "morgen"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "gestern"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Füllen Sie die Feelings & Opinions-Phrasen aus",
+      "instructions": "Vervollständigen Sie diese Phrasen, indem Sie die fehlenden Wörter einfügen.",
+      "sentences": [
+        {
+          "text": "Das gefällt [mir] nicht",
+          "blanks": [
+            {
+              "placeholder": "mir",
+              "correct": [
+                "mir"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Das gefällt [mir]",
+          "blanks": [
+            {
+              "placeholder": "mir",
+              "correct": [
+                "mir"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Ich [bin] glücklich",
+          "blanks": [
+            {
+              "placeholder": "bin",
+              "correct": [
+                "bin"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Ich [bin] müde",
+          "blanks": [
+            {
+              "placeholder": "bin",
+              "correct": [
+                "bin"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "mir",
+        "mir",
+        "bin",
+        "bin"
+      ]
+    }
+  ]
+}

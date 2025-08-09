@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Complétez les Phrases de Weather & Time",
+      "instructions": "Faites glisser les mots corrects pour compléter chaque phrase.",
+      "sentences": [
+        {
+          "text": "Il [pleut]",
+          "blanks": [
+            {
+              "placeholder": "pleut",
+              "correct": "pleut"
+            }
+          ]
+        },
+        {
+          "text": "Demain",
+          "blanks": [
+            {
+              "placeholder": "demain",
+              "correct": "demain"
+            }
+          ]
+        },
+        {
+          "text": "Hier",
+          "blanks": [
+            {
+              "placeholder": "hier",
+              "correct": "hier"
+            }
+          ]
+        },
+        {
+          "text": "Quelle [heure] est-il ?",
+          "blanks": [
+            {
+              "placeholder": "heure",
+              "correct": "heure"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "beau"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Remplissez les Phrases de Feelings & Opinions",
+      "instructions": "Complétez ces phrases en remplissant les mots manquants.",
+      "sentences": [
+        {
+          "text": "Je suis [heureux]",
+          "blanks": [
+            {
+              "placeholder": "heureux",
+              "correct": [
+                "heureux"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "J'[aime] ça",
+          "blanks": [
+            {
+              "placeholder": "aime",
+              "correct": [
+                "aime"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Je n'[aime] pas ça",
+          "blanks": [
+            {
+              "placeholder": "aime",
+              "correct": [
+                "aime"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Je suis [fatigué]",
+          "blanks": [
+            {
+              "placeholder": "fatigué",
+              "correct": [
+                "fatigué"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "heureux",
+        "aime",
+        "aime",
+        "fatigué"
+      ]
+    }
+  ]
+}

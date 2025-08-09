@@ -2,42 +2,42 @@
   "exercises": [
     {
       "type": "drag-drop",
-      "title": "Complete the Travel Phrases Phrases",
-      "instructions": "Drag the correct words to complete each phrase.",
+      "title": "Complete as Frases de Travel Phrases",
+      "instructions": "Arraste as palavras corretas para completar cada frase.",
       "sentences": [
         {
-          "text": "Where is the [bathroom]?",
+          "text": "Onde [fica]...?",
           "blanks": [
             {
-              "placeholder": "bathroom",
-              "correct": "bathroom"
+              "placeholder": "fica",
+              "correct": "fica"
             }
           ]
         },
         {
-          "text": "Where is...?",
+          "text": "Preciso de [ajuda]",
           "blanks": [
             {
-              "placeholder": "where",
-              "correct": "where"
+              "placeholder": "ajuda",
+              "correct": "ajuda"
             }
           ]
         },
         {
-          "text": "I need [help]",
+          "text": "Quanto [custa]?",
           "blanks": [
             {
-              "placeholder": "help",
-              "correct": "help"
+              "placeholder": "custa",
+              "correct": "custa"
             }
           ]
         },
         {
-          "text": "How [much] does it cost?",
+          "text": "Onde [fica] o banheiro?",
           "blanks": [
             {
-              "placeholder": "much",
-              "correct": "much"
+              "placeholder": "fica",
+              "correct": "fica"
             }
           ]
         }
@@ -46,52 +46,52 @@
     },
     {
       "type": "fill-blank",
-      "title": "Fill in Numbers Phrases",
-      "instructions": "Complete these phrases by filling in the missing words.",
+      "title": "Preencha as Frases de Numbers",
+      "instructions": "Complete essas frases preenchendo as palavras em falta.",
       "sentences": [
         {
-          "text": "Two",
+          "text": "Três",
           "blanks": [
             {
-              "placeholder": "two",
+              "placeholder": "três",
               "correct": [
-                "two"
+                "três"
               ],
               "hint": "Key word from this phrase"
             }
           ]
         },
         {
-          "text": "Three",
+          "text": "Dois",
           "blanks": [
             {
-              "placeholder": "three",
+              "placeholder": "dois",
               "correct": [
-                "three"
+                "dois"
               ],
               "hint": "Key word from this phrase"
             }
           ]
         },
         {
-          "text": "One",
+          "text": "Quatro",
           "blanks": [
             {
-              "placeholder": "one",
+              "placeholder": "quatro",
               "correct": [
-                "one"
+                "quatro"
               ],
               "hint": "Key word from this phrase"
             }
           ]
         },
         {
-          "text": "Five",
+          "text": "Um",
           "blanks": [
             {
-              "placeholder": "five",
+              "placeholder": "um",
               "correct": [
-                "five"
+                "um"
               ],
               "hint": "Key word from this phrase"
             }
@@ -99,60 +99,60 @@
         }
       ],
       "wordBank": [
-        "two",
-        "three",
-        "one",
-        "five",
-        "four"
+        "três",
+        "dois",
+        "quatro",
+        "um",
+        "cinco"
       ]
     },
     {
       "type": "matching",
-      "title": "Match Basic Greetings & Common Phrases Items",
-      "instructions": "Match each item with its appropriate pair.",
-      "leftTitle": "Phrases",
-      "rightTitle": "Responses",
+      "title": "Combine Itens de Basic Greetings & Common Phrases",
+      "instructions": "Combine cada item com seu par apropriado.",
+      "leftTitle": "Frases",
+      "rightTitle": "Respostas",
       "leftItems": [
         {
           "id": "item1",
-          "text": "Excuse me",
+          "text": "Com licença",
           "type": "text"
         },
         {
           "id": "item2",
-          "text": "Please",
+          "text": "Olá",
           "type": "text"
         },
         {
           "id": "item3",
-          "text": "How are you?",
+          "text": "Bom dia",
           "type": "text"
         },
         {
           "id": "item4",
-          "text": "Thank you",
+          "text": "Por favor",
           "type": "text"
         }
       ],
       "rightItems": [
         {
           "id": "response1",
-          "text": "me",
+          "text": "licença",
           "type": "text"
         },
         {
           "id": "response2",
-          "text": "Please",
+          "text": "Olá",
           "type": "text"
         },
         {
           "id": "response3",
-          "text": "I don't know",
+          "text": "dia",
           "type": "text"
         },
         {
           "id": "response4",
-          "text": "you",
+          "text": "favor",
           "type": "text"
         }
       ],

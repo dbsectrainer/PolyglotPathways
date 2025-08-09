@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Complétez les Phrases de Shopping",
+      "instructions": "Faites glisser les mots corrects pour compléter chaque phrase.",
+      "sentences": [
+        {
+          "text": "C'est [bon] marché",
+          "blanks": [
+            {
+              "placeholder": "bon",
+              "correct": "bon"
+            }
+          ]
+        },
+        {
+          "text": "C'est [cher]",
+          "blanks": [
+            {
+              "placeholder": "cher",
+              "correct": "cher"
+            }
+          ]
+        },
+        {
+          "text": "Combien ça [coûte] ?",
+          "blanks": [
+            {
+              "placeholder": "coûte",
+              "correct": "coûte"
+            }
+          ]
+        },
+        {
+          "text": "Je le [prends]",
+          "blanks": [
+            {
+              "placeholder": "prends",
+              "correct": "prends"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "payer"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Remplissez les Phrases de Money",
+      "instructions": "Complétez ces phrases en remplissant les mots manquants.",
+      "sentences": [
+        {
+          "text": "Reçu",
+          "blanks": [
+            {
+              "placeholder": "reçu",
+              "correct": [
+                "reçu"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Espèces",
+          "blanks": [
+            {
+              "placeholder": "espèces",
+              "correct": [
+                "espèces"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Carte de [crédit]",
+          "blanks": [
+            {
+              "placeholder": "crédit",
+              "correct": [
+                "crédit"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Monnaie",
+          "blanks": [
+            {
+              "placeholder": "monnaie",
+              "correct": [
+                "monnaie"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "reçu",
+        "espèces",
+        "crédit",
+        "monnaie"
+      ]
+    }
+  ]
+}

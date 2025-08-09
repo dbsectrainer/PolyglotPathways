@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Complete the Shopping Phrases",
+      "instructions": "Drag the correct words to complete each phrase.",
+      "sentences": [
+        {
+          "text": "I'll [take] it",
+          "blanks": [
+            {
+              "placeholder": "take",
+              "correct": "take"
+            }
+          ]
+        },
+        {
+          "text": "It's [cheap]",
+          "blanks": [
+            {
+              "placeholder": "cheap",
+              "correct": "cheap"
+            }
+          ]
+        },
+        {
+          "text": "How [much] is this?",
+          "blanks": [
+            {
+              "placeholder": "much",
+              "correct": "much"
+            }
+          ]
+        },
+        {
+          "text": "It's [expensive]",
+          "blanks": [
+            {
+              "placeholder": "expensive",
+              "correct": "expensive"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "card"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Fill in Money Phrases",
+      "instructions": "Complete these phrases by filling in the missing words.",
+      "sentences": [
+        {
+          "text": "Change",
+          "blanks": [
+            {
+              "placeholder": "change",
+              "correct": [
+                "change"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Credit [card]",
+          "blanks": [
+            {
+              "placeholder": "card",
+              "correct": [
+                "card"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Receipt",
+          "blanks": [
+            {
+              "placeholder": "receipt",
+              "correct": [
+                "receipt"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Cash",
+          "blanks": [
+            {
+              "placeholder": "cash",
+              "correct": [
+                "cash"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "change",
+        "card",
+        "receipt",
+        "cash"
+      ]
+    }
+  ]
+}

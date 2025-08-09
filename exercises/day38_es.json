@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Completa las Frases de Shopping",
+      "instructions": "Arrastra las palabras correctas para completar cada frase.",
+      "sentences": [
+        {
+          "text": "Me lo [llevo]",
+          "blanks": [
+            {
+              "placeholder": "llevo",
+              "correct": "llevo"
+            }
+          ]
+        },
+        {
+          "text": "¿Cuánto [cuesta] esto?",
+          "blanks": [
+            {
+              "placeholder": "cuesta",
+              "correct": "cuesta"
+            }
+          ]
+        },
+        {
+          "text": "Es [caro]",
+          "blanks": [
+            {
+              "placeholder": "caro",
+              "correct": "caro"
+            }
+          ]
+        },
+        {
+          "text": "Es [barato]",
+          "blanks": [
+            {
+              "placeholder": "barato",
+              "correct": "barato"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "pagar"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Completa las Frases de Money",
+      "instructions": "Completa estas frases llenando las palabras que faltan.",
+      "sentences": [
+        {
+          "text": "Efectivo",
+          "blanks": [
+            {
+              "placeholder": "efectivo",
+              "correct": [
+                "efectivo"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Cambio",
+          "blanks": [
+            {
+              "placeholder": "cambio",
+              "correct": [
+                "cambio"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Tarjeta de [crédito]",
+          "blanks": [
+            {
+              "placeholder": "crédito",
+              "correct": [
+                "crédito"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Recibo",
+          "blanks": [
+            {
+              "placeholder": "recibo",
+              "correct": [
+                "recibo"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "efectivo",
+        "cambio",
+        "crédito",
+        "recibo"
+      ]
+    }
+  ]
+}

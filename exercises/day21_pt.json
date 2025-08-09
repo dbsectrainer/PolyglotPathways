@@ -1,0 +1,109 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Complete as Frases de Food & Dining",
+      "instructions": "Arraste as palavras corretas para completar cada frase.",
+      "sentences": [
+        {
+          "text": "Isso está [delicioso]",
+          "blanks": [
+            {
+              "placeholder": "delicioso",
+              "correct": "delicioso"
+            }
+          ]
+        },
+        {
+          "text": "A conta, por [favor]",
+          "blanks": [
+            {
+              "placeholder": "favor",
+              "correct": "favor"
+            }
+          ]
+        },
+        {
+          "text": "Estou com [sede]",
+          "blanks": [
+            {
+              "placeholder": "sede",
+              "correct": "sede"
+            }
+          ]
+        },
+        {
+          "text": "Estou com [fome]",
+          "blanks": [
+            {
+              "placeholder": "fome",
+              "correct": "fome"
+            }
+          ]
+        }
+      ],
+      "extraWords": []
+    },
+    {
+      "type": "fill-blank",
+      "title": "Preencha as Frases de Restaurants",
+      "instructions": "Complete essas frases preenchendo as palavras em falta.",
+      "sentences": [
+        {
+          "text": "Café",
+          "blanks": [
+            {
+              "placeholder": "café",
+              "correct": [
+                "café"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Eu [gostaria]",
+          "blanks": [
+            {
+              "placeholder": "gostaria",
+              "correct": [
+                "gostaria"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Mesa para [dois]",
+          "blanks": [
+            {
+              "placeholder": "dois",
+              "correct": [
+                "dois"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Água",
+          "blanks": [
+            {
+              "placeholder": "água",
+              "correct": [
+                "água"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "café",
+        "gostaria",
+        "dois",
+        "água"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Completa las Frases de Food & Dining",
+      "instructions": "Arrastra las palabras correctas para completar cada frase.",
+      "sentences": [
+        {
+          "text": "La cuenta, por [favor]",
+          "blanks": [
+            {
+              "placeholder": "favor",
+              "correct": "favor"
+            }
+          ]
+        },
+        {
+          "text": "El menú, por [favor]",
+          "blanks": [
+            {
+              "placeholder": "favor",
+              "correct": "favor"
+            }
+          ]
+        },
+        {
+          "text": "Tengo [hambre]",
+          "blanks": [
+            {
+              "placeholder": "hambre",
+              "correct": "hambre"
+            }
+          ]
+        },
+        {
+          "text": "Esto está [delicioso]",
+          "blanks": [
+            {
+              "placeholder": "delicioso",
+              "correct": "delicioso"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "sed"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Completa las Frases de Restaurants",
+      "instructions": "Completa estas frases llenando las palabras que faltan.",
+      "sentences": [
+        {
+          "text": "Café",
+          "blanks": [
+            {
+              "placeholder": "café",
+              "correct": [
+                "café"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Mesa para dos",
+          "blanks": [
+            {
+              "placeholder": "mesa",
+              "correct": [
+                "mesa"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Agua",
+          "blanks": [
+            {
+              "placeholder": "agua",
+              "correct": [
+                "agua"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Me [gustaría]",
+          "blanks": [
+            {
+              "placeholder": "gustaría",
+              "correct": [
+                "gustaría"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "café",
+        "mesa",
+        "agua",
+        "gustaría"
+      ]
+    }
+  ]
+}

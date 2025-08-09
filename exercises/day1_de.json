@@ -2,96 +2,99 @@
   "exercises": [
     {
       "type": "drag-drop",
-      "title": "Complete the Travel Phrases Phrases",
-      "instructions": "Drag the correct words to complete each phrase.",
+      "title": "Vervollständigen Sie die Basic Greetings & Common Phrases-Phrasen",
+      "instructions": "Ziehen Sie die richtigen Wörter, um jede Phrase zu vervollständigen.",
       "sentences": [
         {
-          "text": "Where is the [bathroom]?",
+          "text": "Danke",
           "blanks": [
             {
-              "placeholder": "bathroom",
-              "correct": "bathroom"
+              "placeholder": "danke",
+              "correct": "danke"
             }
           ]
         },
         {
-          "text": "Where is...?",
+          "text": "Entschuldigung",
           "blanks": [
             {
-              "placeholder": "where",
-              "correct": "where"
+              "placeholder": "entschuldigung",
+              "correct": "entschuldigung"
             }
           ]
         },
         {
-          "text": "I need [help]",
+          "text": "Hallo",
           "blanks": [
             {
-              "placeholder": "help",
-              "correct": "help"
+              "placeholder": "hallo",
+              "correct": "hallo"
             }
           ]
         },
         {
-          "text": "How [much] does it cost?",
+          "text": "Bitte",
           "blanks": [
             {
-              "placeholder": "much",
-              "correct": "much"
+              "placeholder": "bitte",
+              "correct": "bitte"
             }
           ]
         }
       ],
-      "extraWords": []
+      "extraWords": [
+        "dir",
+        "morgen"
+      ]
     },
     {
       "type": "fill-blank",
-      "title": "Fill in Numbers Phrases",
-      "instructions": "Complete these phrases by filling in the missing words.",
+      "title": "Füllen Sie die Numbers-Phrasen aus",
+      "instructions": "Vervollständigen Sie diese Phrasen, indem Sie die fehlenden Wörter einfügen.",
       "sentences": [
         {
-          "text": "Two",
+          "text": "Vier",
           "blanks": [
             {
-              "placeholder": "two",
+              "placeholder": "vier",
               "correct": [
-                "two"
+                "vier"
               ],
               "hint": "Key word from this phrase"
             }
           ]
         },
         {
-          "text": "Three",
+          "text": "Zwei",
           "blanks": [
             {
-              "placeholder": "three",
+              "placeholder": "zwei",
               "correct": [
-                "three"
+                "zwei"
               ],
               "hint": "Key word from this phrase"
             }
           ]
         },
         {
-          "text": "One",
+          "text": "Eins",
           "blanks": [
             {
-              "placeholder": "one",
+              "placeholder": "eins",
               "correct": [
-                "one"
+                "eins"
               ],
               "hint": "Key word from this phrase"
             }
           ]
         },
         {
-          "text": "Five",
+          "text": "Fünf",
           "blanks": [
             {
-              "placeholder": "five",
+              "placeholder": "fünf",
               "correct": [
-                "five"
+                "fünf"
               ],
               "hint": "Key word from this phrase"
             }
@@ -99,60 +102,60 @@
         }
       ],
       "wordBank": [
-        "two",
-        "three",
-        "one",
-        "five",
-        "four"
+        "vier",
+        "zwei",
+        "eins",
+        "fünf",
+        "drei"
       ]
     },
     {
       "type": "matching",
-      "title": "Match Basic Greetings & Common Phrases Items",
-      "instructions": "Match each item with its appropriate pair.",
-      "leftTitle": "Phrases",
-      "rightTitle": "Responses",
+      "title": "Ordnen Sie Travel Phrases-Elemente zu",
+      "instructions": "Ordnen Sie jeden Gegenstand seinem entsprechenden Paar zu.",
+      "leftTitle": "Phrasen",
+      "rightTitle": "Antworten",
       "leftItems": [
         {
           "id": "item1",
-          "text": "Excuse me",
+          "text": "Ich brauche Hilfe",
           "type": "text"
         },
         {
           "id": "item2",
-          "text": "Please",
+          "text": "Wo ist die Toilette?",
           "type": "text"
         },
         {
           "id": "item3",
-          "text": "How are you?",
+          "text": "Wie viel kostet das?",
           "type": "text"
         },
         {
           "id": "item4",
-          "text": "Thank you",
+          "text": "Wo ist...?",
           "type": "text"
         }
       ],
       "rightItems": [
         {
           "id": "response1",
-          "text": "me",
+          "text": "brauche Hilfe",
           "type": "text"
         },
         {
           "id": "response2",
-          "text": "Please",
+          "text": "Nein",
           "type": "text"
         },
         {
           "id": "response3",
-          "text": "I don't know",
+          "text": "Ich weiß nicht",
           "type": "text"
         },
         {
           "id": "response4",
-          "text": "you",
+          "text": "Vielleicht",
           "type": "text"
         }
       ],

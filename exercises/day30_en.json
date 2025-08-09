@@ -1,0 +1,109 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Complete the Food & Dining Phrases",
+      "instructions": "Drag the correct words to complete each phrase.",
+      "sentences": [
+        {
+          "text": "I am [hungry]",
+          "blanks": [
+            {
+              "placeholder": "hungry",
+              "correct": "hungry"
+            }
+          ]
+        },
+        {
+          "text": "I am [thirsty]",
+          "blanks": [
+            {
+              "placeholder": "thirsty",
+              "correct": "thirsty"
+            }
+          ]
+        },
+        {
+          "text": "The menu, [please]",
+          "blanks": [
+            {
+              "placeholder": "please",
+              "correct": "please"
+            }
+          ]
+        },
+        {
+          "text": "This is [delicious]",
+          "blanks": [
+            {
+              "placeholder": "delicious",
+              "correct": "delicious"
+            }
+          ]
+        }
+      ],
+      "extraWords": []
+    },
+    {
+      "type": "fill-blank",
+      "title": "Fill in Restaurants Phrases",
+      "instructions": "Complete these phrases by filling in the missing words.",
+      "sentences": [
+        {
+          "text": "Water",
+          "blanks": [
+            {
+              "placeholder": "water",
+              "correct": [
+                "water"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Coffee",
+          "blanks": [
+            {
+              "placeholder": "coffee",
+              "correct": [
+                "coffee"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Table for [two]",
+          "blanks": [
+            {
+              "placeholder": "two",
+              "correct": [
+                "two"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "I would [like]",
+          "blanks": [
+            {
+              "placeholder": "like",
+              "correct": [
+                "like"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "water",
+        "coffee",
+        "two",
+        "like"
+      ]
+    }
+  ]
+}

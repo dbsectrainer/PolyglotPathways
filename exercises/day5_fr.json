@@ -1,0 +1,109 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Complétez les Phrases de Daily Conversations",
+      "instructions": "Faites glisser les mots corrects pour compléter chaque phrase.",
+      "sentences": [
+        {
+          "text": "À plus [tard]",
+          "blanks": [
+            {
+              "placeholder": "tard",
+              "correct": "tard"
+            }
+          ]
+        },
+        {
+          "text": "Comment va tout ?",
+          "blanks": [
+            {
+              "placeholder": "comment",
+              "correct": "comment"
+            }
+          ]
+        },
+        {
+          "text": "Très [bien]",
+          "blanks": [
+            {
+              "placeholder": "bien",
+              "correct": "bien"
+            }
+          ]
+        },
+        {
+          "text": "Bonne [journée] 5!",
+          "blanks": [
+            {
+              "placeholder": "journée",
+              "correct": "journée"
+            }
+          ]
+        }
+      ],
+      "extraWords": []
+    },
+    {
+      "type": "fill-blank",
+      "title": "Remplissez les Phrases de Learning Progress",
+      "instructions": "Complétez ces phrases en remplissant les mots manquants.",
+      "sentences": [
+        {
+          "text": "Je [comprends]",
+          "blanks": [
+            {
+              "placeholder": "comprends",
+              "correct": [
+                "comprends"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "C'est [utile]",
+          "blanks": [
+            {
+              "placeholder": "utile",
+              "correct": [
+                "utile"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "J'[apprends]",
+          "blanks": [
+            {
+              "placeholder": "apprends",
+              "correct": [
+                "apprends"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "C'est la [leçon] 5",
+          "blanks": [
+            {
+              "placeholder": "leçon",
+              "correct": [
+                "leçon"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "comprends",
+        "utile",
+        "apprends",
+        "leçon"
+      ]
+    }
+  ]
+}

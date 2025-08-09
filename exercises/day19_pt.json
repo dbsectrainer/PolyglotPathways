@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Complete as Frases de Travel & Directions",
+      "instructions": "Arraste as palavras corretas para completar cada frase.",
+      "sentences": [
+        {
+          "text": "Está [perto]",
+          "blanks": [
+            {
+              "placeholder": "perto",
+              "correct": "perto"
+            }
+          ]
+        },
+        {
+          "text": "Vá em [frente]",
+          "blanks": [
+            {
+              "placeholder": "frente",
+              "correct": "frente"
+            }
+          ]
+        },
+        {
+          "text": "Vire à [direita]",
+          "blanks": [
+            {
+              "placeholder": "direita",
+              "correct": "direita"
+            }
+          ]
+        },
+        {
+          "text": "Está [longe]",
+          "blanks": [
+            {
+              "placeholder": "longe",
+              "correct": "longe"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "esquerda"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Preencha as Frases de Transportation",
+      "instructions": "Complete essas frases preenchendo as palavras em falta.",
+      "sentences": [
+        {
+          "text": "Táxi",
+          "blanks": [
+            {
+              "placeholder": "táxi",
+              "correct": [
+                "táxi"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Ônibus",
+          "blanks": [
+            {
+              "placeholder": "ônibus",
+              "correct": [
+                "ônibus"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Aeroporto",
+          "blanks": [
+            {
+              "placeholder": "aeroporto",
+              "correct": [
+                "aeroporto"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Trem",
+          "blanks": [
+            {
+              "placeholder": "trem",
+              "correct": [
+                "trem"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "táxi",
+        "ônibus",
+        "aeroporto",
+        "trem"
+      ]
+    }
+  ]
+}

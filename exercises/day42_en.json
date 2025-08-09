@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Complete the Weather & Time Phrases",
+      "instructions": "Drag the correct words to complete each phrase.",
+      "sentences": [
+        {
+          "text": "Yesterday",
+          "blanks": [
+            {
+              "placeholder": "yesterday",
+              "correct": "yesterday"
+            }
+          ]
+        },
+        {
+          "text": "It's [sunny]",
+          "blanks": [
+            {
+              "placeholder": "sunny",
+              "correct": "sunny"
+            }
+          ]
+        },
+        {
+          "text": "What [time] is it?",
+          "blanks": [
+            {
+              "placeholder": "time",
+              "correct": "time"
+            }
+          ]
+        },
+        {
+          "text": "It's [raining]",
+          "blanks": [
+            {
+              "placeholder": "raining",
+              "correct": "raining"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "tomorrow"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Fill in Feelings & Opinions Phrases",
+      "instructions": "Complete these phrases by filling in the missing words.",
+      "sentences": [
+        {
+          "text": "I don't [like] it",
+          "blanks": [
+            {
+              "placeholder": "like",
+              "correct": [
+                "like"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "I [like] it",
+          "blanks": [
+            {
+              "placeholder": "like",
+              "correct": [
+                "like"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "I'm [happy]",
+          "blanks": [
+            {
+              "placeholder": "happy",
+              "correct": [
+                "happy"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "I'm [tired]",
+          "blanks": [
+            {
+              "placeholder": "tired",
+              "correct": [
+                "tired"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "like",
+        "like",
+        "happy",
+        "tired"
+      ]
+    }
+  ]
+}

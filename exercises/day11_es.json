@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Completa las Frases de Travel & Directions",
+      "instructions": "Arrastra las palabras correctas para completar cada frase.",
+      "sentences": [
+        {
+          "text": "Gira a la [izquierda]",
+          "blanks": [
+            {
+              "placeholder": "izquierda",
+              "correct": "izquierda"
+            }
+          ]
+        },
+        {
+          "text": "Está [cerca]",
+          "blanks": [
+            {
+              "placeholder": "cerca",
+              "correct": "cerca"
+            }
+          ]
+        },
+        {
+          "text": "Gira a la [derecha]",
+          "blanks": [
+            {
+              "placeholder": "derecha",
+              "correct": "derecha"
+            }
+          ]
+        },
+        {
+          "text": "Ve [derecho]",
+          "blanks": [
+            {
+              "placeholder": "derecho",
+              "correct": "derecho"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "lejos"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Completa las Frases de Transportation",
+      "instructions": "Completa estas frases llenando las palabras que faltan.",
+      "sentences": [
+        {
+          "text": "Autobús",
+          "blanks": [
+            {
+              "placeholder": "autobús",
+              "correct": [
+                "autobús"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Aeropuerto",
+          "blanks": [
+            {
+              "placeholder": "aeropuerto",
+              "correct": [
+                "aeropuerto"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Tren",
+          "blanks": [
+            {
+              "placeholder": "tren",
+              "correct": [
+                "tren"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Taxi",
+          "blanks": [
+            {
+              "placeholder": "taxi",
+              "correct": [
+                "taxi"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "autobús",
+        "aeropuerto",
+        "tren",
+        "taxi"
+      ]
+    }
+  ]
+}

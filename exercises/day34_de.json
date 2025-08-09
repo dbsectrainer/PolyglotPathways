@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Vervollständigen Sie die Shopping-Phrasen",
+      "instructions": "Ziehen Sie die richtigen Wörter, um jede Phrase zu vervollständigen.",
+      "sentences": [
+        {
+          "text": "Ich [nehme] es",
+          "blanks": [
+            {
+              "placeholder": "nehme",
+              "correct": "nehme"
+            }
+          ]
+        },
+        {
+          "text": "Es ist [billig]",
+          "blanks": [
+            {
+              "placeholder": "billig",
+              "correct": "billig"
+            }
+          ]
+        },
+        {
+          "text": "Kann ich [mit] Karte zahlen?",
+          "blanks": [
+            {
+              "placeholder": "mit",
+              "correct": "mit"
+            }
+          ]
+        },
+        {
+          "text": "Es ist [teuer]",
+          "blanks": [
+            {
+              "placeholder": "teuer",
+              "correct": "teuer"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "kostet"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Füllen Sie die Money-Phrasen aus",
+      "instructions": "Vervollständigen Sie diese Phrasen, indem Sie die fehlenden Wörter einfügen.",
+      "sentences": [
+        {
+          "text": "Kreditkarte",
+          "blanks": [
+            {
+              "placeholder": "kreditkarte",
+              "correct": [
+                "kreditkarte"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Wechselgeld",
+          "blanks": [
+            {
+              "placeholder": "wechselgeld",
+              "correct": [
+                "wechselgeld"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Bargeld",
+          "blanks": [
+            {
+              "placeholder": "bargeld",
+              "correct": [
+                "bargeld"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Quittung",
+          "blanks": [
+            {
+              "placeholder": "quittung",
+              "correct": [
+                "quittung"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "kreditkarte",
+        "wechselgeld",
+        "bargeld",
+        "quittung"
+      ]
+    }
+  ]
+}

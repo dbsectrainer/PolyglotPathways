@@ -1,0 +1,111 @@
+{
+  "exercises": [
+    {
+      "type": "drag-drop",
+      "title": "Complete as Frases de Shopping",
+      "instructions": "Arraste as palavras corretas para completar cada frase.",
+      "sentences": [
+        {
+          "text": "Posso [pagar] com cartão?",
+          "blanks": [
+            {
+              "placeholder": "pagar",
+              "correct": "pagar"
+            }
+          ]
+        },
+        {
+          "text": "É [barato]",
+          "blanks": [
+            {
+              "placeholder": "barato",
+              "correct": "barato"
+            }
+          ]
+        },
+        {
+          "text": "Quanto [custa] isso?",
+          "blanks": [
+            {
+              "placeholder": "custa",
+              "correct": "custa"
+            }
+          ]
+        },
+        {
+          "text": "É [caro]",
+          "blanks": [
+            {
+              "placeholder": "caro",
+              "correct": "caro"
+            }
+          ]
+        }
+      ],
+      "extraWords": [
+        "levar"
+      ]
+    },
+    {
+      "type": "fill-blank",
+      "title": "Preencha as Frases de Money",
+      "instructions": "Complete essas frases preenchendo as palavras em falta.",
+      "sentences": [
+        {
+          "text": "Recibo",
+          "blanks": [
+            {
+              "placeholder": "recibo",
+              "correct": [
+                "recibo"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Troco",
+          "blanks": [
+            {
+              "placeholder": "troco",
+              "correct": [
+                "troco"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Dinheiro",
+          "blanks": [
+            {
+              "placeholder": "dinheiro",
+              "correct": [
+                "dinheiro"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        },
+        {
+          "text": "Cartão de [crédito]",
+          "blanks": [
+            {
+              "placeholder": "crédito",
+              "correct": [
+                "crédito"
+              ],
+              "hint": "Key word from this phrase"
+            }
+          ]
+        }
+      ],
+      "wordBank": [
+        "recibo",
+        "troco",
+        "dinheiro",
+        "crédito"
+      ]
+    }
+  ]
+}
