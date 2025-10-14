@@ -105,14 +105,23 @@ def get_translation_pair(phrase, lang_code):
 
 def create_listening_exercise(day, lang, phrase, translation, audio_path, idx):
     """Create a listening comprehension exercise"""
-    # Create distractor options
+    # Create distractor options based on similar phrases or common mistakes
     options = [phrase]
     
-    # Add some random distractors (simplified)
-    distractors = [
-        "Option A", "Option B", "Option C"
-    ]
-    options.extend(distractors[:3])
+    # Generate context-appropriate distractors
+    words = phrase.split()
+    if len(words) > 2:
+        # Create variations by swapping or changing words
+        distractor1 = ' '.join(words[:-1] + ['alternativa'])
+        distractor2 = ' '.join(['variación'] + words[1:])
+        distractor3 = ' '.join(words[:len(words)//2] + ['diferente'])
+    else:
+        # For short phrases, create simple variations
+        distractor1 = phrase + ' extra'
+        distractor2 = 'No ' + phrase.lower()
+        distractor3 = phrase.split()[0] if words else 'Option'
+    
+    options.extend([distractor1, distractor2, distractor3])
     random.shuffle(options)
     correct_idx = options.index(phrase)
     
@@ -138,15 +147,43 @@ def create_listening_exercise(day, lang, phrase, translation, audio_path, idx):
 
 def create_pronunciation_exercise(day, lang, phrase, idx):
     """Create a pronunciation practice exercise"""
-    # Generate a simple phonetic representation
-    phonetic = f'[{phrase.lower()}]'
+    # Generate a simplified phonetic representation
+    # For production use, these should be proper IPA transcriptions
+    
+    phonetic_rules = {
+        'es': {
+            'replace': [('qu', 'k'), ('ll', 'j'), ('ñ', 'nj'), ('j', 'h')],
+            'prefix': 'es-',
+        },
+        'pt': {
+            'replace': [('lh', 'lj'), ('nh', 'nj'), ('ão', 'ãw'), ('õe', 'õj')],
+            'prefix': 'pt-',
+        },
+        'fr': {
+            'replace': [('eau', 'o'), ('eux', 'ø'), ('oi', 'wa'), ('ain', 'ɛ̃')],
+            'prefix': 'fr-',
+        },
+        'de': {
+            'replace': [('ch', 'x'), ('sch', 'ʃ'), ('ei', 'ai'), ('ie', 'i:')],
+            'prefix': 'de-',
+        },
+        'en': {
+            'replace': [('th', 'θ'), ('gh', 'f'), ('ough', 'ʌf')],
+            'prefix': 'en-',
+        }
+    }
+    
+    phonetic = phrase.lower()
+    if lang in phonetic_rules:
+        for old, new in phonetic_rules[lang]['replace']:
+            phonetic = phonetic.replace(old, new)
     
     return {
         'id': f'day{day}_{lang}_pronunciation_{idx}',
         'type': 'pronunciation',
         'language': lang,
         'text': phrase,
-        'phonetic': phonetic,
+        'phonetic': f'[{phonetic}]',
         'targetAccuracy': 85
     }
 
@@ -156,14 +193,31 @@ def create_fillblank_exercise(day, lang, phrase, idx):
     if len(words) < 2:
         return None
     
-    # Pick a meaningful word to blank out (prefer longer words)
-    word_to_blank = max(words, key=len) if len(words) > 1 else words[0]
+    # Pick a meaningful word to blank out (prefer longer words, avoid punctuation-only)
+    meaningful_words = [w for w in words if len(w) > 2 and not all(c in '¿?!.,;:' for c in w)]
+    if not meaningful_words:
+        return None
+    
+    word_to_blank = max(meaningful_words, key=len)
     blank_position = phrase.find(word_to_blank)
     
     sentence = phrase[:blank_position] + '__' + phrase[blank_position + len(word_to_blank):]
     
-    # Generate options (correct + distractors)
-    options = [word_to_blank, 'OptionA', 'OptionB', 'OptionC']
+    # Generate context-appropriate options
+    options = [word_to_blank]
+    
+    # Create distractors based on the word
+    if len(word_to_blank) > 4:
+        # Similar length words
+        distractor1 = word_to_blank[:3] + 'ado' if lang in ['es', 'pt'] else word_to_blank[:3] + 'ing'
+        distractor2 = word_to_blank[:-2] + 'ar' if lang in ['es', 'pt'] else word_to_blank[:-1] + 'e'
+        distractor3 = word_to_blank[:4] + 'ción' if lang == 'es' else word_to_blank[:4] + 'tion'
+    else:
+        distractor1 = word_to_blank + 's'
+        distractor2 = 'no'
+        distractor3 = 'muy'
+    
+    options.extend([distractor1, distractor2, distractor3])
     random.shuffle(options)
     
     return {
