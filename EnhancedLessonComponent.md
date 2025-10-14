@@ -186,12 +186,14 @@ return (
 </div>
 
         {/* Progress Bar */}
+        {% raw %}
         <div className="w-full bg-gray-200 rounded-full h-3">
           <div
             className="bg-gradient-to-r from-blue-500 to-indigo-600 h-3 rounded-full transition-all duration-300"
             style={{ width: `${((currentExercise + 1) / lessonData.exercises.length) * 100}%` }}
           ></div>
         </div>
+        {% endraw %}
       </div>
 
       {/* Exercise Content */}
@@ -267,6 +269,7 @@ return (
             </div>
 
             {/* Pronunciation Score */}
+            {% raw %}
             {pronunciationScore !== null && (
               <div className="mb-6">
                 <div className="text-3xl font-bold mb-2">
@@ -284,6 +287,7 @@ return (
                 </div>
               </div>
             )}
+            {% endraw %}
           </div>
         )}
 
