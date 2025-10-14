@@ -1,24 +1,49 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Generate day grid
     generateDayGrid();
-    
+
     // Initialize language cards
     initializeLanguageCards();
-    
+
+    // Apply stored or default language selection without scrolling
+    setActiveLanguageCard(selectedLanguage, { scrollToDaySelection: false });
+
     // Add scroll animations
     initializeScrollAnimations();
-    
+
     // Initialize day grid pagination
     initializeDayPagination();
-    
+
     // Add micro-interactions
     initializeMicroInteractions();
 });
+
+// Language metadata for display logic
+const languageDisplayNames = {
+    en: 'English',
+    es: 'Spanish',
+    pt: 'Portuguese',
+    fr: 'French',
+    de: 'German'
+};
+const supportedLessonLanguages = Object.keys(languageDisplayNames);
+const urlParams = new URLSearchParams(window.location.search);
+const langFromUrl = urlParams.get('lang');
+const storedLanguagePreference = localStorage.getItem('preferredLanguage') || localStorage.getItem('lastSelectedLanguage');
+
 // Global variables for pagination
 let currentDayPage = 1;
 const daysPerPage = 10;
 const totalDays = 50;
-let selectedLanguage = window.i18n ? window.i18n.currentLang : 'en'; // Use i18n language or default to English
+let selectedLanguage = 'en';
+
+if (langFromUrl && supportedLessonLanguages.includes(langFromUrl)) {
+    selectedLanguage = langFromUrl;
+} else if (storedLanguagePreference && supportedLessonLanguages.includes(storedLanguagePreference)) {
+    selectedLanguage = storedLanguagePreference;
+} else if (window.i18n && supportedLessonLanguages.includes(window.i18n.currentLang)) {
+    selectedLanguage = window.i18n.currentLang;
+}
 
 function generateDayGrid() {
     const dayGrid = document.querySelector('.day-grid');
@@ -38,9 +63,8 @@ function generateDayGrid() {
     
     for (let i = startDay; i <= endDay; i++) {
         const dayLink = document.createElement('a');
-        // Get current language from URL or i18n
-        const urlParams = new URLSearchParams(window.location.search);
-        const currentLang = urlParams.get('lang') || window.i18n?.currentLang || selectedLanguage;
+        // Use the currently selected learning language for links
+        const currentLang = supportedLessonLanguages.includes(selectedLanguage) ? selectedLanguage : 'en';
         dayLink.href = `day.html?day=${i}&lang=${currentLang}`;
         dayLink.className = 'animate-fade-in hover-scale';
         dayLink.style.animationDelay = `${(i - startDay) * 0.05}s`;
@@ -116,50 +140,35 @@ function addDayTooltip(element, text) {
 
 function initializeLanguageCards() {
     const cards = document.querySelectorAll('.language-card');
-    const languages = ['es', 'pt', 'fr', 'de'];
-    
-    cards.forEach((card, index) => {
-        if (index < languages.length) {
-            card.addEventListener('click', function() {
-                const language = languages[index];
-                const title = this.querySelector('h3').textContent.trim().split(' ')[1].toLowerCase();
-                
-                // Update selected language
-                document.querySelectorAll('.language-card').forEach(c => {
-                    c.style.opacity = '0.7';
-                    c.style.transform = 'none';
-                });
-                this.style.opacity = '1';
-                this.style.transform = 'translateY(-10px)';
-                
-                // Update day grid links
-                updateDayGridLanguage(language);
-                
-                // Scroll to day selection
-                document.querySelector('#day-selection').scrollIntoView({ 
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-                
-                // Update section title
-                document.querySelector('#day-selection h2').textContent = `${title} Lessons`;
-            });
-            
-            // Add hover effects
-            card.addEventListener('mouseenter', function() {
-                if (this.style.opacity !== '0.7') {
-                    this.style.transform = 'translateY(-10px)';
-                    this.style.boxShadow = '0 15px 30px rgba(0,0,0,0.15)';
-                }
-            });
-            
-            card.addEventListener('mouseleave', function() {
-                if (this.style.opacity !== '0.7') {
-                    this.style.transform = 'translateY(0)';
-                    this.style.boxShadow = '0 10px 20px rgba(0,0,0,0.1)';
-                }
-            });
+
+    cards.forEach(card => {
+        const language = card.getAttribute('data-language');
+        if (!language) {
+            return;
         }
+
+        card.dataset.selected = 'false';
+
+        card.addEventListener('click', function() {
+            setActiveLanguageCard(language);
+        });
+
+        // Add hover effects that respect selection state
+        card.addEventListener('mouseenter', function() {
+            if (this.dataset.selected === 'true') {
+                return;
+            }
+            this.style.transform = 'translateY(-10px)';
+            this.style.boxShadow = '0 15px 30px rgba(0,0,0,0.15)';
+        });
+
+        card.addEventListener('mouseleave', function() {
+            if (this.dataset.selected === 'true') {
+                return;
+            }
+            this.style.transform = 'translateY(0)';
+            this.style.boxShadow = '';
+        });
     });
 }
 
@@ -168,12 +177,65 @@ function updateDayGridLanguage(language) {
     selectedLanguage = language;
     // Update localStorage
     localStorage.setItem('preferredLanguage', language);
+    updateDaySelectionHeading(language);
     // Update day links
     const dayLinks = document.querySelectorAll('.day-grid a');
     dayLinks.forEach(link => {
         const day = link.querySelector('.day-number').textContent;
         link.href = `day.html?day=${day}&lang=${language}`;
     });
+}
+
+function updateDaySelectionHeading(language) {
+    const heading = document.querySelector('#day-selection h2');
+    if (!heading) return;
+    const displayName = languageDisplayNames[language] || languageDisplayNames.en;
+    heading.textContent = `${displayName} Lessons`;
+}
+
+function setActiveLanguageCard(language, options = {}) {
+    const { scrollToDaySelection = true } = options;
+    const cards = document.querySelectorAll('.language-card');
+    let matchedCard = null;
+
+    cards.forEach(card => {
+        if (card.getAttribute('data-language') === language) {
+            matchedCard = card;
+        }
+    });
+
+    if (matchedCard) {
+        cards.forEach(card => {
+            if (card === matchedCard) {
+                card.dataset.selected = 'true';
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(-10px)';
+                card.style.boxShadow = '0 15px 30px rgba(0,0,0,0.15)';
+            } else {
+                card.dataset.selected = 'false';
+                card.style.opacity = '0.7';
+                card.style.transform = 'none';
+                card.style.boxShadow = '';
+            }
+        });
+    } else {
+        cards.forEach(card => {
+            card.dataset.selected = 'false';
+            card.style.opacity = '';
+            card.style.transform = '';
+            card.style.boxShadow = '';
+        });
+    }
+
+    updateDayGridLanguage(language);
+
+    if (matchedCard && scrollToDaySelection) {
+        const daySection = document.querySelector('#day-selection');
+        daySection && daySection.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    }
 }
 function initializeScrollAnimations() {
     const observer = new IntersectionObserver((entries) => {

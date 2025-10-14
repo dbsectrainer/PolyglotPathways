@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,232 +10,453 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/onboarding.css">
     <script src="js/i18n.js"></script>
+    <script src="js/gamification.js"></script>
+    <script src="js/ui-utils.js"></script>
 </head>
+
 <body>
-    <div class="language-selector">
-        <select id="languageSelector"></select>
-    </div>
-    <header>
-        <h1 data-i18n="header.title">Polyglot Pathways</h1>
-        <p data-i18n="header.subtitle">Your Journey to Multilingual Mastery</p>
+    <!-- Header with User Status -->
+    <header class="main-header">
+        <div class="header-content">
+            <div class="header-branding">
+                <h1 data-i18n="header.title">Polyglot Pathways</h1>
+                <p data-i18n="header.subtitle">Your Journey to Multilingual Mastery</p>
+            </div>
+            <div class="user-status">
+                <div class="returning-user-badge" id="userStatus" style="display: none;">
+                    <i class="fas fa-user"></i> <span id="userWelcomeText">Welcome back!</span>
+                </div>
+                <div class="header-language-selector" id="headerLangSelector">
+                    <select id="languageSelector" class="language-select"></select>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <section class="hero-section">
+    <!-- Hero Section with Value Proposition -->
+    <section class="hero-section hero-enhanced">
         <div class="hero-content animate-fade-in">
-            <h2 data-i18n="hero.title">Master Multiple Languages</h2>
-            <p data-i18n="hero.subtitle">Embark on a 50-day journey through comprehensive language learning for global living and working</p>
+            <h2 class="hero-main-title">Master Languages That Matter</h2>
+            <p class="hero-subtitle">Join thousands learning the 5 most valuable languages for global opportunities</p>
+
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="hero-stat-number">5</span>
+                    <span class="hero-stat-label">Strategic Languages</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number">50</span>
+                    <span class="hero-stat-label">Day Program</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number">97%</span>
+                    <span class="hero-stat-label">Success Rate</span>
+                </div>
+            </div>
+
+            <div class="cta-container">
+                <a href="#assessment-section" class="primary-cta" id="startJourney">
+                    <i class="fas fa-rocket"></i> Start Your Journey
+                </a>
+                <a href="#" class="primary-cta resume-cta" id="resumeJourney" style="display: none;">
+                    <i class="fas fa-undo"></i> Resume Learning
+                </a>
+                <a href="#" class="secondary-cta" id="learnMore">
+                    <i class="fas fa-play"></i> See How It Works
+                </a>
+            </div>
         </div>
     </section>
+
+    <!-- Step Indicator -->
+    <div class="step-indicator" id="stepIndicator">
+        <div class="step active" data-step="1">
+            <div class="step-number">1</div>
+            <span class="step-label">Quick Assessment</span>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step" data-step="2">
+            <div class="step-number">2</div>
+            <span class="step-label">Choose Language</span>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step" data-step="3">
+            <div class="step-number">3</div>
+            <span class="step-label">Start Learning</span>
+        </div>
+    </div>
 
     <main>
         <!-- Return to top button -->
         <div class="return-to-top" id="returnToTop">
             <i class="fas fa-arrow-up"></i>
         </div>
-        <div class="language-cards">
-            <div class="language-card animate-fade-in" title="English - Global lingua franca for business, science, and technology">
-                <div class="card-header" style="background: linear-gradient(135deg, #3498db, #2980b9);">
-                    <h3>
-                        <span class="flag">🇬🇧</span>
-                        <span data-i18n="languages.en">English</span>
-                    </h3>
-                </div>
-                <div class="card-content">
-                    <div class="progress-container">
-                        <p><span data-i18n="progress.status" data-i18n-params='{"completed": 0}'>Progress: Day 0/50</span></p>
-                        <div class="progress-bar">
-                            <div class="progress-fill" style="width: 0%;"></div>
-                        </div>
-                    </div>
-                    <div class="stats">
-                        <div class="stat-item">
-                            <div class="stat-number">50</div>
-                            <div class="stat-label" data-i18n="progress.days">Days</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">4</div>
-                            <div class="stat-label" data-i18n="progress.levels">Levels</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="language-card animate-fade-in" title="Spanish - Learn the most widely spoken language in South America">
-                <div class="card-header">
-                    <h3>
-                        <span class="flag">🇪🇸</span>
-                        <span data-i18n="languages.es">Spanish</span>
-                    </h3>
-                </div>
-                <div class="card-content">
-                    <div class="progress-container">
-                        <p><span data-i18n="progress.status" data-i18n-params='{"completed": 0}'>Progress: Day 0/50</span></p>
-                        <div class="progress-bar">
-                            <div class="progress-fill" style="width: 0%;"></div>
-                        </div>
+        <!-- Step 1: Quick Assessment -->
+        <section id="assessment-section" class="content-section section-visible onboarding-section">
+            <div class="assessment-container">
+                <h2 class="assessment-title">What's your primary goal for learning languages?</h2>
+                <div class="assessment-options">
+                    <div class="assessment-option" data-goal="career">
+                        <i class="fas fa-briefcase assessment-icon"></i>
+                        <h4>Career Advancement</h4>
+                        <p>Boost your professional opportunities</p>
                     </div>
-                    <div class="stats">
-                        <div class="stat-item">
-                            <div class="stat-number">50</div>
-                            <div class="stat-label" data-i18n="progress.days">Days</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">4</div>
-                            <div class="stat-label" data-i18n="progress.levels">Levels</div>
-                        </div>
+                    <div class="assessment-option" data-goal="travel">
+                        <i class="fas fa-plane assessment-icon"></i>
+                        <h4>Travel & Culture</h4>
+                        <p>Connect with people worldwide</p>
                     </div>
-                </div>
-            </div>
-
-            <div class="language-card animate-fade-in" title="Portuguese - Essential for Brazil and growing business opportunities">
-                <div class="card-header" style="background: linear-gradient(135deg, #2ecc71, #27ae60);">
-                    <h3>
-                        <span class="flag">🇧🇷</span>
-                        <span data-i18n="languages.pt">Portuguese</span>
-                    </h3>
-                </div>
-                <div class="card-content">
-                    <div class="progress-container">
-                        <p><span data-i18n="progress.status" data-i18n-params='{"completed": 0}'>Progress: Day 0/50</span></p>
-                        <div class="progress-bar">
-                            <div class="progress-fill" style="width: 0%;"></div>
-                        </div>
+                    <div class="assessment-option" data-goal="business">
+                        <i class="fas fa-chart-line assessment-icon"></i>
+                        <h4>Business Expansion</h4>
+                        <p>Enter new markets globally</p>
                     </div>
-                    <div class="stats">
-                        <div class="stat-item">
-                            <div class="stat-number">50</div>
-                            <div class="stat-label" data-i18n="progress.days">Days</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">4</div>
-                            <div class="stat-label" data-i18n="progress.levels">Levels</div>
-                        </div>
+                    <div class="assessment-option" data-goal="personal">
+                        <i class="fas fa-brain assessment-icon"></i>
+                        <h4>Personal Growth</h4>
+                        <p>Challenge yourself intellectually</p>
                     </div>
-                </div>
-            </div>
-
-            <div class="language-card animate-fade-in" title="French - Important for international business and cultural exchange">
-                <div class="card-header" style="background: linear-gradient(135deg, #e74c3c, #c0392b);">
-                    <h3>
-                        <span class="flag">🇫🇷</span>
-                        <span data-i18n="languages.fr">French</span>
-                    </h3>
-                </div>
-                <div class="card-content">
-                    <div class="progress-container">
-                        <p><span data-i18n="progress.status" data-i18n-params='{"completed": 0}'>Progress: Day 0/50</span></p>
-                        <div class="progress-bar">
-                            <div class="progress-fill" style="width: 0%;"></div>
-                        </div>
-                    </div>
-                    <div class="stats">
-                        <div class="stat-item">
-                            <div class="stat-number">50</div>
-                            <div class="stat-label" data-i18n="progress.days">Days</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">4</div>
-                            <div class="stat-label" data-i18n="progress.levels">Levels</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="language-card animate-fade-in" title="German - Key language for technology and engineering sectors">
-                <div class="card-header" style="background: linear-gradient(135deg, #f1c40f, #f39c12);">
-                    <h3>
-                        <span class="flag">🇩🇪</span>
-                        <span data-i18n="languages.de">German</span>
-                    </h3>
-                </div>
-                <div class="card-content">
-                    <div class="progress-container">
-                        <p><span data-i18n="progress.status" data-i18n-params='{"completed": 0}'>Progress: Day 0/50</span></p>
-                        <div class="progress-bar">
-                            <div class="progress-fill" style="width: 0%;"></div>
-                        </div>
-                    </div>
-                    <div class="stats">
-                        <div class="stat-item">
-                            <div class="stat-number">50</div>
-                            <div class="stat-label" data-i18n="progress.days">Days</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">4</div>
-                            <div class="stat-label" data-i18n="progress.levels">Levels</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section divider with visual anchor -->
-        <div class="section-divider"></div>
-        
-        <!-- Visual anchor pattern -->
-        <div class="visual-anchor" style="top: 5%; right: 5%;"></div>
-
-        <section class="course-overview">
-            <h2 data-i18n="courseStructure.title">Course Structure</h2>
-            <div class="course-sections">
-                <div class="section-card">
-                    <h3><i class="fas fa-star"></i> <span data-i18n="courseStructure.sections.days1_7.title">Days 1-7</span></h3>
-                    <p data-i18n="courseStructure.sections.days1_7.description">Basic vocabulary and essential phrases for beginners</p>
-                </div>
-                <div class="section-card">
-                    <h3><i class="fas fa-comments"></i> <span data-i18n="courseStructure.sections.days8_15.title">Days 8-15</span></h3>
-                    <p data-i18n="courseStructure.sections.days8_15.description">Advanced phrases for intermediate learners</p>
-                </div>
-                <div class="section-card">
-                    <h3><i class="fas fa-building"></i> <span data-i18n="courseStructure.sections.days16_26.title">Days 16-26</span></h3>
-                    <p data-i18n="courseStructure.sections.days16_26.description">International Living & Working</p>
-                </div>
-                <div class="section-card">
-                    <h3><i class="fas fa-laptop-code"></i> <span data-i18n="courseStructure.sections.days27_31.title">Days 27-31</span></h3>
-                    <p data-i18n="courseStructure.sections.days27_31.description">Tech Professional Content</p>
-                </div>
-                <div class="section-card">
-                    <h3><i class="fas fa-graduation-cap"></i> <span data-i18n="courseStructure.sections.days32_50.title">Days 32-50</span></h3>
-                    <p data-i18n="courseStructure.sections.days32_50.description">Advanced Academic & Professional Communication</p>
                 </div>
             </div>
         </section>
 
-        <!-- Section divider with visual anchor -->
-        <div class="section-divider"></div>
-        
-        <!-- Visual anchor pattern -->
-        <div class="visual-anchor" style="bottom: 10%; left: 5%;"></div>
+        <!-- Step 2: Smart Language Selection -->
+        <section id="language-section" class="content-section section-hidden onboarding-section">
+            <div class="language-selection">
+                <h2 class="section-heading">Recommended Languages for You</h2>
+                <p class="section-subtitle">Based on your goals, here are the languages that will give you the best ROI:</p>
 
-        <section id="day-selection">
+                <div class="language-cards-enhanced" id="languageCardsEnhanced">
+                    <!-- Languages will be populated dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Step 3: Personalized Learning Path -->
+        <section id="path-section" class="content-section section-hidden onboarding-section">
+            <h2 class="section-heading">Your Personalized Learning Path</h2>
+            <p class="section-subtitle" id="pathLanguageName">Here's what your 50-day journey will look like:</p>
+
+            <div class="dashboard-preview">
+                <h3><i class="fas fa-chart-line"></i> Track Your Progress</h3>
+                <p>Watch as you level up with our gamified learning system</p>
+
+                <div class="preview-stats">
+                    <div class="preview-stat">
+                        <span class="preview-stat-number">0</span>
+                        <span class="preview-stat-label">XP Points</span>
+                    </div>
+                    <div class="preview-stat">
+                        <span class="preview-stat-number">1</span>
+                        <span class="preview-stat-label">Current Level</span>
+                    </div>
+                    <div class="preview-stat">
+                        <span class="preview-stat-number">0</span>
+                        <span class="preview-stat-label">Day Streak</span>
+                    </div>
+                    <div class="preview-stat">
+                        <span class="preview-stat-number">0</span>
+                        <span class="preview-stat-label">Badges Earned</span>
+                    </div>
+                </div>
+
+                <a href="#" class="primary-cta cta-large" id="startLearningBtn">
+                    <i class="fas fa-play"></i> Start Day 1
+                </a>
+            </div>
+        </section>
+
+        <!-- Navigation Controls -->
+        <div class="navigation-controls" id="navigationControls">
+            <button class="nav-button" id="prevButton" disabled>
+                <i class="fas fa-chevron-left"></i> Previous
+            </button>
+
+            <div class="progress-indicator-text">
+                <span id="currentStep">1</span> of 3 steps
+            </div>
+
+            <button class="nav-button" id="nextButton" disabled>
+                Next <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <!-- Original Language Cards Section (Hidden by default, shown after onboarding) -->
+        <section id="language-cards" class="content-section section-hidden">
+            <h2 class="section-heading">Choose Your Language Path</h2>
+            <div class="language-cards">
+                <div class="language-card animate-fade-in" data-language="en"
+                    title="English - Global lingua franca for business, science, and technology">
+                    <div class="card-header" style="background: linear-gradient(135deg, #3498db, #2980b9);">
+                        <h3>
+                            <span class="flag">🇬🇧</span>
+                            <span data-i18n="languages.en">English</span>
+                        </h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="progress-container">
+                            <p><span data-i18n="progress.status" data-i18n-params='{"completed": 0}'>Progress: Day
+                                    0/50</span></p>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <div class="stat-number">50</div>
+                                <div class="stat-label" data-i18n="progress.days">Days</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">4</div>
+                                <div class="stat-label" data-i18n="progress.levels">Levels</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="language-card animate-fade-in" data-language="es"
+                    title="Spanish - Learn the most widely spoken language in South America">
+                    <div class="card-header">
+                        <h3>
+                            <span class="flag">🇪🇸</span>
+                            <span data-i18n="languages.es">Spanish</span>
+                        </h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="progress-container">
+                            <p><span data-i18n="progress.status" data-i18n-params='{"completed": 0}'>Progress: Day
+                                    0/50</span></p>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <div class="stat-number">50</div>
+                                <div class="stat-label" data-i18n="progress.days">Days</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">4</div>
+                                <div class="stat-label" data-i18n="progress.levels">Levels</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="language-card animate-fade-in" data-language="pt"
+                    title="Portuguese - Essential for Brazil and growing business opportunities">
+                    <div class="card-header" style="background: linear-gradient(135deg, #2ecc71, #27ae60);">
+                        <h3>
+                            <span class="flag">🇧🇷</span>
+                            <span data-i18n="languages.pt">Portuguese</span>
+                        </h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="progress-container">
+                            <p><span data-i18n="progress.status" data-i18n-params='{"completed": 0}'>Progress: Day
+                                    0/50</span></p>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <div class="stat-number">50</div>
+                                <div class="stat-label" data-i18n="progress.days">Days</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">4</div>
+                                <div class="stat-label" data-i18n="progress.levels">Levels</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="language-card animate-fade-in" data-language="fr"
+                    title="French - Important for international business and cultural exchange">
+                    <div class="card-header" style="background: linear-gradient(135deg, #e74c3c, #c0392b);">
+                        <h3>
+                            <span class="flag">🇫🇷</span>
+                            <span data-i18n="languages.fr">French</span>
+                        </h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="progress-container">
+                            <p><span data-i18n="progress.status" data-i18n-params='{"completed": 0}'>Progress: Day
+                                    0/50</span></p>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <div class="stat-number">50</div>
+                                <div class="stat-label" data-i18n="progress.days">Days</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">4</div>
+                                <div class="stat-label" data-i18n="progress.levels">Levels</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="language-card animate-fade-in" data-language="de"
+                    title="German - Key language for technology and engineering sectors">
+                    <div class="card-header" style="background: linear-gradient(135deg, #f1c40f, #f39c12);">
+                        <h3>
+                            <span class="flag">🇩🇪</span>
+                            <span data-i18n="languages.de">German</span>
+                        </h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="progress-container">
+                            <p><span data-i18n="progress.status" data-i18n-params='{"completed": 0}'>Progress: Day
+                                    0/50</span></p>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <div class="stat-number">50</div>
+                                <div class="stat-label" data-i18n="progress.days">Days</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">4</div>
+                                <div class="stat-label" data-i18n="progress.levels">Levels</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- User Dashboard Section - Initially Hidden -->
+        <section class="user-dashboard content-section section-hidden" id="userDashboard">
+            <div class="dashboard-container">
+                <h2 class="dashboard-title">
+                    <i class="fas fa-chart-line"></i> Your Progress Dashboard
+                </h2>
+                <div class="dashboard-grid">
+                    <div class="dashboard-card">
+                        <div class="card-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3 id="dashboard-xp">0 XP</h3>
+                            <p>Total Experience</p>
+                        </div>
+                    </div>
+                    <div class="dashboard-card">
+                        <div class="card-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3 id="dashboard-level">Level 1</h3>
+                            <p>Current Level</p>
+                        </div>
+                    </div>
+                    <div class="dashboard-card streak-card">
+                        <div class="card-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3 id="dashboard-streak">0 Days</h3>
+                            <p>Learning Streak</p>
+                        </div>
+                    </div>
+                    <div class="dashboard-card">
+                        <div class="card-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3 id="dashboard-badges">0 Badges</h3>
+                            <p>Achievements</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Badges Display -->
+                <div class="badges-section">
+                    <h3><i class="fas fa-trophy"></i> Your Achievements</h3>
+                    <div id="badges-container" class="badges-display">
+                        <p class="no-badges">Complete lessons to earn badges!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section divider -->
+        <div class="section-divider section-hidden"></div>
+
+        <section class="course-overview content-section section-hidden">
+            <h2 data-i18n="courseStructure.title">Course Structure</h2>
+            <div class="course-sections">
+                <div class="section-card">
+                    <h3><i class="fas fa-star"></i> <span data-i18n="courseStructure.sections.days1_7.title">Days
+                            1-7</span></h3>
+                    <p data-i18n="courseStructure.sections.days1_7.description">Basic vocabulary and essential phrases
+                        for beginners</p>
+                </div>
+                <div class="section-card">
+                    <h3><i class="fas fa-comments"></i> <span data-i18n="courseStructure.sections.days8_15.title">Days
+                            8-15</span></h3>
+                    <p data-i18n="courseStructure.sections.days8_15.description">Advanced phrases for intermediate
+                        learners</p>
+                </div>
+                <div class="section-card">
+                    <h3><i class="fas fa-building"></i> <span data-i18n="courseStructure.sections.days16_26.title">Days
+                            16-26</span></h3>
+                    <p data-i18n="courseStructure.sections.days16_26.description">International Living & Working</p>
+                </div>
+                <div class="section-card">
+                    <h3><i class="fas fa-laptop-code"></i> <span
+                            data-i18n="courseStructure.sections.days27_31.title">Days 27-31</span></h3>
+                    <p data-i18n="courseStructure.sections.days27_31.description">Tech Professional Content</p>
+                </div>
+                <div class="section-card">
+                    <h3><i class="fas fa-graduation-cap"></i> <span
+                            data-i18n="courseStructure.sections.days32_50.title">Days 32-50</span></h3>
+                    <p data-i18n="courseStructure.sections.days32_50.description">Advanced Academic & Professional
+                        Communication</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section divider -->
+        <div class="section-divider section-hidden"></div>
+
+        <section id="day-selection" class="content-section section-hidden">
             <h2 data-i18n="daySelection.title">Daily Lessons</h2>
-            
+
             <!-- Day grid pagination controls -->
             <div class="day-controls">
-                <button id="prevDays" class="hover-scale"><i class="fas fa-chevron-left"></i> <span data-i18n="daySelection.controls.previous">Previous</span></button>
-                <div class="day-range"><span data-i18n="daySelection.controls.daysRange">Days</span> <span id="dayRangeStart">1</span>-<span id="dayRangeEnd">10</span></div>
-                <button id="nextDays" class="hover-scale"><span data-i18n="daySelection.controls.next">Next</span> <i class="fas fa-chevron-right"></i></button>
+                <button id="prevDays" class="hover-scale"><i class="fas fa-chevron-left"></i> <span
+                        data-i18n="daySelection.controls.previous">Previous</span></button>
+                <div class="day-range"><span data-i18n="daySelection.controls.daysRange">Days</span> <span
+                        id="dayRangeStart">1</span>-<span id="dayRangeEnd">10</span></div>
+                <button id="nextDays" class="hover-scale"><span data-i18n="daySelection.controls.next">Next</span> <i
+                        class="fas fa-chevron-right"></i></button>
             </div>
-            
+
             <div class="day-grid">
                 <!-- Days will be dynamically added here -->
             </div>
         </section>
 
-        <!-- Section divider with visual anchor -->
-        <div class="section-divider"></div>
-        
-        <!-- Visual anchor pattern -->
-        <div class="visual-anchor" style="top: 50%; right: 10%;"></div>
+        <!-- Section divider -->
+        <div class="section-divider section-hidden"></div>
 
-        <section class="benefits-section">
-            <!-- Visual storytelling journey path -->
-            <div class="journey-path"></div>
+        <section class="benefits-section content-section section-hidden">
             <h2 data-i18n="benefits.title">Why Learn These Languages?</h2>
             <div class="benefits-grid">
                 <div class="benefit-card">
-                    <h3><i class="fas fa-globe"></i> <span data-i18n="benefits.globalReach.title">Global Reach & Communication</span></h3>
+                    <h3><i class="fas fa-globe"></i> <span data-i18n="benefits.globalReach.title">Global Reach &
+                            Communication</span></h3>
                     <ul>
                         <li data-i18n="benefits.globalReach.items.english"></li>
                         <li data-i18n="benefits.globalReach.items.spanish"></li>
@@ -244,27 +466,33 @@
                     </ul>
                 </div>
                 <div class="benefit-card">
-                    <h3><i class="fas fa-briefcase"></i> <span data-i18n="benefits.career.title">Career & Business Opportunities</span></h3>
+                    <h3><i class="fas fa-briefcase"></i> <span data-i18n="benefits.career.title">Career & Business
+                            Opportunities</span></h3>
                     <ul data-i18n-list="benefits.career.items"></ul>
                 </div>
                 <div class="benefit-card">
-                    <h3><i class="fas fa-dollar-sign"></i> <span data-i18n="benefits.monetization.title">Monetization Potential</span></h3>
+                    <h3><i class="fas fa-dollar-sign"></i> <span data-i18n="benefits.monetization.title">Monetization
+                            Potential</span></h3>
                     <ul data-i18n-list="benefits.monetization.items"></ul>
                 </div>
                 <div class="benefit-card">
-                    <h3><i class="fas fa-brain"></i> <span data-i18n="benefits.cognitive.title">Cognitive Benefits</span></h3>
+                    <h3><i class="fas fa-brain"></i> <span data-i18n="benefits.cognitive.title">Cognitive
+                            Benefits</span></h3>
                     <ul data-i18n-list="benefits.cognitive.items"></ul>
                 </div>
                 <div class="benefit-card">
-                    <h3><i class="fas fa-plane"></i> <span data-i18n="benefits.travel.title">Travel & Cultural Access</span></h3>
+                    <h3><i class="fas fa-plane"></i> <span data-i18n="benefits.travel.title">Travel & Cultural
+                            Access</span></h3>
                     <ul data-i18n-list="benefits.travel.items"></ul>
                 </div>
                 <div class="benefit-card">
-                    <h3><i class="fas fa-link"></i> <span data-i18n="benefits.combinations.title">Strategic Language Combinations</span></h3>
+                    <h3><i class="fas fa-link"></i> <span data-i18n="benefits.combinations.title">Strategic Language
+                            Combinations</span></h3>
                     <div class="combo-table">
                         <div class="combo-row">
                             <span class="combo" data-i18n="benefits.combinations.combos.spanishPortuguese.langs"></span>
-                            <span class="benefit" data-i18n="benefits.combinations.combos.spanishPortuguese.benefit"></span>
+                            <span class="benefit"
+                                data-i18n="benefits.combinations.combos.spanishPortuguese.benefit"></span>
                         </div>
                         <div class="combo-row">
                             <span class="combo" data-i18n="benefits.combinations.combos.frenchEnglish.langs"></span>
@@ -288,8 +516,24 @@
         <p data-i18n="footer.copyright">&copy; 2025 Polyglot Pathways | Empowering Language Learning</p>
     </footer>
 
+    <script src="js/onboarding.js"></script>
+    <script src="js/script.js"></script>
+
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
+            // Initialize gamification system
+            const progressTracker = new ProgressTracker();
+            const progressData = progressTracker.getProgress();
+
+            // Update dashboard
+            document.getElementById('dashboard-xp').textContent = `${progressData.totalXP} XP`;
+            document.getElementById('dashboard-level').textContent = `Level ${progressData.level}`;
+            document.getElementById('dashboard-streak').textContent = `${progressData.streakCount} Days`;
+            document.getElementById('dashboard-badges').textContent = `${progressData.badges.length} Badges`;
+
+            // Render badges
+            renderBadges(progressData.badges);
+
             // Initialize progress tracking
             function initializeProgress() {
                 const completedDays = JSON.parse(localStorage.getItem('completedDays') || '{}');
@@ -300,11 +544,20 @@
             }
 
             // Listen for progress updates from day.html
-            window.addEventListener('storage', function(e) {
+            window.addEventListener('storage', function (e) {
                 if (e.key === 'currentProgress') {
                     const progress = JSON.parse(e.newValue);
                     const completedDays = JSON.parse(localStorage.getItem('completedDays') || '{}');
                     updateLanguageProgress(progress.lang, progress.completed, completedDays);
+                }
+                // Listen for user progress changes (badges, XP, level, etc.)
+                if (e.key === 'userProgress') {
+                    const updatedProgress = progressTracker.getProgress();
+                    document.getElementById('dashboard-xp').textContent = `${updatedProgress.totalXP} XP`;
+                    document.getElementById('dashboard-level').textContent = `Level ${updatedProgress.level}`;
+                    document.getElementById('dashboard-streak').textContent = `${updatedProgress.streakCount} Days`;
+                    document.getElementById('dashboard-badges').textContent = `${updatedProgress.badges.length} Badges`;
+                    renderBadges(updatedProgress.badges);
                 }
             });
 
@@ -351,11 +604,10 @@
             }
         }
     </script>
-    <script src="js/script.js"></script>
-    
+
     <script>
         // Return to top functionality
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             const returnToTop = document.getElementById('returnToTop');
             if (window.scrollY > 500) {
                 returnToTop.classList.add('visible');
@@ -363,8 +615,8 @@
                 returnToTop.classList.remove('visible');
             }
         });
-        
-        document.getElementById('returnToTop').addEventListener('click', function() {
+
+        document.getElementById('returnToTop').addEventListener('click', function () {
             window.scrollTo({
                 top: 0,
                 behavior: 'smooth'
@@ -372,4 +624,5 @@
         });
     </script>
 </body>
+
 </html>

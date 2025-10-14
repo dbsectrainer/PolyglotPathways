@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/day-i18n.js"></script>
+    <script src="js/ui-utils.js"></script>
+    <script src="js/gamification.js"></script>
+    <script src="js/exercise-data.js"></script>
+    <script src="js/exercises.js"></script>
+    <script src="js/speech-recognition.js"></script>
 </head>
 <body>
     <header>
@@ -41,6 +46,28 @@
                 </div>
             </div>
 
+            <!-- User Progress Header -->
+            <div class="user-progress-header">
+                <div class="progress-mini-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-star"></i>
+                        <span id="user-xp">0 XP</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-trophy"></i>
+                        <span id="user-level">Level 1</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-fire"></i>
+                        <span id="user-streak">0 day streak</span>
+                    </div>
+                </div>
+                <div class="level-progress-container">
+                    <div id="level-progress-bar" class="level-progress-bar"></div>
+                </div>
+                <p id="xp-to-next" class="xp-to-next-text">250 XP to Level 2</p>
+            </div>
+
             <div class="navigation">
                 <a href="#" class="nav-btn" id="prev-btn-top">
                     <i class="fas fa-arrow-left"></i> <span data-i18n="navigation.previousDay">Previous Day</span>
@@ -58,21 +85,59 @@
                 <p id="section-description"></p>
             </div>
 
-            <div class="audio-player">
+            <!-- Mode Toggle -->
+            <div class="mode-toggle">
+                <button class="mode-btn active" id="traditional-mode-btn">
+                    <i class="fas fa-book"></i>
+                    <span>Traditional Mode</span>
+                </button>
+                <button class="mode-btn" id="interactive-mode-btn">
+                    <i class="fas fa-gamepad"></i>
+                    <span>Interactive Exercises</span>
+                </button>
+            </div>
+
+            <!-- Traditional Mode Content -->
+            <div id="traditional-content">
+                <div class="audio-player">
                 <audio controls id="audio-player" type="audio/mpeg">
                     <span data-i18n="lesson.audioNotSupported">Your browser does not support the audio element.</span>
                 </audio>
                 <div id="audio-fallback"></div>
             </div>
 
-            <div class="text-content" id="text-content">
-                <!-- Text content will be dynamically added here -->
+                <div class="text-content" id="text-content">
+                    <!-- Text content will be dynamically added here -->
+                </div>
+
+                <div class="lesson-actions">
+                    <button id="complete-btn" class="complete-btn">
+                        <i class="fas fa-check"></i> <span data-i18n="lesson.markComplete">Mark as Complete</span>
+                    </button>
+                </div>
             </div>
 
-            <div class="lesson-actions">
-                <button id="complete-btn" class="complete-btn">
-                    <i class="fas fa-check"></i> <span data-i18n="lesson.markComplete">Mark as Complete</span>
-                </button>
+            <!-- Interactive Mode Content -->
+            <div id="interactive-content" style="display: none;">
+                <div class="exercise-navigation">
+                    <button id="prev-exercise-btn" class="exercise-nav-btn" disabled>
+                        <i class="fas fa-arrow-left"></i> Previous
+                    </button>
+                    <span id="exercise-counter" class="exercise-counter">Exercise 1 of 4</span>
+                    <button id="next-exercise-btn" class="exercise-nav-btn">
+                        Next <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div id="exercise-container" class="exercise-display">
+                    <!-- Exercises will be dynamically loaded here -->
+                </div>
+
+                <div class="lesson-actions">
+                    <button id="complete-interactive-btn" class="complete-btn">
+                        <i class="fas fa-check"></i> <span>Complete All Exercises</span>
+                    </button>
+                </div>
             </div>
 
             <!-- Section divider with visual anchor -->
@@ -104,11 +169,35 @@
     </div>
 
     <script>
+        // Global instances
+        let progressTracker;
+        let exerciseManager;
+        let speechRecognition;
+        let currentExercises = [];
+        let currentExerciseIndex = 0;
+
         document.addEventListener('DOMContentLoaded', function() {
             const urlParams = new URLSearchParams(window.location.search);
             const day = parseInt(urlParams.get('day')) || 1;
             const lang = urlParams.get('lang') || 'es';
-            
+
+            // Initialize gamification systems
+            progressTracker = new ProgressTracker();
+            speechRecognition = new SpeechRecognitionManager(progressTracker);
+            exerciseManager = new ExerciseManager(progressTracker);
+
+            // Make them globally accessible for exercise interactions
+            window.progressTracker = progressTracker;
+            window.exerciseManager = exerciseManager;
+            window.speechRecognition = speechRecognition;
+
+            // Update progress display
+            updateProgressDisplay();
+
+            // Load exercises for this day
+            currentExercises = getExercisesForDay(day, lang);
+            console.log(`Loaded ${currentExercises.length} exercises for Day ${day} ${lang}`);
+
             // Update day number
             document.getElementById('day-number').textContent = day;
 
@@ -126,35 +215,116 @@
                 // Mark day as complete
                 completedDays[`${day}_${lang}`] = true;
                 localStorage.setItem('completedDays', JSON.stringify(completedDays));
-                
+
+                // Award XP for completing the day
+                progressTracker.addXP(20);
+                progressTracker.updateStreak();
+
+                // Award "First Steps" badge for completing first lesson
+                const totalCompleted = Object.keys(completedDays).length;
+                if (totalCompleted === 1) {
+                    progressTracker.awardBadge('first-lesson', 'First Steps');
+                }
+
                 // Update button state
                 completeBtn.classList.add('completed');
                 completeBtn.innerHTML = '<i class="fas fa-check-circle"></i> Completed';
                 completeBtn.disabled = true;
 
                 // Calculate total completed days
-                const totalCompleted = Object.keys(completedDays).filter(key => key.endsWith(`_${lang}`)).length;
+                const totalCompletedForLang = Object.keys(completedDays).filter(key => key.endsWith(`_${lang}`)).length;
 
                 // Update progress in localStorage
+                localStorage.setItem('currentProgress', JSON.stringify({
+                    lang: lang,
+                    completed: totalCompletedForLang
+                }));
+
+                // Update progress on the page
+                updatePageProgress(lang, totalCompletedForLang);
+                updateProgressDisplay();
+
+                // Show completion notification with XP
+                window.showNotification && window.showNotification('+20 XP - Day Completed!', 'success');
+            });
+
+            // Mode Toggle Functionality
+            const traditionalModeBtn = document.getElementById('traditional-mode-btn');
+            const interactiveModeBtn = document.getElementById('interactive-mode-btn');
+            const traditionalContent = document.getElementById('traditional-content');
+            const interactiveContent = document.getElementById('interactive-content');
+
+            traditionalModeBtn.addEventListener('click', () => {
+                traditionalModeBtn.classList.add('active');
+                interactiveModeBtn.classList.remove('active');
+                traditionalContent.style.display = 'block';
+                interactiveContent.style.display = 'none';
+            });
+
+            interactiveModeBtn.addEventListener('click', () => {
+                interactiveModeBtn.classList.add('active');
+                traditionalModeBtn.classList.remove('active');
+                traditionalContent.style.display = 'none';
+                interactiveContent.style.display = 'block';
+
+                // Load first exercise if not already loaded
+                if (currentExercises.length > 0 && currentExerciseIndex === 0) {
+                    loadExercise(0);
+                }
+            });
+
+            // Exercise Navigation
+            const prevExerciseBtn = document.getElementById('prev-exercise-btn');
+            const nextExerciseBtn = document.getElementById('next-exercise-btn');
+            const exerciseCounter = document.getElementById('exercise-counter');
+            const completeInteractiveBtn = document.getElementById('complete-interactive-btn');
+
+            prevExerciseBtn.addEventListener('click', () => {
+                if (currentExerciseIndex > 0) {
+                    currentExerciseIndex--;
+                    loadExercise(currentExerciseIndex);
+                }
+            });
+
+            nextExerciseBtn.addEventListener('click', () => {
+                if (currentExerciseIndex < currentExercises.length - 1) {
+                    currentExerciseIndex++;
+                    loadExercise(currentExerciseIndex);
+                }
+            });
+
+            completeInteractiveBtn.addEventListener('click', () => {
+                // Mark day as complete
+                completedDays[`${day}_${lang}`] = true;
+                localStorage.setItem('completedDays', JSON.stringify(completedDays));
+
+                // Award bonus XP for completing all exercises
+                progressTracker.addXP(30);
+                progressTracker.updateStreak();
+
+                // Award "First Steps" badge for completing first lesson
+                const totalCompletedAll = Object.keys(completedDays).length;
+                if (totalCompletedAll === 1) {
+                    progressTracker.awardBadge('first-lesson', 'First Steps');
+                }
+
+                // Update button state
+                completeInteractiveBtn.classList.add('completed');
+                completeInteractiveBtn.innerHTML = '<i class="fas fa-check-circle"></i> All Exercises Completed!';
+                completeInteractiveBtn.disabled = true;
+
+                // Update progress
+                const totalCompleted = Object.keys(completedDays).filter(key => key.endsWith(`_${lang}`)).length;
                 localStorage.setItem('currentProgress', JSON.stringify({
                     lang: lang,
                     completed: totalCompleted
                 }));
 
-                // Update progress on the page
                 updatePageProgress(lang, totalCompleted);
+                updateProgressDisplay();
 
                 // Show completion notification
-                const notification = document.getElementById('copy-notification');
-                notification.innerHTML = `<span data-i18n="lesson.dayMarkedComplete">Day marked as complete!</span>`;
-                notification.style.display = 'block';
-                notification.style.animation = 'none';
-                notification.offsetHeight; // Trigger reflow
-                notification.style.animation = 'fadeInOut 2s ease';
-                setTimeout(() => {
-                    notification.style.display = 'none';
-                    notification.innerHTML = `<span data-i18n="lesson.phraseCopied">Phrase copied to clipboard!</span>`;
-                }, 2000);
+                window.showNotification && window.showNotification('+30 XP - All Exercises Completed!', 'success');
             });
 
             // Function to update progress UI
@@ -191,6 +361,71 @@
             // Initialize progress on page load
             const initialCompleted = Object.keys(completedDays).filter(key => key.endsWith(`_${lang}`)).length;
             updatePageProgress(lang, initialCompleted);
+
+            // Function to load and display an exercise
+            function loadExercise(index) {
+                currentExerciseIndex = index;
+                const exercise = currentExercises[index];
+
+                if (!exercise) {
+                    document.getElementById('exercise-container').innerHTML = '<p class="no-exercises">No exercises available for this day yet. Check back soon!</p>';
+                    return;
+                }
+
+                // Update exercise counter
+                exerciseCounter.textContent = `Exercise ${index + 1} of ${currentExercises.length}`;
+
+                // Update navigation buttons
+                prevExerciseBtn.disabled = index === 0;
+                nextExerciseBtn.disabled = index === currentExercises.length - 1;
+
+                // Set language for speech recognition
+                if (speechRecognition) {
+                    speechRecognition.setLanguage(exercise.language || lang);
+                }
+
+                // Load and render the exercise
+                const exerciseHTML = exerciseManager.loadExercise(exercise);
+                document.getElementById('exercise-container').innerHTML = exerciseHTML;
+
+                // Scroll to exercise
+                document.getElementById('exercise-container').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+
+            // Function to update progress display in header
+            function updateProgressDisplay() {
+                const progress = progressTracker.getProgress();
+
+                // Update XP
+                const xpElement = document.getElementById('user-xp');
+                if (xpElement) {
+                    xpElement.textContent = `${progress.totalXP} XP`;
+                }
+
+                // Update Level
+                const levelElement = document.getElementById('user-level');
+                if (levelElement) {
+                    levelElement.textContent = `Level ${progress.level}`;
+                }
+
+                // Update Streak
+                const streakElement = document.getElementById('user-streak');
+                if (streakElement) {
+                    streakElement.innerHTML = `${progress.streakCount} day streak`;
+                }
+
+                // Update level progress bar
+                const levelProgressBar = document.getElementById('level-progress-bar');
+                if (levelProgressBar) {
+                    levelProgressBar.style.width = `${progress.percentToNextLevel}%`;
+                }
+
+                // Update XP to next level text
+                const xpToNextElement = document.getElementById('xp-to-next');
+                if (xpToNextElement) {
+                    xpToNextElement.textContent = `${progress.xpToNextLevel} XP to Level ${progress.level + 1}`;
+                }
+            }
             
             // Set active language
             const languageBtns = document.querySelectorAll('.language-btn');
