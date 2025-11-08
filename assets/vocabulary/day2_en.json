@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Zero",
+      "translation": "The number 0",
+      "phonetic": "/ˈzɪroʊ/",
+      "example": "I have zero apples.",
+      "exampleTranslation": "Indicating the absence of quantity"
+    },
+    {
+      "word": "One",
+      "translation": "The number 1",
+      "phonetic": "/wʌn/",
+      "example": "I need one ticket.",
+      "exampleTranslation": "A single item"
+    },
+    {
+      "word": "Five",
+      "translation": "The number 5",
+      "phonetic": "/faɪv/",
+      "example": "There are five books on the table.",
+      "exampleTranslation": "Counting to five items"
+    },
+    {
+      "word": "Ten",
+      "translation": "The number 10",
+      "phonetic": "/tɛn/",
+      "example": "I wake up at ten o'clock.",
+      "exampleTranslation": "The number after nine"
+    },
+    {
+      "word": "Twenty",
+      "translation": "The number 20",
+      "phonetic": "/ˈtwɛnti/",
+      "example": "The book costs twenty dollars.",
+      "exampleTranslation": "Two tens"
+    },
+    {
+      "word": "Hundred",
+      "translation": "The number 100",
+      "phonetic": "/ˈhʌndrəd/",
+      "example": "One hundred people attended.",
+      "exampleTranslation": "Ten times ten"
+    },
+    {
+      "word": "First",
+      "translation": "Position number 1 in a sequence",
+      "phonetic": "/fɜːrst/",
+      "example": "She finished first in the race.",
+      "exampleTranslation": "Ordinal number for one"
+    },
+    {
+      "word": "Second",
+      "translation": "Position number 2 in a sequence",
+      "phonetic": "/ˈsɛkənd/",
+      "example": "He came in second place.",
+      "exampleTranslation": "Ordinal number for two"
+    }
+  ]
+}

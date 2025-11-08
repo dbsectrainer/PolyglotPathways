@@ -1,5 +1,8 @@
+import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'language.dart';
+import 'exercise.dart';
+import 'vocabulary.dart';
 
 class Lesson {
   final int day;
@@ -8,6 +11,8 @@ class Lesson {
   final String description;
   final String audioPath;
   final String? textContent;
+  List<Exercise>? exercises;
+  List<VocabularyItem>? vocabulary;
 
   Lesson({
     required this.day,
@@ -16,6 +21,8 @@ class Lesson {
     required this.description,
     required this.audioPath,
     this.textContent,
+    this.exercises,
+    this.vocabulary,
   });
 
   String get phase {
@@ -53,6 +60,49 @@ class Lesson {
       return 'Text content not available for this lesson.';
     }
   }
+
+  String getExercisesFilePath() {
+    return 'assets/exercises/day${day}_${language.code}.json';
+  }
+
+  String getVocabularyFilePath() {
+    return 'assets/vocabulary/day${day}_${language.code}.json';
+  }
+
+  Future<void> loadExercises() async {
+    try {
+      final jsonString = await rootBundle.loadString(getExercisesFilePath());
+      final jsonData = json.decode(jsonString) as Map<String, dynamic>;
+      final exercisesList = jsonData['exercises'] as List;
+
+      exercises = exercisesList
+          .map((e) => exerciseFromJson(e as Map<String, dynamic>))
+          .toList();
+    } catch (e) {
+      // No exercises available for this lesson
+      exercises = [];
+    }
+  }
+
+  Future<void> loadVocabulary() async {
+    try {
+      final jsonString = await rootBundle.loadString(getVocabularyFilePath());
+      final jsonData = json.decode(jsonString) as Map<String, dynamic>;
+      final vocabularyList = jsonData['vocabulary'] as List;
+
+      vocabulary = vocabularyList
+          .map((v) => VocabularyItem.fromJson(v as Map<String, dynamic>))
+          .toList();
+    } catch (e) {
+      // No vocabulary available for this lesson
+      vocabulary = [];
+    }
+  }
+
+  int get totalExercises => exercises?.length ?? 0;
+  int get totalVocabulary => vocabulary?.length ?? 0;
+  bool get hasExercises => totalExercises > 0;
+  bool get hasVocabulary => totalVocabulary > 0;
 
   static String _getDescription(int day) {
     final descriptions = {

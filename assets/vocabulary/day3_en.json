@@ -1,0 +1,74 @@
+{
+  "vocabulary": [
+    {
+      "word": "Monday",
+      "translation": "The first day of the work week",
+      "phonetic": "/ˈmʌndeɪ/",
+      "example": "I have a meeting on Monday morning.",
+      "exampleTranslation": "The day after Sunday"
+    },
+    {
+      "word": "Tuesday",
+      "translation": "The second day of the work week",
+      "phonetic": "/ˈtuːzdeɪ/",
+      "example": "Tuesday is my favorite day.",
+      "exampleTranslation": "The day between Monday and Wednesday"
+    },
+    {
+      "word": "Wednesday",
+      "translation": "The third day of the work week, middle of the week",
+      "phonetic": "/ˈwɛnzdeɪ/",
+      "example": "We meet every Wednesday.",
+      "exampleTranslation": "Often called 'hump day'"
+    },
+    {
+      "word": "Friday",
+      "translation": "The last day of the work week",
+      "phonetic": "/ˈfraɪdeɪ/",
+      "example": "I'm excited for Friday!",
+      "exampleTranslation": "The day before the weekend"
+    },
+    {
+      "word": "Saturday",
+      "translation": "First day of the weekend",
+      "phonetic": "/ˈsætərdeɪ/",
+      "example": "Let's go to the park on Saturday.",
+      "exampleTranslation": "A day for relaxation and activities"
+    },
+    {
+      "word": "Sunday",
+      "translation": "Second day of the weekend, last day of the week",
+      "phonetic": "/ˈsʌndeɪ/",
+      "example": "Sunday is a rest day.",
+      "exampleTranslation": "Often a day for family and rest"
+    },
+    {
+      "word": "January",
+      "translation": "First month of the year",
+      "phonetic": "/ˈdʒænjuˌɛri/",
+      "example": "January is very cold here.",
+      "exampleTranslation": "The month after December"
+    },
+    {
+      "word": "February",
+      "translation": "Second month of the year, shortest month",
+      "phonetic": "/ˈfɛbruˌɛri/",
+      "example": "Valentine's Day is in February.",
+      "exampleTranslation": "Has 28 or 29 days"
+    },
+    {
+      "word": "March",
+      "translation": "Third month of the year, spring begins",
+      "phonetic": "/mɑːrtʃ/",
+      "example": "Spring starts in March.",
+      "exampleTranslation": "The month after February"
+    },
+    {
+      "word": "December",
+      "translation": "Last month of the year",
+      "phonetic": "/dɪˈsɛmbər/",
+      "example": "December is a holiday month.",
+      "exampleTranslation": "The 12th and final month"
+    }
+  ]
+}
