@@ -10,9 +10,8 @@ import '../services/settings_service.dart';
 import '../utils/app_localizations.dart';
 import '../widgets/language_card.dart';
 import '../widgets/course_structure.dart';
-import '../widgets/day_grid.dart';
+import '../widgets/daily_lessons_sheet.dart';
 import '../theme/app_theme.dart';
-import 'lesson_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -22,8 +21,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  Language? _selectedLanguage;
-
   @override
   Widget build(BuildContext context) {
     final languageService = Provider.of<LanguageService>(context);
@@ -160,26 +157,12 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text(
-                        'Select Learning Language',
-                        style:
-                            Theme.of(context).textTheme.headlineSmall?.copyWith(
-                                  fontWeight: FontWeight.bold,
-                                ),
-                      ),
-                      if (_selectedLanguage != null)
-                        IconButton(
-                          icon: const Icon(Icons.close),
-                          onPressed: () {
-                            setState(() {
-                              _selectedLanguage = null;
-                            });
-                          },
-                        ),
-                    ],
+                  Text(
+                    'Select Learning Language',
+                    style:
+                        Theme.of(context).textTheme.headlineSmall?.copyWith(
+                              fontWeight: FontWeight.bold,
+                            ),
                   ),
                   const SizedBox(height: 16),
                   ...Language.values.asMap().entries.map((entry) {
@@ -195,11 +178,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       completedCount: completedCount,
                       currentDay: currentDay,
                       progress: progress,
-                      isSelected: _selectedLanguage == language,
+                      isSelected: false,
                       onTap: () {
-                        setState(() {
-                          _selectedLanguage = language;
-                        });
+                        DailyLessonsSheet.show(context, language);
                       },
                     )
                         .animate()
@@ -211,31 +192,10 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
 
             // Course Structure
-            if (_selectedLanguage == null)
-              const Padding(
-                padding: EdgeInsets.all(16),
-                child: CourseStructure(),
-              ).animate().fadeIn(delay: 800.ms),
-
-            // Day Grid (shown when language is selected)
-            if (_selectedLanguage != null)
-              Padding(
-                padding: const EdgeInsets.all(16),
-                child: DayGrid(
-                  language: _selectedLanguage!,
-                  onDaySelected: (day) {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => LessonScreen(
-                          language: _selectedLanguage!,
-                          initialDay: day,
-                        ),
-                      ),
-                    );
-                  },
-                ),
-              ).animate().fadeIn(delay: 300.ms).slideY(begin: 0.1),
+            const Padding(
+              padding: EdgeInsets.all(16),
+              child: CourseStructure(),
+            ).animate().fadeIn(delay: 800.ms),
           ],
         ),
       ),
@@ -250,7 +210,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.2),
+        color: Colors.white.withValues(alpha: 0.2),
         borderRadius: BorderRadius.circular(12),
       ),
       child: Column(
