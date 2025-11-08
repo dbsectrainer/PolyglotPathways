@@ -39,7 +39,6 @@ class AppTheme {
       secondary: secondaryGreen,
       tertiary: accentOrange,
       surface: lightSurface,
-      background: lightBackground,
       onSurface: lightOnSurface,
     ),
     scaffoldBackgroundColor: lightBackground,
