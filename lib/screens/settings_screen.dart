@@ -309,7 +309,7 @@ class SettingsScreen extends StatelessWidget {
         runSpacing: 8,
         children: Language.values.map((language) {
           final isSelected =
-              languageService.selectedLanguage?.code == language.code;
+              languageService.currentLanguage.code == language.code;
           return ChoiceChip(
             label: Row(
               mainAxisSize: MainAxisSize.min,

@@ -85,4 +85,10 @@ class ProgressService extends ChangeNotifier {
   double getProgress(Language language) {
     return _progress.getProgress(language);
   }
+
+  Future<void> resetAll() async {
+    _progress = Progress();
+    await _saveProgress();
+    notifyListeners();
+  }
 }
