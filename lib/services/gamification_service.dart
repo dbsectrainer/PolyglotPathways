@@ -256,6 +256,7 @@ class GamificationService extends ChangeNotifier {
 
   void clearRecentlyUnlocked() {
     _recentlyUnlocked.clear();
+    notifyListeners();
   }
 
   static String _formatDate(DateTime date) {
