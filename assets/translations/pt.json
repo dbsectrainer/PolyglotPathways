@@ -1,0 +1,126 @@
+{
+  "header": {
+    "title": "Polyglot Pathways",
+    "subtitle": "Sua Jornada para o Domínio Multilíngue"
+  },
+  "hero": {
+    "title": "Domine Múltiplos Idiomas",
+    "subtitle": "Embarque em uma jornada de 50 dias através do aprendizado abrangente de idiomas para viver e trabalhar globalmente"
+  },
+  "courseStructure": {
+    "title": "Estrutura do Curso",
+    "sections": {
+      "days1_7": {
+        "title": "Dias 1-7",
+        "description": "Vocabulário básico e frases essenciais para iniciantes"
+      },
+      "days8_15": {
+        "title": "Dias 8-15",
+        "description": "Frases avançadas para alunos intermediários"
+      },
+      "days16_26": {
+        "title": "Dias 16-26",
+        "description": "Vida e Trabalho Internacional"
+      },
+      "days27_31": {
+        "title": "Dias 27-31",
+        "description": "Conteúdo Profissional Técnico"
+      },
+      "days32_50": {
+        "title": "Dias 32-50",
+        "description": "Comunicação Acadêmica e Profissional Avançada"
+      }
+    }
+  },
+  "daySelection": {
+    "title": "Lições Diárias",
+    "controls": {
+      "previous": "Anterior",
+      "next": "Próximo",
+      "daysRange": "Dias"
+    }
+  },
+  "benefits": {
+    "title": "Por que Aprender Estes Idiomas?",
+    "globalReach": {
+      "title": "Alcance Global e Comunicação",
+      "items": {
+        "english": "Inglês: Língua franca global para negócios, ciência e tecnologia",
+        "spanish": "Espanhol: Segunda língua nativa mais falada no mundo",
+        "portuguese": "Português: Chave para o enorme mercado brasileiro e nações africanas",
+        "french": "Francês: Oficial em 29 países em vários continentes",
+        "german": "Alemão: Língua nativa mais falada na Europa"
+      }
+    },
+    "career": {
+      "title": "Oportunidades de Carreira e Negócios",
+      "items": [
+        "Acesso a mercados de trabalho globais em todos os continentes",
+        "Oportunidades freelance com clientes internacionais",
+        "Posições em organizações internacionais (ONU, UE, OTAN)",
+        "Melhores capacidades de importação/exportação e trabalho remoto"
+      ]
+    },
+    "monetization": {
+      "title": "Potencial de Monetização",
+      "items": [
+        "Criação de conteúdo em múltiplos idiomas",
+        "Serviços de tradução e localização",
+        "Tutoria de idiomas para profissionais",
+        "Marketing e comércio eletrônico multilíngue"
+      ]
+    },
+    "cognitive": {
+      "title": "Benefícios Cognitivos",
+      "items": [
+        "Memória aprimorada e resolução de problemas",
+        "Maior criatividade e compreensão cultural",
+        "Facilidade na aquisição de idiomas adicionais"
+      ]
+    },
+    "travel": {
+      "title": "Acesso a Viagens e Cultura",
+      "items": [
+        "Navegue por vários continentes como um local",
+        "Desfrute de experiências culturais autênticas",
+        "Construa relacionamentos internacionais genuínos"
+      ]
+    },
+    "combinations": {
+      "title": "Combinações Estratégicas de Idiomas",
+      "combos": {
+        "spanishPortuguese": {
+          "langs": "Espanhol + Português",
+          "benefit": "Cobre quase toda a América Latina"
+        },
+        "frenchEnglish": {
+          "langs": "Francês + Inglês",
+          "benefit": "Domina a diplomacia e África"
+        },
+        "germanEnglish": {
+          "langs": "Alemão + Inglês",
+          "benefit": "Abre portas corporativas na UE"
+        },
+        "allFive": {
+          "langs": "Todos os 5 Idiomas",
+          "benefit": "Fale com ~2 bilhões de pessoas"
+        }
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Polyglot Pathways | Capacitando o Aprendizado de Idiomas"
+  },
+  "languages": {
+    "en": "Inglês",
+    "es": "Espanhol",
+    "pt": "Português",
+    "fr": "Francês",
+    "de": "Alemão"
+  },
+  "progress": {
+    "status": "Progresso: Dia {completed}/50",
+    "days": "Dias",
+    "levels": "Níveis"
+  }
+}

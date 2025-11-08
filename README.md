@@ -5,81 +5,93 @@
 [![Coverage Status](https://img.shields.io/badge/coverage-unknown-lightgrey)](https://github.com/dbsectrainer/PolyglotPathways)
 
 ## Overview
-Polyglot Pathways is an innovative, interactive web application designed to facilitate comprehensive language learning across five languages: English, Spanish, Portuguese, French, and German. The platform offers a structured 50-day program that combines cutting-edge web technologies with sophisticated internationalization techniques.
+Polyglot Pathways is an innovative, cross-platform Flutter mobile application designed to facilitate comprehensive language learning across five languages: English, Spanish, Portuguese, French, and German. The platform offers a structured 50-day program that combines modern mobile development with sophisticated internationalization techniques.
 
 ## Project Structure
 
 ```mermaid
 graph TD
     subgraph User Interface
-        A[index.html] -->|Navigate| B[day.html]
-        B -->|Initialize| C[script.js]
+        A[HomeScreen] -->|Navigate| B[LessonScreen]
+        B -->|Audio| C[AudioPlayer]
     end
-    
-    subgraph Core Logic
-        C -->|Load i18n| D[day-i18n.js]
-        D -->|Configure| E[i18n.js]
-        C -->|Manage State| F[localStorage]
+
+    subgraph State Management
+        D[LanguageService] -->|Provides| A
+        E[ProgressService] -->|Tracks| A
+        E -->|Updates| B
     end
-    
+
     subgraph Resources
-        E -->|Load| G[translations/]
-        C -->|Stream| H[audio_files/]
-        F -->|Cache| G
-        F -->|Cache| H
+        F[assets/translations/] -->|Load| G[AppLocalizations]
+        H[assets/audio/] -->|Stream| C
+        I[SharedPreferences] -->|Persist| D
+        I -->|Persist| E
     end
-    
+
     subgraph User Interactions
-        U[User] -->|Select Day| A
-        U -->|Choose Language| D
+        U[User] -->|Select Language| A
+        U -->|Choose Day| B
         U -->|Play Audio| C
-        U -->|Track Progress| F
+        U -->|Track Progress| E
     end
-    
+
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style B fill:#f9f,stroke:#333,stroke-width:2px
     style C fill:#bbf,stroke:#333,stroke-width:2px
     style D fill:#bbf,stroke:#333,stroke-width:2px
     style E fill:#bbf,stroke:#333,stroke-width:2px
-    style F fill:#bfb,stroke:#333,stroke-width:2px
-    style G fill:#fbb,stroke:#333,stroke-width:2px
+    style I fill:#bfb,stroke:#333,stroke-width:2px
+    style F fill:#fbb,stroke:#333,stroke-width:2px
     style H fill:#fbb,stroke:#333,stroke-width:2px
-    
+
     classDef userNode fill:#fcf,stroke:#333,stroke-width:2px
     class U userNode
 ```
 ```
 polyglot-pathways/
 │
-├── index.html           # Main dashboard with language progress tracking
-├── day.html             # Daily lesson interface
+├── lib/                    # Flutter source code
+│   ├── main.dart          # App entry point
+│   ├── models/            # Data models
+│   │   ├── language.dart
+│   │   ├── lesson.dart
+│   │   └── progress.dart
+│   ├── screens/           # UI screens
+│   │   ├── home_screen.dart
+│   │   └── lesson_screen.dart
+│   ├── widgets/           # Reusable widgets
+│   │   ├── language_card.dart
+│   │   ├── course_structure.dart
+│   │   └── day_grid.dart
+│   ├── services/          # Business logic
+│   │   ├── language_service.dart
+│   │   └── progress_service.dart
+│   └── utils/             # Utilities
+│       └── app_localizations.dart
 │
-├── js/                  # JavaScript modules
-│   ├── i18n.js          # Internationalization core
-│   ├── day-i18n.js      # Day-specific internationalization
-│   ├── language-selector.js  # Dynamic language switching
-│   └── script.js        # Core application logic
+├── assets/                # Application assets
+│   ├── audio/            # Multilingual audio content
+│   │   └── day*_*.mp3   # Audio files for each day and language
+│   └── translations/     # Language resource files
+│       └── *.json
 │
-├── css/                 # Stylesheets
+├── android/              # Android platform code
+├── ios/                  # iOS platform code
+├── web/                  # Web platform code
 │
-├── audio_files/         # Multilingual audio content
-│   └── day*_*.mp3       # Audio files for each day and language
-│
-├── text_files/          # Text transcripts
-│
-├── translations/        # Language resource files
-│
+├── pubspec.yaml         # Flutter dependencies
 └── language_phrases_days_*.py  # Content generation scripts
 ```
 
 ## Key Technologies and Skills Demonstrated
 
-### 1. Web Development
-- Modern HTML5 and CSS
-- Vanilla JavaScript with modular architecture
-- Responsive, mobile-friendly design
-- Client-side rendering
-- localStorage for state management
+### 1. Flutter Mobile Development
+- Cross-platform mobile application (Android, iOS, Web)
+- Modern Material Design 3 UI
+- Responsive, mobile-first design
+- Provider state management
+- SharedPreferences for data persistence
 
 ### 2. Internationalization (i18n)
 - Dynamic multilingual support
@@ -189,14 +201,60 @@ flowchart TD
    - Complex negotiation techniques
 
 ## Technical Requirements
-- Modern web browser
-- JavaScript enabled
-- No additional server setup required
+- Flutter SDK 3.0.0 or higher
+- Dart SDK 3.0.0 or higher
+- Android Studio / Xcode (for mobile development)
+- A physical device or emulator
 
 ## Development Setup
+
+### 1. Install Flutter
+Follow the official Flutter installation guide for your operating system:
+https://docs.flutter.dev/get-started/install
+
+### 2. Clone the Repository
 ```bash
-# No installation required
-# Simply open index.html in a web browser
+git clone https://github.com/dbsectrainer/PolyglotPathways.git
+cd PolyglotPathways
+```
+
+### 3. Install Dependencies
+```bash
+flutter pub get
+```
+
+### 4. Run the Application
+
+#### For Android
+```bash
+flutter run -d android
+```
+
+#### For iOS
+```bash
+flutter run -d ios
+```
+
+#### For Web
+```bash
+flutter run -d chrome
+```
+
+### 5. Build for Production
+
+#### Android APK
+```bash
+flutter build apk --release
+```
+
+#### iOS
+```bash
+flutter build ios --release
+```
+
+#### Web
+```bash
+flutter build web --release
 ```
 
 ## Features
@@ -262,13 +320,16 @@ sequenceDiagram
     Note over U,C: Progress persists across sessions
     Note over U,C: Offline-first architecture
 ```
-- Interactive web interface
-- Progress tracking
-- Multilingual content
-- Audio playback
-- Copy-to-clipboard functionality
-- Responsive design
-- localStorage-based session persistence
+- Cross-platform mobile application (Android, iOS, Web)
+- Beautiful Material Design 3 UI
+- Progress tracking with local persistence
+- Multilingual content in 5 languages
+- High-quality audio playback with controls (play/pause, seek, 10s forward/backward)
+- Responsive design optimized for mobile devices
+- SharedPreferences-based session persistence
+- Offline-first architecture
+- Provider-based state management
+- Custom internationalization system
 
 ## Global Impact
 - Communicate with ~2 billion people

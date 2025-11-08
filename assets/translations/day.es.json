@@ -1,0 +1,52 @@
+{
+  "header": {
+    "title": "Polyglot Pathways",
+    "subtitle": "Tu Camino hacia el Dominio Multilingüe"
+  },
+  "navigation": {
+    "previousDay": "Día Anterior",
+    "nextDay": "Día Siguiente",
+    "backToHome": "Volver al Inicio"
+  },
+  "lesson": {
+    "day": "Día",
+    "markComplete": "Marcar como Completado",
+    "completed": "Completado",
+    "dayMarkedComplete": "¡Día marcado como completado!",
+    "phraseCopied": "¡Frase copiada al portapapeles!",
+    "textNotAvailable": "Contenido de texto no disponible.",
+    "audioNotSupported": "Tu navegador no soporta el elemento de audio."
+  },
+  "languages": {
+    "english": "Inglés",
+    "spanish": "Español",
+    "portuguese": "Portugués",
+    "french": "Francés",
+    "german": "Alemán"
+  },
+  "sections": {
+    "basic": {
+      "title": "Vocabulario Básico y Frases Esenciales",
+      "description": "Aprende vocabulario fundamental y frases esenciales para principiantes."
+    },
+    "advanced": {
+      "title": "Frases Avanzadas",
+      "description": "Conversaciones y vocabulario más complejos para estudiantes intermedios."
+    },
+    "international": {
+      "title": "Vida y Trabajo Internacional",
+      "description": "Frases prácticas para la vida global y entornos profesionales."
+    },
+    "tech": {
+      "title": "Contenido Profesional Técnico",
+      "description": "Contenido especializado para ingenieros de software y profesionales técnicos."
+    },
+    "academic": {
+      "title": "Académico y Profesional Avanzado",
+      "description": "Habilidades lingüísticas avanzadas para entornos académicos y profesionales."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Polyglot Pathways | Potenciando el Aprendizaje de Idiomas"
+  }
+}

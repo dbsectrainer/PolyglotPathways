@@ -28,12 +28,50 @@ ENV/
 logs/
 *.log
 
-# Audio/Media
+# Audio/Media (exclude Flutter assets)
 *.mp3
+!assets/audio/*.mp3
 
 # Build
 /dist/
 /build/
+
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+*.iml
+*.ipr
+*.iws
+
+# Android specific
+android/local.properties
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/gradle/
+android/app/debug
+android/app/profile
+android/app/release
+
+# iOS specific
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Web specific
+web/flutter.js
 
 # Coverage
 coverage/
