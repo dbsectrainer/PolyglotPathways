@@ -1,0 +1,69 @@
+{
+  "exercises": [
+    {
+      "id": "day2_mc1",
+      "type": "multipleChoice",
+      "question": "What comes after 'nine'?",
+      "options": [
+        "eight",
+        "ten",
+        "eleven",
+        "twelve"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day2_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'One, two, three, ____, five'",
+      "correctAnswer": "four",
+      "caseSensitive": false
+    },
+    {
+      "id": "day2_mc2",
+      "type": "multipleChoice",
+      "question": "How do you write the number 15?",
+      "options": [
+        "fiveteen",
+        "fifty",
+        "fifteen",
+        "fivetin"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day2_fib2",
+      "type": "fillInBlank",
+      "question": "What number comes before 'twenty'?",
+      "correctAnswer": "nineteen",
+      "caseSensitive": false
+    },
+    {
+      "id": "day2_mc3",
+      "type": "multipleChoice",
+      "question": "Which is the correct spelling of 30?",
+      "options": [
+        "thirthy",
+        "thirty",
+        "therty",
+        "threety"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day2_trans1",
+      "type": "translation",
+      "question": "Write this number in words:",
+      "targetText": "7",
+      "correctTranslation": "seven",
+      "acceptableAlternatives": ["Seven"]
+    },
+    {
+      "id": "day2_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Ten, twenty, ____, forty'",
+      "correctAnswer": "thirty",
+      "caseSensitive": false
+    }
+  ]
+}

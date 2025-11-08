@@ -5,6 +5,7 @@ import '../models/language.dart';
 import '../models/lesson.dart';
 import '../services/progress_service.dart';
 import '../utils/app_localizations.dart';
+import 'practice_screen.dart';
 
 class LessonScreen extends StatefulWidget {
   final Language language;
@@ -29,19 +30,30 @@ class _LessonScreenState extends State<LessonScreen> {
   Duration _position = Duration.zero;
   String _lessonText = '';
 
+  bool _showTranslations = false;
+  bool _isLoadingContent = false;
+
   @override
   void initState() {
     super.initState();
     _currentDay = widget.initialDay;
     _currentLesson = Lesson.create(_currentDay, widget.language);
     _setupAudioPlayer();
-    _loadLessonText();
+    _loadLessonContent();
   }
 
-  Future<void> _loadLessonText() async {
+  Future<void> _loadLessonContent() async {
+    setState(() {
+      _isLoadingContent = true;
+    });
+
     final text = await _currentLesson.loadTextContent();
+    await _currentLesson.loadExercises();
+    await _currentLesson.loadVocabulary();
+
     setState(() {
       _lessonText = text;
+      _isLoadingContent = false;
     });
   }
 
@@ -94,10 +106,11 @@ class _LessonScreenState extends State<LessonScreen> {
       _currentLesson = Lesson.create(_currentDay, widget.language);
       _position = Duration.zero;
       _isPlaying = false;
+      _showTranslations = false;
     });
 
     _audioPlayer.stop();
-    _loadLessonText();
+    _loadLessonContent();
   }
 
   String _formatDuration(Duration duration) {
@@ -294,6 +307,222 @@ class _LessonScreenState extends State<LessonScreen> {
                       ),
 
                     const SizedBox(height: 16),
+
+                    // Practice Section
+                    if (_currentLesson.hasExercises)
+                      Card(
+                        child: Padding(
+                          padding: const EdgeInsets.all(16),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                            children: [
+                              Row(
+                                children: [
+                                  Icon(
+                                    Icons.quiz,
+                                    color: Theme.of(context).colorScheme.primary,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(
+                                    'Interactive Practice',
+                                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                  ),
+                                ],
+                              ),
+                              const SizedBox(height: 16),
+                              Consumer<ProgressService>(
+                                builder: (context, progressService, child) {
+                                  final completedCount = progressService.getCompletedExercisesCount(
+                                    widget.language,
+                                    _currentDay,
+                                  );
+                                  final totalCount = _currentLesson.totalExercises;
+                                  final progress = totalCount > 0 ? completedCount / totalCount : 0.0;
+
+                                  return Column(
+                                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                                    children: [
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text(
+                                            'Progress:',
+                                            style: Theme.of(context).textTheme.titleMedium,
+                                          ),
+                                          Text(
+                                            '$completedCount / $totalCount exercises',
+                                            style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                                                  color: Theme.of(context).colorScheme.primary,
+                                                  fontWeight: FontWeight.bold,
+                                                ),
+                                          ),
+                                        ],
+                                      ),
+                                      const SizedBox(height: 8),
+                                      LinearProgressIndicator(
+                                        value: progress,
+                                        minHeight: 8,
+                                        borderRadius: BorderRadius.circular(4),
+                                      ),
+                                      const SizedBox(height: 16),
+                                      ElevatedButton.icon(
+                                        onPressed: () {
+                                          Navigator.push(
+                                            context,
+                                            MaterialPageRoute(
+                                              builder: (context) => PracticeScreen(
+                                                lesson: _currentLesson,
+                                                language: widget.language,
+                                              ),
+                                            ),
+                                          );
+                                        },
+                                        icon: const Icon(Icons.play_arrow),
+                                        label: Text(
+                                          completedCount == 0
+                                              ? 'Start Practice'
+                                              : completedCount == totalCount
+                                                  ? 'Review Exercises'
+                                                  : 'Continue Practice',
+                                        ),
+                                        style: ElevatedButton.styleFrom(
+                                          padding: const EdgeInsets.all(16),
+                                          backgroundColor: Theme.of(context).colorScheme.secondary,
+                                          foregroundColor: Colors.white,
+                                        ),
+                                      ),
+                                    ],
+                                  );
+                                },
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+
+                    if (_currentLesson.hasExercises) const SizedBox(height: 16),
+
+                    // Vocabulary Section
+                    if (_currentLesson.hasVocabulary)
+                      Card(
+                        child: Padding(
+                          padding: const EdgeInsets.all(16),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                            children: [
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Row(
+                                    children: [
+                                      Icon(
+                                        Icons.book,
+                                        color: Theme.of(context).colorScheme.primary,
+                                      ),
+                                      const SizedBox(width: 8),
+                                      Text(
+                                        'Vocabulary',
+                                        style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                      ),
+                                    ],
+                                  ),
+                                  TextButton.icon(
+                                    onPressed: () {
+                                      setState(() {
+                                        _showTranslations = !_showTranslations;
+                                      });
+                                    },
+                                    icon: Icon(_showTranslations ? Icons.visibility_off : Icons.visibility),
+                                    label: Text(_showTranslations ? 'Hide' : 'Show'),
+                                  ),
+                                ],
+                              ),
+                              const SizedBox(height: 16),
+                              ..._currentLesson.vocabulary!.map((vocab) {
+                                return Padding(
+                                  padding: const EdgeInsets.only(bottom: 12),
+                                  child: Container(
+                                    padding: const EdgeInsets.all(12),
+                                    decoration: BoxDecoration(
+                                      border: Border.all(color: Colors.grey.shade300),
+                                      borderRadius: BorderRadius.circular(8),
+                                    ),
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Row(
+                                          children: [
+                                            Expanded(
+                                              child: Text(
+                                                vocab.word,
+                                                style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                                                      fontWeight: FontWeight.bold,
+                                                    ),
+                                              ),
+                                            ),
+                                            if (vocab.phonetic != null)
+                                              Text(
+                                                vocab.phonetic!,
+                                                style: TextStyle(
+                                                  color: Colors.grey.shade600,
+                                                  fontStyle: FontStyle.italic,
+                                                ),
+                                              ),
+                                          ],
+                                        ),
+                                        if (_showTranslations) ...[
+                                          const SizedBox(height: 8),
+                                          Text(
+                                            vocab.translation,
+                                            style: TextStyle(
+                                              color: Theme.of(context).colorScheme.primary,
+                                            ),
+                                          ),
+                                        ],
+                                        if (vocab.example != null && _showTranslations) ...[
+                                          const SizedBox(height: 8),
+                                          Container(
+                                            padding: const EdgeInsets.all(8),
+                                            decoration: BoxDecoration(
+                                              color: Colors.grey.shade100,
+                                              borderRadius: BorderRadius.circular(4),
+                                            ),
+                                            child: Column(
+                                              crossAxisAlignment: CrossAxisAlignment.start,
+                                              children: [
+                                                Text(
+                                                  vocab.example!,
+                                                  style: const TextStyle(fontStyle: FontStyle.italic),
+                                                ),
+                                                if (vocab.exampleTranslation != null) ...[
+                                                  const SizedBox(height: 4),
+                                                  Text(
+                                                    vocab.exampleTranslation!,
+                                                    style: TextStyle(
+                                                      fontSize: 12,
+                                                      color: Colors.grey.shade600,
+                                                    ),
+                                                  ),
+                                                ],
+                                              ],
+                                            ),
+                                          ),
+                                        ],
+                                      ],
+                                    ),
+                                  ),
+                                );
+                              }),
+                            ],
+                          ),
+                        ),
+                      ),
+
+                    if (_currentLesson.hasVocabulary) const SizedBox(height: 16),
 
                     // Mark Complete Button
                     ElevatedButton.icon(
