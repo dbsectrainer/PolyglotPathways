@@ -127,7 +127,6 @@ class AppTheme {
       secondary: secondaryGreen,
       tertiary: accentOrange,
       surface: darkSurface,
-      background: darkBackground,
       onSurface: darkOnSurface,
     ),
     scaffoldBackgroundColor: darkBackground,
