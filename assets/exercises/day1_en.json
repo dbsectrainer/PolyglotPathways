@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day1_mc1",
+      "type": "multipleChoice",
+      "question": "Which greeting is most appropriate in a formal setting?",
+      "options": [
+        "Hey!",
+        "Good morning",
+        "Yo!",
+        "What's up?"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day1_mc2",
+      "type": "multipleChoice",
+      "question": "How do you respond to 'How are you?'",
+      "options": [
+        "I'm fine, thank you. And you?",
+        "Nothing",
+        "Yes",
+        "Goodbye"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day1_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Nice to ____ you!'",
+      "correctAnswer": "meet",
+      "caseSensitive": false
+    },
+    {
+      "id": "day1_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'My ____ is John.'",
+      "correctAnswer": "name",
+      "acceptableAlternatives": ["Name"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day1_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Hello",
+      "correctTranslation": "Hello",
+      "acceptableAlternatives": ["Hi", "Hey", "Greetings"]
+    },
+    {
+      "id": "day1_mc3",
+      "type": "multipleChoice",
+      "question": "What is an appropriate way to say goodbye?",
+      "options": [
+        "See you later",
+        "Go away",
+        "Stop talking",
+        "Leave now"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day1_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: '____ to meet you!'",
+      "correctAnswer": "Nice",
+      "acceptableAlternatives": ["Pleased", "Happy", "Good"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day1_mc4",
+      "type": "multipleChoice",
+      "question": "Which is a polite way to introduce yourself?",
+      "options": [
+        "I'm the best",
+        "My name is Sarah",
+        "You should know me",
+        "I don't care"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

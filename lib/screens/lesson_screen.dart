@@ -1,10 +1,15 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import '../models/language.dart';
 import '../models/lesson.dart';
 import '../services/progress_service.dart';
+import '../services/gamification_service.dart';
 import '../utils/app_localizations.dart';
+import '../theme/app_theme.dart';
+import 'practice_screen.dart';
 
 class LessonScreen extends StatefulWidget {
   final Language language;
@@ -28,6 +33,17 @@ class _LessonScreenState extends State<LessonScreen> {
   Duration _duration = Duration.zero;
   Duration _position = Duration.zero;
   String _lessonText = '';
+  double _playbackSpeed = 1.0;
+  bool _isLooping = false;
+
+  bool _showTranslations = false;
+  bool _isLoadingContent = false;
+
+  // Stream subscriptions for audio player
+  StreamSubscription<Duration>? _durationSubscription;
+  StreamSubscription<Duration>? _positionSubscription;
+  StreamSubscription<PlayerState>? _playerStateSubscription;
+  StreamSubscription<void>? _playerCompleteSubscription;
 
   @override
   void initState() {
@@ -35,46 +51,92 @@ class _LessonScreenState extends State<LessonScreen> {
     _currentDay = widget.initialDay;
     _currentLesson = Lesson.create(_currentDay, widget.language);
     _setupAudioPlayer();
-    _loadLessonText();
+    _loadLessonContent();
   }
 
-  Future<void> _loadLessonText() async {
+  Future<void> _loadLessonContent() async {
+    if (!mounted) return;
+
+    setState(() {
+      _isLoadingContent = true;
+    });
+
     final text = await _currentLesson.loadTextContent();
+    await _currentLesson.loadExercises();
+    await _currentLesson.loadVocabulary();
+
+    if (!mounted) return;
+
     setState(() {
       _lessonText = text;
+      _isLoadingContent = false;
     });
   }
 
   void _setupAudioPlayer() {
-    _audioPlayer.onDurationChanged.listen((duration) {
-      setState(() {
-        _duration = duration;
-      });
+    _durationSubscription = _audioPlayer.onDurationChanged.listen((duration) {
+      if (mounted) {
+        setState(() {
+          _duration = duration;
+        });
+      }
     });
 
-    _audioPlayer.onPositionChanged.listen((position) {
-      setState(() {
-        _position = position;
-      });
+    _positionSubscription = _audioPlayer.onPositionChanged.listen((position) {
+      if (mounted) {
+        setState(() {
+          _position = position;
+        });
+      }
     });
 
-    _audioPlayer.onPlayerStateChanged.listen((state) {
-      setState(() {
-        _isPlaying = state == PlayerState.playing;
-      });
+    _playerStateSubscription = _audioPlayer.onPlayerStateChanged.listen((state) {
+      if (mounted) {
+        setState(() {
+          _isPlaying = state == PlayerState.playing;
+        });
+      }
     });
 
-    _audioPlayer.onPlayerComplete.listen((_) {
-      setState(() {
-        _isPlaying = false;
-        _position = Duration.zero;
-      });
+    _playerCompleteSubscription = _audioPlayer.onPlayerComplete.listen((_) {
+      if (_isLooping) {
+        _audioPlayer.seek(Duration.zero);
+        _audioPlayer.resume();
+      } else {
+        if (mounted) {
+          setState(() {
+            _isPlaying = false;
+            _position = Duration.zero;
+          });
+        }
+      }
+    });
+  }
+
+  Future<void> _setPlaybackSpeed(double speed) async {
+    await _audioPlayer.setPlaybackRate(speed);
+    setState(() {
+      _playbackSpeed = speed;
+    });
+  }
+
+  void _toggleLoop() {
+    setState(() {
+      _isLooping = !_isLooping;
     });
   }
 
   @override
   void dispose() {
+    // Cancel all stream subscriptions before disposing the audio player
+    _durationSubscription?.cancel();
+    _positionSubscription?.cancel();
+    _playerStateSubscription?.cancel();
+    _playerCompleteSubscription?.cancel();
+
+    // Dispose the audio player
     _audioPlayer.dispose();
+
     super.dispose();
   }
 
@@ -94,10 +156,11 @@ class _LessonScreenState extends State<LessonScreen> {
       _currentLesson = Lesson.create(_currentDay, widget.language);
       _position = Duration.zero;
       _isPlaying = false;
+      _showTranslations = false;
     });
 
     _audioPlayer.stop();
-    _loadLessonText();
+    _loadLessonContent();
   }
 
   String _formatDuration(Duration duration) {
@@ -110,6 +173,7 @@ class _LessonScreenState extends State<LessonScreen> {
   @override
   Widget build(BuildContext context) {
     final progressService = Provider.of<ProgressService>(context);
+    final gamificationService = Provider.of<GamificationService>(context);
     final loc = AppLocalizations.of(context);
     final isCompleted = progressService.isLessonCompleted(widget.language, _currentDay);
 
@@ -190,6 +254,7 @@ class _LessonScreenState extends State<LessonScreen> {
                         padding: const EdgeInsets.all(16),
                         child: Column(
                           children: [
+                            // Main playback controls
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
@@ -232,6 +297,8 @@ class _LessonScreenState extends State<LessonScreen> {
                               ],
                             ),
                             const SizedBox(height: 16),
+
+                            // Progress slider
                             Slider(
                               value: _position.inSeconds.toDouble(),
                               max: _duration.inSeconds.toDouble() > 0
@@ -246,6 +313,59 @@ class _LessonScreenState extends State<LessonScreen> {
                               children: [
                                 Text(_formatDuration(_position)),
                                 Text(_formatDuration(_duration)),
+                              ],
+                            ),
+
+                            const SizedBox(height: 16),
+                            const Divider(),
+                            const SizedBox(height: 8),
+
+                            // Advanced controls
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: [
+                                // Speed control
+                                PopupMenuButton<double>(
+                                  icon: Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    children: [
+                                      const Icon(Icons.speed, size: 20),
+                                      const SizedBox(width: 4),
+                                      Text(
+                                        '${_playbackSpeed}x',
+                                        style: const TextStyle(fontSize: 12),
+                                      ),
+                                    ],
+                                  ),
+                                  onSelected: _setPlaybackSpeed,
+                                  itemBuilder: (context) => [
+                                    const PopupMenuItem(value: 0.5, child: Text('0.5x - Slow')),
+                                    const PopupMenuItem(value: 0.75, child: Text('0.75x')),
+                                    const PopupMenuItem(value: 1.0, child: Text('1.0x - Normal')),
+                                    const PopupMenuItem(value: 1.25, child: Text('1.25x')),
+                                    const PopupMenuItem(value: 1.5, child: Text('1.5x - Fast')),
+                                    const PopupMenuItem(value: 2.0, child: Text('2.0x - Very Fast')),
+                                  ],
+                                ),
+
+                                // Loop toggle
+                                IconButton(
+                                  icon: Icon(
+                                    _isLooping ? Icons.repeat_on : Icons.repeat,
+                                    color: _isLooping ? AppTheme.primaryBlue : null,
+                                  ),
+                                  onPressed: _toggleLoop,
+                                  tooltip: 'Repeat',
+                                ),
+
+                                // Restart button
+                                IconButton(
+                                  icon: const Icon(Icons.restart_alt),
+                                  onPressed: () {
+                                    _audioPlayer.seek(Duration.zero);
+                                  },
+                                  tooltip: 'Restart',
+                                ),
                               ],
                             ),
                           ],
@@ -295,6 +415,222 @@ class _LessonScreenState extends State<LessonScreen> {
 
                     const SizedBox(height: 16),
 
+                    // Practice Section
+                    if (_currentLesson.hasExercises)
+                      Card(
+                        child: Padding(
+                          padding: const EdgeInsets.all(16),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                            children: [
+                              Row(
+                                children: [
+                                  Icon(
+                                    Icons.quiz,
+                                    color: Theme.of(context).colorScheme.primary,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(
+                                    'Interactive Practice',
+                                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                  ),
+                                ],
+                              ),
+                              const SizedBox(height: 16),
+                              Consumer<ProgressService>(
+                                builder: (context, progressService, child) {
+                                  final completedCount = progressService.getCompletedExercisesCount(
+                                    widget.language,
+                                    _currentDay,
+                                  );
+                                  final totalCount = _currentLesson.totalExercises;
+                                  final progress = totalCount > 0 ? completedCount / totalCount : 0.0;
+
+                                  return Column(
+                                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                                    children: [
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text(
+                                            'Progress:',
+                                            style: Theme.of(context).textTheme.titleMedium,
+                                          ),
+                                          Text(
+                                            '$completedCount / $totalCount exercises',
+                                            style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                                                  color: Theme.of(context).colorScheme.primary,
+                                                  fontWeight: FontWeight.bold,
+                                                ),
+                                          ),
+                                        ],
+                                      ),
+                                      const SizedBox(height: 8),
+                                      LinearProgressIndicator(
+                                        value: progress,
+                                        minHeight: 8,
+                                        borderRadius: BorderRadius.circular(4),
+                                      ),
+                                      const SizedBox(height: 16),
+                                      ElevatedButton.icon(
+                                        onPressed: () {
+                                          Navigator.push(
+                                            context,
+                                            MaterialPageRoute(
+                                              builder: (context) => PracticeScreen(
+                                                lesson: _currentLesson,
+                                                language: widget.language,
+                                              ),
+                                            ),
+                                          );
+                                        },
+                                        icon: const Icon(Icons.play_arrow),
+                                        label: Text(
+                                          completedCount == 0
+                                              ? 'Start Practice'
+                                              : completedCount == totalCount
+                                                  ? 'Review Exercises'
+                                                  : 'Continue Practice',
+                                        ),
+                                        style: ElevatedButton.styleFrom(
+                                          padding: const EdgeInsets.all(16),
+                                          backgroundColor: Theme.of(context).colorScheme.secondary,
+                                          foregroundColor: Colors.white,
+                                        ),
+                                      ),
+                                    ],
+                                  );
+                                },
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+
+                    if (_currentLesson.hasExercises) const SizedBox(height: 16),
+
+                    // Vocabulary Section
+                    if (_currentLesson.hasVocabulary)
+                      Card(
+                        child: Padding(
+                          padding: const EdgeInsets.all(16),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                            children: [
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Row(
+                                    children: [
+                                      Icon(
+                                        Icons.book,
+                                        color: Theme.of(context).colorScheme.primary,
+                                      ),
+                                      const SizedBox(width: 8),
+                                      Text(
+                                        'Vocabulary',
+                                        style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                      ),
+                                    ],
+                                  ),
+                                  TextButton.icon(
+                                    onPressed: () {
+                                      setState(() {
+                                        _showTranslations = !_showTranslations;
+                                      });
+                                    },
+                                    icon: Icon(_showTranslations ? Icons.visibility_off : Icons.visibility),
+                                    label: Text(_showTranslations ? 'Hide' : 'Show'),
+                                  ),
+                                ],
+                              ),
+                              const SizedBox(height: 16),
+                              ..._currentLesson.vocabulary!.map((vocab) {
+                                return Padding(
+                                  padding: const EdgeInsets.only(bottom: 12),
+                                  child: Container(
+                                    padding: const EdgeInsets.all(12),
+                                    decoration: BoxDecoration(
+                                      border: Border.all(color: Colors.grey.shade300),
+                                      borderRadius: BorderRadius.circular(8),
+                                    ),
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Row(
+                                          children: [
+                                            Expanded(
+                                              child: Text(
+                                                vocab.word,
+                                                style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                                                      fontWeight: FontWeight.bold,
+                                                    ),
+                                              ),
+                                            ),
+                                            if (vocab.phonetic != null)
+                                              Text(
+                                                vocab.phonetic!,
+                                                style: TextStyle(
+                                                  color: Colors.grey.shade600,
+                                                  fontStyle: FontStyle.italic,
+                                                ),
+                                              ),
+                                          ],
+                                        ),
+                                        if (_showTranslations) ...[
+                                          const SizedBox(height: 8),
+                                          Text(
+                                            vocab.translation,
+                                            style: TextStyle(
+                                              color: Theme.of(context).colorScheme.primary,
+                                            ),
+                                          ),
+                                        ],
+                                        if (vocab.example != null && _showTranslations) ...[
+                                          const SizedBox(height: 8),
+                                          Container(
+                                            padding: const EdgeInsets.all(8),
+                                            decoration: BoxDecoration(
+                                              color: Colors.grey.shade100,
+                                              borderRadius: BorderRadius.circular(4),
+                                            ),
+                                            child: Column(
+                                              crossAxisAlignment: CrossAxisAlignment.start,
+                                              children: [
+                                                Text(
+                                                  vocab.example!,
+                                                  style: const TextStyle(fontStyle: FontStyle.italic),
+                                                ),
+                                                if (vocab.exampleTranslation != null) ...[
+                                                  const SizedBox(height: 4),
+                                                  Text(
+                                                    vocab.exampleTranslation!,
+                                                    style: TextStyle(
+                                                      fontSize: 12,
+                                                      color: Colors.grey.shade600,
+                                                    ),
+                                                  ),
+                                                ],
+                                              ],
+                                            ),
+                                          ),
+                                        ],
+                                      ],
+                                    ),
+                                  ),
+                                );
+                              }),
+                            ],
+                          ),
+                        ),
+                      ),
+
+                    if (_currentLesson.hasVocabulary) const SizedBox(height: 16),
+
                     // Mark Complete Button
                     ElevatedButton.icon(
                       onPressed: () async {
@@ -308,7 +644,11 @@ class _LessonScreenState extends State<LessonScreen> {
                             widget.language,
                             _currentDay,
                           );
+                          // Record in gamification service
+                          await gamificationService.recordLessonCompletion(widget.language);
+
                           if (context.mounted) {
+                            // Show completion message
                             ScaffoldMessenger.of(context).showSnackBar(
                               SnackBar(
                                 content: Text(loc.dayMarkedComplete),
@@ -316,6 +656,46 @@ class _LessonScreenState extends State<LessonScreen> {
                                 backgroundColor: Theme.of(context).colorScheme.secondary,
                               ),
                             );
+
+                            // Show achievement notifications if any
+                            if (gamificationService.recentlyUnlocked.isNotEmpty) {
+                              for (var achievement in gamificationService.recentlyUnlocked) {
+                                await Future.delayed(const Duration(milliseconds: 500));
+                                if (context.mounted) {
+                                  ScaffoldMessenger.of(context).showSnackBar(
+                                    SnackBar(
+                                      content: Row(
+                                        children: [
+                                          Icon(achievement.icon, color: Colors.white),
+                                          const SizedBox(width: 12),
+                                          Expanded(
+                                            child: Column(
+                                              crossAxisAlignment: CrossAxisAlignment.start,
+                                              mainAxisSize: MainAxisSize.min,
+                                              children: [
+                                                const Text(
+                                                  'Achievement Unlocked!',
+                                                  style: TextStyle(
+                                                    fontWeight: FontWeight.bold,
+                                                    color: Colors.white,
+                                                  ),
+                                                ),
+                                                Text(
+                                                  achievement.title,
+                                                  style: const TextStyle(color: Colors.white),
+                                                ),
+                                              ],
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                      duration: const Duration(seconds: 3),
+                                      backgroundColor: achievement.color,
+                                    ),
+                                  );
+                                }
+                              }
+                            }
                           }
                         }
                       },
@@ -328,7 +708,7 @@ class _LessonScreenState extends State<LessonScreen> {
                             : Theme.of(context).colorScheme.primary,
                         foregroundColor: Colors.white,
                       ),
-                    ),
+                    ).animate().scale(delay: 100.ms),
 
                     const SizedBox(height: 24),
 

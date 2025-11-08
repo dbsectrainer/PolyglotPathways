@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Hello",
+      "translation": "A greeting used when meeting someone",
+      "phonetic": "/həˈloʊ/",
+      "example": "Hello, how are you today?",
+      "exampleTranslation": "A friendly greeting to start a conversation"
+    },
+    {
+      "word": "Goodbye",
+      "translation": "A farewell expression",
+      "phonetic": "/ɡʊdˈbaɪ/",
+      "example": "Goodbye, see you tomorrow!",
+      "exampleTranslation": "A polite way to end a conversation"
+    },
+    {
+      "word": "Please",
+      "translation": "A polite word used when making requests",
+      "phonetic": "/pliːz/",
+      "example": "Could you help me, please?",
+      "exampleTranslation": "Shows politeness when asking for something"
+    },
+    {
+      "word": "Thank you",
+      "translation": "Expression of gratitude",
+      "phonetic": "/θæŋk juː/",
+      "example": "Thank you for your help!",
+      "exampleTranslation": "Showing appreciation for someone's actions"
+    },
+    {
+      "word": "My name is",
+      "translation": "Phrase used to introduce yourself",
+      "phonetic": "/maɪ neɪm ɪz/",
+      "example": "Hi, my name is Sarah.",
+      "exampleTranslation": "Introducing yourself to someone new"
+    },
+    {
+      "word": "Nice to meet you",
+      "translation": "Polite expression when meeting someone for the first time",
+      "phonetic": "/naɪs tə miːt juː/",
+      "example": "Nice to meet you, John!",
+      "exampleTranslation": "A friendly greeting for first encounters"
+    },
+    {
+      "word": "How are you?",
+      "translation": "A common question to ask about someone's well-being",
+      "phonetic": "/haʊ ɑːr juː/",
+      "example": "Hello! How are you doing today?",
+      "exampleTranslation": "Asking about someone's current state"
+    },
+    {
+      "word": "I'm fine",
+      "translation": "A common response indicating you are well",
+      "phonetic": "/aɪm faɪn/",
+      "example": "I'm fine, thank you. And you?",
+      "exampleTranslation": "Positive response to 'How are you?'"
+    }
+  ]
+}

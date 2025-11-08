@@ -48,6 +48,7 @@ class ProgressService extends ChangeNotifier {
     _progress = Progress(
       completedLessons: newCompletedLessons,
       currentDay: newCurrentDay,
+      completedExercises: _progress.completedExercises,
     );
 
     await _saveProgress();
@@ -64,6 +65,7 @@ class ProgressService extends ChangeNotifier {
     _progress = Progress(
       completedLessons: newCompletedLessons,
       currentDay: _progress.currentDay,
+      completedExercises: _progress.completedExercises,
     );
 
     await _saveProgress();
@@ -84,5 +86,48 @@ class ProgressService extends ChangeNotifier {
 
   double getProgress(Language language) {
     return _progress.getProgress(language);
+  }
+
+  Future<void> markExerciseComplete(Language language, int day, String exerciseId) async {
+    final newCompletedExercises = Map<Language, Map<int, Set<String>>>.from(_progress.completedExercises);
+
+    if (!newCompletedExercises.containsKey(language)) {
+      newCompletedExercises[language] = {};
+    }
+
+    if (!newCompletedExercises[language]!.containsKey(day)) {
+      newCompletedExercises[language]![day] = {};
+    }
+
+    final dayExercises = Set<String>.from(newCompletedExercises[language]![day]!);
+    dayExercises.add(exerciseId);
+    newCompletedExercises[language]![day] = dayExercises;
+
+    _progress = Progress(
+      completedLessons: _progress.completedLessons,
+      currentDay: _progress.currentDay,
+      completedExercises: newCompletedExercises,
+    );
+
+    await _saveProgress();
+    notifyListeners();
+  }
+
+  bool isExerciseCompleted(Language language, int day, String exerciseId) {
+    return _progress.isExerciseCompleted(language, day, exerciseId);
+  }
+
+  int getCompletedExercisesCount(Language language, int day) {
+    return _progress.getCompletedExercisesCount(language, day);
+  }
+
+  Set<String> getCompletedExerciseIds(Language language, int day) {
+    return _progress.getCompletedExerciseIds(language, day);
+  }
+
+  Future<void> resetAll() async {
+    _progress = Progress();
+    await _saveProgress();
+    notifyListeners();
   }
 }

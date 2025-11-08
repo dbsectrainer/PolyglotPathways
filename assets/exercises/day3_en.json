@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day3_mc1",
+      "type": "multipleChoice",
+      "question": "Which day comes after Monday?",
+      "options": [
+        "Sunday",
+        "Tuesday",
+        "Wednesday",
+        "Saturday"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day3_mc2",
+      "type": "multipleChoice",
+      "question": "What is the first month of the year?",
+      "options": [
+        "December",
+        "February",
+        "January",
+        "March"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day3_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Monday, Tuesday, ____'",
+      "correctAnswer": "Wednesday",
+      "caseSensitive": false
+    },
+    {
+      "id": "day3_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'January, February, ____'",
+      "correctAnswer": "March",
+      "caseSensitive": false
+    },
+    {
+      "id": "day3_mc3",
+      "type": "multipleChoice",
+      "question": "Which month has the shortest name?",
+      "options": [
+        "July",
+        "June",
+        "May",
+        "April"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day3_trans1",
+      "type": "translation",
+      "question": "What day is the last day of the work week?",
+      "targetText": "Last work day before weekend",
+      "correctTranslation": "Friday",
+      "acceptableAlternatives": ["friday"]
+    },
+    {
+      "id": "day3_mc4",
+      "type": "multipleChoice",
+      "question": "What are the weekend days?",
+      "options": [
+        "Monday and Friday",
+        "Saturday and Sunday",
+        "Thursday and Friday",
+        "Tuesday and Wednesday"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day3_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Thursday, Friday, ____'",
+      "correctAnswer": "Saturday",
+      "acceptableAlternatives": ["saturday"],
+      "caseSensitive": false
+    }
+  ]
+}

@@ -30,6 +30,16 @@ dependencies:
   # Path provider for file access
   path_provider: ^2.1.1
 
+  # Animations and UI enhancements
+  flutter_animate: ^4.5.0
+  smooth_page_indicator: ^1.1.0
+  fl_chart: ^0.66.0
+  badges: ^3.1.2
+  confetti: ^0.7.0
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -44,6 +54,8 @@ flutter:
     - assets/audio/
     - assets/translations/
     - assets/lessons/
+    - assets/exercises/
+    - assets/vocabulary/
 
   # fonts:
     # - family: Poppins
