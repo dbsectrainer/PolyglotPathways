@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:audioplayers/audioplayers.dart';
@@ -33,6 +34,12 @@ class _LessonScreenState extends State<LessonScreen> {
   bool _showTranslations = false;
   bool _isLoadingContent = false;
 
+  // Stream subscriptions for audio player
+  StreamSubscription<Duration>? _durationSubscription;
+  StreamSubscription<Duration>? _positionSubscription;
+  StreamSubscription<PlayerState>? _playerStateSubscription;
+  StreamSubscription<void>? _playerCompleteSubscription;
+
   @override
   void initState() {
     super.initState();
@@ -43,6 +50,8 @@ class _LessonScreenState extends State<LessonScreen> {
   }
 
   Future<void> _loadLessonContent() async {
+    if (!mounted) return;
+
     setState(() {
       _isLoadingContent = true;
     });
@@ -51,6 +60,8 @@ class _LessonScreenState extends State<LessonScreen> {
     await _currentLesson.loadExercises();
     await _currentLesson.loadVocabulary();
 
+    if (!mounted) return;
+
     setState(() {
       _lessonText = text;
       _isLoadingContent = false;
@@ -58,35 +69,51 @@ class _LessonScreenState extends State<LessonScreen> {
   }
 
   void _setupAudioPlayer() {
-    _audioPlayer.onDurationChanged.listen((duration) {
-      setState(() {
-        _duration = duration;
-      });
+    _durationSubscription = _audioPlayer.onDurationChanged.listen((duration) {
+      if (mounted) {
+        setState(() {
+          _duration = duration;
+        });
+      }
     });
 
-    _audioPlayer.onPositionChanged.listen((position) {
-      setState(() {
-        _position = position;
-      });
+    _positionSubscription = _audioPlayer.onPositionChanged.listen((position) {
+      if (mounted) {
+        setState(() {
+          _position = position;
+        });
+      }
     });
 
-    _audioPlayer.onPlayerStateChanged.listen((state) {
-      setState(() {
-        _isPlaying = state == PlayerState.playing;
-      });
+    _playerStateSubscription = _audioPlayer.onPlayerStateChanged.listen((state) {
+      if (mounted) {
+        setState(() {
+          _isPlaying = state == PlayerState.playing;
+        });
+      }
     });
 
-    _audioPlayer.onPlayerComplete.listen((_) {
-      setState(() {
-        _isPlaying = false;
-        _position = Duration.zero;
-      });
+    _playerCompleteSubscription = _audioPlayer.onPlayerComplete.listen((_) {
+      if (mounted) {
+        setState(() {
+          _isPlaying = false;
+          _position = Duration.zero;
+        });
+      }
     });
   }
 
   @override
   void dispose() {
+    // Cancel all stream subscriptions before disposing the audio player
+    _durationSubscription?.cancel();
+    _positionSubscription?.cancel();
+    _playerStateSubscription?.cancel();
+    _playerCompleteSubscription?.cancel();
+
+    // Dispose the audio player
     _audioPlayer.dispose();
+
     super.dispose();
   }
 
