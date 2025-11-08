@@ -1,0 +1,126 @@
+{
+  "header": {
+    "title": "Polyglot Pathways",
+    "subtitle": "Ihr Weg zur mehrsprachigen Meisterschaft"
+  },
+  "hero": {
+    "title": "Beherrschen Sie mehrere Sprachen",
+    "subtitle": "Begeben Sie sich auf eine 50-tägige Reise durch umfassendes Sprachenlernen für globales Leben und Arbeiten"
+  },
+  "courseStructure": {
+    "title": "Kursstruktur",
+    "sections": {
+      "days1_7": {
+        "title": "Tage 1-7",
+        "description": "Grundwortschatz und wichtige Redewendungen für Anfänger"
+      },
+      "days8_15": {
+        "title": "Tage 8-15",
+        "description": "Fortgeschrittene Redewendungen für Mittelstufe"
+      },
+      "days16_26": {
+        "title": "Tage 16-26",
+        "description": "Internationales Leben & Arbeiten"
+      },
+      "days27_31": {
+        "title": "Tage 27-31",
+        "description": "Technische Fachsprache"
+      },
+      "days32_50": {
+        "title": "Tage 32-50",
+        "description": "Fortgeschrittene akademische & berufliche Kommunikation"
+      }
+    }
+  },
+  "daySelection": {
+    "title": "Tägliche Lektionen",
+    "controls": {
+      "previous": "Zurück",
+      "next": "Weiter",
+      "daysRange": "Tage"
+    }
+  },
+  "benefits": {
+    "title": "Warum diese Sprachen lernen?",
+    "globalReach": {
+      "title": "Globale Reichweite & Kommunikation",
+      "items": {
+        "english": "Englisch: Globale Lingua Franca für Wirtschaft, Wissenschaft und Technik",
+        "spanish": "Spanisch: Zweithäufigste Muttersprache weltweit",
+        "portuguese": "Portugiesisch: Schlüssel zum riesigen brasilianischen Markt und afrikanischen Nationen",
+        "french": "Französisch: Offiziell in 29 Ländern auf mehreren Kontinenten",
+        "german": "Deutsch: Meistgesprochene Muttersprache in Europa"
+      }
+    },
+    "career": {
+      "title": "Karriere- & Geschäftsmöglichkeiten",
+      "items": [
+        "Zugang zu globalen Arbeitsmärkten auf allen Kontinenten",
+        "Freiberufliche Möglichkeiten mit internationalen Kunden",
+        "Positionen in internationalen Organisationen (UN, EU, NATO)",
+        "Verbesserte Import/Export- und Remote-Arbeitsmöglichkeiten"
+      ]
+    },
+    "monetization": {
+      "title": "Monetarisierungspotenzial",
+      "items": [
+        "Content-Erstellung in mehreren Sprachen",
+        "Übersetzungs- und Lokalisierungsdienste",
+        "Sprachunterricht für Berufstätige",
+        "Mehrsprachiges Marketing und E-Commerce"
+      ]
+    },
+    "cognitive": {
+      "title": "Kognitive Vorteile",
+      "items": [
+        "Verbessertes Gedächtnis und Problemlösungsfähigkeit",
+        "Gesteigerte Kreativität und kulturelles Verständnis",
+        "Leichterer Erwerb zusätzlicher Sprachen"
+      ]
+    },
+    "travel": {
+      "title": "Reise- & Kulturzugang",
+      "items": [
+        "Bewegen Sie sich auf mehreren Kontinenten wie ein Einheimischer",
+        "Genießen Sie authentische kulturelle Erfahrungen",
+        "Bauen Sie echte internationale Beziehungen auf"
+      ]
+    },
+    "combinations": {
+      "title": "Strategische Sprachkombinationen",
+      "combos": {
+        "spanishPortuguese": {
+          "langs": "Spanisch + Portugiesisch",
+          "benefit": "Deckt fast ganz Lateinamerika ab"
+        },
+        "frenchEnglish": {
+          "langs": "Französisch + Englisch",
+          "benefit": "Dominiert Diplomatie & Afrika"
+        },
+        "germanEnglish": {
+          "langs": "Deutsch + Englisch",
+          "benefit": "Öffnet EU-Unternehmenstüren"
+        },
+        "allFive": {
+          "langs": "Alle 5 Sprachen",
+          "benefit": "Sprechen Sie mit ~2 Milliarden Menschen"
+        }
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Polyglot Pathways | Sprachenlernen ermöglichen"
+  },
+  "languages": {
+    "en": "Englisch",
+    "es": "Spanisch",
+    "pt": "Portugiesisch",
+    "fr": "Französisch",
+    "de": "Deutsch"
+  },
+  "progress": {
+    "status": "Fortschritt: Tag {completed}/50",
+    "days": "Tage",
+    "levels": "Stufen"
+  }
+}

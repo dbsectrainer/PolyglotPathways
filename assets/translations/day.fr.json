@@ -1,0 +1,52 @@
+{
+  "header": {
+    "title": "Polyglot Pathways",
+    "subtitle": "Votre Voyage vers la Maîtrise Multilingue"
+  },
+  "navigation": {
+    "previousDay": "Jour Précédent",
+    "nextDay": "Jour Suivant",
+    "backToHome": "Retour à l'Accueil"
+  },
+  "lesson": {
+    "day": "Jour",
+    "markComplete": "Marquer comme Terminé",
+    "completed": "Terminé",
+    "dayMarkedComplete": "Jour marqué comme terminé !",
+    "phraseCopied": "Phrase copiée dans le presse-papiers !",
+    "textNotAvailable": "Contenu textuel non disponible.",
+    "audioNotSupported": "Votre navigateur ne prend pas en charge l'élément audio."
+  },
+  "languages": {
+    "english": "Anglais",
+    "spanish": "Espagnol",
+    "portuguese": "Portugais",
+    "french": "Français",
+    "german": "Allemand"
+  },
+  "sections": {
+    "basic": {
+      "title": "Vocabulaire de Base & Phrases Essentielles",
+      "description": "Apprenez le vocabulaire fondamental et les phrases essentielles pour débutants."
+    },
+    "advanced": {
+      "title": "Phrases Avancées",
+      "description": "Conversations et vocabulaire plus complexes pour les apprenants intermédiaires."
+    },
+    "international": {
+      "title": "Vie et Travail International",
+      "description": "Phrases pratiques pour la vie globale et les environnements professionnels."
+    },
+    "tech": {
+      "title": "Contenu Professionnel Technique",
+      "description": "Contenu spécialisé pour les ingénieurs logiciels et les professionnels de la technologie."
+    },
+    "academic": {
+      "title": "Académique et Professionnel Avancé",
+      "description": "Compétences linguistiques avancées pour les contextes académiques et professionnels."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Polyglot Pathways | Autonomiser l'Apprentissage des Langues"
+  }
+}

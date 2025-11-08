@@ -1,0 +1,52 @@
+{
+  "header": {
+    "title": "Polyglot Pathways",
+    "subtitle": "Your Journey to Multilingual Mastery"
+  },
+  "navigation": {
+    "previousDay": "Previous Day",
+    "nextDay": "Next Day",
+    "backToHome": "Back to Home"
+  },
+  "lesson": {
+    "day": "Day",
+    "markComplete": "Mark as Complete",
+    "completed": "Completed",
+    "dayMarkedComplete": "Day marked as complete!",
+    "phraseCopied": "Phrase copied to clipboard!",
+    "textNotAvailable": "Text content not available.",
+    "audioNotSupported": "Your browser does not support the audio element."
+  },
+  "languages": {
+    "english": "English",
+    "spanish": "Spanish",
+    "portuguese": "Portuguese",
+    "french": "French",
+    "german": "German"
+  },
+  "sections": {
+    "basic": {
+      "title": "Basic Vocabulary & Essential Phrases",
+      "description": "Learn fundamental vocabulary and essential phrases for beginners."
+    },
+    "advanced": {
+      "title": "Advanced Phrases",
+      "description": "More complex conversations and vocabulary for intermediate learners."
+    },
+    "international": {
+      "title": "International Living & Working",
+      "description": "Practical phrases for global living and professional environments."
+    },
+    "tech": {
+      "title": "Tech Professional Content",
+      "description": "Specialized content for software engineers and tech professionals."
+    },
+    "academic": {
+      "title": "Advanced Academic & Professional",
+      "description": "Advanced language skills for academic and professional settings."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Polyglot Pathways | Empowering Language Learning"
+  }
+}

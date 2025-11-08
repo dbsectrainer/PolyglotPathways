@@ -1,0 +1,39 @@
+
+Spanish Regional Variations
+---------------------------
+Legal/Fixe
+Legal/Bacana
+Legal/Massa
+Dinheiro/Guita
+Dinheiro/Grana
+Dinheiro/Bufunfa
+Amigo/Mano
+Amigo/Parceiro
+Amigo/Brother
+Trampo/Serviço
+
+Portuguese Regional Variations
+------------------------------
+Legal/Massa
+Fixe/Porreiro
+Grana/Bufunfa
+Guito/Massa
+Mano/Parceiro
+Meu/Puto
+Trampo/Serviço
+Trabalho/Biscate
+Casa/Barraco/Moradia
+Rango/Bóia/Paparoca
+
+Regional Greetings
+------------------
+Olá/Oi
+Oi/E aí
+Oi/Beleza
+Tchau/Até logo
+Tchau/Falou
+Tchau/Valeu
+Bom dia/Dia
+Boa noite/Noite
+Até logo/Falou
+Se cuida/Fica bem

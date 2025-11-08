@@ -1,0 +1,5 @@
+package com.polyglotpathways.polyglot_pathways
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()

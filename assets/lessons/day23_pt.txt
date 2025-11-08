@@ -1,0 +1,65 @@
+
+Banking Services
+----------------
+Gostaria de abrir uma conta bancária
+Quais documentos preciso?
+Preciso fazer um depósito
+Gostaria de sacar dinheiro
+Qual é a taxa de câmbio?
+Preciso transferir dinheiro para o exterior
+Existem taxas para esta transação?
+Gostaria de configurar um depósito direto
+Posso acessar minha conta online?
+Preciso relatar um cartão perdido
+
+Financial Terminology
+---------------------
+Qual é a taxa de juros?
+Preciso verificar meu saldo
+Qual é o depósito mínimo?
+Gostaria de solicitar um empréstimo
+Qual é a taxa mensal?
+Preciso atualizar as informações da minha conta
+Qual é o limite de cheque especial?
+Gostaria de configurar pagamentos automáticos
+Quais opções de investimento vocês oferecem?
+Preciso encerrar minha conta
+
+Government Offices
+------------------
+Onde fica o escritório de imigração?
+Preciso renovar meu visto
+Onde posso obter um número de identificação fiscal?
+Preciso registrar meu endereço
+Onde fica o cartório mais próximo?
+Preciso solicitar uma autorização de trabalho
+Qual é o processo para residência?
+Preciso declarar meus impostos
+Onde fica o escritório da previdência social?
+Preciso autenticar meus documentos
+
+Bureaucratic Procedures
+-----------------------
+Quais formulários preciso preencher?
+Preciso marcar uma consulta?
+Qual é o tempo de processamento?
+Preciso trazer documentos originais?
+Existe uma aplicação online?
+Qual é o status da minha solicitação?
+Preciso pagar uma taxa?
+Onde posso obter cópias autenticadas?
+Preciso enviar estes documentos até o prazo
+Existe um processo de recurso?
+
+Legal and Administrative Terms
+------------------------------
+O que significa esta cláusula?
+Preciso de aconselhamento jurídico
+Quais são meus direitos nesta situação?
+Preciso assinar um contrato
+Quais são os termos e condições?
+Preciso registrar uma reclamação
+Qual é o procedimento legal para isso?
+Preciso obter uma procuração
+Quais são as penalidades por não conformidade?
+Preciso entender minhas obrigações fiscais

@@ -1,0 +1,39 @@
+
+Spanish Regional Variations
+---------------------------
+Cool/Awesome (Spain)
+Cool/Awesome (Argentina)
+Cool/Awesome (Mexico)
+Money (Spain)
+Money (Argentina)
+Money (Mexico)
+Friend (Spain)
+Friend (Argentina)
+Friend (Mexico)
+Work (Regional)
+
+Portuguese Regional Variations
+------------------------------
+Cool/Awesome (Brazil)
+Cool/Awesome (Portugal)
+Money (Brazil)
+Money (Portugal)
+Friend (Brazil)
+Friend (Portugal)
+Work (Brazil)
+Work (Portugal)
+House (Regional)
+Food (Regional)
+
+Regional Greetings
+------------------
+Hi/Hello (Spain)
+Hi/Hello (Argentina)
+Hi/Hello (Mexico)
+Goodbye (Spain)
+Goodbye (Argentina)
+Goodbye (Mexico)
+Good morning (Regional)
+Good night (Regional)
+See you later (Regional)
+Take care (Regional)

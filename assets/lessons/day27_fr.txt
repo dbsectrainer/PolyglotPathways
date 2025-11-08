@@ -1,0 +1,65 @@
+
+Software Engineering & Tech Workplace
+-------------------------------------
+Je suis ingénieur logiciel
+Je travaille dans le développement web
+Je me spécialise dans le développement backend
+Je suis développeur(se) frontend
+Je travaille avec des applications mobiles
+Je travaille sur une nouvelle fonctionnalité
+Nous devons corriger ce bug
+Planifions une revue de code
+Je cherche un emploi en technologie à distance
+L'industrie technologique se développe ici
+
+Programming Languages & Concepts
+--------------------------------
+Je programme en JavaScript/Python/Java
+Cette fonction ne fonctionne pas
+Nous devons refactoriser ce code
+Implémentons cet algorithme
+C'est une approche orientée objet
+Nous devrions utiliser un patron de conception ici
+L'API ne répond pas
+Nous devons optimiser cette requête
+Testons ce composant
+C'est une solution récursive
+
+Development Tools & Methodologies
+---------------------------------
+Nous utilisons Git pour le contrôle de version
+Créons une pull request
+Nous suivons la méthodologie Agile
+Nous avons des réunions quotidiennes debout
+Planifions le prochain sprint
+Nous devons documenter cette API
+J'utilise VS Code comme mon IDE
+Mettons en place l'intégration continue
+Nous devrions écrire des tests unitaires
+Déployons en production
+
+Tech Problem Solving
+--------------------
+Je débogue ce problème
+Vérifions les journaux d'erreurs
+Le serveur est en panne
+Nous devons faire évoluer notre infrastructure
+C'est un goulot d'étranglement en termes de performance
+Implémentons une solution de contournement
+Nous devons optimiser pour mobile
+La base de données est lente
+Effectuons un test de charge
+Nous devons corriger cette vulnérabilité de sécurité
+
+Tech Workplace Communication
+----------------------------
+Discutons-en lors de la prochaine réunion
+Je partagerai mon écran pour te montrer
+Peux-tu examiner mon code ?
+Je t'enverrai la documentation
+Organisons un appel vidéo
+J'ai besoin d'accéder au dépôt
+Quel est le statut de ta tâche ?
+Je mettrai à jour le ticket
+Créons un nouveau tableau de projet
+J'ajouterai des commentaires pour expliquer cela

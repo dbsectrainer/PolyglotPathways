@@ -1,0 +1,126 @@
+{
+  "header": {
+    "title": "Polyglot Pathways",
+    "subtitle": "Your Journey to Multilingual Mastery"
+  },
+  "hero": {
+    "title": "Master Multiple Languages",
+    "subtitle": "Embark on a 50-day journey through comprehensive language learning for global living and working"
+  },
+  "courseStructure": {
+    "title": "Course Structure",
+    "sections": {
+      "days1_7": {
+        "title": "Days 1-7",
+        "description": "Basic vocabulary and essential phrases for beginners"
+      },
+      "days8_15": {
+        "title": "Days 8-15",
+        "description": "Advanced phrases for intermediate learners"
+      },
+      "days16_26": {
+        "title": "Days 16-26",
+        "description": "International Living & Working"
+      },
+      "days27_31": {
+        "title": "Days 27-31",
+        "description": "Tech Professional Content"
+      },
+      "days32_50": {
+        "title": "Days 32-50",
+        "description": "Advanced Academic & Professional Communication"
+      }
+    }
+  },
+  "daySelection": {
+    "title": "Daily Lessons",
+    "controls": {
+      "previous": "Previous",
+      "next": "Next",
+      "daysRange": "Days"
+    }
+  },
+  "benefits": {
+    "title": "Why Learn These Languages?",
+    "globalReach": {
+      "title": "Global Reach & Communication",
+      "items": {
+        "english": "English: Global lingua franca for business, science, and tech",
+        "spanish": "Spanish: 2nd most spoken native language worldwide",
+        "portuguese": "Portuguese: Key for Brazil's huge market and African nations",
+        "french": "French: Official in 29 countries across multiple continents",
+        "german": "German: Most spoken native language in Europe"
+      }
+    },
+    "career": {
+      "title": "Career & Business Opportunities",
+      "items": [
+        "Access global job markets across continents",
+        "Freelancing opportunities with international clients",
+        "Positions in international organizations (UN, EU, NATO)",
+        "Enhanced import/export and remote work capabilities"
+      ]
+    },
+    "monetization": {
+      "title": "Monetization Potential",
+      "items": [
+        "Content creation in multiple languages",
+        "Translation and localization services",
+        "Language tutoring for professionals",
+        "Multilingual marketing and e-commerce"
+      ]
+    },
+    "cognitive": {
+      "title": "Cognitive Benefits",
+      "items": [
+        "Enhanced memory and problem-solving",
+        "Improved creativity and cultural understanding",
+        "Easier acquisition of additional languages"
+      ]
+    },
+    "travel": {
+      "title": "Travel & Cultural Access",
+      "items": [
+        "Navigate multiple continents like a local",
+        "Enjoy authentic cultural experiences",
+        "Build genuine international relationships"
+      ]
+    },
+    "combinations": {
+      "title": "Strategic Language Combinations",
+      "combos": {
+        "spanishPortuguese": {
+          "langs": "Spanish + Portuguese",
+          "benefit": "Covers almost all of Latin America"
+        },
+        "frenchEnglish": {
+          "langs": "French + English",
+          "benefit": "Dominates diplomacy & Africa"
+        },
+        "germanEnglish": {
+          "langs": "German + English",
+          "benefit": "Opens EU corporate doors"
+        },
+        "allFive": {
+          "langs": "All 5 Languages",
+          "benefit": "Speak to ~2 billion people"
+        }
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Polyglot Pathways | Empowering Language Learning"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Spanish",
+    "pt": "Portuguese",
+    "fr": "French",
+    "de": "German"
+  },
+  "progress": {
+    "status": "Progress: Day {completed}/50",
+    "days": "Days",
+    "levels": "Levels"
+  }
+}

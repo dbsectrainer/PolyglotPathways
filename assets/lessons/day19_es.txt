@@ -1,0 +1,65 @@
+
+Medical Emergencies
+-------------------
+Necesito un médico urgentemente
+Por favor, llame a una ambulancia
+Tengo dolor en el pecho
+Tengo dificultad para respirar
+He tenido un accidente
+Soy alérgico/a a este medicamento
+¿Dónde está la sala de emergencias más cercana?
+Necesito atención médica inmediata
+Me siento muy mareado/a
+Tengo fiebre alta
+
+Healthcare Facilities
+---------------------
+¿Dónde está el hospital más cercano?
+Necesito encontrar una clínica
+¿Hay una farmacia abierta ahora?
+¿Tiene un médico de familia?
+Necesito hacer una cita con un especialista
+¿Hay un centro médico en esta zona?
+¿Dónde puedo hacerme una prueba de COVID?
+¿Hay un dentista cerca?
+Necesito encontrar un optometrista
+¿Dónde está el centro de vacunación?
+
+Health Insurance and Payments
+-----------------------------
+¿Aceptan mi seguro de salud?
+¿Cuánto cuesta este tratamiento?
+Necesito registrarme para la atención médica pública
+¿Esto está cubierto por el seguro?
+¿Necesito pagar por adelantado?
+¿Cómo solicito el reembolso?
+¿Qué documentos necesito para el seguro de salud?
+¿Hay un copago?
+¿Cómo funciona el sistema de salud público?
+Necesito un recibo para mi seguro
+
+Medical Consultations
+---------------------
+Me gustaría describir mis síntomas
+¿Cuándo comenzaron los síntomas?
+Me he sentido mal durante una semana
+¿Necesito alguna prueba?
+¿Cuáles son los efectos secundarios de este medicamento?
+¿Con qué frecuencia debo tomar este medicamento?
+¿Necesito una cita de seguimiento?
+¿Puedo obtener un certificado médico?
+Necesito una recarga de receta
+¿Qué debo hacer si los síntomas persisten?
+
+Preventive Healthcare
+---------------------
+Necesito programar un chequeo
+¿Cuándo debo vacunarme?
+¿Qué vacunas necesito para esta región?
+¿Con qué frecuencia debo hacerme un chequeo dental?
+Me gustaría hacerme pruebas de detección de enfermedades comunes
+¿Cuáles son los exámenes de salud recomendados para mi edad?
+¿Cómo puedo mantener un estilo de vida saludable?
+¿Cuáles son los signos de deshidratación?
+¿Cómo puedo protegerme de enfermedades transmitidas por mosquitos?
+¿Qué protector solar debo usar en este clima?
