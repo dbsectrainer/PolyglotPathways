@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import '../models/language.dart';
 import '../models/lesson.dart';
 import '../services/progress_service.dart';
+import '../services/gamification_service.dart';
 import '../utils/app_localizations.dart';
+import '../theme/app_theme.dart';
 
 class LessonScreen extends StatefulWidget {
   final Language language;
@@ -28,6 +31,8 @@ class _LessonScreenState extends State<LessonScreen> {
   Duration _duration = Duration.zero;
   Duration _position = Duration.zero;
   String _lessonText = '';
+  double _playbackSpeed = 1.0;
+  bool _isLooping = false;
 
   @override
   void initState() {
@@ -65,10 +70,28 @@ class _LessonScreenState extends State<LessonScreen> {
     });
 
     _audioPlayer.onPlayerComplete.listen((_) {
-      setState(() {
-        _isPlaying = false;
-        _position = Duration.zero;
-      });
+      if (_isLooping) {
+        _audioPlayer.seek(Duration.zero);
+        _audioPlayer.resume();
+      } else {
+        setState(() {
+          _isPlaying = false;
+          _position = Duration.zero;
+        });
+      }
+    });
+  }
+
+  Future<void> _setPlaybackSpeed(double speed) async {
+    await _audioPlayer.setPlaybackRate(speed);
+    setState(() {
+      _playbackSpeed = speed;
+    });
+  }
+
+  void _toggleLoop() {
+    setState(() {
+      _isLooping = !_isLooping;
     });
   }
 
@@ -110,6 +133,7 @@ class _LessonScreenState extends State<LessonScreen> {
   @override
   Widget build(BuildContext context) {
     final progressService = Provider.of<ProgressService>(context);
+    final gamificationService = Provider.of<GamificationService>(context);
     final loc = AppLocalizations.of(context);
     final isCompleted = progressService.isLessonCompleted(widget.language, _currentDay);
 
@@ -190,6 +214,7 @@ class _LessonScreenState extends State<LessonScreen> {
                         padding: const EdgeInsets.all(16),
                         child: Column(
                           children: [
+                            // Main playback controls
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
@@ -232,6 +257,8 @@ class _LessonScreenState extends State<LessonScreen> {
                               ],
                             ),
                             const SizedBox(height: 16),
+
+                            // Progress slider
                             Slider(
                               value: _position.inSeconds.toDouble(),
                               max: _duration.inSeconds.toDouble() > 0
@@ -246,6 +273,59 @@ class _LessonScreenState extends State<LessonScreen> {
                               children: [
                                 Text(_formatDuration(_position)),
                                 Text(_formatDuration(_duration)),
+                              ],
+                            ),
+
+                            const SizedBox(height: 16),
+                            const Divider(),
+                            const SizedBox(height: 8),
+
+                            // Advanced controls
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: [
+                                // Speed control
+                                PopupMenuButton<double>(
+                                  icon: Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    children: [
+                                      const Icon(Icons.speed, size: 20),
+                                      const SizedBox(width: 4),
+                                      Text(
+                                        '${_playbackSpeed}x',
+                                        style: const TextStyle(fontSize: 12),
+                                      ),
+                                    ],
+                                  ),
+                                  onSelected: _setPlaybackSpeed,
+                                  itemBuilder: (context) => [
+                                    const PopupMenuItem(value: 0.5, child: Text('0.5x - Slow')),
+                                    const PopupMenuItem(value: 0.75, child: Text('0.75x')),
+                                    const PopupMenuItem(value: 1.0, child: Text('1.0x - Normal')),
+                                    const PopupMenuItem(value: 1.25, child: Text('1.25x')),
+                                    const PopupMenuItem(value: 1.5, child: Text('1.5x - Fast')),
+                                    const PopupMenuItem(value: 2.0, child: Text('2.0x - Very Fast')),
+                                  ],
+                                ),
+
+                                // Loop toggle
+                                IconButton(
+                                  icon: Icon(
+                                    _isLooping ? Icons.repeat_on : Icons.repeat,
+                                    color: _isLooping ? AppTheme.primaryBlue : null,
+                                  ),
+                                  onPressed: _toggleLoop,
+                                  tooltip: 'Repeat',
+                                ),
+
+                                // Restart button
+                                IconButton(
+                                  icon: const Icon(Icons.restart_alt),
+                                  onPressed: () {
+                                    _audioPlayer.seek(Duration.zero);
+                                  },
+                                  tooltip: 'Restart',
+                                ),
                               ],
                             ),
                           ],
@@ -308,7 +388,11 @@ class _LessonScreenState extends State<LessonScreen> {
                             widget.language,
                             _currentDay,
                           );
+                          // Record in gamification service
+                          await gamificationService.recordLessonCompletion(widget.language);
+
                           if (context.mounted) {
+                            // Show completion message
                             ScaffoldMessenger.of(context).showSnackBar(
                               SnackBar(
                                 content: Text(loc.dayMarkedComplete),
@@ -316,6 +400,46 @@ class _LessonScreenState extends State<LessonScreen> {
                                 backgroundColor: Theme.of(context).colorScheme.secondary,
                               ),
                             );
+
+                            // Show achievement notifications if any
+                            if (gamificationService.recentlyUnlocked.isNotEmpty) {
+                              for (var achievement in gamificationService.recentlyUnlocked) {
+                                await Future.delayed(const Duration(milliseconds: 500));
+                                if (context.mounted) {
+                                  ScaffoldMessenger.of(context).showSnackBar(
+                                    SnackBar(
+                                      content: Row(
+                                        children: [
+                                          Icon(achievement.icon, color: Colors.white),
+                                          const SizedBox(width: 12),
+                                          Expanded(
+                                            child: Column(
+                                              crossAxisAlignment: CrossAxisAlignment.start,
+                                              mainAxisSize: MainAxisSize.min,
+                                              children: [
+                                                const Text(
+                                                  'Achievement Unlocked!',
+                                                  style: TextStyle(
+                                                    fontWeight: FontWeight.bold,
+                                                    color: Colors.white,
+                                                  ),
+                                                ),
+                                                Text(
+                                                  achievement.title,
+                                                  style: const TextStyle(color: Colors.white),
+                                                ),
+                                              ],
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                      duration: const Duration(seconds: 3),
+                                      backgroundColor: achievement.color,
+                                    ),
+                                  );
+                                }
+                              }
+                            }
                           }
                         }
                       },
@@ -328,7 +452,7 @@ class _LessonScreenState extends State<LessonScreen> {
                             : Theme.of(context).colorScheme.primary,
                         foregroundColor: Colors.white,
                       ),
-                    ),
+                    ).animate().scale(delay: 100.ms),
 
                     const SizedBox(height: 24),
 

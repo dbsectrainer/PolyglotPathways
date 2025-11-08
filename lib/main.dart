@@ -3,10 +3,14 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'screens/home_screen.dart';
+import 'screens/onboarding_screen.dart';
+import 'screens/main_navigation_screen.dart';
 import 'services/language_service.dart';
 import 'services/progress_service.dart';
+import 'services/settings_service.dart';
+import 'services/gamification_service.dart';
 import 'utils/app_localizations.dart';
+import 'theme/app_theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,38 +28,39 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(
+          create: (_) => SettingsService(),
+        ),
+        ChangeNotifierProvider(
           create: (_) => LanguageService(prefs),
         ),
         ChangeNotifierProvider(
           create: (_) => ProgressService(prefs),
         ),
+        ChangeNotifierProvider(
+          create: (_) => GamificationService(),
+        ),
       ],
-      child: Consumer<LanguageService>(
-        builder: (context, languageService, _) {
+      child: Consumer2<LanguageService, SettingsService>(
+        builder: (context, languageService, settingsService, _) {
           return MaterialApp(
             title: 'Polyglot Pathways',
             debugShowCheckedModeBanner: false,
-            theme: ThemeData(
-              primarySwatch: Colors.blue,
-              fontFamily: 'Poppins',
-              colorScheme: ColorScheme.fromSeed(
-                seedColor: const Color(0xFF4A90E2),
-                primary: const Color(0xFF4A90E2),
-                secondary: const Color(0xFF50C878),
-              ),
-              useMaterial3: true,
-              appBarTheme: const AppBarTheme(
-                backgroundColor: Color(0xFF4A90E2),
-                foregroundColor: Colors.white,
-                elevation: 0,
-              ),
-              cardTheme: CardThemeData(
-                elevation: 4,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12),
+
+            // Theme configuration with dark mode support
+            theme: AppTheme.lightTheme,
+            darkTheme: AppTheme.darkTheme,
+            themeMode: settingsService.themeMode,
+
+            // Text scaling for accessibility
+            builder: (context, child) {
+              return MediaQuery(
+                data: MediaQuery.of(context).copyWith(
+                  textScaler: TextScaler.linear(settingsService.textScale),
                 ),
-              ),
-            ),
+                child: child!,
+              );
+            },
+
             locale: languageService.currentLocale,
             supportedLocales: const [
               Locale('en'),
@@ -70,7 +75,11 @@ class MyApp extends StatelessWidget {
               GlobalWidgetsLocalizations.delegate,
               GlobalCupertinoLocalizations.delegate,
             ],
-            home: const HomeScreen(),
+
+            // Show onboarding on first launch, otherwise show main navigation
+            home: settingsService.hasCompletedOnboarding
+                ? const MainNavigationScreen()
+                : const OnboardingScreen(),
           );
         },
       ),

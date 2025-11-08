@@ -51,38 +51,74 @@ graph TD
 ```
 polyglot-pathways/
 │
-├── lib/                    # Flutter source code
-│   ├── main.dart          # App entry point
-│   ├── models/            # Data models
-│   │   ├── language.dart
-│   │   ├── lesson.dart
-│   │   └── progress.dart
-│   ├── screens/           # UI screens
-│   │   ├── home_screen.dart
-│   │   └── lesson_screen.dart
-│   ├── widgets/           # Reusable widgets
+├── lib/                           # Flutter source code
+│   ├── main.dart                 # App entry point with multi-provider setup
+│   │
+│   ├── models/                   # Data models
+│   │   ├── language.dart        # Language enum and properties
+│   │   ├── lesson.dart          # Lesson data model
+│   │   ├── progress.dart        # User progress tracking
+│   │   ├── achievement.dart     # Achievement definitions (NEW)
+│   │   └── streak.dart          # Streak tracking model (NEW)
+│   │
+│   ├── screens/                  # UI screens
+│   │   ├── onboarding_screen.dart        # 4-page onboarding (NEW)
+│   │   ├── main_navigation_screen.dart   # Bottom nav container (NEW)
+│   │   ├── home_screen.dart              # Enhanced home with stats (UPDATED)
+│   │   ├── lesson_screen.dart            # Enhanced audio player (UPDATED)
+│   │   ├── profile_screen.dart           # User profile & stats (NEW)
+│   │   ├── achievements_screen.dart      # Achievement gallery (NEW)
+│   │   └── settings_screen.dart          # App settings (NEW)
+│   │
+│   ├── widgets/                  # Reusable widgets
 │   │   ├── language_card.dart
 │   │   ├── course_structure.dart
 │   │   └── day_grid.dart
-│   ├── services/          # Business logic
-│   │   ├── language_service.dart
-│   │   └── progress_service.dart
-│   └── utils/             # Utilities
+│   │
+│   ├── services/                 # Business logic
+│   │   ├── language_service.dart         # UI language management
+│   │   ├── progress_service.dart         # Lesson progress tracking
+│   │   ├── settings_service.dart         # App settings (NEW)
+│   │   └── gamification_service.dart     # Achievements & streaks (NEW)
+│   │
+│   ├── theme/                    # Theme configuration (NEW)
+│   │   └── app_theme.dart       # Light/dark themes, colors, styles
+│   │
+│   └── utils/                    # Utilities
 │       └── app_localizations.dart
 │
-├── assets/                # Application assets
-│   ├── audio/            # Multilingual audio content
-│   │   └── day*_*.mp3   # Audio files for each day and language
-│   └── translations/     # Language resource files
-│       └── *.json
+├── assets/                       # Application assets
+│   ├── audio/                   # Multilingual audio content
+│   │   └── day*_*.mp3          # 250 audio files (50 days × 5 languages)
+│   ├── translations/            # Language resource files
+│   │   ├── en.json             # English UI translations
+│   │   ├── es.json             # Spanish UI translations
+│   │   ├── pt.json             # Portuguese UI translations
+│   │   ├── fr.json             # French UI translations
+│   │   ├── de.json             # German UI translations
+│   │   └── day.*.json          # Lesson-specific translations
+│   └── lessons/                 # Lesson text content
 │
-├── android/              # Android platform code
-├── ios/                  # iOS platform code
-├── web/                  # Web platform code
+├── android/                     # Android platform code
+├── ios/                         # iOS platform code
+├── web/                         # Web platform code
 │
-├── pubspec.yaml         # Flutter dependencies
+├── pubspec.yaml                # Flutter dependencies
 └── language_phrases_days_*.py  # Content generation scripts
 ```
+
+### Key Architecture Components
+
+#### New Files Added (UI/UX Overhaul)
+- **7 new screens**: Onboarding, MainNavigation, Profile, Achievements, Settings
+- **2 new models**: Achievement, Streak
+- **2 new services**: SettingsService, GamificationService
+- **1 new theme system**: Comprehensive light/dark theme configuration
+
+#### Updated Files
+- **main.dart**: Multi-provider setup, theme switching, onboarding logic
+- **home_screen.dart**: Streak display, daily goals, enhanced stats
+- **lesson_screen.dart**: Speed control, loop mode, achievement notifications
 
 ## Key Technologies and Skills Demonstrated
 
@@ -259,77 +295,92 @@ flutter build web --release
 
 ## Features
 
-```mermaid
-sequenceDiagram
-    participant U as User
-    participant P as Page
-    participant A as Audio
-    participant S as Storage
-    participant C as Cache
-    
-    rect rgb(240, 240, 255)
-        Note over U,C: Initial Load Phase
-        U->>P: Select Day
-        P->>S: Check Connection
-        alt Online Mode
-            S-->>P: Load Progress
-        else Offline Mode
-            S->>C: Fetch Cached Data
-            C-->>P: Return Cached Progress
-        end
-    end
-    
-    rect rgb(255, 240, 240)
-        Note over P,A: Resource Loading Phase
-        par Translations and Audio
-            P->>P: Load Translations
-            alt Translation Error
-                P-->>U: Use Default Language
-                Note over P,U: Fallback to English
-            end
-            P->>A: Load Audio Files
-            alt Audio Load Failed
-                A-->>P: Error Loading Audio
-                P-->>U: Enable Text-Only Mode
-            end
-        end
-    end
-    
-    rect rgb(240, 255, 240)
-        Note over U,P: Interaction Phase
-        U->>P: Select Language
-        P->>P: Update Interface
-        U->>A: Play Audio
-        alt Playback Error
-            A-->>U: Show Retry Button
-            U->>A: Retry Playback
-        end
-    end
-    
-    rect rgb(255, 255, 240)
-        Note over P,S: Progress Saving Phase
-        U->>P: Complete Lesson
-        P->>S: Save Progress
-        alt Save Failed
-            S->>C: Save to Cache
-            Note over S,C: Sync when online
-        end
-        P->>A: Preload Next Lesson
-    end
-    
-    Note over U,C: Progress persists across sessions
-    Note over U,C: Offline-first architecture
-```
+### 🎨 Modern UI/UX (Industry-Standard Design)
+- **Bottom Navigation**: 4-tab navigation (Home, Achievements, Profile, Settings)
+- **Onboarding Flow**: Beautiful welcome screens with smooth animations
+- **Dark Mode**: Full dark theme support with automatic switching
+- **Accessibility**: Text scaling (0.85x - 1.3x), high contrast, screen reader support
+- **Animations**: Smooth transitions and micro-interactions using flutter_animate
+- **Material Design 3**: Modern, polished interface following latest design guidelines
+
+### 🎮 Gamification System
+- **Achievements**: 17 unique achievements across 4 categories
+  - Lesson milestones (First Lesson, 10/25/50 lessons completed)
+  - Streak rewards (7, 14, 30, 100 day streaks)
+  - Multilingual badges (Bronze, Silver, Gold polyglot)
+  - Special achievements (Early Bird, Night Owl, Speed Learner)
+- **Streak Tracking**: Daily learning streak with longest streak record
+- **Progress Visualization**: Interactive charts showing progress across all languages
+- **Daily Goals**: Customizable daily lesson targets (1-10 lessons/day)
+- **Achievement Notifications**: Celebrate unlocks with confetti and snackbars
+
+### 🎵 Enhanced Audio Player
+- **Playback Speed Control**: 0.5x to 2.0x speed (6 preset speeds)
+- **Repeat/Loop Mode**: Continuous playback for practice
+- **Quick Navigation**: 10-second forward/backward buttons
+- **Restart Function**: One-tap restart to beginning
+- **Progress Slider**: Precise seeking to any position
+- **Real-time Duration**: Current position and total duration display
+
+### 📊 Advanced Progress Tracking
+- **Multi-Language Dashboard**: Track progress across all 5 languages
+- **Interactive Charts**: Bar charts showing lessons completed per language
+- **Streak Visualization**: Current streak, longest streak, total lessons
+- **Daily Goal Progress**: Real-time progress toward daily targets
+- **Recent Activity**: Timeline of recent achievements and completions
+- **Overall Statistics**: Comprehensive stats on profile screen
+
+### 🎯 Profile & Settings
+- **User Profile**: Personal stats, achievement count, language progress
+- **Customizable Settings**:
+  - Dark/Light theme toggle
+  - Text size adjustment (4 presets)
+  - Daily goal configuration
+  - Sound effects toggle
+  - Notification preferences
+  - Interface language selection
+- **Data Management**: Reset settings or progress options
+- **Tutorial Access**: Re-view onboarding anytime
+
+### 🌐 Core Features
 - Cross-platform mobile application (Android, iOS, Web)
-- Beautiful Material Design 3 UI
 - Progress tracking with local persistence
 - Multilingual content in 5 languages
-- High-quality audio playback with controls (play/pause, seek, 10s forward/backward)
+- High-quality audio playback with advanced controls
 - Responsive design optimized for mobile devices
 - SharedPreferences-based session persistence
 - Offline-first architecture
 - Provider-based state management
 - Custom internationalization system
+
+### 📱 Navigation Structure
+```
+App Entry
+├── Onboarding (First Launch)
+│   └── 4-screen tutorial with animations
+└── Main Navigation (Bottom Tabs)
+    ├── Home Tab
+    │   ├── Streak display
+    │   ├── Daily goal tracker
+    │   ├── Language selection cards
+    │   └── Day grid for selected language
+    ├── Achievements Tab
+    │   ├── Progress header (X/17 unlocked)
+    │   ├── Category tabs (All, Lessons, Streaks, Languages, Special)
+    │   └── Achievement cards with unlock status
+    ├── Profile Tab
+    │   ├── Profile header with streak
+    │   ├── Statistics overview (4 stat cards)
+    │   ├── Progress by language (bar chart)
+    │   └── Recent activity timeline
+    └── Settings Tab
+        ├── Appearance (dark mode, text size)
+        ├── Learning (daily goal, hints)
+        ├── Audio & Sound (effects toggle)
+        ├── Notifications (reminders)
+        ├── Interface Language
+        └── Data Management
+```
 
 ## Global Impact
 - Communicate with ~2 billion people
