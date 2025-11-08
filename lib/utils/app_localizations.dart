@@ -36,11 +36,8 @@ class AppLocalizations {
   }
 
   String translate(String key, {Map<String, String>? params}) {
-    String? value = _getNestedValue(_localizedStrings, key);
-
-    if (value == null) {
-      value = _getNestedValue(_dayLocalizedStrings, key);
-    }
+    String? value = _getNestedValue(_localizedStrings, key) ??
+        _getNestedValue(_dayLocalizedStrings, key);
 
     if (value == null) {
       return key;
@@ -52,7 +49,7 @@ class AppLocalizations {
       });
     }
 
-    return value;
+    return value!;
   }
 
   String? _getNestedValue(Map<String, dynamic> map, String key) {

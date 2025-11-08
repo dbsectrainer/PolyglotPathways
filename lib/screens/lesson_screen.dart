@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:audioplayers/audioplayers.dart';
 import '../models/language.dart';
@@ -28,6 +27,7 @@ class _LessonScreenState extends State<LessonScreen> {
   bool _isPlaying = false;
   Duration _duration = Duration.zero;
   Duration _position = Duration.zero;
+  String _lessonText = '';
 
   @override
   void initState() {
@@ -35,6 +35,14 @@ class _LessonScreenState extends State<LessonScreen> {
     _currentDay = widget.initialDay;
     _currentLesson = Lesson.create(_currentDay, widget.language);
     _setupAudioPlayer();
+    _loadLessonText();
+  }
+
+  Future<void> _loadLessonText() async {
+    final text = await _currentLesson.loadTextContent();
+    setState(() {
+      _lessonText = text;
+    });
   }
 
   void _setupAudioPlayer() {
@@ -89,6 +97,7 @@ class _LessonScreenState extends State<LessonScreen> {
     });
 
     _audioPlayer.stop();
+    _loadLessonText();
   }
 
   String _formatDuration(Duration duration) {
@@ -117,7 +126,7 @@ class _LessonScreenState extends State<LessonScreen> {
                 style: const TextStyle(fontSize: 20),
               ),
               label: Text(widget.language.name),
-              backgroundColor: Colors.white.withOpacity(0.2),
+              backgroundColor: Colors.white.withValues(alpha: 0.2),
               labelStyle: const TextStyle(color: Colors.white),
             ),
           ),
@@ -243,6 +252,46 @@ class _LessonScreenState extends State<LessonScreen> {
                         ),
                       ),
                     ),
+
+                    const SizedBox(height: 16),
+
+                    // Lesson Text Content
+                    if (_lessonText.isNotEmpty)
+                      Card(
+                        child: Padding(
+                          padding: const EdgeInsets.all(16),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Row(
+                                children: [
+                                  Icon(
+                                    Icons.text_fields,
+                                    color: Theme.of(context).colorScheme.primary,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(
+                                    'Lesson Content',
+                                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                  ),
+                                ],
+                              ),
+                              const SizedBox(height: 16),
+                              Container(
+                                constraints: const BoxConstraints(maxHeight: 400),
+                                child: SingleChildScrollView(
+                                  child: Text(
+                                    _lessonText,
+                                    style: Theme.of(context).textTheme.bodyLarge,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
 
                     const SizedBox(height: 16),
 

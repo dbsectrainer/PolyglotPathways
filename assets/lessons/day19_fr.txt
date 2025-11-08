@@ -1,0 +1,65 @@
+
+Medical Emergencies
+-------------------
+J'ai besoin d'un médecin de toute urgence
+Veuillez appeler une ambulance
+J'ai des douleurs thoraciques
+J'ai du mal à respirer
+J'ai eu un accident
+Je suis allergique à ce médicament
+Où se trouve les urgences les plus proches?
+J'ai besoin de soins médicaux immédiats
+Je me sens très étourdi(e)
+J'ai une forte fièvre
+
+Healthcare Facilities
+---------------------
+Où se trouve l'hôpital le plus proche?
+Je dois trouver une clinique
+Y a-t-il une pharmacie ouverte maintenant?
+Avez-vous un médecin de famille?
+J'ai besoin de prendre rendez-vous avec un spécialiste
+Y a-t-il un centre médical dans cette région?
+Où puis-je faire un test COVID?
+Y a-t-il un dentiste à proximité?
+Je dois trouver un optométriste
+Où se trouve le centre de vaccination?
+
+Health Insurance and Payments
+-----------------------------
+Acceptez-vous mon assurance maladie?
+Combien coûte ce traitement?
+Je dois m'inscrire aux soins de santé publics
+Est-ce couvert par l'assurance?
+Dois-je payer d'avance?
+Comment demander un remboursement?
+Quels documents me faut-il pour l'assurance maladie?
+Y a-t-il une quote-part?
+Comment fonctionne le système de santé publique?
+J'ai besoin d'un reçu pour mon assurance
+
+Medical Consultations
+---------------------
+J'aimerais décrire mes symptômes
+Quand les symptômes ont-ils commencé?
+Je me sens mal depuis une semaine
+Ai-je besoin de tests?
+Quels sont les effets secondaires de ce médicament?
+À quelle fréquence dois-je prendre ce médicament?
+Ai-je besoin d'un rendez-vous de suivi?
+Puis-je obtenir un certificat médical?
+J'ai besoin d'un renouvellement d'ordonnance
+Que dois-je faire si les symptômes persistent?
+
+Preventive Healthcare
+---------------------
+Je dois planifier un bilan de santé
+Quand dois-je me faire vacciner?
+De quels vaccins ai-je besoin pour cette région?
+À quelle fréquence dois-je faire un contrôle dentaire?
+J'aimerais me faire dépister pour les maladies courantes
+Quels sont les dépistages de santé recommandés pour mon âge?
+Comment puis-je maintenir un mode de vie sain?
+Quels sont les signes de déshydratation?
+Comment puis-je me protéger des maladies transmises par les moustiques?
+Quelle crème solaire dois-je utiliser dans ce climat?

@@ -1,0 +1,65 @@
+
+Medical Emergencies
+-------------------
+Ich brauche dringend einen Arzt
+Bitte rufen Sie einen Krankenwagen
+Ich habe Brustschmerzen
+Ich habe Schwierigkeiten beim Atmen
+Ich hatte einen Unfall
+Ich bin allergisch gegen dieses Medikament
+Wo ist der nächste Notfallraum?
+Ich brauche sofortige ärztliche Hilfe
+Mir ist sehr schwindelig
+Ich habe hohes Fieber
+
+Healthcare Facilities
+---------------------
+Wo ist das nächste Krankenhaus?
+Ich muss eine Klinik finden
+Gibt es eine Apotheke, die jetzt geöffnet ist?
+Haben Sie einen Hausarzt?
+Ich muss einen Termin bei einem Facharzt vereinbaren
+Gibt es ein medizinisches Zentrum in dieser Gegend?
+Wo kann ich einen COVID-Test machen?
+Gibt es einen Zahnarzt in der Nähe?
+Ich muss einen Optiker finden
+Wo ist das Impfzentrum?
+
+Health Insurance and Payments
+-----------------------------
+Akzeptieren Sie meine Krankenversicherung?
+Wie viel kostet diese Behandlung?
+Ich muss mich für die öffentliche Gesundheitsversorgung anmelden
+Wird das von der Versicherung übernommen?
+Muss ich im Voraus bezahlen?
+Wie beantrage ich eine Rückerstattung?
+Welche Dokumente benötige ich für die Krankenversicherung?
+Gibt es eine Zuzahlung?
+Wie funktioniert das öffentliche Gesundheitssystem?
+Ich brauche eine Quittung für meine Versicherung
+
+Medical Consultations
+---------------------
+Ich möchte meine Symptome beschreiben
+Wann haben die Symptome begonnen?
+Ich fühle mich seit einer Woche unwohl
+Benötige ich irgendwelche Tests?
+Was sind die Nebenwirkungen dieses Medikaments?
+Wie oft sollte ich dieses Medikament einnehmen?
+Benötige ich einen Folgetermin?
+Kann ich ein ärztliches Attest bekommen?
+Ich brauche eine Nachfüllung meines Rezepts
+Was soll ich tun, wenn die Symptome anhalten?
+
+Preventive Healthcare
+---------------------
+Ich muss einen Check-up planen
+Wann sollte ich mich impfen lassen?
+Welche Impfungen benötige ich für diese Region?
+Wie oft sollte ich eine zahnärztliche Untersuchung haben?
+Ich möchte mich auf häufige Krankheiten untersuchen lassen
+Welche Gesundheitsuntersuchungen werden für mein Alter empfohlen?
+Wie kann ich einen gesunden Lebensstil aufrechterhalten?
+Was sind die Anzeichen von Dehydrierung?
+Wie kann ich mich vor durch Mücken übertragenen Krankheiten schützen?
+Welchen Sonnenschutz sollte ich in diesem Klima verwenden?

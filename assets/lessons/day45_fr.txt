@@ -1,0 +1,39 @@
+
+Spanish Regional Variations
+---------------------------
+Cool/Super
+Cool/Génial
+Cool/Chouette
+Argent/Fric
+Argent/Pognon
+Argent/Thune
+Ami/Pote
+Ami/Copain
+Ami/Mec
+Boulot/Taf
+
+Portuguese Regional Variations
+------------------------------
+Cool/Super
+Cool/Génial
+Argent/Fric
+Argent/Pognon
+Ami/Pote
+Ami/Copain
+Boulot/Taf
+Travail/Boulot
+Maison/Baraque
+Bouffe/Graille
+
+Regional Greetings
+------------------
+Salut/Bonjour
+Salut/Coucou
+Salut/Hey
+Au revoir/À plus
+Salut/À plus
+Ciao/À plus
+Bonjour/Salut
+Bonne nuit/Bonsoir
+À plus tard/À tout
+Prends soin de toi/Fais gaffe

@@ -1,0 +1,65 @@
+
+Banking Services
+----------------
+Je voudrais ouvrir un compte bancaire
+Quels documents me faut-il?
+Je dois faire un dépôt
+Je voudrais retirer de l'argent
+Quel est le taux de change?
+Je dois transférer de l'argent à l'étranger
+Y a-t-il des frais pour cette transaction?
+Je voudrais mettre en place un dépôt direct
+Puis-je accéder à mon compte en ligne?
+Je dois signaler une carte perdue
+
+Financial Terminology
+---------------------
+Quel est le taux d'intérêt?
+Je dois vérifier mon solde
+Quel est le dépôt minimum?
+Je voudrais demander un prêt
+Quels sont les frais mensuels?
+Je dois mettre à jour les informations de mon compte
+Quelle est la limite de découvert?
+Je voudrais mettre en place des paiements automatiques
+Quelles options d'investissement proposez-vous?
+Je dois fermer mon compte
+
+Government Offices
+------------------
+Où se trouve le bureau d'immigration?
+Je dois renouveler mon visa
+Où puis-je obtenir un numéro d'identification fiscale?
+Je dois enregistrer mon adresse
+Où se trouve le notaire le plus proche?
+Je dois demander un permis de travail
+Quel est le processus pour la résidence?
+Je dois déposer mes impôts
+Où se trouve le bureau de la sécurité sociale?
+Je dois faire authentifier mes documents
+
+Bureaucratic Procedures
+-----------------------
+Quels formulaires dois-je remplir?
+Dois-je prendre rendez-vous?
+Quel est le délai de traitement?
+Dois-je apporter les documents originaux?
+Y a-t-il une demande en ligne?
+Quel est le statut de ma demande?
+Dois-je payer des frais?
+Où puis-je obtenir des copies certifiées?
+Je dois soumettre ces documents avant la date limite
+Y a-t-il un processus d'appel?
+
+Legal and Administrative Terms
+------------------------------
+Que signifie cette clause?
+J'ai besoin de conseils juridiques
+Quels sont mes droits dans cette situation?
+Je dois signer un contrat
+Quelles sont les conditions générales?
+Je dois déposer une plainte
+Quelle est la procédure légale pour cela?
+J'ai besoin d'obtenir une procuration
+Quelles sont les sanctions pour non-conformité?
+Je dois comprendre mes obligations fiscales

@@ -1,0 +1,65 @@
+
+Medical Emergencies
+-------------------
+Preciso de um médico urgentemente
+Por favor, chame uma ambulância
+Estou com dor no peito
+Estou com dificuldade para respirar
+Sofri um acidente
+Sou alérgico/a a este medicamento
+Onde fica a sala de emergência mais próxima?
+Preciso de atenção médica imediata
+Estou me sentindo muito tonto/a
+Estou com febre alta
+
+Healthcare Facilities
+---------------------
+Onde fica o hospital mais próximo?
+Preciso encontrar uma clínica
+Há uma farmácia aberta agora?
+Você tem um médico de família?
+Preciso marcar uma consulta com um especialista
+Existe um centro médico nesta área?
+Onde posso fazer um teste de COVID?
+Há um dentista por perto?
+Preciso encontrar um optometrista
+Onde fica o centro de vacinação?
+
+Health Insurance and Payments
+-----------------------------
+Vocês aceitam meu seguro de saúde?
+Quanto custa este tratamento?
+Preciso me registrar para o sistema público de saúde
+Isto está coberto pelo seguro?
+Preciso pagar adiantado?
+Como solicito o reembolso?
+Quais documentos preciso para o seguro de saúde?
+Existe um copagamento?
+Como funciona o sistema público de saúde?
+Preciso de um recibo para meu seguro
+
+Medical Consultations
+---------------------
+Gostaria de descrever meus sintomas
+Quando os sintomas começaram?
+Tenho me sentido mal por uma semana
+Preciso de algum exame?
+Quais são os efeitos colaterais deste medicamento?
+Com que frequência devo tomar este remédio?
+Preciso de uma consulta de acompanhamento?
+Posso obter um atestado médico?
+Preciso de uma renovação de receita
+O que devo fazer se os sintomas persistirem?
+
+Preventive Healthcare
+---------------------
+Preciso agendar um check-up
+Quando devo me vacinar?
+Quais vacinas preciso para esta região?
+Com que frequência devo fazer um check-up odontológico?
+Gostaria de fazer exames para doenças comuns
+Quais são os exames de saúde recomendados para minha idade?
+Como posso manter um estilo de vida saudável?
+Quais são os sinais de desidratação?
+Como posso me proteger de doenças transmitidas por mosquitos?
+Que protetor solar devo usar neste clima?

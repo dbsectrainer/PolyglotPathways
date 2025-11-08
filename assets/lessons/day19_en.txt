@@ -1,0 +1,65 @@
+
+Medical Emergencies
+-------------------
+I need a doctor urgently
+Please call an ambulance
+I'm having chest pain
+I'm having difficulty breathing
+I've had an accident
+I'm allergic to this medication
+Where is the nearest emergency room?
+I need immediate medical attention
+I'm feeling very dizzy
+I have a high fever
+
+Healthcare Facilities
+---------------------
+Where is the nearest hospital?
+I need to find a clinic
+Is there a pharmacy open now?
+Do you have a family doctor?
+I need to make an appointment with a specialist
+Is there a medical center in this area?
+Where can I get a COVID test?
+Is there a dentist nearby?
+I need to find an optometrist
+Where is the vaccination center?
+
+Health Insurance and Payments
+-----------------------------
+Do you accept my health insurance?
+How much does this treatment cost?
+I need to register for public healthcare
+Is this covered by insurance?
+Do I need to pay upfront?
+How do I claim reimbursement?
+What documents do I need for health insurance?
+Is there a co-payment?
+How does the public healthcare system work?
+I need a receipt for my insurance
+
+Medical Consultations
+---------------------
+I'd like to describe my symptoms
+When did the symptoms start?
+I've been feeling unwell for a week
+Do I need any tests?
+What are the side effects of this medication?
+How often should I take this medicine?
+Do I need a follow-up appointment?
+Can I get a medical certificate?
+I need a prescription refill
+What should I do if the symptoms persist?
+
+Preventive Healthcare
+---------------------
+I need to schedule a check-up
+When should I get vaccinated?
+What vaccines do I need for this region?
+How often should I have a dental check-up?
+I'd like to get screened for common diseases
+What are the recommended health screenings for my age?
+How can I maintain a healthy lifestyle?
+What are the signs of dehydration?
+How can I protect myself from mosquito-borne diseases?
+What sunscreen should I use in this climate?

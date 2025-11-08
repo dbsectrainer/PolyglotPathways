@@ -1,0 +1,65 @@
+
+Software Engineering & Tech Workplace
+-------------------------------------
+Sou engenheiro/a de software
+Trabalho com desenvolvimento web
+Me especializo em desenvolvimento backend
+Sou desenvolvedor/a frontend
+Trabalho com aplicativos móveis
+Estou trabalhando em uma nova funcionalidade
+Precisamos corrigir este bug
+Vamos agendar uma revisão de código
+Estou procurando um trabalho remoto em tecnologia
+A indústria de tecnologia está crescendo aqui
+
+Programming Languages & Concepts
+--------------------------------
+Programo em JavaScript/Python/Java
+Esta função não está funcionando
+Precisamos refatorar este código
+Vamos implementar este algoritmo
+Esta é uma abordagem orientada a objetos
+Deveríamos usar um padrão de design aqui
+A API não está respondendo
+Precisamos otimizar esta consulta
+Vamos testar este componente
+Esta é uma solução recursiva
+
+Development Tools & Methodologies
+---------------------------------
+Usamos Git para controle de versão
+Vamos criar um pull request
+Seguimos a metodologia Ágil
+Temos reuniões diárias em pé
+Vamos planejar o próximo sprint
+Precisamos documentar esta API
+Uso VS Code como meu IDE
+Vamos configurar a integração contínua
+Deveríamos escrever testes unitários
+Vamos implantar em produção
+
+Tech Problem Solving
+--------------------
+Estou depurando este problema
+Vamos verificar os logs de erro
+O servidor está fora do ar
+Precisamos escalar nossa infraestrutura
+Este é um gargalo de desempenho
+Vamos implementar uma solução alternativa
+Precisamos otimizar para dispositivos móveis
+O banco de dados está funcionando lentamente
+Vamos executar um teste de carga
+Precisamos corrigir esta vulnerabilidade de segurança
+
+Tech Workplace Communication
+----------------------------
+Vamos discutir isso na próxima reunião
+Vou compartilhar minha tela para te mostrar
+Você pode revisar meu código?
+Vou te enviar a documentação
+Vamos configurar uma videochamada
+Preciso de acesso ao repositório
+Qual é o status da sua tarefa?
+Vou atualizar o ticket
+Vamos criar um novo quadro de projeto
+Vou adicionar comentários para explicar isso

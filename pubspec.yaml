@@ -25,7 +25,7 @@ dependencies:
   json_annotation: ^4.8.1
 
   # Intl for date formatting
-  intl: ^0.18.1
+  intl: ^0.20.2
 
   # Path provider for file access
   path_provider: ^2.1.1
@@ -43,8 +43,11 @@ flutter:
   assets:
     - assets/audio/
     - assets/translations/
+    - assets/lessons/
 
-  fonts:
-    - family: Poppins
-      fonts:
-        - asset: https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
+  # fonts:
+    # - family: Poppins
+    #   fonts:
+    #     - asset: fonts/Poppins-Regular.ttf
+    #     - asset: fonts/Poppins-Bold.ttf
+    #       weight: 700

@@ -1,3 +1,4 @@
+import 'package:flutter/services.dart';
 import 'language.dart';
 
 class Lesson {
@@ -39,6 +40,18 @@ class Lesson {
       description: _getDescription(day),
       audioPath: language.getAudioFileName(day),
     );
+  }
+
+  String getTextFilePath() {
+    return 'assets/lessons/day${day}_${language.code}.txt';
+  }
+
+  Future<String> loadTextContent() async {
+    try {
+      return await rootBundle.loadString(getTextFilePath());
+    } catch (e) {
+      return 'Text content not available for this lesson.';
+    }
   }
 
   static String _getDescription(int day) {

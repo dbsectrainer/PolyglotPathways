@@ -1,0 +1,65 @@
+
+Software Engineering & Tech Workplace
+-------------------------------------
+Ich bin Softwareentwickler
+Ich arbeite in der Webentwicklung
+Ich spezialisiere mich auf Backend-Entwicklung
+Ich bin Frontend-Entwickler
+Ich arbeite mit mobilen Anwendungen
+Ich arbeite an einer neuen Funktion
+Wir müssen diesen Fehler beheben
+Lass uns einen Code-Review planen
+Ich suche einen Remote-Tech-Job
+Die Technologiebranche wächst hier
+
+Programming Languages & Concepts
+--------------------------------
+Ich programmiere in JavaScript/Python/Java
+Diese Funktion funktioniert nicht
+Wir müssen diesen Code refaktorieren
+Lass uns diesen Algorithmus implementieren
+Das ist ein objektorientierter Ansatz
+Wir sollten hier ein Designmuster verwenden
+Die API reagiert nicht
+Wir müssen diese Abfrage optimieren
+Lass uns diese Komponente testen
+Das ist eine rekursive Lösung
+
+Development Tools & Methodologies
+---------------------------------
+Wir verwenden Git für die Versionskontrolle
+Lass uns einen Pull Request erstellen
+Wir folgen der agilen Methodik
+Wir haben tägliche Stand-up-Meetings
+Lass uns den nächsten Sprint planen
+Wir müssen diese API dokumentieren
+Ich benutze VS Code als meine IDE
+Lass uns Continuous Integration einrichten
+Wir sollten Unit-Tests schreiben
+Lass uns in Produktion deployen
+
+Tech Problem Solving
+--------------------
+Ich debugge dieses Problem
+Lass uns die Fehlerprotokolle überprüfen
+Der Server ist ausgefallen
+Wir müssen unsere Infrastruktur skalieren
+Das ist ein Leistungsengpass
+Lass uns eine Notlösung implementieren
+Wir müssen für mobile optimieren
+Die Datenbank ist langsam
+Lass uns einen Lasttest durchführen
+Wir müssen diese Sicherheitslücke beheben
+
+Tech Workplace Communication
+----------------------------
+Lass uns das im nächsten Meeting besprechen
+Ich werde meinen Bildschirm teilen, um es dir zu zeigen
+Kannst du meinen Code überprüfen?
+Ich schicke dir die Dokumentation
+Lass uns einen Videoanruf einrichten
+Ich benötige Zugriff auf das Repository
+Wie ist der Stand deiner Aufgabe?
+Ich werde das Ticket aktualisieren
+Lass uns ein neues Projektboard erstellen
+Ich werde Kommentare hinzufügen, um das zu erklären
