@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day10_mc1",
+      "type": "multipleChoice",
+      "question": "Where do you go to buy food?",
+      "options": [
+        "School",
+        "Store",
+        "Hospital",
+        "Library"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day10_mc2",
+      "type": "multipleChoice",
+      "question": "Where do students learn?",
+      "options": [
+        "Restaurant",
+        "Park",
+        "School",
+        "Bank"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day10_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I sleep in my ____.'",
+      "correctAnswer": "home",
+      "acceptableAlternatives": ["Home", "house", "House", "room", "Room"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day10_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I go to the ____ when I am sick.'",
+      "correctAnswer": "hospital",
+      "acceptableAlternatives": ["Hospital", "doctor", "Doctor"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day10_mc3",
+      "type": "multipleChoice",
+      "question": "Where do you borrow books?",
+      "options": [
+        "Gym",
+        "Library",
+        "Theater",
+        "Museum"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day10_trans1",
+      "type": "translation",
+      "question": "Where do you go to eat a meal prepared by a chef?",
+      "targetText": "Place to eat out",
+      "correctTranslation": "Restaurant",
+      "acceptableAlternatives": ["restaurant"]
+    },
+    {
+      "id": "day10_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I work in an ____.'",
+      "correctAnswer": "office",
+      "acceptableAlternatives": ["Office"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day10_mc4",
+      "type": "multipleChoice",
+      "question": "Where can you see trees, grass, and play outside?",
+      "options": [
+        "Mall",
+        "Station",
+        "Park",
+        "Airport"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

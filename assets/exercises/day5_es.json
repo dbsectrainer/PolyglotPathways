@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day5_mc1",
+      "type": "multipleChoice",
+      "question": "¿Cómo se llama el padre de tu padre?",
+      "options": [
+        "Tío",
+        "Abuelo",
+        "Hermano",
+        "Primo"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day5_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué es para ti la hermana de tu madre?",
+      "options": [
+        "Abuela",
+        "Hermana",
+        "Tía",
+        "Prima"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day5_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Mis padres son mi ____ y mi padre.'",
+      "correctAnswer": "madre",
+      "acceptableAlternatives": ["Madre", "mamá", "Mamá"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day5_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'El hijo de mi hermana es mi ____.'",
+      "correctAnswer": "sobrino",
+      "acceptableAlternatives": ["Sobrino"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day5_mc3",
+      "type": "multipleChoice",
+      "question": "¿Cómo se llama el hijo varón de tus padres?",
+      "options": [
+        "Hermana",
+        "Hija",
+        "Hijo",
+        "Sobrina"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day5_trans1",
+      "type": "translation",
+      "question": "¿Cómo se llaman los hijos de tus tíos?",
+      "targetText": "Hijos de tíos",
+      "correctTranslation": "Primos",
+      "acceptableAlternatives": ["primos", "Primo", "primo"]
+    },
+    {
+      "id": "day5_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'La hija de mi hermano es mi ____.'",
+      "correctAnswer": "sobrina",
+      "acceptableAlternatives": ["Sobrina"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day5_mc4",
+      "type": "multipleChoice",
+      "question": "¿Quiénes son tus abuelos?",
+      "options": [
+        "Los padres de tus padres",
+        "Los hermanos de tus padres",
+        "Los hijos de tus hermanos",
+        "Tus tíos y tías"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

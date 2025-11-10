@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day6_mc1",
+      "type": "multipleChoice",
+      "question": "Quel verbe signifie 'posséder quelque chose'?",
+      "options": [
+        "Être",
+        "Avoir",
+        "Aller",
+        "Faire"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day6_mc2",
+      "type": "multipleChoice",
+      "question": "Complétez: 'Je ____ à l'école tous les jours.'",
+      "options": [
+        "suis",
+        "ai",
+        "vais",
+        "fais"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day6_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Je ____ heureux aujourd'hui.' (être)",
+      "correctAnswer": "suis",
+      "acceptableAlternatives": ["Suis"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day6_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Elle ____ trois chats.' (avoir)",
+      "correctAnswer": "a",
+      "acceptableAlternatives": ["A"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day6_mc3",
+      "type": "multipleChoice",
+      "question": "Quelle est la forme correcte? 'Ils ____ étudiants.'",
+      "options": [
+        "suis",
+        "est",
+        "sont",
+        "être"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day6_trans1",
+      "type": "translation",
+      "question": "Quel verbe utilisez-vous pour le mouvement d'un endroit à un autre?",
+      "targetText": "Verbe de mouvement",
+      "correctTranslation": "Aller",
+      "acceptableAlternatives": ["aller"]
+    },
+    {
+      "id": "day6_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Nous ____ nos devoirs chaque soir.' (faire)",
+      "correctAnswer": "faisons",
+      "acceptableAlternatives": ["Faisons"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day6_mc4",
+      "type": "multipleChoice",
+      "question": "Complétez: 'Il ____ au parc.'",
+      "options": [
+        "va",
+        "aller",
+        "allant",
+        "allé"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

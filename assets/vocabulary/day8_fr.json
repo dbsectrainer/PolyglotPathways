@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Tête",
+      "translation": "Partie supérieure du corps contenant le cerveau",
+      "phonetic": "/tɛt/",
+      "example": "Je porte un chapeau sur ma tête.",
+      "exampleTranslation": "La partie la plus haute du corps"
+    },
+    {
+      "word": "Œil",
+      "translation": "Organe utilisé pour voir",
+      "phonetic": "/œj/",
+      "example": "J'ai deux yeux.",
+      "exampleTranslation": "Utilisé pour la vision"
+    },
+    {
+      "word": "Oreille",
+      "translation": "Organe utilisé pour entendre",
+      "phonetic": "/ɔʁɛj/",
+      "example": "J'écoute avec mes oreilles.",
+      "exampleTranslation": "Utilisé pour entendre les sons"
+    },
+    {
+      "word": "Nez",
+      "translation": "Organe utilisé pour sentir et respirer",
+      "phonetic": "/ne/",
+      "example": "Je sens les fleurs avec mon nez.",
+      "exampleTranslation": "Au centre de votre visage"
+    },
+    {
+      "word": "Bouche",
+      "translation": "Ouverture pour manger et parler",
+      "phonetic": "/buʃ/",
+      "example": "Je mange avec ma bouche.",
+      "exampleTranslation": "Utilisé pour manger et parler"
+    },
+    {
+      "word": "Main",
+      "translation": "Partie au bout du bras avec des doigts",
+      "phonetic": "/mɛ̃/",
+      "example": "J'écris avec ma main.",
+      "exampleTranslation": "Utilisé pour saisir et tenir"
+    },
+    {
+      "word": "Bras",
+      "translation": "Membre de l'épaule à la main",
+      "phonetic": "/bʁɑ/",
+      "example": "Je porte des choses avec mes bras.",
+      "exampleTranslation": "Membre supérieur du corps"
+    },
+    {
+      "word": "Jambe",
+      "translation": "Membre utilisé pour se tenir debout et marcher",
+      "phonetic": "/ʒɑ̃b/",
+      "example": "Je marche avec mes jambes.",
+      "exampleTranslation": "Membre inférieur du corps"
+    },
+    {
+      "word": "Pied",
+      "translation": "Partie au bout de la jambe",
+      "phonetic": "/pje/",
+      "example": "Je porte des chaussures à mes pieds.",
+      "exampleTranslation": "Utilisé pour se tenir debout et marcher"
+    }
+  ]
+}

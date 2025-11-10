@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day4_mc1",
+      "type": "multipleChoice",
+      "question": "What color is the sky on a clear day?",
+      "options": [
+        "Green",
+        "Blue",
+        "Red",
+        "Yellow"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day4_mc2",
+      "type": "multipleChoice",
+      "question": "What color is grass?",
+      "options": [
+        "Brown",
+        "Purple",
+        "Green",
+        "Orange"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day4_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'The sun is ____.'",
+      "correctAnswer": "yellow",
+      "acceptableAlternatives": ["Yellow", "orange", "Orange"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day4_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Snow is ____.'",
+      "correctAnswer": "white",
+      "acceptableAlternatives": ["White"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day4_mc3",
+      "type": "multipleChoice",
+      "question": "Which color is created by mixing red and blue?",
+      "options": [
+        "Green",
+        "Orange",
+        "Purple",
+        "Brown"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day4_trans1",
+      "type": "translation",
+      "question": "What is the opposite color of white?",
+      "targetText": "Opposite of white",
+      "correctTranslation": "Black",
+      "acceptableAlternatives": ["black"]
+    },
+    {
+      "id": "day4_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'An apple can be red, ____, or yellow.'",
+      "correctAnswer": "green",
+      "acceptableAlternatives": ["Green"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day4_mc4",
+      "type": "multipleChoice",
+      "question": "What are the primary colors?",
+      "options": [
+        "Red, Yellow, Blue",
+        "Orange, Green, Purple",
+        "Black, White, Gray",
+        "Pink, Brown, Beige"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

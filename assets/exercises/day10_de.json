@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day10_mc1",
+      "type": "multipleChoice",
+      "question": "Wohin gehst du, um Essen zu kaufen?",
+      "options": [
+        "Schule",
+        "Geschäft",
+        "Krankenhaus",
+        "Bibliothek"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day10_mc2",
+      "type": "multipleChoice",
+      "question": "Wo lernen Schüler?",
+      "options": [
+        "Restaurant",
+        "Park",
+        "Schule",
+        "Bank"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day10_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ich schlafe zu ____.'",
+      "correctAnswer": "Hause",
+      "acceptableAlternatives": ["hause"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day10_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ich gehe ins ____, wenn ich krank bin.'",
+      "correctAnswer": "Krankenhaus",
+      "acceptableAlternatives": ["krankenhaus", "Hospital"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day10_mc3",
+      "type": "multipleChoice",
+      "question": "Wo leihst du Bücher aus?",
+      "options": [
+        "Fitnessstudio",
+        "Bibliothek",
+        "Theater",
+        "Museum"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day10_trans1",
+      "type": "translation",
+      "question": "Wohin gehst du, um eine von einem Koch zubereitete Mahlzeit zu essen?",
+      "targetText": "Ort zum Essen gehen",
+      "correctTranslation": "Restaurant",
+      "acceptableAlternatives": ["restaurant"]
+    },
+    {
+      "id": "day10_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ich arbeite in einem ____.'",
+      "correctAnswer": "Büro",
+      "acceptableAlternatives": ["büro"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day10_mc4",
+      "type": "multipleChoice",
+      "question": "Wo kannst du Bäume, Gras sehen und draußen spielen?",
+      "options": [
+        "Einkaufszentrum",
+        "Bahnhof",
+        "Park",
+        "Flughafen"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

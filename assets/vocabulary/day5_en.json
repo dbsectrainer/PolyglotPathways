@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Mother",
+      "translation": "Female parent",
+      "phonetic": "/ˈmʌðər/",
+      "example": "My mother is a teacher.",
+      "exampleTranslation": "Referring to your female parent"
+    },
+    {
+      "word": "Father",
+      "translation": "Male parent",
+      "phonetic": "/ˈfɑːðər/",
+      "example": "My father works in an office.",
+      "exampleTranslation": "Referring to your male parent"
+    },
+    {
+      "word": "Sister",
+      "translation": "Female sibling",
+      "phonetic": "/ˈsɪstər/",
+      "example": "I have one sister.",
+      "exampleTranslation": "Your parents' daughter"
+    },
+    {
+      "word": "Brother",
+      "translation": "Male sibling",
+      "phonetic": "/ˈbrʌðər/",
+      "example": "My brother is older than me.",
+      "exampleTranslation": "Your parents' son"
+    },
+    {
+      "word": "Grandmother",
+      "translation": "Your parent's mother",
+      "phonetic": "/ˈɡrænˌmʌðər/",
+      "example": "My grandmother makes delicious cookies.",
+      "exampleTranslation": "Female grandparent"
+    },
+    {
+      "word": "Grandfather",
+      "translation": "Your parent's father",
+      "phonetic": "/ˈɡrænˌfɑːðər/",
+      "example": "My grandfather tells great stories.",
+      "exampleTranslation": "Male grandparent"
+    },
+    {
+      "word": "Aunt",
+      "translation": "Your parent's sister or uncle's wife",
+      "phonetic": "/ænt/",
+      "example": "My aunt lives in another city.",
+      "exampleTranslation": "Female relative from parent's generation"
+    },
+    {
+      "word": "Uncle",
+      "translation": "Your parent's brother or aunt's husband",
+      "phonetic": "/ˈʌŋkəl/",
+      "example": "My uncle is very funny.",
+      "exampleTranslation": "Male relative from parent's generation"
+    },
+    {
+      "word": "Cousin",
+      "translation": "Your aunt or uncle's child",
+      "phonetic": "/ˈkʌzən/",
+      "example": "I play with my cousins every weekend.",
+      "exampleTranslation": "Children of your aunts and uncles"
+    }
+  ]
+}

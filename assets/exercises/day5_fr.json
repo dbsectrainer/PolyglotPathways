@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day5_mc1",
+      "type": "multipleChoice",
+      "question": "Comment appelle-t-on le père de votre père?",
+      "options": [
+        "Oncle",
+        "Grand-père",
+        "Frère",
+        "Cousin"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day5_mc2",
+      "type": "multipleChoice",
+      "question": "Qu'est-ce que la sœur de votre mère est pour vous?",
+      "options": [
+        "Grand-mère",
+        "Sœur",
+        "Tante",
+        "Cousine"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day5_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Mes parents sont ma ____ et mon père.'",
+      "correctAnswer": "mère",
+      "acceptableAlternatives": ["Mère", "maman", "Maman"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day5_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Le fils de ma sœur est mon ____.'",
+      "correctAnswer": "neveu",
+      "acceptableAlternatives": ["Neveu"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day5_mc3",
+      "type": "multipleChoice",
+      "question": "Comment appelle-t-on l'enfant garçon de vos parents?",
+      "options": [
+        "Sœur",
+        "Fille",
+        "Fils",
+        "Nièce"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day5_trans1",
+      "type": "translation",
+      "question": "Comment appelle-t-on les enfants de vos oncles et tantes?",
+      "targetText": "Enfants des oncles et tantes",
+      "correctTranslation": "Cousins",
+      "acceptableAlternatives": ["cousins", "Cousin", "cousin"]
+    },
+    {
+      "id": "day5_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez: 'La fille de mon frère est ma ____.'",
+      "correctAnswer": "nièce",
+      "acceptableAlternatives": ["Nièce"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day5_mc4",
+      "type": "multipleChoice",
+      "question": "Qui sont vos grands-parents?",
+      "options": [
+        "Les parents de vos parents",
+        "Les frères et sœurs de vos parents",
+        "Les enfants de vos frères et sœurs",
+        "Vos oncles et tantes"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Head",
+      "translation": "Top part of the body containing the brain",
+      "phonetic": "/hɛd/",
+      "example": "I wear a hat on my head.",
+      "exampleTranslation": "The uppermost part of the body"
+    },
+    {
+      "word": "Eye",
+      "translation": "Organ used for seeing",
+      "phonetic": "/aɪ/",
+      "example": "I have two eyes.",
+      "exampleTranslation": "Used for vision"
+    },
+    {
+      "word": "Ear",
+      "translation": "Organ used for hearing",
+      "phonetic": "/ɪər/",
+      "example": "I listen with my ears.",
+      "exampleTranslation": "Used for hearing sounds"
+    },
+    {
+      "word": "Nose",
+      "translation": "Organ used for smelling and breathing",
+      "phonetic": "/noʊz/",
+      "example": "I smell flowers with my nose.",
+      "exampleTranslation": "In the center of your face"
+    },
+    {
+      "word": "Mouth",
+      "translation": "Opening for eating and speaking",
+      "phonetic": "/maʊθ/",
+      "example": "I eat with my mouth.",
+      "exampleTranslation": "Used for eating and talking"
+    },
+    {
+      "word": "Hand",
+      "translation": "Part at the end of the arm with fingers",
+      "phonetic": "/hænd/",
+      "example": "I write with my hand.",
+      "exampleTranslation": "Used for grasping and holding"
+    },
+    {
+      "word": "Arm",
+      "translation": "Limb from shoulder to hand",
+      "phonetic": "/ɑːrm/",
+      "example": "I carry things with my arms.",
+      "exampleTranslation": "Upper limb of the body"
+    },
+    {
+      "word": "Leg",
+      "translation": "Limb used for standing and walking",
+      "phonetic": "/lɛɡ/",
+      "example": "I walk with my legs.",
+      "exampleTranslation": "Lower limb of the body"
+    },
+    {
+      "word": "Foot",
+      "translation": "Part at the end of the leg",
+      "phonetic": "/fʊt/",
+      "example": "I wear shoes on my feet.",
+      "exampleTranslation": "Used for standing and walking"
+    }
+  ]
+}

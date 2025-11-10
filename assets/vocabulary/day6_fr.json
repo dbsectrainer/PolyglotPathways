@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Être",
+      "translation": "Verbe indiquant l'existence ou l'état",
+      "phonetic": "/ɛtʁ/",
+      "example": "Je suis étudiant.",
+      "exampleTranslation": "Exprimer l'identité ou l'état d'être"
+    },
+    {
+      "word": "Avoir",
+      "translation": "Verbe indiquant la possession",
+      "phonetic": "/avwaʁ/",
+      "example": "J'ai un livre.",
+      "exampleTranslation": "Montrer la propriété ou la possession"
+    },
+    {
+      "word": "Aller",
+      "translation": "Verbe indiquant le mouvement",
+      "phonetic": "/ale/",
+      "example": "Je vais au travail en bus.",
+      "exampleTranslation": "Se déplacer d'un endroit à un autre"
+    },
+    {
+      "word": "Faire",
+      "translation": "Verbe indiquant l'action ou l'exécution",
+      "phonetic": "/fɛʁ/",
+      "example": "Je fais mes devoirs.",
+      "exampleTranslation": "Effectuer une action ou une tâche"
+    },
+    {
+      "word": "Voir",
+      "translation": "Verbe indiquant la vision ou la perception",
+      "phonetic": "/vwaʁ/",
+      "example": "Je vois un oiseau dans l'arbre.",
+      "exampleTranslation": "Utiliser ses yeux pour percevoir"
+    },
+    {
+      "word": "Venir",
+      "translation": "Verbe indiquant le mouvement vers",
+      "phonetic": "/vəniʁ/",
+      "example": "S'il vous plaît, venez chez moi.",
+      "exampleTranslation": "Se déplacer vers le locuteur"
+    },
+    {
+      "word": "Vouloir",
+      "translation": "Verbe indiquant le désir",
+      "phonetic": "/vulwaʁ/",
+      "example": "Je veux de l'eau.",
+      "exampleTranslation": "Exprimer un souhait ou un désir"
+    },
+    {
+      "word": "Dire",
+      "translation": "Verbe indiquant la communication verbale",
+      "phonetic": "/diʁ/",
+      "example": "Je dis la vérité.",
+      "exampleTranslation": "Exprimer quelque chose avec des mots"
+    }
+  ]
+}

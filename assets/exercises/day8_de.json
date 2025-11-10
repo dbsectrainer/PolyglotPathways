@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day8_mc1",
+      "type": "multipleChoice",
+      "question": "Welchen Körperteil benutzt du zum Sehen?",
+      "options": [
+        "Ohren",
+        "Augen",
+        "Nase",
+        "Mund"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day8_mc2",
+      "type": "multipleChoice",
+      "question": "Welchen Körperteil benutzt du zum Gehen?",
+      "options": [
+        "Arme",
+        "Kopf",
+        "Beine",
+        "Hände"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day8_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ich benutze meine ____, um Geräusche zu hören.'",
+      "correctAnswer": "Ohren",
+      "acceptableAlternatives": ["ohren"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day8_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ich trage einen Hut auf meinem ____.'",
+      "correctAnswer": "Kopf",
+      "acceptableAlternatives": ["kopf"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day8_mc3",
+      "type": "multipleChoice",
+      "question": "Was benutzt du, um Dinge zu halten?",
+      "options": [
+        "Füße",
+        "Hände",
+        "Knie",
+        "Schultern"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day8_trans1",
+      "type": "translation",
+      "question": "Was ist in der Mitte deines Gesichts, benutzt zum Riechen?",
+      "targetText": "Organ zum Riechen",
+      "correctTranslation": "Nase",
+      "acceptableAlternatives": ["nase"]
+    },
+    {
+      "id": "day8_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ich esse mit meinem ____.'",
+      "correctAnswer": "Mund",
+      "acceptableAlternatives": ["mund"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day8_mc4",
+      "type": "multipleChoice",
+      "question": "Was verbindet deine Hand mit deinem Körper?",
+      "options": [
+        "Bein",
+        "Fuß",
+        "Arm",
+        "Finger"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

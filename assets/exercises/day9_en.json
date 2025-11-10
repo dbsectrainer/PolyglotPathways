@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day9_mc1",
+      "type": "multipleChoice",
+      "question": "Which word describes something large in size?",
+      "options": [
+        "Small",
+        "Big",
+        "Short",
+        "Thin"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day9_mc2",
+      "type": "multipleChoice",
+      "question": "What is the opposite of 'cold'?",
+      "options": [
+        "Warm",
+        "Cool",
+        "Freezing",
+        "Icy"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day9_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'The sun is very ____.'",
+      "correctAnswer": "hot",
+      "acceptableAlternatives": ["Hot", "bright", "Bright"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day9_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'This bag is very ____. It weighs almost nothing.'",
+      "correctAnswer": "light",
+      "acceptableAlternatives": ["Light", "lightweight"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day9_mc3",
+      "type": "multipleChoice",
+      "question": "Which adjective means 'not dirty'?",
+      "options": [
+        "Messy",
+        "Clean",
+        "Dusty",
+        "Muddy"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day9_trans1",
+      "type": "translation",
+      "question": "What word describes something that moves or happens quickly?",
+      "targetText": "Opposite of slow",
+      "correctTranslation": "Fast",
+      "acceptableAlternatives": ["fast", "Quick", "quick"]
+    },
+    {
+      "id": "day9_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'She is very ____ and makes me laugh.'",
+      "correctAnswer": "funny",
+      "acceptableAlternatives": ["Funny", "humorous"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day9_mc4",
+      "type": "multipleChoice",
+      "question": "Which pair are opposites?",
+      "options": [
+        "Happy and glad",
+        "Tall and short",
+        "Big and large",
+        "Fast and quick"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "vocabulary": [
+    {
+      "word": "Grand",
+      "translation": "De grande taille",
+      "phonetic": "/ɡʁɑ̃/",
+      "example": "L'éléphant est grand.",
+      "exampleTranslation": "Décrivant une grande taille"
+    },
+    {
+      "word": "Petit",
+      "translation": "De petite taille",
+      "phonetic": "/pəti/",
+      "example": "La souris est petite.",
+      "exampleTranslation": "Décrivant une taille minuscule"
+    },
+    {
+      "word": "Chaud",
+      "translation": "Avec une température élevée",
+      "phonetic": "/ʃo/",
+      "example": "Le café est chaud.",
+      "exampleTranslation": "Décrivant une température élevée"
+    },
+    {
+      "word": "Froid",
+      "translation": "Avec une température basse",
+      "phonetic": "/fʁwa/",
+      "example": "La glace est froide.",
+      "exampleTranslation": "Décrivant une température basse"
+    },
+    {
+      "word": "Rapide",
+      "translation": "Qui bouge ou se passe avec vitesse",
+      "phonetic": "/ʁapid/",
+      "example": "La voiture est rapide.",
+      "exampleTranslation": "Décrivant une grande vitesse"
+    },
+    {
+      "word": "Lent",
+      "translation": "Qui bouge ou se passe avec peu de vitesse",
+      "phonetic": "/lɑ̃/",
+      "example": "La tortue est lente.",
+      "exampleTranslation": "Décrivant une faible vitesse"
+    },
+    {
+      "word": "Bon",
+      "translation": "De haute qualité ou désirable",
+      "phonetic": "/bɔ̃/",
+      "example": "C'est de la bonne nourriture.",
+      "exampleTranslation": "Décrivant la qualité ou l'excellence"
+    },
+    {
+      "word": "Mauvais",
+      "translation": "De mauvaise qualité ou indésirable",
+      "phonetic": "/movɛ/",
+      "example": "C'est du mauvais temps.",
+      "exampleTranslation": "Décrivant une mauvaise qualité"
+    },
+    {
+      "word": "Heureux",
+      "translation": "Ressentir de la joie ou du plaisir",
+      "phonetic": "/øʁø/",
+      "example": "Je suis heureux aujourd'hui.",
+      "exampleTranslation": "Décrivant une émotion positive"
+    },
+    {
+      "word": "Triste",
+      "translation": "Ressentir du malheur ou de la peine",
+      "phonetic": "/tʁist/",
+      "example": "Elle a l'air triste.",
+      "exampleTranslation": "Décrivant une émotion négative"
+    }
+  ]
+}

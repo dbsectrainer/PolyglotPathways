@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Rojo",
+      "translation": "El color de la sangre o el fuego",
+      "phonetic": "/ˈroxo/",
+      "example": "La manzana es roja.",
+      "exampleTranslation": "Describiendo el color de una fruta común"
+    },
+    {
+      "word": "Azul",
+      "translation": "El color del cielo y el océano",
+      "phonetic": "/aˈθul/",
+      "example": "El océano es azul.",
+      "exampleTranslation": "Describiendo el color del agua"
+    },
+    {
+      "word": "Amarillo",
+      "translation": "El color del sol y los limones",
+      "phonetic": "/amaˈɾiʎo/",
+      "example": "El plátano es amarillo.",
+      "exampleTranslation": "Describiendo el color de un plátano maduro"
+    },
+    {
+      "word": "Verde",
+      "translation": "El color del césped y las hojas",
+      "phonetic": "/ˈbeɾðe/",
+      "example": "El césped es verde.",
+      "exampleTranslation": "Describiendo el color de la vegetación"
+    },
+    {
+      "word": "Negro",
+      "translation": "El color más oscuro, ausencia de luz",
+      "phonetic": "/ˈneɣɾo/",
+      "example": "El cielo nocturno es negro.",
+      "exampleTranslation": "Describiendo la oscuridad"
+    },
+    {
+      "word": "Blanco",
+      "translation": "El color más claro, como la nieve",
+      "phonetic": "/ˈblaŋko/",
+      "example": "La nieve es blanca.",
+      "exampleTranslation": "Describiendo pureza o claridad"
+    },
+    {
+      "word": "Naranja",
+      "translation": "El color entre rojo y amarillo",
+      "phonetic": "/naˈɾanxa/",
+      "example": "La naranja es naranja.",
+      "exampleTranslation": "La fruta y el color comparten el mismo nombre"
+    },
+    {
+      "word": "Morado",
+      "translation": "El color hecho al mezclar rojo y azul",
+      "phonetic": "/moˈɾaðo/",
+      "example": "La flor es morada.",
+      "exampleTranslation": "Describiendo una flor de color violeta"
+    }
+  ]
+}

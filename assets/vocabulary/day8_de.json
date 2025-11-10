@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Kopf",
+      "translation": "Oberer Teil des Körpers mit dem Gehirn",
+      "phonetic": "/kɔpf/",
+      "example": "Ich trage einen Hut auf meinem Kopf.",
+      "exampleTranslation": "Der oberste Teil des Körpers"
+    },
+    {
+      "word": "Auge",
+      "translation": "Organ zum Sehen",
+      "phonetic": "/ˈaʊɡə/",
+      "example": "Ich habe zwei Augen.",
+      "exampleTranslation": "Wird für das Sehen benutzt"
+    },
+    {
+      "word": "Ohr",
+      "translation": "Organ zum Hören",
+      "phonetic": "/oːɐ/",
+      "example": "Ich höre mit meinen Ohren.",
+      "exampleTranslation": "Wird zum Hören von Geräuschen benutzt"
+    },
+    {
+      "word": "Nase",
+      "translation": "Organ zum Riechen und Atmen",
+      "phonetic": "/ˈnaːzə/",
+      "example": "Ich rieche Blumen mit meiner Nase.",
+      "exampleTranslation": "In der Mitte deines Gesichts"
+    },
+    {
+      "word": "Mund",
+      "translation": "Öffnung zum Essen und Sprechen",
+      "phonetic": "/mʊnt/",
+      "example": "Ich esse mit meinem Mund.",
+      "exampleTranslation": "Wird zum Essen und Sprechen benutzt"
+    },
+    {
+      "word": "Hand",
+      "translation": "Teil am Ende des Arms mit Fingern",
+      "phonetic": "/hant/",
+      "example": "Ich schreibe mit meiner Hand.",
+      "exampleTranslation": "Wird zum Greifen und Halten benutzt"
+    },
+    {
+      "word": "Arm",
+      "translation": "Glied von der Schulter zur Hand",
+      "phonetic": "/aʁm/",
+      "example": "Ich trage Dinge mit meinen Armen.",
+      "exampleTranslation": "Oberes Glied des Körpers"
+    },
+    {
+      "word": "Bein",
+      "translation": "Glied zum Stehen und Gehen",
+      "phonetic": "/baɪn/",
+      "example": "Ich gehe mit meinen Beinen.",
+      "exampleTranslation": "Unteres Glied des Körpers"
+    },
+    {
+      "word": "Fuß",
+      "translation": "Teil am Ende des Beins",
+      "phonetic": "/fuːs/",
+      "example": "Ich trage Schuhe an meinen Füßen.",
+      "exampleTranslation": "Wird zum Stehen und Gehen benutzt"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Home",
+      "translation": "The place where you live",
+      "phonetic": "/hoʊm/",
+      "example": "I go home after work.",
+      "exampleTranslation": "Your residence or dwelling"
+    },
+    {
+      "word": "School",
+      "translation": "Place where students learn",
+      "phonetic": "/skuːl/",
+      "example": "Children go to school every day.",
+      "exampleTranslation": "Educational institution"
+    },
+    {
+      "word": "Store",
+      "translation": "Place where you buy things",
+      "phonetic": "/stɔːr/",
+      "example": "I buy food at the store.",
+      "exampleTranslation": "Shop or market"
+    },
+    {
+      "word": "Hospital",
+      "translation": "Place for medical treatment",
+      "phonetic": "/ˈhɑːspɪtl/",
+      "example": "Doctors work in a hospital.",
+      "exampleTranslation": "Medical care facility"
+    },
+    {
+      "word": "Restaurant",
+      "translation": "Place to eat prepared meals",
+      "phonetic": "/ˈrɛstərɑːnt/",
+      "example": "We eat dinner at a restaurant.",
+      "exampleTranslation": "Dining establishment"
+    },
+    {
+      "word": "Park",
+      "translation": "Outdoor area with grass and trees",
+      "phonetic": "/pɑːrk/",
+      "example": "Children play in the park.",
+      "exampleTranslation": "Public recreational area"
+    },
+    {
+      "word": "Library",
+      "translation": "Place with many books to borrow",
+      "phonetic": "/ˈlaɪbrɛri/",
+      "example": "I borrow books from the library.",
+      "exampleTranslation": "Book collection facility"
+    },
+    {
+      "word": "Office",
+      "translation": "Place where people work",
+      "phonetic": "/ˈɔːfɪs/",
+      "example": "My father works in an office.",
+      "exampleTranslation": "Professional workplace"
+    },
+    {
+      "word": "Bank",
+      "translation": "Place for money and financial services",
+      "phonetic": "/bæŋk/",
+      "example": "I save money at the bank.",
+      "exampleTranslation": "Financial institution"
+    }
+  ]
+}

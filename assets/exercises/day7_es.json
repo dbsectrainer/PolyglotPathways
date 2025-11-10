@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day7_mc1",
+      "type": "multipleChoice",
+      "question": "¿Cuál es una bebida saludable para el desayuno?",
+      "options": [
+        "Refresco",
+        "Café",
+        "Leche",
+        "Cerveza"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day7_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué alimento proviene de las gallinas?",
+      "options": [
+        "Pan",
+        "Huevos",
+        "Arroz",
+        "Pasta"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day7_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Bebo ____ cada mañana.' (bebida caliente)",
+      "correctAnswer": "café",
+      "acceptableAlternatives": ["Café", "té", "Té"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day7_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'El ____ se hace con harina y agua.'",
+      "correctAnswer": "pan",
+      "acceptableAlternatives": ["Pan"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day7_mc3",
+      "type": "multipleChoice",
+      "question": "¿Cuál es una fruta?",
+      "options": [
+        "Zanahoria",
+        "Papa",
+        "Manzana",
+        "Cebolla"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day7_trans1",
+      "type": "translation",
+      "question": "¿Qué líquido bebes para mantenerte hidratado?",
+      "targetText": "Líquido esencial",
+      "correctTranslation": "Agua",
+      "acceptableAlternatives": ["agua"]
+    },
+    {
+      "id": "day7_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Las ____ y las verduras son saludables.'",
+      "correctAnswer": "frutas",
+      "acceptableAlternatives": ["Frutas"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day7_mc4",
+      "type": "multipleChoice",
+      "question": "¿Qué comes típicamente para la cena?",
+      "options": [
+        "Solo cereal",
+        "Dulces",
+        "Carne, verduras y arroz",
+        "Helado"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

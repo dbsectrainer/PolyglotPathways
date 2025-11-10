@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Cabeza",
+      "translation": "Parte superior del cuerpo que contiene el cerebro",
+      "phonetic": "/kaˈβeθa/",
+      "example": "Llevo un sombrero en mi cabeza.",
+      "exampleTranslation": "La parte más alta del cuerpo"
+    },
+    {
+      "word": "Ojo",
+      "translation": "Órgano usado para ver",
+      "phonetic": "/ˈoxo/",
+      "example": "Tengo dos ojos.",
+      "exampleTranslation": "Usado para la visión"
+    },
+    {
+      "word": "Oreja/Oído",
+      "translation": "Órgano usado para escuchar",
+      "phonetic": "/oˈɾexa/ /oˈiðo/",
+      "example": "Escucho con mis oídos.",
+      "exampleTranslation": "Usado para escuchar sonidos"
+    },
+    {
+      "word": "Nariz",
+      "translation": "Órgano usado para oler y respirar",
+      "phonetic": "/naˈɾiθ/",
+      "example": "Huelo flores con mi nariz.",
+      "exampleTranslation": "En el centro de tu cara"
+    },
+    {
+      "word": "Boca",
+      "translation": "Abertura para comer y hablar",
+      "phonetic": "/ˈboka/",
+      "example": "Como con mi boca.",
+      "exampleTranslation": "Usado para comer y hablar"
+    },
+    {
+      "word": "Mano",
+      "translation": "Parte al final del brazo con dedos",
+      "phonetic": "/ˈmano/",
+      "example": "Escribo con mi mano.",
+      "exampleTranslation": "Usado para agarrar y sostener"
+    },
+    {
+      "word": "Brazo",
+      "translation": "Extremidad desde el hombro hasta la mano",
+      "phonetic": "/ˈbɾaθo/",
+      "example": "Llevo cosas con mis brazos.",
+      "exampleTranslation": "Extremidad superior del cuerpo"
+    },
+    {
+      "word": "Pierna",
+      "translation": "Extremidad usada para estar de pie y caminar",
+      "phonetic": "/ˈpjeɾna/",
+      "example": "Camino con mis piernas.",
+      "exampleTranslation": "Extremidad inferior del cuerpo"
+    },
+    {
+      "word": "Pie",
+      "translation": "Parte al final de la pierna",
+      "phonetic": "/pje/",
+      "example": "Uso zapatos en mis pies.",
+      "exampleTranslation": "Usado para estar de pie y caminar"
+    }
+  ]
+}

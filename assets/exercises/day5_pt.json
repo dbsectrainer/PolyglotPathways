@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day5_mc1",
+      "type": "multipleChoice",
+      "question": "Como você chama o pai do seu pai?",
+      "options": [
+        "Tio",
+        "Avô",
+        "Irmão",
+        "Primo"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day5_mc2",
+      "type": "multipleChoice",
+      "question": "O que é a irmã da sua mãe para você?",
+      "options": [
+        "Avó",
+        "Irmã",
+        "Tia",
+        "Prima"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day5_fib1",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Meus pais são minha ____ e meu pai.'",
+      "correctAnswer": "mãe",
+      "acceptableAlternatives": ["Mãe", "mamãe", "Mamãe"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day5_fib2",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'O filho da minha irmã é meu ____.'",
+      "correctAnswer": "sobrinho",
+      "acceptableAlternatives": ["Sobrinho"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day5_mc3",
+      "type": "multipleChoice",
+      "question": "Como você chama o filho homem dos seus pais?",
+      "options": [
+        "Irmã",
+        "Filha",
+        "Filho",
+        "Sobrinha"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day5_trans1",
+      "type": "translation",
+      "question": "Como você chama os filhos dos seus tios?",
+      "targetText": "Filhos dos tios",
+      "correctTranslation": "Primos",
+      "acceptableAlternatives": ["primos", "Primo", "primo"]
+    },
+    {
+      "id": "day5_fib3",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'A filha do meu irmão é minha ____.'",
+      "correctAnswer": "sobrinha",
+      "acceptableAlternatives": ["Sobrinha"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day5_mc4",
+      "type": "multipleChoice",
+      "question": "Quem são seus avós?",
+      "options": [
+        "Os pais dos seus pais",
+        "Os irmãos dos seus pais",
+        "Os filhos dos seus irmãos",
+        "Seus tios e tias"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

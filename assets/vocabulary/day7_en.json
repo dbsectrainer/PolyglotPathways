@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Water",
+      "translation": "Essential liquid for life",
+      "phonetic": "/ˈwɔːtər/",
+      "example": "I drink eight glasses of water daily.",
+      "exampleTranslation": "The most important beverage for health"
+    },
+    {
+      "word": "Bread",
+      "translation": "Baked food made from flour",
+      "phonetic": "/brɛd/",
+      "example": "I eat bread for breakfast.",
+      "exampleTranslation": "A staple food in many cultures"
+    },
+    {
+      "word": "Milk",
+      "translation": "White liquid from cows",
+      "phonetic": "/mɪlk/",
+      "example": "Children drink milk to grow strong.",
+      "exampleTranslation": "Rich in calcium and protein"
+    },
+    {
+      "word": "Egg",
+      "translation": "Food from chickens, high in protein",
+      "phonetic": "/ɛɡ/",
+      "example": "I eat eggs for breakfast.",
+      "exampleTranslation": "Can be cooked many ways"
+    },
+    {
+      "word": "Fruit",
+      "translation": "Sweet plant product with seeds",
+      "phonetic": "/fruːt/",
+      "example": "Apples and oranges are fruits.",
+      "exampleTranslation": "Natural sweet food, very healthy"
+    },
+    {
+      "word": "Vegetable",
+      "translation": "Edible plant or plant part",
+      "phonetic": "/ˈvɛdʒtəbəl/",
+      "example": "Carrots and broccoli are vegetables.",
+      "exampleTranslation": "Important for a healthy diet"
+    },
+    {
+      "word": "Meat",
+      "translation": "Animal flesh used as food",
+      "phonetic": "/miːt/",
+      "example": "Chicken and beef are types of meat.",
+      "exampleTranslation": "High in protein"
+    },
+    {
+      "word": "Coffee",
+      "translation": "Hot beverage made from roasted beans",
+      "phonetic": "/ˈkɔːfi/",
+      "example": "Many people drink coffee in the morning.",
+      "exampleTranslation": "Contains caffeine to boost energy"
+    }
+  ]
+}

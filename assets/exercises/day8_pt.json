@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day8_mc1",
+      "type": "multipleChoice",
+      "question": "Que parte do corpo você usa para ver?",
+      "options": [
+        "Orelhas",
+        "Olhos",
+        "Nariz",
+        "Boca"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day8_mc2",
+      "type": "multipleChoice",
+      "question": "Que parte do corpo você usa para caminhar?",
+      "options": [
+        "Braços",
+        "Cabeça",
+        "Pernas",
+        "Mãos"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day8_fib1",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Eu uso minhas ____ para ouvir sons.'",
+      "correctAnswer": "orelhas",
+      "acceptableAlternatives": ["Orelhas", "ouvidos", "Ouvidos"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day8_fib2",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Eu uso um chapéu na minha ____.'",
+      "correctAnswer": "cabeça",
+      "acceptableAlternatives": ["Cabeça"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day8_mc3",
+      "type": "multipleChoice",
+      "question": "O que você usa para segurar coisas?",
+      "options": [
+        "Pés",
+        "Mãos",
+        "Joelhos",
+        "Ombros"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day8_trans1",
+      "type": "translation",
+      "question": "O que está no meio do seu rosto, usado para cheirar?",
+      "targetText": "Órgão para cheirar",
+      "correctTranslation": "Nariz",
+      "acceptableAlternatives": ["nariz"]
+    },
+    {
+      "id": "day8_fib3",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Eu como com minha ____.'",
+      "correctAnswer": "boca",
+      "acceptableAlternatives": ["Boca"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day8_mc4",
+      "type": "multipleChoice",
+      "question": "O que conecta sua mão ao seu corpo?",
+      "options": [
+        "Perna",
+        "Pé",
+        "Braço",
+        "Dedo"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

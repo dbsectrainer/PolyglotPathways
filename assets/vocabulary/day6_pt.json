@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Ser/Estar",
+      "translation": "Verbo que indica existência ou estado",
+      "phonetic": "/seɾ/ /esˈtaɾ/",
+      "example": "Eu sou estudante. Eu estou feliz.",
+      "exampleTranslation": "Expressando identidade ou estado de ser"
+    },
+    {
+      "word": "Ter",
+      "translation": "Verbo que indica posse",
+      "phonetic": "/teɾ/",
+      "example": "Eu tenho um livro.",
+      "exampleTranslation": "Mostrando propriedade ou posse"
+    },
+    {
+      "word": "Ir",
+      "translation": "Verbo que indica movimento",
+      "phonetic": "/iɾ/",
+      "example": "Eu vou ao trabalho de ônibus.",
+      "exampleTranslation": "Mover-se de um lugar para outro"
+    },
+    {
+      "word": "Fazer",
+      "translation": "Verbo que indica ação ou realização",
+      "phonetic": "/faˈzeɾ/",
+      "example": "Eu faço minha lição de casa.",
+      "exampleTranslation": "Realizar uma ação ou tarefa"
+    },
+    {
+      "word": "Ver",
+      "translation": "Verbo que indica visão ou percepção",
+      "phonetic": "/veɾ/",
+      "example": "Eu vejo um pássaro na árvore.",
+      "exampleTranslation": "Usar os olhos para perceber"
+    },
+    {
+      "word": "Vir",
+      "translation": "Verbo que indica movimento em direção",
+      "phonetic": "/viɾ/",
+      "example": "Por favor, venha à minha casa.",
+      "exampleTranslation": "Mover-se em direção ao falante"
+    },
+    {
+      "word": "Querer",
+      "translation": "Verbo que indica desejo",
+      "phonetic": "/keˈɾeɾ/",
+      "example": "Eu quero água.",
+      "exampleTranslation": "Expressar um desejo"
+    },
+    {
+      "word": "Dizer",
+      "translation": "Verbo que indica comunicação verbal",
+      "phonetic": "/diˈzeɾ/",
+      "example": "Eu digo a verdade.",
+      "exampleTranslation": "Expressar algo com palavras"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day5_mc1",
+      "type": "multipleChoice",
+      "question": "Wie nennt man den Vater deines Vaters?",
+      "options": [
+        "Onkel",
+        "Großvater",
+        "Bruder",
+        "Cousin"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day5_mc2",
+      "type": "multipleChoice",
+      "question": "Was ist die Schwester deiner Mutter für dich?",
+      "options": [
+        "Großmutter",
+        "Schwester",
+        "Tante",
+        "Cousine"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day5_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Meine Eltern sind meine ____ und mein Vater.'",
+      "correctAnswer": "Mutter",
+      "acceptableAlternatives": ["mutter", "Mama", "mama"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day5_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Der Sohn meiner Schwester ist mein ____.'",
+      "correctAnswer": "Neffe",
+      "acceptableAlternatives": ["neffe"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day5_mc3",
+      "type": "multipleChoice",
+      "question": "Wie nennt man das männliche Kind deiner Eltern?",
+      "options": [
+        "Schwester",
+        "Tochter",
+        "Sohn",
+        "Nichte"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day5_trans1",
+      "type": "translation",
+      "question": "Wie nennt man die Kinder deiner Tanten und Onkel?",
+      "targetText": "Kinder der Tanten und Onkel",
+      "correctTranslation": "Cousins",
+      "acceptableAlternatives": ["cousins", "Cousin", "cousin", "Vettern"]
+    },
+    {
+      "id": "day5_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Die Tochter meines Bruders ist meine ____.'",
+      "correctAnswer": "Nichte",
+      "acceptableAlternatives": ["nichte"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day5_mc4",
+      "type": "multipleChoice",
+      "question": "Wer sind deine Großeltern?",
+      "options": [
+        "Die Eltern deiner Eltern",
+        "Die Geschwister deiner Eltern",
+        "Die Kinder deiner Geschwister",
+        "Deine Tanten und Onkel"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

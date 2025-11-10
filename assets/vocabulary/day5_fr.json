@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Mère",
+      "translation": "Parent féminin",
+      "phonetic": "/mɛʁ/",
+      "example": "Ma mère est enseignante.",
+      "exampleTranslation": "Se référant à votre parent féminin"
+    },
+    {
+      "word": "Père",
+      "translation": "Parent masculin",
+      "phonetic": "/pɛʁ/",
+      "example": "Mon père travaille dans un bureau.",
+      "exampleTranslation": "Se référant à votre parent masculin"
+    },
+    {
+      "word": "Sœur",
+      "translation": "Membre de la fratrie féminin",
+      "phonetic": "/sœʁ/",
+      "example": "J'ai une sœur.",
+      "exampleTranslation": "La fille de vos parents"
+    },
+    {
+      "word": "Frère",
+      "translation": "Membre de la fratrie masculin",
+      "phonetic": "/fʁɛʁ/",
+      "example": "Mon frère est plus âgé que moi.",
+      "exampleTranslation": "Le fils de vos parents"
+    },
+    {
+      "word": "Grand-mère",
+      "translation": "La mère de votre parent",
+      "phonetic": "/ɡʁɑ̃mɛʁ/",
+      "example": "Ma grand-mère fait de délicieux biscuits.",
+      "exampleTranslation": "Grand-parent féminin"
+    },
+    {
+      "word": "Grand-père",
+      "translation": "Le père de votre parent",
+      "phonetic": "/ɡʁɑ̃pɛʁ/",
+      "example": "Mon grand-père raconte de belles histoires.",
+      "exampleTranslation": "Grand-parent masculin"
+    },
+    {
+      "word": "Tante",
+      "translation": "La sœur de votre parent ou la femme de votre oncle",
+      "phonetic": "/tɑ̃t/",
+      "example": "Ma tante habite dans une autre ville.",
+      "exampleTranslation": "Parent féminin de la génération de vos parents"
+    },
+    {
+      "word": "Oncle",
+      "translation": "Le frère de votre parent ou le mari de votre tante",
+      "phonetic": "/ɔ̃kl/",
+      "example": "Mon oncle est très drôle.",
+      "exampleTranslation": "Parent masculin de la génération de vos parents"
+    },
+    {
+      "word": "Cousin/Cousine",
+      "translation": "L'enfant de votre oncle ou tante",
+      "phonetic": "/kuzɛ̃/ /kuzin/",
+      "example": "Je joue avec mes cousins chaque week-end.",
+      "exampleTranslation": "Enfants de vos oncles et tantes"
+    }
+  ]
+}

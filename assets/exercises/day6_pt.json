@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day6_mc1",
+      "type": "multipleChoice",
+      "question": "Qual verbo significa 'possuir algo'?",
+      "options": [
+        "Ser/Estar",
+        "Ter",
+        "Ir",
+        "Fazer"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day6_mc2",
+      "type": "multipleChoice",
+      "question": "Complete: 'Eu ____ para a escola todos os dias.'",
+      "options": [
+        "sou",
+        "tenho",
+        "vou",
+        "faço"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day6_fib1",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Eu ____ feliz hoje.' (ser/estar)",
+      "correctAnswer": "estou",
+      "acceptableAlternatives": ["Estou", "sou", "Sou"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day6_fib2",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Ela ____ três gatos.' (ter)",
+      "correctAnswer": "tem",
+      "acceptableAlternatives": ["Tem"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day6_mc3",
+      "type": "multipleChoice",
+      "question": "Qual é a forma correta? 'Eles ____ estudantes.'",
+      "options": [
+        "sou",
+        "é",
+        "são",
+        "ser"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day6_trans1",
+      "type": "translation",
+      "question": "Qual verbo você usa para movimento de um lugar para outro?",
+      "targetText": "Verbo de movimento",
+      "correctTranslation": "Ir",
+      "acceptableAlternatives": ["ir"]
+    },
+    {
+      "id": "day6_fib3",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Nós ____ nossa lição de casa toda noite.' (fazer)",
+      "correctAnswer": "fazemos",
+      "acceptableAlternatives": ["Fazemos"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day6_mc4",
+      "type": "multipleChoice",
+      "question": "Complete: 'Ele ____ ao parque.'",
+      "options": [
+        "vai",
+        "ir",
+        "indo",
+        "ido"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

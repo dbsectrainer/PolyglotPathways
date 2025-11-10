@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day4_mc1",
+      "type": "multipleChoice",
+      "question": "Welche Farbe hat der Himmel an einem klaren Tag?",
+      "options": [
+        "Grün",
+        "Blau",
+        "Rot",
+        "Gelb"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day4_mc2",
+      "type": "multipleChoice",
+      "question": "Welche Farbe hat Gras?",
+      "options": [
+        "Braun",
+        "Lila",
+        "Grün",
+        "Orange"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day4_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Die Sonne ist ____.'",
+      "correctAnswer": "gelb",
+      "acceptableAlternatives": ["Gelb", "orange", "Orange"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day4_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Schnee ist ____.'",
+      "correctAnswer": "weiß",
+      "acceptableAlternatives": ["Weiß"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day4_mc3",
+      "type": "multipleChoice",
+      "question": "Welche Farbe entsteht durch Mischen von Rot und Blau?",
+      "options": [
+        "Grün",
+        "Orange",
+        "Lila",
+        "Braun"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day4_trans1",
+      "type": "translation",
+      "question": "Was ist die Gegenfarbe von Weiß?",
+      "targetText": "Gegenteil von Weiß",
+      "correctTranslation": "Schwarz",
+      "acceptableAlternatives": ["schwarz"]
+    },
+    {
+      "id": "day4_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ein Apfel kann rot, ____ oder gelb sein.'",
+      "correctAnswer": "grün",
+      "acceptableAlternatives": ["Grün"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day4_mc4",
+      "type": "multipleChoice",
+      "question": "Was sind die Grundfarben?",
+      "options": [
+        "Rot, Gelb, Blau",
+        "Orange, Grün, Lila",
+        "Schwarz, Weiß, Grau",
+        "Rosa, Braun, Beige"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

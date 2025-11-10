@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Água",
+      "translation": "Líquido essencial para a vida",
+      "phonetic": "/ˈaɡwɐ/",
+      "example": "Eu bebo oito copos de água diariamente.",
+      "exampleTranslation": "A bebida mais importante para a saúde"
+    },
+    {
+      "word": "Pão",
+      "translation": "Alimento assado feito de farinha",
+      "phonetic": "/pɐ̃w/",
+      "example": "Eu como pão no café da manhã.",
+      "exampleTranslation": "Um alimento básico em muitas culturas"
+    },
+    {
+      "word": "Leite",
+      "translation": "Líquido branco das vacas",
+      "phonetic": "/ˈlejt͡ʃi/",
+      "example": "As crianças bebem leite para crescer fortes.",
+      "exampleTranslation": "Rico em cálcio e proteína"
+    },
+    {
+      "word": "Ovo",
+      "translation": "Alimento das galinhas, rico em proteína",
+      "phonetic": "/ˈovu/",
+      "example": "Eu como ovos no café da manhã.",
+      "exampleTranslation": "Pode ser cozinhado de muitas maneiras"
+    },
+    {
+      "word": "Fruta",
+      "translation": "Produto vegetal doce com sementes",
+      "phonetic": "/ˈfɾutɐ/",
+      "example": "Maçãs e laranjas são frutas.",
+      "exampleTranslation": "Alimento doce natural, muito saudável"
+    },
+    {
+      "word": "Vegetal",
+      "translation": "Planta comestível ou parte de planta",
+      "phonetic": "/veʒeˈtaw/",
+      "example": "Cenouras e brócolis são vegetais.",
+      "exampleTranslation": "Importante para uma dieta saudável"
+    },
+    {
+      "word": "Carne",
+      "translation": "Carne de animal usada como alimento",
+      "phonetic": "/ˈkaɾni/",
+      "example": "Frango e carne bovina são tipos de carne.",
+      "exampleTranslation": "Rica em proteína"
+    },
+    {
+      "word": "Café",
+      "translation": "Bebida quente feita de grãos torrados",
+      "phonetic": "/kaˈfɛ/",
+      "example": "Muitas pessoas bebem café pela manhã.",
+      "exampleTranslation": "Contém cafeína para aumentar a energia"
+    }
+  ]
+}

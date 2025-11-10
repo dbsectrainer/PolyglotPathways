@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Zuhause",
+      "translation": "Der Ort, wo du lebst",
+      "phonetic": "/tsuːˈhaʊzə/",
+      "example": "Ich gehe nach der Arbeit nach Hause.",
+      "exampleTranslation": "Deine Residenz oder Wohnung"
+    },
+    {
+      "word": "Schule",
+      "translation": "Ort, wo Schüler lernen",
+      "phonetic": "/ˈʃuːlə/",
+      "example": "Kinder gehen jeden Tag zur Schule.",
+      "exampleTranslation": "Bildungseinrichtung"
+    },
+    {
+      "word": "Geschäft",
+      "translation": "Ort, wo du Dinge kaufst",
+      "phonetic": "/ɡəˈʃɛft/",
+      "example": "Ich kaufe Essen im Geschäft.",
+      "exampleTranslation": "Laden oder Markt"
+    },
+    {
+      "word": "Krankenhaus",
+      "translation": "Ort für medizinische Behandlung",
+      "phonetic": "/ˈkʁaŋkənˌhaʊs/",
+      "example": "Ärzte arbeiten im Krankenhaus.",
+      "exampleTranslation": "Medizinische Einrichtung"
+    },
+    {
+      "word": "Restaurant",
+      "translation": "Ort, um zubereitete Mahlzeiten zu essen",
+      "phonetic": "/ʁɛstoˈʁɑ̃ː/",
+      "example": "Wir essen im Restaurant zu Abend.",
+      "exampleTranslation": "Gaststätte"
+    },
+    {
+      "word": "Park",
+      "translation": "Außenbereich mit Gras und Bäumen",
+      "phonetic": "/paʁk/",
+      "example": "Kinder spielen im Park.",
+      "exampleTranslation": "Öffentlicher Erholungsbereich"
+    },
+    {
+      "word": "Bibliothek",
+      "translation": "Ort mit vielen Büchern zum Ausleihen",
+      "phonetic": "/biblioˈteːk/",
+      "example": "Ich leihe Bücher aus der Bibliothek.",
+      "exampleTranslation": "Büchersammlungseinrichtung"
+    },
+    {
+      "word": "Büro",
+      "translation": "Ort, wo Menschen arbeiten",
+      "phonetic": "/byˈʁoː/",
+      "example": "Mein Vater arbeitet in einem Büro.",
+      "exampleTranslation": "Professioneller Arbeitsplatz"
+    },
+    {
+      "word": "Bank",
+      "translation": "Ort für Geld und Finanzdienstleistungen",
+      "phonetic": "/baŋk/",
+      "example": "Ich spare Geld bei der Bank.",
+      "exampleTranslation": "Finanzinstitut"
+    }
+  ]
+}

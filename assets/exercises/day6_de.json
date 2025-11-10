@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day6_mc1",
+      "type": "multipleChoice",
+      "question": "Welches Verb bedeutet 'etwas besitzen'?",
+      "options": [
+        "Sein",
+        "Haben",
+        "Gehen",
+        "Machen"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day6_mc2",
+      "type": "multipleChoice",
+      "question": "Vervollständige: 'Ich ____ jeden Tag zur Schule.'",
+      "options": [
+        "bin",
+        "habe",
+        "gehe",
+        "mache"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day6_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ich ____ heute glücklich.' (sein)",
+      "correctAnswer": "bin",
+      "acceptableAlternatives": ["Bin"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day6_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Sie ____ drei Katzen.' (haben)",
+      "correctAnswer": "hat",
+      "acceptableAlternatives": ["Hat"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day6_mc3",
+      "type": "multipleChoice",
+      "question": "Welches ist die richtige Form? 'Sie ____ Studenten.'",
+      "options": [
+        "bin",
+        "ist",
+        "sind",
+        "sein"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day6_trans1",
+      "type": "translation",
+      "question": "Welches Verb benutzt du für Bewegung von einem Ort zum anderen?",
+      "targetText": "Bewegungsverb",
+      "correctTranslation": "Gehen",
+      "acceptableAlternatives": ["gehen"]
+    },
+    {
+      "id": "day6_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Wir ____ jeden Abend unsere Hausaufgaben.' (machen)",
+      "correctAnswer": "machen",
+      "acceptableAlternatives": ["Machen"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day6_mc4",
+      "type": "multipleChoice",
+      "question": "Vervollständige: 'Er ____ in den Park.'",
+      "options": [
+        "geht",
+        "gehen",
+        "gehend",
+        "gegangen"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}
