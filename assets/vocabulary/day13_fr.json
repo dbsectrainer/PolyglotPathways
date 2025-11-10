@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Chemise",
+      "translation": "Vêtement porté sur le haut du corps",
+      "phonetic": "/ʃəmiz/",
+      "example": "Il porte une chemise bleue aujourd'hui.",
+      "exampleTranslation": "Décrire les vêtements du haut du corps de quelqu'un"
+    },
+    {
+      "word": "Pantalon",
+      "translation": "Vêtement porté sur les jambes",
+      "phonetic": "/pɑ̃talɔ̃/",
+      "example": "Ce pantalon est trop serré pour moi.",
+      "exampleTranslation": "Parler de vêtements pour les jambes"
+    },
+    {
+      "word": "Robe",
+      "translation": "Vêtement d'une seule pièce pour femmes ou filles",
+      "phonetic": "/ʁɔb/",
+      "example": "Elle portait une belle robe au mariage.",
+      "exampleTranslation": "Décrire une tenue formelle"
+    },
+    {
+      "word": "Chaussures",
+      "translation": "Chaussures qui couvrent les pieds",
+      "phonetic": "/ʃosyʁ/",
+      "example": "J'ai besoin d'acheter de nouvelles chaussures pour courir.",
+      "exampleTranslation": "Parler des besoins en chaussures"
+    },
+    {
+      "word": "Chapeau",
+      "translation": "Couvre-chef porté sur la tête",
+      "phonetic": "/ʃapo/",
+      "example": "Portez un chapeau pour vous protéger du soleil.",
+      "exampleTranslation": "Conseiller sur la protection solaire"
+    },
+    {
+      "word": "Veste",
+      "translation": "Vêtement extérieur porté sur d'autres vêtements",
+      "phonetic": "/vɛst/",
+      "example": "Il fait froid dehors, apporte ta veste.",
+      "exampleTranslation": "Suggérer des vêtements chauds"
+    },
+    {
+      "word": "Chaussettes",
+      "translation": "Vêtements portés sur les pieds à l'intérieur des chaussures",
+      "phonetic": "/ʃosɛt/",
+      "example": "Je ne trouve pas une paire de chaussettes assorties.",
+      "exampleTranslation": "Parler de problèmes vestimentaires courants"
+    },
+    {
+      "word": "Gants",
+      "translation": "Couvre-mains portés sur les mains",
+      "phonetic": "/ɡɑ̃/",
+      "example": "Portez des gants quand il gèle dehors.",
+      "exampleTranslation": "Conseiller sur les accessoires d'hiver"
+    }
+  ]
+}

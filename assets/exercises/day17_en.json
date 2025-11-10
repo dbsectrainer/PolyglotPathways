@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day17_mc1",
+      "type": "multipleChoice",
+      "question": "What is the first thing you do in the morning?",
+      "options": [
+        "Sleep",
+        "Wake up",
+        "Work",
+        "Play"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day17_mc2",
+      "type": "multipleChoice",
+      "question": "What do you do when you are hungry?",
+      "options": [
+        "Sleep",
+        "Eat",
+        "Clean",
+        "Study"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day17_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I ____ English at school every day.'",
+      "correctAnswer": "study",
+      "acceptableAlternatives": ["learn"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day17_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'After dinner, I ____ my room.'",
+      "correctAnswer": "clean",
+      "acceptableAlternatives": ["tidy"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day17_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Work",
+      "correctTranslation": "Work",
+      "acceptableAlternatives": ["Job", "Labor"]
+    },
+    {
+      "id": "day17_mc3",
+      "type": "multipleChoice",
+      "question": "What do children do at the playground?",
+      "options": [
+        "Work",
+        "Play",
+        "Sleep",
+        "Study"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day17_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I go to ____ at 10 PM every night.'",
+      "correctAnswer": "sleep",
+      "acceptableAlternatives": ["bed"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day17_trans2",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Eat",
+      "correctTranslation": "Eat",
+      "acceptableAlternatives": ["Consume", "Dine"]
+    }
+  ]
+}

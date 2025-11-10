@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Dog",
+      "translation": "A common domestic pet that barks",
+      "phonetic": "/dɔːɡ/",
+      "example": "My dog loves to play fetch in the park.",
+      "exampleTranslation": "Talking about a pet's favorite activity"
+    },
+    {
+      "word": "Cat",
+      "translation": "A small domestic animal that meows",
+      "phonetic": "/kæt/",
+      "example": "The cat is sleeping on the sofa.",
+      "exampleTranslation": "Describing where a pet is resting"
+    },
+    {
+      "word": "Bird",
+      "translation": "An animal with wings that can fly",
+      "phonetic": "/bɜːrd/",
+      "example": "I saw a beautiful bird in the tree.",
+      "exampleTranslation": "Talking about wildlife observation"
+    },
+    {
+      "word": "Fish",
+      "translation": "An animal that lives in water",
+      "phonetic": "/fɪʃ/",
+      "example": "We have colorful fish in our aquarium.",
+      "exampleTranslation": "Describing pets in a tank"
+    },
+    {
+      "word": "Horse",
+      "translation": "A large animal used for riding",
+      "phonetic": "/hɔːrs/",
+      "example": "She learned how to ride a horse last summer.",
+      "exampleTranslation": "Talking about learning a new skill"
+    },
+    {
+      "word": "Cow",
+      "translation": "A farm animal that gives milk",
+      "phonetic": "/kaʊ/",
+      "example": "The farmer milks the cows every morning.",
+      "exampleTranslation": "Describing farm work"
+    },
+    {
+      "word": "Chicken",
+      "translation": "A farm bird that lays eggs",
+      "phonetic": "/ˈtʃɪkɪn/",
+      "example": "We collect fresh eggs from the chickens.",
+      "exampleTranslation": "Talking about farm tasks"
+    },
+    {
+      "word": "Pig",
+      "translation": "A farm animal with a curly tail",
+      "phonetic": "/pɪɡ/",
+      "example": "The pigs are rolling in the mud.",
+      "exampleTranslation": "Describing animal behavior"
+    }
+  ]
+}

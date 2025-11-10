@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Carro",
+      "translation": "Um veículo de quatro rodas para viajar",
+      "phonetic": "/ˈkaʁu/",
+      "example": "Dirigimos nosso carro até a praia.",
+      "exampleTranslation": "Falando sobre uma viagem usando um veículo"
+    },
+    {
+      "word": "Ônibus",
+      "translation": "Um veículo grande que transporta muitos passageiros",
+      "phonetic": "/ˈoniβus/",
+      "example": "Eu pego o ônibus para o trabalho todas as manhãs.",
+      "exampleTranslation": "Descrevendo deslocamento diário"
+    },
+    {
+      "word": "Trem",
+      "translation": "Um veículo que corre sobre trilhos ferroviários",
+      "phonetic": "/tɾẽj/",
+      "example": "O trem chega na estação às 8 da manhã.",
+      "exampleTranslation": "Falando sobre horários de trem"
+    },
+    {
+      "word": "Bicicleta",
+      "translation": "Um veículo de duas rodas movido por pedais",
+      "phonetic": "/bisiˈklɛtɐ/",
+      "example": "Ela vai de bicicleta ao parque todo fim de semana.",
+      "exampleTranslation": "Descrevendo transporte recreativo"
+    },
+    {
+      "word": "Avião",
+      "translation": "Uma aeronave que voa no céu",
+      "phonetic": "/aviˈɐ̃w/",
+      "example": "Vamos pegar um avião para visitar a vovó.",
+      "exampleTranslation": "Discutindo planos de viagem aérea"
+    },
+    {
+      "word": "Barco",
+      "translation": "Um veículo para viajar na água",
+      "phonetic": "/ˈbaʁku/",
+      "example": "Fizemos um passeio de barco ao redor da ilha.",
+      "exampleTranslation": "Falando sobre transporte aquático"
+    },
+    {
+      "word": "Caminhar",
+      "translation": "Mover-se a pé",
+      "phonetic": "/kamiˈɲaʁ/",
+      "example": "Eu caminho até a loja quando o tempo está bom.",
+      "exampleTranslation": "Descrevendo movimento de pedestre"
+    },
+    {
+      "word": "Metrô",
+      "translation": "Um sistema de trem subterrâneo",
+      "phonetic": "/meˈtɾo/",
+      "example": "O metrô é a forma mais rápida de chegar ao centro.",
+      "exampleTranslation": "Discutindo transporte urbano"
+    }
+  ]
+}

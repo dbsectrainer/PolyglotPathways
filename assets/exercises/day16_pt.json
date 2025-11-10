@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day16_mc1",
+      "type": "multipleChoice",
+      "question": "Quando você sorri e se sente bem, você está:",
+      "options": [
+        "Triste",
+        "Feliz",
+        "Bravo",
+        "Cansado"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day16_mc2",
+      "type": "multipleChoice",
+      "question": "Se alguém está gritando e parece chateado, pode estar:",
+      "options": [
+        "Animado",
+        "Bravo",
+        "Feliz",
+        "Com sono"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day16_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Eu me sinto ____ quando assisto um filme de terror.'",
+      "correctAnswer": "assustado",
+      "acceptableAlternatives": ["assustada", "com medo"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day16_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Depois de correr por uma hora, me sinto muito ____.'",
+      "correctAnswer": "cansado",
+      "acceptableAlternatives": ["cansada", "exausto"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day16_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Excited",
+      "correctTranslation": "Animado",
+      "acceptableAlternatives": ["Animada", "Empolgado"]
+    },
+    {
+      "id": "day16_mc3",
+      "type": "multipleChoice",
+      "question": "Quando você chora porque algo ruim aconteceu, você se sente:",
+      "options": [
+        "Feliz",
+        "Triste",
+        "Bravo",
+        "Animado"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day16_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Eu fico ____ antes de fazer uma prova importante.'",
+      "correctAnswer": "nervoso",
+      "acceptableAlternatives": ["nervosa", "ansioso"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day16_trans2",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Happy",
+      "correctTranslation": "Feliz",
+      "acceptableAlternatives": ["Contente", "Alegre"]
+    }
+  ]
+}

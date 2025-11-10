@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Hund",
+      "translation": "Ein häufiges Haustier, das bellt",
+      "phonetic": "/hʊnt/",
+      "example": "Mein Hund spielt gerne Apportieren im Park.",
+      "exampleTranslation": "Über die Lieblingsaktivität eines Haustiers sprechen"
+    },
+    {
+      "word": "Katze",
+      "translation": "Ein kleines Haustier, das miaut",
+      "phonetic": "/ˈkatsə/",
+      "example": "Die Katze schläft auf dem Sofa.",
+      "exampleTranslation": "Beschreiben, wo ein Haustier sich ausruht"
+    },
+    {
+      "word": "Vogel",
+      "translation": "Ein Tier mit Flügeln, das fliegen kann",
+      "phonetic": "/ˈfoːɡl̩/",
+      "example": "Ich habe einen schönen Vogel im Baum gesehen.",
+      "exampleTranslation": "Über Wildtierbeobachtung sprechen"
+    },
+    {
+      "word": "Fisch",
+      "translation": "Ein Tier, das im Wasser lebt",
+      "phonetic": "/fɪʃ/",
+      "example": "Wir haben bunte Fische in unserem Aquarium.",
+      "exampleTranslation": "Haustiere im Tank beschreiben"
+    },
+    {
+      "word": "Pferd",
+      "translation": "Ein großes Tier zum Reiten",
+      "phonetic": "/pfeːɐ̯t/",
+      "example": "Sie hat letzten Sommer gelernt, ein Pferd zu reiten.",
+      "exampleTranslation": "Über das Erlernen einer neuen Fähigkeit sprechen"
+    },
+    {
+      "word": "Kuh",
+      "translation": "Ein Bauernhoftier, das Milch gibt",
+      "phonetic": "/kuː/",
+      "example": "Der Bauer melkt die Kühe jeden Morgen.",
+      "exampleTranslation": "Farmarbeit beschreiben"
+    },
+    {
+      "word": "Huhn",
+      "translation": "Ein Bauernhofvogel, der Eier legt",
+      "phonetic": "/huːn/",
+      "example": "Wir sammeln frische Eier von den Hühnern.",
+      "exampleTranslation": "Über Farmaufgaben sprechen"
+    },
+    {
+      "word": "Schwein",
+      "translation": "Ein Bauernhoftier mit einem Ringelschwanz",
+      "phonetic": "/ʃvaɪn/",
+      "example": "Die Schweine wälzen sich im Schlamm.",
+      "exampleTranslation": "Tierverhalten beschreiben"
+    }
+  ]
+}

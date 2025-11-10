@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Perro",
+      "translation": "Una mascota doméstica común que ladra",
+      "phonetic": "/ˈpero/",
+      "example": "A mi perro le encanta jugar a buscar en el parque.",
+      "exampleTranslation": "Hablando sobre la actividad favorita de una mascota"
+    },
+    {
+      "word": "Gato",
+      "translation": "Un animal doméstico pequeño que maúlla",
+      "phonetic": "/ˈɡato/",
+      "example": "El gato está durmiendo en el sofá.",
+      "exampleTranslation": "Describiendo dónde está descansando una mascota"
+    },
+    {
+      "word": "Pájaro",
+      "translation": "Un animal con alas que puede volar",
+      "phonetic": "/ˈpaxaɾo/",
+      "example": "Vi un pájaro hermoso en el árbol.",
+      "exampleTranslation": "Hablando sobre observación de vida silvestre"
+    },
+    {
+      "word": "Pez",
+      "translation": "Un animal que vive en el agua",
+      "phonetic": "/peθ/",
+      "example": "Tenemos peces coloridos en nuestro acuario.",
+      "exampleTranslation": "Describiendo mascotas en un tanque"
+    },
+    {
+      "word": "Caballo",
+      "translation": "Un animal grande usado para montar",
+      "phonetic": "/kaˈβaʎo/",
+      "example": "Ella aprendió a montar a caballo el verano pasado.",
+      "exampleTranslation": "Hablando sobre aprender una nueva habilidad"
+    },
+    {
+      "word": "Vaca",
+      "translation": "Un animal de granja que da leche",
+      "phonetic": "/ˈbaka/",
+      "example": "El granjero ordeña las vacas todas las mañanas.",
+      "exampleTranslation": "Describiendo trabajo de granja"
+    },
+    {
+      "word": "Pollo",
+      "translation": "Un ave de granja que pone huevos",
+      "phonetic": "/ˈpoʎo/",
+      "example": "Recogemos huevos frescos de los pollos.",
+      "exampleTranslation": "Hablando sobre tareas de granja"
+    },
+    {
+      "word": "Cerdo",
+      "translation": "Un animal de granja con cola rizada",
+      "phonetic": "/ˈθeɾðo/",
+      "example": "Los cerdos están revolcándose en el barro.",
+      "exampleTranslation": "Describiendo comportamiento animal"
+    }
+  ]
+}

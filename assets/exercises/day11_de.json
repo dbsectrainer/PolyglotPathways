@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day11_mc1",
+      "type": "multipleChoice",
+      "question": "Wie spät ist es, wenn die Uhr 12:00 mittags zeigt?",
+      "options": [
+        "Mitternacht",
+        "Mittag",
+        "Morgen",
+        "Abend"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day11_mc2",
+      "type": "multipleChoice",
+      "question": "Wie viele Minuten hat eine Stunde?",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "100"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day11_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ein Tag hat 24 ____.'",
+      "correctAnswer": "Stunden",
+      "acceptableAlternatives": ["stunden"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day11_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ich wache um 7 Uhr ____ auf.'",
+      "correctAnswer": "morgens",
+      "acceptableAlternatives": ["Morgens", "früh"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day11_mc3",
+      "type": "multipleChoice",
+      "question": "Wie nennen wir die Zeit von 12:00 AM bis 11:59 AM?",
+      "options": [
+        "Nachmittag",
+        "Abend",
+        "Morgen",
+        "Nacht"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day11_trans1",
+      "type": "translation",
+      "question": "Welche Tageszeit kommt nach dem Nachmittag?",
+      "targetText": "Zeit nach dem Nachmittag",
+      "correctTranslation": "Abend",
+      "acceptableAlternatives": ["abend"]
+    },
+    {
+      "id": "day11_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Eine Stunde hat sechzig ____.'",
+      "correctAnswer": "Minuten",
+      "acceptableAlternatives": ["minuten"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day11_mc4",
+      "type": "multipleChoice",
+      "question": "Wenn es 3:30 ist, was sagen wir?",
+      "options": [
+        "Drei Uhr",
+        "Halb vier",
+        "Vier Uhr",
+        "Viertel vor drei"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

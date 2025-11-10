@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Soleado",
+      "translation": "Brillante con luz del sol",
+      "phonetic": "/soleˈaðo/",
+      "example": "¡Hoy es un día soleado y hermoso!",
+      "exampleTranslation": "Describiendo un día con mucho sol"
+    },
+    {
+      "word": "Lluvioso",
+      "translation": "Cuando cae agua del cielo",
+      "phonetic": "/ʎuˈβjoso/",
+      "example": "No olvides tu paraguas, está lluvioso afuera.",
+      "exampleTranslation": "Advirtiendo sobre la lluvia"
+    },
+    {
+      "word": "Nublado",
+      "translation": "Cuando el cielo está cubierto de nubes",
+      "phonetic": "/nuˈβlaðo/",
+      "example": "Se ve nublado, puede llover pronto.",
+      "exampleTranslation": "Describiendo clima nublado"
+    },
+    {
+      "word": "Ventoso",
+      "translation": "Cuando hay mucho viento",
+      "phonetic": "/benˈtoso/",
+      "example": "Hace demasiado viento para volar una cometa.",
+      "exampleTranslation": "Describiendo condiciones de viento fuerte"
+    },
+    {
+      "word": "Nieve",
+      "translation": "Agua congelada que cae del cielo",
+      "phonetic": "/ˈnjeβe/",
+      "example": "A los niños les encanta jugar en la nieve.",
+      "exampleTranslation": "Hablando sobre precipitación invernal"
+    },
+    {
+      "word": "Calor",
+      "translation": "Temperatura muy cálida",
+      "phonetic": "/kaˈloɾ/",
+      "example": "Hace demasiado calor para salir sin protector solar.",
+      "exampleTranslation": "Advirtiendo sobre temperaturas altas"
+    },
+    {
+      "word": "Frío",
+      "translation": "Temperatura baja",
+      "phonetic": "/ˈfɾio/",
+      "example": "¡Ponte una chaqueta, hace frío afuera!",
+      "exampleTranslation": "Aconsejando sobre clima frío"
+    },
+    {
+      "word": "Pronóstico del tiempo",
+      "translation": "Predicción de las condiciones climáticas futuras",
+      "phonetic": "/pɾoˈnostiko ðel ˈtjempo/",
+      "example": "Según el pronóstico del tiempo, mañana será soleado.",
+      "exampleTranslation": "Usando predicciones del clima"
+    }
+  ]
+}

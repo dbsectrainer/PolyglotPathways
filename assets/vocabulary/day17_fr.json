@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Se réveiller",
+      "translation": "Cesser de dormir et devenir conscient",
+      "phonetic": "/sə ʁeveje/",
+      "example": "Je me réveille à 7 heures tous les jours.",
+      "exampleTranslation": "Décrire la routine matinale"
+    },
+    {
+      "word": "Manger",
+      "translation": "Consommer de la nourriture",
+      "phonetic": "/mɑ̃ʒe/",
+      "example": "Nous mangeons le dîner ensemble en famille.",
+      "exampleTranslation": "Parler des habitudes alimentaires"
+    },
+    {
+      "word": "Dormir",
+      "translation": "Se reposer les yeux fermés et l'esprit inconscient",
+      "phonetic": "/dɔʁmiʁ/",
+      "example": "Je dois dormir tôt ce soir.",
+      "exampleTranslation": "Exprimer le besoin de repos"
+    },
+    {
+      "word": "Travailler",
+      "translation": "Faire un travail ou une tâche",
+      "phonetic": "/tʁavaje/",
+      "example": "Mes parents travaillent à l'hôpital.",
+      "exampleTranslation": "Décrire l'emploi"
+    },
+    {
+      "word": "Étudier",
+      "translation": "Apprendre en lisant et en pratiquant",
+      "phonetic": "/etydje/",
+      "example": "J'étudie les mathématiques tous les soirs.",
+      "exampleTranslation": "Parler des activités éducatives"
+    },
+    {
+      "word": "Jouer",
+      "translation": "Participer à des activités agréables",
+      "phonetic": "/ʒwe/",
+      "example": "Les enfants jouent dans le parc après l'école.",
+      "exampleTranslation": "Décrire les activités récréatives"
+    },
+    {
+      "word": "Nettoyer",
+      "translation": "Rendre quelque chose propre",
+      "phonetic": "/netwaje/",
+      "example": "Je nettoie ma chambre tous les samedis.",
+      "exampleTranslation": "Parler des tâches ménagères"
+    },
+    {
+      "word": "Faire de l'exercice",
+      "translation": "Faire de l'activité physique pour la santé",
+      "phonetic": "/fɛʁ də lɛɡzɛʁsis/",
+      "example": "Elle fait de l'exercice à la salle de sport trois fois par semaine.",
+      "exampleTranslation": "Décrire la routine de fitness"
+    }
+  ]
+}

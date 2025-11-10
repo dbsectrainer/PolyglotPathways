@@ -1,0 +1,79 @@
+{
+  "exercises": [
+    {
+      "id": "day18_mc1",
+      "type": "multipleChoice",
+      "question": "Wenn du Geld gibst, um etwas in einem Geschäft zu bekommen, dann:",
+      "options": [
+        "Verkaufst du",
+        "Kaufst du",
+        "Kostet du",
+        "Preis du"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day18_mc2",
+      "type": "multipleChoice",
+      "question": "Wenn etwas viel Geld kostet, ist es:",
+      "options": [
+        "Billig",
+        "Teuer",
+        "Kostenlos",
+        "Neu"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day18_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Wie viel ____ das?'",
+      "correctAnswer": "kostet",
+      "caseSensitive": false
+    },
+    {
+      "id": "day18_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ich brauche etwas ____, um Mittagessen zu kaufen.'",
+      "correctAnswer": "Geld",
+      "acceptableAlternatives": ["Bargeld"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day18_trans1",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "Sell",
+      "correctTranslation": "Verkaufen",
+      "acceptableAlternatives": ["Verkaufe"]
+    },
+    {
+      "id": "day18_mc3",
+      "type": "multipleChoice",
+      "question": "Was fragst du, wenn du wissen willst, wie viel etwas kostet?",
+      "options": [
+        "Wie spät ist es?",
+        "Was kostet das?",
+        "Wo ist es?",
+        "Wer hat das gemacht?"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day18_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Dieses Hemd ist sehr ____! Es kostet nur 5€.'",
+      "correctAnswer": "billig",
+      "acceptableAlternatives": ["günstig"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day18_trans2",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "Price",
+      "correctTranslation": "Preis",
+      "acceptableAlternatives": ["Kosten"]
+    }
+  ]
+}

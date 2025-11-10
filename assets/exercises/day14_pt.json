@@ -1,0 +1,79 @@
+{
+  "exercises": [
+    {
+      "id": "day14_mc1",
+      "type": "multipleChoice",
+      "question": "Qual animal é conhecido como o melhor amigo do homem?",
+      "options": [
+        "Gato",
+        "Cachorro",
+        "Pássaro",
+        "Peixe"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day14_mc2",
+      "type": "multipleChoice",
+      "question": "Qual animal vive na água?",
+      "options": [
+        "Cavalo",
+        "Peixe",
+        "Galinha",
+        "Vaca"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day14_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'O ____ pode voar no céu.'",
+      "correctAnswer": "pássaro",
+      "acceptableAlternatives": ["passaro", "ave"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day14_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'O fazendeiro tem muitos animais: vacas, porcos e ____.'",
+      "correctAnswer": "galinhas",
+      "acceptableAlternatives": ["galinha", "cavalos"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day14_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Cat",
+      "correctTranslation": "Gato",
+      "acceptableAlternatives": ["Gatinho"]
+    },
+    {
+      "id": "day14_mc3",
+      "type": "multipleChoice",
+      "question": "Qual animal diz 'miau'?",
+      "options": [
+        "Cachorro",
+        "Gato",
+        "Vaca",
+        "Porco"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day14_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'A ____ nos dá leite.'",
+      "correctAnswer": "vaca",
+      "caseSensitive": false
+    },
+    {
+      "id": "day14_trans2",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Horse",
+      "correctTranslation": "Cavalo",
+      "acceptableAlternatives": ["Pônei"]
+    }
+  ]
+}

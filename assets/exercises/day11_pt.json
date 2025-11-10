@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day11_mc1",
+      "type": "multipleChoice",
+      "question": "Que horas são quando o relógio mostra 12:00 da tarde?",
+      "options": [
+        "Meia-noite",
+        "Meio-dia",
+        "Manhã",
+        "Tarde"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day11_mc2",
+      "type": "multipleChoice",
+      "question": "Quantos minutos há em uma hora?",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "100"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day11_fib1",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Há 24 ____ em um dia.'",
+      "correctAnswer": "horas",
+      "acceptableAlternatives": ["Horas"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day11_fib2",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Eu acordo às 7 horas da ____.'",
+      "correctAnswer": "manhã",
+      "acceptableAlternatives": ["Manhã"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day11_mc3",
+      "type": "multipleChoice",
+      "question": "Como chamamos o tempo das 12:00 AM às 11:59 AM?",
+      "options": [
+        "Tarde",
+        "Noite",
+        "Manhã",
+        "Madrugada"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day11_trans1",
+      "type": "translation",
+      "question": "Que período do tempo vem depois da tarde?",
+      "targetText": "Tempo depois da tarde",
+      "correctTranslation": "Noite",
+      "acceptableAlternatives": ["noite"]
+    },
+    {
+      "id": "day11_fib3",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Uma hora equivale a sessenta ____.'",
+      "correctAnswer": "minutos",
+      "acceptableAlternatives": ["Minutos"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day11_mc4",
+      "type": "multipleChoice",
+      "question": "Se são 3:30, o que dizemos?",
+      "options": [
+        "Três horas",
+        "Três e meia",
+        "Quatro horas",
+        "Quinze para as três"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

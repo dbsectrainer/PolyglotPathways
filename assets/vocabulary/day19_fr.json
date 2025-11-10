@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Gauche",
+      "translation": "La direction opposée à droite",
+      "phonetic": "/ɡoʃ/",
+      "example": "Tournez à gauche au prochain coin.",
+      "exampleTranslation": "Donner des directions"
+    },
+    {
+      "word": "Droite",
+      "translation": "La direction opposée à gauche",
+      "phonetic": "/dʁwat/",
+      "example": "La banque est sur votre droite.",
+      "exampleTranslation": "Décrire l'emplacement"
+    },
+    {
+      "word": "En haut",
+      "translation": "Dans ou vers une position plus élevée",
+      "phonetic": "/ɑ̃ o/",
+      "example": "Montez les escaliers au deuxième étage.",
+      "exampleTranslation": "Donner des directions verticales"
+    },
+    {
+      "word": "En bas",
+      "translation": "Dans ou vers une position plus basse",
+      "phonetic": "/ɑ̃ ba/",
+      "example": "Descendez cette rue pendant deux pâtés de maisons.",
+      "exampleTranslation": "Fournir des directions"
+    },
+    {
+      "word": "Ici",
+      "translation": "À ou en cet endroit",
+      "phonetic": "/isi/",
+      "example": "Viens ici, s'il te plaît!",
+      "exampleTranslation": "Appeler quelqu'un à votre emplacement"
+    },
+    {
+      "word": "Là",
+      "translation": "À ou en cet endroit",
+      "phonetic": "/la/",
+      "example": "Mets le livre là-bas sur la table.",
+      "exampleTranslation": "Indiquer un emplacement"
+    },
+    {
+      "word": "Près",
+      "translation": "Proche en distance",
+      "phonetic": "/pʁɛ/",
+      "example": "L'école est près de ma maison.",
+      "exampleTranslation": "Décrire la proximité"
+    },
+    {
+      "word": "Loin",
+      "translation": "À une grande distance",
+      "phonetic": "/lwɛ̃/",
+      "example": "C'est à quelle distance de l'aéroport?",
+      "exampleTranslation": "Demander la distance"
+    }
+  ]
+}

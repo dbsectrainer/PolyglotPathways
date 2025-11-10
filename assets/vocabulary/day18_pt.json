@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Comprar",
+      "translation": "Adquirir algo com dinheiro",
+      "phonetic": "/kõˈpɾaʁ/",
+      "example": "Quero comprar um livro novo.",
+      "exampleTranslation": "Expressando desejo de comprar"
+    },
+    {
+      "word": "Vender",
+      "translation": "Dar algo em troca de dinheiro",
+      "phonetic": "/vẽˈdeʁ/",
+      "example": "Eles vendem vegetais frescos no mercado.",
+      "exampleTranslation": "Descrevendo o que um vendedor faz"
+    },
+    {
+      "word": "Preço",
+      "translation": "A quantidade de dinheiro que algo custa",
+      "phonetic": "/ˈpɾesu/",
+      "example": "Qual é o preço desta jaqueta?",
+      "exampleTranslation": "Perguntando sobre custo"
+    },
+    {
+      "word": "Caro",
+      "translation": "Que custa muito dinheiro",
+      "phonetic": "/ˈkaɾu/",
+      "example": "Esse relógio é caro demais para mim.",
+      "exampleTranslation": "Comentando sobre custo alto"
+    },
+    {
+      "word": "Barato",
+      "translation": "Que custa pouco dinheiro",
+      "phonetic": "/baˈɾatu/",
+      "example": "Encontrei um hotel barato para nossa viagem.",
+      "exampleTranslation": "Falando sobre opções acessíveis"
+    },
+    {
+      "word": "Dinheiro",
+      "translation": "Moeda usada para comprar coisas",
+      "phonetic": "/diˈɲejɾu/",
+      "example": "Não tenho dinheiro suficiente para comprar aquele carro.",
+      "exampleTranslation": "Expressando limitação financeira"
+    },
+    {
+      "word": "Custar",
+      "translation": "O preço que você deve pagar por algo",
+      "phonetic": "/kusˈtaʁ/",
+      "example": "Quanto custa?",
+      "exampleTranslation": "Perguntando sobre preço"
+    },
+    {
+      "word": "Loja",
+      "translation": "Um lugar onde produtos são vendidos",
+      "phonetic": "/ˈlɔʒɐ/",
+      "example": "Vamos à loja comprar mantimentos.",
+      "exampleTranslation": "Sugerindo uma ida às compras"
+    }
+  ]
+}

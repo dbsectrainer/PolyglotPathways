@@ -1,0 +1,79 @@
+{
+  "exercises": [
+    {
+      "id": "day15_mc1",
+      "type": "multipleChoice",
+      "question": "Which transportation flies in the sky?",
+      "options": [
+        "Car",
+        "Plane",
+        "Bus",
+        "Train"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day15_mc2",
+      "type": "multipleChoice",
+      "question": "Which transportation moves on rails?",
+      "options": [
+        "Bike",
+        "Train",
+        "Boat",
+        "Car"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day15_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I ride my ____ to school every day.'",
+      "correctAnswer": "bike",
+      "acceptableAlternatives": ["bicycle"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day15_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'The ____ crosses the ocean carrying passengers.'",
+      "correctAnswer": "boat",
+      "acceptableAlternatives": ["ship"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day15_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Bus",
+      "correctTranslation": "Bus",
+      "acceptableAlternatives": ["Coach"]
+    },
+    {
+      "id": "day15_mc3",
+      "type": "multipleChoice",
+      "question": "The healthiest way to travel short distances is to:",
+      "options": [
+        "Drive a car",
+        "Walk",
+        "Take a plane",
+        "Ride a bus"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day15_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'My family drives a ____ to go on vacation.'",
+      "correctAnswer": "car",
+      "caseSensitive": false
+    },
+    {
+      "id": "day15_trans2",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Plane",
+      "correctTranslation": "Plane",
+      "acceptableAlternatives": ["Airplane", "Aircraft"]
+    }
+  ]
+}

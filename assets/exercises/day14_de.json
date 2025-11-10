@@ -1,0 +1,78 @@
+{
+  "exercises": [
+    {
+      "id": "day14_mc1",
+      "type": "multipleChoice",
+      "question": "Welches Tier ist als bester Freund des Menschen bekannt?",
+      "options": [
+        "Katze",
+        "Hund",
+        "Vogel",
+        "Fisch"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day14_mc2",
+      "type": "multipleChoice",
+      "question": "Welches Tier lebt im Wasser?",
+      "options": [
+        "Pferd",
+        "Fisch",
+        "Huhn",
+        "Kuh"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day14_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Der ____ kann am Himmel fliegen.'",
+      "correctAnswer": "Vogel",
+      "caseSensitive": false
+    },
+    {
+      "id": "day14_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Der Bauer hat viele Tiere: Kühe, Schweine und ____.'",
+      "correctAnswer": "Hühner",
+      "acceptableAlternatives": ["Huhn", "Pferde"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day14_trans1",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "Cat",
+      "correctTranslation": "Katze",
+      "acceptableAlternatives": ["Kätzchen"]
+    },
+    {
+      "id": "day14_mc3",
+      "type": "multipleChoice",
+      "question": "Welches Tier macht 'miau'?",
+      "options": [
+        "Hund",
+        "Katze",
+        "Kuh",
+        "Schwein"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day14_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Die ____ gibt uns Milch.'",
+      "correctAnswer": "Kuh",
+      "caseSensitive": false
+    },
+    {
+      "id": "day14_trans2",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "Horse",
+      "correctTranslation": "Pferd",
+      "acceptableAlternatives": ["Pony"]
+    }
+  ]
+}

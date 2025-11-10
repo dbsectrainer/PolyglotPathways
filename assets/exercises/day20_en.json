@@ -1,0 +1,77 @@
+{
+  "exercises": [
+    {
+      "id": "day20_mc1",
+      "type": "multipleChoice",
+      "question": "Which question word asks about a person?",
+      "options": [
+        "What",
+        "Who",
+        "Where",
+        "When"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day20_mc2",
+      "type": "multipleChoice",
+      "question": "Which question word asks about time?",
+      "options": [
+        "Why",
+        "When",
+        "Where",
+        "Which"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day20_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: '____ are you going? To the store.'",
+      "correctAnswer": "Where",
+      "caseSensitive": false
+    },
+    {
+      "id": "day20_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: '____ is your favorite color? Blue.'",
+      "correctAnswer": "What",
+      "caseSensitive": false
+    },
+    {
+      "id": "day20_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "How",
+      "correctTranslation": "How",
+      "acceptableAlternatives": ["In what way"]
+    },
+    {
+      "id": "day20_mc3",
+      "type": "multipleChoice",
+      "question": "'Why' is used to ask about:",
+      "options": [
+        "Location",
+        "Reason",
+        "Person",
+        "Time"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day20_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: '____ book do you want? This one or that one?'",
+      "correctAnswer": "Which",
+      "caseSensitive": false
+    },
+    {
+      "id": "day20_trans2",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Why",
+      "correctTranslation": "Why",
+      "acceptableAlternatives": ["For what reason"]
+    }
+  ]
+}

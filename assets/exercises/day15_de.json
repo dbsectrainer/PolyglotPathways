@@ -1,0 +1,79 @@
+{
+  "exercises": [
+    {
+      "id": "day15_mc1",
+      "type": "multipleChoice",
+      "question": "Welches Transportmittel fliegt am Himmel?",
+      "options": [
+        "Auto",
+        "Flugzeug",
+        "Bus",
+        "Zug"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day15_mc2",
+      "type": "multipleChoice",
+      "question": "Welches Transportmittel bewegt sich auf Schienen?",
+      "options": [
+        "Fahrrad",
+        "Zug",
+        "Boot",
+        "Auto"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day15_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ich fahre jeden Tag mit dem ____ zur Schule.'",
+      "correctAnswer": "Fahrrad",
+      "acceptableAlternatives": ["Rad"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day15_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Das ____ überquert den Ozean mit Passagieren.'",
+      "correctAnswer": "Boot",
+      "acceptableAlternatives": ["Schiff"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day15_trans1",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "Bus",
+      "correctTranslation": "Bus",
+      "acceptableAlternatives": ["Autobus"]
+    },
+    {
+      "id": "day15_mc3",
+      "type": "multipleChoice",
+      "question": "Die gesündeste Art, kurze Strecken zu reisen, ist:",
+      "options": [
+        "Ein Auto fahren",
+        "Zu Fuß gehen",
+        "Ein Flugzeug nehmen",
+        "Einen Bus nehmen"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day15_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Meine Familie fährt ein ____, um in den Urlaub zu fahren.'",
+      "correctAnswer": "Auto",
+      "caseSensitive": false
+    },
+    {
+      "id": "day15_trans2",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "Plane",
+      "correctTranslation": "Flugzeug",
+      "acceptableAlternatives": ["Flieger"]
+    }
+  ]
+}

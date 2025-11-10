@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day17_mc1",
+      "type": "multipleChoice",
+      "question": "Quelle est la première chose que vous faites le matin?",
+      "options": [
+        "Dormir",
+        "Se réveiller",
+        "Travailler",
+        "Jouer"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day17_mc2",
+      "type": "multipleChoice",
+      "question": "Que faites-vous quand vous avez faim?",
+      "options": [
+        "Dormir",
+        "Manger",
+        "Nettoyer",
+        "Étudier"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day17_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'J'____ l'anglais à l'école tous les jours.'",
+      "correctAnswer": "étudie",
+      "acceptableAlternatives": ["apprends"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day17_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Après le dîner, je ____ ma chambre.'",
+      "correctAnswer": "nettoie",
+      "acceptableAlternatives": ["range"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day17_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Work",
+      "correctTranslation": "Travailler",
+      "acceptableAlternatives": ["Travail"]
+    },
+    {
+      "id": "day17_mc3",
+      "type": "multipleChoice",
+      "question": "Que font les enfants sur l'aire de jeux?",
+      "options": [
+        "Travailler",
+        "Jouer",
+        "Dormir",
+        "Étudier"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day17_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Je vais ____ à 22 heures tous les soirs.'",
+      "correctAnswer": "dormir",
+      "acceptableAlternatives": ["me coucher"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day17_trans2",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Eat",
+      "correctTranslation": "Manger",
+      "acceptableAlternatives": ["Mange"]
+    }
+  ]
+}

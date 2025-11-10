@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Heure",
+      "translation": "60 minutes de temps",
+      "phonetic": "/œʁ/",
+      "example": "La réunion dure une heure.",
+      "exampleTranslation": "Une unité de mesure du temps"
+    },
+    {
+      "word": "Minute",
+      "translation": "60 secondes de temps",
+      "phonetic": "/minyt/",
+      "example": "Attendez une minute, s'il vous plaît.",
+      "exampleTranslation": "Une petite unité de temps"
+    },
+    {
+      "word": "Seconde",
+      "translation": "Une très courte unité de temps",
+      "phonetic": "/səɡɔ̃d/",
+      "example": "Il faut une seconde pour cligner des yeux.",
+      "exampleTranslation": "La plus petite unité de temps courante"
+    },
+    {
+      "word": "Matin",
+      "translation": "Partie précoce de la journée",
+      "phonetic": "/matɛ̃/",
+      "example": "Je bois du café chaque matin.",
+      "exampleTranslation": "Temps du lever du soleil à midi"
+    },
+    {
+      "word": "Après-midi",
+      "translation": "Temps entre midi et le soir",
+      "phonetic": "/apʁɛmidi/",
+      "example": "Nous déjeunons l'après-midi.",
+      "exampleTranslation": "Partie du milieu de la journée"
+    },
+    {
+      "word": "Soir",
+      "translation": "Partie tardive de la journée",
+      "phonetic": "/swaʁ/",
+      "example": "Nous dînons le soir.",
+      "exampleTranslation": "Temps avant la nuit"
+    },
+    {
+      "word": "Nuit",
+      "translation": "Heures sombres où nous dormons",
+      "phonetic": "/nɥi/",
+      "example": "Bonne nuit, dormez bien.",
+      "exampleTranslation": "Temps après le coucher du soleil"
+    },
+    {
+      "word": "Heures",
+      "translation": "Indique l'heure exacte",
+      "phonetic": "/œʁ/",
+      "example": "Il est trois heures.",
+      "exampleTranslation": "Utilisé pour dire l'heure"
+    },
+    {
+      "word": "Aujourd'hui",
+      "translation": "Ce jour actuel",
+      "phonetic": "/oʒuʁdɥi/",
+      "example": "Quel jour sommes-nous aujourd'hui?",
+      "exampleTranslation": "Le jour présent"
+    }
+  ]
+}

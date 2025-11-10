@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Camisa",
+      "translation": "Ropa usada en la parte superior del cuerpo",
+      "phonetic": "/kaˈmisa/",
+      "example": "Él lleva una camisa azul hoy.",
+      "exampleTranslation": "Describiendo la ropa de la parte superior del cuerpo de alguien"
+    },
+    {
+      "word": "Pantalones",
+      "translation": "Ropa usada en las piernas",
+      "phonetic": "/pantaˈlones/",
+      "example": "Estos pantalones están muy apretados para mí.",
+      "exampleTranslation": "Hablando sobre ropa de piernas"
+    },
+    {
+      "word": "Vestido",
+      "translation": "Prenda de una pieza para mujeres o niñas",
+      "phonetic": "/besˈtiðo/",
+      "example": "Ella usó un vestido hermoso en la boda.",
+      "exampleTranslation": "Describiendo vestimenta formal"
+    },
+    {
+      "word": "Zapatos",
+      "translation": "Calzado que cubre los pies",
+      "phonetic": "/θaˈpatos/",
+      "example": "Necesito comprar zapatos nuevos para correr.",
+      "exampleTranslation": "Hablando sobre necesidades de calzado"
+    },
+    {
+      "word": "Sombrero",
+      "translation": "Cobertura usada en la cabeza",
+      "phonetic": "/somˈbɾeɾo/",
+      "example": "Usa un sombrero para protegerte del sol.",
+      "exampleTranslation": "Aconsejando sobre protección solar"
+    },
+    {
+      "word": "Chaqueta",
+      "translation": "Prenda exterior usada sobre otra ropa",
+      "phonetic": "/tʃaˈketa/",
+      "example": "Hace frío afuera, trae tu chaqueta.",
+      "exampleTranslation": "Sugiriendo ropa abrigada"
+    },
+    {
+      "word": "Calcetines",
+      "translation": "Ropa usada en los pies dentro de los zapatos",
+      "phonetic": "/kalθeˈtines/",
+      "example": "No puedo encontrar un par de calcetines que hagan juego.",
+      "exampleTranslation": "Hablando sobre problemas comunes de ropa"
+    },
+    {
+      "word": "Guantes",
+      "translation": "Cobertura usada en las manos",
+      "phonetic": "/ˈɡwantes/",
+      "example": "Usa guantes cuando esté helado afuera.",
+      "exampleTranslation": "Aconsejando sobre accesorios de invierno"
+    }
+  ]
+}

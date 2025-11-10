@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Wake up",
+      "translation": "To stop sleeping and become conscious",
+      "phonetic": "/weɪk ʌp/",
+      "example": "I wake up at 7 AM every day.",
+      "exampleTranslation": "Describing morning routine"
+    },
+    {
+      "word": "Eat",
+      "translation": "To consume food",
+      "phonetic": "/iːt/",
+      "example": "We eat dinner together as a family.",
+      "exampleTranslation": "Talking about mealtime habits"
+    },
+    {
+      "word": "Sleep",
+      "translation": "To rest with eyes closed and mind unconscious",
+      "phonetic": "/sliːp/",
+      "example": "I need to sleep early tonight.",
+      "exampleTranslation": "Expressing need for rest"
+    },
+    {
+      "word": "Work",
+      "translation": "To do a job or task",
+      "phonetic": "/wɜːrk/",
+      "example": "My parents work at a hospital.",
+      "exampleTranslation": "Describing employment"
+    },
+    {
+      "word": "Study",
+      "translation": "To learn by reading and practicing",
+      "phonetic": "/ˈstʌdi/",
+      "example": "I study math every evening.",
+      "exampleTranslation": "Talking about educational activities"
+    },
+    {
+      "word": "Play",
+      "translation": "To engage in enjoyable activities",
+      "phonetic": "/pleɪ/",
+      "example": "The children play in the park after school.",
+      "exampleTranslation": "Describing recreational activities"
+    },
+    {
+      "word": "Clean",
+      "translation": "To make something free from dirt",
+      "phonetic": "/kliːn/",
+      "example": "I clean my room every Saturday.",
+      "exampleTranslation": "Talking about household chores"
+    },
+    {
+      "word": "Exercise",
+      "translation": "To do physical activity for health",
+      "phonetic": "/ˈɛksərsaɪz/",
+      "example": "She exercises at the gym three times a week.",
+      "exampleTranslation": "Describing fitness routine"
+    }
+  ]
+}

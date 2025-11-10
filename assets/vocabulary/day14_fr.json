@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Chien",
+      "translation": "Un animal de compagnie domestique courant qui aboie",
+      "phonetic": "/ʃjɛ̃/",
+      "example": "Mon chien adore jouer à rapporter dans le parc.",
+      "exampleTranslation": "Parler de l'activité préférée d'un animal"
+    },
+    {
+      "word": "Chat",
+      "translation": "Un petit animal domestique qui miaule",
+      "phonetic": "/ʃa/",
+      "example": "Le chat dort sur le canapé.",
+      "exampleTranslation": "Décrire où un animal se repose"
+    },
+    {
+      "word": "Oiseau",
+      "translation": "Un animal avec des ailes qui peut voler",
+      "phonetic": "/wazo/",
+      "example": "J'ai vu un bel oiseau dans l'arbre.",
+      "exampleTranslation": "Parler d'observation de la faune"
+    },
+    {
+      "word": "Poisson",
+      "translation": "Un animal qui vit dans l'eau",
+      "phonetic": "/pwasɔ̃/",
+      "example": "Nous avons des poissons colorés dans notre aquarium.",
+      "exampleTranslation": "Décrire des animaux dans un aquarium"
+    },
+    {
+      "word": "Cheval",
+      "translation": "Un grand animal utilisé pour monter",
+      "phonetic": "/ʃəval/",
+      "example": "Elle a appris à monter à cheval l'été dernier.",
+      "exampleTranslation": "Parler d'apprendre une nouvelle compétence"
+    },
+    {
+      "word": "Vache",
+      "translation": "Un animal de ferme qui donne du lait",
+      "phonetic": "/vaʃ/",
+      "example": "Le fermier trait les vaches tous les matins.",
+      "exampleTranslation": "Décrire le travail à la ferme"
+    },
+    {
+      "word": "Poulet",
+      "translation": "Un oiseau de ferme qui pond des œufs",
+      "phonetic": "/pulɛ/",
+      "example": "Nous ramassons des œufs frais des poulets.",
+      "exampleTranslation": "Parler des tâches à la ferme"
+    },
+    {
+      "word": "Cochon",
+      "translation": "Un animal de ferme avec une queue en tire-bouchon",
+      "phonetic": "/kɔʃɔ̃/",
+      "example": "Les cochons se roulent dans la boue.",
+      "exampleTranslation": "Décrire le comportement animal"
+    }
+  ]
+}

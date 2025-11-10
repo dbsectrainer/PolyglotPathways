@@ -1,0 +1,79 @@
+{
+  "exercises": [
+    {
+      "id": "day13_mc1",
+      "type": "multipleChoice",
+      "question": "Was trägst du an deinen Füßen?",
+      "options": [
+        "Hut",
+        "Schuhe",
+        "Kleid",
+        "Jacke"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day13_mc2",
+      "type": "multipleChoice",
+      "question": "Was trägst du, wenn es draußen kalt ist?",
+      "options": [
+        "Shorts",
+        "Jacke",
+        "Badeanzug",
+        "Tank Top"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day13_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ich muss ein neues ____ kaufen, um es zur Party zu tragen.'",
+      "correctAnswer": "Kleid",
+      "acceptableAlternatives": ["Outfit"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day13_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Vergiss nicht, deinen ____ zu tragen, wenn du in die Sonne gehst!'",
+      "correctAnswer": "Hut",
+      "acceptableAlternatives": ["Kappe"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day13_trans1",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "Pants",
+      "correctTranslation": "Hose",
+      "acceptableAlternatives": ["Hosen"]
+    },
+    {
+      "id": "day13_mc3",
+      "type": "multipleChoice",
+      "question": "Was trägst du an deinen Händen, um sie warm zu halten?",
+      "options": [
+        "Socken",
+        "Schuhe",
+        "Handschuhe",
+        "Hut"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day13_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Zieh saubere ____ an, bevor du deine Schuhe anziehst.'",
+      "correctAnswer": "Socken",
+      "caseSensitive": false
+    },
+    {
+      "id": "day13_trans2",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "Shirt",
+      "correctTranslation": "Hemd",
+      "acceptableAlternatives": ["T-Shirt", "Bluse"]
+    }
+  ]
+}

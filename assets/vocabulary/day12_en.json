@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Sunny",
+      "translation": "Bright with sunlight",
+      "phonetic": "/ˈsʌni/",
+      "example": "It's a beautiful sunny day today!",
+      "exampleTranslation": "Describing a day with lots of sunshine"
+    },
+    {
+      "word": "Rainy",
+      "translation": "When water falls from the sky",
+      "phonetic": "/ˈreɪni/",
+      "example": "Don't forget your umbrella, it's rainy outside.",
+      "exampleTranslation": "Warning about rain"
+    },
+    {
+      "word": "Cloudy",
+      "translation": "When the sky is covered with clouds",
+      "phonetic": "/ˈklaʊdi/",
+      "example": "It looks cloudy, it might rain soon.",
+      "exampleTranslation": "Describing overcast weather"
+    },
+    {
+      "word": "Windy",
+      "translation": "When there is a lot of wind",
+      "phonetic": "/ˈwɪndi/",
+      "example": "It's too windy to fly a kite safely.",
+      "exampleTranslation": "Describing strong wind conditions"
+    },
+    {
+      "word": "Snow",
+      "translation": "Frozen water that falls from the sky",
+      "phonetic": "/snoʊ/",
+      "example": "The children love to play in the snow.",
+      "exampleTranslation": "Talking about winter precipitation"
+    },
+    {
+      "word": "Hot",
+      "translation": "Very warm temperature",
+      "phonetic": "/hɑːt/",
+      "example": "It's too hot to go outside without sunscreen.",
+      "exampleTranslation": "Warning about high temperatures"
+    },
+    {
+      "word": "Cold",
+      "translation": "Low temperature",
+      "phonetic": "/koʊld/",
+      "example": "Wear a jacket, it's cold outside!",
+      "exampleTranslation": "Advising about cold weather"
+    },
+    {
+      "word": "Weather forecast",
+      "translation": "Prediction of future weather conditions",
+      "phonetic": "/ˈwɛðər ˈfɔːrkæst/",
+      "example": "According to the weather forecast, it will be sunny tomorrow.",
+      "exampleTranslation": "Using weather predictions"
+    }
+  ]
+}

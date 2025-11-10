@@ -1,0 +1,79 @@
+{
+  "exercises": [
+    {
+      "id": "day19_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué dirección es opuesta a derecha?",
+      "options": [
+        "Arriba",
+        "Izquierda",
+        "Abajo",
+        "Cerca"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day19_mc2",
+      "type": "multipleChoice",
+      "question": "Si algo no está lejos, está:",
+      "options": [
+        "Allí",
+        "Cerca",
+        "Arriba",
+        "Izquierda"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day19_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '¡Mira hacia ____! ¡Hay un pájaro en el cielo!'",
+      "correctAnswer": "arriba",
+      "caseSensitive": false
+    },
+    {
+      "id": "day19_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '¡Ven ____! Te estoy esperando.'",
+      "correctAnswer": "aquí",
+      "acceptableAlternatives": ["acá"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day19_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Down",
+      "correctTranslation": "Abajo",
+      "acceptableAlternatives": ["Hacia abajo"]
+    },
+    {
+      "id": "day19_mc3",
+      "type": "multipleChoice",
+      "question": "Al dar direcciones, 'por allá' significa:",
+      "options": [
+        "Justo aquí",
+        "Lejos en esa dirección",
+        "Muy cerca",
+        "Detrás de ti"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day19_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'La tienda está muy ____. Se tarda una hora en llegar caminando.'",
+      "correctAnswer": "lejos",
+      "acceptableAlternatives": ["distante"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day19_trans2",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Right",
+      "correctTranslation": "Derecha",
+      "acceptableAlternatives": ["A la derecha"]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "exercises": [
+    {
+      "id": "day20_mc1",
+      "type": "multipleChoice",
+      "question": "Qual palavra de pergunta é usada para pessoas?",
+      "options": [
+        "O que",
+        "Quem",
+        "Onde",
+        "Quando"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day20_mc2",
+      "type": "multipleChoice",
+      "question": "Qual palavra de pergunta é usada para tempo?",
+      "options": [
+        "Por que",
+        "Quando",
+        "Onde",
+        "Qual"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day20_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: '____ você está indo? Para a loja.'",
+      "correctAnswer": "Onde",
+      "acceptableAlternatives": ["Para onde"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day20_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: '____ é sua cor favorita? Azul.'",
+      "correctAnswer": "Qual",
+      "caseSensitive": false
+    },
+    {
+      "id": "day20_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "How",
+      "correctTranslation": "Como",
+      "acceptableAlternatives": ["De que maneira"]
+    },
+    {
+      "id": "day20_mc3",
+      "type": "multipleChoice",
+      "question": "'Por que' é usado para perguntar sobre:",
+      "options": [
+        "Localização",
+        "Razão",
+        "Pessoa",
+        "Tempo"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day20_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: '____ livro você quer? Este ou aquele?'",
+      "correctAnswer": "Qual",
+      "caseSensitive": false
+    },
+    {
+      "id": "day20_trans2",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Why",
+      "correctTranslation": "Por que",
+      "acceptableAlternatives": ["Porque"]
+    }
+  ]
+}

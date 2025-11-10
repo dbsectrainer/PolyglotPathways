@@ -1,0 +1,79 @@
+{
+  "exercises": [
+    {
+      "id": "day13_mc1",
+      "type": "multipleChoice",
+      "question": "Que portez-vous sur vos pieds?",
+      "options": [
+        "Chapeau",
+        "Chaussures",
+        "Robe",
+        "Veste"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day13_mc2",
+      "type": "multipleChoice",
+      "question": "Que portez-vous quand il fait froid dehors?",
+      "options": [
+        "Short",
+        "Veste",
+        "Maillot de bain",
+        "Débardeur"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day13_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'J'ai besoin d'acheter une nouvelle ____ pour porter à la fête.'",
+      "correctAnswer": "robe",
+      "acceptableAlternatives": ["tenue"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day13_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'N'oubliez pas de porter votre ____ quand vous sortez au soleil!'",
+      "correctAnswer": "chapeau",
+      "acceptableAlternatives": ["casquette"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day13_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Pants",
+      "correctTranslation": "Pantalon",
+      "acceptableAlternatives": ["Pantalons"]
+    },
+    {
+      "id": "day13_mc3",
+      "type": "multipleChoice",
+      "question": "Que portez-vous sur vos mains pour les garder au chaud?",
+      "options": [
+        "Chaussettes",
+        "Chaussures",
+        "Gants",
+        "Chapeau"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day13_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Mettez des ____ propres avant de mettre vos chaussures.'",
+      "correctAnswer": "chaussettes",
+      "caseSensitive": false
+    },
+    {
+      "id": "day13_trans2",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Shirt",
+      "correctTranslation": "Chemise",
+      "acceptableAlternatives": ["T-shirt", "Chemisier"]
+    }
+  ]
+}

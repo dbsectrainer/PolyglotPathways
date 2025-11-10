@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Stunde",
+      "translation": "60 Minuten Zeit",
+      "phonetic": "/ˈʃtʊndə/",
+      "example": "Das Treffen dauert eine Stunde.",
+      "exampleTranslation": "Eine Zeitmaßeinheit"
+    },
+    {
+      "word": "Minute",
+      "translation": "60 Sekunden Zeit",
+      "phonetic": "/miˈnuːtə/",
+      "example": "Warte eine Minute, bitte.",
+      "exampleTranslation": "Eine kleine Zeiteinheit"
+    },
+    {
+      "word": "Sekunde",
+      "translation": "Eine sehr kurze Zeiteinheit",
+      "phonetic": "/zeˈkʊndə/",
+      "example": "Es dauert eine Sekunde zu blinzeln.",
+      "exampleTranslation": "Die kleinste gängige Zeiteinheit"
+    },
+    {
+      "word": "Morgen",
+      "translation": "Früher Teil des Tages",
+      "phonetic": "/ˈmɔʁɡən/",
+      "example": "Ich trinke jeden Morgen Kaffee.",
+      "exampleTranslation": "Zeit vom Sonnenaufgang bis Mittag"
+    },
+    {
+      "word": "Nachmittag",
+      "translation": "Zeit zwischen Mittag und Abend",
+      "phonetic": "/ˈnaːxmɪˌtaːk/",
+      "example": "Wir essen am Nachmittag zu Mittag.",
+      "exampleTranslation": "Mittlerer Teil des Tages"
+    },
+    {
+      "word": "Abend",
+      "translation": "Später Teil des Tages",
+      "phonetic": "/ˈaːbənt/",
+      "example": "Wir essen am Abend zu Abend.",
+      "exampleTranslation": "Zeit vor der Nacht"
+    },
+    {
+      "word": "Nacht",
+      "translation": "Dunkle Stunden, in denen wir schlafen",
+      "phonetic": "/naxt/",
+      "example": "Gute Nacht, schlaf gut.",
+      "exampleTranslation": "Zeit nach Sonnenuntergang"
+    },
+    {
+      "word": "Uhr",
+      "translation": "Zeigt die genaue Stunde an",
+      "phonetic": "/uːɐ/",
+      "example": "Es ist drei Uhr.",
+      "exampleTranslation": "Wird verwendet, um die Zeit anzugeben"
+    },
+    {
+      "word": "Heute",
+      "translation": "Dieser aktuelle Tag",
+      "phonetic": "/ˈhɔʏtə/",
+      "example": "Welcher Tag ist heute?",
+      "exampleTranslation": "Der gegenwärtige Tag"
+    }
+  ]
+}

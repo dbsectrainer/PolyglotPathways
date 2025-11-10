@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Happy",
+      "translation": "Feeling joy and contentment",
+      "phonetic": "/ˈhæpi/",
+      "example": "I'm so happy to see you!",
+      "exampleTranslation": "Expressing joy at meeting someone"
+    },
+    {
+      "word": "Sad",
+      "translation": "Feeling sorrow or unhappiness",
+      "phonetic": "/sæd/",
+      "example": "She feels sad because her pet is sick.",
+      "exampleTranslation": "Explaining a reason for sadness"
+    },
+    {
+      "word": "Angry",
+      "translation": "Feeling strong displeasure or rage",
+      "phonetic": "/ˈæŋɡri/",
+      "example": "He gets angry when people are late.",
+      "exampleTranslation": "Describing what causes anger"
+    },
+    {
+      "word": "Scared",
+      "translation": "Feeling fear or fright",
+      "phonetic": "/skɛrd/",
+      "example": "The child is scared of the dark.",
+      "exampleTranslation": "Talking about a common fear"
+    },
+    {
+      "word": "Excited",
+      "translation": "Feeling enthusiasm and eagerness",
+      "phonetic": "/ɪkˈsaɪtɪd/",
+      "example": "I'm excited about my birthday party!",
+      "exampleTranslation": "Expressing anticipation for an event"
+    },
+    {
+      "word": "Tired",
+      "translation": "Feeling exhausted or needing rest",
+      "phonetic": "/taɪərd/",
+      "example": "I'm too tired to go out tonight.",
+      "exampleTranslation": "Declining an invitation due to fatigue"
+    },
+    {
+      "word": "Nervous",
+      "translation": "Feeling anxious or worried",
+      "phonetic": "/ˈnɜːrvəs/",
+      "example": "I'm nervous about the job interview.",
+      "exampleTranslation": "Expressing anxiety about future events"
+    },
+    {
+      "word": "Proud",
+      "translation": "Feeling satisfaction in achievements",
+      "phonetic": "/praʊd/",
+      "example": "I'm proud of my daughter's success.",
+      "exampleTranslation": "Expressing satisfaction in someone's accomplishment"
+    }
+  ]
+}

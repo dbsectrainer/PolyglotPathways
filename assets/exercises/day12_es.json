@@ -1,0 +1,79 @@
+{
+  "exercises": [
+    {
+      "id": "day12_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué clima es mejor para un picnic?",
+      "options": [
+        "Lluvioso",
+        "Soleado",
+        "Nevado",
+        "Tormentoso"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day12_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué necesitas cuando llueve?",
+      "options": [
+        "Gafas de sol",
+        "Paraguas",
+        "Traje de baño",
+        "Pantalones cortos"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day12_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '¡Hace mucho ____ afuera, ponte ropa abrigada!'",
+      "correctAnswer": "frío",
+      "acceptableAlternatives": ["frio"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day12_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '¡Mira el ____! Dice que lloverá mañana.'",
+      "correctAnswer": "pronóstico",
+      "acceptableAlternatives": ["pronostico", "pronóstico del tiempo"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day12_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "It's windy",
+      "correctTranslation": "Hace viento",
+      "acceptableAlternatives": ["Está ventoso", "Hay viento"]
+    },
+    {
+      "id": "day12_mc3",
+      "type": "multipleChoice",
+      "question": "Cuando no puedes ver el sol por las nubes, está:",
+      "options": [
+        "Nublado",
+        "Caluroso",
+        "Ventoso",
+        "Nevando"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day12_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '¡Hace tanto ____ hoy! Necesito beber más agua.'",
+      "correctAnswer": "calor",
+      "caseSensitive": false
+    },
+    {
+      "id": "day12_trans2",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Snow",
+      "correctTranslation": "Nieve",
+      "acceptableAlternatives": ["Está nevando", "Nieva"]
+    }
+  ]
+}

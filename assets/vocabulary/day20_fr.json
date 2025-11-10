@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Qui",
+      "translation": "Mot interrogatif demandant à propos d'une personne",
+      "phonetic": "/ki/",
+      "example": "Qui est cette personne?",
+      "exampleTranslation": "Demander l'identité de quelqu'un"
+    },
+    {
+      "word": "Quoi",
+      "translation": "Mot interrogatif demandant à propos de choses ou d'informations",
+      "phonetic": "/kwa/",
+      "example": "Quel est votre nom?",
+      "exampleTranslation": "Demander des informations de base"
+    },
+    {
+      "word": "Quand",
+      "translation": "Mot interrogatif demandant à propos du temps",
+      "phonetic": "/kɑ̃/",
+      "example": "Quand commence le film?",
+      "exampleTranslation": "Demander le moment"
+    },
+    {
+      "word": "Où",
+      "translation": "Mot interrogatif demandant à propos de l'emplacement",
+      "phonetic": "/u/",
+      "example": "Où habitez-vous?",
+      "exampleTranslation": "S'enquérir du lieu"
+    },
+    {
+      "word": "Pourquoi",
+      "translation": "Mot interrogatif demandant à propos des raisons",
+      "phonetic": "/puʁkwa/",
+      "example": "Pourquoi êtes-vous triste?",
+      "exampleTranslation": "Demander une explication"
+    },
+    {
+      "word": "Comment",
+      "translation": "Mot interrogatif demandant à propos de la manière ou de la méthode",
+      "phonetic": "/kɔmɑ̃/",
+      "example": "Comment faites-vous des biscuits?",
+      "exampleTranslation": "Demander des instructions"
+    },
+    {
+      "word": "Quel",
+      "translation": "Mot interrogatif pour choisir entre des options",
+      "phonetic": "/kɛl/",
+      "example": "Quelle couleur préférez-vous, rouge ou bleu?",
+      "exampleTranslation": "Demander une préférence"
+    },
+    {
+      "word": "À qui",
+      "translation": "Mot interrogatif demandant à propos de la possession",
+      "phonetic": "/a ki/",
+      "example": "À qui est ce sac à dos?",
+      "exampleTranslation": "Déterminer la propriété"
+    }
+  ]
+}

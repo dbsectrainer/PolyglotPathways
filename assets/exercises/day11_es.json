@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day11_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué hora es cuando el reloj muestra las 12:00 del mediodía?",
+      "options": [
+        "Medianoche",
+        "Mediodía",
+        "Mañana",
+        "Tarde"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day11_mc2",
+      "type": "multipleChoice",
+      "question": "¿Cuántos minutos hay en una hora?",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "100"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day11_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Hay 24 ____ en un día.'",
+      "correctAnswer": "horas",
+      "acceptableAlternatives": ["Horas"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day11_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Me despierto a las 7 de la ____.'",
+      "correctAnswer": "mañana",
+      "acceptableAlternatives": ["Mañana"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day11_mc3",
+      "type": "multipleChoice",
+      "question": "¿Cómo llamamos al tiempo desde las 12:00 AM hasta las 11:59 AM?",
+      "options": [
+        "Tarde",
+        "Noche",
+        "Mañana",
+        "Madrugada"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day11_trans1",
+      "type": "translation",
+      "question": "¿Qué período del tiempo viene después de la tarde?",
+      "targetText": "Tiempo después de la tarde",
+      "correctTranslation": "Noche",
+      "acceptableAlternatives": ["noche"]
+    },
+    {
+      "id": "day11_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Una hora equivale a sesenta ____.'",
+      "correctAnswer": "minutos",
+      "acceptableAlternatives": ["Minutos"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day11_mc4",
+      "type": "multipleChoice",
+      "question": "Si son las 3:30, ¿qué decimos?",
+      "options": [
+        "Tres en punto",
+        "Tres y media",
+        "Cuatro en punto",
+        "Cuarto para las tres"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

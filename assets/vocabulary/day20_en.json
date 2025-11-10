@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Who",
+      "translation": "Question word asking about a person",
+      "phonetic": "/huː/",
+      "example": "Who is that person?",
+      "exampleTranslation": "Asking about someone's identity"
+    },
+    {
+      "word": "What",
+      "translation": "Question word asking about things or information",
+      "phonetic": "/wɑːt/",
+      "example": "What is your name?",
+      "exampleTranslation": "Requesting basic information"
+    },
+    {
+      "word": "When",
+      "translation": "Question word asking about time",
+      "phonetic": "/wɛn/",
+      "example": "When does the movie start?",
+      "exampleTranslation": "Asking about timing"
+    },
+    {
+      "word": "Where",
+      "translation": "Question word asking about location",
+      "phonetic": "/wɛr/",
+      "example": "Where do you live?",
+      "exampleTranslation": "Inquiring about place"
+    },
+    {
+      "word": "Why",
+      "translation": "Question word asking about reasons",
+      "phonetic": "/waɪ/",
+      "example": "Why are you sad?",
+      "exampleTranslation": "Asking for explanation"
+    },
+    {
+      "word": "How",
+      "translation": "Question word asking about manner or method",
+      "phonetic": "/haʊ/",
+      "example": "How do you make cookies?",
+      "exampleTranslation": "Requesting instructions"
+    },
+    {
+      "word": "Which",
+      "translation": "Question word asking to choose between options",
+      "phonetic": "/wɪtʃ/",
+      "example": "Which color do you prefer, red or blue?",
+      "exampleTranslation": "Asking for preference"
+    },
+    {
+      "word": "Whose",
+      "translation": "Question word asking about possession",
+      "phonetic": "/huːz/",
+      "example": "Whose backpack is this?",
+      "exampleTranslation": "Determining ownership"
+    }
+  ]
+}

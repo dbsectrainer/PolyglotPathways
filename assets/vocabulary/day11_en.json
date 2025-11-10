@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Hour",
+      "translation": "60 minutes of time",
+      "phonetic": "/aʊər/",
+      "example": "The meeting lasts one hour.",
+      "exampleTranslation": "A unit of time measurement"
+    },
+    {
+      "word": "Minute",
+      "translation": "60 seconds of time",
+      "phonetic": "/ˈmɪnɪt/",
+      "example": "Wait a minute, please.",
+      "exampleTranslation": "A small unit of time"
+    },
+    {
+      "word": "Second",
+      "translation": "A very short unit of time",
+      "phonetic": "/ˈsɛkənd/",
+      "example": "It takes one second to blink.",
+      "exampleTranslation": "The smallest common time unit"
+    },
+    {
+      "word": "Morning",
+      "translation": "Early part of the day",
+      "phonetic": "/ˈmɔːrnɪŋ/",
+      "example": "I drink coffee every morning.",
+      "exampleTranslation": "Time from sunrise to noon"
+    },
+    {
+      "word": "Afternoon",
+      "translation": "Time between noon and evening",
+      "phonetic": "/ˌæftərˈnuːn/",
+      "example": "We have lunch in the afternoon.",
+      "exampleTranslation": "Middle part of the day"
+    },
+    {
+      "word": "Evening",
+      "translation": "Late part of the day",
+      "phonetic": "/ˈiːvnɪŋ/",
+      "example": "We eat dinner in the evening.",
+      "exampleTranslation": "Time before night"
+    },
+    {
+      "word": "Night",
+      "translation": "Dark hours when we sleep",
+      "phonetic": "/naɪt/",
+      "example": "Good night, sleep well.",
+      "exampleTranslation": "Time after sunset"
+    },
+    {
+      "word": "O'clock",
+      "translation": "Indicates the exact hour",
+      "phonetic": "/əˈklɑːk/",
+      "example": "It's three o'clock.",
+      "exampleTranslation": "Used for telling time on the hour"
+    },
+    {
+      "word": "Today",
+      "translation": "This current day",
+      "phonetic": "/təˈdeɪ/",
+      "example": "What day is today?",
+      "exampleTranslation": "The present day"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Feliz",
+      "translation": "Sentir alegría y satisfacción",
+      "phonetic": "/feˈliθ/",
+      "example": "¡Estoy tan feliz de verte!",
+      "exampleTranslation": "Expresando alegría al conocer a alguien"
+    },
+    {
+      "word": "Triste",
+      "translation": "Sentir pena o infelicidad",
+      "phonetic": "/ˈtɾiste/",
+      "example": "Ella se siente triste porque su mascota está enferma.",
+      "exampleTranslation": "Explicando una razón para la tristeza"
+    },
+    {
+      "word": "Enojado",
+      "translation": "Sentir gran disgusto o rabia",
+      "phonetic": "/enoˈxaðo/",
+      "example": "Él se enoja cuando la gente llega tarde.",
+      "exampleTranslation": "Describiendo qué causa enojo"
+    },
+    {
+      "word": "Asustado",
+      "translation": "Sentir miedo o temor",
+      "phonetic": "/asusˈtaðo/",
+      "example": "El niño está asustado de la oscuridad.",
+      "exampleTranslation": "Hablando sobre un miedo común"
+    },
+    {
+      "word": "Emocionado",
+      "translation": "Sentir entusiasmo y ansias",
+      "phonetic": "/emoθjoˈnaðo/",
+      "example": "¡Estoy emocionado por mi fiesta de cumpleaños!",
+      "exampleTranslation": "Expresando anticipación por un evento"
+    },
+    {
+      "word": "Cansado",
+      "translation": "Sentirse agotado o necesitar descanso",
+      "phonetic": "/kanˈsaðo/",
+      "example": "Estoy demasiado cansado para salir esta noche.",
+      "exampleTranslation": "Rechazando una invitación por fatiga"
+    },
+    {
+      "word": "Nervioso",
+      "translation": "Sentir ansiedad o preocupación",
+      "phonetic": "/neɾˈβjoso/",
+      "example": "Estoy nervioso por la entrevista de trabajo.",
+      "exampleTranslation": "Expresando ansiedad sobre eventos futuros"
+    },
+    {
+      "word": "Orgulloso",
+      "translation": "Sentir satisfacción por los logros",
+      "phonetic": "/oɾɣuˈʎoso/",
+      "example": "Estoy orgulloso del éxito de mi hija.",
+      "exampleTranslation": "Expresando satisfacción por el logro de alguien"
+    }
+  ]
+}

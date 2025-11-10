@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Acordar",
+      "translation": "Parar de dormir e ficar consciente",
+      "phonetic": "/akoʁˈdaʁ/",
+      "example": "Eu acordo às 7 da manhã todos os dias.",
+      "exampleTranslation": "Descrevendo rotina matinal"
+    },
+    {
+      "word": "Comer",
+      "translation": "Consumir alimentos",
+      "phonetic": "/koˈmeʁ/",
+      "example": "Comemos o jantar juntos como família.",
+      "exampleTranslation": "Falando sobre hábitos de refeição"
+    },
+    {
+      "word": "Dormir",
+      "translation": "Descansar com os olhos fechados e a mente inconsciente",
+      "phonetic": "/doʁˈmiʁ/",
+      "example": "Preciso dormir cedo hoje à noite.",
+      "exampleTranslation": "Expressando necessidade de descanso"
+    },
+    {
+      "word": "Trabalhar",
+      "translation": "Fazer um trabalho ou tarefa",
+      "phonetic": "/tɾabaˈʎaʁ/",
+      "example": "Meus pais trabalham em um hospital.",
+      "exampleTranslation": "Descrevendo emprego"
+    },
+    {
+      "word": "Estudar",
+      "translation": "Aprender lendo e praticando",
+      "phonetic": "/estuˈdaʁ/",
+      "example": "Eu estudo matemática todas as noites.",
+      "exampleTranslation": "Falando sobre atividades educacionais"
+    },
+    {
+      "word": "Brincar",
+      "translation": "Participar de atividades agradáveis",
+      "phonetic": "/bɾĩˈkaʁ/",
+      "example": "As crianças brincam no parque depois da escola.",
+      "exampleTranslation": "Descrevendo atividades recreativas"
+    },
+    {
+      "word": "Limpar",
+      "translation": "Tornar algo livre de sujeira",
+      "phonetic": "/lĩˈpaʁ/",
+      "example": "Eu limpo meu quarto todo sábado.",
+      "exampleTranslation": "Falando sobre tarefas domésticas"
+    },
+    {
+      "word": "Exercitar",
+      "translation": "Fazer atividade física para saúde",
+      "phonetic": "/ezeʁsiˈtaʁ/",
+      "example": "Ela se exercita na academia três vezes por semana.",
+      "exampleTranslation": "Descrevendo rotina de fitness"
+    }
+  ]
+}

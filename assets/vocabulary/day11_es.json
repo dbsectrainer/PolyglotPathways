@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Hora",
+      "translation": "60 minutos de tiempo",
+      "phonetic": "/ˈoɾa/",
+      "example": "La reunión dura una hora.",
+      "exampleTranslation": "Una unidad de medida del tiempo"
+    },
+    {
+      "word": "Minuto",
+      "translation": "60 segundos de tiempo",
+      "phonetic": "/miˈnuto/",
+      "example": "Espera un minuto, por favor.",
+      "exampleTranslation": "Una unidad pequeña de tiempo"
+    },
+    {
+      "word": "Segundo",
+      "translation": "Una unidad muy corta de tiempo",
+      "phonetic": "/seˈɣundo/",
+      "example": "Toma un segundo parpadear.",
+      "exampleTranslation": "La unidad de tiempo más pequeña común"
+    },
+    {
+      "word": "Mañana",
+      "translation": "Parte temprana del día",
+      "phonetic": "/maˈɲana/",
+      "example": "Bebo café cada mañana.",
+      "exampleTranslation": "Tiempo desde el amanecer hasta el mediodía"
+    },
+    {
+      "word": "Tarde",
+      "translation": "Tiempo entre el mediodía y la noche",
+      "phonetic": "/ˈtaɾðe/",
+      "example": "Almorzamos por la tarde.",
+      "exampleTranslation": "Parte media del día"
+    },
+    {
+      "word": "Noche",
+      "translation": "Parte tardía del día",
+      "phonetic": "/ˈnotʃe/",
+      "example": "Cenamos por la noche.",
+      "exampleTranslation": "Tiempo después del atardecer"
+    },
+    {
+      "word": "Medianoche",
+      "translation": "Las 12:00 AM",
+      "phonetic": "/meðjaˈnotʃe/",
+      "example": "Me duermo antes de medianoche.",
+      "exampleTranslation": "Mitad de la noche"
+    },
+    {
+      "word": "En punto",
+      "translation": "Indica la hora exacta",
+      "phonetic": "/em ˈpunto/",
+      "example": "Son las tres en punto.",
+      "exampleTranslation": "Usado para decir la hora exacta"
+    },
+    {
+      "word": "Hoy",
+      "translation": "Este día actual",
+      "phonetic": "/oj/",
+      "example": "¿Qué día es hoy?",
+      "exampleTranslation": "El día presente"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Auto",
+      "translation": "Ein vierrädriges Fahrzeug zum Reisen",
+      "phonetic": "/ˈaʊto/",
+      "example": "Wir sind mit unserem Auto zum Strand gefahren.",
+      "exampleTranslation": "Über eine Reise mit einem Fahrzeug sprechen"
+    },
+    {
+      "word": "Bus",
+      "translation": "Ein großes Fahrzeug, das viele Passagiere befördert",
+      "phonetic": "/bʊs/",
+      "example": "Ich nehme jeden Morgen den Bus zur Arbeit.",
+      "exampleTranslation": "Den täglichen Weg zur Arbeit beschreiben"
+    },
+    {
+      "word": "Zug",
+      "translation": "Ein Fahrzeug, das auf Eisenbahngleisen fährt",
+      "phonetic": "/tsuːk/",
+      "example": "Der Zug kommt um 8 Uhr am Bahnhof an.",
+      "exampleTranslation": "Über Zugfahrpläne sprechen"
+    },
+    {
+      "word": "Fahrrad",
+      "translation": "Ein zweirädriges Fahrzeug, das durch Treten angetrieben wird",
+      "phonetic": "/ˈfaːɐ̯ʁaːt/",
+      "example": "Sie fährt jedes Wochenende mit dem Fahrrad zum Park.",
+      "exampleTranslation": "Freizeittransport beschreiben"
+    },
+    {
+      "word": "Flugzeug",
+      "translation": "Ein Luftfahrzeug, das am Himmel fliegt",
+      "phonetic": "/ˈfluːktsɔʏk/",
+      "example": "Wir nehmen ein Flugzeug, um Oma zu besuchen.",
+      "exampleTranslation": "Flugreisepläne besprechen"
+    },
+    {
+      "word": "Boot",
+      "translation": "Ein Fahrzeug zum Reisen auf dem Wasser",
+      "phonetic": "/boːt/",
+      "example": "Wir haben eine Bootstour um die Insel gemacht.",
+      "exampleTranslation": "Über Wassertransport sprechen"
+    },
+    {
+      "word": "Gehen",
+      "translation": "Sich zu Fuß bewegen",
+      "phonetic": "/ˈɡeːən/",
+      "example": "Ich gehe zum Laden, wenn das Wetter schön ist.",
+      "exampleTranslation": "Fußgängerbewegung beschreiben"
+    },
+    {
+      "word": "U-Bahn",
+      "translation": "Ein unterirdisches Zugsystem",
+      "phonetic": "/ˈuːbaːn/",
+      "example": "Die U-Bahn ist der schnellste Weg in die Innenstadt.",
+      "exampleTranslation": "Über städtischen Verkehr diskutieren"
+    }
+  ]
+}

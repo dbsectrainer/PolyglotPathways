@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Voiture",
+      "translation": "Un véhicule à quatre roues pour voyager",
+      "phonetic": "/vwatyʁ/",
+      "example": "Nous avons conduit notre voiture à la plage.",
+      "exampleTranslation": "Parler d'un voyage en véhicule"
+    },
+    {
+      "word": "Bus",
+      "translation": "Un grand véhicule qui transporte de nombreux passagers",
+      "phonetic": "/bys/",
+      "example": "Je prends le bus pour aller au travail tous les matins.",
+      "exampleTranslation": "Décrire le trajet quotidien"
+    },
+    {
+      "word": "Train",
+      "translation": "Un véhicule qui roule sur des rails",
+      "phonetic": "/tʁɛ̃/",
+      "example": "Le train arrive à la gare à 8 heures.",
+      "exampleTranslation": "Parler des horaires de train"
+    },
+    {
+      "word": "Vélo",
+      "translation": "Un véhicule à deux roues propulsé par des pédales",
+      "phonetic": "/velo/",
+      "example": "Elle fait du vélo au parc chaque week-end.",
+      "exampleTranslation": "Décrire le transport récréatif"
+    },
+    {
+      "word": "Avion",
+      "translation": "Un aéronef qui vole dans le ciel",
+      "phonetic": "/avjɔ̃/",
+      "example": "Nous prenons un avion pour rendre visite à grand-mère.",
+      "exampleTranslation": "Discuter des plans de voyage aérien"
+    },
+    {
+      "word": "Bateau",
+      "translation": "Un véhicule pour voyager sur l'eau",
+      "phonetic": "/bato/",
+      "example": "Nous avons fait une excursion en bateau autour de l'île.",
+      "exampleTranslation": "Parler de transport aquatique"
+    },
+    {
+      "word": "Marcher",
+      "translation": "Se déplacer à pied",
+      "phonetic": "/maʁʃe/",
+      "example": "Je marche jusqu'au magasin quand il fait beau.",
+      "exampleTranslation": "Décrire le déplacement piéton"
+    },
+    {
+      "word": "Métro",
+      "translation": "Un système de train souterrain",
+      "phonetic": "/metʁo/",
+      "example": "Le métro est le moyen le plus rapide d'aller en centre-ville.",
+      "exampleTranslation": "Discuter du transport urbain"
+    }
+  ]
+}

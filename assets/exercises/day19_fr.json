@@ -1,0 +1,78 @@
+{
+  "exercises": [
+    {
+      "id": "day19_mc1",
+      "type": "multipleChoice",
+      "question": "Quelle direction est opposée à droite?",
+      "options": [
+        "En haut",
+        "Gauche",
+        "En bas",
+        "Près"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day19_mc2",
+      "type": "multipleChoice",
+      "question": "Si quelque chose n'est pas loin, c'est:",
+      "options": [
+        "Là-bas",
+        "Près",
+        "En haut",
+        "Gauche"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day19_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Regarde en ____! Il y a un oiseau dans le ciel!'",
+      "correctAnswer": "haut",
+      "caseSensitive": false
+    },
+    {
+      "id": "day19_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Viens ____! Je t'attends.'",
+      "correctAnswer": "ici",
+      "caseSensitive": false
+    },
+    {
+      "id": "day19_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Down",
+      "correctTranslation": "En bas",
+      "acceptableAlternatives": ["Vers le bas"]
+    },
+    {
+      "id": "day19_mc3",
+      "type": "multipleChoice",
+      "question": "En donnant des directions, 'là-bas' signifie:",
+      "options": [
+        "Juste ici",
+        "Loin dans cette direction",
+        "Très proche",
+        "Derrière toi"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day19_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Le magasin est très ____. Il faut une heure pour y aller à pied.'",
+      "correctAnswer": "loin",
+      "acceptableAlternatives": ["éloigné"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day19_trans2",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Right",
+      "correctTranslation": "Droite",
+      "acceptableAlternatives": ["À droite"]
+    }
+  ]
+}

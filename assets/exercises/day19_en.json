@@ -1,0 +1,78 @@
+{
+  "exercises": [
+    {
+      "id": "day19_mc1",
+      "type": "multipleChoice",
+      "question": "Which direction is opposite of right?",
+      "options": [
+        "Up",
+        "Left",
+        "Down",
+        "Near"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day19_mc2",
+      "type": "multipleChoice",
+      "question": "If something is not far, it is:",
+      "options": [
+        "There",
+        "Near",
+        "Up",
+        "Left"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day19_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Look ____! There's a bird in the sky!'",
+      "correctAnswer": "up",
+      "caseSensitive": false
+    },
+    {
+      "id": "day19_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Come ____! I'm waiting for you.'",
+      "correctAnswer": "here",
+      "caseSensitive": false
+    },
+    {
+      "id": "day19_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Down",
+      "correctTranslation": "Down",
+      "acceptableAlternatives": ["Downward"]
+    },
+    {
+      "id": "day19_mc3",
+      "type": "multipleChoice",
+      "question": "When giving directions, 'over there' means:",
+      "options": [
+        "Right here",
+        "Far away in that direction",
+        "Very close",
+        "Behind you"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day19_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'The store is very ____. It takes an hour to walk there.'",
+      "correctAnswer": "far",
+      "acceptableAlternatives": ["distant"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day19_trans2",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Right",
+      "correctTranslation": "Right",
+      "acceptableAlternatives": ["To the right"]
+    }
+  ]
+}

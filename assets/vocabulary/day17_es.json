@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Despertarse",
+      "translation": "Dejar de dormir y volverse consciente",
+      "phonetic": "/desperˈtarse/",
+      "example": "Me despierto a las 7 AM todos los días.",
+      "exampleTranslation": "Describiendo rutina matutina"
+    },
+    {
+      "word": "Comer",
+      "translation": "Consumir alimentos",
+      "phonetic": "/koˈmeɾ/",
+      "example": "Comemos la cena juntos como familia.",
+      "exampleTranslation": "Hablando sobre hábitos de comida"
+    },
+    {
+      "word": "Dormir",
+      "translation": "Descansar con los ojos cerrados y la mente inconsciente",
+      "phonetic": "/doɾˈmiɾ/",
+      "example": "Necesito dormir temprano esta noche.",
+      "exampleTranslation": "Expresando necesidad de descanso"
+    },
+    {
+      "word": "Trabajar",
+      "translation": "Hacer un trabajo o tarea",
+      "phonetic": "/tɾaβaˈxaɾ/",
+      "example": "Mis padres trabajan en un hospital.",
+      "exampleTranslation": "Describiendo empleo"
+    },
+    {
+      "word": "Estudiar",
+      "translation": "Aprender leyendo y practicando",
+      "phonetic": "/estuˈðjaɾ/",
+      "example": "Estudio matemáticas todas las tardes.",
+      "exampleTranslation": "Hablando sobre actividades educativas"
+    },
+    {
+      "word": "Jugar",
+      "translation": "Participar en actividades agradables",
+      "phonetic": "/xuˈɣaɾ/",
+      "example": "Los niños juegan en el parque después de la escuela.",
+      "exampleTranslation": "Describiendo actividades recreativas"
+    },
+    {
+      "word": "Limpiar",
+      "translation": "Hacer que algo esté libre de suciedad",
+      "phonetic": "/limˈpjaɾ/",
+      "example": "Limpio mi habitación todos los sábados.",
+      "exampleTranslation": "Hablando sobre tareas del hogar"
+    },
+    {
+      "word": "Hacer ejercicio",
+      "translation": "Hacer actividad física para la salud",
+      "phonetic": "/aˈθeɾ exeɾˈθiθjo/",
+      "example": "Ella hace ejercicio en el gimnasio tres veces por semana.",
+      "exampleTranslation": "Describiendo rutina de fitness"
+    }
+  ]
+}

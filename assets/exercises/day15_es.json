@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day15_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué transporte vuela en el cielo?",
+      "options": [
+        "Coche",
+        "Avión",
+        "Autobús",
+        "Tren"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day15_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué transporte se mueve sobre rieles?",
+      "options": [
+        "Bicicleta",
+        "Tren",
+        "Barco",
+        "Coche"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day15_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Monto mi ____ a la escuela todos los días.'",
+      "correctAnswer": "bicicleta",
+      "acceptableAlternatives": ["bici"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day15_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'El ____ cruza el océano llevando pasajeros.'",
+      "correctAnswer": "barco",
+      "acceptableAlternatives": ["buque"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day15_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Bus",
+      "correctTranslation": "Autobús",
+      "acceptableAlternatives": ["Bus", "Camión"]
+    },
+    {
+      "id": "day15_mc3",
+      "type": "multipleChoice",
+      "question": "La forma más saludable de viajar distancias cortas es:",
+      "options": [
+        "Conducir un coche",
+        "Caminar",
+        "Tomar un avión",
+        "Ir en autobús"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day15_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Mi familia conduce un ____ para ir de vacaciones.'",
+      "correctAnswer": "coche",
+      "acceptableAlternatives": ["auto", "carro"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day15_trans2",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Plane",
+      "correctTranslation": "Avión",
+      "acceptableAlternatives": ["Aeroplano"]
+    }
+  ]
+}

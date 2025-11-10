@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day15_mc1",
+      "type": "multipleChoice",
+      "question": "Quel transport vole dans le ciel?",
+      "options": [
+        "Voiture",
+        "Avion",
+        "Bus",
+        "Train"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day15_mc2",
+      "type": "multipleChoice",
+      "question": "Quel transport se déplace sur des rails?",
+      "options": [
+        "Vélo",
+        "Train",
+        "Bateau",
+        "Voiture"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day15_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Je fais du ____ à l'école tous les jours.'",
+      "correctAnswer": "vélo",
+      "acceptableAlternatives": ["bicyclette"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day15_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Le ____ traverse l'océan en transportant des passagers.'",
+      "correctAnswer": "bateau",
+      "acceptableAlternatives": ["navire"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day15_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Bus",
+      "correctTranslation": "Bus",
+      "acceptableAlternatives": ["Autobus"]
+    },
+    {
+      "id": "day15_mc3",
+      "type": "multipleChoice",
+      "question": "La façon la plus saine de voyager sur de courtes distances est de:",
+      "options": [
+        "Conduire une voiture",
+        "Marcher",
+        "Prendre un avion",
+        "Prendre un bus"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day15_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Ma famille conduit une ____ pour partir en vacances.'",
+      "correctAnswer": "voiture",
+      "acceptableAlternatives": ["auto"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day15_trans2",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Plane",
+      "correctTranslation": "Avion",
+      "acceptableAlternatives": ["Aéroplane"]
+    }
+  ]
+}
