@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day17_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué es lo primero que haces por la mañana?",
+      "options": [
+        "Dormir",
+        "Despertarse",
+        "Trabajar",
+        "Jugar"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day17_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué haces cuando tienes hambre?",
+      "options": [
+        "Dormir",
+        "Comer",
+        "Limpiar",
+        "Estudiar"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day17_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '____ inglés en la escuela todos los días.'",
+      "correctAnswer": "Estudio",
+      "acceptableAlternatives": ["Aprendo"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day17_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Después de la cena, ____ mi habitación.'",
+      "correctAnswer": "limpio",
+      "acceptableAlternatives": ["ordeno"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day17_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Work",
+      "correctTranslation": "Trabajar",
+      "acceptableAlternatives": ["Trabajo"]
+    },
+    {
+      "id": "day17_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué hacen los niños en el patio de recreo?",
+      "options": [
+        "Trabajar",
+        "Jugar",
+        "Dormir",
+        "Estudiar"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day17_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Voy a ____ a las 10 PM todas las noches.'",
+      "correctAnswer": "dormir",
+      "acceptableAlternatives": ["la cama"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day17_trans2",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Eat",
+      "correctTranslation": "Comer",
+      "acceptableAlternatives": ["Como"]
+    }
+  ]
+}

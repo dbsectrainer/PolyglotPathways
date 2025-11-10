@@ -1,0 +1,78 @@
+{
+  "exercises": [
+    {
+      "id": "day14_mc1",
+      "type": "multipleChoice",
+      "question": "Which animal is known as man's best friend?",
+      "options": [
+        "Cat",
+        "Dog",
+        "Bird",
+        "Fish"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day14_mc2",
+      "type": "multipleChoice",
+      "question": "Which animal lives in water?",
+      "options": [
+        "Horse",
+        "Fish",
+        "Chicken",
+        "Cow"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day14_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'The ____ can fly in the sky.'",
+      "correctAnswer": "bird",
+      "caseSensitive": false
+    },
+    {
+      "id": "day14_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'The farmer has many animals: cows, pigs, and ____.'",
+      "correctAnswer": "chickens",
+      "acceptableAlternatives": ["chicken", "horses"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day14_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Cat",
+      "correctTranslation": "Cat",
+      "acceptableAlternatives": ["Kitty", "Kitten"]
+    },
+    {
+      "id": "day14_mc3",
+      "type": "multipleChoice",
+      "question": "Which animal says 'meow'?",
+      "options": [
+        "Dog",
+        "Cat",
+        "Cow",
+        "Pig"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day14_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'The ____ gives us milk.'",
+      "correctAnswer": "cow",
+      "caseSensitive": false
+    },
+    {
+      "id": "day14_trans2",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Horse",
+      "correctTranslation": "Horse",
+      "acceptableAlternatives": ["Pony"]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "vocabulary": [
+    {
+      "word": "Segunda-feira",
+      "translation": "O primeiro dia da semana de trabalho",
+      "phonetic": "/seˈɡũdɐ ˈfejɾɐ/",
+      "example": "Tenho uma reunião na segunda-feira de manhã.",
+      "exampleTranslation": "O dia depois do domingo"
+    },
+    {
+      "word": "Terça-feira",
+      "translation": "O segundo dia da semana de trabalho",
+      "phonetic": "/ˈtɛɾsɐ ˈfejɾɐ/",
+      "example": "Terça-feira é o meu dia favorito.",
+      "exampleTranslation": "O dia entre segunda-feira e quarta-feira"
+    },
+    {
+      "word": "Quarta-feira",
+      "translation": "O terceiro dia da semana de trabalho, meio da semana",
+      "phonetic": "/ˈkwaɾtɐ ˈfejɾɐ/",
+      "example": "Nos reunimos toda quarta-feira.",
+      "exampleTranslation": "Frequentemente chamado 'meio da semana'"
+    },
+    {
+      "word": "Sexta-feira",
+      "translation": "O último dia da semana de trabalho",
+      "phonetic": "/ˈsɛʃtɐ ˈfejɾɐ/",
+      "example": "Estou animado para sexta-feira!",
+      "exampleTranslation": "O dia antes do fim de semana"
+    },
+    {
+      "word": "Sábado",
+      "translation": "Primeiro dia do fim de semana",
+      "phonetic": "/ˈsaβadu/",
+      "example": "Vamos ao parque no sábado.",
+      "exampleTranslation": "Um dia para relaxamento e atividades"
+    },
+    {
+      "word": "Domingo",
+      "translation": "Segundo dia do fim de semana, último dia da semana",
+      "phonetic": "/doˈmĩɡu/",
+      "example": "Domingo é um dia de descanso.",
+      "exampleTranslation": "Frequentemente um dia para família e descanso"
+    },
+    {
+      "word": "Janeiro",
+      "translation": "Primeiro mês do ano",
+      "phonetic": "/ʒaˈnejɾu/",
+      "example": "Janeiro é muito frio aqui.",
+      "exampleTranslation": "O mês depois de dezembro"
+    },
+    {
+      "word": "Fevereiro",
+      "translation": "Segundo mês do ano, o mês mais curto",
+      "phonetic": "/feveˈɾejɾu/",
+      "example": "O Dia dos Namorados é em fevereiro.",
+      "exampleTranslation": "Tem 28 ou 29 dias"
+    },
+    {
+      "word": "Março",
+      "translation": "Terceiro mês do ano, a primavera começa",
+      "phonetic": "/ˈmaɾsu/",
+      "example": "A primavera começa em março.",
+      "exampleTranslation": "O mês depois de fevereiro"
+    },
+    {
+      "word": "Dezembro",
+      "translation": "Último mês do ano",
+      "phonetic": "/deˈzẽbɾu/",
+      "example": "Dezembro é um mês festivo.",
+      "exampleTranslation": "O 12º e último mês"
+    }
+  ]
+}

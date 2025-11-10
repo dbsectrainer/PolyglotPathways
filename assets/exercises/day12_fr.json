@@ -1,0 +1,78 @@
+{
+  "exercises": [
+    {
+      "id": "day12_mc1",
+      "type": "multipleChoice",
+      "question": "Quel temps est le meilleur pour un pique-nique?",
+      "options": [
+        "Pluvieux",
+        "Ensoleillé",
+        "Neigeux",
+        "Orageux"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day12_mc2",
+      "type": "multipleChoice",
+      "question": "De quoi avez-vous besoin quand il pleut?",
+      "options": [
+        "Des lunettes de soleil",
+        "Un parapluie",
+        "Un maillot de bain",
+        "Un short"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day12_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Il fait très ____ dehors, portez des vêtements chauds!'",
+      "correctAnswer": "froid",
+      "caseSensitive": false
+    },
+    {
+      "id": "day12_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Regardez les ____! Elles disent qu'il pleuvra demain.'",
+      "correctAnswer": "prévisions",
+      "acceptableAlternatives": ["prévisions météo"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day12_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "It's windy",
+      "correctTranslation": "Il fait du vent",
+      "acceptableAlternatives": ["Il y a du vent", "C'est venteux"]
+    },
+    {
+      "id": "day12_mc3",
+      "type": "multipleChoice",
+      "question": "Quand vous ne pouvez pas voir le soleil à cause des nuages, il fait:",
+      "options": [
+        "Nuageux",
+        "Chaud",
+        "Venteux",
+        "Il neige"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day12_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Il fait si ____ aujourd'hui! Je dois boire plus d'eau.'",
+      "correctAnswer": "chaud",
+      "caseSensitive": false
+    },
+    {
+      "id": "day12_trans2",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Snow",
+      "correctTranslation": "Neige",
+      "acceptableAlternatives": ["Il neige"]
+    }
+  ]
+}

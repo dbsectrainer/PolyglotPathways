@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Quem",
+      "translation": "Palavra de pergunta sobre uma pessoa",
+      "phonetic": "/kẽj/",
+      "example": "Quem é aquela pessoa?",
+      "exampleTranslation": "Perguntando sobre a identidade de alguém"
+    },
+    {
+      "word": "O que",
+      "translation": "Palavra de pergunta sobre coisas ou informações",
+      "phonetic": "/u ki/",
+      "example": "O que é seu nome?",
+      "exampleTranslation": "Solicitando informações básicas"
+    },
+    {
+      "word": "Quando",
+      "translation": "Palavra de pergunta sobre tempo",
+      "phonetic": "/ˈkwɐ̃du/",
+      "example": "Quando o filme começa?",
+      "exampleTranslation": "Perguntando sobre horário"
+    },
+    {
+      "word": "Onde",
+      "translation": "Palavra de pergunta sobre localização",
+      "phonetic": "/ˈõdʒi/",
+      "example": "Onde você mora?",
+      "exampleTranslation": "Indagando sobre lugar"
+    },
+    {
+      "word": "Por que",
+      "translation": "Palavra de pergunta sobre razões",
+      "phonetic": "/poʁ ki/",
+      "example": "Por que você está triste?",
+      "exampleTranslation": "Pedindo explicação"
+    },
+    {
+      "word": "Como",
+      "translation": "Palavra de pergunta sobre maneira ou método",
+      "phonetic": "/ˈkomu/",
+      "example": "Como você faz biscoitos?",
+      "exampleTranslation": "Solicitando instruções"
+    },
+    {
+      "word": "Qual",
+      "translation": "Palavra de pergunta para escolher entre opções",
+      "phonetic": "/kwaw/",
+      "example": "Qual cor você prefere, vermelho ou azul?",
+      "exampleTranslation": "Perguntando por preferência"
+    },
+    {
+      "word": "De quem",
+      "translation": "Palavra de pergunta sobre posse",
+      "phonetic": "/dʒi kẽj/",
+      "example": "De quem é esta mochila?",
+      "exampleTranslation": "Determinando propriedade"
+    }
+  ]
+}

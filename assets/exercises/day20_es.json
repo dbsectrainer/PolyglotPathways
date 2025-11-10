@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day20_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué palabra de pregunta se usa para personas?",
+      "options": [
+        "Qué",
+        "Quién",
+        "Dónde",
+        "Cuándo"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day20_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué palabra de pregunta se usa para el tiempo?",
+      "options": [
+        "Por qué",
+        "Cuándo",
+        "Dónde",
+        "Cuál"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day20_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '¿____ vas? A la tienda.'",
+      "correctAnswer": "Dónde",
+      "acceptableAlternatives": ["Adónde"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day20_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '¿____ es tu color favorito? Azul.'",
+      "correctAnswer": "Cuál",
+      "acceptableAlternatives": ["Qué"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day20_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "How",
+      "correctTranslation": "Cómo",
+      "acceptableAlternatives": ["De qué manera"]
+    },
+    {
+      "id": "day20_mc3",
+      "type": "multipleChoice",
+      "question": "'Por qué' se usa para preguntar sobre:",
+      "options": [
+        "Ubicación",
+        "Razón",
+        "Persona",
+        "Tiempo"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day20_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '¿____ libro quieres? ¿Este o ese?'",
+      "correctAnswer": "Cuál",
+      "acceptableAlternatives": ["Qué"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day20_trans2",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Why",
+      "correctTranslation": "Por qué",
+      "acceptableAlternatives": ["Porqué"]
+    }
+  ]
+}

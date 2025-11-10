@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Sein",
+      "translation": "Verb, das Existenz oder Zustand anzeigt",
+      "phonetic": "/zaɪn/",
+      "example": "Ich bin Student.",
+      "exampleTranslation": "Identität oder Seinszustand ausdrücken"
+    },
+    {
+      "word": "Haben",
+      "translation": "Verb, das Besitz anzeigt",
+      "phonetic": "/ˈhaːbən/",
+      "example": "Ich habe ein Buch.",
+      "exampleTranslation": "Eigentum oder Besitz zeigen"
+    },
+    {
+      "word": "Gehen",
+      "translation": "Verb, das Bewegung anzeigt",
+      "phonetic": "/ˈɡeːən/",
+      "example": "Ich gehe mit dem Bus zur Arbeit.",
+      "exampleTranslation": "Sich von einem Ort zum anderen bewegen"
+    },
+    {
+      "word": "Machen",
+      "translation": "Verb, das Handlung oder Ausführung anzeigt",
+      "phonetic": "/ˈmaxən/",
+      "example": "Ich mache meine Hausaufgaben.",
+      "exampleTranslation": "Eine Handlung oder Aufgabe ausführen"
+    },
+    {
+      "word": "Sehen",
+      "translation": "Verb, das Sehen oder Wahrnehmung anzeigt",
+      "phonetic": "/ˈzeːən/",
+      "example": "Ich sehe einen Vogel im Baum.",
+      "exampleTranslation": "Die Augen benutzen, um wahrzunehmen"
+    },
+    {
+      "word": "Kommen",
+      "translation": "Verb, das Bewegung in Richtung anzeigt",
+      "phonetic": "/ˈkɔmən/",
+      "example": "Bitte komm zu mir nach Hause.",
+      "exampleTranslation": "Sich zum Sprecher bewegen"
+    },
+    {
+      "word": "Wollen",
+      "translation": "Verb, das Wunsch anzeigt",
+      "phonetic": "/ˈvɔlən/",
+      "example": "Ich will Wasser.",
+      "exampleTranslation": "Einen Wunsch oder Verlangen ausdrücken"
+    },
+    {
+      "word": "Sagen",
+      "translation": "Verb, das verbale Kommunikation anzeigt",
+      "phonetic": "/ˈzaːɡən/",
+      "example": "Ich sage die Wahrheit.",
+      "exampleTranslation": "Etwas mit Worten ausdrücken"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Maison",
+      "translation": "Le lieu où vous vivez",
+      "phonetic": "/mɛzɔ̃/",
+      "example": "Je rentre à la maison après le travail.",
+      "exampleTranslation": "Votre résidence ou domicile"
+    },
+    {
+      "word": "École",
+      "translation": "Lieu où les élèves apprennent",
+      "phonetic": "/ekɔl/",
+      "example": "Les enfants vont à l'école tous les jours.",
+      "exampleTranslation": "Institution éducative"
+    },
+    {
+      "word": "Magasin",
+      "translation": "Lieu où vous achetez des choses",
+      "phonetic": "/maɡazɛ̃/",
+      "example": "J'achète de la nourriture au magasin.",
+      "exampleTranslation": "Commerce ou marché"
+    },
+    {
+      "word": "Hôpital",
+      "translation": "Lieu pour les soins médicaux",
+      "phonetic": "/ɔpital/",
+      "example": "Les médecins travaillent à l'hôpital.",
+      "exampleTranslation": "Centre de soins médicaux"
+    },
+    {
+      "word": "Restaurant",
+      "translation": "Lieu pour manger des repas préparés",
+      "phonetic": "/ʁɛstɔʁɑ̃/",
+      "example": "Nous dînons au restaurant.",
+      "exampleTranslation": "Établissement de restauration"
+    },
+    {
+      "word": "Parc",
+      "translation": "Espace extérieur avec de l'herbe et des arbres",
+      "phonetic": "/paʁk/",
+      "example": "Les enfants jouent dans le parc.",
+      "exampleTranslation": "Espace récréatif public"
+    },
+    {
+      "word": "Bibliothèque",
+      "translation": "Lieu avec beaucoup de livres à emprunter",
+      "phonetic": "/biblijɔtɛk/",
+      "example": "J'emprunte des livres à la bibliothèque.",
+      "exampleTranslation": "Centre de collection de livres"
+    },
+    {
+      "word": "Bureau",
+      "translation": "Lieu où les gens travaillent",
+      "phonetic": "/byʁo/",
+      "example": "Mon père travaille dans un bureau.",
+      "exampleTranslation": "Lieu de travail professionnel"
+    },
+    {
+      "word": "Banque",
+      "translation": "Lieu pour l'argent et les services financiers",
+      "phonetic": "/bɑ̃k/",
+      "example": "J'économise de l'argent à la banque.",
+      "exampleTranslation": "Institution financière"
+    }
+  ]
+}

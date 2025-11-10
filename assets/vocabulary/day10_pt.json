@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Casa",
+      "translation": "O lugar onde você mora",
+      "phonetic": "/ˈkazɐ/",
+      "example": "Eu vou para casa depois do trabalho.",
+      "exampleTranslation": "Sua residência ou moradia"
+    },
+    {
+      "word": "Escola",
+      "translation": "Lugar onde os estudantes aprendem",
+      "phonetic": "/esˈkɔlɐ/",
+      "example": "As crianças vão à escola todos os dias.",
+      "exampleTranslation": "Instituição educacional"
+    },
+    {
+      "word": "Loja",
+      "translation": "Lugar onde você compra coisas",
+      "phonetic": "/ˈlɔʒɐ/",
+      "example": "Eu compro comida na loja.",
+      "exampleTranslation": "Comércio ou mercado"
+    },
+    {
+      "word": "Hospital",
+      "translation": "Lugar para tratamento médico",
+      "phonetic": "/ɔʃpiˈtaw/",
+      "example": "Os médicos trabalham em um hospital.",
+      "exampleTranslation": "Centro de atendimento médico"
+    },
+    {
+      "word": "Restaurante",
+      "translation": "Lugar para comer refeições preparadas",
+      "phonetic": "/ʁɛstɐwˈɾɐ̃tʃi/",
+      "example": "Nós jantamos em um restaurante.",
+      "exampleTranslation": "Estabelecimento de comida"
+    },
+    {
+      "word": "Parque",
+      "translation": "Área ao ar livre com grama e árvores",
+      "phonetic": "/ˈpaɾki/",
+      "example": "As crianças brincam no parque.",
+      "exampleTranslation": "Área recreativa pública"
+    },
+    {
+      "word": "Biblioteca",
+      "translation": "Lugar com muitos livros para emprestar",
+      "phonetic": "/bibliuˈtɛkɐ/",
+      "example": "Eu pego livros emprestados da biblioteca.",
+      "exampleTranslation": "Centro de coleção de livros"
+    },
+    {
+      "word": "Escritório",
+      "translation": "Lugar onde as pessoas trabalham",
+      "phonetic": "/esˈkɾitɔɾiu/",
+      "example": "Meu pai trabalha em um escritório.",
+      "exampleTranslation": "Local de trabalho profissional"
+    },
+    {
+      "word": "Banco",
+      "translation": "Lugar para dinheiro e serviços financeiros",
+      "phonetic": "/ˈbɐ̃ku/",
+      "example": "Eu economizo dinheiro no banco.",
+      "exampleTranslation": "Instituição financeira"
+    }
+  ]
+}

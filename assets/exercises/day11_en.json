@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day11_mc1",
+      "type": "multipleChoice",
+      "question": "What time is it when the clock shows 12:00 in the afternoon?",
+      "options": [
+        "Midnight",
+        "Noon",
+        "Morning",
+        "Evening"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day11_mc2",
+      "type": "multipleChoice",
+      "question": "How many minutes are in one hour?",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "100"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day11_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'There are 24 ____ in a day.'",
+      "correctAnswer": "hours",
+      "acceptableAlternatives": ["Hours"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day11_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I wake up at 7 o'clock in the ____.'",
+      "correctAnswer": "morning",
+      "acceptableAlternatives": ["Morning", "AM", "am"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day11_mc3",
+      "type": "multipleChoice",
+      "question": "What do we call the time from 12:00 AM to 11:59 AM?",
+      "options": [
+        "Afternoon",
+        "Evening",
+        "Morning",
+        "Night"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day11_trans1",
+      "type": "translation",
+      "question": "What time period comes after afternoon?",
+      "targetText": "Time after afternoon",
+      "correctTranslation": "Evening",
+      "acceptableAlternatives": ["evening", "Night", "night"]
+    },
+    {
+      "id": "day11_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'One hour equals sixty ____.'",
+      "correctAnswer": "minutes",
+      "acceptableAlternatives": ["Minutes"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day11_mc4",
+      "type": "multipleChoice",
+      "question": "If it's 3:30, what do we say?",
+      "options": [
+        "Three o'clock",
+        "Half past three",
+        "Four o'clock",
+        "Quarter to three"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

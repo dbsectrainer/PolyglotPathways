@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day10_mc1",
+      "type": "multipleChoice",
+      "question": "¿A dónde vas para comprar comida?",
+      "options": [
+        "Escuela",
+        "Tienda",
+        "Hospital",
+        "Biblioteca"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day10_mc2",
+      "type": "multipleChoice",
+      "question": "¿Dónde aprenden los estudiantes?",
+      "options": [
+        "Restaurante",
+        "Parque",
+        "Escuela",
+        "Banco"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day10_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Duermo en mi ____.'",
+      "correctAnswer": "casa",
+      "acceptableAlternatives": ["Casa", "hogar", "Hogar"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day10_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Voy al ____ cuando estoy enfermo.'",
+      "correctAnswer": "hospital",
+      "acceptableAlternatives": ["Hospital", "médico", "Médico", "doctor", "Doctor"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day10_mc3",
+      "type": "multipleChoice",
+      "question": "¿Dónde pides prestados libros?",
+      "options": [
+        "Gimnasio",
+        "Biblioteca",
+        "Teatro",
+        "Museo"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day10_trans1",
+      "type": "translation",
+      "question": "¿A dónde vas para comer una comida preparada por un chef?",
+      "targetText": "Lugar para comer fuera",
+      "correctTranslation": "Restaurante",
+      "acceptableAlternatives": ["restaurante"]
+    },
+    {
+      "id": "day10_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Trabajo en una ____.'",
+      "correctAnswer": "oficina",
+      "acceptableAlternatives": ["Oficina"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day10_mc4",
+      "type": "multipleChoice",
+      "question": "¿Dónde puedes ver árboles, césped y jugar afuera?",
+      "options": [
+        "Centro comercial",
+        "Estación",
+        "Parque",
+        "Aeropuerto"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

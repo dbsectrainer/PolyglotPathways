@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day20_mc1",
+      "type": "multipleChoice",
+      "question": "Welches Fragewort wird für Personen verwendet?",
+      "options": [
+        "Was",
+        "Wer",
+        "Wo",
+        "Wann"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day20_mc2",
+      "type": "multipleChoice",
+      "question": "Welches Fragewort wird für Zeit verwendet?",
+      "options": [
+        "Warum",
+        "Wann",
+        "Wo",
+        "Welche"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day20_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: '____ gehst du hin? Zum Laden.'",
+      "correctAnswer": "Wohin",
+      "acceptableAlternatives": ["Wo"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day20_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: '____ ist deine Lieblingsfarbe? Blau.'",
+      "correctAnswer": "Was",
+      "acceptableAlternatives": ["Welche"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day20_trans1",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "How",
+      "correctTranslation": "Wie",
+      "acceptableAlternatives": ["Auf welche Weise"]
+    },
+    {
+      "id": "day20_mc3",
+      "type": "multipleChoice",
+      "question": "'Warum' wird verwendet, um zu fragen nach:",
+      "options": [
+        "Ort",
+        "Grund",
+        "Person",
+        "Zeit"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day20_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: '____ Buch möchtest du? Dieses oder jenes?'",
+      "correctAnswer": "Welches",
+      "acceptableAlternatives": ["Was für ein"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day20_trans2",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "Why",
+      "correctTranslation": "Warum",
+      "acceptableAlternatives": ["Weshalb"]
+    }
+  ]
+}

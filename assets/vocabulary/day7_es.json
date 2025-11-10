@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Agua",
+      "translation": "Líquido esencial para la vida",
+      "phonetic": "/ˈaɣwa/",
+      "example": "Bebo ocho vasos de agua diariamente.",
+      "exampleTranslation": "La bebida más importante para la salud"
+    },
+    {
+      "word": "Pan",
+      "translation": "Alimento horneado hecho de harina",
+      "phonetic": "/pan/",
+      "example": "Como pan en el desayuno.",
+      "exampleTranslation": "Un alimento básico en muchas culturas"
+    },
+    {
+      "word": "Leche",
+      "translation": "Líquido blanco de las vacas",
+      "phonetic": "/ˈletʃe/",
+      "example": "Los niños beben leche para crecer fuertes.",
+      "exampleTranslation": "Rica en calcio y proteína"
+    },
+    {
+      "word": "Huevo",
+      "translation": "Alimento de las gallinas, rico en proteína",
+      "phonetic": "/ˈweβo/",
+      "example": "Como huevos en el desayuno.",
+      "exampleTranslation": "Se puede cocinar de muchas formas"
+    },
+    {
+      "word": "Fruta",
+      "translation": "Producto vegetal dulce con semillas",
+      "phonetic": "/ˈfɾuta/",
+      "example": "Las manzanas y naranjas son frutas.",
+      "exampleTranslation": "Alimento dulce natural, muy saludable"
+    },
+    {
+      "word": "Verdura",
+      "translation": "Planta comestible o parte de planta",
+      "phonetic": "/beɾˈðuɾa/",
+      "example": "Las zanahorias y el brócoli son verduras.",
+      "exampleTranslation": "Importante para una dieta saludable"
+    },
+    {
+      "word": "Carne",
+      "translation": "Carne de animal usada como alimento",
+      "phonetic": "/ˈkaɾne/",
+      "example": "El pollo y la carne de res son tipos de carne.",
+      "exampleTranslation": "Rica en proteína"
+    },
+    {
+      "word": "Café",
+      "translation": "Bebida caliente hecha de granos tostados",
+      "phonetic": "/kaˈfe/",
+      "example": "Mucha gente bebe café por la mañana.",
+      "exampleTranslation": "Contiene cafeína para aumentar la energía"
+    }
+  ]
+}

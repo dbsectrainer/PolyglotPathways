@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Mãe",
+      "translation": "Progenitor feminino",
+      "phonetic": "/mɐ̃j/",
+      "example": "Minha mãe é professora.",
+      "exampleTranslation": "Referindo-se ao seu progenitor feminino"
+    },
+    {
+      "word": "Pai",
+      "translation": "Progenitor masculino",
+      "phonetic": "/paj/",
+      "example": "Meu pai trabalha em um escritório.",
+      "exampleTranslation": "Referindo-se ao seu progenitor masculino"
+    },
+    {
+      "word": "Irmã",
+      "translation": "Irmã mulher",
+      "phonetic": "/iɾˈmɐ̃/",
+      "example": "Eu tenho uma irmã.",
+      "exampleTranslation": "A filha dos seus pais"
+    },
+    {
+      "word": "Irmão",
+      "translation": "Irmão homem",
+      "phonetic": "/iɾˈmɐ̃w/",
+      "example": "Meu irmão é mais velho que eu.",
+      "exampleTranslation": "O filho dos seus pais"
+    },
+    {
+      "word": "Avó",
+      "translation": "A mãe do seu pai ou mãe",
+      "phonetic": "/aˈvɔ/",
+      "example": "Minha avó faz biscoitos deliciosos.",
+      "exampleTranslation": "Avó mulher"
+    },
+    {
+      "word": "Avô",
+      "translation": "O pai do seu pai ou mãe",
+      "phonetic": "/aˈvo/",
+      "example": "Meu avô conta histórias incríveis.",
+      "exampleTranslation": "Avô homem"
+    },
+    {
+      "word": "Tia",
+      "translation": "A irmã do seu pai ou mãe, ou a esposa do seu tio",
+      "phonetic": "/ˈtʃiɐ/",
+      "example": "Minha tia mora em outra cidade.",
+      "exampleTranslation": "Parente feminina da geração dos seus pais"
+    },
+    {
+      "word": "Tio",
+      "translation": "O irmão do seu pai ou mãe, ou o marido da sua tia",
+      "phonetic": "/ˈtʃiu/",
+      "example": "Meu tio é muito engraçado.",
+      "exampleTranslation": "Parente masculino da geração dos seus pais"
+    },
+    {
+      "word": "Primo/Prima",
+      "translation": "O filho ou filha do seu tio ou tia",
+      "phonetic": "/ˈpɾimu/ /ˈpɾimɐ/",
+      "example": "Eu brinco com meus primos todo fim de semana.",
+      "exampleTranslation": "Filhos dos seus tios e tias"
+    }
+  ]
+}

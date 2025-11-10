@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Glücklich",
+      "translation": "Freude und Zufriedenheit empfinden",
+      "phonetic": "/ˈɡlʏklɪç/",
+      "example": "Ich bin so glücklich, dich zu sehen!",
+      "exampleTranslation": "Freude über das Treffen mit jemandem ausdrücken"
+    },
+    {
+      "word": "Traurig",
+      "translation": "Kummer oder Unglück empfinden",
+      "phonetic": "/ˈtʁaʊ̯ʁɪç/",
+      "example": "Sie fühlt sich traurig, weil ihr Haustier krank ist.",
+      "exampleTranslation": "Einen Grund für Traurigkeit erklären"
+    },
+    {
+      "word": "Wütend",
+      "translation": "Starkes Missfallen oder Wut empfinden",
+      "phonetic": "/ˈvyːtənt/",
+      "example": "Er wird wütend, wenn Leute zu spät kommen.",
+      "exampleTranslation": "Beschreiben, was Wut verursacht"
+    },
+    {
+      "word": "Ängstlich",
+      "translation": "Angst oder Furcht empfinden",
+      "phonetic": "/ˈɛŋstlɪç/",
+      "example": "Das Kind ist ängstlich vor der Dunkelheit.",
+      "exampleTranslation": "Über eine häufige Angst sprechen"
+    },
+    {
+      "word": "Aufgeregt",
+      "translation": "Begeisterung und Vorfreude empfinden",
+      "phonetic": "/ˈaʊfɡəʁeːkt/",
+      "example": "Ich bin aufgeregt wegen meiner Geburtstagsfeier!",
+      "exampleTranslation": "Vorfreude auf ein Ereignis ausdrücken"
+    },
+    {
+      "word": "Müde",
+      "translation": "Sich erschöpft fühlen oder Ruhe benötigen",
+      "phonetic": "/ˈmyːdə/",
+      "example": "Ich bin zu müde, um heute Abend auszugehen.",
+      "exampleTranslation": "Eine Einladung wegen Müdigkeit ablehnen"
+    },
+    {
+      "word": "Nervös",
+      "translation": "Angst oder Sorge empfinden",
+      "phonetic": "/nɛʁˈvøːs/",
+      "example": "Ich bin nervös wegen des Vorstellungsgesprächs.",
+      "exampleTranslation": "Angst vor zukünftigen Ereignissen ausdrücken"
+    },
+    {
+      "word": "Stolz",
+      "translation": "Zufriedenheit über Erfolge empfinden",
+      "phonetic": "/ʃtɔlts/",
+      "example": "Ich bin stolz auf den Erfolg meiner Tochter.",
+      "exampleTranslation": "Zufriedenheit über jemandes Leistung ausdrücken"
+    }
+  ]
+}

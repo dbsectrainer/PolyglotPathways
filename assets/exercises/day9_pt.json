@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day9_mc1",
+      "type": "multipleChoice",
+      "question": "Qual palavra descreve algo grande em tamanho?",
+      "options": [
+        "Pequeno",
+        "Grande",
+        "Curto",
+        "Magro"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day9_mc2",
+      "type": "multipleChoice",
+      "question": "Qual é o oposto de 'frio'?",
+      "options": [
+        "Quente",
+        "Fresco",
+        "Gelado",
+        "Congelado"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day9_fib1",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'O sol é muito ____.'",
+      "correctAnswer": "quente",
+      "acceptableAlternatives": ["Quente", "brilhante", "Brilhante"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day9_fib2",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Esta bolsa é muito ____. Não pesa quase nada.'",
+      "correctAnswer": "leve",
+      "acceptableAlternatives": ["Leve"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day9_mc3",
+      "type": "multipleChoice",
+      "question": "Qual adjetivo significa 'não sujo'?",
+      "options": [
+        "Bagunçado",
+        "Limpo",
+        "Empoeirado",
+        "Lamacento"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day9_trans1",
+      "type": "translation",
+      "question": "Que palavra descreve algo que se move ou acontece rapidamente?",
+      "targetText": "Oposto de lento",
+      "correctTranslation": "Rápido",
+      "acceptableAlternatives": ["rápido", "veloz", "Veloz"]
+    },
+    {
+      "id": "day9_fib3",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Ela é muito ____ e me faz rir.'",
+      "correctAnswer": "engraçada",
+      "acceptableAlternatives": ["Engraçada", "divertida", "Divertida"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day9_mc4",
+      "type": "multipleChoice",
+      "question": "Qual par são opostos?",
+      "options": [
+        "Feliz e contente",
+        "Alto e baixo",
+        "Grande e enorme",
+        "Rápido e veloz"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

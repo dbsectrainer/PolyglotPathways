@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day19_mc1",
+      "type": "multipleChoice",
+      "question": "Qual direção é oposta à direita?",
+      "options": [
+        "Para cima",
+        "Esquerda",
+        "Para baixo",
+        "Perto"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day19_mc2",
+      "type": "multipleChoice",
+      "question": "Se algo não está longe, está:",
+      "options": [
+        "Lá",
+        "Perto",
+        "Para cima",
+        "Esquerda"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day19_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Olhe para ____! Tem um pássaro no céu!'",
+      "correctAnswer": "cima",
+      "acceptableAlternatives": ["o alto"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day19_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Venha ____! Estou esperando por você.'",
+      "correctAnswer": "aqui",
+      "acceptableAlternatives": ["cá"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day19_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Down",
+      "correctTranslation": "Para baixo",
+      "acceptableAlternatives": ["Abaixo", "Embaixo"]
+    },
+    {
+      "id": "day19_mc3",
+      "type": "multipleChoice",
+      "question": "Ao dar direções, 'lá' significa:",
+      "options": [
+        "Bem aqui",
+        "Longe naquela direção",
+        "Muito perto",
+        "Atrás de você"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day19_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'A loja é muito ____. Leva uma hora para caminhar até lá.'",
+      "correctAnswer": "longe",
+      "acceptableAlternatives": ["distante"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day19_trans2",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Right",
+      "correctTranslation": "Direita",
+      "acceptableAlternatives": ["À direita"]
+    }
+  ]
+}

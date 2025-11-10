@@ -1,0 +1,79 @@
+{
+  "exercises": [
+    {
+      "id": "day13_mc1",
+      "type": "multipleChoice",
+      "question": "What do you wear on your feet?",
+      "options": [
+        "Hat",
+        "Shoes",
+        "Dress",
+        "Jacket"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day13_mc2",
+      "type": "multipleChoice",
+      "question": "What do you wear when it's cold outside?",
+      "options": [
+        "Shorts",
+        "Jacket",
+        "Swimsuit",
+        "Tank top"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day13_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I need to buy a new ____ to wear to the party.'",
+      "correctAnswer": "dress",
+      "acceptableAlternatives": ["shirt", "outfit"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day13_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Don't forget to wear your ____ when you go outside in the sun!'",
+      "correctAnswer": "hat",
+      "acceptableAlternatives": ["cap"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day13_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Pants",
+      "correctTranslation": "Pants",
+      "acceptableAlternatives": ["Trousers"]
+    },
+    {
+      "id": "day13_mc3",
+      "type": "multipleChoice",
+      "question": "What do you wear on your hands to keep them warm?",
+      "options": [
+        "Socks",
+        "Shoes",
+        "Gloves",
+        "Hat"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day13_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Put on clean ____ before wearing your shoes.'",
+      "correctAnswer": "socks",
+      "caseSensitive": false
+    },
+    {
+      "id": "day13_trans2",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Shirt",
+      "correctTranslation": "Shirt",
+      "acceptableAlternatives": ["T-shirt", "Blouse"]
+    }
+  ]
+}

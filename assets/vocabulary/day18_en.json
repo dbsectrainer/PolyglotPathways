@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Buy",
+      "translation": "To purchase something with money",
+      "phonetic": "/baɪ/",
+      "example": "I want to buy a new book.",
+      "exampleTranslation": "Expressing desire to purchase"
+    },
+    {
+      "word": "Sell",
+      "translation": "To give something in exchange for money",
+      "phonetic": "/sɛl/",
+      "example": "They sell fresh vegetables at the market.",
+      "exampleTranslation": "Describing what a vendor does"
+    },
+    {
+      "word": "Price",
+      "translation": "The amount of money something costs",
+      "phonetic": "/praɪs/",
+      "example": "What is the price of this jacket?",
+      "exampleTranslation": "Asking about cost"
+    },
+    {
+      "word": "Expensive",
+      "translation": "Costing a lot of money",
+      "phonetic": "/ɪkˈspɛnsɪv/",
+      "example": "That watch is too expensive for me.",
+      "exampleTranslation": "Commenting on high cost"
+    },
+    {
+      "word": "Cheap",
+      "translation": "Costing little money",
+      "phonetic": "/tʃiːp/",
+      "example": "I found a cheap hotel for our trip.",
+      "exampleTranslation": "Talking about affordable options"
+    },
+    {
+      "word": "Money",
+      "translation": "Currency used to buy things",
+      "phonetic": "/ˈmʌni/",
+      "example": "I don't have enough money to buy that car.",
+      "exampleTranslation": "Expressing financial limitation"
+    },
+    {
+      "word": "Cost",
+      "translation": "The price you must pay for something",
+      "phonetic": "/kɔːst/",
+      "example": "How much does it cost?",
+      "exampleTranslation": "Asking about price"
+    },
+    {
+      "word": "Store",
+      "translation": "A place where goods are sold",
+      "phonetic": "/stɔːr/",
+      "example": "Let's go to the store to buy groceries.",
+      "exampleTranslation": "Suggesting a shopping trip"
+    }
+  ]
+}

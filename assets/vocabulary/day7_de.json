@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Wasser",
+      "translation": "Essentielle Flüssigkeit für das Leben",
+      "phonetic": "/ˈvasɐ/",
+      "example": "Ich trinke täglich acht Gläser Wasser.",
+      "exampleTranslation": "Das wichtigste Getränk für die Gesundheit"
+    },
+    {
+      "word": "Brot",
+      "translation": "Gebackenes Lebensmittel aus Mehl",
+      "phonetic": "/bʁoːt/",
+      "example": "Ich esse Brot zum Frühstück.",
+      "exampleTranslation": "Ein Grundnahrungsmittel in vielen Kulturen"
+    },
+    {
+      "word": "Milch",
+      "translation": "Weiße Flüssigkeit von Kühen",
+      "phonetic": "/mɪlç/",
+      "example": "Kinder trinken Milch, um stark zu werden.",
+      "exampleTranslation": "Reich an Kalzium und Protein"
+    },
+    {
+      "word": "Ei",
+      "translation": "Lebensmittel von Hühnern, reich an Protein",
+      "phonetic": "/aɪ/",
+      "example": "Ich esse Eier zum Frühstück.",
+      "exampleTranslation": "Kann auf viele Arten gekocht werden"
+    },
+    {
+      "word": "Obst",
+      "translation": "Süßes Pflanzenprodukt mit Samen",
+      "phonetic": "/oːpst/",
+      "example": "Äpfel und Orangen sind Obst.",
+      "exampleTranslation": "Natürliches süßes Essen, sehr gesund"
+    },
+    {
+      "word": "Gemüse",
+      "translation": "Essbare Pflanze oder Pflanzenteil",
+      "phonetic": "/ɡəˈmyːzə/",
+      "example": "Karotten und Brokkoli sind Gemüse.",
+      "exampleTranslation": "Wichtig für eine gesunde Ernährung"
+    },
+    {
+      "word": "Fleisch",
+      "translation": "Tierisches Fleisch als Nahrung",
+      "phonetic": "/flaɪʃ/",
+      "example": "Huhn und Rind sind Fleischsorten.",
+      "exampleTranslation": "Reich an Protein"
+    },
+    {
+      "word": "Kaffee",
+      "translation": "Heißes Getränk aus gerösteten Bohnen",
+      "phonetic": "/ˈkafe/",
+      "example": "Viele Menschen trinken morgens Kaffee.",
+      "exampleTranslation": "Enthält Koffein für Energie"
+    }
+  ]
+}

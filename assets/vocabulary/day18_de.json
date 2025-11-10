@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Kaufen",
+      "translation": "Etwas mit Geld erwerben",
+      "phonetic": "/ˈkaʊfn̩/",
+      "example": "Ich möchte ein neues Buch kaufen.",
+      "exampleTranslation": "Den Wunsch zu kaufen ausdrücken"
+    },
+    {
+      "word": "Verkaufen",
+      "translation": "Etwas gegen Geld geben",
+      "phonetic": "/fɛɐ̯ˈkaʊfn̩/",
+      "example": "Sie verkaufen frisches Gemüse auf dem Markt.",
+      "exampleTranslation": "Beschreiben, was ein Verkäufer tut"
+    },
+    {
+      "word": "Preis",
+      "translation": "Der Geldbetrag, den etwas kostet",
+      "phonetic": "/pʁaɪs/",
+      "example": "Was ist der Preis dieser Jacke?",
+      "exampleTranslation": "Nach Kosten fragen"
+    },
+    {
+      "word": "Teuer",
+      "translation": "Viel Geld kostend",
+      "phonetic": "/ˈtɔʏɐ/",
+      "example": "Diese Uhr ist zu teuer für mich.",
+      "exampleTranslation": "Über hohe Kosten kommentieren"
+    },
+    {
+      "word": "Billig",
+      "translation": "Wenig Geld kostend",
+      "phonetic": "/ˈbɪlɪç/",
+      "example": "Ich habe ein billiges Hotel für unsere Reise gefunden.",
+      "exampleTranslation": "Über erschwingliche Optionen sprechen"
+    },
+    {
+      "word": "Geld",
+      "translation": "Währung, die zum Kauf von Dingen verwendet wird",
+      "phonetic": "/ɡɛlt/",
+      "example": "Ich habe nicht genug Geld, um dieses Auto zu kaufen.",
+      "exampleTranslation": "Finanzielle Einschränkung ausdrücken"
+    },
+    {
+      "word": "Kosten",
+      "translation": "Der Preis, den man für etwas bezahlen muss",
+      "phonetic": "/ˈkɔstn̩/",
+      "example": "Wie viel kostet das?",
+      "exampleTranslation": "Nach dem Preis fragen"
+    },
+    {
+      "word": "Geschäft",
+      "translation": "Ein Ort, an dem Waren verkauft werden",
+      "phonetic": "/ɡəˈʃɛft/",
+      "example": "Lass uns zum Geschäft gehen, um Lebensmittel zu kaufen.",
+      "exampleTranslation": "Einen Einkaufsbummel vorschlagen"
+    }
+  ]
+}

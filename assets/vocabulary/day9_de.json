@@ -1,0 +1,74 @@
+{
+  "vocabulary": [
+    {
+      "word": "Groß",
+      "translation": "Von großer Größe",
+      "phonetic": "/ɡʁoːs/",
+      "example": "Der Elefant ist groß.",
+      "exampleTranslation": "Große Größe beschreiben"
+    },
+    {
+      "word": "Klein",
+      "translation": "Von geringer Größe",
+      "phonetic": "/klaɪn/",
+      "example": "Die Maus ist klein.",
+      "exampleTranslation": "Winzige Größe beschreiben"
+    },
+    {
+      "word": "Heiß",
+      "translation": "Mit hoher Temperatur",
+      "phonetic": "/haɪs/",
+      "example": "Der Kaffee ist heiß.",
+      "exampleTranslation": "Hohe Temperatur beschreiben"
+    },
+    {
+      "word": "Kalt",
+      "translation": "Mit niedriger Temperatur",
+      "phonetic": "/kalt/",
+      "example": "Das Eis ist kalt.",
+      "exampleTranslation": "Niedrige Temperatur beschreiben"
+    },
+    {
+      "word": "Schnell",
+      "translation": "Sich schnell bewegend oder geschehend",
+      "phonetic": "/ʃnɛl/",
+      "example": "Das Auto ist schnell.",
+      "exampleTranslation": "Hohe Geschwindigkeit beschreiben"
+    },
+    {
+      "word": "Langsam",
+      "translation": "Sich langsam bewegend oder geschehend",
+      "phonetic": "/ˈlaŋzaːm/",
+      "example": "Die Schildkröte ist langsam.",
+      "exampleTranslation": "Geringe Geschwindigkeit beschreiben"
+    },
+    {
+      "word": "Gut",
+      "translation": "Von hoher Qualität oder wünschenswert",
+      "phonetic": "/ɡuːt/",
+      "example": "Das ist gutes Essen.",
+      "exampleTranslation": "Qualität oder Exzellenz beschreiben"
+    },
+    {
+      "word": "Schlecht",
+      "translation": "Von schlechter Qualität oder unerwünscht",
+      "phonetic": "/ʃlɛçt/",
+      "example": "Das ist schlechtes Wetter.",
+      "exampleTranslation": "Schlechte Qualität beschreiben"
+    },
+    {
+      "word": "Glücklich",
+      "translation": "Freude oder Vergnügen empfinden",
+      "phonetic": "/ˈɡlʏklɪç/",
+      "example": "Ich bin heute glücklich.",
+      "exampleTranslation": "Positive Emotion beschreiben"
+    },
+    {
+      "word": "Traurig",
+      "translation": "Unglücklich oder betrübt fühlen",
+      "phonetic": "/ˈtʁaʊʁɪç/",
+      "example": "Sie sieht traurig aus.",
+      "exampleTranslation": "Negative Emotion beschreiben"
+    }
+  ]
+}

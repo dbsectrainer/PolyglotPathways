@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Feliz",
+      "translation": "Sentir alegria e contentamento",
+      "phonetic": "/feˈlis/",
+      "example": "Estou tão feliz em te ver!",
+      "exampleTranslation": "Expressando alegria ao encontrar alguém"
+    },
+    {
+      "word": "Triste",
+      "translation": "Sentir tristeza ou infelicidade",
+      "phonetic": "/ˈtɾistʃi/",
+      "example": "Ela se sente triste porque seu animal de estimação está doente.",
+      "exampleTranslation": "Explicando uma razão para tristeza"
+    },
+    {
+      "word": "Bravo",
+      "translation": "Sentir grande descontentamento ou raiva",
+      "phonetic": "/ˈbɾavu/",
+      "example": "Ele fica bravo quando as pessoas se atrasam.",
+      "exampleTranslation": "Descrevendo o que causa raiva"
+    },
+    {
+      "word": "Assustado",
+      "translation": "Sentir medo ou susto",
+      "phonetic": "/asusˈtadu/",
+      "example": "A criança está assustada do escuro.",
+      "exampleTranslation": "Falando sobre um medo comum"
+    },
+    {
+      "word": "Animado",
+      "translation": "Sentir entusiasmo e ansiedade positiva",
+      "phonetic": "/aniˈmadu/",
+      "example": "Estou animado para minha festa de aniversário!",
+      "exampleTranslation": "Expressando antecipação por um evento"
+    },
+    {
+      "word": "Cansado",
+      "translation": "Sentir-se exausto ou precisando de descanso",
+      "phonetic": "/kɐ̃ˈsadu/",
+      "example": "Estou cansado demais para sair hoje à noite.",
+      "exampleTranslation": "Recusando um convite devido à fadiga"
+    },
+    {
+      "word": "Nervoso",
+      "translation": "Sentir ansiedade ou preocupação",
+      "phonetic": "/neʁˈvozu/",
+      "example": "Estou nervoso com a entrevista de emprego.",
+      "exampleTranslation": "Expressando ansiedade sobre eventos futuros"
+    },
+    {
+      "word": "Orgulhoso",
+      "translation": "Sentir satisfação nas conquistas",
+      "phonetic": "/oʁɡuˈʎozu/",
+      "example": "Estou orgulhoso do sucesso da minha filha.",
+      "exampleTranslation": "Expressando satisfação na realização de alguém"
+    }
+  ]
+}

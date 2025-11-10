@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Car",
+      "translation": "A four-wheeled vehicle for traveling",
+      "phonetic": "/kɑːr/",
+      "example": "We drove our car to the beach.",
+      "exampleTranslation": "Talking about a trip using a vehicle"
+    },
+    {
+      "word": "Bus",
+      "translation": "A large vehicle that carries many passengers",
+      "phonetic": "/bʌs/",
+      "example": "I take the bus to work every morning.",
+      "exampleTranslation": "Describing daily commute"
+    },
+    {
+      "word": "Train",
+      "translation": "A vehicle that runs on railroad tracks",
+      "phonetic": "/treɪn/",
+      "example": "The train arrives at the station at 8 AM.",
+      "exampleTranslation": "Talking about train schedules"
+    },
+    {
+      "word": "Bike",
+      "translation": "A two-wheeled vehicle powered by pedaling",
+      "phonetic": "/baɪk/",
+      "example": "She rides her bike to the park every weekend.",
+      "exampleTranslation": "Describing recreational transportation"
+    },
+    {
+      "word": "Plane",
+      "translation": "An aircraft that flies in the sky",
+      "phonetic": "/pleɪn/",
+      "example": "We're taking a plane to visit grandma.",
+      "exampleTranslation": "Discussing air travel plans"
+    },
+    {
+      "word": "Boat",
+      "translation": "A vehicle for traveling on water",
+      "phonetic": "/boʊt/",
+      "example": "We took a boat tour around the island.",
+      "exampleTranslation": "Talking about water transportation"
+    },
+    {
+      "word": "Walk",
+      "translation": "To move on foot",
+      "phonetic": "/wɔːk/",
+      "example": "I walk to the store when the weather is nice.",
+      "exampleTranslation": "Describing pedestrian movement"
+    },
+    {
+      "word": "Subway",
+      "translation": "An underground train system",
+      "phonetic": "/ˈsʌbweɪ/",
+      "example": "The subway is the fastest way to get downtown.",
+      "exampleTranslation": "Discussing urban transportation"
+    }
+  ]
+}

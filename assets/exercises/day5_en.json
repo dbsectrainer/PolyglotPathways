@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day5_mc1",
+      "type": "multipleChoice",
+      "question": "What do you call your father's father?",
+      "options": [
+        "Uncle",
+        "Grandfather",
+        "Brother",
+        "Cousin"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day5_mc2",
+      "type": "multipleChoice",
+      "question": "What is your mother's sister to you?",
+      "options": [
+        "Grandmother",
+        "Sister",
+        "Aunt",
+        "Cousin"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day5_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'My parents are my ____ and father.'",
+      "correctAnswer": "mother",
+      "acceptableAlternatives": ["Mother", "mom", "Mom"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day5_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'My sister's son is my ____.'",
+      "correctAnswer": "nephew",
+      "acceptableAlternatives": ["Nephew"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day5_mc3",
+      "type": "multipleChoice",
+      "question": "What do you call your parent's child who is a boy?",
+      "options": [
+        "Sister",
+        "Daughter",
+        "Son",
+        "Niece"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day5_trans1",
+      "type": "translation",
+      "question": "What do you call your aunt and uncle's children?",
+      "targetText": "Children of aunt and uncle",
+      "correctTranslation": "Cousins",
+      "acceptableAlternatives": ["cousins", "Cousin", "cousin"]
+    },
+    {
+      "id": "day5_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'My brother's daughter is my ____.'",
+      "correctAnswer": "niece",
+      "acceptableAlternatives": ["Niece"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day5_mc4",
+      "type": "multipleChoice",
+      "question": "Who are your grandparents?",
+      "options": [
+        "Your parents' parents",
+        "Your parents' siblings",
+        "Your siblings' children",
+        "Your aunts and uncles"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

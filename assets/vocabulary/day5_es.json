@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Madre",
+      "translation": "Progenitor femenino",
+      "phonetic": "/ˈmaðɾe/",
+      "example": "Mi madre es maestra.",
+      "exampleTranslation": "Refiriéndose a tu progenitor femenino"
+    },
+    {
+      "word": "Padre",
+      "translation": "Progenitor masculino",
+      "phonetic": "/ˈpaðɾe/",
+      "example": "Mi padre trabaja en una oficina.",
+      "exampleTranslation": "Refiriéndose a tu progenitor masculino"
+    },
+    {
+      "word": "Hermana",
+      "translation": "Hermana mujer",
+      "phonetic": "/eɾˈmana/",
+      "example": "Tengo una hermana.",
+      "exampleTranslation": "La hija de tus padres"
+    },
+    {
+      "word": "Hermano",
+      "translation": "Hermano varón",
+      "phonetic": "/eɾˈmano/",
+      "example": "Mi hermano es mayor que yo.",
+      "exampleTranslation": "El hijo de tus padres"
+    },
+    {
+      "word": "Abuela",
+      "translation": "La madre de tu padre o madre",
+      "phonetic": "/aˈβwela/",
+      "example": "Mi abuela hace galletas deliciosas.",
+      "exampleTranslation": "Abuela mujer"
+    },
+    {
+      "word": "Abuelo",
+      "translation": "El padre de tu padre o madre",
+      "phonetic": "/aˈβwelo/",
+      "example": "Mi abuelo cuenta historias geniales.",
+      "exampleTranslation": "Abuelo varón"
+    },
+    {
+      "word": "Tía",
+      "translation": "La hermana de tu padre o madre, o la esposa de tu tío",
+      "phonetic": "/ˈtia/",
+      "example": "Mi tía vive en otra ciudad.",
+      "exampleTranslation": "Pariente femenina de la generación de tus padres"
+    },
+    {
+      "word": "Tío",
+      "translation": "El hermano de tu padre o madre, o el esposo de tu tía",
+      "phonetic": "/ˈtio/",
+      "example": "Mi tío es muy gracioso.",
+      "exampleTranslation": "Pariente masculino de la generación de tus padres"
+    },
+    {
+      "word": "Primo/Prima",
+      "translation": "El hijo o hija de tu tío o tía",
+      "phonetic": "/ˈpɾimo/ /ˈpɾima/",
+      "example": "Juego con mis primos cada fin de semana.",
+      "exampleTranslation": "Hijos de tus tíos y tías"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Hemd",
+      "translation": "Kleidung, die am Oberkörper getragen wird",
+      "phonetic": "/hɛmt/",
+      "example": "Er trägt heute ein blaues Hemd.",
+      "exampleTranslation": "Die Oberkörperkleidung von jemandem beschreiben"
+    },
+    {
+      "word": "Hose",
+      "translation": "Kleidung, die an den Beinen getragen wird",
+      "phonetic": "/ˈhoːzə/",
+      "example": "Diese Hose ist zu eng für mich.",
+      "exampleTranslation": "Über Beinbekleidung sprechen"
+    },
+    {
+      "word": "Kleid",
+      "translation": "Einteiliges Kleidungsstück für Frauen oder Mädchen",
+      "phonetic": "/klaɪt/",
+      "example": "Sie trug ein schönes Kleid zur Hochzeit.",
+      "exampleTranslation": "Formelle Kleidung beschreiben"
+    },
+    {
+      "word": "Schuhe",
+      "translation": "Fußbekleidung, die die Füße bedeckt",
+      "phonetic": "/ˈʃuːə/",
+      "example": "Ich muss neue Schuhe zum Laufen kaufen.",
+      "exampleTranslation": "Über Schuhbedarf sprechen"
+    },
+    {
+      "word": "Hut",
+      "translation": "Kopfbedeckung",
+      "phonetic": "/huːt/",
+      "example": "Tragen Sie einen Hut, um sich vor der Sonne zu schützen.",
+      "exampleTranslation": "Über Sonnenschutz beraten"
+    },
+    {
+      "word": "Jacke",
+      "translation": "Äußeres Kleidungsstück, das über anderer Kleidung getragen wird",
+      "phonetic": "/ˈjakə/",
+      "example": "Es ist kalt draußen, bring deine Jacke mit.",
+      "exampleTranslation": "Warme Kleidung vorschlagen"
+    },
+    {
+      "word": "Socken",
+      "translation": "Kleidung, die an den Füßen in den Schuhen getragen wird",
+      "phonetic": "/ˈzɔkn̩/",
+      "example": "Ich kann kein passendes Paar Socken finden.",
+      "exampleTranslation": "Über häufige Kleidungsprobleme sprechen"
+    },
+    {
+      "word": "Handschuhe",
+      "translation": "Bedeckung, die an den Händen getragen wird",
+      "phonetic": "/ˈhantʃuːə/",
+      "example": "Tragen Sie Handschuhe, wenn es draußen friert.",
+      "exampleTranslation": "Über Winteraccessoires beraten"
+    }
+  ]
+}

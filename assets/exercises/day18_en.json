@@ -1,0 +1,79 @@
+{
+  "exercises": [
+    {
+      "id": "day18_mc1",
+      "type": "multipleChoice",
+      "question": "When you give money to get something at a store, you:",
+      "options": [
+        "Sell",
+        "Buy",
+        "Cost",
+        "Price"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day18_mc2",
+      "type": "multipleChoice",
+      "question": "If something costs a lot of money, it is:",
+      "options": [
+        "Cheap",
+        "Expensive",
+        "Free",
+        "New"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day18_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'How much does this ____ ?'",
+      "correctAnswer": "cost",
+      "caseSensitive": false
+    },
+    {
+      "id": "day18_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I need some ____ to buy lunch.'",
+      "correctAnswer": "money",
+      "acceptableAlternatives": ["cash", "coins"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day18_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Sell",
+      "correctTranslation": "Sell",
+      "acceptableAlternatives": ["To sell"]
+    },
+    {
+      "id": "day18_mc3",
+      "type": "multipleChoice",
+      "question": "What do you ask when you want to know how much something costs?",
+      "options": [
+        "What time is it?",
+        "What's the price?",
+        "Where is it?",
+        "Who made this?"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day18_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'This shirt is very ____! It only costs $5.'",
+      "correctAnswer": "cheap",
+      "acceptableAlternatives": ["inexpensive", "affordable"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day18_trans2",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Price",
+      "correctTranslation": "Price",
+      "acceptableAlternatives": ["Cost"]
+    }
+  ]
+}

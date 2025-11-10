@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Izquierda",
+      "translation": "La dirección opuesta a derecha",
+      "phonetic": "/iθˈkjeɾða/",
+      "example": "Gira a la izquierda en la próxima esquina.",
+      "exampleTranslation": "Dando direcciones"
+    },
+    {
+      "word": "Derecha",
+      "translation": "La dirección opuesta a izquierda",
+      "phonetic": "/deˈɾetʃa/",
+      "example": "El banco está a tu derecha.",
+      "exampleTranslation": "Describiendo ubicación"
+    },
+    {
+      "word": "Arriba",
+      "translation": "En o hacia una posición más alta",
+      "phonetic": "/aˈriβa/",
+      "example": "Sube las escaleras al segundo piso.",
+      "exampleTranslation": "Dando direcciones verticales"
+    },
+    {
+      "word": "Abajo",
+      "translation": "En o hacia una posición más baja",
+      "phonetic": "/aˈβaxo/",
+      "example": "Camina por esta calle dos cuadras hacia abajo.",
+      "exampleTranslation": "Proporcionando direcciones"
+    },
+    {
+      "word": "Aquí",
+      "translation": "En o en este lugar",
+      "phonetic": "/aˈki/",
+      "example": "¡Ven aquí, por favor!",
+      "exampleTranslation": "Llamando a alguien a tu ubicación"
+    },
+    {
+      "word": "Allí",
+      "translation": "En o en ese lugar",
+      "phonetic": "/aˈʎi/",
+      "example": "Pon el libro allí en la mesa.",
+      "exampleTranslation": "Indicando una ubicación"
+    },
+    {
+      "word": "Cerca",
+      "translation": "Cerca en distancia",
+      "phonetic": "/ˈθeɾka/",
+      "example": "La escuela está cerca de mi casa.",
+      "exampleTranslation": "Describiendo proximidad"
+    },
+    {
+      "word": "Lejos",
+      "translation": "A gran distancia",
+      "phonetic": "/ˈlexos/",
+      "example": "¿Qué tan lejos está el aeropuerto?",
+      "exampleTranslation": "Preguntando sobre distancia"
+    }
+  ]
+}

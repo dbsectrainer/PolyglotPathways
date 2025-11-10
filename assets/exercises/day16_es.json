@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day16_mc1",
+      "type": "multipleChoice",
+      "question": "Cuando sonríes y te sientes bien, estás:",
+      "options": [
+        "Triste",
+        "Feliz",
+        "Enojado",
+        "Cansado"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day16_mc2",
+      "type": "multipleChoice",
+      "question": "Si alguien está gritando y se ve molesto, podría estar:",
+      "options": [
+        "Emocionado",
+        "Enojado",
+        "Feliz",
+        "Somnoliento"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day16_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Me siento ____ cuando veo una película de miedo.'",
+      "correctAnswer": "asustado",
+      "acceptableAlternatives": ["asustada", "con miedo"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day16_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Después de correr una hora, me siento muy ____.'",
+      "correctAnswer": "cansado",
+      "acceptableAlternatives": ["cansada", "agotado"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day16_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Excited",
+      "correctTranslation": "Emocionado",
+      "acceptableAlternatives": ["Emocionada", "Entusiasmado"]
+    },
+    {
+      "id": "day16_mc3",
+      "type": "multipleChoice",
+      "question": "Cuando lloras porque algo malo pasó, te sientes:",
+      "options": [
+        "Feliz",
+        "Triste",
+        "Enojado",
+        "Emocionado"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day16_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Me pongo ____ antes de hacer un examen importante.'",
+      "correctAnswer": "nervioso",
+      "acceptableAlternatives": ["nerviosa", "ansioso"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day16_trans2",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Happy",
+      "correctTranslation": "Feliz",
+      "acceptableAlternatives": ["Contento", "Alegre"]
+    }
+  ]
+}

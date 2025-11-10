@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Shirt",
+      "translation": "Clothing worn on the upper body",
+      "phonetic": "/ʃɜːrt/",
+      "example": "He is wearing a blue shirt today.",
+      "exampleTranslation": "Describing someone's upper body clothing"
+    },
+    {
+      "word": "Pants",
+      "translation": "Clothing worn on the legs",
+      "phonetic": "/pænts/",
+      "example": "These pants are too tight for me.",
+      "exampleTranslation": "Talking about leg clothing"
+    },
+    {
+      "word": "Dress",
+      "translation": "One-piece garment for women or girls",
+      "phonetic": "/drɛs/",
+      "example": "She wore a beautiful dress to the wedding.",
+      "exampleTranslation": "Describing formal attire"
+    },
+    {
+      "word": "Shoes",
+      "translation": "Footwear that covers the feet",
+      "phonetic": "/ʃuːz/",
+      "example": "I need to buy new shoes for running.",
+      "exampleTranslation": "Talking about footwear needs"
+    },
+    {
+      "word": "Hat",
+      "translation": "Covering worn on the head",
+      "phonetic": "/hæt/",
+      "example": "Wear a hat to protect yourself from the sun.",
+      "exampleTranslation": "Advising about sun protection"
+    },
+    {
+      "word": "Jacket",
+      "translation": "Outer garment worn over other clothes",
+      "phonetic": "/ˈdʒækɪt/",
+      "example": "It's cold outside, bring your jacket.",
+      "exampleTranslation": "Suggesting warm clothing"
+    },
+    {
+      "word": "Socks",
+      "translation": "Clothing worn on the feet inside shoes",
+      "phonetic": "/sɑːks/",
+      "example": "I can't find a matching pair of socks.",
+      "exampleTranslation": "Talking about common clothing problems"
+    },
+    {
+      "word": "Gloves",
+      "translation": "Covering worn on the hands",
+      "phonetic": "/ɡlʌvz/",
+      "example": "Wear gloves when it's freezing outside.",
+      "exampleTranslation": "Advising about winter accessories"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Eau",
+      "translation": "Liquide essentiel pour la vie",
+      "phonetic": "/o/",
+      "example": "Je bois huit verres d'eau par jour.",
+      "exampleTranslation": "La boisson la plus importante pour la santé"
+    },
+    {
+      "word": "Pain",
+      "translation": "Aliment cuit fait de farine",
+      "phonetic": "/pɛ̃/",
+      "example": "Je mange du pain au petit-déjeuner.",
+      "exampleTranslation": "Un aliment de base dans de nombreuses cultures"
+    },
+    {
+      "word": "Lait",
+      "translation": "Liquide blanc des vaches",
+      "phonetic": "/lɛ/",
+      "example": "Les enfants boivent du lait pour grandir.",
+      "exampleTranslation": "Riche en calcium et protéines"
+    },
+    {
+      "word": "Œuf",
+      "translation": "Aliment des poules, riche en protéines",
+      "phonetic": "/œf/",
+      "example": "Je mange des œufs au petit-déjeuner.",
+      "exampleTranslation": "Peut être cuit de plusieurs façons"
+    },
+    {
+      "word": "Fruit",
+      "translation": "Produit végétal sucré avec des graines",
+      "phonetic": "/fʁɥi/",
+      "example": "Les pommes et les oranges sont des fruits.",
+      "exampleTranslation": "Aliment sucré naturel, très sain"
+    },
+    {
+      "word": "Légume",
+      "translation": "Plante comestible ou partie de plante",
+      "phonetic": "/leɡym/",
+      "example": "Les carottes et le brocoli sont des légumes.",
+      "exampleTranslation": "Important pour une alimentation saine"
+    },
+    {
+      "word": "Viande",
+      "translation": "Chair animale utilisée comme nourriture",
+      "phonetic": "/vjɑ̃d/",
+      "example": "Le poulet et le bœuf sont des viandes.",
+      "exampleTranslation": "Riche en protéines"
+    },
+    {
+      "word": "Café",
+      "translation": "Boisson chaude faite de grains torréfiés",
+      "phonetic": "/kafe/",
+      "example": "Beaucoup de gens boivent du café le matin.",
+      "exampleTranslation": "Contient de la caféine pour l'énergie"
+    }
+  ]
+}

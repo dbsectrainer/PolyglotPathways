@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day9_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué palabra describe algo grande en tamaño?",
+      "options": [
+        "Pequeño",
+        "Grande",
+        "Corto",
+        "Delgado"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day9_mc2",
+      "type": "multipleChoice",
+      "question": "¿Cuál es el opuesto de 'frío'?",
+      "options": [
+        "Caliente",
+        "Fresco",
+        "Helado",
+        "Congelado"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day9_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'El sol es muy ____.'",
+      "correctAnswer": "caliente",
+      "acceptableAlternatives": ["Caliente", "brillante", "Brillante"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day9_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Esta bolsa es muy ____. No pesa casi nada.'",
+      "correctAnswer": "ligera",
+      "acceptableAlternatives": ["Ligera", "liviana", "Liviana"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day9_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué adjetivo significa 'no sucio'?",
+      "options": [
+        "Desordenado",
+        "Limpio",
+        "Polvoriento",
+        "Fangoso"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day9_trans1",
+      "type": "translation",
+      "question": "¿Qué palabra describe algo que se mueve o sucede rápidamente?",
+      "targetText": "Opuesto de lento",
+      "correctTranslation": "Rápido",
+      "acceptableAlternatives": ["rápido", "veloz", "Veloz"]
+    },
+    {
+      "id": "day9_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Ella es muy ____ y me hace reír.'",
+      "correctAnswer": "graciosa",
+      "acceptableAlternatives": ["Graciosa", "divertida", "Divertida", "cómica"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day9_mc4",
+      "type": "multipleChoice",
+      "question": "¿Qué par son opuestos?",
+      "options": [
+        "Feliz y contento",
+        "Alto y bajo",
+        "Grande y enorme",
+        "Rápido y veloz"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

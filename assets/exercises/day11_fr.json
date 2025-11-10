@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day11_mc1",
+      "type": "multipleChoice",
+      "question": "Quelle heure est-il quand l'horloge indique 12:00 de l'après-midi?",
+      "options": [
+        "Minuit",
+        "Midi",
+        "Matin",
+        "Soir"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day11_mc2",
+      "type": "multipleChoice",
+      "question": "Combien de minutes y a-t-il dans une heure?",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "100"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day11_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Il y a 24 ____ dans un jour.'",
+      "correctAnswer": "heures",
+      "acceptableAlternatives": ["Heures"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day11_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Je me réveille à 7 heures du ____.'",
+      "correctAnswer": "matin",
+      "acceptableAlternatives": ["Matin"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day11_mc3",
+      "type": "multipleChoice",
+      "question": "Comment appelle-t-on la période de 12:00 AM à 11:59 AM?",
+      "options": [
+        "Après-midi",
+        "Soir",
+        "Matin",
+        "Nuit"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day11_trans1",
+      "type": "translation",
+      "question": "Quelle période vient après l'après-midi?",
+      "targetText": "Temps après l'après-midi",
+      "correctTranslation": "Soir",
+      "acceptableAlternatives": ["soir", "Soirée", "soirée"]
+    },
+    {
+      "id": "day11_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Une heure équivaut à soixante ____.'",
+      "correctAnswer": "minutes",
+      "acceptableAlternatives": ["Minutes"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day11_mc4",
+      "type": "multipleChoice",
+      "question": "S'il est 3:30, que dit-on?",
+      "options": [
+        "Trois heures",
+        "Trois heures et demie",
+        "Quatre heures",
+        "Trois heures moins le quart"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

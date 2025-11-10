@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "To be",
+      "translation": "Verb indicating existence or state",
+      "phonetic": "/tuː biː/",
+      "example": "I am a student.",
+      "exampleTranslation": "Expressing identity or state of being"
+    },
+    {
+      "word": "To have",
+      "translation": "Verb indicating possession",
+      "phonetic": "/tuː hæv/",
+      "example": "I have a book.",
+      "exampleTranslation": "Showing ownership or possession"
+    },
+    {
+      "word": "To go",
+      "translation": "Verb indicating movement",
+      "phonetic": "/tuː ɡoʊ/",
+      "example": "I go to work by bus.",
+      "exampleTranslation": "Moving from one place to another"
+    },
+    {
+      "word": "To do",
+      "translation": "Verb indicating action or performance",
+      "phonetic": "/tuː duː/",
+      "example": "I do my homework.",
+      "exampleTranslation": "Performing an action or task"
+    },
+    {
+      "word": "To make",
+      "translation": "Verb indicating creation or production",
+      "phonetic": "/tuː meɪk/",
+      "example": "I make breakfast every morning.",
+      "exampleTranslation": "Creating or producing something"
+    },
+    {
+      "word": "To see",
+      "translation": "Verb indicating vision or perception",
+      "phonetic": "/tuː siː/",
+      "example": "I see a bird in the tree.",
+      "exampleTranslation": "Using your eyes to perceive"
+    },
+    {
+      "word": "To come",
+      "translation": "Verb indicating movement toward",
+      "phonetic": "/tuː kʌm/",
+      "example": "Please come to my house.",
+      "exampleTranslation": "Moving toward the speaker"
+    },
+    {
+      "word": "To want",
+      "translation": "Verb indicating desire",
+      "phonetic": "/tuː wɑːnt/",
+      "example": "I want some water.",
+      "exampleTranslation": "Expressing a wish or desire"
+    }
+  ]
+}

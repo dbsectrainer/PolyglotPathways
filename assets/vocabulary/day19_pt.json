@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Esquerda",
+      "translation": "A direção oposta à direita",
+      "phonetic": "/esˈkeɾdɐ/",
+      "example": "Vire à esquerda na próxima esquina.",
+      "exampleTranslation": "Dando direções"
+    },
+    {
+      "word": "Direita",
+      "translation": "A direção oposta à esquerda",
+      "phonetic": "/diˈɾejtɐ/",
+      "example": "O banco está à sua direita.",
+      "exampleTranslation": "Descrevendo localização"
+    },
+    {
+      "word": "Para cima",
+      "translation": "Em ou em direção a uma posição mais alta",
+      "phonetic": "/ˈpaɾɐ ˈsimɐ/",
+      "example": "Suba as escadas para o segundo andar.",
+      "exampleTranslation": "Dando direções verticais"
+    },
+    {
+      "word": "Para baixo",
+      "translation": "Em ou em direção a uma posição mais baixa",
+      "phonetic": "/ˈpaɾɐ ˈbajʃu/",
+      "example": "Caminhe por esta rua por dois quarteirões.",
+      "exampleTranslation": "Fornecendo direções"
+    },
+    {
+      "word": "Aqui",
+      "translation": "Neste ou neste lugar",
+      "phonetic": "/aˈki/",
+      "example": "Venha aqui, por favor!",
+      "exampleTranslation": "Chamando alguém para sua localização"
+    },
+    {
+      "word": "Lá",
+      "translation": "Naquele ou naquele lugar",
+      "phonetic": "/la/",
+      "example": "Coloque o livro lá na mesa.",
+      "exampleTranslation": "Indicando uma localização"
+    },
+    {
+      "word": "Perto",
+      "translation": "Próximo em distância",
+      "phonetic": "/ˈpeɾtu/",
+      "example": "A escola fica perto da minha casa.",
+      "exampleTranslation": "Descrevendo proximidade"
+    },
+    {
+      "word": "Longe",
+      "translation": "A uma grande distância",
+      "phonetic": "/ˈlõʒi/",
+      "example": "Quão longe é até o aeroporto?",
+      "exampleTranslation": "Perguntando sobre distância"
+    }
+  ]
+}

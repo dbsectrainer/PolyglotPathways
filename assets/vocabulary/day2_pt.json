@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Zero",
+      "translation": "O número 0",
+      "phonetic": "/ˈzɛɾu/",
+      "example": "Eu tenho zero maçãs.",
+      "exampleTranslation": "Indicando a ausência de quantidade"
+    },
+    {
+      "word": "Um",
+      "translation": "O número 1",
+      "phonetic": "/ũ/",
+      "example": "Eu preciso de um bilhete.",
+      "exampleTranslation": "Um único item"
+    },
+    {
+      "word": "Cinco",
+      "translation": "O número 5",
+      "phonetic": "/ˈsĩku/",
+      "example": "Há cinco livros na mesa.",
+      "exampleTranslation": "Contando até cinco itens"
+    },
+    {
+      "word": "Dez",
+      "translation": "O número 10",
+      "phonetic": "/dɛʃ/",
+      "example": "Eu acordo às dez horas.",
+      "exampleTranslation": "O número depois do nove"
+    },
+    {
+      "word": "Vinte",
+      "translation": "O número 20",
+      "phonetic": "/ˈvĩtʃi/",
+      "example": "O livro custa vinte dólares.",
+      "exampleTranslation": "Dois dez"
+    },
+    {
+      "word": "Cem",
+      "translation": "O número 100",
+      "phonetic": "/sẽj/",
+      "example": "Cem pessoas compareceram.",
+      "exampleTranslation": "Dez vezes dez"
+    },
+    {
+      "word": "Primeiro",
+      "translation": "Posição número 1 em uma sequência",
+      "phonetic": "/pɾiˈmejɾu/",
+      "example": "Ela terminou em primeiro na corrida.",
+      "exampleTranslation": "Número ordinal para um"
+    },
+    {
+      "word": "Segundo",
+      "translation": "Posição número 2 em uma sequência",
+      "phonetic": "/seˈɡũdu/",
+      "example": "Ele ficou em segundo lugar.",
+      "exampleTranslation": "Número ordinal para dois"
+    }
+  ]
+}

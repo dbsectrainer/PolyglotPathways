@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Ensoleillé",
+      "translation": "Lumineux avec la lumière du soleil",
+      "phonetic": "/ɑ̃sɔleje/",
+      "example": "C'est une belle journée ensoleillée aujourd'hui!",
+      "exampleTranslation": "Décrire une journée avec beaucoup de soleil"
+    },
+    {
+      "word": "Pluvieux",
+      "translation": "Quand l'eau tombe du ciel",
+      "phonetic": "/plyvjø/",
+      "example": "N'oubliez pas votre parapluie, il fait pluvieux dehors.",
+      "exampleTranslation": "Avertir de la pluie"
+    },
+    {
+      "word": "Nuageux",
+      "translation": "Quand le ciel est couvert de nuages",
+      "phonetic": "/nɥaʒø/",
+      "example": "C'est nuageux, il pourrait pleuvoir bientôt.",
+      "exampleTranslation": "Décrire un temps couvert"
+    },
+    {
+      "word": "Venteux",
+      "translation": "Quand il y a beaucoup de vent",
+      "phonetic": "/vɑ̃tø/",
+      "example": "Il fait trop venteux pour faire voler un cerf-volant en toute sécurité.",
+      "exampleTranslation": "Décrire des conditions de vent fort"
+    },
+    {
+      "word": "Neige",
+      "translation": "Eau gelée qui tombe du ciel",
+      "phonetic": "/nɛʒ/",
+      "example": "Les enfants adorent jouer dans la neige.",
+      "exampleTranslation": "Parler de précipitations hivernales"
+    },
+    {
+      "word": "Chaud",
+      "translation": "Température très chaude",
+      "phonetic": "/ʃo/",
+      "example": "Il fait trop chaud pour sortir sans crème solaire.",
+      "exampleTranslation": "Avertir des températures élevées"
+    },
+    {
+      "word": "Froid",
+      "translation": "Température basse",
+      "phonetic": "/fʁwa/",
+      "example": "Portez une veste, il fait froid dehors!",
+      "exampleTranslation": "Conseiller sur le temps froid"
+    },
+    {
+      "word": "Prévisions météo",
+      "translation": "Prédiction des conditions météorologiques futures",
+      "phonetic": "/pʁevizjɔ̃ meteo/",
+      "example": "Selon les prévisions météo, il fera beau demain.",
+      "exampleTranslation": "Utiliser les prévisions météorologiques"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day9_mc1",
+      "type": "multipleChoice",
+      "question": "Quel mot décrit quelque chose de grande taille?",
+      "options": [
+        "Petit",
+        "Grand",
+        "Court",
+        "Mince"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day9_mc2",
+      "type": "multipleChoice",
+      "question": "Quel est le contraire de 'froid'?",
+      "options": [
+        "Chaud",
+        "Frais",
+        "Glacé",
+        "Gelé"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day9_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Le soleil est très ____.'",
+      "correctAnswer": "chaud",
+      "acceptableAlternatives": ["Chaud", "brillant", "Brillant"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day9_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Ce sac est très ____. Il ne pèse presque rien.'",
+      "correctAnswer": "léger",
+      "acceptableAlternatives": ["Léger"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day9_mc3",
+      "type": "multipleChoice",
+      "question": "Quel adjectif signifie 'pas sale'?",
+      "options": [
+        "Désordonné",
+        "Propre",
+        "Poussiéreux",
+        "Boueux"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day9_trans1",
+      "type": "translation",
+      "question": "Quel mot décrit quelque chose qui bouge ou se passe rapidement?",
+      "targetText": "Contraire de lent",
+      "correctTranslation": "Rapide",
+      "acceptableAlternatives": ["rapide", "vite"]
+    },
+    {
+      "id": "day9_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Elle est très ____ et me fait rire.'",
+      "correctAnswer": "drôle",
+      "acceptableAlternatives": ["Drôle", "amusante", "Amusante"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day9_mc4",
+      "type": "multipleChoice",
+      "question": "Quelle paire sont des contraires?",
+      "options": [
+        "Heureux et content",
+        "Grand et petit",
+        "Gros et énorme",
+        "Rapide et vite"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

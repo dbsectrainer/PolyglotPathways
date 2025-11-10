@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Bonjour",
+      "translation": "Une salutation utilisée lors d'une rencontre",
+      "phonetic": "/bɔ̃ʒuʁ/",
+      "example": "Bonjour, comment allez-vous aujourd'hui?",
+      "exampleTranslation": "Une salutation amicale pour commencer une conversation"
+    },
+    {
+      "word": "Au revoir",
+      "translation": "Une expression d'adieu",
+      "phonetic": "/o ʁəvwaʁ/",
+      "example": "Au revoir, à demain!",
+      "exampleTranslation": "Une façon polie de terminer une conversation"
+    },
+    {
+      "word": "S'il vous plaît",
+      "translation": "Un mot poli utilisé lors de demandes",
+      "phonetic": "/sil vu plɛ/",
+      "example": "Pourriez-vous m'aider, s'il vous plaît?",
+      "exampleTranslation": "Montre la politesse lors d'une demande"
+    },
+    {
+      "word": "Merci",
+      "translation": "Expression de gratitude",
+      "phonetic": "/mɛʁsi/",
+      "example": "Merci pour votre aide!",
+      "exampleTranslation": "Montrer de l'appréciation pour les actions de quelqu'un"
+    },
+    {
+      "word": "Je m'appelle",
+      "translation": "Phrase utilisée pour se présenter",
+      "phonetic": "/ʒə ma.pɛl/",
+      "example": "Bonjour, je m'appelle Sarah.",
+      "exampleTranslation": "Se présenter à quelqu'un de nouveau"
+    },
+    {
+      "word": "Enchanté",
+      "translation": "Expression polie lors d'une première rencontre",
+      "phonetic": "/ɑ̃ʃɑ̃te/",
+      "example": "Enchanté, Jean!",
+      "exampleTranslation": "Une salutation amicale pour les premières rencontres"
+    },
+    {
+      "word": "Comment allez-vous?",
+      "translation": "Une question courante pour demander le bien-être de quelqu'un",
+      "phonetic": "/kɔmɑ̃ tale vu/",
+      "example": "Bonjour! Comment allez-vous aujourd'hui?",
+      "exampleTranslation": "Demander l'état actuel de quelqu'un"
+    },
+    {
+      "word": "Je vais bien",
+      "translation": "Une réponse courante indiquant que vous allez bien",
+      "phonetic": "/ʒə vɛ bjɛ̃/",
+      "example": "Je vais bien, merci. Et vous?",
+      "exampleTranslation": "Réponse positive à 'Comment allez-vous?'"
+    }
+  ]
+}

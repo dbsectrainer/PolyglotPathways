@@ -1,0 +1,78 @@
+{
+  "exercises": [
+    {
+      "id": "day14_mc1",
+      "type": "multipleChoice",
+      "question": "Quel animal est connu comme le meilleur ami de l'homme?",
+      "options": [
+        "Chat",
+        "Chien",
+        "Oiseau",
+        "Poisson"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day14_mc2",
+      "type": "multipleChoice",
+      "question": "Quel animal vit dans l'eau?",
+      "options": [
+        "Cheval",
+        "Poisson",
+        "Poulet",
+        "Vache"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day14_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'L'____ peut voler dans le ciel.'",
+      "correctAnswer": "oiseau",
+      "caseSensitive": false
+    },
+    {
+      "id": "day14_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Le fermier a beaucoup d'animaux: des vaches, des cochons et des ____.'",
+      "correctAnswer": "poulets",
+      "acceptableAlternatives": ["poules", "chevaux"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day14_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Cat",
+      "correctTranslation": "Chat",
+      "acceptableAlternatives": ["Chaton"]
+    },
+    {
+      "id": "day14_mc3",
+      "type": "multipleChoice",
+      "question": "Quel animal fait 'miaou'?",
+      "options": [
+        "Chien",
+        "Chat",
+        "Vache",
+        "Cochon"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day14_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'La ____ nous donne du lait.'",
+      "correctAnswer": "vache",
+      "caseSensitive": false
+    },
+    {
+      "id": "day14_trans2",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Horse",
+      "correctTranslation": "Cheval",
+      "acceptableAlternatives": ["Poney"]
+    }
+  ]
+}

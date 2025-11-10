@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Left",
+      "translation": "The direction opposite of right",
+      "phonetic": "/lɛft/",
+      "example": "Turn left at the next corner.",
+      "exampleTranslation": "Giving directions"
+    },
+    {
+      "word": "Right",
+      "translation": "The direction opposite of left",
+      "phonetic": "/raɪt/",
+      "example": "The bank is on your right side.",
+      "exampleTranslation": "Describing location"
+    },
+    {
+      "word": "Up",
+      "translation": "In or toward a higher position",
+      "phonetic": "/ʌp/",
+      "example": "Go up the stairs to the second floor.",
+      "exampleTranslation": "Giving vertical directions"
+    },
+    {
+      "word": "Down",
+      "translation": "In or toward a lower position",
+      "phonetic": "/daʊn/",
+      "example": "Walk down this street for two blocks.",
+      "exampleTranslation": "Providing directions"
+    },
+    {
+      "word": "Here",
+      "translation": "In or at this place",
+      "phonetic": "/hɪr/",
+      "example": "Come here, please!",
+      "exampleTranslation": "Calling someone to your location"
+    },
+    {
+      "word": "There",
+      "translation": "In or at that place",
+      "phonetic": "/ðɛr/",
+      "example": "Put the book over there on the table.",
+      "exampleTranslation": "Indicating a location"
+    },
+    {
+      "word": "Near",
+      "translation": "Close in distance",
+      "phonetic": "/nɪr/",
+      "example": "The school is near my house.",
+      "exampleTranslation": "Describing proximity"
+    },
+    {
+      "word": "Far",
+      "translation": "At a great distance",
+      "phonetic": "/fɑːr/",
+      "example": "How far is it to the airport?",
+      "exampleTranslation": "Asking about distance"
+    }
+  ]
+}

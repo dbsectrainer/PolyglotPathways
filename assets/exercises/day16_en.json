@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day16_mc1",
+      "type": "multipleChoice",
+      "question": "When you smile and feel good, you are:",
+      "options": [
+        "Sad",
+        "Happy",
+        "Angry",
+        "Tired"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day16_mc2",
+      "type": "multipleChoice",
+      "question": "If someone is yelling and looks upset, they might be:",
+      "options": [
+        "Excited",
+        "Angry",
+        "Happy",
+        "Sleepy"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day16_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I feel ____ when I watch a scary movie.'",
+      "correctAnswer": "scared",
+      "acceptableAlternatives": ["afraid", "frightened"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day16_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'After running for an hour, I feel very ____.'",
+      "correctAnswer": "tired",
+      "acceptableAlternatives": ["exhausted", "sleepy"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day16_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Excited",
+      "correctTranslation": "Excited",
+      "acceptableAlternatives": ["Enthusiastic", "Thrilled"]
+    },
+    {
+      "id": "day16_mc3",
+      "type": "multipleChoice",
+      "question": "When you cry because something bad happened, you feel:",
+      "options": [
+        "Happy",
+        "Sad",
+        "Angry",
+        "Excited"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day16_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I get ____ before taking a big test.'",
+      "correctAnswer": "nervous",
+      "acceptableAlternatives": ["anxious", "worried"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day16_trans2",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Happy",
+      "correctTranslation": "Happy",
+      "acceptableAlternatives": ["Joyful", "Glad"]
+    }
+  ]
+}

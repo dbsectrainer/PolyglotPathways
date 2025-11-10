@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Hallo",
+      "translation": "Eine Begrüßung beim Treffen mit jemandem",
+      "phonetic": "/ˈhaloː/",
+      "example": "Hallo, wie geht es dir heute?",
+      "exampleTranslation": "Eine freundliche Begrüßung zum Start eines Gesprächs"
+    },
+    {
+      "word": "Auf Wiedersehen",
+      "translation": "Ein Abschiedsausdruck",
+      "phonetic": "/aʊf ˈviːdɐˌzeːən/",
+      "example": "Auf Wiedersehen, bis morgen!",
+      "exampleTranslation": "Eine höfliche Art, ein Gespräch zu beenden"
+    },
+    {
+      "word": "Bitte",
+      "translation": "Ein höfliches Wort beim Bitten",
+      "phonetic": "/ˈbɪtə/",
+      "example": "Könntest du mir bitte helfen?",
+      "exampleTranslation": "Zeigt Höflichkeit beim Bitten um etwas"
+    },
+    {
+      "word": "Danke",
+      "translation": "Ausdruck von Dankbarkeit",
+      "phonetic": "/ˈdaŋkə/",
+      "example": "Danke für deine Hilfe!",
+      "exampleTranslation": "Wertschätzung für jemandes Handlungen zeigen"
+    },
+    {
+      "word": "Ich heiße",
+      "translation": "Phrase zur Vorstellung",
+      "phonetic": "/ɪç ˈhaɪsə/",
+      "example": "Hallo, ich heiße Sarah.",
+      "exampleTranslation": "Sich jemandem Neuem vorstellen"
+    },
+    {
+      "word": "Freut mich",
+      "translation": "Höflicher Ausdruck beim ersten Treffen",
+      "phonetic": "/fʁɔʏt mɪç/",
+      "example": "Freut mich, Johann!",
+      "exampleTranslation": "Eine freundliche Begrüßung bei ersten Begegnungen"
+    },
+    {
+      "word": "Wie geht es dir?",
+      "translation": "Eine übliche Frage nach dem Wohlbefinden",
+      "phonetic": "/viː ɡeːt ɛs diːɐ/",
+      "example": "Hallo! Wie geht es dir heute?",
+      "exampleTranslation": "Nach dem aktuellen Zustand von jemandem fragen"
+    },
+    {
+      "word": "Mir geht es gut",
+      "translation": "Eine übliche Antwort, dass es einem gut geht",
+      "phonetic": "/miːɐ ɡeːt ɛs ɡuːt/",
+      "example": "Mir geht es gut, danke. Und dir?",
+      "exampleTranslation": "Positive Antwort auf 'Wie geht es dir?'"
+    }
+  ]
+}

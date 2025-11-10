@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Cabeça",
+      "translation": "Parte superior do corpo contendo o cérebro",
+      "phonetic": "/kaˈbesɐ/",
+      "example": "Eu uso um chapéu na minha cabeça.",
+      "exampleTranslation": "A parte mais alta do corpo"
+    },
+    {
+      "word": "Olho",
+      "translation": "Órgão usado para ver",
+      "phonetic": "/ˈoʎu/",
+      "example": "Eu tenho dois olhos.",
+      "exampleTranslation": "Usado para a visão"
+    },
+    {
+      "word": "Orelha/Ouvido",
+      "translation": "Órgão usado para ouvir",
+      "phonetic": "/oˈɾeʎɐ/ /oˈvidu/",
+      "example": "Eu ouço com meus ouvidos.",
+      "exampleTranslation": "Usado para ouvir sons"
+    },
+    {
+      "word": "Nariz",
+      "translation": "Órgão usado para cheirar e respirar",
+      "phonetic": "/naˈɾiʃ/",
+      "example": "Eu cheiro flores com meu nariz.",
+      "exampleTranslation": "No centro do seu rosto"
+    },
+    {
+      "word": "Boca",
+      "translation": "Abertura para comer e falar",
+      "phonetic": "/ˈbokɐ/",
+      "example": "Eu como com minha boca.",
+      "exampleTranslation": "Usado para comer e falar"
+    },
+    {
+      "word": "Mão",
+      "translation": "Parte no final do braço com dedos",
+      "phonetic": "/mɐ̃w/",
+      "example": "Eu escrevo com minha mão.",
+      "exampleTranslation": "Usado para agarrar e segurar"
+    },
+    {
+      "word": "Braço",
+      "translation": "Membro do ombro à mão",
+      "phonetic": "/ˈbɾasu/",
+      "example": "Eu carrego coisas com meus braços.",
+      "exampleTranslation": "Membro superior do corpo"
+    },
+    {
+      "word": "Perna",
+      "translation": "Membro usado para ficar em pé e caminhar",
+      "phonetic": "/ˈpɛɾnɐ/",
+      "example": "Eu ando com minhas pernas.",
+      "exampleTranslation": "Membro inferior do corpo"
+    },
+    {
+      "word": "Pé",
+      "translation": "Parte no final da perna",
+      "phonetic": "/pɛ/",
+      "example": "Eu uso sapatos nos meus pés.",
+      "exampleTranslation": "Usado para ficar em pé e caminhar"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "exercises": [
+    {
+      "id": "day14_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué animal es conocido como el mejor amigo del hombre?",
+      "options": [
+        "Gato",
+        "Perro",
+        "Pájaro",
+        "Pez"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day14_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué animal vive en el agua?",
+      "options": [
+        "Caballo",
+        "Pez",
+        "Pollo",
+        "Vaca"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day14_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'El ____ puede volar en el cielo.'",
+      "correctAnswer": "pájaro",
+      "acceptableAlternatives": ["ave"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day14_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'El granjero tiene muchos animales: vacas, cerdos y ____.'",
+      "correctAnswer": "pollos",
+      "acceptableAlternatives": ["gallinas", "caballos"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day14_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Cat",
+      "correctTranslation": "Gato",
+      "acceptableAlternatives": ["Gatito"]
+    },
+    {
+      "id": "day14_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué animal dice 'miau'?",
+      "options": [
+        "Perro",
+        "Gato",
+        "Vaca",
+        "Cerdo"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day14_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'La ____ nos da leche.'",
+      "correctAnswer": "vaca",
+      "caseSensitive": false
+    },
+    {
+      "id": "day14_trans2",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Horse",
+      "correctTranslation": "Caballo",
+      "acceptableAlternatives": ["Potro"]
+    }
+  ]
+}

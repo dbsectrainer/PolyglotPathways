@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Hora",
+      "translation": "60 minutos de tempo",
+      "phonetic": "/ˈoɾɐ/",
+      "example": "A reunião dura uma hora.",
+      "exampleTranslation": "Uma unidade de medida de tempo"
+    },
+    {
+      "word": "Minuto",
+      "translation": "60 segundos de tempo",
+      "phonetic": "/miˈnutu/",
+      "example": "Espere um minuto, por favor.",
+      "exampleTranslation": "Uma pequena unidade de tempo"
+    },
+    {
+      "word": "Segundo",
+      "translation": "Uma unidade muito curta de tempo",
+      "phonetic": "/seˈɡũdu/",
+      "example": "Leva um segundo para piscar.",
+      "exampleTranslation": "A menor unidade de tempo comum"
+    },
+    {
+      "word": "Manhã",
+      "translation": "Parte inicial do dia",
+      "phonetic": "/mɐˈɲɐ̃/",
+      "example": "Eu bebo café toda manhã.",
+      "exampleTranslation": "Tempo do nascer do sol ao meio-dia"
+    },
+    {
+      "word": "Tarde",
+      "translation": "Tempo entre o meio-dia e a noite",
+      "phonetic": "/ˈtaɾdʒi/",
+      "example": "Almoçamos à tarde.",
+      "exampleTranslation": "Parte do meio do dia"
+    },
+    {
+      "word": "Noite",
+      "translation": "Parte tardia do dia",
+      "phonetic": "/ˈnojtʃi/",
+      "example": "Jantamos à noite.",
+      "exampleTranslation": "Tempo depois do pôr do sol"
+    },
+    {
+      "word": "Meia-noite",
+      "translation": "12:00 AM",
+      "phonetic": "/ˌmejɐˈnojtʃi/",
+      "example": "Eu durmo antes da meia-noite.",
+      "exampleTranslation": "Meio da noite"
+    },
+    {
+      "word": "Em ponto",
+      "translation": "Indica a hora exata",
+      "phonetic": "/ẽj ˈpõtu/",
+      "example": "São três horas em ponto.",
+      "exampleTranslation": "Usado para dizer a hora exata"
+    },
+    {
+      "word": "Hoje",
+      "translation": "Este dia atual",
+      "phonetic": "/ˈoʒi/",
+      "example": "Que dia é hoje?",
+      "exampleTranslation": "O dia presente"
+    }
+  ]
+}

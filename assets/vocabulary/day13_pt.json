@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Camisa",
+      "translation": "Roupa usada na parte superior do corpo",
+      "phonetic": "/kaˈmizɐ/",
+      "example": "Ele está usando uma camisa azul hoje.",
+      "exampleTranslation": "Descrevendo a roupa da parte superior do corpo de alguém"
+    },
+    {
+      "word": "Calças",
+      "translation": "Roupa usada nas pernas",
+      "phonetic": "/ˈkawsɐs/",
+      "example": "Estas calças estão muito apertadas para mim.",
+      "exampleTranslation": "Falando sobre roupa de pernas"
+    },
+    {
+      "word": "Vestido",
+      "translation": "Peça de roupa única para mulheres ou meninas",
+      "phonetic": "/vɛsˈtʃidu/",
+      "example": "Ela usou um vestido lindo no casamento.",
+      "exampleTranslation": "Descrevendo traje formal"
+    },
+    {
+      "word": "Sapatos",
+      "translation": "Calçado que cobre os pés",
+      "phonetic": "/saˈpatus/",
+      "example": "Preciso comprar sapatos novos para correr.",
+      "exampleTranslation": "Falando sobre necessidades de calçado"
+    },
+    {
+      "word": "Chapéu",
+      "translation": "Cobertura usada na cabeça",
+      "phonetic": "/ʃaˈpɛw/",
+      "example": "Use um chapéu para se proteger do sol.",
+      "exampleTranslation": "Aconselhando sobre proteção solar"
+    },
+    {
+      "word": "Jaqueta",
+      "translation": "Peça exterior usada sobre outras roupas",
+      "phonetic": "/ʒaˈkɛtɐ/",
+      "example": "Está frio lá fora, traga sua jaqueta.",
+      "exampleTranslation": "Sugerindo roupa quente"
+    },
+    {
+      "word": "Meias",
+      "translation": "Roupa usada nos pés dentro dos sapatos",
+      "phonetic": "/ˈmejɐs/",
+      "example": "Não consigo encontrar um par de meias combinando.",
+      "exampleTranslation": "Falando sobre problemas comuns de roupa"
+    },
+    {
+      "word": "Luvas",
+      "translation": "Cobertura usada nas mãos",
+      "phonetic": "/ˈluvɐs/",
+      "example": "Use luvas quando estiver congelante lá fora.",
+      "exampleTranslation": "Aconselhando sobre acessórios de inverno"
+    }
+  ]
+}

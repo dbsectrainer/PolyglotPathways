@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Acheter",
+      "translation": "Acquérir quelque chose avec de l'argent",
+      "phonetic": "/aʃte/",
+      "example": "Je veux acheter un nouveau livre.",
+      "exampleTranslation": "Exprimer le désir d'acheter"
+    },
+    {
+      "word": "Vendre",
+      "translation": "Donner quelque chose en échange d'argent",
+      "phonetic": "/vɑ̃dʁ/",
+      "example": "Ils vendent des légumes frais au marché.",
+      "exampleTranslation": "Décrire ce que fait un vendeur"
+    },
+    {
+      "word": "Prix",
+      "translation": "Le montant d'argent que quelque chose coûte",
+      "phonetic": "/pʁi/",
+      "example": "Quel est le prix de cette veste?",
+      "exampleTranslation": "Demander le coût"
+    },
+    {
+      "word": "Cher",
+      "translation": "Qui coûte beaucoup d'argent",
+      "phonetic": "/ʃɛʁ/",
+      "example": "Cette montre est trop chère pour moi.",
+      "exampleTranslation": "Commenter un coût élevé"
+    },
+    {
+      "word": "Bon marché",
+      "translation": "Qui coûte peu d'argent",
+      "phonetic": "/bɔ̃ maʁʃe/",
+      "example": "J'ai trouvé un hôtel bon marché pour notre voyage.",
+      "exampleTranslation": "Parler d'options abordables"
+    },
+    {
+      "word": "Argent",
+      "translation": "Monnaie utilisée pour acheter des choses",
+      "phonetic": "/aʁʒɑ̃/",
+      "example": "Je n'ai pas assez d'argent pour acheter cette voiture.",
+      "exampleTranslation": "Exprimer une limitation financière"
+    },
+    {
+      "word": "Coûter",
+      "translation": "Le prix que vous devez payer pour quelque chose",
+      "phonetic": "/kute/",
+      "example": "Combien ça coûte?",
+      "exampleTranslation": "Demander le prix"
+    },
+    {
+      "word": "Magasin",
+      "translation": "Un lieu où les produits sont vendus",
+      "phonetic": "/maɡazɛ̃/",
+      "example": "Allons au magasin acheter des courses.",
+      "exampleTranslation": "Suggérer une sortie shopping"
+    }
+  ]
+}

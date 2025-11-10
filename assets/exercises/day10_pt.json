@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day10_mc1",
+      "type": "multipleChoice",
+      "question": "Onde você vai para comprar comida?",
+      "options": [
+        "Escola",
+        "Loja",
+        "Hospital",
+        "Biblioteca"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day10_mc2",
+      "type": "multipleChoice",
+      "question": "Onde os estudantes aprendem?",
+      "options": [
+        "Restaurante",
+        "Parque",
+        "Escola",
+        "Banco"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day10_fib1",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Eu durmo na minha ____.'",
+      "correctAnswer": "casa",
+      "acceptableAlternatives": ["Casa"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day10_fib2",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Eu vou ao ____ quando estou doente.'",
+      "correctAnswer": "hospital",
+      "acceptableAlternatives": ["Hospital", "médico", "Médico", "doutor", "Doutor"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day10_mc3",
+      "type": "multipleChoice",
+      "question": "Onde você pega livros emprestados?",
+      "options": [
+        "Academia",
+        "Biblioteca",
+        "Teatro",
+        "Museu"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day10_trans1",
+      "type": "translation",
+      "question": "Onde você vai para comer uma refeição preparada por um chef?",
+      "targetText": "Lugar para comer fora",
+      "correctTranslation": "Restaurante",
+      "acceptableAlternatives": ["restaurante"]
+    },
+    {
+      "id": "day10_fib3",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Eu trabalho em um ____.'",
+      "correctAnswer": "escritório",
+      "acceptableAlternatives": ["Escritório"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day10_mc4",
+      "type": "multipleChoice",
+      "question": "Onde você pode ver árvores, grama e brincar ao ar livre?",
+      "options": [
+        "Shopping",
+        "Estação",
+        "Parque",
+        "Aeroporto"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

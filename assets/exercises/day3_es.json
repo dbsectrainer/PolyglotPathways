@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day3_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué día viene después del lunes?",
+      "options": [
+        "Domingo",
+        "Martes",
+        "Miércoles",
+        "Sábado"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day3_mc2",
+      "type": "multipleChoice",
+      "question": "¿Cuál es el primer mes del año?",
+      "options": [
+        "Diciembre",
+        "Febrero",
+        "Enero",
+        "Marzo"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day3_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Lunes, martes, ____'",
+      "correctAnswer": "miércoles",
+      "acceptableAlternatives": ["Miércoles"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day3_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Enero, febrero, ____'",
+      "correctAnswer": "marzo",
+      "acceptableAlternatives": ["Marzo"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day3_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué mes tiene el nombre más corto?",
+      "options": [
+        "Julio",
+        "Junio",
+        "Mayo",
+        "Abril"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day3_trans1",
+      "type": "translation",
+      "question": "¿Qué día es el último día de la semana laboral?",
+      "targetText": "Último día laboral antes del fin de semana",
+      "correctTranslation": "Viernes",
+      "acceptableAlternatives": ["viernes"]
+    },
+    {
+      "id": "day3_mc4",
+      "type": "multipleChoice",
+      "question": "¿Cuáles son los días del fin de semana?",
+      "options": [
+        "Lunes y viernes",
+        "Sábado y domingo",
+        "Jueves y viernes",
+        "Martes y miércoles"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day3_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Jueves, viernes, ____'",
+      "correctAnswer": "sábado",
+      "acceptableAlternatives": ["Sábado"],
+      "caseSensitive": false
+    }
+  ]
+}

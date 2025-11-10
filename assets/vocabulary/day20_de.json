@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Wer",
+      "translation": "Fragewort, das nach einer Person fragt",
+      "phonetic": "/veːɐ̯/",
+      "example": "Wer ist diese Person?",
+      "exampleTranslation": "Nach der Identität von jemandem fragen"
+    },
+    {
+      "word": "Was",
+      "translation": "Fragewort, das nach Dingen oder Informationen fragt",
+      "phonetic": "/vas/",
+      "example": "Was ist dein Name?",
+      "exampleTranslation": "Nach grundlegenden Informationen fragen"
+    },
+    {
+      "word": "Wann",
+      "translation": "Fragewort, das nach der Zeit fragt",
+      "phonetic": "/van/",
+      "example": "Wann fängt der Film an?",
+      "exampleTranslation": "Nach dem Zeitpunkt fragen"
+    },
+    {
+      "word": "Wo",
+      "translation": "Fragewort, das nach dem Ort fragt",
+      "phonetic": "/voː/",
+      "example": "Wo wohnst du?",
+      "exampleTranslation": "Nach dem Ort fragen"
+    },
+    {
+      "word": "Warum",
+      "translation": "Fragewort, das nach Gründen fragt",
+      "phonetic": "/vaˈʁʊm/",
+      "example": "Warum bist du traurig?",
+      "exampleTranslation": "Um Erklärung bitten"
+    },
+    {
+      "word": "Wie",
+      "translation": "Fragewort, das nach Art oder Methode fragt",
+      "phonetic": "/viː/",
+      "example": "Wie macht man Kekse?",
+      "exampleTranslation": "Um Anweisungen bitten"
+    },
+    {
+      "word": "Welche",
+      "translation": "Fragewort zum Auswählen zwischen Optionen",
+      "phonetic": "/ˈvɛlçə/",
+      "example": "Welche Farbe bevorzugst du, rot oder blau?",
+      "exampleTranslation": "Nach Präferenz fragen"
+    },
+    {
+      "word": "Wessen",
+      "translation": "Fragewort, das nach Besitz fragt",
+      "phonetic": "/ˈvɛsn̩/",
+      "example": "Wessen Rucksack ist das?",
+      "exampleTranslation": "Eigentum bestimmen"
+    }
+  ]
+}

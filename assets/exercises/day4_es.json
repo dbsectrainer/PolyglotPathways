@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day4_mc1",
+      "type": "multipleChoice",
+      "question": "¿De qué color es el cielo en un día despejado?",
+      "options": [
+        "Verde",
+        "Azul",
+        "Rojo",
+        "Amarillo"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day4_mc2",
+      "type": "multipleChoice",
+      "question": "¿De qué color es el césped?",
+      "options": [
+        "Marrón",
+        "Morado",
+        "Verde",
+        "Naranja"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day4_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'El sol es ____.'",
+      "correctAnswer": "amarillo",
+      "acceptableAlternatives": ["Amarillo", "naranja", "Naranja"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day4_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'La nieve es ____.'",
+      "correctAnswer": "blanca",
+      "acceptableAlternatives": ["Blanca"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day4_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué color se crea al mezclar rojo y azul?",
+      "options": [
+        "Verde",
+        "Naranja",
+        "Morado",
+        "Marrón"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day4_trans1",
+      "type": "translation",
+      "question": "¿Cuál es el color opuesto al blanco?",
+      "targetText": "Opuesto al blanco",
+      "correctTranslation": "Negro",
+      "acceptableAlternatives": ["negro"]
+    },
+    {
+      "id": "day4_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Una manzana puede ser roja, ____, o amarilla.'",
+      "correctAnswer": "verde",
+      "acceptableAlternatives": ["Verde"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day4_mc4",
+      "type": "multipleChoice",
+      "question": "¿Cuáles son los colores primarios?",
+      "options": [
+        "Rojo, amarillo, azul",
+        "Naranja, verde, morado",
+        "Negro, blanco, gris",
+        "Rosa, marrón, beige"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "vocabulary": [
+    {
+      "word": "Grande",
+      "translation": "De tamaño amplio",
+      "phonetic": "/ˈɡɾande/",
+      "example": "El elefante es grande.",
+      "exampleTranslation": "Describiendo tamaño amplio"
+    },
+    {
+      "word": "Pequeño",
+      "translation": "De tamaño reducido",
+      "phonetic": "/peˈkeɲo/",
+      "example": "El ratón es pequeño.",
+      "exampleTranslation": "Describiendo tamaño diminuto"
+    },
+    {
+      "word": "Caliente",
+      "translation": "Con temperatura alta",
+      "phonetic": "/kaˈljente/",
+      "example": "El café está caliente.",
+      "exampleTranslation": "Describiendo temperatura alta"
+    },
+    {
+      "word": "Frío",
+      "translation": "Con temperatura baja",
+      "phonetic": "/ˈfɾio/",
+      "example": "El helado está frío.",
+      "exampleTranslation": "Describiendo temperatura baja"
+    },
+    {
+      "word": "Rápido",
+      "translation": "Que se mueve o sucede con velocidad",
+      "phonetic": "/ˈrapido/",
+      "example": "El coche es rápido.",
+      "exampleTranslation": "Describiendo alta velocidad"
+    },
+    {
+      "word": "Lento",
+      "translation": "Que se mueve o sucede con poca velocidad",
+      "phonetic": "/ˈlento/",
+      "example": "La tortuga es lenta.",
+      "exampleTranslation": "Describiendo baja velocidad"
+    },
+    {
+      "word": "Bueno",
+      "translation": "De alta calidad o deseable",
+      "phonetic": "/ˈbweno/",
+      "example": "Esta es buena comida.",
+      "exampleTranslation": "Describiendo calidad o excelencia"
+    },
+    {
+      "word": "Malo",
+      "translation": "De mala calidad o indeseable",
+      "phonetic": "/ˈmalo/",
+      "example": "Este es mal tiempo.",
+      "exampleTranslation": "Describiendo mala calidad"
+    },
+    {
+      "word": "Feliz",
+      "translation": "Sentir alegría o placer",
+      "phonetic": "/feˈliθ/",
+      "example": "Estoy feliz hoy.",
+      "exampleTranslation": "Describiendo emoción positiva"
+    },
+    {
+      "word": "Triste",
+      "translation": "Sentir infelicidad o pena",
+      "phonetic": "/ˈtɾiste/",
+      "example": "Ella se ve triste.",
+      "exampleTranslation": "Describiendo emoción negativa"
+    }
+  ]
+}

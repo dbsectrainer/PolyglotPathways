@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day18_mc1",
+      "type": "multipleChoice",
+      "question": "Quando você dá dinheiro para obter algo em uma loja, você:",
+      "options": [
+        "Vende",
+        "Compra",
+        "Custa",
+        "Preço"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day18_mc2",
+      "type": "multipleChoice",
+      "question": "Se algo custa muito dinheiro, é:",
+      "options": [
+        "Barato",
+        "Caro",
+        "Grátis",
+        "Novo"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day18_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Quanto ____ isto?'",
+      "correctAnswer": "custa",
+      "acceptableAlternatives": ["vale"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day18_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Preciso de algum ____ para comprar o almoço.'",
+      "correctAnswer": "dinheiro",
+      "acceptableAlternatives": ["dinheiro"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day18_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Sell",
+      "correctTranslation": "Vender",
+      "acceptableAlternatives": ["Vendo"]
+    },
+    {
+      "id": "day18_mc3",
+      "type": "multipleChoice",
+      "question": "O que você pergunta quando quer saber quanto algo custa?",
+      "options": [
+        "Que horas são?",
+        "Qual é o preço?",
+        "Onde está?",
+        "Quem fez isso?"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day18_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Esta camisa é muito ____! Custa apenas $5.'",
+      "correctAnswer": "barata",
+      "acceptableAlternatives": ["em conta"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day18_trans2",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Price",
+      "correctTranslation": "Preço",
+      "acceptableAlternatives": ["Custo"]
+    }
+  ]
+}

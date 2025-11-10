@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day16_mc1",
+      "type": "multipleChoice",
+      "question": "Wenn du lächelst und dich gut fühlst, bist du:",
+      "options": [
+        "Traurig",
+        "Glücklich",
+        "Wütend",
+        "Müde"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day16_mc2",
+      "type": "multipleChoice",
+      "question": "Wenn jemand schreit und verärgert aussieht, könnte er:",
+      "options": [
+        "Aufgeregt",
+        "Wütend",
+        "Glücklich",
+        "Schläfrig"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day16_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ich fühle mich ____, wenn ich einen Horrorfilm schaue.'",
+      "correctAnswer": "ängstlich",
+      "acceptableAlternatives": ["verängstigt", "erschrocken"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day16_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Nach einer Stunde Laufen fühle ich mich sehr ____.'",
+      "correctAnswer": "müde",
+      "acceptableAlternatives": ["erschöpft"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day16_trans1",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "Excited",
+      "correctTranslation": "Aufgeregt",
+      "acceptableAlternatives": ["Begeistert"]
+    },
+    {
+      "id": "day16_mc3",
+      "type": "multipleChoice",
+      "question": "Wenn du weinst, weil etwas Schlimmes passiert ist, fühlst du dich:",
+      "options": [
+        "Glücklich",
+        "Traurig",
+        "Wütend",
+        "Aufgeregt"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day16_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ich werde ____, bevor ich eine große Prüfung mache.'",
+      "correctAnswer": "nervös",
+      "acceptableAlternatives": ["ängstlich"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day16_trans2",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "Happy",
+      "correctTranslation": "Glücklich",
+      "acceptableAlternatives": ["Froh", "Fröhlich"]
+    }
+  ]
+}

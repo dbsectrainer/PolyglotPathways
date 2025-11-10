@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day12_mc1",
+      "type": "multipleChoice",
+      "question": "Que clima é melhor para um piquenique?",
+      "options": [
+        "Chuvoso",
+        "Ensolarado",
+        "Nevando",
+        "Tempestuoso"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day12_mc2",
+      "type": "multipleChoice",
+      "question": "O que você precisa quando está chovendo?",
+      "options": [
+        "Óculos de sol",
+        "Guarda-chuva",
+        "Roupa de banho",
+        "Shorts"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day12_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Está muito ____ lá fora, vista roupas quentes!'",
+      "correctAnswer": "frio",
+      "acceptableAlternatives": ["gelado"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day12_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Olhe a ____! Diz que vai chover amanhã.'",
+      "correctAnswer": "previsão",
+      "acceptableAlternatives": ["previsão do tempo"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day12_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "It's windy",
+      "correctTranslation": "Está ventando",
+      "acceptableAlternatives": ["Está com vento", "Tem vento"]
+    },
+    {
+      "id": "day12_mc3",
+      "type": "multipleChoice",
+      "question": "Quando você não pode ver o sol por causa das nuvens, está:",
+      "options": [
+        "Nublado",
+        "Quente",
+        "Ventando",
+        "Nevando"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day12_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Está tão ____ hoje! Preciso beber mais água.'",
+      "correctAnswer": "quente",
+      "acceptableAlternatives": ["calor"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day12_trans2",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Snow",
+      "correctTranslation": "Neve",
+      "acceptableAlternatives": ["Está nevando", "Nevando"]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Links",
+      "translation": "Die Richtung gegenüber von rechts",
+      "phonetic": "/lɪŋks/",
+      "example": "Biegen Sie an der nächsten Ecke links ab.",
+      "exampleTranslation": "Wegbeschreibung geben"
+    },
+    {
+      "word": "Rechts",
+      "translation": "Die Richtung gegenüber von links",
+      "phonetic": "/ʁɛçts/",
+      "example": "Die Bank ist auf Ihrer rechten Seite.",
+      "exampleTranslation": "Standort beschreiben"
+    },
+    {
+      "word": "Oben",
+      "translation": "In oder zu einer höheren Position",
+      "phonetic": "/ˈoːbn̩/",
+      "example": "Gehen Sie die Treppe nach oben zum zweiten Stock.",
+      "exampleTranslation": "Vertikale Richtungen geben"
+    },
+    {
+      "word": "Unten",
+      "translation": "In oder zu einer niedrigeren Position",
+      "phonetic": "/ˈʊntn̩/",
+      "example": "Gehen Sie diese Straße zwei Blocks hinunter.",
+      "exampleTranslation": "Anweisungen geben"
+    },
+    {
+      "word": "Hier",
+      "translation": "An oder an diesem Ort",
+      "phonetic": "/hiːɐ̯/",
+      "example": "Komm bitte hierher!",
+      "exampleTranslation": "Jemanden zu Ihrem Standort rufen"
+    },
+    {
+      "word": "Dort",
+      "translation": "An oder an jenem Ort",
+      "phonetic": "/dɔʁt/",
+      "example": "Leg das Buch dort auf den Tisch.",
+      "exampleTranslation": "Einen Standort angeben"
+    },
+    {
+      "word": "Nah",
+      "translation": "Nahe in Entfernung",
+      "phonetic": "/naː/",
+      "example": "Die Schule ist nah bei meinem Haus.",
+      "exampleTranslation": "Nähe beschreiben"
+    },
+    {
+      "word": "Weit",
+      "translation": "In großer Entfernung",
+      "phonetic": "/vaɪt/",
+      "example": "Wie weit ist es zum Flughafen?",
+      "exampleTranslation": "Nach Entfernung fragen"
+    }
+  ]
+}

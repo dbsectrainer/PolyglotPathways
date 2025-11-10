@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day1_mc1",
+      "type": "multipleChoice",
+      "question": "Qual saudação é mais apropriada em um contexto formal?",
+      "options": [
+        "Ei!",
+        "Bom dia",
+        "E aí!",
+        "Beleza?"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day1_mc2",
+      "type": "multipleChoice",
+      "question": "Como você responde a 'Como vai?'",
+      "options": [
+        "Estou bem, obrigado. E você?",
+        "Nada",
+        "Sim",
+        "Tchau"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day1_fib1",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Prazer em ____ você!'",
+      "correctAnswer": "conhecer",
+      "caseSensitive": false
+    },
+    {
+      "id": "day1_fib2",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Meu ____ é João.'",
+      "correctAnswer": "nome",
+      "caseSensitive": false
+    },
+    {
+      "id": "day1_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Hello",
+      "correctTranslation": "Olá",
+      "acceptableAlternatives": ["Oi", "Bom dia"]
+    },
+    {
+      "id": "day1_mc3",
+      "type": "multipleChoice",
+      "question": "Qual é uma forma apropriada de dizer adeus?",
+      "options": [
+        "Até logo",
+        "Vá embora",
+        "Pare de falar",
+        "Saia agora"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day1_fib3",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: '____ em conhecê-lo!'",
+      "correctAnswer": "Prazer",
+      "acceptableAlternatives": ["Feliz", "Bom"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day1_mc4",
+      "type": "multipleChoice",
+      "question": "Qual é uma forma educada de se apresentar?",
+      "options": [
+        "Eu sou o melhor",
+        "Meu nome é Sara",
+        "Você deveria me conhecer",
+        "Não me importo"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Rouge",
+      "translation": "La couleur du sang ou du feu",
+      "phonetic": "/ʁuʒ/",
+      "example": "La pomme est rouge.",
+      "exampleTranslation": "Décrivant la couleur d'un fruit commun"
+    },
+    {
+      "word": "Bleu",
+      "translation": "La couleur du ciel et de l'océan",
+      "phonetic": "/blø/",
+      "example": "L'océan est bleu.",
+      "exampleTranslation": "Décrivant la couleur de l'eau"
+    },
+    {
+      "word": "Jaune",
+      "translation": "La couleur du soleil et des citrons",
+      "phonetic": "/ʒon/",
+      "example": "La banane est jaune.",
+      "exampleTranslation": "Décrivant la couleur d'une banane mûre"
+    },
+    {
+      "word": "Vert",
+      "translation": "La couleur de l'herbe et des feuilles",
+      "phonetic": "/vɛʁ/",
+      "example": "L'herbe est verte.",
+      "exampleTranslation": "Décrivant la couleur de la végétation"
+    },
+    {
+      "word": "Noir",
+      "translation": "La couleur la plus sombre, absence de lumière",
+      "phonetic": "/nwaʁ/",
+      "example": "Le ciel nocturne est noir.",
+      "exampleTranslation": "Décrivant l'obscurité"
+    },
+    {
+      "word": "Blanc",
+      "translation": "La couleur la plus claire, comme la neige",
+      "phonetic": "/blɑ̃/",
+      "example": "La neige est blanche.",
+      "exampleTranslation": "Décrivant la pureté ou la clarté"
+    },
+    {
+      "word": "Orange",
+      "translation": "La couleur entre rouge et jaune",
+      "phonetic": "/ɔʁɑ̃ʒ/",
+      "example": "L'orange est orange.",
+      "exampleTranslation": "Le fruit et la couleur partagent le même nom"
+    },
+    {
+      "word": "Violet",
+      "translation": "La couleur faite en mélangeant rouge et bleu",
+      "phonetic": "/vjɔlɛ/",
+      "example": "La fleur est violette.",
+      "exampleTranslation": "Décrivant une fleur de couleur pourpre"
+    }
+  ]
+}

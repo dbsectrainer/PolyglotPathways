@@ -1,0 +1,79 @@
+{
+  "exercises": [
+    {
+      "id": "day19_mc1",
+      "type": "multipleChoice",
+      "question": "Welche Richtung ist das Gegenteil von rechts?",
+      "options": [
+        "Oben",
+        "Links",
+        "Unten",
+        "Nah"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day19_mc2",
+      "type": "multipleChoice",
+      "question": "Wenn etwas nicht weit ist, ist es:",
+      "options": [
+        "Dort",
+        "Nah",
+        "Oben",
+        "Links"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day19_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Schau nach ____! Da ist ein Vogel am Himmel!'",
+      "correctAnswer": "oben",
+      "caseSensitive": false
+    },
+    {
+      "id": "day19_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Komm ____! Ich warte auf dich.'",
+      "correctAnswer": "her",
+      "acceptableAlternatives": ["hierher"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day19_trans1",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "Down",
+      "correctTranslation": "Unten",
+      "acceptableAlternatives": ["Nach unten"]
+    },
+    {
+      "id": "day19_mc3",
+      "type": "multipleChoice",
+      "question": "Bei der Wegbeschreibung bedeutet 'dort drüben':",
+      "options": [
+        "Genau hier",
+        "Weit weg in jene Richtung",
+        "Sehr nah",
+        "Hinter dir"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day19_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Das Geschäft ist sehr ____. Es dauert eine Stunde, dorthin zu gehen.'",
+      "correctAnswer": "weit",
+      "acceptableAlternatives": ["entfernt"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day19_trans2",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "Right",
+      "correctTranslation": "Rechts",
+      "acceptableAlternatives": ["Nach rechts"]
+    }
+  ]
+}

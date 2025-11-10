@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Coche",
+      "translation": "Un vehículo de cuatro ruedas para viajar",
+      "phonetic": "/ˈkotʃe/",
+      "example": "Condujimos nuestro coche a la playa.",
+      "exampleTranslation": "Hablando sobre un viaje usando un vehículo"
+    },
+    {
+      "word": "Autobús",
+      "translation": "Un vehículo grande que transporta muchos pasajeros",
+      "phonetic": "/awtoˈβus/",
+      "example": "Tomo el autobús al trabajo todas las mañanas.",
+      "exampleTranslation": "Describiendo el viaje diario"
+    },
+    {
+      "word": "Tren",
+      "translation": "Un vehículo que circula por vías férreas",
+      "phonetic": "/tɾen/",
+      "example": "El tren llega a la estación a las 8 AM.",
+      "exampleTranslation": "Hablando sobre horarios de trenes"
+    },
+    {
+      "word": "Bicicleta",
+      "translation": "Un vehículo de dos ruedas impulsado por pedales",
+      "phonetic": "/biθiˈkleta/",
+      "example": "Ella monta su bicicleta al parque cada fin de semana.",
+      "exampleTranslation": "Describiendo transporte recreativo"
+    },
+    {
+      "word": "Avión",
+      "translation": "Una aeronave que vuela en el cielo",
+      "phonetic": "/aˈβjon/",
+      "example": "Tomaremos un avión para visitar a la abuela.",
+      "exampleTranslation": "Discutiendo planes de viaje aéreo"
+    },
+    {
+      "word": "Barco",
+      "translation": "Un vehículo para viajar por agua",
+      "phonetic": "/ˈbaɾko/",
+      "example": "Hicimos un recorrido en barco alrededor de la isla.",
+      "exampleTranslation": "Hablando sobre transporte acuático"
+    },
+    {
+      "word": "Caminar",
+      "translation": "Moverse a pie",
+      "phonetic": "/kamiˈnaɾ/",
+      "example": "Camino a la tienda cuando el clima es agradable.",
+      "exampleTranslation": "Describiendo movimiento peatonal"
+    },
+    {
+      "word": "Metro",
+      "translation": "Un sistema de trenes subterráneo",
+      "phonetic": "/ˈmetɾo/",
+      "example": "El metro es la forma más rápida de llegar al centro.",
+      "exampleTranslation": "Discutiendo transporte urbano"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Cachorro",
+      "translation": "Um animal de estimação doméstico comum que late",
+      "phonetic": "/kaˈʃoʁu/",
+      "example": "Meu cachorro adora brincar de buscar no parque.",
+      "exampleTranslation": "Falando sobre a atividade favorita de um animal de estimação"
+    },
+    {
+      "word": "Gato",
+      "translation": "Um pequeno animal doméstico que mia",
+      "phonetic": "/ˈɡatu/",
+      "example": "O gato está dormindo no sofá.",
+      "exampleTranslation": "Descrevendo onde um animal de estimação está descansando"
+    },
+    {
+      "word": "Pássaro",
+      "translation": "Um animal com asas que pode voar",
+      "phonetic": "/ˈpasaɾu/",
+      "example": "Eu vi um pássaro lindo na árvore.",
+      "exampleTranslation": "Falando sobre observação da vida selvagem"
+    },
+    {
+      "word": "Peixe",
+      "translation": "Um animal que vive na água",
+      "phonetic": "/ˈpejʃi/",
+      "example": "Temos peixes coloridos no nosso aquário.",
+      "exampleTranslation": "Descrevendo animais de estimação em um tanque"
+    },
+    {
+      "word": "Cavalo",
+      "translation": "Um grande animal usado para montar",
+      "phonetic": "/kaˈvalu/",
+      "example": "Ela aprendeu a andar a cavalo no verão passado.",
+      "exampleTranslation": "Falando sobre aprender uma nova habilidade"
+    },
+    {
+      "word": "Vaca",
+      "translation": "Um animal de fazenda que dá leite",
+      "phonetic": "/ˈvakɐ/",
+      "example": "O fazendeiro ordenha as vacas todas as manhãs.",
+      "exampleTranslation": "Descrevendo trabalho de fazenda"
+    },
+    {
+      "word": "Galinha",
+      "translation": "Uma ave de fazenda que põe ovos",
+      "phonetic": "/ɡaˈliɲɐ/",
+      "example": "Coletamos ovos frescos das galinhas.",
+      "exampleTranslation": "Falando sobre tarefas de fazenda"
+    },
+    {
+      "word": "Porco",
+      "translation": "Um animal de fazenda com rabo enrolado",
+      "phonetic": "/ˈpoʁku/",
+      "example": "Os porcos estão rolando na lama.",
+      "exampleTranslation": "Descrevendo comportamento animal"
+    }
+  ]
+}

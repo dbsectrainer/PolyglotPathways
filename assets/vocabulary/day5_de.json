@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Mutter",
+      "translation": "Weiblicher Elternteil",
+      "phonetic": "/ˈmʊtɐ/",
+      "example": "Meine Mutter ist Lehrerin.",
+      "exampleTranslation": "Bezieht sich auf deinen weiblichen Elternteil"
+    },
+    {
+      "word": "Vater",
+      "translation": "Männlicher Elternteil",
+      "phonetic": "/ˈfaːtɐ/",
+      "example": "Mein Vater arbeitet in einem Büro.",
+      "exampleTranslation": "Bezieht sich auf deinen männlichen Elternteil"
+    },
+    {
+      "word": "Schwester",
+      "translation": "Weibliches Geschwister",
+      "phonetic": "/ˈʃvɛstɐ/",
+      "example": "Ich habe eine Schwester.",
+      "exampleTranslation": "Die Tochter deiner Eltern"
+    },
+    {
+      "word": "Bruder",
+      "translation": "Männliches Geschwister",
+      "phonetic": "/ˈbʁuːdɐ/",
+      "example": "Mein Bruder ist älter als ich.",
+      "exampleTranslation": "Der Sohn deiner Eltern"
+    },
+    {
+      "word": "Großmutter",
+      "translation": "Die Mutter deines Elternteils",
+      "phonetic": "/ˈɡʁoːsˌmʊtɐ/",
+      "example": "Meine Großmutter backt leckere Kekse.",
+      "exampleTranslation": "Weiblicher Großelternteil"
+    },
+    {
+      "word": "Großvater",
+      "translation": "Der Vater deines Elternteils",
+      "phonetic": "/ˈɡʁoːsˌfaːtɐ/",
+      "example": "Mein Großvater erzählt tolle Geschichten.",
+      "exampleTranslation": "Männlicher Großelternteil"
+    },
+    {
+      "word": "Tante",
+      "translation": "Die Schwester deines Elternteils oder die Frau deines Onkels",
+      "phonetic": "/ˈtantə/",
+      "example": "Meine Tante wohnt in einer anderen Stadt.",
+      "exampleTranslation": "Weiblicher Verwandter der Elterngeneration"
+    },
+    {
+      "word": "Onkel",
+      "translation": "Der Bruder deines Elternteils oder der Mann deiner Tante",
+      "phonetic": "/ˈɔŋkl̩/",
+      "example": "Mein Onkel ist sehr lustig.",
+      "exampleTranslation": "Männlicher Verwandter der Elterngeneration"
+    },
+    {
+      "word": "Cousin/Cousine",
+      "translation": "Das Kind deines Onkels oder deiner Tante",
+      "phonetic": "/kuˈzɛ̃/ /kuˈziːnə/",
+      "example": "Ich spiele jedes Wochenende mit meinen Cousins.",
+      "exampleTranslation": "Kinder deiner Onkel und Tanten"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Aufwachen",
+      "translation": "Aufhören zu schlafen und bewusst werden",
+      "phonetic": "/ˈaʊfvaxn̩/",
+      "example": "Ich wache jeden Tag um 7 Uhr auf.",
+      "exampleTranslation": "Morgenroutine beschreiben"
+    },
+    {
+      "word": "Essen",
+      "translation": "Nahrung zu sich nehmen",
+      "phonetic": "/ˈɛsn̩/",
+      "example": "Wir essen das Abendessen zusammen als Familie.",
+      "exampleTranslation": "Über Essgewohnheiten sprechen"
+    },
+    {
+      "word": "Schlafen",
+      "translation": "Mit geschlossenen Augen und unbewusstem Geist ruhen",
+      "phonetic": "/ˈʃlaːfn̩/",
+      "example": "Ich muss heute Abend früh schlafen.",
+      "exampleTranslation": "Ruhebedürfnis ausdrücken"
+    },
+    {
+      "word": "Arbeiten",
+      "translation": "Eine Arbeit oder Aufgabe erledigen",
+      "phonetic": "/ˈaʁbaɪtn̩/",
+      "example": "Meine Eltern arbeiten in einem Krankenhaus.",
+      "exampleTranslation": "Beschäftigung beschreiben"
+    },
+    {
+      "word": "Lernen",
+      "translation": "Durch Lesen und Üben erlernen",
+      "phonetic": "/ˈlɛʁnən/",
+      "example": "Ich lerne jeden Abend Mathematik.",
+      "exampleTranslation": "Über Bildungsaktivitäten sprechen"
+    },
+    {
+      "word": "Spielen",
+      "translation": "An angenehmen Aktivitäten teilnehmen",
+      "phonetic": "/ˈʃpiːlən/",
+      "example": "Die Kinder spielen nach der Schule im Park.",
+      "exampleTranslation": "Freizeitaktivitäten beschreiben"
+    },
+    {
+      "word": "Putzen",
+      "translation": "Etwas von Schmutz befreien",
+      "phonetic": "/ˈpʊtsn̩/",
+      "example": "Ich putze mein Zimmer jeden Samstag.",
+      "exampleTranslation": "Über Hausarbeiten sprechen"
+    },
+    {
+      "word": "Trainieren",
+      "translation": "Körperliche Aktivität für die Gesundheit machen",
+      "phonetic": "/tʁɛˈniːʁən/",
+      "example": "Sie trainiert dreimal pro Woche im Fitnessstudio.",
+      "exampleTranslation": "Fitnessroutine beschreiben"
+    }
+  ]
+}

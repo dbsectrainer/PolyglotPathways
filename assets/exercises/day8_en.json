@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day8_mc1",
+      "type": "multipleChoice",
+      "question": "What body part do you use to see?",
+      "options": [
+        "Ears",
+        "Eyes",
+        "Nose",
+        "Mouth"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day8_mc2",
+      "type": "multipleChoice",
+      "question": "What body part do you use to walk?",
+      "options": [
+        "Arms",
+        "Head",
+        "Legs",
+        "Hands"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day8_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I use my ____ to hear sounds.'",
+      "correctAnswer": "ears",
+      "acceptableAlternatives": ["Ears"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day8_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I wear a hat on my ____.'",
+      "correctAnswer": "head",
+      "acceptableAlternatives": ["Head"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day8_mc3",
+      "type": "multipleChoice",
+      "question": "What do you use to hold things?",
+      "options": [
+        "Feet",
+        "Hands",
+        "Knees",
+        "Shoulders"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day8_trans1",
+      "type": "translation",
+      "question": "What is in the middle of your face, used for smelling?",
+      "targetText": "Organ for smelling",
+      "correctTranslation": "Nose",
+      "acceptableAlternatives": ["nose"]
+    },
+    {
+      "id": "day8_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I eat with my ____.'",
+      "correctAnswer": "mouth",
+      "acceptableAlternatives": ["Mouth"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day8_mc4",
+      "type": "multipleChoice",
+      "question": "What connects your hand to your body?",
+      "options": [
+        "Leg",
+        "Foot",
+        "Arm",
+        "Finger"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

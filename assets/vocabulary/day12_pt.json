@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Ensolarado",
+      "translation": "Brilhante com luz do sol",
+      "phonetic": "/ẽsoloˈɾadu/",
+      "example": "Hoje é um dia ensolarado e lindo!",
+      "exampleTranslation": "Descrevendo um dia com muito sol"
+    },
+    {
+      "word": "Chuvoso",
+      "translation": "Quando a água cai do céu",
+      "phonetic": "/ʃuˈvozu/",
+      "example": "Não esqueça seu guarda-chuva, está chuvoso lá fora.",
+      "exampleTranslation": "Avisando sobre chuva"
+    },
+    {
+      "word": "Nublado",
+      "translation": "Quando o céu está coberto de nuvens",
+      "phonetic": "/nuˈbladu/",
+      "example": "Está nublado, pode chover em breve.",
+      "exampleTranslation": "Descrevendo clima nublado"
+    },
+    {
+      "word": "Ventando",
+      "translation": "Quando há muito vento",
+      "phonetic": "/vẽˈtɐ̃du/",
+      "example": "Está ventando demais para soltar pipa com segurança.",
+      "exampleTranslation": "Descrevendo condições de vento forte"
+    },
+    {
+      "word": "Neve",
+      "translation": "Água congelada que cai do céu",
+      "phonetic": "/ˈnevi/",
+      "example": "As crianças adoram brincar na neve.",
+      "exampleTranslation": "Falando sobre precipitação de inverno"
+    },
+    {
+      "word": "Quente",
+      "translation": "Temperatura muito alta",
+      "phonetic": "/ˈkẽtʃi/",
+      "example": "Está quente demais para sair sem protetor solar.",
+      "exampleTranslation": "Avisando sobre temperaturas altas"
+    },
+    {
+      "word": "Frio",
+      "translation": "Temperatura baixa",
+      "phonetic": "/ˈfɾiu/",
+      "example": "Vista um casaco, está frio lá fora!",
+      "exampleTranslation": "Aconselhando sobre clima frio"
+    },
+    {
+      "word": "Previsão do tempo",
+      "translation": "Previsão das condições climáticas futuras",
+      "phonetic": "/pɾeviˈzɐ̃w du ˈtẽpu/",
+      "example": "De acordo com a previsão do tempo, amanhã será ensolarado.",
+      "exampleTranslation": "Usando previsões do clima"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "exercises": [
+    {
+      "id": "day13_mc1",
+      "type": "multipleChoice",
+      "question": "O que você veste nos pés?",
+      "options": [
+        "Chapéu",
+        "Sapatos",
+        "Vestido",
+        "Jaqueta"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day13_mc2",
+      "type": "multipleChoice",
+      "question": "O que você veste quando está frio lá fora?",
+      "options": [
+        "Shorts",
+        "Jaqueta",
+        "Roupa de banho",
+        "Regata"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day13_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Preciso comprar um ____ novo para usar na festa.'",
+      "correctAnswer": "vestido",
+      "acceptableAlternatives": ["traje"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day13_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Não esqueça de usar seu ____ quando sair no sol!'",
+      "correctAnswer": "chapéu",
+      "acceptableAlternatives": ["boné"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day13_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Pants",
+      "correctTranslation": "Calças",
+      "acceptableAlternatives": ["Calça"]
+    },
+    {
+      "id": "day13_mc3",
+      "type": "multipleChoice",
+      "question": "O que você veste nas mãos para mantê-las aquecidas?",
+      "options": [
+        "Meias",
+        "Sapatos",
+        "Luvas",
+        "Chapéu"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day13_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Vista ____ limpas antes de calçar seus sapatos.'",
+      "correctAnswer": "meias",
+      "caseSensitive": false
+    },
+    {
+      "id": "day13_trans2",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Shirt",
+      "correctTranslation": "Camisa",
+      "acceptableAlternatives": ["Camiseta", "Blusa"]
+    }
+  ]
+}

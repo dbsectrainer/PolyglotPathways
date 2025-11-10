@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day1_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué saludo es más apropiado en un contexto formal?",
+      "options": [
+        "¡Ey!",
+        "Buenos días",
+        "¡Qué tal!",
+        "¿Qué onda?"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day1_mc2",
+      "type": "multipleChoice",
+      "question": "¿Cómo respondes a '¿Cómo estás?'",
+      "options": [
+        "Estoy bien, gracias. ¿Y tú?",
+        "Nada",
+        "Sí",
+        "Adiós"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day1_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '¡Mucho ____ de conocerte!'",
+      "correctAnswer": "gusto",
+      "caseSensitive": false
+    },
+    {
+      "id": "day1_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Mi ____ es Juan.'",
+      "correctAnswer": "nombre",
+      "caseSensitive": false
+    },
+    {
+      "id": "day1_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Hello",
+      "correctTranslation": "Hola",
+      "acceptableAlternatives": ["Buenos días", "Buenas tardes"]
+    },
+    {
+      "id": "day1_mc3",
+      "type": "multipleChoice",
+      "question": "¿Cuál es una forma apropiada de decir adiós?",
+      "options": [
+        "Hasta luego",
+        "Vete",
+        "Deja de hablar",
+        "Vete ahora"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day1_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '¡____ de conocerte!'",
+      "correctAnswer": "Encantado",
+      "acceptableAlternatives": ["Mucho gusto", "Gusto", "Placer"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day1_mc4",
+      "type": "multipleChoice",
+      "question": "¿Cuál es una forma educada de presentarse?",
+      "options": [
+        "Soy el mejor",
+        "Me llamo Sara",
+        "Deberías conocerme",
+        "No me importa"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

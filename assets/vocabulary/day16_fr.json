@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Heureux",
+      "translation": "Ressentir de la joie et du contentement",
+      "phonetic": "/œʁø/",
+      "example": "Je suis si heureux de te voir!",
+      "exampleTranslation": "Exprimer la joie de rencontrer quelqu'un"
+    },
+    {
+      "word": "Triste",
+      "translation": "Ressentir du chagrin ou du malheur",
+      "phonetic": "/tʁist/",
+      "example": "Elle se sent triste parce que son animal est malade.",
+      "exampleTranslation": "Expliquer une raison de tristesse"
+    },
+    {
+      "word": "En colère",
+      "translation": "Ressentir un fort mécontentement ou de la rage",
+      "phonetic": "/ɑ̃ kɔlɛʁ/",
+      "example": "Il se met en colère quand les gens sont en retard.",
+      "exampleTranslation": "Décrire ce qui cause la colère"
+    },
+    {
+      "word": "Effrayé",
+      "translation": "Ressentir de la peur ou de la frayeur",
+      "phonetic": "/efʁɛje/",
+      "example": "L'enfant est effrayé par l'obscurité.",
+      "exampleTranslation": "Parler d'une peur commune"
+    },
+    {
+      "word": "Excité",
+      "translation": "Ressentir de l'enthousiasme et de l'impatience",
+      "phonetic": "/ɛksite/",
+      "example": "Je suis excité pour ma fête d'anniversaire!",
+      "exampleTranslation": "Exprimer l'anticipation d'un événement"
+    },
+    {
+      "word": "Fatigué",
+      "translation": "Se sentir épuisé ou avoir besoin de repos",
+      "phonetic": "/fatiɡe/",
+      "example": "Je suis trop fatigué pour sortir ce soir.",
+      "exampleTranslation": "Décliner une invitation en raison de la fatigue"
+    },
+    {
+      "word": "Nerveux",
+      "translation": "Ressentir de l'anxiété ou de l'inquiétude",
+      "phonetic": "/nɛʁvø/",
+      "example": "Je suis nerveux à propos de l'entretien d'embauche.",
+      "exampleTranslation": "Exprimer l'anxiété concernant des événements futurs"
+    },
+    {
+      "word": "Fier",
+      "translation": "Ressentir de la satisfaction dans les réalisations",
+      "phonetic": "/fjɛʁ/",
+      "example": "Je suis fier du succès de ma fille.",
+      "exampleTranslation": "Exprimer la satisfaction de la réussite de quelqu'un"
+    }
+  ]
+}

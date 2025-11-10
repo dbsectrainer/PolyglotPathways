@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Rot",
+      "translation": "Die Farbe von Blut oder Feuer",
+      "phonetic": "/ʁoːt/",
+      "example": "Der Apfel ist rot.",
+      "exampleTranslation": "Die Farbe einer häufigen Frucht beschreiben"
+    },
+    {
+      "word": "Blau",
+      "translation": "Die Farbe des Himmels und des Ozeans",
+      "phonetic": "/blaʊ/",
+      "example": "Der Ozean ist blau.",
+      "exampleTranslation": "Die Farbe des Wassers beschreiben"
+    },
+    {
+      "word": "Gelb",
+      "translation": "Die Farbe der Sonne und der Zitronen",
+      "phonetic": "/ɡɛlp/",
+      "example": "Die Banane ist gelb.",
+      "exampleTranslation": "Die Farbe einer reifen Banane beschreiben"
+    },
+    {
+      "word": "Grün",
+      "translation": "Die Farbe von Gras und Blättern",
+      "phonetic": "/ɡʁyːn/",
+      "example": "Das Gras ist grün.",
+      "exampleTranslation": "Die Farbe der Vegetation beschreiben"
+    },
+    {
+      "word": "Schwarz",
+      "translation": "Die dunkelste Farbe, Abwesenheit von Licht",
+      "phonetic": "/ʃvaʁts/",
+      "example": "Der Nachthimmel ist schwarz.",
+      "exampleTranslation": "Dunkelheit beschreiben"
+    },
+    {
+      "word": "Weiß",
+      "translation": "Die hellste Farbe, wie Schnee",
+      "phonetic": "/vaɪs/",
+      "example": "Schnee ist weiß.",
+      "exampleTranslation": "Reinheit oder Helligkeit beschreiben"
+    },
+    {
+      "word": "Orange",
+      "translation": "Die Farbe zwischen Rot und Gelb",
+      "phonetic": "/oˈʁɑ̃ːʒə/",
+      "example": "Die Orange ist orange.",
+      "exampleTranslation": "Die Frucht und die Farbe haben denselben Namen"
+    },
+    {
+      "word": "Lila",
+      "translation": "Die Farbe aus Rot und Blau gemischt",
+      "phonetic": "/ˈliːla/",
+      "example": "Die Blume ist lila.",
+      "exampleTranslation": "Eine violett gefärbte Blume beschreiben"
+    }
+  ]
+}

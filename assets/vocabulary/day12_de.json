@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Sonnig",
+      "translation": "Hell mit Sonnenlicht",
+      "phonetic": "/ˈzɔnɪç/",
+      "example": "Heute ist ein wunderschöner sonniger Tag!",
+      "exampleTranslation": "Einen Tag mit viel Sonnenschein beschreiben"
+    },
+    {
+      "word": "Regnerisch",
+      "translation": "Wenn Wasser vom Himmel fällt",
+      "phonetic": "/ˈʁeːgnəʁɪʃ/",
+      "example": "Vergiss deinen Regenschirm nicht, es ist regnerisch draußen.",
+      "exampleTranslation": "Vor Regen warnen"
+    },
+    {
+      "word": "Bewölkt",
+      "translation": "Wenn der Himmel mit Wolken bedeckt ist",
+      "phonetic": "/bəˈvœlkt/",
+      "example": "Es ist bewölkt, es könnte bald regnen.",
+      "exampleTranslation": "Bedecktes Wetter beschreiben"
+    },
+    {
+      "word": "Windig",
+      "translation": "Wenn es viel Wind gibt",
+      "phonetic": "/ˈvɪndɪç/",
+      "example": "Es ist zu windig, um sicher einen Drachen steigen zu lassen.",
+      "exampleTranslation": "Starke Windbedingungen beschreiben"
+    },
+    {
+      "word": "Schnee",
+      "translation": "Gefrorenes Wasser, das vom Himmel fällt",
+      "phonetic": "/ʃneː/",
+      "example": "Die Kinder lieben es, im Schnee zu spielen.",
+      "exampleTranslation": "Über Winterniederschlag sprechen"
+    },
+    {
+      "word": "Heiß",
+      "translation": "Sehr warme Temperatur",
+      "phonetic": "/haɪs/",
+      "example": "Es ist zu heiß, um ohne Sonnencreme rauszugehen.",
+      "exampleTranslation": "Vor hohen Temperaturen warnen"
+    },
+    {
+      "word": "Kalt",
+      "translation": "Niedrige Temperatur",
+      "phonetic": "/kalt/",
+      "example": "Zieh eine Jacke an, es ist kalt draußen!",
+      "exampleTranslation": "Über kaltes Wetter beraten"
+    },
+    {
+      "word": "Wettervorhersage",
+      "translation": "Vorhersage zukünftiger Wetterbedingungen",
+      "phonetic": "/ˈvɛtɐfoːɐ̯heɐ̯zaːɡə/",
+      "example": "Laut Wettervorhersage wird es morgen sonnig sein.",
+      "exampleTranslation": "Wettervorhersagen verwenden"
+    }
+  ]
+}

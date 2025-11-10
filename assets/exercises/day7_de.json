@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day7_mc1",
+      "type": "multipleChoice",
+      "question": "Was ist ein gesundes Frühstücksgetränk?",
+      "options": [
+        "Limonade",
+        "Kaffee",
+        "Milch",
+        "Bier"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day7_mc2",
+      "type": "multipleChoice",
+      "question": "Welches Lebensmittel kommt von Hühnern?",
+      "options": [
+        "Brot",
+        "Eier",
+        "Reis",
+        "Nudeln"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day7_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ich trinke jeden Morgen ____.' (heißes Getränk)",
+      "correctAnswer": "Kaffee",
+      "acceptableAlternatives": ["kaffee", "Tee", "tee"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day7_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: '____ wird aus Mehl und Wasser gemacht.'",
+      "correctAnswer": "Brot",
+      "acceptableAlternatives": ["brot"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day7_mc3",
+      "type": "multipleChoice",
+      "question": "Was ist eine Frucht?",
+      "options": [
+        "Karotte",
+        "Kartoffel",
+        "Apfel",
+        "Zwiebel"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day7_trans1",
+      "type": "translation",
+      "question": "Welche Flüssigkeit trinkst du, um hydriert zu bleiben?",
+      "targetText": "Essentielle Flüssigkeit",
+      "correctTranslation": "Wasser",
+      "acceptableAlternatives": ["wasser"]
+    },
+    {
+      "id": "day7_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: '____ und Gemüse sind gesund.'",
+      "correctAnswer": "Obst",
+      "acceptableAlternatives": ["obst", "Früchte", "früchte"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day7_mc4",
+      "type": "multipleChoice",
+      "question": "Was isst du normalerweise zum Abendessen?",
+      "options": [
+        "Nur Müsli",
+        "Süßigkeiten",
+        "Fleisch, Gemüse und Reis",
+        "Eis"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

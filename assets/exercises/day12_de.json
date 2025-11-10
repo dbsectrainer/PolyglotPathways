@@ -1,0 +1,79 @@
+{
+  "exercises": [
+    {
+      "id": "day12_mc1",
+      "type": "multipleChoice",
+      "question": "Welches Wetter ist am besten für ein Picknick?",
+      "options": [
+        "Regnerisch",
+        "Sonnig",
+        "Schneeig",
+        "Stürmisch"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day12_mc2",
+      "type": "multipleChoice",
+      "question": "Was brauchst du, wenn es regnet?",
+      "options": [
+        "Eine Sonnenbrille",
+        "Einen Regenschirm",
+        "Einen Badeanzug",
+        "Shorts"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day12_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Es ist sehr ____ draußen, zieh warme Kleidung an!'",
+      "correctAnswer": "kalt",
+      "caseSensitive": false
+    },
+    {
+      "id": "day12_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Schau dir die ____ an! Sie sagt, es wird morgen regnen.'",
+      "correctAnswer": "Wettervorhersage",
+      "acceptableAlternatives": ["Vorhersage"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day12_trans1",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "It's windy",
+      "correctTranslation": "Es ist windig",
+      "acceptableAlternatives": ["Es weht Wind"]
+    },
+    {
+      "id": "day12_mc3",
+      "type": "multipleChoice",
+      "question": "Wenn du die Sonne wegen der Wolken nicht sehen kannst, ist es:",
+      "options": [
+        "Bewölkt",
+        "Heiß",
+        "Windig",
+        "Schneeig"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day12_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Es ist so ____ heute! Ich muss mehr Wasser trinken.'",
+      "correctAnswer": "heiß",
+      "acceptableAlternatives": ["warm"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day12_trans2",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "Snow",
+      "correctTranslation": "Schnee",
+      "acceptableAlternatives": ["Es schneit"]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day4_mc1",
+      "type": "multipleChoice",
+      "question": "De quelle couleur est le ciel par temps clair?",
+      "options": [
+        "Vert",
+        "Bleu",
+        "Rouge",
+        "Jaune"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day4_mc2",
+      "type": "multipleChoice",
+      "question": "De quelle couleur est l'herbe?",
+      "options": [
+        "Marron",
+        "Violet",
+        "Vert",
+        "Orange"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day4_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Le soleil est ____.'",
+      "correctAnswer": "jaune",
+      "acceptableAlternatives": ["Jaune", "orange", "Orange"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day4_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez: 'La neige est ____.'",
+      "correctAnswer": "blanche",
+      "acceptableAlternatives": ["Blanche"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day4_mc3",
+      "type": "multipleChoice",
+      "question": "Quelle couleur est créée en mélangeant rouge et bleu?",
+      "options": [
+        "Vert",
+        "Orange",
+        "Violet",
+        "Marron"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day4_trans1",
+      "type": "translation",
+      "question": "Quelle est la couleur opposée au blanc?",
+      "targetText": "Opposé du blanc",
+      "correctTranslation": "Noir",
+      "acceptableAlternatives": ["noir"]
+    },
+    {
+      "id": "day4_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Une pomme peut être rouge, ____, ou jaune.'",
+      "correctAnswer": "verte",
+      "acceptableAlternatives": ["Verte", "vert", "Vert"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day4_mc4",
+      "type": "multipleChoice",
+      "question": "Quelles sont les couleurs primaires?",
+      "options": [
+        "Rouge, jaune, bleu",
+        "Orange, vert, violet",
+        "Noir, blanc, gris",
+        "Rose, marron, beige"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

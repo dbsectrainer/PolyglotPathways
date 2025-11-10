@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day7_mc1",
+      "type": "multipleChoice",
+      "question": "Quelle est une boisson saine pour le petit-déjeuner?",
+      "options": [
+        "Soda",
+        "Café",
+        "Lait",
+        "Bière"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day7_mc2",
+      "type": "multipleChoice",
+      "question": "Quel aliment provient des poules?",
+      "options": [
+        "Pain",
+        "Œufs",
+        "Riz",
+        "Pâtes"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day7_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Je bois du ____ chaque matin.' (boisson chaude)",
+      "correctAnswer": "café",
+      "acceptableAlternatives": ["Café", "thé", "Thé"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day7_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Le ____ est fait de farine et d'eau.'",
+      "correctAnswer": "pain",
+      "acceptableAlternatives": ["Pain"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day7_mc3",
+      "type": "multipleChoice",
+      "question": "Lequel est un fruit?",
+      "options": [
+        "Carotte",
+        "Pomme de terre",
+        "Pomme",
+        "Oignon"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day7_trans1",
+      "type": "translation",
+      "question": "Quel liquide buvez-vous pour rester hydraté?",
+      "targetText": "Liquide essentiel",
+      "correctTranslation": "Eau",
+      "acceptableAlternatives": ["eau"]
+    },
+    {
+      "id": "day7_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Les ____ et les légumes sont sains.'",
+      "correctAnswer": "fruits",
+      "acceptableAlternatives": ["Fruits"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day7_mc4",
+      "type": "multipleChoice",
+      "question": "Que mangez-vous typiquement pour le dîner?",
+      "options": [
+        "Seulement des céréales",
+        "Des bonbons",
+        "Viande, légumes et riz",
+        "Glace"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

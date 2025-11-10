@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Red",
+      "translation": "The color of blood or fire",
+      "phonetic": "/rɛd/",
+      "example": "The apple is red.",
+      "exampleTranslation": "Describing the color of a common fruit"
+    },
+    {
+      "word": "Blue",
+      "translation": "The color of the sky and ocean",
+      "phonetic": "/bluː/",
+      "example": "The ocean is blue.",
+      "exampleTranslation": "Describing the color of water"
+    },
+    {
+      "word": "Yellow",
+      "translation": "The color of the sun and lemons",
+      "phonetic": "/ˈjɛloʊ/",
+      "example": "The banana is yellow.",
+      "exampleTranslation": "Describing the color of a ripe banana"
+    },
+    {
+      "word": "Green",
+      "translation": "The color of grass and leaves",
+      "phonetic": "/ɡriːn/",
+      "example": "The grass is green.",
+      "exampleTranslation": "Describing the color of vegetation"
+    },
+    {
+      "word": "Black",
+      "translation": "The darkest color, absence of light",
+      "phonetic": "/blæk/",
+      "example": "The night sky is black.",
+      "exampleTranslation": "Describing darkness"
+    },
+    {
+      "word": "White",
+      "translation": "The lightest color, like snow",
+      "phonetic": "/waɪt/",
+      "example": "Snow is white.",
+      "exampleTranslation": "Describing purity or lightness"
+    },
+    {
+      "word": "Orange",
+      "translation": "The color between red and yellow",
+      "phonetic": "/ˈɔrɪndʒ/",
+      "example": "The orange is orange.",
+      "exampleTranslation": "The fruit and color share the same name"
+    },
+    {
+      "word": "Purple",
+      "translation": "The color made by mixing red and blue",
+      "phonetic": "/ˈpɜrpəl/",
+      "example": "The flower is purple.",
+      "exampleTranslation": "Describing a violet-colored flower"
+    }
+  ]
+}

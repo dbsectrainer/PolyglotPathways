@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day16_mc1",
+      "type": "multipleChoice",
+      "question": "Quand vous souriez et vous sentez bien, vous êtes:",
+      "options": [
+        "Triste",
+        "Heureux",
+        "En colère",
+        "Fatigué"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day16_mc2",
+      "type": "multipleChoice",
+      "question": "Si quelqu'un crie et a l'air contrarié, il pourrait être:",
+      "options": [
+        "Excité",
+        "En colère",
+        "Heureux",
+        "Endormi"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day16_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Je me sens ____ quand je regarde un film d'horreur.'",
+      "correctAnswer": "effrayé",
+      "acceptableAlternatives": ["apeuré", "effrayée"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day16_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Après avoir couru pendant une heure, je me sens très ____.'",
+      "correctAnswer": "fatigué",
+      "acceptableAlternatives": ["fatiguée", "épuisé"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day16_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Excited",
+      "correctTranslation": "Excité",
+      "acceptableAlternatives": ["Enthousiaste", "Excitée"]
+    },
+    {
+      "id": "day16_mc3",
+      "type": "multipleChoice",
+      "question": "Quand vous pleurez parce que quelque chose de mauvais s'est passé, vous vous sentez:",
+      "options": [
+        "Heureux",
+        "Triste",
+        "En colère",
+        "Excité"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day16_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Je deviens ____ avant de passer un grand examen.'",
+      "correctAnswer": "nerveux",
+      "acceptableAlternatives": ["nerveuse", "anxieux"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day16_trans2",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Happy",
+      "correctTranslation": "Heureux",
+      "acceptableAlternatives": ["Content", "Joyeux", "Heureuse"]
+    }
+  ]
+}

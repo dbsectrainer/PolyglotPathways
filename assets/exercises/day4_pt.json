@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day4_mc1",
+      "type": "multipleChoice",
+      "question": "De que cor é o céu em um dia claro?",
+      "options": [
+        "Verde",
+        "Azul",
+        "Vermelho",
+        "Amarelo"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day4_mc2",
+      "type": "multipleChoice",
+      "question": "De que cor é a grama?",
+      "options": [
+        "Marrom",
+        "Roxo",
+        "Verde",
+        "Laranja"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day4_fib1",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'O sol é ____.'",
+      "correctAnswer": "amarelo",
+      "acceptableAlternatives": ["Amarelo", "laranja", "Laranja"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day4_fib2",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'A neve é ____.'",
+      "correctAnswer": "branca",
+      "acceptableAlternatives": ["Branca"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day4_mc3",
+      "type": "multipleChoice",
+      "question": "Qual cor é criada ao misturar vermelho e azul?",
+      "options": [
+        "Verde",
+        "Laranja",
+        "Roxo",
+        "Marrom"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day4_trans1",
+      "type": "translation",
+      "question": "Qual é a cor oposta ao branco?",
+      "targetText": "Oposto do branco",
+      "correctTranslation": "Preto",
+      "acceptableAlternatives": ["preto"]
+    },
+    {
+      "id": "day4_fib3",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Uma maçã pode ser vermelha, ____, ou amarela.'",
+      "correctAnswer": "verde",
+      "acceptableAlternatives": ["Verde"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day4_mc4",
+      "type": "multipleChoice",
+      "question": "Quais são as cores primárias?",
+      "options": [
+        "Vermelho, amarelo, azul",
+        "Laranja, verde, roxo",
+        "Preto, branco, cinza",
+        "Rosa, marrom, bege"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

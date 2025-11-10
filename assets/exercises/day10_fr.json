@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day10_mc1",
+      "type": "multipleChoice",
+      "question": "Où allez-vous pour acheter de la nourriture?",
+      "options": [
+        "École",
+        "Magasin",
+        "Hôpital",
+        "Bibliothèque"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day10_mc2",
+      "type": "multipleChoice",
+      "question": "Où les étudiants apprennent-ils?",
+      "options": [
+        "Restaurant",
+        "Parc",
+        "École",
+        "Banque"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day10_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Je dors chez ____.' (à la maison)",
+      "correctAnswer": "moi",
+      "acceptableAlternatives": ["Moi"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day10_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Je vais à l'____ quand je suis malade.'",
+      "correctAnswer": "hôpital",
+      "acceptableAlternatives": ["Hôpital", "hopital"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day10_mc3",
+      "type": "multipleChoice",
+      "question": "Où empruntez-vous des livres?",
+      "options": [
+        "Gymnase",
+        "Bibliothèque",
+        "Théâtre",
+        "Musée"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day10_trans1",
+      "type": "translation",
+      "question": "Où allez-vous pour manger un repas préparé par un chef?",
+      "targetText": "Lieu pour manger dehors",
+      "correctTranslation": "Restaurant",
+      "acceptableAlternatives": ["restaurant"]
+    },
+    {
+      "id": "day10_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Je travaille dans un ____.'",
+      "correctAnswer": "bureau",
+      "acceptableAlternatives": ["Bureau"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day10_mc4",
+      "type": "multipleChoice",
+      "question": "Où pouvez-vous voir des arbres, de l'herbe et jouer dehors?",
+      "options": [
+        "Centre commercial",
+        "Gare",
+        "Parc",
+        "Aéroport"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

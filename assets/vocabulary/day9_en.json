@@ -1,0 +1,74 @@
+{
+  "vocabulary": [
+    {
+      "word": "Big",
+      "translation": "Large in size",
+      "phonetic": "/bɪɡ/",
+      "example": "The elephant is big.",
+      "exampleTranslation": "Describing large size"
+    },
+    {
+      "word": "Small",
+      "translation": "Little in size",
+      "phonetic": "/smɔːl/",
+      "example": "The mouse is small.",
+      "exampleTranslation": "Describing tiny size"
+    },
+    {
+      "word": "Hot",
+      "translation": "Having high temperature",
+      "phonetic": "/hɑːt/",
+      "example": "The coffee is hot.",
+      "exampleTranslation": "Describing high temperature"
+    },
+    {
+      "word": "Cold",
+      "translation": "Having low temperature",
+      "phonetic": "/koʊld/",
+      "example": "The ice cream is cold.",
+      "exampleTranslation": "Describing low temperature"
+    },
+    {
+      "word": "Fast",
+      "translation": "Moving or happening quickly",
+      "phonetic": "/fæst/",
+      "example": "The car is fast.",
+      "exampleTranslation": "Describing high speed"
+    },
+    {
+      "word": "Slow",
+      "translation": "Moving or happening at low speed",
+      "phonetic": "/sloʊ/",
+      "example": "The turtle is slow.",
+      "exampleTranslation": "Describing low speed"
+    },
+    {
+      "word": "Good",
+      "translation": "Of high quality or desirable",
+      "phonetic": "/ɡʊd/",
+      "example": "This is good food.",
+      "exampleTranslation": "Describing quality or excellence"
+    },
+    {
+      "word": "Bad",
+      "translation": "Of poor quality or undesirable",
+      "phonetic": "/bæd/",
+      "example": "This is bad weather.",
+      "exampleTranslation": "Describing poor quality"
+    },
+    {
+      "word": "Happy",
+      "translation": "Feeling joy or pleasure",
+      "phonetic": "/ˈhæpi/",
+      "example": "I am happy today.",
+      "exampleTranslation": "Describing positive emotion"
+    },
+    {
+      "word": "Sad",
+      "translation": "Feeling unhappy or sorrowful",
+      "phonetic": "/sæd/",
+      "example": "She looks sad.",
+      "exampleTranslation": "Describing negative emotion"
+    }
+  ]
+}

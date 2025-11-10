@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day7_mc1",
+      "type": "multipleChoice",
+      "question": "Qual é uma bebida saudável para o café da manhã?",
+      "options": [
+        "Refrigerante",
+        "Café",
+        "Leite",
+        "Cerveja"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day7_mc2",
+      "type": "multipleChoice",
+      "question": "Que alimento vem das galinhas?",
+      "options": [
+        "Pão",
+        "Ovos",
+        "Arroz",
+        "Macarrão"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day7_fib1",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Eu bebo ____ toda manhã.' (bebida quente)",
+      "correctAnswer": "café",
+      "acceptableAlternatives": ["Café", "chá", "Chá"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day7_fib2",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'O ____ é feito de farinha e água.'",
+      "correctAnswer": "pão",
+      "acceptableAlternatives": ["Pão"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day7_mc3",
+      "type": "multipleChoice",
+      "question": "Qual é uma fruta?",
+      "options": [
+        "Cenoura",
+        "Batata",
+        "Maçã",
+        "Cebola"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day7_trans1",
+      "type": "translation",
+      "question": "Que líquido você bebe para se manter hidratado?",
+      "targetText": "Líquido essencial",
+      "correctTranslation": "Água",
+      "acceptableAlternatives": ["água"]
+    },
+    {
+      "id": "day7_fib3",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: '____ e vegetais são saudáveis.'",
+      "correctAnswer": "Frutas",
+      "acceptableAlternatives": ["frutas"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day7_mc4",
+      "type": "multipleChoice",
+      "question": "O que você normalmente come no jantar?",
+      "options": [
+        "Apenas cereal",
+        "Doces",
+        "Carne, vegetais e arroz",
+        "Sorvete"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

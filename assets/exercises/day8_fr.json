@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day8_mc1",
+      "type": "multipleChoice",
+      "question": "Quelle partie du corps utilisez-vous pour voir?",
+      "options": [
+        "Oreilles",
+        "Yeux",
+        "Nez",
+        "Bouche"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day8_mc2",
+      "type": "multipleChoice",
+      "question": "Quelle partie du corps utilisez-vous pour marcher?",
+      "options": [
+        "Bras",
+        "Tête",
+        "Jambes",
+        "Mains"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day8_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez: 'J'utilise mes ____ pour entendre les sons.'",
+      "correctAnswer": "oreilles",
+      "acceptableAlternatives": ["Oreilles"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day8_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Je porte un chapeau sur ma ____.'",
+      "correctAnswer": "tête",
+      "acceptableAlternatives": ["Tête"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day8_mc3",
+      "type": "multipleChoice",
+      "question": "Qu'utilisez-vous pour tenir des choses?",
+      "options": [
+        "Pieds",
+        "Mains",
+        "Genoux",
+        "Épaules"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day8_trans1",
+      "type": "translation",
+      "question": "Qu'est-ce qui est au milieu de votre visage, utilisé pour sentir?",
+      "targetText": "Organe pour sentir",
+      "correctTranslation": "Nez",
+      "acceptableAlternatives": ["nez"]
+    },
+    {
+      "id": "day8_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Je mange avec ma ____.'",
+      "correctAnswer": "bouche",
+      "acceptableAlternatives": ["Bouche"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day8_mc4",
+      "type": "multipleChoice",
+      "question": "Qu'est-ce qui relie votre main à votre corps?",
+      "options": [
+        "Jambe",
+        "Pied",
+        "Bras",
+        "Doigt"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

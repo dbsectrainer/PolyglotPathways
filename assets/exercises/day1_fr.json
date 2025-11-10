@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day1_mc1",
+      "type": "multipleChoice",
+      "question": "Quelle salutation est la plus appropriée dans un contexte formel?",
+      "options": [
+        "Salut!",
+        "Bonjour",
+        "Coucou!",
+        "Quoi de neuf?"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day1_mc2",
+      "type": "multipleChoice",
+      "question": "Comment répondez-vous à 'Comment allez-vous?'",
+      "options": [
+        "Je vais bien, merci. Et vous?",
+        "Rien",
+        "Oui",
+        "Au revoir"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day1_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Enchanté de vous ____!'",
+      "correctAnswer": "rencontrer",
+      "acceptableAlternatives": ["connaître"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day1_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Mon ____ est Jean.'",
+      "correctAnswer": "nom",
+      "caseSensitive": false
+    },
+    {
+      "id": "day1_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Hello",
+      "correctTranslation": "Bonjour",
+      "acceptableAlternatives": ["Salut", "Bonsoir"]
+    },
+    {
+      "id": "day1_mc3",
+      "type": "multipleChoice",
+      "question": "Quelle est une façon appropriée de dire au revoir?",
+      "options": [
+        "À bientôt",
+        "Partez",
+        "Arrêtez de parler",
+        "Sortez maintenant"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day1_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez: '____ de vous rencontrer!'",
+      "correctAnswer": "Enchanté",
+      "acceptableAlternatives": ["Ravi", "Heureux", "Content"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day1_mc4",
+      "type": "multipleChoice",
+      "question": "Quelle est une façon polie de se présenter?",
+      "options": [
+        "Je suis le meilleur",
+        "Je m'appelle Sarah",
+        "Vous devriez me connaître",
+        "Je m'en fiche"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

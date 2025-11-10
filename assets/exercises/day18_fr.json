@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day18_mc1",
+      "type": "multipleChoice",
+      "question": "Quand vous donnez de l'argent pour obtenir quelque chose dans un magasin, vous:",
+      "options": [
+        "Vendez",
+        "Achetez",
+        "Coûtez",
+        "Prix"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day18_mc2",
+      "type": "multipleChoice",
+      "question": "Si quelque chose coûte beaucoup d'argent, c'est:",
+      "options": [
+        "Bon marché",
+        "Cher",
+        "Gratuit",
+        "Nouveau"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day18_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Combien ____ cela?'",
+      "correctAnswer": "coûte",
+      "acceptableAlternatives": ["ça coûte"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day18_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'J'ai besoin d'____ pour acheter le déjeuner.'",
+      "correctAnswer": "argent",
+      "acceptableAlternatives": ["espèces"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day18_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Sell",
+      "correctTranslation": "Vendre",
+      "acceptableAlternatives": ["Vends"]
+    },
+    {
+      "id": "day18_mc3",
+      "type": "multipleChoice",
+      "question": "Que demandez-vous quand vous voulez savoir combien quelque chose coûte?",
+      "options": [
+        "Quelle heure est-il?",
+        "Quel est le prix?",
+        "Où est-ce?",
+        "Qui a fait cela?"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day18_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: 'Cette chemise est très ____! Elle ne coûte que 5€.'",
+      "correctAnswer": "bon marché",
+      "acceptableAlternatives": ["pas chère", "abordable"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day18_trans2",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Price",
+      "correctTranslation": "Prix",
+      "acceptableAlternatives": ["Coût"]
+    }
+  ]
+}

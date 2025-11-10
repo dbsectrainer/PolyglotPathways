@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Vermelho",
+      "translation": "A cor do sangue ou fogo",
+      "phonetic": "/veɾˈmeʎu/",
+      "example": "A maçã é vermelha.",
+      "exampleTranslation": "Descrevendo a cor de uma fruta comum"
+    },
+    {
+      "word": "Azul",
+      "translation": "A cor do céu e do oceano",
+      "phonetic": "/aˈzuw/",
+      "example": "O oceano é azul.",
+      "exampleTranslation": "Descrevendo a cor da água"
+    },
+    {
+      "word": "Amarelo",
+      "translation": "A cor do sol e dos limões",
+      "phonetic": "/amaˈɾelu/",
+      "example": "A banana é amarela.",
+      "exampleTranslation": "Descrevendo a cor de uma banana madura"
+    },
+    {
+      "word": "Verde",
+      "translation": "A cor da grama e das folhas",
+      "phonetic": "/ˈveɾdʒi/",
+      "example": "A grama é verde.",
+      "exampleTranslation": "Descrevendo a cor da vegetação"
+    },
+    {
+      "word": "Preto",
+      "translation": "A cor mais escura, ausência de luz",
+      "phonetic": "/ˈpɾetu/",
+      "example": "O céu noturno é preto.",
+      "exampleTranslation": "Descrevendo a escuridão"
+    },
+    {
+      "word": "Branco",
+      "translation": "A cor mais clara, como a neve",
+      "phonetic": "/ˈbɾãku/",
+      "example": "A neve é branca.",
+      "exampleTranslation": "Descrevendo pureza ou claridade"
+    },
+    {
+      "word": "Laranja",
+      "translation": "A cor entre vermelho e amarelo",
+      "phonetic": "/laˈɾãʒa/",
+      "example": "A laranja é laranja.",
+      "exampleTranslation": "A fruta e a cor compartilham o mesmo nome"
+    },
+    {
+      "word": "Roxo",
+      "translation": "A cor feita ao misturar vermelho e azul",
+      "phonetic": "/ˈʁoʃu/",
+      "example": "A flor é roxa.",
+      "exampleTranslation": "Descrevendo uma flor de cor violeta"
+    }
+  ]
+}

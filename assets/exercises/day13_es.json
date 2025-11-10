@@ -1,0 +1,79 @@
+{
+  "exercises": [
+    {
+      "id": "day13_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué te pones en los pies?",
+      "options": [
+        "Sombrero",
+        "Zapatos",
+        "Vestido",
+        "Chaqueta"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day13_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué te pones cuando hace frío afuera?",
+      "options": [
+        "Pantalones cortos",
+        "Chaqueta",
+        "Traje de baño",
+        "Camiseta sin mangas"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day13_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Necesito comprar un ____ nuevo para usar en la fiesta.'",
+      "correctAnswer": "vestido",
+      "acceptableAlternatives": ["traje", "outfit"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day13_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '¡No olvides usar tu ____ cuando salgas al sol!'",
+      "correctAnswer": "sombrero",
+      "acceptableAlternatives": ["gorra"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day13_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Pants",
+      "correctTranslation": "Pantalones",
+      "acceptableAlternatives": ["Pantalón"]
+    },
+    {
+      "id": "day13_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué te pones en las manos para mantenerlas calientes?",
+      "options": [
+        "Calcetines",
+        "Zapatos",
+        "Guantes",
+        "Sombrero"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day13_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Ponte ____ limpios antes de usar tus zapatos.'",
+      "correctAnswer": "calcetines",
+      "caseSensitive": false
+    },
+    {
+      "id": "day13_trans2",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Shirt",
+      "correctTranslation": "Camisa",
+      "acceptableAlternatives": ["Camiseta", "Blusa"]
+    }
+  ]
+}

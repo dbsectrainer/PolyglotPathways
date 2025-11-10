@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day9_mc1",
+      "type": "multipleChoice",
+      "question": "Welches Wort beschreibt etwas Großes?",
+      "options": [
+        "Klein",
+        "Groß",
+        "Kurz",
+        "Dünn"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day9_mc2",
+      "type": "multipleChoice",
+      "question": "Was ist das Gegenteil von 'kalt'?",
+      "options": [
+        "Warm",
+        "Kühl",
+        "Eisig",
+        "Gefroren"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day9_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Die Sonne ist sehr ____.'",
+      "correctAnswer": "heiß",
+      "acceptableAlternatives": ["Heiß", "hell", "Hell"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day9_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Diese Tasche ist sehr ____. Sie wiegt fast nichts.'",
+      "correctAnswer": "leicht",
+      "acceptableAlternatives": ["Leicht"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day9_mc3",
+      "type": "multipleChoice",
+      "question": "Welches Adjektiv bedeutet 'nicht schmutzig'?",
+      "options": [
+        "Unordentlich",
+        "Sauber",
+        "Staubig",
+        "Schlammig"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day9_trans1",
+      "type": "translation",
+      "question": "Welches Wort beschreibt etwas, das sich schnell bewegt oder passiert?",
+      "targetText": "Gegenteil von langsam",
+      "correctTranslation": "Schnell",
+      "acceptableAlternatives": ["schnell"]
+    },
+    {
+      "id": "day9_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Sie ist sehr ____ und bringt mich zum Lachen.'",
+      "correctAnswer": "lustig",
+      "acceptableAlternatives": ["Lustig", "komisch", "Komisch"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day9_mc4",
+      "type": "multipleChoice",
+      "question": "Welches Paar sind Gegensätze?",
+      "options": [
+        "Glücklich und froh",
+        "Groß und klein",
+        "Groß und riesig",
+        "Schnell und rasch"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

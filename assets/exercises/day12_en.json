@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day12_mc1",
+      "type": "multipleChoice",
+      "question": "What weather is best for a picnic?",
+      "options": [
+        "Rainy",
+        "Sunny",
+        "Snowy",
+        "Stormy"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day12_mc2",
+      "type": "multipleChoice",
+      "question": "What do you need when it's rainy?",
+      "options": [
+        "Sunglasses",
+        "Umbrella",
+        "Swimsuit",
+        "Shorts"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day12_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'It's very ____ outside, wear warm clothes!'",
+      "correctAnswer": "cold",
+      "acceptableAlternatives": ["chilly", "freezing"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day12_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Look at the ____! It says it will rain tomorrow.'",
+      "correctAnswer": "forecast",
+      "acceptableAlternatives": ["weather forecast"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day12_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "It's windy",
+      "correctTranslation": "It's windy",
+      "acceptableAlternatives": ["It is windy", "Windy"]
+    },
+    {
+      "id": "day12_mc3",
+      "type": "multipleChoice",
+      "question": "When you can't see the sun because of clouds, it's:",
+      "options": [
+        "Cloudy",
+        "Hot",
+        "Windy",
+        "Snowy"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day12_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'It's so ____ today! I need to drink more water.'",
+      "correctAnswer": "hot",
+      "acceptableAlternatives": ["warm", "sunny"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day12_trans2",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Snow",
+      "correctTranslation": "Snow",
+      "acceptableAlternatives": ["It's snowing", "Snowy"]
+    }
+  ]
+}

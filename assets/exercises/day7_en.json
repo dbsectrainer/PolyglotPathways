@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day7_mc1",
+      "type": "multipleChoice",
+      "question": "Which is a healthy breakfast drink?",
+      "options": [
+        "Soda",
+        "Coffee",
+        "Milk",
+        "Beer"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day7_mc2",
+      "type": "multipleChoice",
+      "question": "What food comes from chickens?",
+      "options": [
+        "Bread",
+        "Eggs",
+        "Rice",
+        "Pasta"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day7_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I drink ____ every morning.' (hot beverage)",
+      "correctAnswer": "coffee",
+      "acceptableAlternatives": ["Coffee", "tea", "Tea"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day7_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: '____ is made from flour and water.'",
+      "correctAnswer": "Bread",
+      "acceptableAlternatives": ["bread", "Pasta", "pasta"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day7_mc3",
+      "type": "multipleChoice",
+      "question": "Which is a fruit?",
+      "options": [
+        "Carrot",
+        "Potato",
+        "Apple",
+        "Onion"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day7_trans1",
+      "type": "translation",
+      "question": "What liquid do you drink to stay hydrated?",
+      "targetText": "Essential liquid",
+      "correctTranslation": "Water",
+      "acceptableAlternatives": ["water"]
+    },
+    {
+      "id": "day7_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: '____ and vegetables are healthy.'",
+      "correctAnswer": "Fruits",
+      "acceptableAlternatives": ["fruits", "Fruit", "fruit"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day7_mc4",
+      "type": "multipleChoice",
+      "question": "What do you typically eat for dinner?",
+      "options": [
+        "Cereal only",
+        "Candy",
+        "Meat, vegetables, and rice",
+        "Ice cream"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

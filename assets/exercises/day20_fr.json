@@ -1,0 +1,79 @@
+{
+  "exercises": [
+    {
+      "id": "day20_mc1",
+      "type": "multipleChoice",
+      "question": "Quel mot interrogatif demande à propos d'une personne?",
+      "options": [
+        "Quoi",
+        "Qui",
+        "Où",
+        "Quand"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day20_mc2",
+      "type": "multipleChoice",
+      "question": "Quel mot interrogatif demande à propos du temps?",
+      "options": [
+        "Pourquoi",
+        "Quand",
+        "Où",
+        "Quel"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day20_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: '____ allez-vous? Au magasin.'",
+      "correctAnswer": "Où",
+      "caseSensitive": false
+    },
+    {
+      "id": "day20_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: '____ est votre couleur préférée? Bleu.'",
+      "correctAnswer": "Quelle",
+      "acceptableAlternatives": ["Quel"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day20_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "How",
+      "correctTranslation": "Comment",
+      "acceptableAlternatives": ["De quelle manière"]
+    },
+    {
+      "id": "day20_mc3",
+      "type": "multipleChoice",
+      "question": "'Pourquoi' est utilisé pour demander à propos de:",
+      "options": [
+        "L'emplacement",
+        "La raison",
+        "La personne",
+        "Le temps"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day20_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez l'espace: '____ livre voulez-vous? Celui-ci ou celui-là?'",
+      "correctAnswer": "Quel",
+      "acceptableAlternatives": ["Lequel"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day20_trans2",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Why",
+      "correctTranslation": "Pourquoi",
+      "acceptableAlternatives": ["Pour quelle raison"]
+    }
+  ]
+}

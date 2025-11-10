@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day3_mc1",
+      "type": "multipleChoice",
+      "question": "Qual dia vem depois de segunda-feira?",
+      "options": [
+        "Domingo",
+        "Terça-feira",
+        "Quarta-feira",
+        "Sábado"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day3_mc2",
+      "type": "multipleChoice",
+      "question": "Qual é o primeiro mês do ano?",
+      "options": [
+        "Dezembro",
+        "Fevereiro",
+        "Janeiro",
+        "Março"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day3_fib1",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Segunda-feira, terça-feira, ____'",
+      "correctAnswer": "quarta-feira",
+      "acceptableAlternatives": ["Quarta-feira"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day3_fib2",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Janeiro, fevereiro, ____'",
+      "correctAnswer": "março",
+      "acceptableAlternatives": ["Março"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day3_mc3",
+      "type": "multipleChoice",
+      "question": "Qual mês tem o nome mais curto?",
+      "options": [
+        "Julho",
+        "Junho",
+        "Maio",
+        "Abril"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day3_trans1",
+      "type": "translation",
+      "question": "Qual dia é o último dia da semana de trabalho?",
+      "targetText": "Último dia útil antes do fim de semana",
+      "correctTranslation": "Sexta-feira",
+      "acceptableAlternatives": ["sexta-feira"]
+    },
+    {
+      "id": "day3_mc4",
+      "type": "multipleChoice",
+      "question": "Quais são os dias do fim de semana?",
+      "options": [
+        "Segunda-feira e sexta-feira",
+        "Sábado e domingo",
+        "Quinta-feira e sexta-feira",
+        "Terça-feira e quarta-feira"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day3_fib3",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Quinta-feira, sexta-feira, ____'",
+      "correctAnswer": "sábado",
+      "acceptableAlternatives": ["Sábado"],
+      "caseSensitive": false
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "exercises": [
+    {
+      "id": "day17_mc1",
+      "type": "multipleChoice",
+      "question": "Was ist das Erste, was du am Morgen machst?",
+      "options": [
+        "Schlafen",
+        "Aufwachen",
+        "Arbeiten",
+        "Spielen"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day17_mc2",
+      "type": "multipleChoice",
+      "question": "Was machst du, wenn du hungrig bist?",
+      "options": [
+        "Schlafen",
+        "Essen",
+        "Putzen",
+        "Lernen"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day17_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ich ____ jeden Tag Englisch in der Schule.'",
+      "correctAnswer": "lerne",
+      "acceptableAlternatives": ["studiere"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day17_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Nach dem Abendessen ____ ich mein Zimmer.'",
+      "correctAnswer": "putze",
+      "acceptableAlternatives": ["räume auf"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day17_trans1",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "Work",
+      "correctTranslation": "Arbeiten",
+      "acceptableAlternatives": ["Arbeit"]
+    },
+    {
+      "id": "day17_mc3",
+      "type": "multipleChoice",
+      "question": "Was machen Kinder auf dem Spielplatz?",
+      "options": [
+        "Arbeiten",
+        "Spielen",
+        "Schlafen",
+        "Lernen"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day17_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Ich gehe jeden Abend um 22 Uhr ____.'",
+      "correctAnswer": "schlafen",
+      "acceptableAlternatives": ["ins Bett"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day17_trans2",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "Eat",
+      "correctTranslation": "Essen",
+      "acceptableAlternatives": ["Esse"]
+    }
+  ]
+}
