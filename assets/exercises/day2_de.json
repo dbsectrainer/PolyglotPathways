@@ -1,0 +1,69 @@
+{
+  "exercises": [
+    {
+      "id": "day2_mc1",
+      "type": "multipleChoice",
+      "question": "Was kommt nach 'neun'?",
+      "options": [
+        "acht",
+        "zehn",
+        "elf",
+        "zwölf"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day2_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Eins, zwei, drei, ____, fünf'",
+      "correctAnswer": "vier",
+      "caseSensitive": false
+    },
+    {
+      "id": "day2_mc2",
+      "type": "multipleChoice",
+      "question": "Wie schreibt man die Zahl 15?",
+      "options": [
+        "fünfzehn",
+        "fünfzig",
+        "fünfzehn",
+        "fünften"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day2_fib2",
+      "type": "fillInBlank",
+      "question": "Welche Zahl kommt vor 'zwanzig'?",
+      "correctAnswer": "neunzehn",
+      "caseSensitive": false
+    },
+    {
+      "id": "day2_mc3",
+      "type": "multipleChoice",
+      "question": "Wie lautet die richtige Schreibweise von 30?",
+      "options": [
+        "dreißich",
+        "dreißig",
+        "dreizig",
+        "dreisig"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day2_trans1",
+      "type": "translation",
+      "question": "Schreibe diese Zahl in Worten:",
+      "targetText": "7",
+      "correctTranslation": "sieben",
+      "acceptableAlternatives": ["Sieben"]
+    },
+    {
+      "id": "day2_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Zehn, zwanzig, ____, vierzig'",
+      "correctAnswer": "dreißig",
+      "caseSensitive": false
+    }
+  ]
+}

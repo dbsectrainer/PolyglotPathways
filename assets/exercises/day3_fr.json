@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day3_mc1",
+      "type": "multipleChoice",
+      "question": "Quel jour vient après lundi?",
+      "options": [
+        "Dimanche",
+        "Mardi",
+        "Mercredi",
+        "Samedi"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day3_mc2",
+      "type": "multipleChoice",
+      "question": "Quel est le premier mois de l'année?",
+      "options": [
+        "Décembre",
+        "Février",
+        "Janvier",
+        "Mars"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day3_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Lundi, mardi, ____'",
+      "correctAnswer": "mercredi",
+      "acceptableAlternatives": ["Mercredi"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day3_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Janvier, février, ____'",
+      "correctAnswer": "mars",
+      "acceptableAlternatives": ["Mars"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day3_mc3",
+      "type": "multipleChoice",
+      "question": "Quel mois a le nom le plus court?",
+      "options": [
+        "Juillet",
+        "Juin",
+        "Mai",
+        "Avril"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day3_trans1",
+      "type": "translation",
+      "question": "Quel jour est le dernier jour de la semaine de travail?",
+      "targetText": "Dernier jour ouvrable avant le week-end",
+      "correctTranslation": "Vendredi",
+      "acceptableAlternatives": ["vendredi"]
+    },
+    {
+      "id": "day3_mc4",
+      "type": "multipleChoice",
+      "question": "Quels sont les jours du week-end?",
+      "options": [
+        "Lundi et vendredi",
+        "Samedi et dimanche",
+        "Jeudi et vendredi",
+        "Mardi et mercredi"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day3_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Jeudi, vendredi, ____'",
+      "correctAnswer": "samedi",
+      "acceptableAlternatives": ["Samedi"],
+      "caseSensitive": false
+    }
+  ]
+}

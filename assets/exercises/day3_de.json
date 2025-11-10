@@ -1,0 +1,81 @@
+{
+  "exercises": [
+    {
+      "id": "day3_mc1",
+      "type": "multipleChoice",
+      "question": "Welcher Tag kommt nach Montag?",
+      "options": [
+        "Sonntag",
+        "Dienstag",
+        "Mittwoch",
+        "Samstag"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day3_mc2",
+      "type": "multipleChoice",
+      "question": "Was ist der erste Monat des Jahres?",
+      "options": [
+        "Dezember",
+        "Februar",
+        "Januar",
+        "März"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day3_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Montag, Dienstag, ____'",
+      "correctAnswer": "Mittwoch",
+      "caseSensitive": false
+    },
+    {
+      "id": "day3_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Januar, Februar, ____'",
+      "correctAnswer": "März",
+      "caseSensitive": false
+    },
+    {
+      "id": "day3_mc3",
+      "type": "multipleChoice",
+      "question": "Welcher Monat hat den kürzesten Namen?",
+      "options": [
+        "Juli",
+        "Juni",
+        "Mai",
+        "April"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day3_trans1",
+      "type": "translation",
+      "question": "Welcher Tag ist der letzte Arbeitstag der Woche?",
+      "targetText": "Letzter Arbeitstag vor dem Wochenende",
+      "correctTranslation": "Freitag",
+      "acceptableAlternatives": ["freitag"]
+    },
+    {
+      "id": "day3_mc4",
+      "type": "multipleChoice",
+      "question": "Was sind die Wochenendtage?",
+      "options": [
+        "Montag und Freitag",
+        "Samstag und Sonntag",
+        "Donnerstag und Freitag",
+        "Dienstag und Mittwoch"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day3_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Donnerstag, Freitag, ____'",
+      "correctAnswer": "Samstag",
+      "caseSensitive": false
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Hola",
+      "translation": "Un saludo usado al conocer a alguien",
+      "phonetic": "/ˈola/",
+      "example": "Hola, ¿cómo estás hoy?",
+      "exampleTranslation": "Un saludo amigable para iniciar una conversación"
+    },
+    {
+      "word": "Adiós",
+      "translation": "Una expresión de despedida",
+      "phonetic": "/aˈðjos/",
+      "example": "Adiós, ¡nos vemos mañana!",
+      "exampleTranslation": "Una forma educada de terminar una conversación"
+    },
+    {
+      "word": "Por favor",
+      "translation": "Una palabra educada usada al hacer peticiones",
+      "phonetic": "/poɾ faˈβoɾ/",
+      "example": "¿Podrías ayudarme, por favor?",
+      "exampleTranslation": "Muestra educación al pedir algo"
+    },
+    {
+      "word": "Gracias",
+      "translation": "Expresión de gratitud",
+      "phonetic": "/ˈɡɾaθjas/",
+      "example": "¡Gracias por tu ayuda!",
+      "exampleTranslation": "Mostrando agradecimiento por las acciones de alguien"
+    },
+    {
+      "word": "Me llamo",
+      "translation": "Frase usada para presentarse",
+      "phonetic": "/me ˈʎamo/",
+      "example": "Hola, me llamo Sara.",
+      "exampleTranslation": "Presentándote a alguien nuevo"
+    },
+    {
+      "word": "Mucho gusto",
+      "translation": "Expresión educada al conocer a alguien por primera vez",
+      "phonetic": "/ˈmutʃo ˈɣusto/",
+      "example": "¡Mucho gusto, Juan!",
+      "exampleTranslation": "Un saludo amigable para primeros encuentros"
+    },
+    {
+      "word": "¿Cómo estás?",
+      "translation": "Una pregunta común para preguntar sobre el bienestar de alguien",
+      "phonetic": "/ˈkomo esˈtas/",
+      "example": "¡Hola! ¿Cómo estás hoy?",
+      "exampleTranslation": "Preguntando sobre el estado actual de alguien"
+    },
+    {
+      "word": "Estoy bien",
+      "translation": "Una respuesta común indicando que estás bien",
+      "phonetic": "/esˈtoj ˈbjen/",
+      "example": "Estoy bien, gracias. ¿Y tú?",
+      "exampleTranslation": "Respuesta positiva a '¿Cómo estás?'"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Olá",
+      "translation": "Uma saudação usada ao conhecer alguém",
+      "phonetic": "/oˈla/",
+      "example": "Olá, como você está hoje?",
+      "exampleTranslation": "Uma saudação amigável para iniciar uma conversa"
+    },
+    {
+      "word": "Tchau",
+      "translation": "Uma expressão de despedida",
+      "phonetic": "/ˈtʃaw/",
+      "example": "Tchau, até amanhã!",
+      "exampleTranslation": "Uma forma educada de terminar uma conversa"
+    },
+    {
+      "word": "Por favor",
+      "translation": "Uma palavra educada usada ao fazer pedidos",
+      "phonetic": "/poɾ faˈvoɾ/",
+      "example": "Você poderia me ajudar, por favor?",
+      "exampleTranslation": "Mostra educação ao pedir algo"
+    },
+    {
+      "word": "Obrigado",
+      "translation": "Expressão de gratidão",
+      "phonetic": "/obɾiˈɡadu/",
+      "example": "Obrigado pela sua ajuda!",
+      "exampleTranslation": "Mostrando agradecimento pelas ações de alguém"
+    },
+    {
+      "word": "Meu nome é",
+      "translation": "Frase usada para se apresentar",
+      "phonetic": "/mew ˈnomi e/",
+      "example": "Oi, meu nome é Sara.",
+      "exampleTranslation": "Apresentando-se a alguém novo"
+    },
+    {
+      "word": "Prazer em conhecê-lo",
+      "translation": "Expressão educada ao conhecer alguém pela primeira vez",
+      "phonetic": "/pɾaˈzeɾ ẽj koɲeˈse-lu/",
+      "example": "Prazer em conhecê-lo, João!",
+      "exampleTranslation": "Uma saudação amigável para primeiros encontros"
+    },
+    {
+      "word": "Como vai?",
+      "translation": "Uma pergunta comum para perguntar sobre o bem-estar de alguém",
+      "phonetic": "/ˈkomu vaj/",
+      "example": "Olá! Como vai você hoje?",
+      "exampleTranslation": "Perguntando sobre o estado atual de alguém"
+    },
+    {
+      "word": "Estou bem",
+      "translation": "Uma resposta comum indicando que você está bem",
+      "phonetic": "/esˈto bẽj/",
+      "example": "Estou bem, obrigado. E você?",
+      "exampleTranslation": "Resposta positiva a 'Como vai?'"
+    }
+  ]
+}

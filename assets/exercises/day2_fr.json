@@ -1,0 +1,70 @@
+{
+  "exercises": [
+    {
+      "id": "day2_mc1",
+      "type": "multipleChoice",
+      "question": "Qu'est-ce qui vient après 'neuf'?",
+      "options": [
+        "huit",
+        "dix",
+        "onze",
+        "douze"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day2_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Un, deux, trois, ____, cinq'",
+      "correctAnswer": "quatre",
+      "caseSensitive": false
+    },
+    {
+      "id": "day2_mc2",
+      "type": "multipleChoice",
+      "question": "Comment écrit-on le nombre 15?",
+      "options": [
+        "cinqdix",
+        "cinquante",
+        "quinze",
+        "cinqante"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day2_fib2",
+      "type": "fillInBlank",
+      "question": "Quel nombre vient avant 'vingt'?",
+      "correctAnswer": "dix-neuf",
+      "acceptableAlternatives": ["dix neuf", "dixneuf"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day2_mc3",
+      "type": "multipleChoice",
+      "question": "Quelle est l'orthographe correcte de 30?",
+      "options": [
+        "trante",
+        "trente",
+        "ترente",
+        "trentè"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day2_trans1",
+      "type": "translation",
+      "question": "Écrivez ce nombre en lettres:",
+      "targetText": "7",
+      "correctTranslation": "sept",
+      "acceptableAlternatives": ["Sept"]
+    },
+    {
+      "id": "day2_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Dix, vingt, ____, quarante'",
+      "correctAnswer": "trente",
+      "caseSensitive": false
+    }
+  ]
+}

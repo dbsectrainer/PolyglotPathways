@@ -1,0 +1,74 @@
+{
+  "vocabulary": [
+    {
+      "word": "Lunes",
+      "translation": "El primer día de la semana laboral",
+      "phonetic": "/ˈlunes/",
+      "example": "Tengo una reunión el lunes por la mañana.",
+      "exampleTranslation": "El día después del domingo"
+    },
+    {
+      "word": "Martes",
+      "translation": "El segundo día de la semana laboral",
+      "phonetic": "/ˈmaɾtes/",
+      "example": "El martes es mi día favorito.",
+      "exampleTranslation": "El día entre lunes y miércoles"
+    },
+    {
+      "word": "Miércoles",
+      "translation": "El tercer día de la semana laboral, mitad de la semana",
+      "phonetic": "/ˈmjeɾkoles/",
+      "example": "Nos reunimos cada miércoles.",
+      "exampleTranslation": "A menudo llamado 'mitad de semana'"
+    },
+    {
+      "word": "Viernes",
+      "translation": "El último día de la semana laboral",
+      "phonetic": "/ˈbjeɾnes/",
+      "example": "¡Estoy emocionado por el viernes!",
+      "exampleTranslation": "El día antes del fin de semana"
+    },
+    {
+      "word": "Sábado",
+      "translation": "Primer día del fin de semana",
+      "phonetic": "/ˈsaβaðo/",
+      "example": "Vamos al parque el sábado.",
+      "exampleTranslation": "Un día para relajación y actividades"
+    },
+    {
+      "word": "Domingo",
+      "translation": "Segundo día del fin de semana, último día de la semana",
+      "phonetic": "/doˈmiŋɡo/",
+      "example": "El domingo es un día de descanso.",
+      "exampleTranslation": "A menudo un día para la familia y el descanso"
+    },
+    {
+      "word": "Enero",
+      "translation": "Primer mes del año",
+      "phonetic": "/eˈneɾo/",
+      "example": "Enero es muy frío aquí.",
+      "exampleTranslation": "El mes después de diciembre"
+    },
+    {
+      "word": "Febrero",
+      "translation": "Segundo mes del año, el mes más corto",
+      "phonetic": "/feˈβɾeɾo/",
+      "example": "El Día de San Valentín es en febrero.",
+      "exampleTranslation": "Tiene 28 o 29 días"
+    },
+    {
+      "word": "Marzo",
+      "translation": "Tercer mes del año, comienza la primavera",
+      "phonetic": "/ˈmaɾθo/",
+      "example": "La primavera comienza en marzo.",
+      "exampleTranslation": "El mes después de febrero"
+    },
+    {
+      "word": "Diciembre",
+      "translation": "Último mes del año",
+      "phonetic": "/diˈθjembɾe/",
+      "example": "Diciembre es un mes festivo.",
+      "exampleTranslation": "El mes 12 y final"
+    }
+  ]
+}

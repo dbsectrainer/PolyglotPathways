@@ -1,0 +1,69 @@
+{
+  "exercises": [
+    {
+      "id": "day2_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué viene después de 'nueve'?",
+      "options": [
+        "ocho",
+        "diez",
+        "once",
+        "doce"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day2_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Uno, dos, tres, ____, cinco'",
+      "correctAnswer": "cuatro",
+      "caseSensitive": false
+    },
+    {
+      "id": "day2_mc2",
+      "type": "multipleChoice",
+      "question": "¿Cómo se escribe el número 15?",
+      "options": [
+        "cincotén",
+        "cincuenta",
+        "quince",
+        "quinceinta"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day2_fib2",
+      "type": "fillInBlank",
+      "question": "¿Qué número viene antes de 'veinte'?",
+      "correctAnswer": "diecinueve",
+      "caseSensitive": false
+    },
+    {
+      "id": "day2_mc3",
+      "type": "multipleChoice",
+      "question": "¿Cuál es la ortografía correcta de 30?",
+      "options": [
+        "treinta y",
+        "treinta",
+        "trenta",
+        "tresinta"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day2_trans1",
+      "type": "translation",
+      "question": "Escribe este número en palabras:",
+      "targetText": "7",
+      "correctTranslation": "siete",
+      "acceptableAlternatives": ["Siete"]
+    },
+    {
+      "id": "day2_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Diez, veinte, ____, cuarenta'",
+      "correctAnswer": "treinta",
+      "caseSensitive": false
+    }
+  ]
+}

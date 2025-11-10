@@ -1,0 +1,60 @@
+{
+  "vocabulary": [
+    {
+      "word": "Null",
+      "translation": "Die Zahl 0",
+      "phonetic": "/nʊl/",
+      "example": "Ich habe null Äpfel.",
+      "exampleTranslation": "Gibt die Abwesenheit von Menge an"
+    },
+    {
+      "word": "Eins",
+      "translation": "Die Zahl 1",
+      "phonetic": "/aɪns/",
+      "example": "Ich brauche ein Ticket.",
+      "exampleTranslation": "Ein einzelner Gegenstand"
+    },
+    {
+      "word": "Fünf",
+      "translation": "Die Zahl 5",
+      "phonetic": "/fʏnf/",
+      "example": "Es gibt fünf Bücher auf dem Tisch.",
+      "exampleTranslation": "Bis zu fünf Gegenstände zählen"
+    },
+    {
+      "word": "Zehn",
+      "translation": "Die Zahl 10",
+      "phonetic": "/tseːn/",
+      "example": "Ich wache um zehn Uhr auf.",
+      "exampleTranslation": "Die Zahl nach neun"
+    },
+    {
+      "word": "Zwanzig",
+      "translation": "Die Zahl 20",
+      "phonetic": "/ˈtsvantsiç/",
+      "example": "Das Buch kostet zwanzig Dollar.",
+      "exampleTranslation": "Zwei mal zehn"
+    },
+    {
+      "word": "Hundert",
+      "translation": "Die Zahl 100",
+      "phonetic": "/ˈhʊndɐt/",
+      "example": "Hundert Menschen nahmen teil.",
+      "exampleTranslation": "Zehn mal zehn"
+    },
+    {
+      "word": "Erste",
+      "translation": "Position Nummer 1 in einer Reihenfolge",
+      "phonetic": "/ˈeːɐstə/",
+      "example": "Sie wurde Erste im Rennen.",
+      "exampleTranslation": "Ordnungszahl für eins"
+    },
+    {
+      "word": "Zweite",
+      "translation": "Position Nummer 2 in einer Reihenfolge",
+      "phonetic": "/ˈtsvaɪtə/",
+      "example": "Er kam auf den zweiten Platz.",
+      "exampleTranslation": "Ordnungszahl für zwei"
+    }
+  ]
+}

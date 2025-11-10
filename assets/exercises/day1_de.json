@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day1_mc1",
+      "type": "multipleChoice",
+      "question": "Welche Begrüßung ist in einem formellen Kontext am angemessensten?",
+      "options": [
+        "Hey!",
+        "Guten Morgen",
+        "Hallo!",
+        "Was geht?"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day1_mc2",
+      "type": "multipleChoice",
+      "question": "Wie antwortest du auf 'Wie geht es dir?'",
+      "options": [
+        "Mir geht es gut, danke. Und dir?",
+        "Nichts",
+        "Ja",
+        "Auf Wiedersehen"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day1_fib1",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Schön, dich kennenzulernen!'",
+      "correctAnswer": "Schön",
+      "acceptableAlternatives": ["Freut mich", "Nett"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day1_fib2",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: 'Mein ____ ist Johann.'",
+      "correctAnswer": "Name",
+      "caseSensitive": false
+    },
+    {
+      "id": "day1_trans1",
+      "type": "translation",
+      "question": "Übersetze ins Deutsche:",
+      "targetText": "Hello",
+      "correctTranslation": "Hallo",
+      "acceptableAlternatives": ["Guten Tag", "Guten Morgen"]
+    },
+    {
+      "id": "day1_mc3",
+      "type": "multipleChoice",
+      "question": "Was ist eine angemessene Art, sich zu verabschieden?",
+      "options": [
+        "Bis später",
+        "Geh weg",
+        "Hör auf zu reden",
+        "Geh jetzt"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day1_fib3",
+      "type": "fillInBlank",
+      "question": "Fülle die Lücke aus: '____, dich kennenzulernen!'",
+      "correctAnswer": "Schön",
+      "acceptableAlternatives": ["Freut mich", "Angenehm"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day1_mc4",
+      "type": "multipleChoice",
+      "question": "Was ist eine höfliche Art, sich vorzustellen?",
+      "options": [
+        "Ich bin der Beste",
+        "Ich heiße Sarah",
+        "Du solltest mich kennen",
+        "Es ist mir egal"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "exercises": [
+    {
+      "id": "day2_mc1",
+      "type": "multipleChoice",
+      "question": "O que vem depois de 'nove'?",
+      "options": [
+        "oito",
+        "dez",
+        "onze",
+        "doze"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day2_fib1",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Um, dois, três, ____, cinco'",
+      "correctAnswer": "quatro",
+      "caseSensitive": false
+    },
+    {
+      "id": "day2_mc2",
+      "type": "multipleChoice",
+      "question": "Como se escreve o número 15?",
+      "options": [
+        "cincodez",
+        "cinquenta",
+        "quinze",
+        "quinzenta"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day2_fib2",
+      "type": "fillInBlank",
+      "question": "Que número vem antes de 'vinte'?",
+      "correctAnswer": "dezenove",
+      "caseSensitive": false
+    },
+    {
+      "id": "day2_mc3",
+      "type": "multipleChoice",
+      "question": "Qual é a grafia correta de 30?",
+      "options": [
+        "trínta",
+        "trinta",
+        "trenta",
+        "trezinta"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day2_trans1",
+      "type": "translation",
+      "question": "Escreva este número por extenso:",
+      "targetText": "7",
+      "correctTranslation": "sete",
+      "acceptableAlternatives": ["Sete"]
+    },
+    {
+      "id": "day2_fib3",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Dez, vinte, ____, quarenta'",
+      "correctAnswer": "trinta",
+      "caseSensitive": false
+    }
+  ]
+}
