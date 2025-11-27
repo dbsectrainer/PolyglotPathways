@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Mãe", "translation": "Uma mãe", "phonetic": "/ˈmɑ̃ɪ/", "example": "Minha mãe me ama.", "exampleTranslation": "Uma progenitora"},
+    {"word": "Pai", "translation": "Um pai", "phonetic": "/pɑj/", "example": "Meu pai trabalha duro.", "exampleTranslation": "Um progenitor"},
+    {"word": "Irmã", "translation": "Uma irmã", "phonetic": "/ɪɾˈmɑ̃/", "example": "Minha irmã é gentil.", "exampleTranslation": "Uma irmã"},
+    {"word": "Irmão", "translation": "Um irmão", "phonetic": "/ɪɾˈmɑ̃w̃/", "example": "Meu irmão joga esportes.", "exampleTranslation": "Um irmão"},
+    {"word": "Avó", "translation": "A mãe do pai ou da mãe de um", "phonetic": "/ɑˈvɔ/", "example": "Visito minha avó.", "exampleTranslation": "Uma avó"},
+    {"word": "Avô", "translation": "O pai do pai ou da mãe de um", "phonetic": "/ɑˈvô/", "example": "Meu avô conta histórias.", "exampleTranslation": "Um avô"},
+    {"word": "Tia", "translation": "A irmã do pai ou da mãe de um", "phonetic": "/ˈtiɑ/", "example": "Minha tia é divertida.", "exampleTranslation": "A irmã de um pai"},
+    {"word": "Tio", "translation": "O irmão do pai ou da mãe de um", "phonetic": "/ˈtiu/", "example": "Meu tio é alto.", "exampleTranslation": "O irmão de um pai"},
+    {"word": "Primo", "translation": "O filho da tia ou do tio de um", "phonetic": "/ˈpɾimu/", "example": "Meu primo mora perto.", "exampleTranslation": "Um parente da mesma geração"}
+  ]
+}

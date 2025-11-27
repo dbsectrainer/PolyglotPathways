@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Vacances", "translation": "Un jour de célébration ou de festival", "phonetic": "/vɑkɑ̃s/", "example": "Noël est des vacances.", "exampleTranslation": "Un jour de fête"},
+    {"word": "Festival", "translation": "Une célébration avec de nombreuses activités", "phonetic": "/fɛstiˈval/", "example": "Le festival de musique est amusant.", "exampleTranslation": "Une célébration"},
+    {"word": "Anniversaire", "translation": "L'anniversaire de la naissance", "phonetic": "/ɑniˈvɛʁsɛʁ/", "example": "Mon anniversaire est en mai.", "exampleTranslation": "Célébration annuelle de la naissance"},
+    {"word": "Noël", "translation": "Un jour saint chrétien en décembre", "phonetic": "/nɔˈɛl/", "example": "Noël est en décembre.", "exampleTranslation": "Un jour de fête d'hiver"},
+    {"word": "Nouvel An", "translation": "Le début d'une nouvelle année", "phonetic": "/nuˈvɛl ɑ̃/", "example": "Nous célébrons le Nouvel An.", "exampleTranslation": "1er janvier"},
+    {"word": "Fête", "translation": "Un rassemblement pour célébrer", "phonetic": "/fɛt/", "example": "Nous avons eu une fête.", "exampleTranslation": "Un rassemblement de célébration"},
+    {"word": "Cadeau", "translation": "Un présent donné à quelqu'un", "phonetic": "/kɑˈdo/", "example": "J'ai reçu un cadeau.", "exampleTranslation": "Un présent"},
+    {"word": "Célébration", "translation": "Un acte de célébration", "phonetic": "/seˈleɪbɹeɪʃən/", "example": "Nous avons une célébration.", "exampleTranslation": "Un événement festif"},
+    {"word": "Décoration", "translation": "Quelque chose d'utilisé pour embellir", "phonetic": "/dekoɾɑˈsjõ/", "example": "Nous mettons des décorations sur l'arbre.", "exampleTranslation": "Articles ornementaux"}
+  ]
+}

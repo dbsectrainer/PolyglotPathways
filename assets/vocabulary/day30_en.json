@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Nature", "translation": "The natural world and environment", "phonetic": "/ˈneɪtʃər/", "example": "I love nature.", "exampleTranslation": "The natural environment"},
+    {"word": "Tree", "translation": "A plant with a trunk and branches", "phonetic": "/triː/", "example": "The tree is tall.", "exampleTranslation": "A woody plant"},
+    {"word": "Flower", "translation": "A colorful plant bloom", "phonetic": "/ˈflaʊər/", "example": "The flower is beautiful.", "exampleTranslation": "A bloom"},
+    {"word": "Mountain", "translation": "A large natural elevation of land", "phonetic": "/ˈmaʊntən/", "example": "We climbed the mountain.", "exampleTranslation": "A large hill"},
+    {"word": "River", "translation": "A large natural stream of water", "phonetic": "/ˈrɪvər/", "example": "The river flows to the sea.", "exampleTranslation": "A water stream"},
+    {"word": "Ocean", "translation": "A large body of salt water", "phonetic": "/ˈoʊʃən/", "example": "The ocean is vast.", "exampleTranslation": "The sea"},
+    {"word": "Sky", "translation": "The atmosphere above the earth", "phonetic": "/skaɪ/", "example": "The sky is blue.", "exampleTranslation": "The air above"},
+    {"word": "Sun", "translation": "The star at the center of our system", "phonetic": "/sʌn/", "example": "The sun is bright.", "exampleTranslation": "Our star"},
+    {"word": "Moon", "translation": "Earth's natural satellite", "phonetic": "/muːn/", "example": "The moon is visible at night.", "exampleTranslation": "A celestial body"}
+  ]
+}

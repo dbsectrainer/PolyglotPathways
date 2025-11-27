@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day30_mc1", "type": "multipleChoice", "question": "O que é natureza?", "options": ["Um edifício", "O mundo natural e o ambiente", "Uma pessoa", "Uma cidade"], "correctOptionIndex": 1},
+    {"id": "day30_mc2", "type": "multipleChoice", "question": "O que é uma árvore?", "options": ["Uma flor", "Um animal", "Uma planta com tronco e galhos", "Uma rocha"], "correctOptionIndex": 2},
+    {"id": "day30_fib1", "type": "fillInBlank", "question": "Complete o espaço: 'Amo a ____.'", "correctAnswer": "natureza", "acceptableAlternatives": ["Natureza"], "caseSensitive": false},
+    {"id": "day30_fib2", "type": "fillInBlank", "question": "Complete o espaço: 'A ____ é alta.'", "correctAnswer": "árvore", "acceptableAlternatives": ["Árvore"], "caseSensitive": false},
+    {"id": "day30_mc3", "type": "multipleChoice", "question": "O que é um grande corpo de água salgada?", "options": ["Lago", "Oceano", "Rio", "Córrego"], "correctOptionIndex": 1},
+    {"id": "day30_trans1", "type": "translation", "question": "Qual é a estrela no centro de nosso sistema?", "targetText": "A estrela no centro de nosso sistema", "correctTranslation": "Sol", "acceptableAlternatives": ["sol"]},
+    {"id": "day30_fib3", "type": "fillInBlank", "question": "Complete o espaço: 'O ____ é azul.'", "correctAnswer": "céu", "acceptableAlternatives": ["Céu"], "caseSensitive": false},
+    {"id": "day30_mc4", "type": "multipleChoice", "question": "Qual é o satélite natural da Terra?", "options": ["Estrela", "Planeta", "Lua", "Cometa"], "correctOptionIndex": 2}
+  ]
+}

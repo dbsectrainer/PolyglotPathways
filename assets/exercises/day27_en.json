@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day27_mc1", "type": "multipleChoice", "question": "What is work?", "options": ["Playing games", "An activity or job someone does", "Sleeping", "Eating"], "correctOptionIndex": 1},
+    {"id": "day27_mc2", "type": "multipleChoice", "question": "Who treats sick people?", "options": ["Teacher", "Doctor", "Chef", "Farmer"], "correctOptionIndex": 1},
+    {"id": "day27_fib1", "type": "fillInBlank", "question": "Fill in the blank: 'I ____ hard every day.'", "correctAnswer": "work", "acceptableAlternatives": ["Work"], "caseSensitive": false},
+    {"id": "day27_fib2", "type": "fillInBlank", "question": "Fill in the blank: 'My ____ is important.'", "correctAnswer": "job", "acceptableAlternatives": ["Job"], "caseSensitive": false},
+    {"id": "day27_mc3", "type": "multipleChoice", "question": "Who cares for patients?", "options": ["Doctor", "Nurse", "Engineer", "Chef"], "correctOptionIndex": 1},
+    {"id": "day27_trans1", "type": "translation", "question": "What is money paid for work?", "targetText": "Payment for work", "correctTranslation": "Salary", "acceptableAlternatives": ["salary"]},
+    {"id": "day27_fib3", "type": "fillInBlank", "question": "Fill in the blank: 'I work in an ____.'", "correctAnswer": "office", "acceptableAlternatives": ["Office"], "caseSensitive": false},
+    {"id": "day27_mc4", "type": "multipleChoice", "question": "Who is in charge at work?", "options": ["Coworker", "Boss", "Customer", "Visitor"], "correctOptionIndex": 1}
+  ]
+}

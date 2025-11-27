@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Mother", "translation": "A female parent", "phonetic": "/ˈmʌðər/", "example": "My mother loves me.", "exampleTranslation": "A female parent"},
+    {"word": "Father", "translation": "A male parent", "phonetic": "/ˈfɑːðər/", "example": "My father works hard.", "exampleTranslation": "A male parent"},
+    {"word": "Sister", "translation": "A female sibling", "phonetic": "/ˈsɪstər/", "example": "My sister is kind.", "exampleTranslation": "A female sibling"},
+    {"word": "Brother", "translation": "A male sibling", "phonetic": "/ˈbrʌðər/", "example": "My brother plays sports.", "exampleTranslation": "A male sibling"},
+    {"word": "Grandmother", "translation": "The mother of one's parent", "phonetic": "/ˈɡrænmʌðər/", "example": "I visit my grandmother.", "exampleTranslation": "A female ancestor"},
+    {"word": "Grandfather", "translation": "The father of one's parent", "phonetic": "/ˈɡrænfɑːðər/", "example": "My grandfather tells stories.", "exampleTranslation": "A male ancestor"},
+    {"word": "Aunt", "translation": "The sister of one's parent", "phonetic": "/ænt/", "example": "My aunt is funny.", "exampleTranslation": "The sister of a parent"},
+    {"word": "Uncle", "translation": "The brother of one's parent", "phonetic": "/ˈʌŋkəl/", "example": "My uncle is tall.", "exampleTranslation": "The brother of a parent"},
+    {"word": "Cousin", "translation": "The child of one's aunt or uncle", "phonetic": "/ˈkʌzən/", "example": "My cousin lives nearby.", "exampleTranslation": "A relative of the same generation"}
+  ]
+}

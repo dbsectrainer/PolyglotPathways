@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day22_mc1",
+      "type": "multipleChoice",
+      "question": "Pour quoi l'eau est-elle essentielle?",
+      "options": [
+        "Juste pour la cuisine",
+        "Pour la vie",
+        "Juste pour le nettoyage",
+        "Pour le divertissement"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day22_mc2",
+      "type": "multipleChoice",
+      "question": "Laquelle de ces options est une céréale?",
+      "options": [
+        "Pomme",
+        "Lait",
+        "Riz",
+        "Eau"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day22_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez: '____ est fait de blé.'",
+      "correctAnswer": "pain",
+      "acceptableAlternatives": ["Pain"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day22_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Je bois du ____ le matin.'",
+      "correctAnswer": "café",
+      "acceptableAlternatives": ["Café"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day22_mc3",
+      "type": "multipleChoice",
+      "question": "Qu'est-ce qu'un produit laitier?",
+      "options": [
+        "Thé",
+        "Lait",
+        "Café",
+        "Pain"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day22_trans1",
+      "type": "translation",
+      "question": "Qu'est-ce qu'une boisson faite de feuilles infusées?",
+      "targetText": "Une boisson chaude de feuilles",
+      "correctTranslation": "Thé",
+      "acceptableAlternatives": ["thé"]
+    },
+    {
+      "id": "day22_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez: 'Le ____ est bon pour vos os.'",
+      "correctAnswer": "lait",
+      "acceptableAlternatives": ["Lait"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day22_mc4",
+      "type": "multipleChoice",
+      "question": "Quel fruit est rouge, vert ou jaune?",
+      "options": [
+        "Orange",
+        "Banane",
+        "Pomme",
+        "Citron"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

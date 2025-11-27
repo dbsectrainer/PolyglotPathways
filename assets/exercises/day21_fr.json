@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day21_mc1",
+      "type": "multipleChoice",
+      "question": "Qu'est-ce qu'un loisir?",
+      "options": [
+        "Un travail que tu fais chaque jour",
+        "Une activité faite régulièrement pour le plaisir pendant le temps libre",
+        "Un sport qui nécessite une équipe",
+        "Un exercice physique seulement"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day21_mc2",
+      "type": "multipleChoice",
+      "question": "Lequel de ceux-ci est un sport d'équipe?",
+      "options": [
+        "Tennis",
+        "Natation",
+        "Football",
+        "Cyclisme"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day21_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'J'aime ____ chaque matin pour l'exercice.'",
+      "correctAnswer": "courir",
+      "acceptableAlternatives": ["Courir"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day21_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Le basketball se joue avec un ____ et des paniers hauts.'",
+      "correctAnswer": "ballon",
+      "acceptableAlternatives": ["Ballon"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day21_mc3",
+      "type": "multipleChoice",
+      "question": "Quel sport utilise une raquette?",
+      "options": [
+        "Football",
+        "Tennis",
+        "Natation",
+        "Basketball"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day21_trans1",
+      "type": "translation",
+      "question": "Comment s'appelle l'activité de faire du vélo?",
+      "targetText": "L'activité de faire du vélo",
+      "correctTranslation": "Cyclisme",
+      "acceptableAlternatives": ["cyclisme"]
+    },
+    {
+      "id": "day21_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'La ____ est un bon exercice pour tout le corps.'",
+      "correctAnswer": "natation",
+      "acceptableAlternatives": ["Natation"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day21_mc4",
+      "type": "multipleChoice",
+      "question": "Quelle activité implique de se déplacer rapidement à pied?",
+      "options": [
+        "Football",
+        "Tennis",
+        "Course",
+        "Jeux"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day21_mc1",
+      "type": "multipleChoice",
+      "question": "O que é um hobby?",
+      "options": [
+        "Um trabalho que você faz todos os dias",
+        "Uma atividade feita regularmente pelo prazer no tempo livre",
+        "Um esporte que requer uma equipe",
+        "Um exercício físico apenas"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day21_mc2",
+      "type": "multipleChoice",
+      "question": "Qual destes é um esporte de equipe?",
+      "options": [
+        "Tênis",
+        "Natação",
+        "Futebol",
+        "Ciclismo"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day21_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Eu gosto de ____ cada manhã para exercício.'",
+      "correctAnswer": "correr",
+      "acceptableAlternatives": ["Correr"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day21_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Basquete é jogado com uma ____ e cestas altas.'",
+      "correctAnswer": "bola",
+      "acceptableAlternatives": ["Bola"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day21_mc3",
+      "type": "multipleChoice",
+      "question": "Qual esporte usa uma raquete?",
+      "options": [
+        "Futebol",
+        "Tênis",
+        "Natação",
+        "Basquete"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day21_trans1",
+      "type": "translation",
+      "question": "Como é chamada a atividade de andar de bicicleta?",
+      "targetText": "A atividade de andar de bicicleta",
+      "correctTranslation": "Ciclismo",
+      "acceptableAlternatives": ["ciclismo"]
+    },
+    {
+      "id": "day21_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: '____ é bom exercício para todo o corpo.'",
+      "correctAnswer": "natação",
+      "acceptableAlternatives": ["Natação"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day21_mc4",
+      "type": "multipleChoice",
+      "question": "Qual atividade envolve se mover rapidamente a pé?",
+      "options": [
+        "Futebol",
+        "Tênis",
+        "Corrida",
+        "Jogos"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day25_mc1", "type": "multipleChoice", "question": "¿Quién es un padre?", "options": ["Madre", "Padre", "Hermano", "Tío"], "correctOptionIndex": 1},
+    {"id": "day25_mc2", "type": "multipleChoice", "question": "¿Qué es una hermana?", "options": ["Una madre", "Un hermano", "Una hermana", "Una prima"], "correctOptionIndex": 2},
+    {"id": "day25_fib1", "type": "fillInBlank", "question": "Completa el espacio: 'Mi ____ me ama.'", "correctAnswer": "madre", "acceptableAlternatives": ["Madre"], "caseSensitive": false},
+    {"id": "day25_fib2", "type": "fillInBlank", "question": "Completa el espacio: 'Mi ____ trabaja duro.'", "correctAnswer": "padre", "acceptableAlternatives": ["Padre"], "caseSensitive": false},
+    {"id": "day25_mc3", "type": "multipleChoice", "question": "¿Quién es tu abuela?", "options": ["Tu madre", "La madre de tu padre", "Tu tía", "Tu prima"], "correctOptionIndex": 1},
+    {"id": "day25_trans1", "type": "translation", "question": "¿Cuál es la hermana de la madre o el padre de uno?", "targetText": "La hermana del padre o madre de uno", "correctTranslation": "Tía", "acceptableAlternatives": ["tía"]},
+    {"id": "day25_fib3", "type": "fillInBlank", "question": "Completa el espacio: 'Mi ____ juega deportes.'", "correctAnswer": "hermano", "acceptableAlternatives": ["Hermano"], "caseSensitive": false},
+    {"id": "day25_mc4", "type": "multipleChoice", "question": "¿Quién es el hijo de tu tía o tu tío?", "options": ["Tu hermano", "Tu primo", "Tu padre", "Tu abuelo"], "correctOptionIndex": 1}
+  ]
+}

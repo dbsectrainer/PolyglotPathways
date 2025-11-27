@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "École", "translation": "Un endroit où les étudiants apprennent", "phonetic": "/ɛkɔl/", "example": "Je vais à l'école tous les jours.", "exampleTranslation": "Un lieu d'apprentissage"},
+    {"word": "Professeur", "translation": "Une personne qui enseigne aux étudiants", "phonetic": "/pʁɔfɛsœʁ/", "example": "Mon professeur est utile.", "exampleTranslation": "Un éducateur"},
+    {"word": "Étudiant", "translation": "Une personne qui étudie", "phonetic": "/etydjɑ̃/", "example": "Je suis étudiant.", "exampleTranslation": "Un apprenant"},
+    {"word": "Livre", "translation": "Un ensemble de pages imprimées reliées", "phonetic": "/livʁ/", "example": "Je lis un livre.", "exampleTranslation": "Une œuvre écrite"},
+    {"word": "Classe", "translation": "Une pièce où les cours sont enseignés", "phonetic": "/klas/", "example": "Nous étudions dans la classe.", "exampleTranslation": "Une salle d'enseignement"},
+    {"word": "Bureau", "translation": "Meuble pour s'asseoir et travailler", "phonetic": "/byʁo/", "example": "Je m'assieds à mon bureau.", "exampleTranslation": "Une table de travail"},
+    {"word": "Crayon", "translation": "Un outil pour écrire", "phonetic": "/kʁɛjɔ̃/", "example": "Écrivez avec un crayon.", "exampleTranslation": "Un outil d'écriture"},
+    {"word": "Test", "translation": "Un examen pour vérifier les connaissances", "phonetic": "/tɛst/", "example": "Nous avons un test demain.", "exampleTranslation": "Une évaluation"},
+    {"word": "Note", "translation": "Une marque montrant le niveau de réussite", "phonetic": "/nɔt/", "example": "J'ai reçu une bonne note.", "exampleTranslation": "Une note ou un niveau"}
+  ]
+}

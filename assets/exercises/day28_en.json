@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day28_mc1", "type": "multipleChoice", "question": "What is the top part of the body?", "options": ["Arm", "Head", "Leg", "Chest"], "correctOptionIndex": 1},
+    {"id": "day28_mc2", "type": "multipleChoice", "question": "What organ do we use to see?", "options": ["Ear", "Nose", "Eye", "Mouth"], "correctOptionIndex": 2},
+    {"id": "day28_fib1", "type": "fillInBlank", "question": "Fill in the blank: 'I have two ____.'", "correctAnswer": "eyes", "acceptableAlternatives": ["Eyes"], "caseSensitive": false},
+    {"id": "day28_fib2", "type": "fillInBlank", "question": "Fill in the blank: 'I hear with my ____.'", "correctAnswer": "ears", "acceptableAlternatives": ["Ears"], "caseSensitive": false},
+    {"id": "day28_mc3", "type": "multipleChoice", "question": "What do we use to smell?", "options": ["Eye", "Ear", "Nose", "Mouth"], "correctOptionIndex": 2},
+    {"id": "day28_trans1", "type": "translation", "question": "What organ pumps blood through the body?", "targetText": "An organ that pumps blood", "correctTranslation": "Heart", "acceptableAlternatives": ["heart"]},
+    {"id": "day28_fib3", "type": "fillInBlank", "question": "Fill in the blank: 'I walk on my ____.'", "correctAnswer": "feet", "acceptableAlternatives": ["Feet"], "caseSensitive": false},
+    {"id": "day28_mc4", "type": "multipleChoice", "question": "What is a state of being well?", "options": ["Sickness", "Weakness", "Health", "Tiredness"], "correctOptionIndex": 2}
+  ]
+}

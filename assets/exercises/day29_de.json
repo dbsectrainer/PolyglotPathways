@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day29_mc1", "type": "multipleChoice", "question": "Was ist ein Feiertag?", "options": ["Ein Arbeitstag", "Ein Tag der Feier oder des Festivals", "Ein trauriger Tag", "Ein gewöhnlicher Tag"], "correctOptionIndex": 1},
+    {"id": "day29_mc2", "type": "multipleChoice", "question": "Wann ist Weihnachten?", "options": ["Januar", "Juli", "Dezember", "Juni"], "correctOptionIndex": 2},
+    {"id": "day29_fib1", "type": "fillInBlank", "question": "Füllen Sie aus: 'Mein ____ ist im Mai.'", "correctAnswer": "geburtstag", "acceptableAlternatives": ["Geburtstag"], "caseSensitive": false},
+    {"id": "day29_fib2", "type": "fillInBlank", "question": "Füllen Sie aus: 'Wir hatten eine ____.'", "correctAnswer": "feier", "acceptableAlternatives": ["Feier"], "caseSensitive": false},
+    {"id": "day29_mc3", "type": "multipleChoice", "question": "Was ist ein Geschenk?", "options": ["Essen", "Geschenk", "Kleidung", "Haus"], "correctOptionIndex": 1},
+    {"id": "day29_trans1", "type": "translation", "question": "Wie heißt der 1. Januar?", "targetText": "Der Beginn eines neuen Jahres", "correctTranslation": "Neujahr", "acceptableAlternatives": ["neujahr"]},
+    {"id": "day29_fib3", "type": "fillInBlank", "question": "Füllen Sie aus: 'Ich erhielt ein ____.'", "correctAnswer": "geschenk", "acceptableAlternatives": ["Geschenk"], "caseSensitive": false},
+    {"id": "day29_mc4", "type": "multipleChoice", "question": "Was wird zum Schmücken verwendet?", "options": ["Spielzeug", "Dekoration", "Kleidung", "Buch"], "correctOptionIndex": 1}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day27_mc1", "type": "multipleChoice", "question": "Was ist Arbeit?", "options": ["Spiele spielen", "Eine Aktivität oder Arbeit, die jemand macht", "Schlafen", "Essen"], "correctOptionIndex": 1},
+    {"id": "day27_mc2", "type": "multipleChoice", "question": "Wer behandelt kranke Menschen?", "options": ["Lehrer", "Arzt", "Koch", "Bauer"], "correctOptionIndex": 1},
+    {"id": "day27_fib1", "type": "fillInBlank", "question": "Füllen Sie aus: 'Ich ____ hart jeden Tag.'", "correctAnswer": "arbeite", "acceptableAlternatives": ["Arbeite"], "caseSensitive": false},
+    {"id": "day27_fib2", "type": "fillInBlank", "question": "Füllen Sie aus: 'Mein ____ ist wichtig.'", "correctAnswer": "job", "acceptableAlternatives": ["Job"], "caseSensitive": false},
+    {"id": "day27_mc3", "type": "multipleChoice", "question": "Wer kümmert sich um Patienten?", "options": ["Arzt", "Krankenschwester", "Ingenieur", "Koch"], "correctOptionIndex": 1},
+    {"id": "day27_trans1", "type": "translation", "question": "Was ist Geld für Arbeit bezahlt?", "targetText": "Bezahlung für Arbeit", "correctTranslation": "Gehalt", "acceptableAlternatives": ["gehalt"]},
+    {"id": "day27_fib3", "type": "fillInBlank", "question": "Füllen Sie aus: 'Ich arbeite in einem ____.'", "correctAnswer": "büro", "acceptableAlternatives": ["Büro"], "caseSensitive": false},
+    {"id": "day27_mc4", "type": "multipleChoice", "question": "Wer ist bei der Arbeit in Führungsposition?", "options": ["Kollege", "Chef", "Kunde", "Besucher"], "correctOptionIndex": 1}
+  ]
+}

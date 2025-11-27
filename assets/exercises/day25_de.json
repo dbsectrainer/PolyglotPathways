@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day25_mc1", "type": "multipleChoice", "question": "Wer ist ein Vater?", "options": ["Mutter", "Vater", "Bruder", "Onkel"], "correctOptionIndex": 1},
+    {"id": "day25_mc2", "type": "multipleChoice", "question": "Was ist eine Schwester?", "options": ["Eine Mutter", "Ein Bruder", "Eine Schwester", "Eine Kusine"], "correctOptionIndex": 2},
+    {"id": "day25_fib1", "type": "fillInBlank", "question": "Füllen Sie aus: 'Meine ____ liebt mich.'", "correctAnswer": "mutter", "acceptableAlternatives": ["Mutter"], "caseSensitive": false},
+    {"id": "day25_fib2", "type": "fillInBlank", "question": "Füllen Sie aus: 'Mein ____ arbeitet hart.'", "correctAnswer": "vater", "acceptableAlternatives": ["Vater"], "caseSensitive": false},
+    {"id": "day25_mc3", "type": "multipleChoice", "question": "Wer ist deine Großmutter?", "options": ["Deine Mutter", "Die Mutter deines Vaters", "Deine Tante", "Deine Kusine"], "correctOptionIndex": 1},
+    {"id": "day25_trans1", "type": "translation", "question": "Wer ist die Schwester der Mutter oder des Vaters?", "targetText": "Die Schwester der Mutter oder des Vaters", "correctTranslation": "Tante", "acceptableAlternatives": ["tante"]},
+    {"id": "day25_fib3", "type": "fillInBlank", "question": "Füllen Sie aus: 'Mein ____ treibt Sport.'", "correctAnswer": "bruder", "acceptableAlternatives": ["Bruder"], "caseSensitive": false},
+    {"id": "day25_mc4", "type": "multipleChoice", "question": "Wer ist der Sohn deiner Tante oder deines Onkels?", "options": ["Dein Bruder", "Dein Cousin", "Dein Vater", "Dein Großvater"], "correctOptionIndex": 1}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Cabeça", "translation": "A parte superior do corpo", "phonetic": "/kɑˈbɛθɑ/", "example": "Minha cabeça é redonda.", "exampleTranslation": "A parte superior do corpo"},
+    {"word": "Olho", "translation": "Um órgão para ver", "phonetic": "/ˈɔʎu/", "example": "Tenho dois olhos.", "exampleTranslation": "Órgão da visão"},
+    {"word": "Orelha", "translation": "Um órgão para ouvir", "phonetic": "/oɾɛˈʎɑ/", "example": "Ouço com minhas orelhas.", "exampleTranslation": "Órgão da audição"},
+    {"word": "Nariz", "translation": "Uma parte do corpo para cheirar", "phonetic": "/nɑˈɾis/", "example": "Cheiro com meu nariz.", "exampleTranslation": "Órgão do olfato"},
+    {"word": "Boca", "translation": "Uma abertura para comer e falar", "phonetic": "/ˈbɔkɑ/", "example": "Falo com minha boca.", "exampleTranslation": "Abertura para comer e falar"},
+    {"word": "Mão", "translation": "Uma parte do corpo com dedos", "phonetic": "/ˈmɑ̃w̃/", "example": "Escrevo com minha mão.", "exampleTranslation": "Um membro com dedos"},
+    {"word": "Pé", "translation": "Uma parte do corpo para andar", "phonetic": "/ˈpɛ/", "example": "Caminho em meus pés.", "exampleTranslation": "Um membro inferior"},
+    {"word": "Coração", "translation": "Um órgão que bombeia sangue", "phonetic": "/koɾɑˈsɑ̃w̃/", "example": "Meu coração bate.", "exampleTranslation": "Órgão central"},
+    {"word": "Saúde", "translation": "Um estado de estar bem", "phonetic": "/sɑˈudɪ/", "example": "Boa saúde é importante.", "exampleTranslation": "Bem-estar ou aptidão"}
+  ]
+}

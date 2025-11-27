@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day30_mc1", "type": "multipleChoice", "question": "Was ist Natur?", "options": ["Ein Gebäude", "Die natürliche Welt und Umwelt", "Eine Person", "Eine Stadt"], "correctOptionIndex": 1},
+    {"id": "day30_mc2", "type": "multipleChoice", "question": "Was ist ein Baum?", "options": ["Eine Blume", "Ein Tier", "Eine Pflanze mit Stamm und Ästen", "Ein Stein"], "correctOptionIndex": 2},
+    {"id": "day30_fib1", "type": "fillInBlank", "question": "Füllen Sie aus: 'Ich liebe die ____.'", "correctAnswer": "natur", "acceptableAlternatives": ["Natur"], "caseSensitive": false},
+    {"id": "day30_fib2", "type": "fillInBlank", "question": "Füllen Sie aus: 'Der ____ ist groß.'", "correctAnswer": "baum", "acceptableAlternatives": ["Baum"], "caseSensitive": false},
+    {"id": "day30_mc3", "type": "multipleChoice", "question": "Was ist ein großes Salzwasserbecken?", "options": ["See", "Ozean", "Fluss", "Bach"], "correctOptionIndex": 1},
+    {"id": "day30_trans1", "type": "translation", "question": "Was ist der Stern im Zentrum unseres Systems?", "targetText": "Der Stern im Zentrum unseres Systems", "correctTranslation": "Sonne", "acceptableAlternatives": ["sonne"]},
+    {"id": "day30_fib3", "type": "fillInBlank", "question": "Füllen Sie aus: 'Der ____ ist blau.'", "correctAnswer": "himmel", "acceptableAlternatives": ["Himmel"], "caseSensitive": false},
+    {"id": "day30_mc4", "type": "multipleChoice", "question": "Was ist der natürliche Satellit der Erde?", "options": ["Stern", "Planet", "Mond", "Komet"], "correctOptionIndex": 2}
+  ]
+}

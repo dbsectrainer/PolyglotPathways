@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Arbeit", "translation": "Eine Aktivität oder Arbeit, die jemand macht", "phonetic": "/ˈɑɾbaɪ̯t/", "example": "Ich arbeite hart jeden Tag.", "exampleTranslation": "Ein Beruf oder Beschäftigung"},
+    {"word": "Job", "translation": "Beschäftigung oder eine Aufgabe zu tun", "phonetic": "/dʒɔp/", "example": "Mein Job ist wichtig.", "exampleTranslation": "Beschäftigung"},
+    {"word": "Arzt", "translation": "Eine Person, die kranke Menschen behandelt", "phonetic": "/ɑʁtst/", "example": "Der Arzt hilft Patienten.", "exampleTranslation": "Ein Mediziner"},
+    {"word": "Krankenschwester", "translation": "Eine Person, die Patienten versorgt", "phonetic": "/ˈkʁɑŋkənʃvɛstər/", "example": "Die Krankenschwester ist liebevoll.", "exampleTranslation": "Eine Pflegekraft"},
+    {"word": "Ingenieur", "translation": "Eine Person, die Strukturen entwirft und baut", "phonetic": "/ɪndʒɛˈnjœʁ/", "example": "Der Ingenieur baut Brücken.", "exampleTranslation": "Ein Konstrukteur und Erbauer"},
+    {"word": "Büro", "translation": "Ein Ort, an dem Menschen arbeiten", "phonetic": "/ˈbyːʁoː/", "example": "Ich arbeite in einem Büro.", "exampleTranslation": "Ein Arbeitsplatz"},
+    {"word": "Gehalt", "translation": "Geld bezahlt für Arbeit", "phonetic": "/ɡəˈhɑlt/", "example": "Sie verdient ein gutes Gehalt.", "exampleTranslation": "Bezahlung für Arbeit"},
+    {"word": "Chef", "translation": "Eine Person in Führungsposition bei der Arbeit", "phonetic": "/ʃɛf/", "example": "Mein Chef ist gerecht.", "exampleTranslation": "Ein Vorgesetzter"},
+    {"word": "Beruf", "translation": "Ein Beruf oder Karriere", "phonetic": "/bəˈʁuːf/", "example": "Das Lehren ist ein edles Geschäft.", "exampleTranslation": "Ein Beruf oder Karriere"}
+  ]
+}

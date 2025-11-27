@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Maison", "translation": "Un bâtiment où les gens vivent", "phonetic": "/mɛˈzɔ̃/", "example": "Je vis dans une maison.", "exampleTranslation": "Une résidence"},
+    {"word": "Porte", "translation": "Une entrée ou une sortie d'une pièce ou d'un bâtiment", "phonetic": "/pɔʁt/", "example": "Ouvrez la porte.", "exampleTranslation": "Une entrée"},
+    {"word": "Fenêtre", "translation": "Une ouverture avec du verre pour laisser entrer la lumière", "phonetic": "/fəˈnɛtʁ/", "example": "Regardez par la fenêtre.", "exampleTranslation": "Une ouverture pour la lumière"},
+    {"word": "Chambre", "translation": "Une pièce pour dormir", "phonetic": "/ʃɑ̃bʁ/", "example": "Je dors dans la chambre.", "exampleTranslation": "Une chambre à coucher"},
+    {"word": "Salon", "translation": "Une pièce pour se détendre et se divertir", "phonetic": "/sɑˈlɔ̃/", "example": "Nous regardons la télévision dans le salon.", "exampleTranslation": "Une zone de détente"},
+    {"word": "Salle de bain", "translation": "Une pièce avec des toilettes et un lavabo", "phonetic": "/sal də bɛ̃/", "example": "La salle de bain est à l'étage.", "exampleTranslation": "Une salle de lavage"},
+    {"word": "Escaliers", "translation": "Des marches pour monter et descendre entre les étages", "phonetic": "/ɛskaˈlje/", "example": "Montez les escaliers.", "exampleTranslation": "Des marches entre les niveaux"},
+    {"word": "Toit", "translation": "Le revêtement supérieur d'un bâtiment", "phonetic": "/twɑ/", "example": "Le toit protège la maison.", "exampleTranslation": "Le revêtement supérieur"},
+    {"word": "Mur", "translation": "Une surface verticale d'un bâtiment", "phonetic": "/myʁ/", "example": "Peignez le mur.", "exampleTranslation": "Une surface verticale"}
+  ]
+}

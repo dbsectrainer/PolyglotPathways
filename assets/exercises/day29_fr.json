@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day29_mc1", "type": "multipleChoice", "question": "Qu'est-ce que des vacances?", "options": ["Un jour de travail", "Un jour de célébration ou de festival", "Un jour triste", "Un jour ordinaire"], "correctOptionIndex": 1},
+    {"id": "day29_mc2", "type": "multipleChoice", "question": "Quand est Noël?", "options": ["Janvier", "Juillet", "Décembre", "Juin"], "correctOptionIndex": 2},
+    {"id": "day29_fib1", "type": "fillInBlank", "question": "Complétez: 'Mon ____ est en mai.'", "correctAnswer": "anniversaire", "acceptableAlternatives": ["Anniversaire"], "caseSensitive": false},
+    {"id": "day29_fib2", "type": "fillInBlank", "question": "Complétez: 'Nous avons eu une ____.'", "correctAnswer": "fête", "acceptableAlternatives": ["Fête"], "caseSensitive": false},
+    {"id": "day29_mc3", "type": "multipleChoice", "question": "Qu'est-ce qu'un présent?", "options": ["Nourriture", "Cadeau", "Vêtements", "Maison"], "correctOptionIndex": 1},
+    {"id": "day29_trans1", "type": "translation", "question": "Comment s'appelle le 1er janvier?", "targetText": "Le début d'une nouvelle année", "correctTranslation": "Nouvel An", "acceptableAlternatives": ["nouvel an"]},
+    {"id": "day29_fib3", "type": "fillInBlank", "question": "Complétez: 'J'ai reçu un ____.'", "correctAnswer": "cadeau", "acceptableAlternatives": ["Cadeau"], "caseSensitive": false},
+    {"id": "day29_mc4", "type": "multipleChoice", "question": "Qu'est-ce qui est utilisé pour embellir?", "options": ["Jouet", "Décoration", "Vêtements", "Livre"], "correctOptionIndex": 1}
+  ]
+}

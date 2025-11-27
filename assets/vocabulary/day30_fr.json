@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Nature", "translation": "Le monde naturel et l'environnement", "phonetic": "/naˈtyʁ/", "example": "J'aime la nature.", "exampleTranslation": "L'environnement naturel"},
+    {"word": "Arbre", "translation": "Une plante avec un tronc et des branches", "phonetic": "/ɑʁbʁ/", "example": "L'arbre est grand.", "exampleTranslation": "Une plante ligneuse"},
+    {"word": "Fleur", "translation": "Une fleur colorée", "phonetic": "/flœʁ/", "example": "La fleur est belle.", "exampleTranslation": "Une fleur"},
+    {"word": "Montagne", "translation": "Une grande élévation naturelle de terre", "phonetic": "/mɔ̃ˈtɑɲ/", "example": "Nous avons grimpé la montagne.", "exampleTranslation": "Une grande colline"},
+    {"word": "Fleuve", "translation": "Un grand cours d'eau naturel", "phonetic": "/flœv/", "example": "Le fleuve coule vers la mer.", "exampleTranslation": "Un cours d'eau"},
+    {"word": "Océan", "translation": "Un grand corps d'eau salée", "phonetic": "/oʃeˈɑ̃/", "example": "L'océan est vaste.", "exampleTranslation": "La mer"},
+    {"word": "Ciel", "translation": "L'atmosphère au-dessus de la terre", "phonetic": "/sjɛl/", "example": "Le ciel est bleu.", "exampleTranslation": "L'air ci-dessus"},
+    {"word": "Soleil", "translation": "L'étoile au centre de notre système", "phonetic": "/soˈlɛj/", "example": "Le soleil est brillant.", "exampleTranslation": "Notre étoile"},
+    {"word": "Lune", "translation": "Le satellite naturel de la Terre", "phonetic": "/lyn/", "example": "La lune est visible la nuit.", "exampleTranslation": "Un corps céleste"}
+  ]
+}

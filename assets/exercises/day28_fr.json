@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day28_mc1", "type": "multipleChoice", "question": "Quelle est la partie supérieure du corps?", "options": ["Bras", "Tête", "Jambe", "Poitrine"], "correctOptionIndex": 1},
+    {"id": "day28_mc2", "type": "multipleChoice", "question": "Quel organe utilisons-nous pour voir?", "options": ["Oreille", "Nez", "Œil", "Bouche"], "correctOptionIndex": 2},
+    {"id": "day28_fib1", "type": "fillInBlank", "question": "Complétez: 'J'ai deux ____.'", "correctAnswer": "yeux", "acceptableAlternatives": ["Yeux"], "caseSensitive": false},
+    {"id": "day28_fib2", "type": "fillInBlank", "question": "Complétez: 'J'entends avec mes ____.'", "correctAnswer": "oreilles", "acceptableAlternatives": ["Oreilles"], "caseSensitive": false},
+    {"id": "day28_mc3", "type": "multipleChoice", "question": "Qu'utilisons-nous pour sentir?", "options": ["Œil", "Oreille", "Nez", "Bouche"], "correctOptionIndex": 2},
+    {"id": "day28_trans1", "type": "translation", "question": "Quel organe pompe le sang dans le corps?", "targetText": "Un organe qui pompe le sang", "correctTranslation": "Cœur", "acceptableAlternatives": ["cœur"]},
+    {"id": "day28_fib3", "type": "fillInBlank", "question": "Complétez: 'Je marche sur mes ____.'", "correctAnswer": "pieds", "acceptableAlternatives": ["Pieds"], "caseSensitive": false},
+    {"id": "day28_mc4", "type": "multipleChoice", "question": "Qu'est-ce qu'un état de bien-être?", "options": ["Maladie", "Faiblesse", "Santé", "Fatigue"], "correctOptionIndex": 2}
+  ]
+}

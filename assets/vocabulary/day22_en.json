@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Food",
+      "translation": "Things we eat for nutrition and energy",
+      "phonetic": "/fuːd/",
+      "example": "We eat food three times a day.",
+      "exampleTranslation": "Nourishment we consume"
+    },
+    {
+      "word": "Drink",
+      "translation": "A liquid beverage we consume",
+      "phonetic": "/drɪŋk/",
+      "example": "I drink water every day.",
+      "exampleTranslation": "A liquid to consume"
+    },
+    {
+      "word": "Water",
+      "translation": "A clear liquid essential for life",
+      "phonetic": "/ˈwɔːtər/",
+      "example": "Water is essential for health.",
+      "exampleTranslation": "A clear, colorless liquid"
+    },
+    {
+      "word": "Bread",
+      "translation": "A staple food made from flour and baked",
+      "phonetic": "/brɛd/",
+      "example": "Bread is made from wheat.",
+      "exampleTranslation": "A baked grain product"
+    },
+    {
+      "word": "Milk",
+      "translation": "A white liquid from animals used in cooking",
+      "phonetic": "/mɪlk/",
+      "example": "Milk is good for your bones.",
+      "exampleTranslation": "A dairy product"
+    },
+    {
+      "word": "Coffee",
+      "translation": "A hot beverage made from roasted beans",
+      "phonetic": "/ˈkɑːfi/",
+      "example": "I drink coffee in the morning.",
+      "exampleTranslation": "A caffeinated beverage"
+    },
+    {
+      "word": "Tea",
+      "translation": "A hot beverage made from leaves",
+      "phonetic": "/tiː/",
+      "example": "She drinks green tea.",
+      "exampleTranslation": "A beverage from steeped leaves"
+    },
+    {
+      "word": "Rice",
+      "translation": "A grain staple food eaten in many cultures",
+      "phonetic": "/raɪs/",
+      "example": "Rice is a staple in Asia.",
+      "exampleTranslation": "A grain food"
+    },
+    {
+      "word": "Apple",
+      "translation": "A round fruit that is red, green, or yellow",
+      "phonetic": "/ˈæpəl/",
+      "example": "An apple a day keeps the doctor away.",
+      "exampleTranslation": "A common fruit"
+    }
+  ]
+}

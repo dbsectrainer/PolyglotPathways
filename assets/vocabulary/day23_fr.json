@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Cuisine", "translation": "Une pièce pour cuisiner et préparer la nourriture", "phonetic": "/kɥiˈzin/", "example": "Je cuisine dans la cuisine.", "exampleTranslation": "Une pièce pour la préparation des aliments"},
+    {"word": "Couteau", "translation": "Un outil tranchant pour couper la nourriture", "phonetic": "/kuˈto/", "example": "Utilisez un couteau pour couper le pain.", "exampleTranslation": "Un ustensile de coupe"},
+    {"word": "Fourchette", "translation": "Un ustensile avec des dents pour manger", "phonetic": "/fuʁˈʃɛt/", "example": "Je mange avec une fourchette.", "exampleTranslation": "Un ustensile à manger"},
+    {"word": "Cuillère", "translation": "Un ustensile avec un bol pour manger", "phonetic": "/kɥiˈjɛʁ/", "example": "Remuer la soupe avec une cuillère.", "exampleTranslation": "Un ustensile à manger"},
+    {"word": "Assiette", "translation": "Un plat plat pour servir la nourriture", "phonetic": "/ɑˈsjɛt/", "example": "Mettez la nourriture dans une assiette.", "exampleTranslation": "Un plat pour la nourriture"},
+    {"word": "Pot", "translation": "Un récipient de cuisson avec une poignée", "phonetic": "/po/", "example": "Faites bouillir de l'eau dans une casserole.", "exampleTranslation": "Un récipient de cuisson"},
+    {"word": "Poêle", "translation": "Un récipient de cuisson peu profond", "phonetic": "/pwɑl/", "example": "Faire frire les œufs dans une poêle.", "exampleTranslation": "Un récipient de cuisson"},
+    {"word": "Cuisiner", "translation": "Le processus de préparer la nourriture avec de la chaleur", "phonetic": "/kɥiziˈne/", "example": "J'aime cuisiner.", "exampleTranslation": "Préparation des aliments"},
+    {"word": "Cuire", "translation": "Cuire la nourriture dans un four", "phonetic": "/kɥiʁ/", "example": "Cuire le gâteau pendant 30 minutes.", "exampleTranslation": "Cuisson au four"}
+  ]
+}

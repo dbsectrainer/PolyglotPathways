@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Mère", "translation": "Une mère", "phonetic": "/mɛʁ/", "example": "Ma mère m'aime.", "exampleTranslation": "Une progénitrice"},
+    {"word": "Père", "translation": "Un père", "phonetic": "/pɛʁ/", "example": "Mon père travaille dur.", "exampleTranslation": "Un géniteur"},
+    {"word": "Sœur", "translation": "Une sœur", "phonetic": "/sœʁ/", "example": "Ma sœur est gentille.", "exampleTranslation": "Une sœur"},
+    {"word": "Frère", "translation": "Un frère", "phonetic": "/fʁɛʁ/", "example": "Mon frère joue au sport.", "exampleTranslation": "Un frère"},
+    {"word": "Grand-mère", "translation": "La mère du père ou la mère de la mère de quelqu'un", "phonetic": "/ɡʁɑ̃mɛʁ/", "example": "Je rends visite à ma grand-mère.", "exampleTranslation": "Une grand-mère"},
+    {"word": "Grand-père", "translation": "Le père du père ou le père de la mère de quelqu'un", "phonetic": "/ɡʁɑ̃pɛʁ/", "example": "Mon grand-père raconte des histoires.", "exampleTranslation": "Un grand-père"},
+    {"word": "Tante", "translation": "La sœur du père ou la mère de quelqu'un", "phonetic": "/tɑ̃t/", "example": "Ma tante est amusante.", "exampleTranslation": "La sœur d'un parent"},
+    {"word": "Oncle", "translation": "Le frère du père ou la mère de quelqu'un", "phonetic": "/ɔ̃kl/", "example": "Mon oncle est grand.", "exampleTranslation": "Le frère d'un parent"},
+    {"word": "Cousin", "translation": "Le fils de la tante ou l'oncle de quelqu'un", "phonetic": "/kuˈzɛ̃/", "example": "Mon cousin habite près.", "exampleTranslation": "Un parent de la même génération"}
+  ]
+}

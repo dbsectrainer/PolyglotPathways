@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Trabalho", "translation": "Uma atividade ou trabalho que alguém faz", "phonetic": "/tɾɑˈβɑʁu/", "example": "Trabalho duro todos os dias.", "exampleTranslation": "Um trabalho ou ocupação"},
+    {"word": "Emprego", "translation": "Emprego ou uma tarefa a fazer", "phonetic": "/ɛmˈpɾɛɡu/", "example": "Meu emprego é importante.", "exampleTranslation": "Emprego"},
+    {"word": "Médico", "translation": "Uma pessoa que trata pessoas doentes", "phonetic": "/ˈmɛdiku/", "example": "O médico ajuda os pacientes.", "exampleTranslation": "Um profissional médico"},
+    {"word": "Enfermeira", "translation": "Uma pessoa que cuida dos pacientes", "phonetic": "/ɛnfɛɾˈmɛɾɑ/", "example": "A enfermeira é atenciosa.", "exampleTranslation": "Uma profissional de saúde"},
+    {"word": "Engenheiro", "translation": "Uma pessoa que projeta e constrói estruturas", "phonetic": "/ɛ̃ʒɛˈɲeɪɾu/", "example": "O engenheiro constrói pontes.", "exampleTranslation": "Um projetista e construtor"},
+    {"word": "Escritório", "translation": "Um lugar onde as pessoas trabalham", "phonetic": "/ɛskriˈtoɾju/", "example": "Trabalho em um escritório.", "exampleTranslation": "Um local de trabalho"},
+    {"word": "Salário", "translation": "Dinheiro pago pelo trabalho", "phonetic": "/sɑˈlɑɾju/", "example": "Ela ganha um bom salário.", "exampleTranslation": "Pagamento pelo trabalho"},
+    {"word": "Chefe", "translation": "Uma pessoa encarregada no trabalho", "phonetic": "/ˈʃɛfɪ/", "example": "Meu chefe é justo.", "exampleTranslation": "Um supervisor"},
+    {"word": "Profissão", "translation": "Um trabalho ou carreira", "phonetic": "/pɾofiˈsɑ̃w̃/", "example": "O ensino é uma profissão nobre.", "exampleTranslation": "Uma ocupação ou carreira"}
+  ]
+}

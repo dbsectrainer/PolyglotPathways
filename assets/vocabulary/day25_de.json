@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Mutter", "translation": "Eine Mutter", "phonetic": "/ˈmʊtər/", "example": "Meine Mutter liebt mich.", "exampleTranslation": "Eine Mutter"},
+    {"word": "Vater", "translation": "Ein Vater", "phonetic": "/ˈfɑːtər/", "example": "Mein Vater arbeitet hart.", "exampleTranslation": "Ein Vater"},
+    {"word": "Schwester", "translation": "Eine Schwester", "phonetic": "/ˈʃvɛstər/", "example": "Meine Schwester ist nett.", "exampleTranslation": "Eine Schwester"},
+    {"word": "Bruder", "translation": "Ein Bruder", "phonetic": "/ˈbruːdər/", "example": "Mein Bruder treibt Sport.", "exampleTranslation": "Ein Bruder"},
+    {"word": "Großmutter", "translation": "Die Mutter der Mutter oder des Vaters von jemandem", "phonetic": "/ˈɡʁoːsmʊtər/", "example": "Ich besuche meine Großmutter.", "exampleTranslation": "Eine Großmutter"},
+    {"word": "Großvater", "translation": "Der Vater der Mutter oder des Vaters von jemandem", "phonetic": "/ˈɡʁoːsfɑːtər/", "example": "Mein Großvater erzählt Geschichten.", "exampleTranslation": "Ein Großvater"},
+    {"word": "Tante", "translation": "Die Schwester der Mutter oder des Vaters von jemandem", "phonetic": "/ˈtɑntə/", "example": "Meine Tante ist witzig.", "exampleTranslation": "Die Schwester eines Elternteils"},
+    {"word": "Onkel", "translation": "Der Bruder der Mutter oder des Vaters von jemandem", "phonetic": "/ˈɔŋkəl/", "example": "Mein Onkel ist groß.", "exampleTranslation": "Der Bruder eines Elternteils"},
+    {"word": "Cousin", "translation": "Der Sohn der Tante oder des Onkels von jemandem", "phonetic": "/kuˈziːn/", "example": "Mein Cousin wohnt in der Nähe.", "exampleTranslation": "Ein Verwandter derselben Generation"}
+  ]
+}

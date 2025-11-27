@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Essen",
+      "translation": "Dinge, die wir essen für Ernährung und Energie",
+      "phonetic": "/ˈɛsən/",
+      "example": "Wir essen Essen dreimal am Tag.",
+      "exampleTranslation": "Nahrung, die wir konsumieren"
+    },
+    {
+      "word": "Getränk",
+      "translation": "Ein flüssiges Getränk, das wir konsumieren",
+      "phonetic": "/ɡəˈtʁɛŋk/",
+      "example": "Ich trinke jeden Tag Wasser.",
+      "exampleTranslation": "Eine Flüssigkeit zum Trinken"
+    },
+    {
+      "word": "Wasser",
+      "translation": "Eine transparente Flüssigkeit, die für das Leben notwendig ist",
+      "phonetic": "/ˈvasər/",
+      "example": "Wasser ist für die Gesundheit notwendig.",
+      "exampleTranslation": "Eine farblose, transparente Flüssigkeit"
+    },
+    {
+      "word": "Brot",
+      "translation": "Ein Grundnahrungsmittel aus Mehl und gebacken",
+      "phonetic": "/bʁoːt/",
+      "example": "Brot ist aus Weizen gemacht.",
+      "exampleTranslation": "Ein gebackenes Getreideprodukt"
+    },
+    {
+      "word": "Milch",
+      "translation": "Eine weiße Flüssigkeit von Tieren, die beim Kochen verwendet wird",
+      "phonetic": "/mɪlx/",
+      "example": "Milch ist gut für deine Knochen.",
+      "exampleTranslation": "Ein Molkereiprodukt"
+    },
+    {
+      "word": "Kaffee",
+      "translation": "Ein heißes Getränk aus gerösteten Bohnen",
+      "phonetic": "/kaˈfeː/",
+      "example": "Ich trinke morgens Kaffee.",
+      "exampleTranslation": "Ein koffeinhaltiges Getränk"
+    },
+    {
+      "word": "Tee",
+      "translation": "Ein heißes Getränk aus Blättern",
+      "phonetic": "/teː/",
+      "example": "Sie trinkt grünen Tee.",
+      "exampleTranslation": "Ein Getränk aus aufgebrühten Blättern"
+    },
+    {
+      "word": "Reis",
+      "translation": "Ein Grundgetreide in vielen Kulturen gegessen",
+      "phonetic": "/ʁaɪ̯s/",
+      "example": "Reis ist ein Grundnahrungsmittel in Asien.",
+      "exampleTranslation": "Ein Getreidenahrungsmittel"
+    },
+    {
+      "word": "Apfel",
+      "translation": "Eine runde Frucht, die rot, grün oder gelb ist",
+      "phonetic": "/ˈapfəl/",
+      "example": "Ein Apfel pro Tag hält den Arzt fern.",
+      "exampleTranslation": "Eine häufige Frucht"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day24_mc1", "type": "multipleChoice", "question": "O que é uma casa?", "options": ["Um edifício para armazenamento", "Um edifício onde as pessoas vivem", "Um edifício para animais", "Um edifício para carros"], "correctOptionIndex": 1},
+    {"id": "day24_mc2", "type": "multipleChoice", "question": "Qual quarto é para dormir?", "options": ["Cozinha", "Quarto", "Sala de estar", "Banheiro"], "correctOptionIndex": 1},
+    {"id": "day24_fib1", "type": "fillInBlank", "question": "Complete o espaço: '____ a porta.'", "correctAnswer": "abra", "acceptableAlternatives": ["Abra"], "caseSensitive": false},
+    {"id": "day24_fib2", "type": "fillInBlank", "question": "Complete o espaço: 'Olhe pela ____.'", "correctAnswer": "janela", "acceptableAlternatives": ["Janela"], "caseSensitive": false},
+    {"id": "day24_mc3", "type": "multipleChoice", "question": "O que deixa luz entrar em uma sala?", "options": ["Porta", "Janela", "Parede", "Teto"], "correctOptionIndex": 1},
+    {"id": "day24_trans1", "type": "translation", "question": "Qual é a cobertura superior de um edifício?", "targetText": "A cobertura superior de um edifício", "correctTranslation": "Teto", "acceptableAlternatives": ["teto"]},
+    {"id": "day24_fib3", "type": "fillInBlank", "question": "Complete o espaço: 'Suba as ____.'", "correctAnswer": "escadas", "acceptableAlternatives": ["Escadas"], "caseSensitive": false},
+    {"id": "day24_mc4", "type": "multipleChoice", "question": "O que é uma superfície vertical de um edifício?", "options": ["Piso", "Parede", "Teto", "Porta"], "correctOptionIndex": 1}
+  ]
+}

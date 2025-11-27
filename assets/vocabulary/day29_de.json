@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Feiertag", "translation": "Ein Tag der Feier oder des Festivals", "phonetic": "/ˈfaɪ̯ɚˌtɑːɡ/", "example": "Weihnachten ist ein Feiertag.", "exampleTranslation": "Ein Feiertag"},
+    {"word": "Festival", "translation": "Eine Feier mit vielen Aktivitäten", "phonetic": "/ˈfɛstɪvəl/", "example": "Das Musikfestival ist lustig.", "exampleTranslation": "Eine Feier"},
+    {"word": "Geburtstag", "translation": "Der Jahrestag der Geburt", "phonetic": "/ɡəˈbuːɹtsˌtɑːɡ/", "example": "Mein Geburtstag ist im Mai.", "exampleTranslation": "Jährliche Geburtstagsfeier"},
+    {"word": "Weihnachten", "translation": "Ein christlicher Feiertag im Dezember", "phonetic": "/ˈwaɪ̯nɑxtən/", "example": "Weihnachten ist im Dezember.", "exampleTranslation": "Ein Winterfeiertag"},
+    {"word": "Neujahr", "translation": "Der Beginn eines neuen Jahres", "phonetic": "/ˈnɔɪ̯jaːɹ/", "example": "Wir feiern Neujahr.", "exampleTranslation": "1. Januar"},
+    {"word": "Feier", "translation": "Ein Treffen zur Feier", "phonetic": "/ˈfaɪ̯ɚ/", "example": "Wir hatten eine Feier.", "exampleTranslation": "Ein Feierlichkeitstreffen"},
+    {"word": "Geschenk", "translation": "Ein Geschenk für jemanden", "phonetic": "/ɡəˈʃɛŋk/", "example": "Ich erhielt ein Geschenk.", "exampleTranslation": "Ein Geschenk"},
+    {"word": "Feier", "translation": "Ein Festakt", "phonetic": "/ˈfaɪ̯ɚ/", "example": "Wir haben eine Feier.", "exampleTranslation": "Ein Fest"},
+    {"word": "Dekoration", "translation": "Etwas zum Schmücken", "phonetic": "/ˌdɛkɔˈɹeɪʃən/", "example": "Wir legen Dekoration auf den Baum.", "exampleTranslation": "Schmuckstücke"}
+  ]
+}

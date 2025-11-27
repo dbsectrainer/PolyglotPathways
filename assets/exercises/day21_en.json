@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day21_mc1",
+      "type": "multipleChoice",
+      "question": "What is a hobby?",
+      "options": [
+        "A job you do every day",
+        "An activity done regularly for pleasure in free time",
+        "A sport that requires a team",
+        "A physical exercise only"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day21_mc2",
+      "type": "multipleChoice",
+      "question": "Which of these is a team sport?",
+      "options": [
+        "Tennis",
+        "Swimming",
+        "Football",
+        "Cycling"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day21_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I enjoy ____ every morning for exercise.'",
+      "correctAnswer": "running",
+      "acceptableAlternatives": ["Running"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day21_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Basketball is played with a ____ and high hoops.'",
+      "correctAnswer": "ball",
+      "acceptableAlternatives": ["Ball"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day21_mc3",
+      "type": "multipleChoice",
+      "question": "What sport uses a racket?",
+      "options": [
+        "Football",
+        "Tennis",
+        "Swimming",
+        "Basketball"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day21_trans1",
+      "type": "translation",
+      "question": "What is the activity of riding a bicycle called?",
+      "targetText": "The activity of riding a bicycle",
+      "correctTranslation": "Cycling",
+      "acceptableAlternatives": ["cycling"]
+    },
+    {
+      "id": "day21_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: '____ is good exercise for the whole body.'",
+      "correctAnswer": "swimming",
+      "acceptableAlternatives": ["Swimming"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day21_mc4",
+      "type": "multipleChoice",
+      "question": "Which activity involves moving quickly on foot?",
+      "options": [
+        "Football",
+        "Tennis",
+        "Running",
+        "Gaming"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

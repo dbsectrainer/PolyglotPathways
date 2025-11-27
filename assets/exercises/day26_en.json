@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day26_mc1", "type": "multipleChoice", "question": "What is a school?", "options": ["A place to play", "A place where students learn", "A place to sleep", "A place to eat"], "correctOptionIndex": 1},
+    {"id": "day26_mc2", "type": "multipleChoice", "question": "Who teaches students?", "options": ["A student", "A teacher", "A parent", "A friend"], "correctOptionIndex": 1},
+    {"id": "day26_fib1", "type": "fillInBlank", "question": "Fill in the blank: 'I go to ____ every day.'", "correctAnswer": "school", "acceptableAlternatives": ["School"], "caseSensitive": false},
+    {"id": "day26_fib2", "type": "fillInBlank", "question": "Fill in the blank: 'My ____ is helpful.'", "correctAnswer": "teacher", "acceptableAlternatives": ["Teacher"], "caseSensitive": false},
+    {"id": "day26_mc3", "type": "multipleChoice", "question": "What is a set of printed pages bound together?", "options": ["Notebook", "Book", "Magazine", "Paper"], "correctOptionIndex": 1},
+    {"id": "day26_trans1", "type": "translation", "question": "What is a mark showing level of achievement?", "targetText": "A mark or score for achievement", "correctTranslation": "Grade", "acceptableAlternatives": ["grade"]},
+    {"id": "day26_fib3", "type": "fillInBlank", "question": "Fill in the blank: 'Write with a ____.'", "correctAnswer": "pencil", "acceptableAlternatives": ["Pencil"], "caseSensitive": false},
+    {"id": "day26_mc4", "type": "multipleChoice", "question": "What is an examination to check knowledge?", "options": ["Homework", "Test", "Assignment", "Project"], "correctOptionIndex": 1}
+  ]
+}

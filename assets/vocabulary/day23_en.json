@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Kitchen", "translation": "A room for cooking and preparing food", "phonetic": "/ˈkɪtʃən/", "example": "I cook in the kitchen.", "exampleTranslation": "A room for food preparation"},
+    {"word": "Knife", "translation": "A sharp tool for cutting food", "phonetic": "/naɪf/", "example": "Use a knife to cut the bread.", "exampleTranslation": "A cutting utensil"},
+    {"word": "Fork", "translation": "A utensil with prongs for eating", "phonetic": "/fɔːrk/", "example": "I eat with a fork.", "exampleTranslation": "An eating utensil"},
+    {"word": "Spoon", "translation": "A utensil with a bowl for eating", "phonetic": "/spuːn/", "example": "Stir the soup with a spoon.", "exampleTranslation": "An eating utensil"},
+    {"word": "Plate", "translation": "A flat dish for serving food", "phonetic": "/pleɪt/", "example": "Put the food on a plate.", "exampleTranslation": "A dish for food"},
+    {"word": "Pot", "translation": "A cooking container with a handle", "phonetic": "/pɑːt/", "example": "Boil water in a pot.", "exampleTranslation": "A cooking container"},
+    {"word": "Pan", "translation": "A shallow cooking vessel", "phonetic": "/pæn/", "example": "Fry the eggs in a pan.", "exampleTranslation": "A cooking vessel"},
+    {"word": "Cooking", "translation": "The process of preparing food with heat", "phonetic": "/ˈkʊkɪŋ/", "example": "I enjoy cooking.", "exampleTranslation": "Food preparation"},
+    {"word": "Bake", "translation": "To cook food in an oven", "phonetic": "/beɪk/", "example": "Bake the cake for 30 minutes.", "exampleTranslation": "Oven cooking"}
+  ]
+}

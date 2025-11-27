@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day28_mc1", "type": "multipleChoice", "question": "Was ist der obere Teil des Körpers?", "options": ["Arm", "Kopf", "Bein", "Brust"], "correctOptionIndex": 1},
+    {"id": "day28_mc2", "type": "multipleChoice", "question": "Welches Organ nutzen wir zum Sehen?", "options": ["Ohr", "Nase", "Auge", "Mund"], "correctOptionIndex": 2},
+    {"id": "day28_fib1", "type": "fillInBlank", "question": "Füllen Sie aus: 'Ich habe zwei ____.'", "correctAnswer": "augen", "acceptableAlternatives": ["Augen"], "caseSensitive": false},
+    {"id": "day28_fib2", "type": "fillInBlank", "question": "Füllen Sie aus: 'Ich höre mit meinen ____.'", "correctAnswer": "ohren", "acceptableAlternatives": ["Ohren"], "caseSensitive": false},
+    {"id": "day28_mc3", "type": "multipleChoice", "question": "Was nutzen wir zum Riechen?", "options": ["Auge", "Ohr", "Nase", "Mund"], "correctOptionIndex": 2},
+    {"id": "day28_trans1", "type": "translation", "question": "Welches Organ pumpt Blut durch den Körper?", "targetText": "Ein Organ, das Blut pumpt", "correctTranslation": "Herz", "acceptableAlternatives": ["herz"]},
+    {"id": "day28_fib3", "type": "fillInBlank", "question": "Füllen Sie aus: 'Ich gehe auf meinen ____.'", "correctAnswer": "füßen", "acceptableAlternatives": ["Füßen"], "caseSensitive": false},
+    {"id": "day28_mc4", "type": "multipleChoice", "question": "Was ist ein Zustand der Gesundheit?", "options": ["Krankheit", "Schwäche", "Gesundheit", "Müdigkeit"], "correctOptionIndex": 2}
+  ]
+}

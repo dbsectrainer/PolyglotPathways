@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Comida",
+      "translation": "Coisas que comemos para nutrição e energia",
+      "phonetic": "/koˈmidɑ/",
+      "example": "Comemos comida três vezes ao dia.",
+      "exampleTranslation": "Nutrição que consumimos"
+    },
+    {
+      "word": "Bebida",
+      "translation": "Uma bebida líquida que consumimos",
+      "phonetic": "/beˈbidɑ/",
+      "example": "Bebo água todos os dias.",
+      "exampleTranslation": "Um líquido para consumir"
+    },
+    {
+      "word": "Água",
+      "translation": "Um líquido transparente essencial para a vida",
+      "phonetic": "/ˈɑɡwɑ/",
+      "example": "Água é essencial para a saúde.",
+      "exampleTranslation": "Um líquido incolor e transparente"
+    },
+    {
+      "word": "Pão",
+      "translation": "Um alimento básico feito de farinha e assado",
+      "phonetic": "/pɑ̃w̃/",
+      "example": "Pão é feito de trigo.",
+      "exampleTranslation": "Um produto de grão assado"
+    },
+    {
+      "word": "Leite",
+      "translation": "Um líquido branco de animais usado em culinária",
+      "phonetic": "/ˈlɛjtɪ/",
+      "example": "Leite é bom para seus ossos.",
+      "exampleTranslation": "Um produto lácteo"
+    },
+    {
+      "word": "Café",
+      "translation": "Uma bebida quente feita de grãos torrados",
+      "phonetic": "/kɑˈfɛ/",
+      "example": "Bebo café pela manhã.",
+      "exampleTranslation": "Uma bebida com cafeína"
+    },
+    {
+      "word": "Chá",
+      "translation": "Uma bebida quente feita de folhas",
+      "phonetic": "/ʃɑ/",
+      "example": "Ela bebe chá verde.",
+      "exampleTranslation": "Uma bebida de folhas infusionadas"
+    },
+    {
+      "word": "Arroz",
+      "translation": "Um grão básico comido em muitas culturas",
+      "phonetic": "/ɑˈʁɔz/",
+      "example": "Arroz é um alimento básico na Ásia.",
+      "exampleTranslation": "Um alimento de grão"
+    },
+    {
+      "word": "Maçã",
+      "translation": "Uma fruta redonda que é vermelha, verde ou amarela",
+      "phonetic": "/mɑˈsɑ̃/",
+      "example": "Uma maçã por dia mantém o médico longe.",
+      "exampleTranslation": "Uma fruta comum"
+    }
+  ]
+}

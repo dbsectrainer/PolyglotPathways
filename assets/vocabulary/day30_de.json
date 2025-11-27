@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Natur", "translation": "Die natürliche Welt und Umwelt", "phonetic": "/naˈtuːɹ/", "example": "Ich liebe die Natur.", "exampleTranslation": "Die natürliche Umwelt"},
+    {"word": "Baum", "translation": "Eine Pflanze mit Stamm und Ästen", "phonetic": "/baʊ̯m/", "example": "Der Baum ist groß.", "exampleTranslation": "Eine Holzpflanze"},
+    {"word": "Blume", "translation": "Eine farbige Blume", "phonetic": "/ˈbluːmə/", "example": "Die Blume ist schön.", "exampleTranslation": "Eine Blume"},
+    {"word": "Berg", "translation": "Eine große natürliche Erhebung von Land", "phonetic": "/bɛʁk/", "example": "Wir sind den Berg hinaufgestiegen.", "exampleTranslation": "Ein großer Hügel"},
+    {"word": "Fluss", "translation": "Ein großer natürlicher Wasserlauf", "phonetic": "/flʊs/", "example": "Der Fluss fließt zum Meer.", "exampleTranslation": "Ein Wasserlauf"},
+    {"word": "Ozean", "translation": "Ein großes Salzwasserbecken", "phonetic": "/oˈtseːan/", "example": "Der Ozean ist riesig.", "exampleTranslation": "Das Meer"},
+    {"word": "Himmel", "translation": "Die Atmosphäre über der Erde", "phonetic": "/ˈhɪməl/", "example": "Der Himmel ist blau.", "exampleTranslation": "Die Luft oben"},
+    {"word": "Sonne", "translation": "Der Stern im Zentrum unseres Systems", "phonetic": "/ˈzɔnə/", "example": "Die Sonne ist hell.", "exampleTranslation": "Unser Stern"},
+    {"word": "Mond", "translation": "Der natürliche Satellit der Erde", "phonetic": "/moːnt/", "example": "Der Mond ist nachts sichtbar.", "exampleTranslation": "Ein Himmelskörper"}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Schule", "translation": "Ein Ort, an dem Schüler lernen", "phonetic": "/ˈʃuːlə/", "example": "Ich gehe jeden Tag zur Schule.", "exampleTranslation": "Ein Lernort"},
+    {"word": "Lehrer", "translation": "Eine Person, die Schüler unterrichtet", "phonetic": "/ˈleːrər/", "example": "Mein Lehrer ist hilfreich.", "exampleTranslation": "Ein Pädagoge"},
+    {"word": "Schüler", "translation": "Eine Person, die lernt", "phonetic": "/ˈʃyːlər/", "example": "Ich bin Schüler.", "exampleTranslation": "Ein Lernender"},
+    {"word": "Buch", "translation": "Ein Satz gedruckter Seiten, die zusammengebunden sind", "phonetic": "/buːx/", "example": "Ich lese ein Buch.", "exampleTranslation": "Ein geschriebenes Werk"},
+    {"word": "Klassenzimmer", "translation": "Ein Raum, in dem Unterricht stattfindet", "phonetic": "/ˈklɑːsəntsɪmər/", "example": "Wir lernen im Klassenzimmer.", "exampleTranslation": "Ein Unterrichtsraum"},
+    {"word": "Schreibtisch", "translation": "Möbel zum Sitzen und Arbeiten", "phonetic": "/ˈʃʁaɪ̯ptɪʃ/", "example": "Ich sitze an meinem Schreibtisch.", "exampleTranslation": "Ein Arbeitstisch"},
+    {"word": "Bleistift", "translation": "Ein Werkzeug zum Schreiben", "phonetic": "/ˈblaɪ̯ʃtɪft/", "example": "Schreiben Sie mit einem Bleistift.", "exampleTranslation": "Ein Schreibwerkzeug"},
+    {"word": "Test", "translation": "Eine Prüfung zur Überprüfung des Wissens", "phonetic": "/tɛst/", "example": "Wir haben morgen einen Test.", "exampleTranslation": "Eine Bewertung"},
+    {"word": "Note", "translation": "Eine Marke, die das Leistungsniveau zeigt", "phonetic": "/ˈnoːtə/", "example": "Ich habe eine gute Note bekommen.", "exampleTranslation": "Eine Bewertung oder ein Niveau"}
+  ]
+}

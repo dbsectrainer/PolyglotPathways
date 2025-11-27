@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "House", "translation": "A building where people live", "phonetic": "/haʊs/", "example": "I live in a house.", "exampleTranslation": "A residence"},
+    {"word": "Door", "translation": "An entrance or exit to a room or building", "phonetic": "/dɔːr/", "example": "Open the door.", "exampleTranslation": "An entrance"},
+    {"word": "Window", "translation": "An opening with glass to let in light", "phonetic": "/ˈwɪndoʊ/", "example": "Look through the window.", "exampleTranslation": "An opening for light"},
+    {"word": "Bedroom", "translation": "A room for sleeping", "phonetic": "/ˈbɛdruːm/", "example": "I sleep in the bedroom.", "exampleTranslation": "A sleeping room"},
+    {"word": "Living Room", "translation": "A room for relaxing and entertainment", "phonetic": "/ˈlɪvɪŋ ruːm/", "example": "We watch TV in the living room.", "exampleTranslation": "A sitting area"},
+    {"word": "Bathroom", "translation": "A room with a toilet and sink", "phonetic": "/ˈbæθruːm/", "example": "The bathroom is upstairs.", "exampleTranslation": "A room for washing"},
+    {"word": "Stairs", "translation": "Steps to go up and down between floors", "phonetic": "/stɛrz/", "example": "Climb the stairs.", "exampleTranslation": "Steps between levels"},
+    {"word": "Roof", "translation": "The top covering of a building", "phonetic": "/ruːf/", "example": "The roof protects the house.", "exampleTranslation": "The top cover"},
+    {"word": "Wall", "translation": "A vertical surface of a building", "phonetic": "/wɔːl/", "example": "Paint the wall.", "exampleTranslation": "A vertical surface"}
+  ]
+}

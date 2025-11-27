@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day24_mc1", "type": "multipleChoice", "question": "What is a house?", "options": ["A building for storage", "A building where people live", "A building for animals", "A building for cars"], "correctOptionIndex": 1},
+    {"id": "day24_mc2", "type": "multipleChoice", "question": "Which room is for sleeping?", "options": ["Kitchen", "Bedroom", "Living room", "Bathroom"], "correctOptionIndex": 1},
+    {"id": "day24_fib1", "type": "fillInBlank", "question": "Fill in the blank: '____ the door.'", "correctAnswer": "open", "acceptableAlternatives": ["Open"], "caseSensitive": false},
+    {"id": "day24_fib2", "type": "fillInBlank", "question": "Fill in the blank: 'Look through the ____.'", "correctAnswer": "window", "acceptableAlternatives": ["Window"], "caseSensitive": false},
+    {"id": "day24_mc3", "type": "multipleChoice", "question": "What lets light into a room?", "options": ["Door", "Window", "Wall", "Roof"], "correctOptionIndex": 1},
+    {"id": "day24_trans1", "type": "translation", "question": "What is the top covering of a building?", "targetText": "The top cover of a building", "correctTranslation": "Roof", "acceptableAlternatives": ["roof"]},
+    {"id": "day24_fib3", "type": "fillInBlank", "question": "Fill in the blank: 'Climb the ____.'", "correctAnswer": "stairs", "acceptableAlternatives": ["Stairs"], "caseSensitive": false},
+    {"id": "day24_mc4", "type": "multipleChoice", "question": "What is a vertical surface of a building?", "options": ["Floor", "Wall", "Ceiling", "Door"], "correctOptionIndex": 1}
+  ]
+}

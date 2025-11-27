@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day29_mc1", "type": "multipleChoice", "question": "O que é um feriado?", "options": ["Um dia de trabalho", "Um dia de celebração ou festival", "Um dia triste", "Um dia normal"], "correctOptionIndex": 1},
+    {"id": "day29_mc2", "type": "multipleChoice", "question": "Quando é Natal?", "options": ["Janeiro", "Julho", "Dezembro", "Junho"], "correctOptionIndex": 2},
+    {"id": "day29_fib1", "type": "fillInBlank", "question": "Complete o espaço: 'Meu ____ é em maio.'", "correctAnswer": "aniversário", "acceptableAlternatives": ["Aniversário"], "caseSensitive": false},
+    {"id": "day29_fib2", "type": "fillInBlank", "question": "Complete o espaço: 'Tivemos uma ____.'", "correctAnswer": "festa", "acceptableAlternatives": ["Festa"], "caseSensitive": false},
+    {"id": "day29_mc3", "type": "multipleChoice", "question": "O que é um presente?", "options": ["Comida", "Presente", "Roupa", "Casa"], "correctOptionIndex": 1},
+    {"id": "day29_trans1", "type": "translation", "question": "Como é chamado 1º de janeiro?", "targetText": "O início de um novo ano", "correctTranslation": "Ano Novo", "acceptableAlternatives": ["ano novo"]},
+    {"id": "day29_fib3", "type": "fillInBlank", "question": "Complete o espaço: 'Recebi um ____.'", "correctAnswer": "presente", "acceptableAlternatives": ["Presente"], "caseSensitive": false},
+    {"id": "day29_mc4", "type": "multipleChoice", "question": "O que é algo usado para embelezar?", "options": ["Brinquedo", "Decoração", "Roupa", "Livro"], "correctOptionIndex": 1}
+  ]
+}

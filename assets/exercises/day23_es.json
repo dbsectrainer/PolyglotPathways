@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day23_mc1", "type": "multipleChoice", "question": "¿Qué es una cocina?", "options": ["Una habitación para dormir", "Una habitación para cocinar y preparar comida", "Una habitación para entretenimiento", "Una habitación para almacenamiento"], "correctOptionIndex": 1},
+    {"id": "day23_mc2", "type": "multipleChoice", "question": "¿Qué usas para cortar alimentos?", "options": ["Cuchara", "Tenedor", "Cuchillo", "Plato"], "correctOptionIndex": 2},
+    {"id": "day23_fib1", "type": "fillInBlank", "question": "Completa el espacio: 'Usa un ____ para cortar el pan.'", "correctAnswer": "cuchillo", "acceptableAlternatives": ["Cuchillo"], "caseSensitive": false},
+    {"id": "day23_fib2", "type": "fillInBlank", "question": "Completa el espacio: 'Como con un ____.'", "correctAnswer": "tenedor", "acceptableAlternatives": ["Tenedor"], "caseSensitive": false},
+    {"id": "day23_mc3", "type": "multipleChoice", "question": "¿Con qué revuelves la sopa?", "options": ["Cuchillo", "Tenedor", "Cuchara", "Sartén"], "correctOptionIndex": 2},
+    {"id": "day23_trans1", "type": "translation", "question": "¿Cuál es el proceso de preparar alimentos con calor?", "targetText": "Preparación de alimentos con calor", "correctTranslation": "Cocinar", "acceptableAlternatives": ["cocinar"]},
+    {"id": "day23_fib3", "type": "fillInBlank", "question": "Completa el espacio: '____ el pastel durante 30 minutos.'", "correctAnswer": "hornea", "acceptableAlternatives": ["Hornea"], "caseSensitive": false},
+    {"id": "day23_mc4", "type": "multipleChoice", "question": "¿En qué hirvés el agua?", "options": ["Sartén", "Olla", "Plato", "Cuchillo"], "correctOptionIndex": 1}
+  ]
+}

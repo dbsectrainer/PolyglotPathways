@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Casa", "translation": "Un edificio donde viven las personas", "phonetic": "/ˈkɑsɑ/", "example": "Vivo en una casa.", "exampleTranslation": "Una residencia"},
+    {"word": "Puerta", "translation": "Una entrada o salida a una habitación o edificio", "phonetic": "/ˈpwɛɾtɑ/", "example": "Abre la puerta.", "exampleTranslation": "Una entrada"},
+    {"word": "Ventana", "translation": "Una abertura con vidrio para dejar entrar luz", "phonetic": "/bɛnˈtɑnɑ/", "example": "Mira por la ventana.", "exampleTranslation": "Una abertura para luz"},
+    {"word": "Dormitorio", "translation": "Una habitación para dormir", "phonetic": "/doɾmiˈtoɾjo/", "example": "Duermo en el dormitorio.", "exampleTranslation": "Una sala de dormir"},
+    {"word": "Sala de estar", "translation": "Una habitación para relajarse y entretenimiento", "phonetic": "/ˈsɑlɑ dɛ ɛsˈtɑɾ/", "example": "Vemos TV en la sala de estar.", "exampleTranslation": "Un área de descanso"},
+    {"word": "Baño", "translation": "Una habitación con inodoro y lavabo", "phonetic": "/ˈbɑɲo/", "example": "El baño está arriba.", "exampleTranslation": "Una sala de lavado"},
+    {"word": "Escaleras", "translation": "Pasos para subir y bajar entre pisos", "phonetic": "/ɛskɑˈlɛɾɑs/", "example": "Sube las escaleras.", "exampleTranslation": "Pasos entre niveles"},
+    {"word": "Techo", "translation": "La cubierta superior de un edificio", "phonetic": "/ˈtɛtʃo/", "example": "El techo protege la casa.", "exampleTranslation": "La cubierta superior"},
+    {"word": "Pared", "translation": "Una superficie vertical de un edificio", "phonetic": "/pɑˈɾɛd/", "example": "Pinta la pared.", "exampleTranslation": "Una superficie vertical"}
+  ]
+}

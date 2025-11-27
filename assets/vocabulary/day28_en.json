@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Head", "translation": "The top part of the body", "phonetic": "/hɛd/", "example": "My head is round.", "exampleTranslation": "The upper body part"},
+    {"word": "Eye", "translation": "An organ for seeing", "phonetic": "/aɪ/", "example": "I have two eyes.", "exampleTranslation": "Organ of sight"},
+    {"word": "Ear", "translation": "An organ for hearing", "phonetic": "/ɪr/", "example": "I hear with my ears.", "exampleTranslation": "Organ of hearing"},
+    {"word": "Nose", "translation": "A body part for smelling", "phonetic": "/noʊz/", "example": "I smell with my nose.", "exampleTranslation": "Organ of smell"},
+    {"word": "Mouth", "translation": "An opening for eating and speaking", "phonetic": "/maʊθ/", "example": "I speak with my mouth.", "exampleTranslation": "Opening for eating and speech"},
+    {"word": "Hand", "translation": "A body part with fingers", "phonetic": "/hænd/", "example": "I write with my hand.", "exampleTranslation": "A limb with fingers"},
+    {"word": "Foot", "translation": "A body part for walking", "phonetic": "/fʊt/", "example": "I walk on my feet.", "exampleTranslation": "A lower limb"},
+    {"word": "Heart", "translation": "An organ that pumps blood", "phonetic": "/hɑːrt/", "example": "My heart beats.", "exampleTranslation": "Central organ"},
+    {"word": "Health", "translation": "A state of being well", "phonetic": "/hɛlθ/", "example": "Good health is important.", "exampleTranslation": "Wellbeing or fitness"}
+  ]
+}

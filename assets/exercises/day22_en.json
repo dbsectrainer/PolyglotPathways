@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day22_mc1",
+      "type": "multipleChoice",
+      "question": "What is water essential for?",
+      "options": [
+        "Cooking only",
+        "Life",
+        "Cleaning only",
+        "Entertainment"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day22_mc2",
+      "type": "multipleChoice",
+      "question": "Which of these is a grain?",
+      "options": [
+        "Apple",
+        "Milk",
+        "Rice",
+        "Water"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day22_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: '____ is made from wheat.'",
+      "correctAnswer": "bread",
+      "acceptableAlternatives": ["Bread"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day22_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I drink ____ in the morning.'",
+      "correctAnswer": "coffee",
+      "acceptableAlternatives": ["Coffee"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day22_mc3",
+      "type": "multipleChoice",
+      "question": "What is a dairy product?",
+      "options": [
+        "Tea",
+        "Milk",
+        "Coffee",
+        "Bread"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day22_trans1",
+      "type": "translation",
+      "question": "What is a beverage made from steeped leaves?",
+      "targetText": "A hot beverage from leaves",
+      "correctTranslation": "Tea",
+      "acceptableAlternatives": ["tea"]
+    },
+    {
+      "id": "day22_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: '____ is good for your bones.'",
+      "correctAnswer": "milk",
+      "acceptableAlternatives": ["Milk"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day22_mc4",
+      "type": "multipleChoice",
+      "question": "Which fruit is red, green, or yellow?",
+      "options": [
+        "Orange",
+        "Banana",
+        "Apple",
+        "Lemon"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

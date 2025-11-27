@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day24_mc1", "type": "multipleChoice", "question": "Was ist ein Haus?", "options": ["Ein Gebäude für Lagerung", "Ein Gebäude, in dem Menschen leben", "Ein Gebäude für Tiere", "Ein Gebäude für Autos"], "correctOptionIndex": 1},
+    {"id": "day24_mc2", "type": "multipleChoice", "question": "Welches Zimmer ist zum Schlafen?", "options": ["Küche", "Schlafzimmer", "Wohnzimmer", "Badezimmer"], "correctOptionIndex": 1},
+    {"id": "day24_fib1", "type": "fillInBlank", "question": "Füllen Sie aus: '____ die Tür.'", "correctAnswer": "öffne", "acceptableAlternatives": ["Öffne"], "caseSensitive": false},
+    {"id": "day24_fib2", "type": "fillInBlank", "question": "Füllen Sie aus: 'Schauen Sie durchs ____.'", "correctAnswer": "fenster", "acceptableAlternatives": ["Fenster"], "caseSensitive": false},
+    {"id": "day24_mc3", "type": "multipleChoice", "question": "Was lässt Licht in ein Zimmer?", "options": ["Tür", "Fenster", "Wand", "Dach"], "correctOptionIndex": 1},
+    {"id": "day24_trans1", "type": "translation", "question": "Was ist die obere Abdeckung eines Gebäudes?", "targetText": "Die obere Abdeckung eines Gebäudes", "correctTranslation": "Dach", "acceptableAlternatives": ["dach"]},
+    {"id": "day24_fib3", "type": "fillInBlank", "question": "Füllen Sie aus: 'Gehen Sie die ____ hoch.'", "correctAnswer": "treppen", "acceptableAlternatives": ["Treppen"], "caseSensitive": false},
+    {"id": "day24_mc4", "type": "multipleChoice", "question": "Was ist eine vertikale Fläche eines Gebäudes?", "options": ["Boden", "Wand", "Decke", "Tür"], "correctOptionIndex": 1}
+  ]
+}

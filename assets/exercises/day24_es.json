@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day24_mc1", "type": "multipleChoice", "question": "¿Qué es una casa?", "options": ["Un edificio para almacenamiento", "Un edificio donde viven las personas", "Un edificio para animales", "Un edificio para autos"], "correctOptionIndex": 1},
+    {"id": "day24_mc2", "type": "multipleChoice", "question": "¿Cuál habitación es para dormir?", "options": ["Cocina", "Dormitorio", "Sala de estar", "Baño"], "correctOptionIndex": 1},
+    {"id": "day24_fib1", "type": "fillInBlank", "question": "Completa el espacio: '____ la puerta.'", "correctAnswer": "abre", "acceptableAlternatives": ["Abre"], "caseSensitive": false},
+    {"id": "day24_fib2", "type": "fillInBlank", "question": "Completa el espacio: 'Mira por la ____.'", "correctAnswer": "ventana", "acceptableAlternatives": ["Ventana"], "caseSensitive": false},
+    {"id": "day24_mc3", "type": "multipleChoice", "question": "¿Qué deja entrar luz en una habitación?", "options": ["Puerta", "Ventana", "Pared", "Techo"], "correctOptionIndex": 1},
+    {"id": "day24_trans1", "type": "translation", "question": "¿Cuál es la cubierta superior de un edificio?", "targetText": "La cubierta superior de un edificio", "correctTranslation": "Techo", "acceptableAlternatives": ["techo"]},
+    {"id": "day24_fib3", "type": "fillInBlank", "question": "Completa el espacio: 'Sube las ____.'", "correctAnswer": "escaleras", "acceptableAlternatives": ["Escaleras"], "caseSensitive": false},
+    {"id": "day24_mc4", "type": "multipleChoice", "question": "¿Qué es una superficie vertical de un edificio?", "options": ["Piso", "Pared", "Techo", "Puerta"], "correctOptionIndex": 1}
+  ]
+}

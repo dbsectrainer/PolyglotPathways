@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day21_mc1",
+      "type": "multipleChoice",
+      "question": "Was ist ein Hobby?",
+      "options": [
+        "Ein Beruf, den du jeden Tag machst",
+        "Eine Aktivität, die regelmäßig zum Vergnügen in der Freizeit ausgeführt wird",
+        "Ein Sport, der ein Team erfordert",
+        "Nur eine körperliche Übung"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day21_mc2",
+      "type": "multipleChoice",
+      "question": "Welches davon ist ein Teamsport?",
+      "options": [
+        "Tennis",
+        "Schwimmen",
+        "Fußball",
+        "Radfahren"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day21_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie aus: 'Ich mag ____ jeden Morgen zum Trainieren.'",
+      "correctAnswer": "laufen",
+      "acceptableAlternatives": ["Laufen"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day21_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie aus: 'Basketball wird mit einem ____ und hohen Körben gespielt.'",
+      "correctAnswer": "ball",
+      "acceptableAlternatives": ["Ball"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day21_mc3",
+      "type": "multipleChoice",
+      "question": "Welcher Sport verwendet einen Schläger?",
+      "options": [
+        "Fußball",
+        "Tennis",
+        "Schwimmen",
+        "Basketball"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day21_trans1",
+      "type": "translation",
+      "question": "Wie heißt die Aktivität des Fahrradfahrens?",
+      "targetText": "Die Aktivität des Fahrradfahrens",
+      "correctTranslation": "Radfahren",
+      "acceptableAlternatives": ["radfahren"]
+    },
+    {
+      "id": "day21_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie aus: '____ ist gute Bewegung für den ganzen Körper.'",
+      "correctAnswer": "schwimmen",
+      "acceptableAlternatives": ["Schwimmen"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day21_mc4",
+      "type": "multipleChoice",
+      "question": "Welche Aktivität beinhaltet schnelle Fußbewegung?",
+      "options": [
+        "Fußball",
+        "Tennis",
+        "Laufen",
+        "Spiele"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

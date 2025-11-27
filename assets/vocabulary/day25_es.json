@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Madre", "translation": "Una madre", "phonetic": "/ˈmɑðɾɛ/", "example": "Mi madre me ama.", "exampleTranslation": "Una progenitora"},
+    {"word": "Padre", "translation": "Un padre", "phonetic": "/ˈpɑðɾɛ/", "example": "Mi padre trabaja duro.", "exampleTranslation": "Un progenitor"},
+    {"word": "Hermana", "translation": "Una hermana", "phonetic": "/ɛɾˈmɑnɑ/", "example": "Mi hermana es amable.", "exampleTranslation": "Una hermana"},
+    {"word": "Hermano", "translation": "Un hermano", "phonetic": "/ɛɾˈmɑno/", "example": "Mi hermano juega deportes.", "exampleTranslation": "Un hermano"},
+    {"word": "Abuela", "translation": "La madre del padre o la madre de uno", "phonetic": "/ɑˈβwɛlɑ/", "example": "Visito a mi abuela.", "exampleTranslation": "Una antepasada"},
+    {"word": "Abuelo", "translation": "El padre del padre o la madre de uno", "phonetic": "/ɑˈβwɛlo/", "example": "Mi abuelo cuenta historias.", "exampleTranslation": "Un antecesor"},
+    {"word": "Tía", "translation": "La hermana del padre o la madre de uno", "phonetic": "/ˈtiɑ/", "example": "Mi tía es divertida.", "exampleTranslation": "La hermana de un padre"},
+    {"word": "Tío", "translation": "El hermano del padre o la madre de uno", "phonetic": "/ˈtio/", "example": "Mi tío es alto.", "exampleTranslation": "El hermano de un padre"},
+    {"word": "Primo", "translation": "El hijo de la tía o el tío de uno", "phonetic": "/ˈpɾimo/", "example": "Mi primo vive cerca.", "exampleTranslation": "Un pariente de la misma generación"}
+  ]
+}

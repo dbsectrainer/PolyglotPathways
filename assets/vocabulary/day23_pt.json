@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Cozinha", "translation": "Uma sala para cozinhar e preparar alimentos", "phonetic": "/kuˈzĩɲɑ/", "example": "Cozinho na cozinha.", "exampleTranslation": "Uma sala para preparação de alimentos"},
+    {"word": "Faca", "translation": "Uma ferramenta afiada para cortar alimentos", "phonetic": "/ˈfɑkɑ/", "example": "Use uma faca para cortar o pão.", "exampleTranslation": "Um utensílio de corte"},
+    {"word": "Garfo", "translation": "Um utensílio com dentes para comer", "phonetic": "/ɡɑɾˈfo/", "example": "Como com um garfo.", "exampleTranslation": "Um utensílio para comer"},
+    {"word": "Colher", "translation": "Um utensílio com uma tigela para comer", "phonetic": "/kuˈʎɛɾ/", "example": "Mexa a sopa com uma colher.", "exampleTranslation": "Um utensílio para comer"},
+    {"word": "Prato", "translation": "Um prato plano para servir alimentos", "phonetic": "/ˈplɑtu/", "example": "Coloque a comida em um prato.", "exampleTranslation": "Um prato para alimentos"},
+    {"word": "Panela", "translation": "Um recipiente de cozimento com alça", "phonetic": "/pɑˈnɛlɑ/", "example": "Ferva água em uma panela.", "exampleTranslation": "Um recipiente de cozimento"},
+    {"word": "Frigideira", "translation": "Um recipiente de cozimento raso", "phonetic": "/friʒiˈdɛɾɑ/", "example": "Frite os ovos em uma frigideira.", "exampleTranslation": "Um recipiente de cozimento"},
+    {"word": "Cozinhar", "translation": "O processo de preparar alimentos com calor", "phonetic": "/kuziˈɲɑɾ/", "example": "Gosto de cozinhar.", "exampleTranslation": "Preparação de alimentos"},
+    {"word": "Assar", "translation": "Cozinhar alimentos em um forno", "phonetic": "/ɑˈsɑɾ/", "example": "Asse o bolo por 30 minutos.", "exampleTranslation": "Cozimento em forno"}
+  ]
+}

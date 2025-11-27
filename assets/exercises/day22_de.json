@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day22_mc1",
+      "type": "multipleChoice",
+      "question": "Wofür ist Wasser notwendig?",
+      "options": [
+        "Nur zum Kochen",
+        "Für das Leben",
+        "Nur zum Reinigen",
+        "Zur Unterhaltung"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day22_mc2",
+      "type": "multipleChoice",
+      "question": "Welches davon ist ein Getreide?",
+      "options": [
+        "Apfel",
+        "Milch",
+        "Reis",
+        "Wasser"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day22_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie aus: '____ ist aus Weizen gemacht.'",
+      "correctAnswer": "brot",
+      "acceptableAlternatives": ["Brot"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day22_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie aus: 'Ich trinke morgens ____.'",
+      "correctAnswer": "kaffee",
+      "acceptableAlternatives": ["Kaffee"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day22_mc3",
+      "type": "multipleChoice",
+      "question": "Was ist ein Molkereiprodukt?",
+      "options": [
+        "Tee",
+        "Milch",
+        "Kaffee",
+        "Brot"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day22_trans1",
+      "type": "translation",
+      "question": "Was ist ein Getränk aus aufgebrühten Blättern?",
+      "targetText": "Ein heißes Getränk aus Blättern",
+      "correctTranslation": "Tee",
+      "acceptableAlternatives": ["tee"]
+    },
+    {
+      "id": "day22_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie aus: '____ ist gut für deine Knochen.'",
+      "correctAnswer": "milch",
+      "acceptableAlternatives": ["Milch"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day22_mc4",
+      "type": "multipleChoice",
+      "question": "Welche Frucht ist rot, grün oder gelb?",
+      "options": [
+        "Orange",
+        "Banane",
+        "Apfel",
+        "Zitrone"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

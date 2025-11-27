@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Sport",
+      "translation": "Eine körperliche Aktivität oder ein Spiel mit Regeln und Wettbewerb",
+      "phonetic": "/ʃpɔɾt/",
+      "example": "Fußball ist ein beliebter Sport.",
+      "exampleTranslation": "Eine wettbewerbsfähige körperliche Aktivität"
+    },
+    {
+      "word": "Spiel",
+      "translation": "Eine Aktivität zum Vergnügen oder Wettbewerb mit Regeln",
+      "phonetic": "/ʃpiːl/",
+      "example": "Spielen wir ein Schachspiel.",
+      "exampleTranslation": "Eine Aktivität mit Regeln zur Unterhaltung"
+    },
+    {
+      "word": "Hobby",
+      "translation": "Eine Aktivität, die regelmäßig zum Vergnügen in der Freizeit ausgeführt wird",
+      "phonetic": "/ˈhɔbi/",
+      "example": "Lesen ist mein Lieblingshobby.",
+      "exampleTranslation": "Eine Freizeitaktivität zum Vergnügen"
+    },
+    {
+      "word": "Fußball",
+      "translation": "Ein Sport, der mit einem Ball und Teams gespielt wird",
+      "phonetic": "/ˈfʊsbalː/",
+      "example": "Ich spiele am Wochenende Fußball.",
+      "exampleTranslation": "Ein Teamsport mit einem Ball"
+    },
+    {
+      "word": "Basketball",
+      "translation": "Ein Sport, der mit einem Ball und hohen Körben gespielt wird",
+      "phonetic": "/ˈbaskətbɔl/",
+      "example": "Basketball ist in Amerika beliebt.",
+      "exampleTranslation": "Ein Ballspiel mit einem Korb"
+    },
+    {
+      "word": "Tennis",
+      "translation": "Ein Sport, der mit Schlägern und einem kleinen Ball gespielt wird",
+      "phonetic": "/ˈtɛnɪs/",
+      "example": "Sie spielt jeden Dienstag Tennis.",
+      "exampleTranslation": "Ein Schläger sport"
+    },
+    {
+      "word": "Schwimmen",
+      "translation": "Sich durch Wasser bewegen mit Armen und Beinen",
+      "phonetic": "/ˈʃvɪmən/",
+      "example": "Schwimmen ist gute Bewegung.",
+      "exampleTranslation": "Sich durch Wasser bewegen zum Sport oder zur Erholung"
+    },
+    {
+      "word": "Laufen",
+      "translation": "Sich schnell zu Fuß bewegen als Übung oder Sport",
+      "phonetic": "/ˈlaʊfən/",
+      "example": "Ich laufe jeden Morgen.",
+      "exampleTranslation": "Übung durch schnelle Bewegung"
+    },
+    {
+      "word": "Radfahren",
+      "translation": "Fahrrad fahren zum Sport oder zur Fortbewegung",
+      "phonetic": "/ˈɾaːtfɑːɾən/",
+      "example": "Radfahren ist gut für die Fitness.",
+      "exampleTranslation": "Fahrrad fahren"
+    }
+  ]
+}

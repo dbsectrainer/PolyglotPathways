@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Esporte",
+      "translation": "Uma atividade física ou jogo com regras e competição",
+      "phonetic": "/ɛsˈpɔɾtɪ/",
+      "example": "Futebol é um esporte popular.",
+      "exampleTranslation": "Uma atividade física competitiva"
+    },
+    {
+      "word": "Jogo",
+      "translation": "Uma atividade para diversão ou competição com regras",
+      "phonetic": "/ˈʒɔɡu/",
+      "example": "Jogamos um jogo de xadrez.",
+      "exampleTranslation": "Uma atividade com regras para entretenimento"
+    },
+    {
+      "word": "Hobby",
+      "translation": "Uma atividade feita regularmente pelo prazer no tempo livre",
+      "phonetic": "/ˈɔbi/",
+      "example": "Leitura é meu hobby favorito.",
+      "exampleTranslation": "Uma atividade de lazer feita pelo prazer"
+    },
+    {
+      "word": "Futebol",
+      "translation": "Um esporte jogado com uma bola e equipes",
+      "phonetic": "/futɪˈbɔu/",
+      "example": "Jogo futebol nos fins de semana.",
+      "exampleTranslation": "Um esporte de equipe com uma bola"
+    },
+    {
+      "word": "Basquete",
+      "translation": "Um esporte jogado com uma bola e cestas altas",
+      "phonetic": "/basˈkɛtɪ/",
+      "example": "Basquete é popular na América.",
+      "exampleTranslation": "Um jogo de bola com uma cesta"
+    },
+    {
+      "word": "Tênis",
+      "translation": "Um esporte jogado com raquetes e uma bola pequena",
+      "phonetic": "/ˈtɛnɪs/",
+      "example": "Ela joga tênis cada terça.",
+      "exampleTranslation": "Um esporte de raquete"
+    },
+    {
+      "word": "Natação",
+      "translation": "Mover-se através da água usando braços e pernas",
+      "phonetic": "/natɑˈsɑ̃w̃/",
+      "example": "Natação é bom exercício.",
+      "exampleTranslation": "Mover-se através da água para esporte ou recreação"
+    },
+    {
+      "word": "Corrida",
+      "translation": "Mover-se rapidamente a pé como exercício ou esporte",
+      "phonetic": "/kuˈʁidɑ/",
+      "example": "Corro cada manhã.",
+      "exampleTranslation": "Exercício movendo-se rapidamente"
+    },
+    {
+      "word": "Ciclismo",
+      "translation": "Andar de bicicleta para esporte ou transporte",
+      "phonetic": "/siˈklɪʒmu/",
+      "example": "Ciclismo é bom para a forma física.",
+      "exampleTranslation": "Andar de bicicleta"
+    }
+  ]
+}

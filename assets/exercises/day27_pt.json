@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day27_mc1", "type": "multipleChoice", "question": "O que é trabalho?", "options": ["Jogar jogos", "Uma atividade ou trabalho que alguém faz", "Dormir", "Comer"], "correctOptionIndex": 1},
+    {"id": "day27_mc2", "type": "multipleChoice", "question": "Quem trata pessoas doentes?", "options": ["Professor", "Médico", "Chef", "Agricultor"], "correctOptionIndex": 1},
+    {"id": "day27_fib1", "type": "fillInBlank", "question": "Complete o espaço: 'Eu ____ duro todos os dias.'", "correctAnswer": "trabalho", "acceptableAlternatives": ["Trabalho"], "caseSensitive": false},
+    {"id": "day27_fib2", "type": "fillInBlank", "question": "Complete o espaço: 'Meu ____ é importante.'", "correctAnswer": "emprego", "acceptableAlternatives": ["Emprego"], "caseSensitive": false},
+    {"id": "day27_mc3", "type": "multipleChoice", "question": "Quem cuida dos pacientes?", "options": ["Médico", "Enfermeira", "Engenheiro", "Chef"], "correctOptionIndex": 1},
+    {"id": "day27_trans1", "type": "translation", "question": "O que é dinheiro pago pelo trabalho?", "targetText": "Pagamento pelo trabalho", "correctTranslation": "Salário", "acceptableAlternatives": ["salário"]},
+    {"id": "day27_fib3", "type": "fillInBlank", "question": "Complete o espaço: 'Trabalho em um ____.'", "correctAnswer": "escritório", "acceptableAlternatives": ["Escritório"], "caseSensitive": false},
+    {"id": "day27_mc4", "type": "multipleChoice", "question": "Quem é encarregado no trabalho?", "options": ["Colega", "Chefe", "Cliente", "Visitante"], "correctOptionIndex": 1}
+  ]
+}

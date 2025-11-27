@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day30_mc1", "type": "multipleChoice", "question": "Qu'est-ce que la nature?", "options": ["Un bâtiment", "Le monde naturel et l'environnement", "Une personne", "Une ville"], "correctOptionIndex": 1},
+    {"id": "day30_mc2", "type": "multipleChoice", "question": "Qu'est-ce qu'un arbre?", "options": ["Une fleur", "Un animal", "Une plante avec un tronc et des branches", "Une pierre"], "correctOptionIndex": 2},
+    {"id": "day30_fib1", "type": "fillInBlank", "question": "Complétez: 'J'aime la ____.'", "correctAnswer": "nature", "acceptableAlternatives": ["Nature"], "caseSensitive": false},
+    {"id": "day30_fib2", "type": "fillInBlank", "question": "Complétez: 'L'____ est grand.'", "correctAnswer": "arbre", "acceptableAlternatives": ["Arbre"], "caseSensitive": false},
+    {"id": "day30_mc3", "type": "multipleChoice", "question": "Qu'est-ce qu'un grand corps d'eau salée?", "options": ["Lac", "Océan", "Fleuve", "Ruisseau"], "correctOptionIndex": 1},
+    {"id": "day30_trans1", "type": "translation", "question": "Quelle est l'étoile au centre de notre système?", "targetText": "L'étoile au centre de notre système", "correctTranslation": "Soleil", "acceptableAlternatives": ["soleil"]},
+    {"id": "day30_fib3", "type": "fillInBlank", "question": "Complétez: 'Le ____ est bleu.'", "correctAnswer": "ciel", "acceptableAlternatives": ["Ciel"], "caseSensitive": false},
+    {"id": "day30_mc4", "type": "multipleChoice", "question": "Quel est le satellite naturel de la Terre?", "options": ["Étoile", "Planète", "Lune", "Comète"], "correctOptionIndex": 2}
+  ]
+}

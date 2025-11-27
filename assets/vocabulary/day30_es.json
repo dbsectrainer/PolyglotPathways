@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Naturaleza", "translation": "El mundo natural y el ambiente", "phonetic": "/nɑtuɾɑˈlɛθɑ/", "example": "Amo la naturaleza.", "exampleTranslation": "El ambiente natural"},
+    {"word": "Árbol", "translation": "Una planta con un tronco y ramas", "phonetic": "/ˈɑɾβol/", "example": "El árbol es alto.", "exampleTranslation": "Una planta leñosa"},
+    {"word": "Flor", "translation": "Un bloom de planta colorida", "phonetic": "/floɾ/", "example": "La flor es bonita.", "exampleTranslation": "Un bloom"},
+    {"word": "Montaña", "translation": "Una gran elevación natural de tierra", "phonetic": "/mõntɑˈɲɑ/", "example": "Subimos la montaña.", "exampleTranslation": "Una colina grande"},
+    {"word": "Río", "translation": "Una gran corriente de agua natural", "phonetic": "/ˈɾio/", "example": "El río fluye al mar.", "exampleTranslation": "Una corriente de agua"},
+    {"word": "Océano", "translation": "Un gran cuerpo de agua salada", "phonetic": "/oθeˈɑno/", "example": "El océano es vasto.", "exampleTranslation": "El mar"},
+    {"word": "Cielo", "translation": "La atmósfera sobre la tierra", "phonetic": "/θiˈɛlo/", "example": "El cielo es azul.", "exampleTranslation": "El aire arriba"},
+    {"word": "Sol", "translation": "La estrella en el centro de nuestro sistema", "phonetic": "/sol/", "example": "El sol es brillante.", "exampleTranslation": "Nuestra estrella"},
+    {"word": "Luna", "translation": "El satélite natural de la Tierra", "phonetic": "/ˈlunɑ/", "example": "La luna es visible de noche.", "exampleTranslation": "Un cuerpo celeste"}
+  ]
+}

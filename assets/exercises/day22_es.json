@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day22_mc1",
+      "type": "multipleChoice",
+      "question": "¿Para qué es esencial el agua?",
+      "options": [
+        "Solo para cocinar",
+        "Para la vida",
+        "Solo para limpiar",
+        "Para el entretenimiento"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day22_mc2",
+      "type": "multipleChoice",
+      "question": "¿Cuál de estos es un grano?",
+      "options": [
+        "Manzana",
+        "Leche",
+        "Arroz",
+        "Agua"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day22_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '____ se hace de trigo.'",
+      "correctAnswer": "pan",
+      "acceptableAlternatives": ["Pan"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day22_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Bebo ____ por la mañana.'",
+      "correctAnswer": "café",
+      "acceptableAlternatives": ["Café"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day22_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué es un producto lácteo?",
+      "options": [
+        "Té",
+        "Leche",
+        "Café",
+        "Pan"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day22_trans1",
+      "type": "translation",
+      "question": "¿Cuál es una bebida hecha de hojas infusionadas?",
+      "targetText": "Una bebida caliente de hojas",
+      "correctTranslation": "Té",
+      "acceptableAlternatives": ["té"]
+    },
+    {
+      "id": "day22_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'La ____ es buena para tus huesos.'",
+      "correctAnswer": "leche",
+      "acceptableAlternatives": ["Leche"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day22_mc4",
+      "type": "multipleChoice",
+      "question": "¿Cuál fruta es roja, verde o amarilla?",
+      "options": [
+        "Naranja",
+        "Plátano",
+        "Manzana",
+        "Limón"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

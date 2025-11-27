@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day26_mc1", "type": "multipleChoice", "question": "Qu'est-ce qu'une école?", "options": ["Un endroit pour jouer", "Un endroit où les étudiants apprennent", "Un endroit pour dormir", "Un endroit pour manger"], "correctOptionIndex": 1},
+    {"id": "day26_mc2", "type": "multipleChoice", "question": "Qui enseigne aux étudiants?", "options": ["Un étudiant", "Un professeur", "Un parent", "Un ami"], "correctOptionIndex": 1},
+    {"id": "day26_fib1", "type": "fillInBlank", "question": "Complétez: 'Je vais à l'____ tous les jours.'", "correctAnswer": "école", "acceptableAlternatives": ["École"], "caseSensitive": false},
+    {"id": "day26_fib2", "type": "fillInBlank", "question": "Complétez: 'Mon ____ est utile.'", "correctAnswer": "professeur", "acceptableAlternatives": ["Professeur"], "caseSensitive": false},
+    {"id": "day26_mc3", "type": "multipleChoice", "question": "Qu'est-ce qu'un ensemble de pages imprimées reliées?", "options": ["Cahier", "Livre", "Magazine", "Papier"], "correctOptionIndex": 1},
+    {"id": "day26_trans1", "type": "translation", "question": "Qu'est-ce qu'une marque montrant le niveau de réussite?", "targetText": "Une marque ou note pour la réussite", "correctTranslation": "Note", "acceptableAlternatives": ["note"]},
+    {"id": "day26_fib3", "type": "fillInBlank", "question": "Complétez: 'Écrivez avec un ____.'", "correctAnswer": "crayon", "acceptableAlternatives": ["Crayon"], "caseSensitive": false},
+    {"id": "day26_mc4", "type": "multipleChoice", "question": "Qu'est-ce qu'un examen pour vérifier les connaissances?", "options": ["Devoirs", "Test", "Devoir", "Projet"], "correctOptionIndex": 1}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day23_mc1", "type": "multipleChoice", "question": "Qu'est-ce qu'une cuisine?", "options": ["Une pièce pour dormir", "Une pièce pour cuisiner et préparer la nourriture", "Une pièce pour le divertissement", "Une pièce de stockage"], "correctOptionIndex": 1},
+    {"id": "day23_mc2", "type": "multipleChoice", "question": "Qu'utilisez-vous pour couper la nourriture?", "options": ["Cuillère", "Fourchette", "Couteau", "Assiette"], "correctOptionIndex": 2},
+    {"id": "day23_fib1", "type": "fillInBlank", "question": "Complétez: 'Utilisez un ____ pour couper le pain.'", "correctAnswer": "couteau", "acceptableAlternatives": ["Couteau"], "caseSensitive": false},
+    {"id": "day23_fib2", "type": "fillInBlank", "question": "Complétez: 'Je mange avec une ____.'", "correctAnswer": "fourchette", "acceptableAlternatives": ["Fourchette"], "caseSensitive": false},
+    {"id": "day23_mc3", "type": "multipleChoice", "question": "Avec quoi remuez-vous la soupe?", "options": ["Couteau", "Fourchette", "Cuillère", "Poêle"], "correctOptionIndex": 2},
+    {"id": "day23_trans1", "type": "translation", "question": "Quel est le processus de préparation des aliments avec de la chaleur?", "targetText": "Préparation des aliments avec de la chaleur", "correctTranslation": "Cuisiner", "acceptableAlternatives": ["cuisiner"]},
+    {"id": "day23_fib3", "type": "fillInBlank", "question": "Complétez: '____ le gâteau pendant 30 minutes.'", "correctAnswer": "cuire", "acceptableAlternatives": ["Cuire"], "caseSensitive": false},
+    {"id": "day23_mc4", "type": "multipleChoice", "question": "Dans quoi faites-vous bouillir l'eau?", "options": ["Poêle", "Pot", "Assiette", "Couteau"], "correctOptionIndex": 1}
+  ]
+}

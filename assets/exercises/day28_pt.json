@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day28_mc1", "type": "multipleChoice", "question": "Qual é a parte superior do corpo?", "options": ["Braço", "Cabeça", "Perna", "Peito"], "correctOptionIndex": 1},
+    {"id": "day28_mc2", "type": "multipleChoice", "question": "Qual órgão usamos para ver?", "options": ["Orelha", "Nariz", "Olho", "Boca"], "correctOptionIndex": 2},
+    {"id": "day28_fib1", "type": "fillInBlank", "question": "Complete o espaço: 'Tenho dois ____.'", "correctAnswer": "olhos", "acceptableAlternatives": ["Olhos"], "caseSensitive": false},
+    {"id": "day28_fib2", "type": "fillInBlank", "question": "Complete o espaço: 'Ouço com minhas ____.'", "correctAnswer": "orelhas", "acceptableAlternatives": ["Orelhas"], "caseSensitive": false},
+    {"id": "day28_mc3", "type": "multipleChoice", "question": "O que usamos para cheirar?", "options": ["Olho", "Orelha", "Nariz", "Boca"], "correctOptionIndex": 2},
+    {"id": "day28_trans1", "type": "translation", "question": "Qual órgão bombeia sangue através do corpo?", "targetText": "Um órgão que bombeia sangue", "correctTranslation": "Coração", "acceptableAlternatives": ["coração"]},
+    {"id": "day28_fib3", "type": "fillInBlank", "question": "Complete o espaço: 'Caminho em meus ____.'", "correctAnswer": "pés", "acceptableAlternatives": ["Pés"], "caseSensitive": false},
+    {"id": "day28_mc4", "type": "multipleChoice", "question": "O que é um estado de estar bem?", "options": ["Doença", "Fraqueza", "Saúde", "Cansaço"], "correctOptionIndex": 2}
+  ]
+}

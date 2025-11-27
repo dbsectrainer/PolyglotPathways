@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Küche", "translation": "Ein Zimmer zum Kochen und Vorbereiten von Lebensmitteln", "phonetic": "/ˈkʏçə/", "example": "Ich koche in der Küche.", "exampleTranslation": "Ein Zimmer zur Lebensmittelvorbereitung"},
+    {"word": "Messer", "translation": "Ein scharfes Werkzeug zum Schneiden von Lebensmitteln", "phonetic": "/ˈmɛsər/", "example": "Verwenden Sie ein Messer zum Schneiden von Brot.", "exampleTranslation": "Ein Schneidewerkzeug"},
+    {"word": "Gabel", "translation": "Ein Utensil mit Zinken zum Essen", "phonetic": "/ˈɡɑbəl/", "example": "Ich esse mit einer Gabel.", "exampleTranslation": "Ein Esswerkzeug"},
+    {"word": "Löffel", "translation": "Ein Utensil mit einer Schüssel zum Essen", "phonetic": "/ˈløfəl/", "example": "Die Suppe mit einem Löffel umrühren.", "exampleTranslation": "Ein Esswerkzeug"},
+    {"word": "Teller", "translation": "Ein flacher Teller zum Servieren von Lebensmitteln", "phonetic": "/ˈtɛlər/", "example": "Legen Sie das Essen auf einen Teller.", "exampleTranslation": "Ein Teller für Lebensmittel"},
+    {"word": "Topf", "translation": "Ein Kochbehälter mit einem Griff", "phonetic": "/tɔpf/", "example": "Wasser in einem Topf kochen.", "exampleTranslation": "Ein Kochbehälter"},
+    {"word": "Pfanne", "translation": "Ein flaches Kochgefäß", "phonetic": "/ˈpfɑnə/", "example": "Die Eier in einer Pfanne braten.", "exampleTranslation": "Ein Kochgefäß"},
+    {"word": "Kochen", "translation": "Der Prozess der Lebensmittelvorbereitung mit Hitze", "phonetic": "/ˈkɔxən/", "example": "Ich mag Kochen.", "exampleTranslation": "Lebensmittelvorbereitung"},
+    {"word": "Backen", "translation": "Lebensmittel in einem Ofen kochen", "phonetic": "/ˈbɑkən/", "example": "Den Kuchen 30 Minuten lang backen.", "exampleTranslation": "Ofenkochen"}
+  ]
+}

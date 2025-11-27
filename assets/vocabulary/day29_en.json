@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Holiday", "translation": "A day of celebration or festival", "phonetic": "/ˈhɑːlədeɪ/", "example": "Christmas is a holiday.", "exampleTranslation": "A festive day"},
+    {"word": "Festival", "translation": "A celebration with many activities", "phonetic": "/ˈfɛstɪvəl/", "example": "The music festival is fun.", "exampleTranslation": "A celebration"},
+    {"word": "Birthday", "translation": "The anniversary of birth", "phonetic": "/ˈbɜːrθdeɪ/", "example": "My birthday is in May.", "exampleTranslation": "Annual celebration of birth"},
+    {"word": "Christmas", "translation": "A Christian holiday in December", "phonetic": "/ˈkrɪsməs/", "example": "Christmas is in December.", "exampleTranslation": "A winter holiday"},
+    {"word": "New Year", "translation": "The beginning of a new year", "phonetic": "/nuː jɪr/", "example": "We celebrate New Year.", "exampleTranslation": "January 1st"},
+    {"word": "Party", "translation": "A gathering for celebration", "phonetic": "/ˈpɑːrti/", "example": "We had a party.", "exampleTranslation": "A celebration gathering"},
+    {"word": "Gift", "translation": "A present given to someone", "phonetic": "/ɡɪft/", "example": "I received a gift.", "exampleTranslation": "A present"},
+    {"word": "Celebration", "translation": "An act of celebrating", "phonetic": "/ˌsɛləˈbreɪʃən/", "example": "We have a celebration.", "exampleTranslation": "A festive event"},
+    {"word": "Decoration", "translation": "Something used to make beautiful", "phonetic": "/ˌdɛkəˈreɪʃən/", "example": "We put decorations on the tree.", "exampleTranslation": "Ornamental items"}
+  ]
+}

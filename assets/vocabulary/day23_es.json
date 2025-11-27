@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Cocina", "translation": "Una habitación para cocinar y preparar comida", "phonetic": "/koˈθinɑ/", "example": "Cocino en la cocina.", "exampleTranslation": "Una habitación para preparar alimentos"},
+    {"word": "Cuchillo", "translation": "Una herramienta afilada para cortar alimentos", "phonetic": "/kuˈtʃiʎo/", "example": "Usa un cuchillo para cortar el pan.", "exampleTranslation": "Un utensilio de corte"},
+    {"word": "Tenedor", "translation": "Un utensilio con púas para comer", "phonetic": "/teˈneðoɾ/", "example": "Como con un tenedor.", "exampleTranslation": "Un utensilio para comer"},
+    {"word": "Cuchara", "translation": "Un utensilio con un cuenco para comer", "phonetic": "/kuˈtʃɑɾɑ/", "example": "Revuelvo la sopa con una cuchara.", "exampleTranslation": "Un utensilio para comer"},
+    {"word": "Plato", "translation": "Un plato plano para servir alimentos", "phonetic": "/ˈplɑto/", "example": "Pon la comida en un plato.", "exampleTranslation": "Un plato para comida"},
+    {"word": "Olla", "translation": "Un contenedor de cocción con un mango", "phonetic": "/ˈoʎɑ/", "example": "Hierve agua en una olla.", "exampleTranslation": "Un recipiente de cocción"},
+    {"word": "Sartén", "translation": "Un recipiente de cocción poco profundo", "phonetic": "/saɾˈtɛn/", "example": "Fríe los huevos en una sartén.", "exampleTranslation": "Un recipiente de cocción"},
+    {"word": "Cocinar", "translation": "El proceso de preparar alimentos con calor", "phonetic": "/koθiˈnaɾ/", "example": "Me gusta cocinar.", "exampleTranslation": "Preparación de alimentos"},
+    {"word": "Hornear", "translation": "Cocinar alimentos en un horno", "phonetic": "/oɾneˈaɾ/", "example": "Hornea el pastel durante 30 minutos.", "exampleTranslation": "Cocción en horno"}
+  ]
+}

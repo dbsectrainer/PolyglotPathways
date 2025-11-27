@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Haus", "translation": "Ein Gebäude, in dem Menschen leben", "phonetic": "/haʊ̯s/", "example": "Ich lebe in einem Haus.", "exampleTranslation": "Eine Wohnung"},
+    {"word": "Tür", "translation": "Ein Ein- oder Ausgang zu einem Zimmer oder Gebäude", "phonetic": "/tyːʁ/", "example": "Öffne die Tür.", "exampleTranslation": "Ein Eingang"},
+    {"word": "Fenster", "translation": "Eine Öffnung mit Glas, um Licht hereinzulassen", "phonetic": "/ˈfɛnstər/", "example": "Schauen Sie durchs Fenster.", "exampleTranslation": "Eine Öffnung für Licht"},
+    {"word": "Schlafzimmer", "translation": "Ein Zimmer zum Schlafen", "phonetic": "/ˈʃlɑːftsɪmər/", "example": "Ich schlafe im Schlafzimmer.", "exampleTranslation": "Ein Schlafraum"},
+    {"word": "Wohnzimmer", "translation": "Ein Zimmer zum Entspannen und Unterhalten", "phonetic": "/ˈvoːntsɪmər/", "example": "Wir schauen im Wohnzimmer fern.", "exampleTranslation": "Ein Sitzbereich"},
+    {"word": "Badezimmer", "translation": "Ein Zimmer mit Toilette und Waschbecken", "phonetic": "/ˈbɑːdətsɪmər/", "example": "Das Badezimmer ist oben.", "exampleTranslation": "Ein Waschraum"},
+    {"word": "Treppen", "translation": "Stufen zum Hoch- und Runtergehen zwischen Etagen", "phonetic": "/ˈtʁɛpən/", "example": "Gehen Sie die Treppen hoch.", "exampleTranslation": "Stufen zwischen Ebenen"},
+    {"word": "Dach", "translation": "Die obere Abdeckung eines Gebäudes", "phonetic": "/dɑx/", "example": "Das Dach schützt das Haus.", "exampleTranslation": "Die obere Abdeckung"},
+    {"word": "Wand", "translation": "Eine vertikale Fläche eines Gebäudes", "phonetic": "/vɑnt/", "example": "Streichen Sie die Wand.", "exampleTranslation": "Eine vertikale Fläche"}
+  ]
+}

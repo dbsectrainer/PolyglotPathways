@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day23_mc1", "type": "multipleChoice", "question": "O que é uma cozinha?", "options": ["Uma sala para dormir", "Uma sala para cozinhar e preparar alimentos", "Uma sala para entretenimento", "Uma sala de armazenamento"], "correctOptionIndex": 1},
+    {"id": "day23_mc2", "type": "multipleChoice", "question": "O que você usa para cortar alimentos?", "options": ["Colher", "Garfo", "Faca", "Prato"], "correctOptionIndex": 2},
+    {"id": "day23_fib1", "type": "fillInBlank", "question": "Complete o espaço: 'Use uma ____ para cortar o pão.'", "correctAnswer": "faca", "acceptableAlternatives": ["Faca"], "caseSensitive": false},
+    {"id": "day23_fib2", "type": "fillInBlank", "question": "Complete o espaço: 'Como com um ____.'", "correctAnswer": "garfo", "acceptableAlternatives": ["Garfo"], "caseSensitive": false},
+    {"id": "day23_mc3", "type": "multipleChoice", "question": "Com o que você mexe a sopa?", "options": ["Faca", "Garfo", "Colher", "Frigideira"], "correctOptionIndex": 2},
+    {"id": "day23_trans1", "type": "translation", "question": "Qual é o processo de preparar alimentos com calor?", "targetText": "Preparação de alimentos com calor", "correctTranslation": "Cozinhar", "acceptableAlternatives": ["cozinhar"]},
+    {"id": "day23_fib3", "type": "fillInBlank", "question": "Complete o espaço: '____ o bolo por 30 minutos.'", "correctAnswer": "asse", "acceptableAlternatives": ["Asse"], "caseSensitive": false},
+    {"id": "day23_mc4", "type": "multipleChoice", "question": "Em o que você ferve água?", "options": ["Frigideira", "Panela", "Prato", "Faca"], "correctOptionIndex": 1}
+  ]
+}

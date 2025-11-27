@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Kopf", "translation": "Der obere Teil des Körpers", "phonetic": "/kɔpf/", "example": "Mein Kopf ist rund.", "exampleTranslation": "Der obere Körperteil"},
+    {"word": "Auge", "translation": "Ein Organ zum Sehen", "phonetic": "/ˈaʊ̯ɡə/", "example": "Ich habe zwei Augen.", "exampleTranslation": "Sehorgan"},
+    {"word": "Ohr", "translation": "Ein Organ zum Hören", "phonetic": "/oːʁ/", "example": "Ich höre mit meinen Ohren.", "exampleTranslation": "Hörorgan"},
+    {"word": "Nase", "translation": "Ein Körperteil zum Riechen", "phonetic": "/ˈnaːzə/", "example": "Ich rieche mit meiner Nase.", "exampleTranslation": "Riechorgan"},
+    {"word": "Mund", "translation": "Eine Öffnung zum Essen und Sprechen", "phonetic": "/mʊnt/", "example": "Ich spreche mit meinem Mund.", "exampleTranslation": "Öffnung zum Essen und Sprechen"},
+    {"word": "Hand", "translation": "Ein Körperteil mit Fingern", "phonetic": "/hɑnt/", "example": "Ich schreibe mit meiner Hand.", "exampleTranslation": "Ein Gliedmaße mit Fingern"},
+    {"word": "Fuß", "translation": "Ein Körperteil zum Gehen", "phonetic": "/fuːs/", "example": "Ich gehe auf meinen Füßen.", "exampleTranslation": "Eine untere Gliedmaße"},
+    {"word": "Herz", "translation": "Ein Organ, das Blut pumpt", "phonetic": "/hɛɹts/", "example": "Mein Herz schlägt.", "exampleTranslation": "Zentralorgan"},
+    {"word": "Gesundheit", "translation": "Ein Zustand der Gesundheit", "phonetic": "/ɡəˈzʊnthaɪ̯t/", "example": "Gute Gesundheit ist wichtig.", "exampleTranslation": "Wohlbefinden oder Fitness"}
+  ]
+}

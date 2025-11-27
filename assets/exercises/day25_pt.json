@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day25_mc1", "type": "multipleChoice", "question": "Quem é um pai?", "options": ["Mãe", "Pai", "Irmão", "Tio"], "correctOptionIndex": 1},
+    {"id": "day25_mc2", "type": "multipleChoice", "question": "O que é uma irmã?", "options": ["Uma mãe", "Um irmão", "Uma irmã", "Uma prima"], "correctOptionIndex": 2},
+    {"id": "day25_fib1", "type": "fillInBlank", "question": "Complete o espaço: 'Minha ____ me ama.'", "correctAnswer": "mãe", "acceptableAlternatives": ["Mãe"], "caseSensitive": false},
+    {"id": "day25_fib2", "type": "fillInBlank", "question": "Complete o espaço: 'Meu ____ trabalha duro.'", "correctAnswer": "pai", "acceptableAlternatives": ["Pai"], "caseSensitive": false},
+    {"id": "day25_mc3", "type": "multipleChoice", "question": "Quem é sua avó?", "options": ["Sua mãe", "A mãe de seu pai", "Sua tia", "Sua prima"], "correctOptionIndex": 1},
+    {"id": "day25_trans1", "type": "translation", "question": "Qual é a irmã do pai ou da mãe de um?", "targetText": "A irmã do pai ou da mãe de um", "correctTranslation": "Tia", "acceptableAlternatives": ["tia"]},
+    {"id": "day25_fib3", "type": "fillInBlank", "question": "Complete o espaço: 'Meu ____ joga esportes.'", "correctAnswer": "irmão", "acceptableAlternatives": ["Irmão"], "caseSensitive": false},
+    {"id": "day25_mc4", "type": "multipleChoice", "question": "Quem é o filho de sua tia ou seu tio?", "options": ["Seu irmão", "Seu primo", "Seu pai", "Seu avô"], "correctOptionIndex": 1}
+  ]
+}

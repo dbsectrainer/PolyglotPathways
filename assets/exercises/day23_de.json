@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day23_mc1", "type": "multipleChoice", "question": "Was ist eine Küche?", "options": ["Ein Zimmer zum Schlafen", "Ein Zimmer zum Kochen und Vorbereiten von Lebensmitteln", "Ein Zimmer für Unterhaltung", "Ein Lagerraum"], "correctOptionIndex": 1},
+    {"id": "day23_mc2", "type": "multipleChoice", "question": "Was benutzen Sie zum Schneiden von Lebensmitteln?", "options": ["Löffel", "Gabel", "Messer", "Teller"], "correctOptionIndex": 2},
+    {"id": "day23_fib1", "type": "fillInBlank", "question": "Füllen Sie aus: 'Verwenden Sie ein ____ zum Schneiden von Brot.'", "correctAnswer": "messer", "acceptableAlternatives": ["Messer"], "caseSensitive": false},
+    {"id": "day23_fib2", "type": "fillInBlank", "question": "Füllen Sie aus: 'Ich esse mit einer ____.'", "correctAnswer": "gabel", "acceptableAlternatives": ["Gabel"], "caseSensitive": false},
+    {"id": "day23_mc3", "type": "multipleChoice", "question": "Womit rühren Sie die Suppe um?", "options": ["Messer", "Gabel", "Löffel", "Pfanne"], "correctOptionIndex": 2},
+    {"id": "day23_trans1", "type": "translation", "question": "Was ist der Prozess der Lebensmittelvorbereitung mit Hitze?", "targetText": "Lebensmittelvorbereitung mit Hitze", "correctTranslation": "Kochen", "acceptableAlternatives": ["kochen"]},
+    {"id": "day23_fib3", "type": "fillInBlank", "question": "Füllen Sie aus: '____ den Kuchen 30 Minuten lang.'", "correctAnswer": "backen", "acceptableAlternatives": ["Backen"], "caseSensitive": false},
+    {"id": "day23_mc4", "type": "multipleChoice", "question": "Worin kochen Sie Wasser?", "options": ["Pfanne", "Topf", "Teller", "Messer"], "correctOptionIndex": 1}
+  ]
+}

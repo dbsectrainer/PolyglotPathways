@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Fiesta", "translation": "Un día de celebración o festival", "phonetic": "/fiˈɛstɑ/", "example": "Navidad es una fiesta.", "exampleTranslation": "Un día festivo"},
+    {"word": "Festival", "translation": "Una celebración con muchas actividades", "phonetic": "/fɛstiˈβɑl/", "example": "El festival de música es divertido.", "exampleTranslation": "Una celebración"},
+    {"word": "Cumpleaños", "translation": "El aniversario del nacimiento", "phonetic": "/kũmpleˈɑɲos/", "example": "Mi cumpleaños es en mayo.", "exampleTranslation": "Celebración anual del nacimiento"},
+    {"word": "Navidad", "translation": "Un feriado cristiano en diciembre", "phonetic": "/nɑβiˈðɑð/", "example": "Navidad es en diciembre.", "exampleTranslation": "Un feriado de invierno"},
+    {"word": "Año Nuevo", "translation": "El comienzo de un nuevo año", "phonetic": "/ˈɑɲo ˈnwɛbo/", "example": "Celebramos Año Nuevo.", "exampleTranslation": "1 de enero"},
+    {"word": "Fiesta", "translation": "Una reunión para celebrar", "phonetic": "/fiˈɛstɑ/", "example": "Tuvimos una fiesta.", "exampleTranslation": "Una reunión de celebración"},
+    {"word": "Regalo", "translation": "Un presente dado a alguien", "phonetic": "/ɾɛˈɡɑlo/", "example": "Recibí un regalo.", "exampleTranslation": "Un presente"},
+    {"word": "Celebración", "translation": "Un acto de celebrar", "phonetic": "/θɛlɛβɾɑˈθjõn/", "example": "Tenemos una celebración.", "exampleTranslation": "Un evento festivo"},
+    {"word": "Decoración", "translation": "Algo usado para embellecer", "phonetic": "/dɛkoɾɑˈθjõn/", "example": "Ponemos decoraciones en el árbol.", "exampleTranslation": "Artículos ornamentales"}
+  ]
+}

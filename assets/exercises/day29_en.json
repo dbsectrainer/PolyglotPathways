@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day29_mc1", "type": "multipleChoice", "question": "What is a holiday?", "options": ["A work day", "A day of celebration or festival", "A sad day", "A regular day"], "correctOptionIndex": 1},
+    {"id": "day29_mc2", "type": "multipleChoice", "question": "When is Christmas?", "options": ["January", "July", "December", "June"], "correctOptionIndex": 2},
+    {"id": "day29_fib1", "type": "fillInBlank", "question": "Fill in the blank: 'My ____ is in May.'", "correctAnswer": "birthday", "acceptableAlternatives": ["Birthday"], "caseSensitive": false},
+    {"id": "day29_fib2", "type": "fillInBlank", "question": "Fill in the blank: 'We had a ____.'", "correctAnswer": "party", "acceptableAlternatives": ["Party"], "caseSensitive": false},
+    {"id": "day29_mc3", "type": "multipleChoice", "question": "What is a present?", "options": ["Food", "Gift", "Clothes", "House"], "correctOptionIndex": 1},
+    {"id": "day29_trans1", "type": "translation", "question": "What is January 1st called?", "targetText": "The beginning of a new year", "correctTranslation": "New Year", "acceptableAlternatives": ["new year"]},
+    {"id": "day29_fib3", "type": "fillInBlank", "question": "Fill in the blank: 'I received a ____.'", "correctAnswer": "gift", "acceptableAlternatives": ["Gift"], "caseSensitive": false},
+    {"id": "day29_mc4", "type": "multipleChoice", "question": "What is something used to make beautiful?", "options": ["Toy", "Decoration", "Clothes", "Book"], "correctOptionIndex": 1}
+  ]
+}

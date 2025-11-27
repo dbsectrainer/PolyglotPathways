@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day30_mc1", "type": "multipleChoice", "question": "What is nature?", "options": ["A building", "The natural world and environment", "A person", "A city"], "correctOptionIndex": 1},
+    {"id": "day30_mc2", "type": "multipleChoice", "question": "What is a tree?", "options": ["A flower", "An animal", "A plant with a trunk and branches", "A rock"], "correctOptionIndex": 2},
+    {"id": "day30_fib1", "type": "fillInBlank", "question": "Fill in the blank: 'I love ____.'", "correctAnswer": "nature", "acceptableAlternatives": ["Nature"], "caseSensitive": false},
+    {"id": "day30_fib2", "type": "fillInBlank", "question": "Fill in the blank: 'The ____ is tall.'", "correctAnswer": "tree", "acceptableAlternatives": ["Tree"], "caseSensitive": false},
+    {"id": "day30_mc3", "type": "multipleChoice", "question": "What is a large body of salt water?", "options": ["Lake", "Ocean", "River", "Stream"], "correctOptionIndex": 1},
+    {"id": "day30_trans1", "type": "translation", "question": "What is the star at the center of our system?", "targetText": "The star at the center of our system", "correctTranslation": "Sun", "acceptableAlternatives": ["sun"]},
+    {"id": "day30_fib3", "type": "fillInBlank", "question": "Fill in the blank: 'The ____ is blue.'", "correctAnswer": "sky", "acceptableAlternatives": ["Sky"], "caseSensitive": false},
+    {"id": "day30_mc4", "type": "multipleChoice", "question": "What is Earth's natural satellite?", "options": ["Star", "Planet", "Moon", "Comet"], "correctOptionIndex": 2}
+  ]
+}

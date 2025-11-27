@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day25_mc1", "type": "multipleChoice", "question": "Who is a male parent?", "options": ["Mother", "Father", "Brother", "Uncle"], "correctOptionIndex": 1},
+    {"id": "day25_mc2", "type": "multipleChoice", "question": "What is a sister?", "options": ["A female parent", "A male sibling", "A female sibling", "A female cousin"], "correctOptionIndex": 2},
+    {"id": "day25_fib1", "type": "fillInBlank", "question": "Fill in the blank: 'My ____ loves me.'", "correctAnswer": "mother", "acceptableAlternatives": ["Mother"], "caseSensitive": false},
+    {"id": "day25_fib2", "type": "fillInBlank", "question": "Fill in the blank: 'My ____ works hard.'", "correctAnswer": "father", "acceptableAlternatives": ["Father"], "caseSensitive": false},
+    {"id": "day25_mc3", "type": "multipleChoice", "question": "Who is your grandmother?", "options": ["Your mother", "The mother of your parent", "Your aunt", "Your cousin"], "correctOptionIndex": 1},
+    {"id": "day25_trans1", "type": "translation", "question": "What is the sister of one's parent?", "targetText": "The sister of one's parent", "correctTranslation": "Aunt", "acceptableAlternatives": ["aunt"]},
+    {"id": "day25_fib3", "type": "fillInBlank", "question": "Fill in the blank: 'My ____ plays sports.'", "correctAnswer": "brother", "acceptableAlternatives": ["Brother"], "caseSensitive": false},
+    {"id": "day25_mc4", "type": "multipleChoice", "question": "Who is the child of your aunt or uncle?", "options": ["Your sibling", "Your cousin", "Your parent", "Your grandparent"], "correctOptionIndex": 1}
+  ]
+}

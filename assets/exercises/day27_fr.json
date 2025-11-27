@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day27_mc1", "type": "multipleChoice", "question": "Qu'est-ce que le travail?", "options": ["Jouer à des jeux", "Une activité ou un travail que quelqu'un fait", "Dormir", "Manger"], "correctOptionIndex": 1},
+    {"id": "day27_mc2", "type": "multipleChoice", "question": "Qui traite les malades?", "options": ["Professeur", "Médecin", "Chef", "Agriculteur"], "correctOptionIndex": 1},
+    {"id": "day27_fib1", "type": "fillInBlank", "question": "Complétez: 'Je ____ dur tous les jours.'", "correctAnswer": "travaille", "acceptableAlternatives": ["Travaille"], "caseSensitive": false},
+    {"id": "day27_fib2", "type": "fillInBlank", "question": "Complétez: 'Mon ____ est important.'", "correctAnswer": "emploi", "acceptableAlternatives": ["Emploi"], "caseSensitive": false},
+    {"id": "day27_mc3", "type": "multipleChoice", "question": "Qui soigne les patients?", "options": ["Médecin", "Infirmière", "Ingénieur", "Chef"], "correctOptionIndex": 1},
+    {"id": "day27_trans1", "type": "translation", "question": "Qu'est-ce que l'argent payé pour le travail?", "targetText": "Rémunération du travail", "correctTranslation": "Salaire", "acceptableAlternatives": ["salaire"]},
+    {"id": "day27_fib3", "type": "fillInBlank", "question": "Complétez: 'Je travaille dans un ____.'", "correctAnswer": "bureau", "acceptableAlternatives": ["Bureau"], "caseSensitive": false},
+    {"id": "day27_mc4", "type": "multipleChoice", "question": "Qui est en charge au travail?", "options": ["Collègue", "Patron", "Client", "Visiteur"], "correctOptionIndex": 1}
+  ]
+}

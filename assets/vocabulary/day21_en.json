@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Sport",
+      "translation": "A physical activity or game with rules and competition",
+      "phonetic": "/spɔːrt/",
+      "example": "Football is a popular sport.",
+      "exampleTranslation": "A competitive physical activity"
+    },
+    {
+      "word": "Game",
+      "translation": "An activity for enjoyment or competition with rules",
+      "phonetic": "/ɡeɪm/",
+      "example": "Let's play a game of chess.",
+      "exampleTranslation": "An activity with rules for entertainment"
+    },
+    {
+      "word": "Hobby",
+      "translation": "An activity done regularly for pleasure in free time",
+      "phonetic": "/ˈhɑːbi/",
+      "example": "Reading is my favorite hobby.",
+      "exampleTranslation": "A leisure activity done for enjoyment"
+    },
+    {
+      "word": "Football",
+      "translation": "A sport played with a ball and teams",
+      "phonetic": "/ˈfʊtbɔːl/",
+      "example": "I play football on weekends.",
+      "exampleTranslation": "A team sport with a ball"
+    },
+    {
+      "word": "Basketball",
+      "translation": "A sport played with a ball and high hoops",
+      "phonetic": "/ˈbæskɪtbɔːl/",
+      "example": "Basketball is popular in America.",
+      "exampleTranslation": "A ball game with a hoop"
+    },
+    {
+      "word": "Tennis",
+      "translation": "A sport played with rackets and a small ball",
+      "phonetic": "/ˈtɛnɪs/",
+      "example": "She plays tennis every Tuesday.",
+      "exampleTranslation": "A racket sport"
+    },
+    {
+      "word": "Swimming",
+      "translation": "Moving through water using arms and legs",
+      "phonetic": "/ˈswɪmɪŋ/",
+      "example": "Swimming is good exercise.",
+      "exampleTranslation": "Moving through water for sport or recreation"
+    },
+    {
+      "word": "Running",
+      "translation": "Moving quickly on foot as exercise or sport",
+      "phonetic": "/ˈrʌnɪŋ/",
+      "example": "I go running every morning.",
+      "exampleTranslation": "Exercise by moving quickly"
+    },
+    {
+      "word": "Cycling",
+      "translation": "Riding a bicycle for sport or transportation",
+      "phonetic": "/ˈsaɪklɪŋ/",
+      "example": "Cycling is good for fitness.",
+      "exampleTranslation": "Riding a bike"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Work", "translation": "An activity or job someone does", "phonetic": "/wɜːrk/", "example": "I work hard every day.", "exampleTranslation": "A job or occupation"},
+    {"word": "Job", "translation": "Employment or a task to do", "phonetic": "/dʒɑːb/", "example": "My job is important.", "exampleTranslation": "Employment"},
+    {"word": "Doctor", "translation": "A person who treats sick people", "phonetic": "/ˈdɑːktər/", "example": "The doctor helps patients.", "exampleTranslation": "A medical professional"},
+    {"word": "Nurse", "translation": "A person who cares for patients", "phonetic": "/nɜːrs/", "example": "The nurse is caring.", "exampleTranslation": "A healthcare worker"},
+    {"word": "Engineer", "translation": "A person who designs and builds structures", "phonetic": "/ˌɛndʒɪˈnɪr/", "example": "The engineer builds bridges.", "exampleTranslation": "A designer and builder"},
+    {"word": "Office", "translation": "A place where people work", "phonetic": "/ˈɑːfɪs/", "example": "I work in an office.", "exampleTranslation": "A workplace"},
+    {"word": "Salary", "translation": "Money paid for work", "phonetic": "/ˈsæləri/", "example": "She earns a good salary.", "exampleTranslation": "Payment for work"},
+    {"word": "Boss", "translation": "A person in charge at work", "phonetic": "/bɔːs/", "example": "My boss is fair.", "exampleTranslation": "A supervisor"},
+    {"word": "Profession", "translation": "A job or career", "phonetic": "/prəˈfɛʃən/", "example": "Teaching is a noble profession.", "exampleTranslation": "An occupation or career"}
+  ]
+}

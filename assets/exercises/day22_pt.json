@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day22_mc1",
+      "type": "multipleChoice",
+      "question": "Para o que a água é essencial?",
+      "options": [
+        "Apenas para cozinhar",
+        "Para a vida",
+        "Apenas para limpeza",
+        "Para o entretenimento"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day22_mc2",
+      "type": "multipleChoice",
+      "question": "Qual destes é um grão?",
+      "options": [
+        "Maçã",
+        "Leite",
+        "Arroz",
+        "Água"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day22_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: '____ é feito de trigo.'",
+      "correctAnswer": "pão",
+      "acceptableAlternatives": ["Pão"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day22_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Bebo ____ pela manhã.'",
+      "correctAnswer": "café",
+      "acceptableAlternatives": ["Café"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day22_mc3",
+      "type": "multipleChoice",
+      "question": "O que é um produto lácteo?",
+      "options": [
+        "Chá",
+        "Leite",
+        "Café",
+        "Pão"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day22_trans1",
+      "type": "translation",
+      "question": "O que é uma bebida feita de folhas infusionadas?",
+      "targetText": "Uma bebida quente de folhas",
+      "correctTranslation": "Chá",
+      "acceptableAlternatives": ["chá"]
+    },
+    {
+      "id": "day22_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: '____ é bom para seus ossos.'",
+      "correctAnswer": "leite",
+      "acceptableAlternatives": ["Leite"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day22_mc4",
+      "type": "multipleChoice",
+      "question": "Qual fruta é vermelha, verde ou amarela?",
+      "options": [
+        "Laranja",
+        "Banana",
+        "Maçã",
+        "Limão"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

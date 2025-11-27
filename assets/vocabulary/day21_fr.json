@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Sport",
+      "translation": "Une activité physique ou un jeu avec des règles et une compétition",
+      "phonetic": "/spɔʁ/",
+      "example": "Le football est un sport populaire.",
+      "exampleTranslation": "Une activité physique compétitive"
+    },
+    {
+      "word": "Jeu",
+      "translation": "Une activité pour le plaisir ou la compétition avec des règles",
+      "phonetic": "/ʒø/",
+      "example": "Jouons un jeu d'échecs.",
+      "exampleTranslation": "Une activité avec des règles pour le divertissement"
+    },
+    {
+      "word": "Loisir",
+      "translation": "Une activité faite régulièrement pour le plaisir pendant le temps libre",
+      "phonetic": "/lwɑˈziʁ/",
+      "example": "La lecture est mon loisir préféré.",
+      "exampleTranslation": "Une activité de détente faite pour le plaisir"
+    },
+    {
+      "word": "Football",
+      "translation": "Un sport joué avec un ballon et des équipes",
+      "phonetic": "/futbɔl/",
+      "example": "Je joue au football le week-end.",
+      "exampleTranslation": "Un sport d'équipe avec un ballon"
+    },
+    {
+      "word": "Basketball",
+      "translation": "Un sport joué avec un ballon et des paniers hauts",
+      "phonetic": "/bɑskɛtbɔl/",
+      "example": "Le basketball est populaire en Amérique.",
+      "exampleTranslation": "Un jeu de ballon avec un panier"
+    },
+    {
+      "word": "Tennis",
+      "translation": "Un sport joué avec des raquettes et une petite balle",
+      "phonetic": "/tɛnis/",
+      "example": "Elle joue au tennis chaque mardi.",
+      "exampleTranslation": "Un sport de raquette"
+    },
+    {
+      "word": "Natation",
+      "translation": "Se déplacer dans l'eau en utilisant les bras et les jambes",
+      "phonetic": "/nɑtɑˈsjõ/",
+      "example": "La natation est un bon exercice.",
+      "exampleTranslation": "Se déplacer dans l'eau pour le sport ou les loisirs"
+    },
+    {
+      "word": "Course",
+      "translation": "Se déplacer rapidement à pied comme exercice ou sport",
+      "phonetic": "/kuʁs/",
+      "example": "Je cours chaque matin.",
+      "exampleTranslation": "Exercice en se déplaçant rapidement"
+    },
+    {
+      "word": "Cyclisme",
+      "translation": "Faire du vélo pour le sport ou les transports",
+      "phonetic": "/siklizm/",
+      "example": "Le cyclisme est bon pour la forme physique.",
+      "exampleTranslation": "Faire du vélo"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Casa", "translation": "Um edifício onde as pessoas vivem", "phonetic": "/ˈkɑzɑ/", "example": "Eu vivo em uma casa.", "exampleTranslation": "Uma residência"},
+    {"word": "Porta", "translation": "Uma entrada ou saída para uma sala ou edifício", "phonetic": "/ˈpɔɾtɑ/", "example": "Abra a porta.", "exampleTranslation": "Uma entrada"},
+    {"word": "Janela", "translation": "Uma abertura com vidro para deixar entrar luz", "phonetic": "/ʒɑˈnɛlɑ/", "example": "Olhe pela janela.", "exampleTranslation": "Uma abertura para luz"},
+    {"word": "Quarto", "translation": "Uma sala para dormir", "phonetic": "/ˈkwɑrtu/", "example": "Eu durmo no quarto.", "exampleTranslation": "Uma sala de dormir"},
+    {"word": "Sala de estar", "translation": "Uma sala para relaxar e diversão", "phonetic": "/ˈsɑlɑ dɪ ɛsˈtɑɾ/", "example": "Assistimos TV na sala de estar.", "exampleTranslation": "Uma área de descanso"},
+    {"word": "Banheiro", "translation": "Uma sala com toalete e pia", "phonetic": "/bɑɲeˈɛɾu/", "example": "O banheiro fica acima.", "exampleTranslation": "Uma sala de lavagem"},
+    {"word": "Escadas", "translation": "Degraus para subir e descer entre andares", "phonetic": "/ɛsˈkɑðɑs/", "example": "Suba as escadas.", "exampleTranslation": "Degraus entre níveis"},
+    {"word": "Teto", "translation": "A cobertura superior de um edifício", "phonetic": "/ˈtɛtu/", "example": "O teto protege a casa.", "exampleTranslation": "A cobertura superior"},
+    {"word": "Parede", "translation": "Uma superfície vertical de um edifício", "phonetic": "/pɑˈɾɛdɪ/", "example": "Pinte a parede.", "exampleTranslation": "Uma superfície vertical"}
+  ]
+}

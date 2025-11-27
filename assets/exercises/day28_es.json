@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day28_mc1", "type": "multipleChoice", "question": "¿Cuál es la parte superior del cuerpo?", "options": ["Brazo", "Cabeza", "Pierna", "Pecho"], "correctOptionIndex": 1},
+    {"id": "day28_mc2", "type": "multipleChoice", "question": "¿Qué órgano usamos para ver?", "options": ["Oreja", "Nariz", "Ojo", "Boca"], "correctOptionIndex": 2},
+    {"id": "day28_fib1", "type": "fillInBlank", "question": "Completa el espacio: 'Tengo dos ____.'", "correctAnswer": "ojos", "acceptableAlternatives": ["Ojos"], "caseSensitive": false},
+    {"id": "day28_fib2", "type": "fillInBlank", "question": "Completa el espacio: 'Escucho con mis ____.'", "correctAnswer": "orejas", "acceptableAlternatives": ["Orejas"], "caseSensitive": false},
+    {"id": "day28_mc3", "type": "multipleChoice", "question": "¿Qué usamos para oler?", "options": ["Ojo", "Oreja", "Nariz", "Boca"], "correctOptionIndex": 2},
+    {"id": "day28_trans1", "type": "translation", "question": "¿Qué órgano bombea sangre a través del cuerpo?", "targetText": "Un órgano que bombea sangre", "correctTranslation": "Corazón", "acceptableAlternatives": ["corazón"]},
+    {"id": "day28_fib3", "type": "fillInBlank", "question": "Completa el espacio: 'Camino en mis ____.'", "correctAnswer": "pies", "acceptableAlternatives": ["Pies"], "caseSensitive": false},
+    {"id": "day28_mc4", "type": "multipleChoice", "question": "¿Qué es un estado de estar bien?", "options": ["Enfermedad", "Debilidad", "Salud", "Cansancio"], "correctOptionIndex": 2}
+  ]
+}

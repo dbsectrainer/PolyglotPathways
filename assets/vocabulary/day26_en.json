@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "School", "translation": "A place where students learn", "phonetic": "/skuːl/", "example": "I go to school every day.", "exampleTranslation": "A place of learning"},
+    {"word": "Teacher", "translation": "A person who teaches students", "phonetic": "/ˈtiːtʃər/", "example": "My teacher is helpful.", "exampleTranslation": "An educator"},
+    {"word": "Student", "translation": "A person who studies", "phonetic": "/ˈstjuːdənt/", "example": "I am a student.", "exampleTranslation": "A learner"},
+    {"word": "Book", "translation": "A set of printed pages bound together", "phonetic": "/bʊk/", "example": "I read a book.", "exampleTranslation": "A written work"},
+    {"word": "Classroom", "translation": "A room where classes are taught", "phonetic": "/ˈklæsruːm/", "example": "We study in the classroom.", "exampleTranslation": "A teaching room"},
+    {"word": "Desk", "translation": "Furniture for sitting and working", "phonetic": "/desk/", "example": "I sit at my desk.", "exampleTranslation": "A table for work"},
+    {"word": "Pencil", "translation": "A tool for writing", "phonetic": "/ˈpɛnsəl/", "example": "Write with a pencil.", "exampleTranslation": "A writing tool"},
+    {"word": "Test", "translation": "An examination to check knowledge", "phonetic": "/test/", "example": "We have a test tomorrow.", "exampleTranslation": "An assessment"},
+    {"word": "Grade", "translation": "A mark showing level of achievement", "phonetic": "/ɡreɪd/", "example": "I got a good grade.", "exampleTranslation": "A score or level"}
+  ]
+}

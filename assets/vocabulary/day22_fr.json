@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Nourriture",
+      "translation": "Des choses que nous mangeons pour la nutrition et l'énergie",
+      "phonetic": "/nuʁiˈtyʁ/",
+      "example": "Nous mangeons de la nourriture trois fois par jour.",
+      "exampleTranslation": "La nutrition que nous consommons"
+    },
+    {
+      "word": "Boisson",
+      "translation": "Une boisson liquide que nous consommons",
+      "phonetic": "/bwɑˈsõ/",
+      "example": "Je bois de l'eau chaque jour.",
+      "exampleTranslation": "Un liquide à consommer"
+    },
+    {
+      "word": "Eau",
+      "translation": "Un liquide transparent essentiel à la vie",
+      "phonetic": "/o/",
+      "example": "L'eau est essentielle à la santé.",
+      "exampleTranslation": "Un liquide incolore et transparent"
+    },
+    {
+      "word": "Pain",
+      "translation": "Un aliment de base fait de farine et cuit au four",
+      "phonetic": "/pɛ̃/",
+      "example": "Le pain est fait de blé.",
+      "exampleTranslation": "Un produit de céréale cuit"
+    },
+    {
+      "word": "Lait",
+      "translation": "Un liquide blanc des animaux utilisé en cuisine",
+      "phonetic": "/lɛ/",
+      "example": "Le lait est bon pour vos os.",
+      "exampleTranslation": "Un produit laitier"
+    },
+    {
+      "word": "Café",
+      "translation": "Une boisson chaude faite de grains torréfiés",
+      "phonetic": "/kɑˈfɛ/",
+      "example": "Je bois du café le matin.",
+      "exampleTranslation": "Une boisson contenant de la caféine"
+    },
+    {
+      "word": "Thé",
+      "translation": "Une boisson chaude faite de feuilles",
+      "phonetic": "/tɛ/",
+      "example": "Elle boit du thé vert.",
+      "exampleTranslation": "Une boisson de feuilles infusées"
+    },
+    {
+      "word": "Riz",
+      "translation": "Une céréale de base mangée dans de nombreuses cultures",
+      "phonetic": "/ʁi/",
+      "example": "Le riz est un aliment de base en Asie.",
+      "exampleTranslation": "Un aliment de céréale"
+    },
+    {
+      "word": "Pomme",
+      "translation": "Un fruit rond qui est rouge, vert ou jaune",
+      "phonetic": "/pɔm/",
+      "example": "Une pomme par jour éloigne le médecin.",
+      "exampleTranslation": "Un fruit courant"
+    }
+  ]
+}

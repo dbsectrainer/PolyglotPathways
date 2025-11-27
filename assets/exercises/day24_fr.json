@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day24_mc1", "type": "multipleChoice", "question": "Qu'est-ce qu'une maison?", "options": ["Un bâtiment pour le stockage", "Un bâtiment où les gens vivent", "Un bâtiment pour les animaux", "Un bâtiment pour les voitures"], "correctOptionIndex": 1},
+    {"id": "day24_mc2", "type": "multipleChoice", "question": "Quelle pièce est pour dormir?", "options": ["Cuisine", "Chambre", "Salon", "Salle de bain"], "correctOptionIndex": 1},
+    {"id": "day24_fib1", "type": "fillInBlank", "question": "Complétez: '____ la porte.'", "correctAnswer": "ouvrez", "acceptableAlternatives": ["Ouvrez"], "caseSensitive": false},
+    {"id": "day24_fib2", "type": "fillInBlank", "question": "Complétez: 'Regardez par la ____.'", "correctAnswer": "fenêtre", "acceptableAlternatives": ["Fenêtre"], "caseSensitive": false},
+    {"id": "day24_mc3", "type": "multipleChoice", "question": "Qu'est-ce qui laisse entrer la lumière dans une pièce?", "options": ["Porte", "Fenêtre", "Mur", "Toit"], "correctOptionIndex": 1},
+    {"id": "day24_trans1", "type": "translation", "question": "Quel est le revêtement supérieur d'un bâtiment?", "targetText": "Le revêtement supérieur d'un bâtiment", "correctTranslation": "Toit", "acceptableAlternatives": ["toit"]},
+    {"id": "day24_fib3", "type": "fillInBlank", "question": "Complétez: 'Montez les ____.'", "correctAnswer": "escaliers", "acceptableAlternatives": ["Escaliers"], "caseSensitive": false},
+    {"id": "day24_mc4", "type": "multipleChoice", "question": "Qu'est-ce qu'une surface verticale d'un bâtiment?", "options": ["Sol", "Mur", "Plafond", "Porte"], "correctOptionIndex": 1}
+  ]
+}

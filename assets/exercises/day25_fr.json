@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day25_mc1", "type": "multipleChoice", "question": "Qui est un père?", "options": ["Mère", "Père", "Frère", "Oncle"], "correctOptionIndex": 1},
+    {"id": "day25_mc2", "type": "multipleChoice", "question": "Qu'est-ce qu'une sœur?", "options": ["Une mère", "Un frère", "Une sœur", "Une cousine"], "correctOptionIndex": 2},
+    {"id": "day25_fib1", "type": "fillInBlank", "question": "Complétez: 'Ma ____ m'aime.'", "correctAnswer": "mère", "acceptableAlternatives": ["Mère"], "caseSensitive": false},
+    {"id": "day25_fib2", "type": "fillInBlank", "question": "Complétez: 'Mon ____ travaille dur.'", "correctAnswer": "père", "acceptableAlternatives": ["Père"], "caseSensitive": false},
+    {"id": "day25_mc3", "type": "multipleChoice", "question": "Qui est votre grand-mère?", "options": ["Votre mère", "La mère de votre père", "Votre tante", "Votre cousine"], "correctOptionIndex": 1},
+    {"id": "day25_trans1", "type": "translation", "question": "Quelle est la sœur du père ou de la mère de quelqu'un?", "targetText": "La sœur du père ou de la mère de quelqu'un", "correctTranslation": "Tante", "acceptableAlternatives": ["tante"]},
+    {"id": "day25_fib3", "type": "fillInBlank", "question": "Complétez: 'Mon ____ joue au sport.'", "correctAnswer": "frère", "acceptableAlternatives": ["Frère"], "caseSensitive": false},
+    {"id": "day25_mc4", "type": "multipleChoice", "question": "Qui est le fils de votre tante ou de votre oncle?", "options": ["Votre frère", "Votre cousin", "Votre père", "Votre grand-père"], "correctOptionIndex": 1}
+  ]
+}

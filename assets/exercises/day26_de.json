@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day26_mc1", "type": "multipleChoice", "question": "Was ist eine Schule?", "options": ["Ein Ort zum Spielen", "Ein Ort, an dem Schüler lernen", "Ein Ort zum Schlafen", "Ein Ort zum Essen"], "correctOptionIndex": 1},
+    {"id": "day26_mc2", "type": "multipleChoice", "question": "Wer unterrichtet Schüler?", "options": ["Ein Schüler", "Ein Lehrer", "Ein Elternteil", "Ein Freund"], "correctOptionIndex": 1},
+    {"id": "day26_fib1", "type": "fillInBlank", "question": "Füllen Sie aus: 'Ich gehe jeden Tag zur ____.'", "correctAnswer": "schule", "acceptableAlternatives": ["Schule"], "caseSensitive": false},
+    {"id": "day26_fib2", "type": "fillInBlank", "question": "Füllen Sie aus: 'Mein ____ ist hilfreich.'", "correctAnswer": "lehrer", "acceptableAlternatives": ["Lehrer"], "caseSensitive": false},
+    {"id": "day26_mc3", "type": "multipleChoice", "question": "Was ist ein Satz gedruckter Seiten, die zusammengebunden sind?", "options": ["Notizbuch", "Buch", "Magazin", "Papier"], "correctOptionIndex": 1},
+    {"id": "day26_trans1", "type": "translation", "question": "Was ist eine Marke, die das Leistungsniveau zeigt?", "targetText": "Eine Marke oder Note für Leistung", "correctTranslation": "Note", "acceptableAlternatives": ["note"]},
+    {"id": "day26_fib3", "type": "fillInBlank", "question": "Füllen Sie aus: 'Schreiben Sie mit einem ____.'", "correctAnswer": "bleistift", "acceptableAlternatives": ["Bleistift"], "caseSensitive": false},
+    {"id": "day26_mc4", "type": "multipleChoice", "question": "Was ist eine Prüfung zur Überprüfung des Wissens?", "options": ["Hausaufgaben", "Test", "Aufgabe", "Projekt"], "correctOptionIndex": 1}
+  ]
+}

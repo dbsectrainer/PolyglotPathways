@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day26_mc1", "type": "multipleChoice", "question": "¿Qué es una escuela?", "options": ["Un lugar para jugar", "Un lugar donde estudian los estudiantes", "Un lugar para dormir", "Un lugar para comer"], "correctOptionIndex": 1},
+    {"id": "day26_mc2", "type": "multipleChoice", "question": "¿Quién enseña a los estudiantes?", "options": ["Un estudiante", "Un maestro", "Un padre", "Un amigo"], "correctOptionIndex": 1},
+    {"id": "day26_fib1", "type": "fillInBlank", "question": "Completa el espacio: 'Voy a la ____ todos los días.'", "correctAnswer": "escuela", "acceptableAlternatives": ["Escuela"], "caseSensitive": false},
+    {"id": "day26_fib2", "type": "fillInBlank", "question": "Completa el espacio: 'Mi ____ es útil.'", "correctAnswer": "maestro", "acceptableAlternatives": ["Maestro"], "caseSensitive": false},
+    {"id": "day26_mc3", "type": "multipleChoice", "question": "¿Qué es un conjunto de páginas impresas encuadernadas?", "options": ["Cuaderno", "Libro", "Revista", "Papel"], "correctOptionIndex": 1},
+    {"id": "day26_trans1", "type": "translation", "question": "¿Qué es una marca que muestra el nivel de logro?", "targetText": "Una marca o puntuación por logro", "correctTranslation": "Calificación", "acceptableAlternatives": ["calificación"]},
+    {"id": "day26_fib3", "type": "fillInBlank", "question": "Completa el espacio: 'Escribe con un ____.'", "correctAnswer": "lápiz", "acceptableAlternatives": ["Lápiz"], "caseSensitive": false},
+    {"id": "day26_mc4", "type": "multipleChoice", "question": "¿Qué es un examen para verificar el conocimiento?", "options": ["Tarea", "Prueba", "Asignación", "Proyecto"], "correctOptionIndex": 1}
+  ]
+}

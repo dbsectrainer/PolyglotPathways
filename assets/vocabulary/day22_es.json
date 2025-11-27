@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Comida",
+      "translation": "Cosas que comemos para nutrición y energía",
+      "phonetic": "/koˈmidɑ/",
+      "example": "Comemos comida tres veces al día.",
+      "exampleTranslation": "Nutrición que consumimos"
+    },
+    {
+      "word": "Bebida",
+      "translation": "Un líquido que consumimos como bebida",
+      "phonetic": "/beˈβidɑ/",
+      "example": "Bebo agua todos los días.",
+      "exampleTranslation": "Un líquido para consumir"
+    },
+    {
+      "word": "Agua",
+      "translation": "Un líquido transparente esencial para la vida",
+      "phonetic": "/ˈɑɡwɑ/",
+      "example": "El agua es esencial para la salud.",
+      "exampleTranslation": "Un líquido incoloro y claro"
+    },
+    {
+      "word": "Pan",
+      "translation": "Un alimento básico hecho de harina y horneado",
+      "phonetic": "/pɑn/",
+      "example": "El pan se hace de trigo.",
+      "exampleTranslation": "Un producto de grano horneado"
+    },
+    {
+      "word": "Leche",
+      "translation": "Un líquido blanco de animales usado en cocina",
+      "phonetic": "/ˈlɛtʃɛ/",
+      "example": "La leche es buena para tus huesos.",
+      "exampleTranslation": "Un producto lácteo"
+    },
+    {
+      "word": "Café",
+      "translation": "Una bebida caliente hecha de granos tostados",
+      "phonetic": "/kɑˈfɛ/",
+      "example": "Bebo café por la mañana.",
+      "exampleTranslation": "Una bebida con cafeína"
+    },
+    {
+      "word": "Té",
+      "translation": "Una bebida caliente hecha de hojas",
+      "phonetic": "/tɛ/",
+      "example": "Ella bebe té verde.",
+      "exampleTranslation": "Una bebida de hojas infusionadas"
+    },
+    {
+      "word": "Arroz",
+      "translation": "Un grano básico comido en muchas culturas",
+      "phonetic": "/ɑˈrɾos/",
+      "example": "El arroz es un básico en Asia.",
+      "exampleTranslation": "Una comida de grano"
+    },
+    {
+      "word": "Manzana",
+      "translation": "Una fruta redonda que es roja, verde o amarilla",
+      "phonetic": "/mɑnˈθɑnɑ/",
+      "example": "Una manzana al día mantiene al doctor alejado.",
+      "exampleTranslation": "Una fruta común"
+    }
+  ]
+}

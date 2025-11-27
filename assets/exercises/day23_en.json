@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day23_mc1", "type": "multipleChoice", "question": "What is a kitchen?", "options": ["A room for sleeping", "A room for cooking and preparing food", "A room for entertainment", "A room for storage"], "correctOptionIndex": 1},
+    {"id": "day23_mc2", "type": "multipleChoice", "question": "What do you use to cut food?", "options": ["Spoon", "Fork", "Knife", "Plate"], "correctOptionIndex": 2},
+    {"id": "day23_fib1", "type": "fillInBlank", "question": "Fill in the blank: 'Use a ____ to cut the bread.'", "correctAnswer": "knife", "acceptableAlternatives": ["Knife"], "caseSensitive": false},
+    {"id": "day23_fib2", "type": "fillInBlank", "question": "Fill in the blank: 'I eat with a ____.'", "correctAnswer": "fork", "acceptableAlternatives": ["Fork"], "caseSensitive": false},
+    {"id": "day23_mc3", "type": "multipleChoice", "question": "What do you stir soup with?", "options": ["Knife", "Fork", "Spoon", "Pan"], "correctOptionIndex": 2},
+    {"id": "day23_trans1", "type": "translation", "question": "What is the process of preparing food with heat?", "targetText": "Food preparation with heat", "correctTranslation": "Cooking", "acceptableAlternatives": ["cooking"]},
+    {"id": "day23_fib3", "type": "fillInBlank", "question": "Fill in the blank: '____ the cake for 30 minutes.'", "correctAnswer": "bake", "acceptableAlternatives": ["Bake"], "caseSensitive": false},
+    {"id": "day23_mc4", "type": "multipleChoice", "question": "What do you boil water in?", "options": ["Pan", "Pot", "Plate", "Knife"], "correctOptionIndex": 1}
+  ]
+}
