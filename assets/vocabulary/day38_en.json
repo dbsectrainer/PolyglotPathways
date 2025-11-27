@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Sunny",
+      "translation": "Having bright sunlight with clear skies",
+      "phonetic": "/ˈsʌni/",
+      "example": "It's a sunny day, perfect for a picnic.",
+      "exampleTranslation": "Describing bright, clear weather"
+    },
+    {
+      "word": "Rainy",
+      "translation": "Having or characterized by rainfall",
+      "phonetic": "/ˈreɪni/",
+      "example": "Bring an umbrella, it's rainy outside.",
+      "exampleTranslation": "Describing wet weather conditions"
+    },
+    {
+      "word": "Cloudy",
+      "translation": "Covered with or having many clouds",
+      "phonetic": "/ˈklaʊdi/",
+      "example": "The sky is cloudy today.",
+      "exampleTranslation": "Describing overcast weather"
+    },
+    {
+      "word": "Windy",
+      "translation": "Having strong air movement or wind",
+      "phonetic": "/ˈwɪndi/",
+      "example": "It's too windy to fly a kite safely.",
+      "exampleTranslation": "Describing weather with strong winds"
+    },
+    {
+      "word": "Snow",
+      "translation": "Frozen white precipitation that falls in winter",
+      "phonetic": "/snoʊ/",
+      "example": "The snow is falling heavily.",
+      "exampleTranslation": "Referring to frozen precipitation"
+    },
+    {
+      "word": "Storm",
+      "translation": "Severe weather with strong winds, rain, or snow",
+      "phonetic": "/stɔːrm/",
+      "example": "A storm is approaching the coast.",
+      "exampleTranslation": "Describing severe weather conditions"
+    },
+    {
+      "word": "Temperature",
+      "translation": "The degree of heat or cold in the air",
+      "phonetic": "/ˈtemprətʃər/",
+      "example": "The temperature will drop tonight.",
+      "exampleTranslation": "Referring to heat measurement"
+    },
+    {
+      "word": "Wind",
+      "translation": "Moving air, especially a natural current",
+      "phonetic": "/wɪnd/",
+      "example": "The wind is blowing from the north.",
+      "exampleTranslation": "Describing air movement"
+    },
+    {
+      "word": "Rain",
+      "translation": "Water falling from clouds in drops",
+      "phonetic": "/reɪn/",
+      "example": "The rain started suddenly.",
+      "exampleTranslation": "Referring to water precipitation"
+    }
+  ]
+}

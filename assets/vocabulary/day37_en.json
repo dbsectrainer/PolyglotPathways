@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Spring",
+      "translation": "The season after winter when plants begin to grow",
+      "phonetic": "/sprɪŋ/",
+      "example": "Flowers bloom in spring.",
+      "exampleTranslation": "Describing the season of renewal and growth"
+    },
+    {
+      "word": "Summer",
+      "translation": "The warmest season of the year",
+      "phonetic": "/ˈsʌmər/",
+      "example": "We go to the beach in summer.",
+      "exampleTranslation": "Referring to the hot season"
+    },
+    {
+      "word": "Autumn",
+      "translation": "The season when leaves fall from trees, also called fall",
+      "phonetic": "/ˈɔːtəm/",
+      "example": "The leaves turn orange in autumn.",
+      "exampleTranslation": "Describing the harvest season"
+    },
+    {
+      "word": "Winter",
+      "translation": "The coldest season of the year",
+      "phonetic": "/ˈwɪntər/",
+      "example": "It snows in winter.",
+      "exampleTranslation": "Referring to the cold season"
+    },
+    {
+      "word": "Season",
+      "translation": "One of the four divisions of the year",
+      "phonetic": "/ˈsiːzən/",
+      "example": "What is your favorite season?",
+      "exampleTranslation": "Asking about preference for time of year"
+    },
+    {
+      "word": "Weather",
+      "translation": "The state of the atmosphere at a particular time and place",
+      "phonetic": "/ˈweðər/",
+      "example": "The weather is nice today.",
+      "exampleTranslation": "Describing atmospheric conditions"
+    },
+    {
+      "word": "Temperature",
+      "translation": "How hot or cold something is",
+      "phonetic": "/ˈtemprətʃər/",
+      "example": "The temperature is dropping.",
+      "exampleTranslation": "Referring to the degree of heat"
+    },
+    {
+      "word": "Leaves",
+      "translation": "The flat green parts of plants that grow from branches",
+      "phonetic": "/liːvz/",
+      "example": "The leaves change color in fall.",
+      "exampleTranslation": "Describing autumn foliage"
+    },
+    {
+      "word": "Snow",
+      "translation": "White frozen water that falls from the sky in winter",
+      "phonetic": "/snoʊ/",
+      "example": "Children play in the snow.",
+      "exampleTranslation": "Referring to winter precipitation"
+    }
+  ]
+}

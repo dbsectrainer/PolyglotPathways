@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Pet", "translation": "A domesticated animal kept for companionship", "phonetic": "/pɛt/", "example": "My pet is a cat.", "exampleTranslation": "A home animal"},
+    {"word": "Dog", "translation": "A loyal domesticated animal", "phonetic": "/dɔɡ/", "example": "The dog barks.", "exampleTranslation": "A loyal friend"},
+    {"word": "Cat", "translation": "A furry domesticated animal", "phonetic": "/kæt/", "example": "The cat meows.", "exampleTranslation": "A furry pet"},
+    {"word": "Rabbit", "translation": "A small hopping animal", "phonetic": "/ˈræbɪt/", "example": "The rabbit is fluffy.", "exampleTranslation": "A fluffy pet"},
+    {"word": "Hamster", "translation": "A small furry rodent", "phonetic": "/ˈhæmstər/", "example": "The hamster runs.", "exampleTranslation": "A small pet"},
+    {"word": "Fish", "translation": "An aquatic animal", "phonetic": "/fɪʃ/", "example": "The fish swims.", "exampleTranslation": "A water pet"},
+    {"word": "Bird", "translation": "An animal that flies", "phonetic": "/bɜːrd/", "example": "The bird sings.", "exampleTranslation": "A flying pet"},
+    {"word": "Turtle", "translation": "A slow animal with a shell", "phonetic": "/ˈtɜːrtəl/", "example": "The turtle is slow.", "exampleTranslation": "A shelled pet"},
+    {"word": "Parrot", "translation": "A colorful talking bird", "phonetic": "/ˈpærət/", "example": "The parrot talks.", "exampleTranslation": "A talking bird"}
+  ]
+}

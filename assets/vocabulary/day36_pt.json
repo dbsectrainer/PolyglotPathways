@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Somar",
+      "translation": "Combinar números ou quantidades para encontrar o total",
+      "phonetic": "/soˈmaɾ/",
+      "example": "Some três e cinco para obter oito.",
+      "exampleTranslation": "Combinando números para encontrar sua soma"
+    },
+    {
+      "word": "Subtrair",
+      "translation": "Tirar um número de outro",
+      "phonetic": "/subtɾaˈiɾ/",
+      "example": "Subtraia dois de sete para obter cinco.",
+      "exampleTranslation": "Tirando um número menor de um maior"
+    },
+    {
+      "word": "Multiplicar",
+      "translation": "Somar um número a si mesmo um certo número de vezes",
+      "phonetic": "/muwtipliˈkaɾ/",
+      "example": "Multiplique três por quatro para obter doze.",
+      "exampleTranslation": "Adição repetida do mesmo número"
+    },
+    {
+      "word": "Dividir",
+      "translation": "Dividir um número em partes iguais",
+      "phonetic": "/dʒiviˈdʒiɾ/",
+      "example": "Divida dez por dois para obter cinco.",
+      "exampleTranslation": "Dividindo uma quantidade em porções iguais"
+    },
+    {
+      "word": "Igual",
+      "translation": "Ser o mesmo em quantidade, tamanho ou valor",
+      "phonetic": "/iˈɡwaw/",
+      "example": "Cinco mais cinco é igual a dez.",
+      "exampleTranslation": "Mostrando que duas quantidades são as mesmas"
+    },
+    {
+      "word": "Contar",
+      "translation": "Dizer números em ordem ou encontrar o número total",
+      "phonetic": "/kõˈtaɾ/",
+      "example": "Conte de um a dez.",
+      "exampleTranslation": "Nomeando números em sequência"
+    },
+    {
+      "word": "Número",
+      "translation": "Um valor matemático usado para contar ou medir",
+      "phonetic": "/ˈnumeɾu/",
+      "example": "Sete é meu número favorito.",
+      "exampleTranslation": "Referindo-se a um valor numérico"
+    },
+    {
+      "word": "Total",
+      "translation": "A soma ou quantidade completa",
+      "phonetic": "/toˈtaw/",
+      "example": "O total de seis e quatro é dez.",
+      "exampleTranslation": "A soma final após adicionar"
+    },
+    {
+      "word": "É igual a",
+      "translation": "O símbolo ou palavra mostrando que dois valores são os mesmos",
+      "phonetic": "/ɛ iˈɡwaw a/",
+      "example": "Dois mais dois é igual a quatro.",
+      "exampleTranslation": "Indicando equivalência matemática"
+    }
+  ]
+}

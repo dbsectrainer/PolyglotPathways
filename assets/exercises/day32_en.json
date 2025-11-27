@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day32_mc1", "type": "multipleChoice", "question": "What is a pet?", "options": ["A wild animal", "A domesticated animal kept for companionship", "A food", "A plant"], "correctOptionIndex": 1},
+    {"id": "day32_mc2", "type": "multipleChoice", "question": "Which is a loyal domesticated animal?", "options": ["Lion", "Dog", "Tiger", "Bear"], "correctOptionIndex": 1},
+    {"id": "day32_fib1", "type": "fillInBlank", "question": "Fill in the blank: 'My pet is a ____.'", "correctAnswer": "cat", "acceptableAlternatives": ["Cat"], "caseSensitive": false},
+    {"id": "day32_fib2", "type": "fillInBlank", "question": "Fill in the blank: 'The ____ barks.'", "correctAnswer": "dog", "acceptableAlternatives": ["Dog"], "caseSensitive": false},
+    {"id": "day32_mc3", "type": "multipleChoice", "question": "Which is a small hopping animal?", "options": ["Fish", "Rabbit", "Bird", "Turtle"], "correctOptionIndex": 1},
+    {"id": "day32_trans1", "type": "translation", "question": "What is a slow animal with a shell?", "targetText": "A slow animal with a shell", "correctTranslation": "Turtle", "acceptableAlternatives": ["turtle"]},
+    {"id": "day32_fib3", "type": "fillInBlank", "question": "Fill in the blank: 'The ____ swims.'", "correctAnswer": "fish", "acceptableAlternatives": ["Fish"], "caseSensitive": false},
+    {"id": "day32_mc4", "type": "multipleChoice", "question": "Which is a colorful talking bird?", "options": ["Rabbit", "Hamster", "Parrot", "Turtle"], "correctOptionIndex": 2}
+  ]
+}

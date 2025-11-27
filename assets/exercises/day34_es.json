@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day34_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué forma no tiene esquinas?",
+      "options": [
+        "Cuadrado",
+        "Círculo",
+        "Triángulo",
+        "Rectángulo"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day34_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué forma tiene tres lados?",
+      "options": [
+        "Círculo",
+        "Cuadrado",
+        "Triángulo",
+        "Óvalo"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day34_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Un ____ tiene cuatro lados iguales y cuatro ángulos rectos.'",
+      "correctAnswer": "cuadrado",
+      "acceptableAlternatives": ["Cuadrado"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day34_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Un ____ es una forma 3D con seis caras cuadradas.'",
+      "correctAnswer": "cubo",
+      "acceptableAlternatives": ["Cubo"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day34_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Circle",
+      "correctTranslation": "Círculo",
+      "acceptableAlternatives": ["círculo"]
+    },
+    {
+      "id": "day34_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué forma es como un círculo estirado?",
+      "options": [
+        "Diamante",
+        "Óvalo",
+        "Estrella",
+        "Cubo"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day34_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Una ____ tiene múltiples puntas que irradian desde el centro.'",
+      "correctAnswer": "estrella",
+      "acceptableAlternatives": ["Estrella"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day34_mc4",
+      "type": "multipleChoice",
+      "question": "¿Cuál es una forma 3D?",
+      "options": [
+        "Triángulo",
+        "Círculo",
+        "Pirámide",
+        "Cuadrado"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

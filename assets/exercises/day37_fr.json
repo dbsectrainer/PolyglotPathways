@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day37_mc1",
+      "type": "multipleChoice",
+      "question": "Quelle saison vient après l'hiver?",
+      "options": [
+        "Automne",
+        "Printemps",
+        "Été",
+        "Hiver"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day37_mc2",
+      "type": "multipleChoice",
+      "question": "Quelle saison est la plus chaude?",
+      "options": [
+        "Printemps",
+        "Automne",
+        "Été",
+        "Hiver"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day37_fib1",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'Les feuilles tombent des arbres en ____.'",
+      "correctAnswer": "automne",
+      "acceptableAlternatives": ["Automne"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day37_fib2",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: \"L'eau gelée blanche qui tombe du ciel s'appelle ____.\"",
+      "correctAnswer": "neige",
+      "acceptableAlternatives": ["Neige"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day37_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Winter",
+      "correctTranslation": "Hiver",
+      "acceptableAlternatives": ["hiver"]
+    },
+    {
+      "id": "day37_mc3",
+      "type": "multipleChoice",
+      "question": "Qu'est-ce qui décrit à quel point quelque chose est chaud ou froid?",
+      "options": [
+        "Saison",
+        "Temps",
+        "Température",
+        "Feuilles"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day37_fib3",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'Les fleurs fleurissent au ____.'",
+      "correctAnswer": "printemps",
+      "acceptableAlternatives": ["Printemps"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day37_mc4",
+      "type": "multipleChoice",
+      "question": "Combien de saisons y a-t-il dans une année?",
+      "options": [
+        "Deux",
+        "Trois",
+        "Quatre",
+        "Cinq"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

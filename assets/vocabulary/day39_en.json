@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Computer",
+      "translation": "An electronic device for processing and storing data",
+      "phonetic": "/kəmˈpjuːtər/",
+      "example": "I use my computer for work and study.",
+      "exampleTranslation": "Describing a device for digital tasks"
+    },
+    {
+      "word": "Phone",
+      "translation": "A device used to communicate with others by voice",
+      "phonetic": "/foʊn/",
+      "example": "I'll call you on my phone later.",
+      "exampleTranslation": "Referring to a communication device"
+    },
+    {
+      "word": "Television",
+      "translation": "A device that receives and displays broadcast programs",
+      "phonetic": "/ˈteləˌvɪʒən/",
+      "example": "We watch the news on television.",
+      "exampleTranslation": "Describing a device for viewing shows"
+    },
+    {
+      "word": "Internet",
+      "translation": "A global network connecting computers worldwide",
+      "phonetic": "/ˈɪntərˌnet/",
+      "example": "I found the information on the internet.",
+      "exampleTranslation": "Referring to the worldwide network"
+    },
+    {
+      "word": "Website",
+      "translation": "A collection of web pages on the internet",
+      "phonetic": "/ˈwebˌsaɪt/",
+      "example": "Visit our website for more details.",
+      "exampleTranslation": "Directing someone to an online location"
+    },
+    {
+      "word": "Email",
+      "translation": "Electronic mail sent over the internet",
+      "phonetic": "/ˈiːmeɪl/",
+      "example": "Send me an email with the information.",
+      "exampleTranslation": "Requesting digital correspondence"
+    },
+    {
+      "word": "Program",
+      "translation": "Software that runs on a computer or device",
+      "phonetic": "/ˈproʊɡræm/",
+      "example": "This program helps edit photos.",
+      "exampleTranslation": "Describing computer software"
+    },
+    {
+      "word": "Screen",
+      "translation": "The display surface of a device showing images and text",
+      "phonetic": "/skriːn/",
+      "example": "The screen on my phone is cracked.",
+      "exampleTranslation": "Referring to a device's display"
+    },
+    {
+      "word": "App",
+      "translation": "A software application, especially on a mobile device",
+      "phonetic": "/æp/",
+      "example": "Download this app to track your fitness.",
+      "exampleTranslation": "Recommending mobile software"
+    }
+  ]
+}

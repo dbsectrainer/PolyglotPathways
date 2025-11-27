@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Coche",
+      "translation": "Un vehículo de carretera con cuatro ruedas impulsado por un motor",
+      "phonetic": "/ˈkotʃe/",
+      "example": "Conduzco mi coche al trabajo todos los días.",
+      "exampleTranslation": "Describiendo el transporte personal"
+    },
+    {
+      "word": "Autobús",
+      "translation": "Un vehículo grande que transporta muchos pasajeros",
+      "phonetic": "/awtoˈβus/",
+      "example": "El autobús llega a las 8 en punto.",
+      "exampleTranslation": "Refiriéndose al transporte público"
+    },
+    {
+      "word": "Tren",
+      "translation": "Una serie conectada de vagones de ferrocarril arrastrados por una locomotora",
+      "phonetic": "/tɾen/",
+      "example": "Tomamos el tren a la ciudad.",
+      "exampleTranslation": "Describiendo el transporte ferroviario"
+    },
+    {
+      "word": "Avión",
+      "translation": "Un vehículo volador motorizado con alas",
+      "phonetic": "/aˈβjon/",
+      "example": "El avión vuela sobre el océano.",
+      "exampleTranslation": "Refiriéndose al transporte aéreo"
+    },
+    {
+      "word": "Barco",
+      "translation": "Una embarcación diseñada para flotar y viajar en el agua",
+      "phonetic": "/ˈbaɾko/",
+      "example": "Navegamos en un barco por el lago.",
+      "exampleTranslation": "Describiendo el transporte acuático"
+    },
+    {
+      "word": "Bicicleta",
+      "translation": "Un vehículo de dos ruedas impulsado por pedales",
+      "phonetic": "/biθiˈkleta/",
+      "example": "Ella va en bicicleta a la escuela.",
+      "exampleTranslation": "Refiriéndose al transporte a pedal"
+    },
+    {
+      "word": "Motocicleta",
+      "translation": "Un vehículo de dos ruedas impulsado por un motor",
+      "phonetic": "/motoθiˈkleta/",
+      "example": "Él tiene una motocicleta rápida.",
+      "exampleTranslation": "Describiendo el transporte motorizado de dos ruedas"
+    },
+    {
+      "word": "Taxi",
+      "translation": "Un coche que lleva pasajeros por una tarifa",
+      "phonetic": "/ˈtaksi/",
+      "example": "Llamé un taxi al aeropuerto.",
+      "exampleTranslation": "Refiriéndose al transporte de pasajeros pagado"
+    },
+    {
+      "word": "Camión",
+      "translation": "Un vehículo motor grande para transportar mercancías",
+      "phonetic": "/kaˈmjon/",
+      "example": "El camión entrega paquetes.",
+      "exampleTranslation": "Describiendo el transporte de carga"
+    }
+  ]
+}

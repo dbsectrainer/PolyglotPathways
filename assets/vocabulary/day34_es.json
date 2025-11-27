@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Círculo",
+      "translation": "Una forma redonda sin esquinas ni bordes",
+      "phonetic": "/ˈsiɾkulo/",
+      "example": "Dibuja un círculo en el papel.",
+      "exampleTranslation": "Creando una forma redonda sin esquinas"
+    },
+    {
+      "word": "Cuadrado",
+      "translation": "Una forma con cuatro lados iguales y cuatro ángulos rectos",
+      "phonetic": "/kwaˈðɾaðo/",
+      "example": "La caja tiene forma de cuadrado.",
+      "exampleTranslation": "Describiendo un objeto con cuatro lados iguales"
+    },
+    {
+      "word": "Triángulo",
+      "translation": "Una forma con tres lados y tres esquinas",
+      "phonetic": "/tɾiˈaŋɡulo/",
+      "example": "Un triángulo tiene tres puntos.",
+      "exampleTranslation": "Identificando una forma geométrica de tres lados"
+    },
+    {
+      "word": "Rectángulo",
+      "translation": "Una forma con cuatro lados y cuatro ángulos rectos, con lados opuestos iguales",
+      "phonetic": "/rekˈtaŋɡulo/",
+      "example": "La puerta es un rectángulo.",
+      "exampleTranslation": "Describiendo una forma alargada de cuatro lados"
+    },
+    {
+      "word": "Estrella",
+      "translation": "Una forma con múltiples puntas que irradian desde el centro",
+      "phonetic": "/esˈtɾeʎa/",
+      "example": "Ella dibujó una estrella de cinco puntas.",
+      "exampleTranslation": "Creando una forma con bordes puntiagudos"
+    },
+    {
+      "word": "Diamante",
+      "translation": "Una forma con cuatro lados iguales formando dos ángulos agudos opuestos",
+      "phonetic": "/djaˈmante/",
+      "example": "La cometa tiene forma de diamante.",
+      "exampleTranslation": "Describiendo un objeto con forma de rombo"
+    },
+    {
+      "word": "Óvalo",
+      "translation": "Una forma redonda alargada, como un círculo estirado",
+      "phonetic": "/ˈoβalo/",
+      "example": "Un huevo tiene forma ovalada.",
+      "exampleTranslation": "Describiendo una forma elíptica"
+    },
+    {
+      "word": "Cubo",
+      "translation": "Una forma tridimensional con seis caras cuadradas",
+      "phonetic": "/ˈkuβo/",
+      "example": "El dado es un cubo pequeño.",
+      "exampleTranslation": "Identificando un sólido geométrico 3D"
+    },
+    {
+      "word": "Pirámide",
+      "translation": "Una forma tridimensional con una base y lados triangulares que se encuentran en un punto",
+      "phonetic": "/piˈɾamiðe/",
+      "example": "Las antiguas pirámides de Egipto son famosas.",
+      "exampleTranslation": "Refiriéndose a una estructura 3D puntiaguda"
+    }
+  ]
+}

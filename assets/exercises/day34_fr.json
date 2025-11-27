@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day34_mc1",
+      "type": "multipleChoice",
+      "question": "Quelle forme n'a pas de coins?",
+      "options": [
+        "Carré",
+        "Cercle",
+        "Triangle",
+        "Rectangle"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day34_mc2",
+      "type": "multipleChoice",
+      "question": "Quelle forme a trois côtés?",
+      "options": [
+        "Cercle",
+        "Carré",
+        "Triangle",
+        "Ovale"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day34_fib1",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'Un ____ a quatre côtés égaux et quatre angles droits.'",
+      "correctAnswer": "carré",
+      "acceptableAlternatives": ["Carré"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day34_fib2",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'Un ____ est une forme 3D avec six faces carrées.'",
+      "correctAnswer": "cube",
+      "acceptableAlternatives": ["Cube"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day34_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Circle",
+      "correctTranslation": "Cercle",
+      "acceptableAlternatives": ["cercle"]
+    },
+    {
+      "id": "day34_mc3",
+      "type": "multipleChoice",
+      "question": "Quelle forme ressemble à un cercle étiré?",
+      "options": [
+        "Losange",
+        "Ovale",
+        "Étoile",
+        "Cube"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day34_fib3",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'Une ____ a plusieurs pointes rayonnant depuis le centre.'",
+      "correctAnswer": "étoile",
+      "acceptableAlternatives": ["Étoile", "etoile"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day34_mc4",
+      "type": "multipleChoice",
+      "question": "Quelle est une forme 3D?",
+      "options": [
+        "Triangle",
+        "Cercle",
+        "Pyramide",
+        "Carré"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

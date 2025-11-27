@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day40_mc1",
+      "type": "multipleChoice",
+      "question": "O que tem quatro rodas e é movido por um motor?",
+      "options": [
+        "Bicicleta",
+        "Carro",
+        "Barco",
+        "Trem"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day40_mc2",
+      "type": "multipleChoice",
+      "question": "O que voa pelo ar com asas?",
+      "options": [
+        "Trem",
+        "Ônibus",
+        "Avião",
+        "Caminhão"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day40_fib1",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Uma ____ é um veículo de duas rodas movido por pedais.'",
+      "correctAnswer": "bicicleta",
+      "acceptableAlternatives": ["Bicicleta", "bici", "Bici"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day40_fib2",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Chamei um ____ para me levar ao aeroporto.'",
+      "correctAnswer": "táxi",
+      "acceptableAlternatives": ["Táxi", "taxi", "Taxi"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day40_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Train",
+      "correctTranslation": "Trem",
+      "acceptableAlternatives": ["trem"]
+    },
+    {
+      "id": "day40_mc3",
+      "type": "multipleChoice",
+      "question": "O que viaja na água?",
+      "options": [
+        "Avião",
+        "Barco",
+        "Ônibus",
+        "Bicicleta"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day40_fib3",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Um veículo grande que transporta mercadorias se chama ____.'",
+      "correctAnswer": "caminhão",
+      "acceptableAlternatives": ["Caminhão"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day40_mc4",
+      "type": "multipleChoice",
+      "question": "O que é um veículo de duas rodas com motor?",
+      "options": [
+        "Bicicleta",
+        "Carro",
+        "Motocicleta",
+        "Ônibus"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day35_mc1",
+      "type": "multipleChoice",
+      "question": "Quantos dedos há em uma mão?",
+      "options": [
+        "Quatro",
+        "Cinco",
+        "Seis",
+        "Sete"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day35_mc2",
+      "type": "multipleChoice",
+      "question": "Quantos dias há em uma semana?",
+      "options": [
+        "Cinco",
+        "Seis",
+        "Sete",
+        "Oito"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day35_fib1",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Um carro tem ____ rodas.'",
+      "correctAnswer": "quatro",
+      "acceptableAlternatives": ["Quatro", "4"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day35_fib2",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Um polvo tem ____ pernas.'",
+      "correctAnswer": "oito",
+      "acceptableAlternatives": ["Oito", "8"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day35_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Three",
+      "correctTranslation": "Três",
+      "acceptableAlternatives": ["três", "3"]
+    },
+    {
+      "id": "day35_mc3",
+      "type": "multipleChoice",
+      "question": "O que vem depois do oito?",
+      "options": [
+        "Sete",
+        "Nove",
+        "Seis",
+        "Dez"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day35_fib3",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Eu tenho ____ maçã.' (singular)",
+      "correctAnswer": "uma",
+      "acceptableAlternatives": ["Uma", "1"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day35_mc4",
+      "type": "multipleChoice",
+      "question": "Qual número representa um par?",
+      "options": [
+        "Um",
+        "Dois",
+        "Três",
+        "Quatro"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

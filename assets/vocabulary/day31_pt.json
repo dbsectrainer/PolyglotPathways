@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Animal", "translation": "Uma criatura vivente", "phonetic": "/ɑniˈmɑl/", "example": "O animal está correndo.", "exampleTranslation": "Um ser vivo"},
+    {"word": "Leão", "translation": "Um grande felino selvagem", "phonetic": "/leˈɑ̃w̃/", "example": "O leão é forte.", "exampleTranslation": "Um grande predador"},
+    {"word": "Elefante", "translation": "Um animal grande com uma tromba", "phonetic": "/ɛlɛˈfɑ̃tɪ/", "example": "O elefante é cinza.", "exampleTranslation": "Um grande herbívoro"},
+    {"word": "Macaco", "translation": "Um animal primata", "phonetic": "/mɑˈkɑku/", "example": "O macaco balança.", "exampleTranslation": "Um primata"},
+    {"word": "Zebra", "translation": "Um cavalo selvagem listrado", "phonetic": "/ˈzɛβɾɑ/", "example": "A zebra tem listras.", "exampleTranslation": "Um animal listrado"},
+    {"word": "Girafa", "translation": "Um animal alto com pescoço longo", "phonetic": "/ʒiˈɾɑfɑ/", "example": "A girafa é alta.", "exampleTranslation": "Um animal de pescoço longo"},
+    {"word": "Tigre", "translation": "Um felino selvagem listrado", "phonetic": "/ˈtiɡɾɪ/", "example": "O tigre é laranja.", "exampleTranslation": "Um predador listrado"},
+    {"word": "Urso", "translation": "Um animal grande e peludo", "phonetic": "/ˈuɾsu/", "example": "O urso é forte.", "exampleTranslation": "Um animal grande e peludo"},
+    {"word": "Lobo", "translation": "Um cachorro selvagem", "phonetic": "/ˈlobu/", "example": "O lobo uiva.", "exampleTranslation": "Um canino selvagem"}
+  ]
+}

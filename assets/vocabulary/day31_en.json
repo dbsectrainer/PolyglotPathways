@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Animal", "translation": "A living creature", "phonetic": "/ˈænɪməl/", "example": "The animal is running.", "exampleTranslation": "A living being"},
+    {"word": "Lion", "translation": "A large wild cat", "phonetic": "/ˈlaɪən/", "example": "The lion is strong.", "exampleTranslation": "A big predator"},
+    {"word": "Elephant", "translation": "A large animal with a trunk", "phonetic": "/ˈɛlɪfənt/", "example": "The elephant is gray.", "exampleTranslation": "A big herbivore"},
+    {"word": "Monkey", "translation": "A primate animal", "phonetic": "/ˈmʌŋki/", "example": "The monkey swings.", "exampleTranslation": "A primate"},
+    {"word": "Zebra", "translation": "A striped wild horse", "phonetic": "/ˈzɛbrə/", "example": "The zebra has stripes.", "exampleTranslation": "A striped animal"},
+    {"word": "Giraffe", "translation": "A tall animal with a long neck", "phonetic": "/dʒɪˈræf/", "example": "The giraffe is tall.", "exampleTranslation": "A long-necked animal"},
+    {"word": "Tiger", "translation": "A striped wild cat", "phonetic": "/ˈtaɪɡər/", "example": "The tiger is orange.", "exampleTranslation": "A striped predator"},
+    {"word": "Bear", "translation": "A large furry animal", "phonetic": "/bɛr/", "example": "The bear is strong.", "exampleTranslation": "A big furry animal"},
+    {"word": "Wolf", "translation": "A wild dog", "phonetic": "/wʊlf/", "example": "The wolf howls.", "exampleTranslation": "A wild canine"}
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Ensolarado",
+      "translation": "Que tem luz solar brilhante com céus claros",
+      "phonetic": "/ẽsolaˈɾadu/",
+      "example": "É um dia ensolarado, perfeito para um piquenique.",
+      "exampleTranslation": "Descrevendo clima claro e brilhante"
+    },
+    {
+      "word": "Chuvoso",
+      "translation": "Que tem ou é caracterizado por chuva",
+      "phonetic": "/ʃuˈvozu/",
+      "example": "Leve um guarda-chuva, está chuvoso lá fora.",
+      "exampleTranslation": "Descrevendo condições climáticas úmidas"
+    },
+    {
+      "word": "Nublado",
+      "translation": "Coberto com ou tendo muitas nuvens",
+      "phonetic": "/nuˈbladu/",
+      "example": "O céu está nublado hoje.",
+      "exampleTranslation": "Descrevendo clima nublado"
+    },
+    {
+      "word": "Ventoso",
+      "translation": "Que tem forte movimento de ar ou vento",
+      "phonetic": "/vẽˈtozu/",
+      "example": "Está muito ventoso para empinar uma pipa com segurança.",
+      "exampleTranslation": "Descrevendo clima com ventos fortes"
+    },
+    {
+      "word": "Neve",
+      "translation": "Precipitação branca congelada que cai no inverno",
+      "phonetic": "/ˈnevi/",
+      "example": "A neve está caindo fortemente.",
+      "exampleTranslation": "Referindo-se à precipitação congelada"
+    },
+    {
+      "word": "Tempestade",
+      "translation": "Clima severo com ventos fortes, chuva ou neve",
+      "phonetic": "/tẽpesˈtadʒi/",
+      "example": "Uma tempestade está se aproximando da costa.",
+      "exampleTranslation": "Descrevendo condições climáticas severas"
+    },
+    {
+      "word": "Temperatura",
+      "translation": "O grau de calor ou frio no ar",
+      "phonetic": "/tẽpeɾɐˈtuɾɐ/",
+      "example": "A temperatura vai cair esta noite.",
+      "exampleTranslation": "Referindo-se à medição de calor"
+    },
+    {
+      "word": "Vento",
+      "translation": "Ar em movimento, especialmente uma corrente natural",
+      "phonetic": "/ˈvẽtu/",
+      "example": "O vento está soprando do norte.",
+      "exampleTranslation": "Descrevendo o movimento do ar"
+    },
+    {
+      "word": "Chuva",
+      "translation": "Água caindo das nuvens em gotas",
+      "phonetic": "/ˈʃuvɐ/",
+      "example": "A chuva começou de repente.",
+      "exampleTranslation": "Referindo-se à precipitação de água"
+    }
+  ]
+}

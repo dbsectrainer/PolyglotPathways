@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Farbe", "translation": "Das visuelle Attribut der Lichtwahrnehmung", "phonetic": "/ˈfɑɹbə/", "example": "Die Farbe ist rot.", "exampleTranslation": "Ein visuelles Attribut"},
+    {"word": "Rot", "translation": "Eine Primärfarbe wie Blut", "phonetic": "/ʁoːt/", "example": "Der Apfel ist rot.", "exampleTranslation": "Warme Farbe"},
+    {"word": "Blau", "translation": "Eine kühle Farbe wie der Himmel", "phonetic": "/blaʊ̯/", "example": "Der Himmel ist blau.", "exampleTranslation": "Kühle Farbe"},
+    {"word": "Gelb", "translation": "Eine helle Farbe wie die Sonne", "phonetic": "/ɡɛlp/", "example": "Die Sonne ist gelb.", "exampleTranslation": "Helle Farbe"},
+    {"word": "Grün", "translation": "Eine Farbe wie Gras und Bäume", "phonetic": "/ɡʁʏn/", "example": "Das Gras ist grün.", "exampleTranslation": "Natürliche Farbe"},
+    {"word": "Schwarz", "translation": "Die dunkelste Farbe", "phonetic": "/ʃvaɹts/", "example": "Die Nacht ist schwarz.", "exampleTranslation": "Dunkle Farbe"},
+    {"word": "Weiß", "translation": "Die hellste Farbe", "phonetic": "/vaɪ̯s/", "example": "Schnee ist weiß.", "exampleTranslation": "Helle Farbe"},
+    {"word": "Orange", "translation": "Eine Farbe zwischen Rot und Gelb", "phonetic": "/ɔʁɑ̃ʒ/", "example": "Die Orange ist orange.", "exampleTranslation": "Gemischte Farbe"},
+    {"word": "Violett", "translation": "Eine Farbe, die Rot und Blau mischt", "phonetic": "/vjoˈlɛt/", "example": "Die Blume ist violett.", "exampleTranslation": "Gemischte Farbe"}
+  ]
+}

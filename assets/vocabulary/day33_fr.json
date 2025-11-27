@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Couleur", "translation": "L'attribut visuel de la perception de la lumière", "phonetic": "/kuˈlœʁ/", "example": "La couleur est rouge.", "exampleTranslation": "Un attribut visuel"},
+    {"word": "Rouge", "translation": "Une couleur primaire comme le sang", "phonetic": "/ʁuʒ/", "example": "La pomme est rouge.", "exampleTranslation": "Couleur chaude"},
+    {"word": "Bleu", "translation": "Une couleur fraîche comme le ciel", "phonetic": "/blø/", "example": "Le ciel est bleu.", "exampleTranslation": "Couleur fraîche"},
+    {"word": "Jaune", "translation": "Une couleur brillante comme le soleil", "phonetic": "/ʒon/", "example": "Le soleil est jaune.", "exampleTranslation": "Couleur brillante"},
+    {"word": "Vert", "translation": "Une couleur comme l'herbe et les arbres", "phonetic": "/vɛʁ/", "example": "L'herbe est verte.", "exampleTranslation": "Couleur naturelle"},
+    {"word": "Noir", "translation": "La couleur la plus foncée", "phonetic": "/nwaʁ/", "example": "La nuit est noire.", "exampleTranslation": "Couleur foncée"},
+    {"word": "Blanc", "translation": "La couleur la plus claire", "phonetic": "/blɑ̃/", "example": "La neige est blanche.", "exampleTranslation": "Couleur claire"},
+    {"word": "Orange", "translation": "Une couleur entre le rouge et le jaune", "phonetic": "/ɔʁɑ̃ʒ/", "example": "L'orange est orange.", "exampleTranslation": "Couleur mélangée"},
+    {"word": "Violet", "translation": "Une couleur mélangeant le rouge et le bleu", "phonetic": "/vjɔˈlɛ/", "example": "La fleur est violette.", "exampleTranslation": "Couleur mélangée"}
+  ]
+}

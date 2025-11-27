@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day31_mc1", "type": "multipleChoice", "question": "Was ist ein Tier?", "options": ["Eine Pflanze", "Eine lebende Kreatur", "Ein Gebäude", "Essen"], "correctOptionIndex": 1},
+    {"id": "day31_mc2", "type": "multipleChoice", "question": "Welches ist eine große wilde Katze?", "options": ["Elefant", "Löwe", "Bär", "Wolf"], "correctOptionIndex": 1},
+    {"id": "day31_fib1", "type": "fillInBlank", "question": "Füllen Sie aus: 'Der ____ ist stark.'", "correctAnswer": "löwe", "acceptableAlternatives": ["Löwe"], "caseSensitive": false},
+    {"id": "day31_fib2", "type": "fillInBlank", "question": "Füllen Sie aus: 'Der ____ ist grau.'", "correctAnswer": "elefant", "acceptableAlternatives": ["Elefant"], "caseSensitive": false},
+    {"id": "day31_mc3", "type": "multipleChoice", "question": "Welches Tier hat einen langen Hals?", "options": ["Löwe", "Giraffe", "Bär", "Zebra"], "correctOptionIndex": 1},
+    {"id": "day31_trans1", "type": "translation", "question": "Wie heißt ein gestreiftes wildes Pferd?", "targetText": "Ein gestreiftes wildes Pferd", "correctTranslation": "Zebra", "acceptableAlternatives": ["zebra"]},
+    {"id": "day31_fib3", "type": "fillInBlank", "question": "Füllen Sie aus: 'Der ____ heult.'", "correctAnswer": "wolf", "acceptableAlternatives": ["Wolf"], "caseSensitive": false},
+    {"id": "day31_mc4", "type": "multipleChoice", "question": "Welches Tier ist ein Primat?", "options": ["Tiger", "Affe", "Giraffe", "Elefant"], "correctOptionIndex": 1}
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day36_mc1",
+      "type": "multipleChoice",
+      "question": "What operation combines numbers to find the total?",
+      "options": [
+        "Subtract",
+        "Add",
+        "Divide",
+        "Multiply"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day36_mc2",
+      "type": "multipleChoice",
+      "question": "What does 5 + 5 equal?",
+      "options": [
+        "Five",
+        "Fifteen",
+        "Ten",
+        "Twenty"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day36_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'To ____ means to split a number into equal parts.'",
+      "correctAnswer": "divide",
+      "acceptableAlternatives": ["Divide"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day36_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Two plus two ____ four.'",
+      "correctAnswer": "equals",
+      "acceptableAlternatives": ["Equals", "is"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day36_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Multiply",
+      "correctTranslation": "Multiply",
+      "acceptableAlternatives": ["Times"]
+    },
+    {
+      "id": "day36_mc3",
+      "type": "multipleChoice",
+      "question": "What is 10 - 3?",
+      "options": [
+        "Six",
+        "Seven",
+        "Eight",
+        "Nine"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day36_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'A ____ is a mathematical value used for counting.'",
+      "correctAnswer": "number",
+      "acceptableAlternatives": ["Number"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day36_mc4",
+      "type": "multipleChoice",
+      "question": "Which operation means repeated addition?",
+      "options": [
+        "Subtract",
+        "Divide",
+        "Multiply",
+        "Count"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

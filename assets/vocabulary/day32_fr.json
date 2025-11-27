@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Animal de compagnie", "translation": "Un animal domestique gardé pour la compagnie", "phonetic": "/ɑniˈmal dəˌkɔ̃ˈpɑɲ/", "example": "Mon animal de compagnie est un chat.", "exampleTranslation": "Un animal domestique"},
+    {"word": "Chien", "translation": "Un animal domestique loyal", "phonetic": "/ʃjɛ̃/", "example": "Le chien aboie.", "exampleTranslation": "Un ami loyal"},
+    {"word": "Chat", "translation": "Un animal domestique poilu", "phonetic": "/ʃa/", "example": "Le chat miaule.", "exampleTranslation": "Un animal poilu"},
+    {"word": "Lapin", "translation": "Un petit animal qui saute", "phonetic": "/laˈpɛ̃/", "example": "Le lapin est doux.", "exampleTranslation": "Un petit animal doux"},
+    {"word": "Hamster", "translation": "Un petit rongeur poilu", "phonetic": "/ˈæmstɚ/", "example": "Le hamster court.", "exampleTranslation": "Un petit animal de compagnie"},
+    {"word": "Poisson", "translation": "Un animal aquatique", "phonetic": "/pwɑˈsɔ̃/", "example": "Le poisson nage.", "exampleTranslation": "Un animal aquatique"},
+    {"word": "Oiseau", "translation": "Un animal qui vole", "phonetic": "/waˈzo/", "example": "L'oiseau chante.", "exampleTranslation": "Un animal volant"},
+    {"word": "Tortue", "translation": "Un animal lent avec une coquille", "phonetic": "/toɾˈty/", "example": "La tortue est lente.", "exampleTranslation": "Un animal avec une coquille"},
+    {"word": "Perroquet", "translation": "Un oiseau coloré qui parle", "phonetic": "/pɛˈɾokeɪ/", "example": "Le perroquet parle.", "exampleTranslation": "Un oiseau qui parle"}
+  ]
+}

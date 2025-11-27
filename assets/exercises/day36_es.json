@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day36_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué operación combina números para encontrar el total?",
+      "options": [
+        "Restar",
+        "Sumar",
+        "Dividir",
+        "Multiplicar"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day36_mc2",
+      "type": "multipleChoice",
+      "question": "¿Cuánto es 5 + 5?",
+      "options": [
+        "Cinco",
+        "Quince",
+        "Diez",
+        "Veinte"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day36_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '____ significa dividir un número en partes iguales.'",
+      "correctAnswer": "Dividir",
+      "acceptableAlternatives": ["dividir"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day36_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Dos más dos ____ cuatro.'",
+      "correctAnswer": "es igual a",
+      "acceptableAlternatives": ["igual a", "es", "son"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day36_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Multiply",
+      "correctTranslation": "Multiplicar",
+      "acceptableAlternatives": ["multiplicar"]
+    },
+    {
+      "id": "day36_mc3",
+      "type": "multipleChoice",
+      "question": "¿Cuánto es 10 - 3?",
+      "options": [
+        "Seis",
+        "Siete",
+        "Ocho",
+        "Nueve"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day36_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Un ____ es un valor matemático usado para contar.'",
+      "correctAnswer": "número",
+      "acceptableAlternatives": ["Número"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day36_mc4",
+      "type": "multipleChoice",
+      "question": "¿Qué operación significa adición repetida?",
+      "options": [
+        "Restar",
+        "Dividir",
+        "Multiplicar",
+        "Contar"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

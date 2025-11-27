@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day33_mc1", "type": "multipleChoice", "question": "Qu'est-ce qu'une couleur?", "options": ["Une forme", "L'attribut visuel de la perception de la lumière", "Un nombre", "Un goût"], "correctOptionIndex": 1},
+    {"id": "day33_mc2", "type": "multipleChoice", "question": "Laquelle est une couleur fraîche?", "options": ["Rouge", "Jaune", "Bleu", "Orange"], "correctOptionIndex": 2},
+    {"id": "day33_fib1", "type": "fillInBlank", "question": "Complétez: 'La pomme est ____.'", "correctAnswer": "rouge", "acceptableAlternatives": ["Rouge"], "caseSensitive": false},
+    {"id": "day33_fib2", "type": "fillInBlank", "question": "Complétez: 'Le ciel est ____.'", "correctAnswer": "bleu", "acceptableAlternatives": ["Bleu"], "caseSensitive": false},
+    {"id": "day33_mc3", "type": "multipleChoice", "question": "Laquelle est une couleur brillante comme le soleil?", "options": ["Noir", "Jaune", "Violet", "Vert"], "correctOptionIndex": 1},
+    {"id": "day33_trans1", "type": "translation", "question": "Quelle est la couleur la plus claire?", "targetText": "La couleur la plus claire", "correctTranslation": "Blanc", "acceptableAlternatives": ["blanc"]},
+    {"id": "day33_fib3", "type": "fillInBlank", "question": "Complétez: 'L'herbe est ____.'", "correctAnswer": "verte", "acceptableAlternatives": ["Verte"], "caseSensitive": false},
+    {"id": "day33_mc4", "type": "multipleChoice", "question": "Quelle couleur mélange le rouge et le bleu?", "options": ["Orange", "Violet", "Jaune", "Vert"], "correctOptionIndex": 1}
+  ]
+}

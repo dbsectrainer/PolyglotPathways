@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day40_mc1",
+      "type": "multipleChoice",
+      "question": "Qu'est-ce qui a quatre roues et est propulsé par un moteur?",
+      "options": [
+        "Vélo",
+        "Voiture",
+        "Bateau",
+        "Train"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day40_mc2",
+      "type": "multipleChoice",
+      "question": "Qu'est-ce qui vole dans les airs avec des ailes?",
+      "options": [
+        "Train",
+        "Bus",
+        "Avion",
+        "Camion"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day40_fib1",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'Un ____ est un véhicule à deux roues propulsé par des pédales.'",
+      "correctAnswer": "vélo",
+      "acceptableAlternatives": ["Vélo", "velo", "bicyclette", "Bicyclette"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day40_fib2",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'J'ai appelé un ____ pour me conduire à l'aéroport.'",
+      "correctAnswer": "taxi",
+      "acceptableAlternatives": ["Taxi"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day40_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Train",
+      "correctTranslation": "Train",
+      "acceptableAlternatives": ["train"]
+    },
+    {
+      "id": "day40_mc3",
+      "type": "multipleChoice",
+      "question": "Qu'est-ce qui voyage sur l'eau?",
+      "options": [
+        "Avion",
+        "Bateau",
+        "Bus",
+        "Vélo"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day40_fib3",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'Un grand véhicule qui transporte des marchandises s'appelle un ____.'",
+      "correctAnswer": "camion",
+      "acceptableAlternatives": ["Camion"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day40_mc4",
+      "type": "multipleChoice",
+      "question": "Qu'est-ce qu'un véhicule à deux roues avec un moteur?",
+      "options": [
+        "Vélo",
+        "Voiture",
+        "Moto",
+        "Bus"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

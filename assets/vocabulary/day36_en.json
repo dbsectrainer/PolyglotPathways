@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Add",
+      "translation": "To combine numbers or quantities to find the total",
+      "phonetic": "/æd/",
+      "example": "Add three and five to get eight.",
+      "exampleTranslation": "Combining numbers to find their sum"
+    },
+    {
+      "word": "Subtract",
+      "translation": "To take away one number from another",
+      "phonetic": "/səbˈtrækt/",
+      "example": "Subtract two from seven to get five.",
+      "exampleTranslation": "Taking a smaller number away from a larger one"
+    },
+    {
+      "word": "Multiply",
+      "translation": "To add a number to itself a certain number of times",
+      "phonetic": "/ˈmʌltɪplaɪ/",
+      "example": "Multiply three by four to get twelve.",
+      "exampleTranslation": "Repeated addition of the same number"
+    },
+    {
+      "word": "Divide",
+      "translation": "To split a number into equal parts",
+      "phonetic": "/dɪˈvaɪd/",
+      "example": "Divide ten by two to get five.",
+      "exampleTranslation": "Splitting a quantity into equal portions"
+    },
+    {
+      "word": "Equal",
+      "translation": "Being the same in quantity, size, or value",
+      "phonetic": "/ˈiːkwəl/",
+      "example": "Five plus five is equal to ten.",
+      "exampleTranslation": "Showing two amounts are the same"
+    },
+    {
+      "word": "Count",
+      "translation": "To say numbers in order or find the total number",
+      "phonetic": "/kaʊnt/",
+      "example": "Count from one to ten.",
+      "exampleTranslation": "Naming numbers in sequence"
+    },
+    {
+      "word": "Number",
+      "translation": "A mathematical value used for counting or measuring",
+      "phonetic": "/ˈnʌmbər/",
+      "example": "Seven is my favorite number.",
+      "exampleTranslation": "Referring to a numerical value"
+    },
+    {
+      "word": "Total",
+      "translation": "The complete sum or amount",
+      "phonetic": "/ˈtoʊtl/",
+      "example": "The total of six and four is ten.",
+      "exampleTranslation": "The final sum after adding"
+    },
+    {
+      "word": "Equals",
+      "translation": "The symbol or word showing two values are the same",
+      "phonetic": "/ˈiːkwəlz/",
+      "example": "Two plus two equals four.",
+      "exampleTranslation": "Indicating mathematical equivalence"
+    }
+  ]
+}

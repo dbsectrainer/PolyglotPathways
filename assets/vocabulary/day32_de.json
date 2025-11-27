@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Haustier", "translation": "Ein domestiziertes Tier, das zur Genossenschaft gehalten wird", "phonetic": "/ˈhaʊstiːɹ/", "example": "Mein Haustier ist eine Katze.", "exampleTranslation": "Ein Heimtier"},
+    {"word": "Hund", "translation": "Ein treues domestiziertes Tier", "phonetic": "/hʊnt/", "example": "Der Hund bellt.", "exampleTranslation": "Ein treuer Freund"},
+    {"word": "Katze", "translation": "Ein flauschiges domestiziertes Tier", "phonetic": "/ˈkɑtsə/", "example": "Die Katze miaut.", "exampleTranslation": "Ein flauschiges Haustier"},
+    {"word": "Kaninchen", "translation": "Ein kleines springendes Tier", "phonetic": "/ˈkɑnɪnçən/", "example": "Das Kaninchen ist flauschig.", "exampleTranslation": "Ein flauschiges Haustier"},
+    {"word": "Hamster", "translation": "Ein kleines flauschiges Nagetier", "phonetic": "/ˈhɑmstəɹ/", "example": "Der Hamster läuft.", "exampleTranslation": "Ein kleines Haustier"},
+    {"word": "Fisch", "translation": "Ein Wassertier", "phonetic": "/fɪʃ/", "example": "Der Fisch schwimmt.", "exampleTranslation": "Ein Wassertier"},
+    {"word": "Vogel", "translation": "Ein fliegendes Tier", "phonetic": "/ˈfoːɡəl/", "example": "Der Vogel singt.", "exampleTranslation": "Ein fliegendes Haustier"},
+    {"word": "Schildkröte", "translation": "Ein langsames Tier mit einer Schale", "phonetic": "/ˈʃɪltkʁœtə/", "example": "Die Schildkröte ist langsam.", "exampleTranslation": "Ein Tier mit einer Schale"},
+    {"word": "Papagei", "translation": "Ein bunter sprechender Vogel", "phonetic": "/papaˈɡaɪ̯/", "example": "Der Papagei spricht.", "exampleTranslation": "Ein sprechender Vogel"}
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Uno",
+      "translation": "El primer número al contar, representando una sola unidad",
+      "phonetic": "/ˈuno/",
+      "example": "Tengo una manzana.",
+      "exampleTranslation": "Indicando un solo artículo"
+    },
+    {
+      "word": "Dos",
+      "translation": "El número después del uno, representando un par",
+      "phonetic": "/dos/",
+      "example": "Ella tiene dos gatos.",
+      "exampleTranslation": "Contando un par de artículos"
+    },
+    {
+      "word": "Tres",
+      "translation": "El número después del dos, representando un trío",
+      "phonetic": "/tɾes/",
+      "example": "Hay tres sillas en la habitación.",
+      "exampleTranslation": "Contando tres objetos"
+    },
+    {
+      "word": "Cuatro",
+      "translation": "El número después del tres",
+      "phonetic": "/ˈkwatɾo/",
+      "example": "Un coche tiene cuatro ruedas.",
+      "exampleTranslation": "Identificando una cantidad de cuatro"
+    },
+    {
+      "word": "Cinco",
+      "translation": "El número después del cuatro, la mitad de diez",
+      "phonetic": "/ˈsiŋko/",
+      "example": "Tengo cinco dedos en cada mano.",
+      "exampleTranslation": "Contando los dedos de una mano"
+    },
+    {
+      "word": "Seis",
+      "translation": "El número después del cinco",
+      "phonetic": "/sejs/",
+      "example": "Hay seis huevos en la caja.",
+      "exampleTranslation": "Contando media docena de artículos"
+    },
+    {
+      "word": "Siete",
+      "translation": "El número después del seis",
+      "phonetic": "/ˈsjete/",
+      "example": "Una semana tiene siete días.",
+      "exampleTranslation": "Refiriéndose a los días de una semana"
+    },
+    {
+      "word": "Ocho",
+      "translation": "El número después del siete",
+      "phonetic": "/ˈotʃo/",
+      "example": "Un pulpo tiene ocho patas.",
+      "exampleTranslation": "Contando las extremidades de un pulpo"
+    },
+    {
+      "word": "Nueve",
+      "translation": "El número después del ocho, uno antes del diez",
+      "phonetic": "/ˈnweβe/",
+      "example": "La escuela comienza a las nueve en punto.",
+      "exampleTranslation": "Diciendo la hora usando números"
+    }
+  ]
+}

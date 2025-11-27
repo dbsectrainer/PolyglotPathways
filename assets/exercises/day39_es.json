@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day39_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué dispositivo usas para procesar y almacenar datos?",
+      "options": [
+        "Televisión",
+        "Computadora",
+        "Teléfono",
+        "Pantalla"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day39_mc2",
+      "type": "multipleChoice",
+      "question": "¿Cómo se llama una colección de páginas web?",
+      "options": [
+        "Correo electrónico",
+        "Programa",
+        "Sitio web",
+        "Aplicación"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day39_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Envíame un ____ con la información.'",
+      "correctAnswer": "correo electrónico",
+      "acceptableAlternatives": ["Correo electrónico", "email", "Email"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day39_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Descarga esta ____ en tu teléfono.'",
+      "correctAnswer": "aplicación",
+      "acceptableAlternatives": ["Aplicación", "app", "App"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day39_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Internet",
+      "correctTranslation": "Internet",
+      "acceptableAlternatives": ["internet"]
+    },
+    {
+      "id": "day39_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué muestra imágenes y texto en un dispositivo?",
+      "options": [
+        "Programa",
+        "Sitio web",
+        "Pantalla",
+        "Correo electrónico"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day39_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Vemos las noticias en la ____.'",
+      "correctAnswer": "televisión",
+      "acceptableAlternatives": ["Televisión", "tele", "TV"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day39_mc4",
+      "type": "multipleChoice",
+      "question": "¿Cómo se llama el software que se ejecuta en una computadora?",
+      "options": [
+        "Pantalla",
+        "Teléfono",
+        "Programa",
+        "Internet"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

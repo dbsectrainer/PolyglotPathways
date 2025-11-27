@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Auto",
+      "translation": "Ein Straßenfahrzeug mit vier Rädern, das von einem Motor angetrieben wird",
+      "phonetic": "/ˈaʊto/",
+      "example": "Ich fahre jeden Tag mit meinem Auto zur Arbeit.",
+      "exampleTranslation": "Beschreibung persönlichen Transports"
+    },
+    {
+      "word": "Bus",
+      "translation": "Ein großes Fahrzeug, das viele Passagiere befördert",
+      "phonetic": "/bʊs/",
+      "example": "Der Bus kommt um 8 Uhr an.",
+      "exampleTranslation": "Bezugnahme auf öffentliche Verkehrsmittel"
+    },
+    {
+      "word": "Zug",
+      "translation": "Eine verbundene Reihe von Eisenbahnwagen, die von einer Lokomotive gezogen werden",
+      "phonetic": "/tsuːk/",
+      "example": "Wir nahmen den Zug in die Stadt.",
+      "exampleTranslation": "Beschreibung des Schienenverkehrs"
+    },
+    {
+      "word": "Flugzeug",
+      "translation": "Ein motorisiertes Flugfahrzeug mit Flügeln",
+      "phonetic": "/ˈfluːktsɔʏk/",
+      "example": "Das Flugzeug fliegt über den Ozean.",
+      "exampleTranslation": "Bezugnahme auf Lufttransport"
+    },
+    {
+      "word": "Boot",
+      "translation": "Ein Wasserfahrzeug, das zum Schwimmen und Reisen auf dem Wasser gebaut ist",
+      "phonetic": "/boːt/",
+      "example": "Wir segelten mit einem Boot über den See.",
+      "exampleTranslation": "Beschreibung des Wassertransports"
+    },
+    {
+      "word": "Fahrrad",
+      "translation": "Ein zweirädriges Fahrzeug, das durch Treten angetrieben wird",
+      "phonetic": "/ˈfaːɐ̯ʁaːt/",
+      "example": "Sie fährt mit dem Fahrrad zur Schule.",
+      "exampleTranslation": "Bezugnahme auf pedalgetriebenen Transport"
+    },
+    {
+      "word": "Motorrad",
+      "translation": "Ein zweirädriges Fahrzeug, das von einem Motor angetrieben wird",
+      "phonetic": "/ˈmoːtoːʁaːt/",
+      "example": "Er besitzt ein schnelles Motorrad.",
+      "exampleTranslation": "Beschreibung motorisierten zweirädrigen Transports"
+    },
+    {
+      "word": "Taxi",
+      "translation": "Ein Auto, das Passagiere gegen eine Gebühr befördert",
+      "phonetic": "/ˈtaksi/",
+      "example": "Ich habe ein Taxi zum Flughafen gerufen.",
+      "exampleTranslation": "Bezugnahme auf bezahlten Passagiertransport"
+    },
+    {
+      "word": "Lastwagen",
+      "translation": "Ein großes Kraftfahrzeug zum Transport von Gütern",
+      "phonetic": "/ˈlastˌvaːɡn̩/",
+      "example": "Der Lastwagen liefert Pakete.",
+      "exampleTranslation": "Beschreibung des Gütertransports"
+    }
+  ]
+}

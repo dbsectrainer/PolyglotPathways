@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day32_mc1", "type": "multipleChoice", "question": "Was ist ein Haustier?", "options": ["Ein wildes Tier", "Ein domestiziertes Tier, das zur Genossenschaft gehalten wird", "Ein Essen", "Eine Pflanze"], "correctOptionIndex": 1},
+    {"id": "day32_mc2", "type": "multipleChoice", "question": "Welches ist ein treues domestiziertes Tier?", "options": ["Löwe", "Hund", "Tiger", "Bär"], "correctOptionIndex": 1},
+    {"id": "day32_fib1", "type": "fillInBlank", "question": "Füllen Sie aus: 'Mein Haustier ist eine ____.'", "correctAnswer": "katze", "acceptableAlternatives": ["Katze"], "caseSensitive": false},
+    {"id": "day32_fib2", "type": "fillInBlank", "question": "Füllen Sie aus: 'Der ____ bellt.'", "correctAnswer": "hund", "acceptableAlternatives": ["Hund"], "caseSensitive": false},
+    {"id": "day32_mc3", "type": "multipleChoice", "question": "Welches ist ein kleines springendes Tier?", "options": ["Fisch", "Kaninchen", "Vogel", "Schildkröte"], "correctOptionIndex": 1},
+    {"id": "day32_trans1", "type": "translation", "question": "Was ist ein langsames Tier mit einer Schale?", "targetText": "Ein langsames Tier mit einer Schale", "correctTranslation": "Schildkröte", "acceptableAlternatives": ["schildkröte"]},
+    {"id": "day32_fib3", "type": "fillInBlank", "question": "Füllen Sie aus: 'Der ____ schwimmt.'", "correctAnswer": "fisch", "acceptableAlternatives": ["Fisch"], "caseSensitive": false},
+    {"id": "day32_mc4", "type": "multipleChoice", "question": "Welcher ist ein bunter sprechender Vogel?", "options": ["Kaninchen", "Hamster", "Papagei", "Schildkröte"], "correctOptionIndex": 2}
+  ]
+}

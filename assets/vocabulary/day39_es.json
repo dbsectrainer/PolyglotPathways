@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Computadora",
+      "translation": "Un dispositivo electrónico para procesar y almacenar datos",
+      "phonetic": "/komputaˈðoɾa/",
+      "example": "Uso mi computadora para trabajar y estudiar.",
+      "exampleTranslation": "Describiendo un dispositivo para tareas digitales"
+    },
+    {
+      "word": "Teléfono",
+      "translation": "Un dispositivo usado para comunicarse con otros por voz",
+      "phonetic": "/teˈlefono/",
+      "example": "Te llamaré por teléfono más tarde.",
+      "exampleTranslation": "Refiriéndose a un dispositivo de comunicación"
+    },
+    {
+      "word": "Televisión",
+      "translation": "Un dispositivo que recibe y muestra programas transmitidos",
+      "phonetic": "/teleβiˈsjon/",
+      "example": "Vemos las noticias en la televisión.",
+      "exampleTranslation": "Describiendo un dispositivo para ver programas"
+    },
+    {
+      "word": "Internet",
+      "translation": "Una red global que conecta computadoras en todo el mundo",
+      "phonetic": "/inteɾˈnet/",
+      "example": "Encontré la información en internet.",
+      "exampleTranslation": "Refiriéndose a la red mundial"
+    },
+    {
+      "word": "Sitio web",
+      "translation": "Una colección de páginas web en internet",
+      "phonetic": "/ˈsitjo weβ/",
+      "example": "Visita nuestro sitio web para más detalles.",
+      "exampleTranslation": "Dirigiendo a alguien a una ubicación en línea"
+    },
+    {
+      "word": "Correo electrónico",
+      "translation": "Correo electrónico enviado por internet",
+      "phonetic": "/koˈreo elekˈtɾoniko/",
+      "example": "Envíame un correo electrónico con la información.",
+      "exampleTranslation": "Solicitando correspondencia digital"
+    },
+    {
+      "word": "Programa",
+      "translation": "Software que se ejecuta en una computadora o dispositivo",
+      "phonetic": "/pɾoˈɣɾama/",
+      "example": "Este programa ayuda a editar fotos.",
+      "exampleTranslation": "Describiendo software de computadora"
+    },
+    {
+      "word": "Pantalla",
+      "translation": "La superficie de visualización de un dispositivo que muestra imágenes y texto",
+      "phonetic": "/panˈtaʎa/",
+      "example": "La pantalla de mi teléfono está rota.",
+      "exampleTranslation": "Refiriéndose a la pantalla de un dispositivo"
+    },
+    {
+      "word": "Aplicación",
+      "translation": "Una aplicación de software, especialmente en un dispositivo móvil",
+      "phonetic": "/aplikaˈθjon/",
+      "example": "Descarga esta aplicación para rastrear tu condición física.",
+      "exampleTranslation": "Recomendando software móvil"
+    }
+  ]
+}

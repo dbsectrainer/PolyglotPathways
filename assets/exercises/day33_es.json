@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day33_mc1", "type": "multipleChoice", "question": "¿Qué es un color?", "options": ["Una forma", "El atributo visual de la percepción de la luz", "Un número", "Un sabor"], "correctOptionIndex": 1},
+    {"id": "day33_mc2", "type": "multipleChoice", "question": "¿Cuál es un color fresco?", "options": ["Rojo", "Amarillo", "Azul", "Naranja"], "correctOptionIndex": 2},
+    {"id": "day33_fib1", "type": "fillInBlank", "question": "Completa el espacio: 'La manzana es ____.'", "correctAnswer": "roja", "acceptableAlternatives": ["Roja"], "caseSensitive": false},
+    {"id": "day33_fib2", "type": "fillInBlank", "question": "Completa el espacio: 'El cielo es ____.'", "correctAnswer": "azul", "acceptableAlternatives": ["Azul"], "caseSensitive": false},
+    {"id": "day33_mc3", "type": "multipleChoice", "question": "¿Cuál es un color brillante como el sol?", "options": ["Negro", "Amarillo", "Púrpura", "Verde"], "correctOptionIndex": 1},
+    {"id": "day33_trans1", "type": "translation", "question": "¿Cuál es el color más claro?", "targetText": "El color más claro", "correctTranslation": "Blanco", "acceptableAlternatives": ["blanco"]},
+    {"id": "day33_fib3", "type": "fillInBlank", "question": "Completa el espacio: 'El pasto es ____.'", "correctAnswer": "verde", "acceptableAlternatives": ["Verde"], "caseSensitive": false},
+    {"id": "day33_mc4", "type": "multipleChoice", "question": "¿Qué color mezcla rojo y azul?", "options": ["Naranja", "Púrpura", "Amarillo", "Verde"], "correctOptionIndex": 1}
+  ]
+}

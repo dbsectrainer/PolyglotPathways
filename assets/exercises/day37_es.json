@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day37_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué estación viene después del invierno?",
+      "options": [
+        "Otoño",
+        "Primavera",
+        "Verano",
+        "Invierno"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day37_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué estación es la más cálida?",
+      "options": [
+        "Primavera",
+        "Otoño",
+        "Verano",
+        "Invierno"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day37_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Las hojas caen de los árboles en ____.'",
+      "correctAnswer": "otoño",
+      "acceptableAlternatives": ["Otoño"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day37_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'El agua congelada blanca que cae del cielo se llama ____.'",
+      "correctAnswer": "nieve",
+      "acceptableAlternatives": ["Nieve"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day37_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Winter",
+      "correctTranslation": "Invierno",
+      "acceptableAlternatives": ["invierno"]
+    },
+    {
+      "id": "day37_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué describe cuán caliente o frío está algo?",
+      "options": [
+        "Estación",
+        "Clima",
+        "Temperatura",
+        "Hojas"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day37_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Las flores florecen en ____.'",
+      "correctAnswer": "primavera",
+      "acceptableAlternatives": ["Primavera"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day37_mc4",
+      "type": "multipleChoice",
+      "question": "¿Cuántas estaciones hay en un año?",
+      "options": [
+        "Dos",
+        "Tres",
+        "Cuatro",
+        "Cinco"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

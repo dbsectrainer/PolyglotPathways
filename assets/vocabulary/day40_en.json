@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Car",
+      "translation": "A road vehicle with four wheels powered by an engine",
+      "phonetic": "/kɑːr/",
+      "example": "I drive my car to work every day.",
+      "exampleTranslation": "Describing personal transportation"
+    },
+    {
+      "word": "Bus",
+      "translation": "A large vehicle that carries many passengers",
+      "phonetic": "/bʌs/",
+      "example": "The bus arrives at 8 o'clock.",
+      "exampleTranslation": "Referring to public transportation"
+    },
+    {
+      "word": "Train",
+      "translation": "A connected series of railroad cars pulled by a locomotive",
+      "phonetic": "/treɪn/",
+      "example": "We took the train to the city.",
+      "exampleTranslation": "Describing rail transportation"
+    },
+    {
+      "word": "Airplane",
+      "translation": "A powered flying vehicle with wings",
+      "phonetic": "/ˈerˌpleɪn/",
+      "example": "The airplane flies over the ocean.",
+      "exampleTranslation": "Referring to air transportation"
+    },
+    {
+      "word": "Boat",
+      "translation": "A watercraft designed to float and travel on water",
+      "phonetic": "/boʊt/",
+      "example": "We sailed in a boat across the lake.",
+      "exampleTranslation": "Describing water transportation"
+    },
+    {
+      "word": "Bicycle",
+      "translation": "A two-wheeled vehicle powered by pedaling",
+      "phonetic": "/ˈbaɪsɪkəl/",
+      "example": "She rides her bicycle to school.",
+      "exampleTranslation": "Referring to pedal-powered transport"
+    },
+    {
+      "word": "Motorcycle",
+      "translation": "A two-wheeled vehicle powered by an engine",
+      "phonetic": "/ˈmoʊtərˌsaɪkəl/",
+      "example": "He owns a fast motorcycle.",
+      "exampleTranslation": "Describing motorized two-wheeled transport"
+    },
+    {
+      "word": "Taxi",
+      "translation": "A car that takes passengers for a fare",
+      "phonetic": "/ˈtæksi/",
+      "example": "I called a taxi to the airport.",
+      "exampleTranslation": "Referring to paid passenger transport"
+    },
+    {
+      "word": "Truck",
+      "translation": "A large motor vehicle for carrying goods",
+      "phonetic": "/trʌk/",
+      "example": "The truck delivers packages.",
+      "exampleTranslation": "Describing freight transportation"
+    }
+  ]
+}

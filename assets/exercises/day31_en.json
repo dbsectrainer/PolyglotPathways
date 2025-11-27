@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day31_mc1", "type": "multipleChoice", "question": "What is an animal?", "options": ["A plant", "A living creature", "A building", "Food"], "correctOptionIndex": 1},
+    {"id": "day31_mc2", "type": "multipleChoice", "question": "Which is a large wild cat?", "options": ["Elephant", "Lion", "Bear", "Wolf"], "correctOptionIndex": 1},
+    {"id": "day31_fib1", "type": "fillInBlank", "question": "Fill in the blank: 'The ____ is strong.'", "correctAnswer": "lion", "acceptableAlternatives": ["Lion"], "caseSensitive": false},
+    {"id": "day31_fib2", "type": "fillInBlank", "question": "Fill in the blank: 'The ____ is gray.'", "correctAnswer": "elephant", "acceptableAlternatives": ["Elephant"], "caseSensitive": false},
+    {"id": "day31_mc3", "type": "multipleChoice", "question": "Which animal has a long neck?", "options": ["Lion", "Giraffe", "Bear", "Zebra"], "correctOptionIndex": 1},
+    {"id": "day31_trans1", "type": "translation", "question": "What is a striped wild horse called?", "targetText": "A striped wild horse", "correctTranslation": "Zebra", "acceptableAlternatives": ["zebra"]},
+    {"id": "day31_fib3", "type": "fillInBlank", "question": "Fill in the blank: 'The ____ howls.'", "correctAnswer": "wolf", "acceptableAlternatives": ["Wolf"], "caseSensitive": false},
+    {"id": "day31_mc4", "type": "multipleChoice", "question": "Which animal is a primate?", "options": ["Tiger", "Monkey", "Giraffe", "Elephant"], "correctOptionIndex": 1}
+  ]
+}

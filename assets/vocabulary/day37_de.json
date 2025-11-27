@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Frühling",
+      "translation": "Die Jahreszeit nach dem Winter, wenn Pflanzen zu wachsen beginnen",
+      "phonetic": "/ˈfʁyːlɪŋ/",
+      "example": "Blumen blühen im Frühling.",
+      "exampleTranslation": "Beschreibung der Jahreszeit der Erneuerung und des Wachstums"
+    },
+    {
+      "word": "Sommer",
+      "translation": "Die wärmste Jahreszeit des Jahres",
+      "phonetic": "/ˈzɔmɐ/",
+      "example": "Wir gehen im Sommer an den Strand.",
+      "exampleTranslation": "Bezugnahme auf die heiße Jahreszeit"
+    },
+    {
+      "word": "Herbst",
+      "translation": "Die Jahreszeit, in der die Blätter von den Bäumen fallen",
+      "phonetic": "/hɛʁpst/",
+      "example": "Die Blätter werden im Herbst orange.",
+      "exampleTranslation": "Beschreibung der Erntezeit"
+    },
+    {
+      "word": "Winter",
+      "translation": "Die kälteste Jahreszeit des Jahres",
+      "phonetic": "/ˈvɪntɐ/",
+      "example": "Im Winter schneit es.",
+      "exampleTranslation": "Bezugnahme auf die kalte Jahreszeit"
+    },
+    {
+      "word": "Jahreszeit",
+      "translation": "Eine der vier Unterteilungen des Jahres",
+      "phonetic": "/ˈjaːʁəstsaɪt/",
+      "example": "Was ist deine Lieblingsjahreszeit?",
+      "exampleTranslation": "Nach der bevorzugten Jahreszeit fragen"
+    },
+    {
+      "word": "Wetter",
+      "translation": "Der Zustand der Atmosphäre zu einer bestimmten Zeit und an einem bestimmten Ort",
+      "phonetic": "/ˈvɛtɐ/",
+      "example": "Das Wetter ist heute schön.",
+      "exampleTranslation": "Beschreibung der atmosphärischen Bedingungen"
+    },
+    {
+      "word": "Temperatur",
+      "translation": "Wie heiß oder kalt etwas ist",
+      "phonetic": "/tɛmpəʁaˈtuːɐ/",
+      "example": "Die Temperatur sinkt.",
+      "exampleTranslation": "Bezugnahme auf den Wärmegrad"
+    },
+    {
+      "word": "Blätter",
+      "translation": "Die flachen grünen Teile von Pflanzen, die aus Zweigen wachsen",
+      "phonetic": "/ˈblɛtɐ/",
+      "example": "Die Blätter verfärben sich im Herbst.",
+      "exampleTranslation": "Beschreibung des Herbstlaubes"
+    },
+    {
+      "word": "Schnee",
+      "translation": "Weißes gefrorenes Wasser, das im Winter vom Himmel fällt",
+      "phonetic": "/ʃneː/",
+      "example": "Kinder spielen im Schnee.",
+      "exampleTranslation": "Bezugnahme auf Winterniederschlag"
+    }
+  ]
+}

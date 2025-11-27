@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Circle",
+      "translation": "A round shape with no corners or edges",
+      "phonetic": "/ˈsɜːrkəl/",
+      "example": "Draw a circle on the paper.",
+      "exampleTranslation": "Creating a round shape without corners"
+    },
+    {
+      "word": "Square",
+      "translation": "A shape with four equal sides and four right angles",
+      "phonetic": "/skwer/",
+      "example": "The box is shaped like a square.",
+      "exampleTranslation": "Describing an object with four equal sides"
+    },
+    {
+      "word": "Triangle",
+      "translation": "A shape with three sides and three corners",
+      "phonetic": "/ˈtraɪˌæŋɡəl/",
+      "example": "A triangle has three points.",
+      "exampleTranslation": "Identifying a three-sided geometric shape"
+    },
+    {
+      "word": "Rectangle",
+      "translation": "A shape with four sides and four right angles, with opposite sides equal",
+      "phonetic": "/ˈrektˌæŋɡəl/",
+      "example": "The door is a rectangle.",
+      "exampleTranslation": "Describing an elongated four-sided shape"
+    },
+    {
+      "word": "Star",
+      "translation": "A shape with multiple pointed ends radiating from the center",
+      "phonetic": "/stɑːr/",
+      "example": "She drew a five-pointed star.",
+      "exampleTranslation": "Creating a shape with pointed edges"
+    },
+    {
+      "word": "Diamond",
+      "translation": "A shape with four equal sides forming two opposite acute angles",
+      "phonetic": "/ˈdaɪəmənd/",
+      "example": "The kite is shaped like a diamond.",
+      "exampleTranslation": "Describing a rhombus-shaped object"
+    },
+    {
+      "word": "Oval",
+      "translation": "An elongated round shape, like a stretched circle",
+      "phonetic": "/ˈoʊvəl/",
+      "example": "An egg has an oval shape.",
+      "exampleTranslation": "Describing an elliptical form"
+    },
+    {
+      "word": "Cube",
+      "translation": "A three-dimensional shape with six square faces",
+      "phonetic": "/kjuːb/",
+      "example": "The dice is a small cube.",
+      "exampleTranslation": "Identifying a 3D geometric solid"
+    },
+    {
+      "word": "Pyramid",
+      "translation": "A three-dimensional shape with a base and triangular sides meeting at a point",
+      "phonetic": "/ˈpɪrəmɪd/",
+      "example": "The ancient pyramids of Egypt are famous.",
+      "exampleTranslation": "Referring to a pointed 3D structure"
+    }
+  ]
+}

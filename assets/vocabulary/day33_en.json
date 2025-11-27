@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Color", "translation": "The visual attribute of light perception", "phonetic": "/ˈkʌlər/", "example": "The color is red.", "exampleTranslation": "A visual attribute"},
+    {"word": "Red", "translation": "A primary color like blood", "phonetic": "/rɛd/", "example": "The apple is red.", "exampleTranslation": "Warm color"},
+    {"word": "Blue", "translation": "A cool color like the sky", "phonetic": "/bluː/", "example": "The sky is blue.", "exampleTranslation": "Cool color"},
+    {"word": "Yellow", "translation": "A bright color like the sun", "phonetic": "/ˈjɛloʊ/", "example": "The sun is yellow.", "exampleTranslation": "Bright color"},
+    {"word": "Green", "translation": "A color like grass and trees", "phonetic": "/ɡriːn/", "example": "The grass is green.", "exampleTranslation": "Natural color"},
+    {"word": "Black", "translation": "The darkest color", "phonetic": "/blæk/", "example": "The night is black.", "exampleTranslation": "Dark color"},
+    {"word": "White", "translation": "The lightest color", "phonetic": "/waɪt/", "example": "Snow is white.", "exampleTranslation": "Light color"},
+    {"word": "Orange", "translation": "A color between red and yellow", "phonetic": "/ˈɔːrɪndʒ/", "example": "The orange is orange.", "exampleTranslation": "Mixed color"},
+    {"word": "Purple", "translation": "A color mixing red and blue", "phonetic": "/ˈpɜːrpəl/", "example": "The flower is purple.", "exampleTranslation": "Mixed color"}
+  ]
+}

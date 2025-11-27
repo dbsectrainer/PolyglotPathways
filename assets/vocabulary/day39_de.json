@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Computer",
+      "translation": "Ein elektronisches Gerät zur Verarbeitung und Speicherung von Daten",
+      "phonetic": "/kɔmˈpjuːtɐ/",
+      "example": "Ich benutze meinen Computer für Arbeit und Studium.",
+      "exampleTranslation": "Beschreibung eines Geräts für digitale Aufgaben"
+    },
+    {
+      "word": "Telefon",
+      "translation": "Ein Gerät zur Kommunikation mit anderen per Stimme",
+      "phonetic": "/teləˈfoːn/",
+      "example": "Ich rufe dich später auf meinem Telefon an.",
+      "exampleTranslation": "Bezugnahme auf ein Kommunikationsgerät"
+    },
+    {
+      "word": "Fernsehen",
+      "translation": "Ein Gerät, das Sendungen empfängt und anzeigt",
+      "phonetic": "/ˈfɛʁnzeːən/",
+      "example": "Wir schauen die Nachrichten im Fernsehen.",
+      "exampleTranslation": "Beschreibung eines Geräts zum Ansehen von Sendungen"
+    },
+    {
+      "word": "Internet",
+      "translation": "Ein globales Netzwerk, das Computer weltweit verbindet",
+      "phonetic": "/ˈɪntɐnɛt/",
+      "example": "Ich habe die Information im Internet gefunden.",
+      "exampleTranslation": "Bezugnahme auf das weltweite Netzwerk"
+    },
+    {
+      "word": "Website",
+      "translation": "Eine Sammlung von Webseiten im Internet",
+      "phonetic": "/ˈwɛpsaɪt/",
+      "example": "Besuchen Sie unsere Website für weitere Details.",
+      "exampleTranslation": "Jemanden zu einem Online-Standort leiten"
+    },
+    {
+      "word": "E-Mail",
+      "translation": "Elektronische Post, die über das Internet gesendet wird",
+      "phonetic": "/iːˈmeɪl/",
+      "example": "Schick mir eine E-Mail mit den Informationen.",
+      "exampleTranslation": "Digitale Korrespondenz anfragen"
+    },
+    {
+      "word": "Programm",
+      "translation": "Software, die auf einem Computer oder Gerät läuft",
+      "phonetic": "/pʁoˈɡʁam/",
+      "example": "Dieses Programm hilft beim Bearbeiten von Fotos.",
+      "exampleTranslation": "Beschreibung von Computersoftware"
+    },
+    {
+      "word": "Bildschirm",
+      "translation": "Die Anzeigefläche eines Geräts, die Bilder und Text zeigt",
+      "phonetic": "/ˈbɪltʃɪʁm/",
+      "example": "Der Bildschirm meines Telefons ist gesprungen.",
+      "exampleTranslation": "Bezugnahme auf die Anzeige eines Geräts"
+    },
+    {
+      "word": "App",
+      "translation": "Eine Softwareanwendung, besonders auf einem mobilen Gerät",
+      "phonetic": "/ɛp/",
+      "example": "Lade diese App herunter, um deine Fitness zu verfolgen.",
+      "exampleTranslation": "Mobile Software empfehlen"
+    }
+  ]
+}

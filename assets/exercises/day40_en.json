@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day40_mc1",
+      "type": "multipleChoice",
+      "question": "What has four wheels and is powered by an engine?",
+      "options": [
+        "Bicycle",
+        "Car",
+        "Boat",
+        "Train"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day40_mc2",
+      "type": "multipleChoice",
+      "question": "What flies through the air with wings?",
+      "options": [
+        "Train",
+        "Bus",
+        "Airplane",
+        "Truck"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day40_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'A ____ is a two-wheeled vehicle powered by pedaling.'",
+      "correctAnswer": "bicycle",
+      "acceptableAlternatives": ["Bicycle", "bike", "Bike"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day40_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I called a ____ to take me to the airport.'",
+      "correctAnswer": "taxi",
+      "acceptableAlternatives": ["Taxi", "cab", "Cab"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day40_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Train",
+      "correctTranslation": "Train",
+      "acceptableAlternatives": ["train"]
+    },
+    {
+      "id": "day40_mc3",
+      "type": "multipleChoice",
+      "question": "What travels on water?",
+      "options": [
+        "Airplane",
+        "Boat",
+        "Bus",
+        "Bicycle"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day40_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'A large vehicle that carries goods is called a ____.'",
+      "correctAnswer": "truck",
+      "acceptableAlternatives": ["Truck"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day40_mc4",
+      "type": "multipleChoice",
+      "question": "What is a two-wheeled vehicle with an engine?",
+      "options": [
+        "Bicycle",
+        "Car",
+        "Motorcycle",
+        "Bus"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

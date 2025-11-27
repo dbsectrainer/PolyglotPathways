@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day32_mc1", "type": "multipleChoice", "question": "Qu'est-ce qu'un animal de compagnie?", "options": ["Un animal sauvage", "Un animal domestique gardé pour la compagnie", "Un aliment", "Une plante"], "correctOptionIndex": 1},
+    {"id": "day32_mc2", "type": "multipleChoice", "question": "Lequel est un animal domestique loyal?", "options": ["Lion", "Chien", "Tigre", "Ours"], "correctOptionIndex": 1},
+    {"id": "day32_fib1", "type": "fillInBlank", "question": "Complétez: 'Mon animal de compagnie est un ____.'", "correctAnswer": "chat", "acceptableAlternatives": ["Chat"], "caseSensitive": false},
+    {"id": "day32_fib2", "type": "fillInBlank", "question": "Complétez: 'Le ____ aboie.'", "correctAnswer": "chien", "acceptableAlternatives": ["Chien"], "caseSensitive": false},
+    {"id": "day32_mc3", "type": "multipleChoice", "question": "Lequel est un petit animal qui saute?", "options": ["Poisson", "Lapin", "Oiseau", "Tortue"], "correctOptionIndex": 1},
+    {"id": "day32_trans1", "type": "translation", "question": "Qu'est-ce qu'un animal lent avec une coquille?", "targetText": "Un animal lent avec une coquille", "correctTranslation": "Tortue", "acceptableAlternatives": ["tortue"]},
+    {"id": "day32_fib3", "type": "fillInBlank", "question": "Complétez: 'Le ____ nage.'", "correctAnswer": "poisson", "acceptableAlternatives": ["Poisson"], "caseSensitive": false},
+    {"id": "day32_mc4", "type": "multipleChoice", "question": "Lequel est un oiseau coloré qui parle?", "options": ["Lapin", "Hamster", "Perroquet", "Tortue"], "correctOptionIndex": 2}
+  ]
+}

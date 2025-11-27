@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Additionner",
+      "translation": "Combiner des nombres ou des quantités pour trouver le total",
+      "phonetic": "/adisjɔne/",
+      "example": "Additionne trois et cinq pour obtenir huit.",
+      "exampleTranslation": "Combiner des nombres pour trouver leur somme"
+    },
+    {
+      "word": "Soustraire",
+      "translation": "Retirer un nombre d'un autre",
+      "phonetic": "/sustʁɛʁ/",
+      "example": "Soustrais deux de sept pour obtenir cinq.",
+      "exampleTranslation": "Retirer un nombre plus petit d'un plus grand"
+    },
+    {
+      "word": "Multiplier",
+      "translation": "Ajouter un nombre à lui-même un certain nombre de fois",
+      "phonetic": "/myltiplije/",
+      "example": "Multiplie trois par quatre pour obtenir douze.",
+      "exampleTranslation": "Addition répétée du même nombre"
+    },
+    {
+      "word": "Diviser",
+      "translation": "Séparer un nombre en parties égales",
+      "phonetic": "/divize/",
+      "example": "Divise dix par deux pour obtenir cinq.",
+      "exampleTranslation": "Séparer une quantité en portions égales"
+    },
+    {
+      "word": "Égal",
+      "translation": "Être identique en quantité, taille ou valeur",
+      "phonetic": "/eɡal/",
+      "example": "Cinq plus cinq est égal à dix.",
+      "exampleTranslation": "Montrer que deux montants sont identiques"
+    },
+    {
+      "word": "Compter",
+      "translation": "Dire les nombres dans l'ordre ou trouver le nombre total",
+      "phonetic": "/kɔ̃te/",
+      "example": "Compte de un à dix.",
+      "exampleTranslation": "Nommer les nombres en séquence"
+    },
+    {
+      "word": "Nombre",
+      "translation": "Une valeur mathématique utilisée pour compter ou mesurer",
+      "phonetic": "/nɔ̃bʁ/",
+      "example": "Sept est mon nombre préféré.",
+      "exampleTranslation": "Se référer à une valeur numérique"
+    },
+    {
+      "word": "Total",
+      "translation": "La somme ou le montant complet",
+      "phonetic": "/tɔtal/",
+      "example": "Le total de six et quatre est dix.",
+      "exampleTranslation": "La somme finale après addition"
+    },
+    {
+      "word": "Est égal à",
+      "translation": "Le symbole ou le mot montrant que deux valeurs sont identiques",
+      "phonetic": "/ɛ eɡal a/",
+      "example": "Deux plus deux est égal à quatre.",
+      "exampleTranslation": "Indiquer l'équivalence mathématique"
+    }
+  ]
+}

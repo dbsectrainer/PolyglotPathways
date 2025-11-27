@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Estimação", "translation": "Um animal doméstico mantido para companhia", "phonetic": "/ɛstimɑˈsɑ̃w̃/", "example": "Meu estimação é um gato.", "exampleTranslation": "Um animal doméstico"},
+    {"word": "Cachorro", "translation": "Um animal doméstico leal", "phonetic": "/kɑʃoˈɾu/", "example": "O cachorro late.", "exampleTranslation": "Um amigo leal"},
+    {"word": "Gato", "translation": "Um animal doméstico peludo", "phonetic": "/ɡɑˈtu/", "example": "O gato mia.", "exampleTranslation": "Um estimação peludo"},
+    {"word": "Coelho", "translation": "Um pequeno animal saltador", "phonetic": "/koˈɛʎu/", "example": "O coelho é macio.", "exampleTranslation": "Um estimação macio"},
+    {"word": "Hamster", "translation": "Um pequeno roedor peludo", "phonetic": "/ˈæmstɚ/", "example": "O hamster corre.", "exampleTranslation": "Um pequeno estimação"},
+    {"word": "Peixe", "translation": "Um animal aquático", "phonetic": "/ˈpɛʃɪ/", "example": "O peixe nada.", "exampleTranslation": "Um estimação aquático"},
+    {"word": "Pássaro", "translation": "Um animal que voa", "phonetic": "/ˈpɑsɑɾu/", "example": "O pássaro canta.", "exampleTranslation": "Um estimação voador"},
+    {"word": "Tartaruga", "translation": "Um animal lento com casco", "phonetic": "/tɑɾtɑˈɾuɡɑ/", "example": "A tartaruga é lenta.", "exampleTranslation": "Um estimação com casco"},
+    {"word": "Papagaio", "translation": "Um pássaro colorido que fala", "phonetic": "/pɑpɑˈɡɑju/", "example": "O papagaio fala.", "exampleTranslation": "Um pássaro que fala"}
+  ]
+}

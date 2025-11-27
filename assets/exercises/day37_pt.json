@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day37_mc1",
+      "type": "multipleChoice",
+      "question": "Qual estação vem depois do inverno?",
+      "options": [
+        "Outono",
+        "Primavera",
+        "Verão",
+        "Inverno"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day37_mc2",
+      "type": "multipleChoice",
+      "question": "Qual estação é a mais quente?",
+      "options": [
+        "Primavera",
+        "Outono",
+        "Verão",
+        "Inverno"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day37_fib1",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'As folhas caem das árvores no ____.'",
+      "correctAnswer": "outono",
+      "acceptableAlternatives": ["Outono"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day37_fib2",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'A água congelada branca que cai do céu se chama ____.'",
+      "correctAnswer": "neve",
+      "acceptableAlternatives": ["Neve"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day37_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Winter",
+      "correctTranslation": "Inverno",
+      "acceptableAlternatives": ["inverno"]
+    },
+    {
+      "id": "day37_mc3",
+      "type": "multipleChoice",
+      "question": "O que descreve quão quente ou frio algo está?",
+      "options": [
+        "Estação",
+        "Clima",
+        "Temperatura",
+        "Folhas"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day37_fib3",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'As flores florescem na ____.'",
+      "correctAnswer": "primavera",
+      "acceptableAlternatives": ["Primavera"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day37_mc4",
+      "type": "multipleChoice",
+      "question": "Quantas estações há em um ano?",
+      "options": [
+        "Duas",
+        "Três",
+        "Quatro",
+        "Cinco"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

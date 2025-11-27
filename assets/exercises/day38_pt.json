@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day38_mc1",
+      "type": "multipleChoice",
+      "question": "Qual clima tem luz solar brilhante e céus claros?",
+      "options": [
+        "Nublado",
+        "Ensolarado",
+        "Chuvoso",
+        "Tempestuoso"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day38_mc2",
+      "type": "multipleChoice",
+      "question": "O que você deve levar quando está chuvoso?",
+      "options": [
+        "Óculos de sol",
+        "Shorts",
+        "Um guarda-chuva",
+        "Uma pipa"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day38_fib1",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Está muito ____ para empinar uma pipa hoje.'",
+      "correctAnswer": "ventoso",
+      "acceptableAlternatives": ["Ventoso"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day38_fib2",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Uma ____ tem ventos fortes e chuva intensa.'",
+      "correctAnswer": "tempestade",
+      "acceptableAlternatives": ["Tempestade"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day38_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Cloudy",
+      "correctTranslation": "Nublado",
+      "acceptableAlternatives": ["nublado"]
+    },
+    {
+      "id": "day38_mc3",
+      "type": "multipleChoice",
+      "question": "O que mede quão quente ou frio está?",
+      "options": [
+        "Vento",
+        "Chuva",
+        "Temperatura",
+        "Tempestade"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day38_fib3",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'A água congelada branca que cai se chama ____.'",
+      "correctAnswer": "neve",
+      "acceptableAlternatives": ["Neve"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day38_mc4",
+      "type": "multipleChoice",
+      "question": "Como se chama o ar em movimento?",
+      "options": [
+        "Chuva",
+        "Vento",
+        "Neve",
+        "Nuvem"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

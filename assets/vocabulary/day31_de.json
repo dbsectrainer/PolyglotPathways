@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Tier", "translation": "Eine lebende Kreatur", "phonetic": "/tiːɹ/", "example": "Das Tier läuft.", "exampleTranslation": "Ein Lebewesen"},
+    {"word": "Löwe", "translation": "Eine große wilde Katze", "phonetic": "/ˈløːvə/", "example": "Der Löwe ist stark.", "exampleTranslation": "Ein großer Raubtier"},
+    {"word": "Elefant", "translation": "Ein großes Tier mit Rüssel", "phonetic": "/ɛləˈfɑnt/", "example": "Der Elefant ist grau.", "exampleTranslation": "Ein großer Pflanzenfresser"},
+    {"word": "Affe", "translation": "Ein Primatentier", "phonetic": "/ˈɑfə/", "example": "Der Affe schwingt.", "exampleTranslation": "Ein Primat"},
+    {"word": "Zebra", "translation": "Ein gestreiftes wildes Pferd", "phonetic": "/ˈzɛbrə/", "example": "Das Zebra hat Streifen.", "exampleTranslation": "Ein gestreiftes Tier"},
+    {"word": "Giraffe", "translation": "Ein großes Tier mit langem Hals", "phonetic": "/dʒɪˈræf/", "example": "Die Giraffe ist groß.", "exampleTranslation": "Ein langhalsiges Tier"},
+    {"word": "Tiger", "translation": "Eine gestreifte wilde Katze", "phonetic": "/ˈtaɪɡɚ/", "example": "Der Tiger ist orange.", "exampleTranslation": "Ein gestreiftes Raubtier"},
+    {"word": "Bär", "translation": "Ein großes haariges Tier", "phonetic": "/bɛɹ/", "example": "Der Bär ist stark.", "exampleTranslation": "Ein großes haariges Tier"},
+    {"word": "Wolf", "translation": "Ein wildes Hund", "phonetic": "/wʊlf/", "example": "Der Wolf heult.", "exampleTranslation": "Ein wildes Kynide"}
+  ]
+}

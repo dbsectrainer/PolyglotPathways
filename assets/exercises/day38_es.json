@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day38_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué clima tiene luz solar brillante y cielos despejados?",
+      "options": [
+        "Nublado",
+        "Soleado",
+        "Lluvioso",
+        "Tormentoso"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day38_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué debes llevar cuando está lluvioso?",
+      "options": [
+        "Gafas de sol",
+        "Pantalones cortos",
+        "Un paraguas",
+        "Una cometa"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day38_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Está muy ____ para volar una cometa hoy.'",
+      "correctAnswer": "ventoso",
+      "acceptableAlternatives": ["Ventoso"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day38_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Una ____ tiene vientos fuertes y lluvia intensa.'",
+      "correctAnswer": "tormenta",
+      "acceptableAlternatives": ["Tormenta"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day38_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Cloudy",
+      "correctTranslation": "Nublado",
+      "acceptableAlternatives": ["nublado"]
+    },
+    {
+      "id": "day38_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué mide cuán caliente o frío está?",
+      "options": [
+        "Viento",
+        "Lluvia",
+        "Temperatura",
+        "Tormenta"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day38_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'El agua congelada blanca que cae se llama ____.'",
+      "correctAnswer": "nieve",
+      "acceptableAlternatives": ["Nieve"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day38_mc4",
+      "type": "multipleChoice",
+      "question": "¿Cómo se llama el aire en movimiento?",
+      "options": [
+        "Lluvia",
+        "Viento",
+        "Nieve",
+        "Nube"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

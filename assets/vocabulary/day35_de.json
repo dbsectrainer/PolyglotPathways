@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Eins",
+      "translation": "Die erste Zahl beim Zählen, die eine einzelne Einheit darstellt",
+      "phonetic": "/aɪns/",
+      "example": "Ich habe einen Apfel.",
+      "exampleTranslation": "Anzeigen eines einzelnen Artikels"
+    },
+    {
+      "word": "Zwei",
+      "translation": "Die Zahl nach eins, die ein Paar darstellt",
+      "phonetic": "/tsvaɪ/",
+      "example": "Sie hat zwei Katzen.",
+      "exampleTranslation": "Ein Paar von Artikeln zählen"
+    },
+    {
+      "word": "Drei",
+      "translation": "Die Zahl nach zwei, die ein Trio darstellt",
+      "phonetic": "/dʁaɪ/",
+      "example": "Es gibt drei Stühle im Zimmer.",
+      "exampleTranslation": "Drei Objekte zählen"
+    },
+    {
+      "word": "Vier",
+      "translation": "Die Zahl nach drei",
+      "phonetic": "/fiːɐ/",
+      "example": "Ein Auto hat vier Räder.",
+      "exampleTranslation": "Eine Menge von vier identifizieren"
+    },
+    {
+      "word": "Fünf",
+      "translation": "Die Zahl nach vier, die Hälfte von zehn",
+      "phonetic": "/fʏnf/",
+      "example": "Ich habe fünf Finger an jeder Hand.",
+      "exampleTranslation": "Die Finger einer Hand zählen"
+    },
+    {
+      "word": "Sechs",
+      "translation": "Die Zahl nach fünf",
+      "phonetic": "/zɛks/",
+      "example": "Es gibt sechs Eier im Karton.",
+      "exampleTranslation": "Ein halbes Dutzend Artikel zählen"
+    },
+    {
+      "word": "Sieben",
+      "translation": "Die Zahl nach sechs",
+      "phonetic": "/ˈziːbn̩/",
+      "example": "Eine Woche hat sieben Tage.",
+      "exampleTranslation": "Bezugnahme auf die Tage einer Woche"
+    },
+    {
+      "word": "Acht",
+      "translation": "Die Zahl nach sieben",
+      "phonetic": "/axt/",
+      "example": "Ein Oktopus hat acht Beine.",
+      "exampleTranslation": "Die Gliedmaßen eines Oktopus zählen"
+    },
+    {
+      "word": "Neun",
+      "translation": "Die Zahl nach acht, eins vor zehn",
+      "phonetic": "/nɔʏn/",
+      "example": "Die Schule beginnt um neun Uhr.",
+      "exampleTranslation": "Die Zeit mit Zahlen angeben"
+    }
+  ]
+}

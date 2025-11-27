@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Um",
+      "translation": "O primeiro número na contagem, representando uma única unidade",
+      "phonetic": "/ũ/",
+      "example": "Eu tenho uma maçã.",
+      "exampleTranslation": "Indicando um único item"
+    },
+    {
+      "word": "Dois",
+      "translation": "O número depois do um, representando um par",
+      "phonetic": "/dojʃ/",
+      "example": "Ela tem dois gatos.",
+      "exampleTranslation": "Contando um par de itens"
+    },
+    {
+      "word": "Três",
+      "translation": "O número depois do dois, representando um trio",
+      "phonetic": "/tɾeʃ/",
+      "example": "Há três cadeiras na sala.",
+      "exampleTranslation": "Contando três objetos"
+    },
+    {
+      "word": "Quatro",
+      "translation": "O número depois do três",
+      "phonetic": "/ˈkwatɾu/",
+      "example": "Um carro tem quatro rodas.",
+      "exampleTranslation": "Identificando uma quantidade de quatro"
+    },
+    {
+      "word": "Cinco",
+      "translation": "O número depois do quatro, metade de dez",
+      "phonetic": "/ˈsĩku/",
+      "example": "Eu tenho cinco dedos em cada mão.",
+      "exampleTranslation": "Contando os dedos de uma mão"
+    },
+    {
+      "word": "Seis",
+      "translation": "O número depois do cinco",
+      "phonetic": "/sejʃ/",
+      "example": "Há seis ovos na caixa.",
+      "exampleTranslation": "Contando meia dúzia de itens"
+    },
+    {
+      "word": "Sete",
+      "translation": "O número depois do seis",
+      "phonetic": "/ˈsɛtʃi/",
+      "example": "Uma semana tem sete dias.",
+      "exampleTranslation": "Referindo-se aos dias de uma semana"
+    },
+    {
+      "word": "Oito",
+      "translation": "O número depois do sete",
+      "phonetic": "/ˈojtu/",
+      "example": "Um polvo tem oito pernas.",
+      "exampleTranslation": "Contando os membros de um polvo"
+    },
+    {
+      "word": "Nove",
+      "translation": "O número depois do oito, um antes do dez",
+      "phonetic": "/ˈnɔvi/",
+      "example": "A escola começa às nove horas.",
+      "exampleTranslation": "Dizendo as horas usando números"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day31_mc1", "type": "multipleChoice", "question": "¿Qué es un animal?", "options": ["Una planta", "Una criatura viviente", "Un edificio", "Comida"], "correctOptionIndex": 1},
+    {"id": "day31_mc2", "type": "multipleChoice", "question": "¿Cuál es un felino grande salvaje?", "options": ["Elefante", "León", "Oso", "Lobo"], "correctOptionIndex": 1},
+    {"id": "day31_fib1", "type": "fillInBlank", "question": "Completa el espacio: 'El ____ es fuerte.'", "correctAnswer": "león", "acceptableAlternatives": ["León"], "caseSensitive": false},
+    {"id": "day31_fib2", "type": "fillInBlank", "question": "Completa el espacio: 'El ____ es gris.'", "correctAnswer": "elefante", "acceptableAlternatives": ["Elefante"], "caseSensitive": false},
+    {"id": "day31_mc3", "type": "multipleChoice", "question": "¿Cuál animal tiene cuello largo?", "options": ["León", "Jirafa", "Oso", "Cebra"], "correctOptionIndex": 1},
+    {"id": "day31_trans1", "type": "translation", "question": "¿Cómo se llama un caballo salvaje rayado?", "targetText": "Un caballo salvaje rayado", "correctTranslation": "Cebra", "acceptableAlternatives": ["cebra"]},
+    {"id": "day31_fib3", "type": "fillInBlank", "question": "Completa el espacio: 'El ____ aúlla.'", "correctAnswer": "lobo", "acceptableAlternatives": ["Lobo"], "caseSensitive": false},
+    {"id": "day31_mc4", "type": "multipleChoice", "question": "¿Cuál animal es un primate?", "options": ["Tigre", "Mono", "Jirafa", "Elefante"], "correctOptionIndex": 1}
+  ]
+}

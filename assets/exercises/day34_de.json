@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day34_mc1",
+      "type": "multipleChoice",
+      "question": "Welche Form hat keine Ecken?",
+      "options": [
+        "Quadrat",
+        "Kreis",
+        "Dreieck",
+        "Rechteck"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day34_mc2",
+      "type": "multipleChoice",
+      "question": "Welche Form hat drei Seiten?",
+      "options": [
+        "Kreis",
+        "Quadrat",
+        "Dreieck",
+        "Oval"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day34_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Ein ____ hat vier gleiche Seiten und vier rechte Winkel.'",
+      "correctAnswer": "Quadrat",
+      "acceptableAlternatives": ["quadrat"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day34_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Ein ____ ist eine 3D-Form mit sechs quadratischen Flächen.'",
+      "correctAnswer": "Würfel",
+      "acceptableAlternatives": ["würfel", "Wuerfel", "wuerfel"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day34_trans1",
+      "type": "translation",
+      "question": "Übersetzen Sie ins Deutsche:",
+      "targetText": "Circle",
+      "correctTranslation": "Kreis",
+      "acceptableAlternatives": ["kreis"]
+    },
+    {
+      "id": "day34_mc3",
+      "type": "multipleChoice",
+      "question": "Welche Form ist wie ein gestreckter Kreis?",
+      "options": [
+        "Raute",
+        "Oval",
+        "Stern",
+        "Würfel"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day34_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Ein ____ hat mehrere spitze Enden, die von der Mitte ausstrahlen.'",
+      "correctAnswer": "Stern",
+      "acceptableAlternatives": ["stern"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day34_mc4",
+      "type": "multipleChoice",
+      "question": "Welches ist eine 3D-Form?",
+      "options": [
+        "Dreieck",
+        "Kreis",
+        "Pyramide",
+        "Quadrat"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

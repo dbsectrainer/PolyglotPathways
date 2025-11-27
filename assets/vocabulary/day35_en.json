@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "One",
+      "translation": "The first number in counting, representing a single unit",
+      "phonetic": "/wʌn/",
+      "example": "I have one apple.",
+      "exampleTranslation": "Indicating a single item"
+    },
+    {
+      "word": "Two",
+      "translation": "The number after one, representing a pair",
+      "phonetic": "/tuː/",
+      "example": "She has two cats.",
+      "exampleTranslation": "Counting a pair of items"
+    },
+    {
+      "word": "Three",
+      "translation": "The number after two, representing a trio",
+      "phonetic": "/θriː/",
+      "example": "There are three chairs in the room.",
+      "exampleTranslation": "Counting three objects"
+    },
+    {
+      "word": "Four",
+      "translation": "The number after three",
+      "phonetic": "/fɔːr/",
+      "example": "A car has four wheels.",
+      "exampleTranslation": "Identifying a quantity of four"
+    },
+    {
+      "word": "Five",
+      "translation": "The number after four, half of ten",
+      "phonetic": "/faɪv/",
+      "example": "I have five fingers on each hand.",
+      "exampleTranslation": "Counting digits on a hand"
+    },
+    {
+      "word": "Six",
+      "translation": "The number after five",
+      "phonetic": "/sɪks/",
+      "example": "There are six eggs in the carton.",
+      "exampleTranslation": "Counting half a dozen items"
+    },
+    {
+      "word": "Seven",
+      "translation": "The number after six",
+      "phonetic": "/ˈsevən/",
+      "example": "A week has seven days.",
+      "exampleTranslation": "Referring to the days in a week"
+    },
+    {
+      "word": "Eight",
+      "translation": "The number after seven",
+      "phonetic": "/eɪt/",
+      "example": "An octopus has eight legs.",
+      "exampleTranslation": "Counting the limbs of an octopus"
+    },
+    {
+      "word": "Nine",
+      "translation": "The number after eight, one before ten",
+      "phonetic": "/naɪn/",
+      "example": "School starts at nine o'clock.",
+      "exampleTranslation": "Telling time using numbers"
+    }
+  ]
+}

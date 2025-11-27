@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Mascota", "translation": "Un animal doméstico mantenido para compañía", "phonetic": "/mɑsˈkotɑ/", "example": "Mi mascota es un gato.", "exampleTranslation": "Un animal del hogar"},
+    {"word": "Perro", "translation": "Un animal doméstico leal", "phonetic": "/ˈpɛɾɾo/", "example": "El perro ladra.", "exampleTranslation": "Un amigo leal"},
+    {"word": "Gato", "translation": "Un animal doméstico peludo", "phonetic": "/ˈɡɑto/", "example": "El gato maúlla.", "exampleTranslation": "Una mascota peluda"},
+    {"word": "Conejo", "translation": "Un pequeño animal saltador", "phonetic": "/koˈnɛxo/", "example": "El conejo es esponjoso.", "exampleTranslation": "Una mascota esponjosa"},
+    {"word": "Hámster", "translation": "Un pequeño roedor peludo", "phonetic": "/ˈɑmstɛɾ/", "example": "El hámster corre.", "exampleTranslation": "Una mascota pequeña"},
+    {"word": "Pez", "translation": "Un animal acuático", "phonetic": "/pɛs/", "example": "El pez nada.", "exampleTranslation": "Una mascota de agua"},
+    {"word": "Pájaro", "translation": "Un animal que vuela", "phonetic": "/ˈpɑxɑɾo/", "example": "El pájaro canta.", "exampleTranslation": "Una mascota voladora"},
+    {"word": "Tortuga", "translation": "Un animal lento con caparazón", "phonetic": "/toɾˈtuɡɑ/", "example": "La tortuga es lenta.", "exampleTranslation": "Una mascota con caparazón"},
+    {"word": "Loro", "translation": "Un pájaro colorido que habla", "phonetic": "/ˈloɾo/", "example": "El loro habla.", "exampleTranslation": "Un pájaro que habla"}
+  ]
+}

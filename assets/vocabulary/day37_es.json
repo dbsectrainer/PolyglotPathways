@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Primavera",
+      "translation": "La estación después del invierno cuando las plantas comienzan a crecer",
+      "phonetic": "/pɾimaˈβeɾa/",
+      "example": "Las flores florecen en primavera.",
+      "exampleTranslation": "Describiendo la estación de renovación y crecimiento"
+    },
+    {
+      "word": "Verano",
+      "translation": "La estación más cálida del año",
+      "phonetic": "/beˈɾano/",
+      "example": "Vamos a la playa en verano.",
+      "exampleTranslation": "Refiriéndose a la estación calurosa"
+    },
+    {
+      "word": "Otoño",
+      "translation": "La estación cuando las hojas caen de los árboles",
+      "phonetic": "/oˈtoɲo/",
+      "example": "Las hojas se vuelven naranjas en otoño.",
+      "exampleTranslation": "Describiendo la estación de cosecha"
+    },
+    {
+      "word": "Invierno",
+      "translation": "La estación más fría del año",
+      "phonetic": "/imˈbjeɾno/",
+      "example": "Nieva en invierno.",
+      "exampleTranslation": "Refiriéndose a la estación fría"
+    },
+    {
+      "word": "Estación",
+      "translation": "Una de las cuatro divisiones del año",
+      "phonetic": "/estaˈθjon/",
+      "example": "¿Cuál es tu estación favorita?",
+      "exampleTranslation": "Preguntando sobre la preferencia de época del año"
+    },
+    {
+      "word": "Clima",
+      "translation": "El estado de la atmósfera en un tiempo y lugar particular",
+      "phonetic": "/ˈklima/",
+      "example": "El clima está agradable hoy.",
+      "exampleTranslation": "Describiendo las condiciones atmosféricas"
+    },
+    {
+      "word": "Temperatura",
+      "translation": "Cuán caliente o frío está algo",
+      "phonetic": "/tempeɾaˈtuɾa/",
+      "example": "La temperatura está bajando.",
+      "exampleTranslation": "Refiriéndose al grado de calor"
+    },
+    {
+      "word": "Hojas",
+      "translation": "Las partes verdes y planas de las plantas que crecen de las ramas",
+      "phonetic": "/ˈoxas/",
+      "example": "Las hojas cambian de color en otoño.",
+      "exampleTranslation": "Describiendo el follaje de otoño"
+    },
+    {
+      "word": "Nieve",
+      "translation": "Agua congelada blanca que cae del cielo en invierno",
+      "phonetic": "/ˈnjeβe/",
+      "example": "Los niños juegan en la nieve.",
+      "exampleTranslation": "Refiriéndose a la precipitación invernal"
+    }
+  ]
+}

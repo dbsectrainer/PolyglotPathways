@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Cor", "translation": "O atributo visual da percepção de luz", "phonetic": "/koɾ/", "example": "A cor é vermelha.", "exampleTranslation": "Um atributo visual"},
+    {"word": "Vermelho", "translation": "Uma cor primária como sangue", "phonetic": "/vɛɾˈmɛʎu/", "example": "A maçã é vermelha.", "exampleTranslation": "Cor quente"},
+    {"word": "Azul", "translation": "Uma cor fresca como o céu", "phonetic": "/ɑˈzul/", "example": "O céu é azul.", "exampleTranslation": "Cor fresca"},
+    {"word": "Amarelo", "translation": "Uma cor brilhante como o sol", "phonetic": "/ɑmɑˈɾɛlu/", "example": "O sol é amarelo.", "exampleTranslation": "Cor brilhante"},
+    {"word": "Verde", "translation": "Uma cor como relva e árvores", "phonetic": "/vɛɾˈdɛ/", "example": "A relva é verde.", "exampleTranslation": "Cor natural"},
+    {"word": "Preto", "translation": "A cor mais escura", "phonetic": "/ˈpɾɛtu/", "example": "A noite é preta.", "exampleTranslation": "Cor escura"},
+    {"word": "Branco", "translation": "A cor mais clara", "phonetic": "/ˈbɾɑ̃ku/", "example": "A neve é branca.", "exampleTranslation": "Cor clara"},
+    {"word": "Laranja", "translation": "Uma cor entre vermelho e amarelo", "phonetic": "/lɑɾɑ̃ˈʒɑ/", "example": "A laranja é laranja.", "exampleTranslation": "Cor mista"},
+    {"word": "Roxo", "translation": "Uma cor que mistura vermelho e azul", "phonetic": "/ˈɾoʃu/", "example": "A flor é roxa.", "exampleTranslation": "Cor mista"}
+  ]
+}

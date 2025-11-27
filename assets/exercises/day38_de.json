@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day38_mc1",
+      "type": "multipleChoice",
+      "question": "Welches Wetter hat helles Sonnenlicht und klaren Himmel?",
+      "options": [
+        "Bewölkt",
+        "Sonnig",
+        "Regnerisch",
+        "Stürmisch"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day38_mc2",
+      "type": "multipleChoice",
+      "question": "Was sollten Sie mitbringen, wenn es regnerisch ist?",
+      "options": [
+        "Sonnenbrille",
+        "Shorts",
+        "Einen Regenschirm",
+        "Einen Drachen"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day38_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Es ist zu ____, um heute einen Drachen steigen zu lassen.'",
+      "correctAnswer": "windig",
+      "acceptableAlternatives": ["Windig"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day38_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Ein ____ hat starke Winde und starken Regen.'",
+      "correctAnswer": "Sturm",
+      "acceptableAlternatives": ["sturm"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day38_trans1",
+      "type": "translation",
+      "question": "Übersetzen Sie ins Deutsche:",
+      "targetText": "Cloudy",
+      "correctTranslation": "Bewölkt",
+      "acceptableAlternatives": ["bewölkt", "Bewoelkt", "bewoelkt"]
+    },
+    {
+      "id": "day38_mc3",
+      "type": "multipleChoice",
+      "question": "Was misst, wie heiß oder kalt es ist?",
+      "options": [
+        "Wind",
+        "Regen",
+        "Temperatur",
+        "Sturm"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day38_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Weißes gefrorenes Wasser, das fällt, heißt ____.'",
+      "correctAnswer": "Schnee",
+      "acceptableAlternatives": ["schnee"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day38_mc4",
+      "type": "multipleChoice",
+      "question": "Wie nennt man bewegte Luft?",
+      "options": [
+        "Regen",
+        "Wind",
+        "Schnee",
+        "Wolke"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

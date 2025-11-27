@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day36_mc1",
+      "type": "multipleChoice",
+      "question": "Welche Operation kombiniert Zahlen, um die Summe zu finden?",
+      "options": [
+        "Subtrahieren",
+        "Addieren",
+        "Dividieren",
+        "Multiplizieren"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day36_mc2",
+      "type": "multipleChoice",
+      "question": "Was ist 5 + 5?",
+      "options": [
+        "Fünf",
+        "Fünfzehn",
+        "Zehn",
+        "Zwanzig"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day36_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: '____ bedeutet, eine Zahl in gleiche Teile aufzuteilen.'",
+      "correctAnswer": "Dividieren",
+      "acceptableAlternatives": ["dividieren"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day36_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Zwei plus zwei ____ vier.'",
+      "correctAnswer": "ist gleich",
+      "acceptableAlternatives": ["gleich", "ist", "sind"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day36_trans1",
+      "type": "translation",
+      "question": "Übersetzen Sie ins Deutsche:",
+      "targetText": "Multiply",
+      "correctTranslation": "Multiplizieren",
+      "acceptableAlternatives": ["multiplizieren"]
+    },
+    {
+      "id": "day36_mc3",
+      "type": "multipleChoice",
+      "question": "Was ist 10 - 3?",
+      "options": [
+        "Sechs",
+        "Sieben",
+        "Acht",
+        "Neun"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day36_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Eine ____ ist ein mathematischer Wert zum Zählen.'",
+      "correctAnswer": "Zahl",
+      "acceptableAlternatives": ["zahl", "Nummer"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day36_mc4",
+      "type": "multipleChoice",
+      "question": "Welche Operation bedeutet wiederholte Addition?",
+      "options": [
+        "Subtrahieren",
+        "Dividieren",
+        "Multiplizieren",
+        "Zählen"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

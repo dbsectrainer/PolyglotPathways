@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Un",
+      "translation": "Le premier nombre dans le comptage, représentant une seule unité",
+      "phonetic": "/œ̃/",
+      "example": "J'ai une pomme.",
+      "exampleTranslation": "Indiquant un seul article"
+    },
+    {
+      "word": "Deux",
+      "translation": "Le nombre après un, représentant une paire",
+      "phonetic": "/dø/",
+      "example": "Elle a deux chats.",
+      "exampleTranslation": "Compter une paire d'articles"
+    },
+    {
+      "word": "Trois",
+      "translation": "Le nombre après deux, représentant un trio",
+      "phonetic": "/tʁwa/",
+      "example": "Il y a trois chaises dans la pièce.",
+      "exampleTranslation": "Compter trois objets"
+    },
+    {
+      "word": "Quatre",
+      "translation": "Le nombre après trois",
+      "phonetic": "/katʁ/",
+      "example": "Une voiture a quatre roues.",
+      "exampleTranslation": "Identifier une quantité de quatre"
+    },
+    {
+      "word": "Cinq",
+      "translation": "Le nombre après quatre, la moitié de dix",
+      "phonetic": "/sɛ̃k/",
+      "example": "J'ai cinq doigts sur chaque main.",
+      "exampleTranslation": "Compter les doigts d'une main"
+    },
+    {
+      "word": "Six",
+      "translation": "Le nombre après cinq",
+      "phonetic": "/sis/",
+      "example": "Il y a six œufs dans la boîte.",
+      "exampleTranslation": "Compter une demi-douzaine d'articles"
+    },
+    {
+      "word": "Sept",
+      "translation": "Le nombre après six",
+      "phonetic": "/sɛt/",
+      "example": "Une semaine a sept jours.",
+      "exampleTranslation": "Se référant aux jours d'une semaine"
+    },
+    {
+      "word": "Huit",
+      "translation": "Le nombre après sept",
+      "phonetic": "/ɥit/",
+      "example": "Une pieuvre a huit pattes.",
+      "exampleTranslation": "Compter les membres d'une pieuvre"
+    },
+    {
+      "word": "Neuf",
+      "translation": "Le nombre après huit, un avant dix",
+      "phonetic": "/nœf/",
+      "example": "L'école commence à neuf heures.",
+      "exampleTranslation": "Dire l'heure en utilisant des nombres"
+    }
+  ]
+}

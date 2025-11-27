@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day32_mc1", "type": "multipleChoice", "question": "O que é um estimação?", "options": ["Um animal selvagem", "Um animal doméstico mantido para companhia", "Uma comida", "Uma planta"], "correctOptionIndex": 1},
+    {"id": "day32_mc2", "type": "multipleChoice", "question": "Qual é um animal doméstico leal?", "options": ["Leão", "Cachorro", "Tigre", "Urso"], "correctOptionIndex": 1},
+    {"id": "day32_fib1", "type": "fillInBlank", "question": "Complete o espaço: 'Meu estimação é um ____.'", "correctAnswer": "gato", "acceptableAlternatives": ["Gato"], "caseSensitive": false},
+    {"id": "day32_fib2", "type": "fillInBlank", "question": "Complete o espaço: 'O ____ late.'", "correctAnswer": "cachorro", "acceptableAlternatives": ["Cachorro"], "caseSensitive": false},
+    {"id": "day32_mc3", "type": "multipleChoice", "question": "Qual é um pequeno animal saltador?", "options": ["Peixe", "Coelho", "Pássaro", "Tartaruga"], "correctOptionIndex": 1},
+    {"id": "day32_trans1", "type": "translation", "question": "O que é um animal lento com casco?", "targetText": "Um animal lento com casco", "correctTranslation": "Tartaruga", "acceptableAlternatives": ["tartaruga"]},
+    {"id": "day32_fib3", "type": "fillInBlank", "question": "Complete o espaço: 'O ____ nada.'", "correctAnswer": "peixe", "acceptableAlternatives": ["Peixe"], "caseSensitive": false},
+    {"id": "day32_mc4", "type": "multipleChoice", "question": "Qual é um pássaro colorido que fala?", "options": ["Coelho", "Hamster", "Papagaio", "Tartaruga"], "correctOptionIndex": 2}
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Printemps",
+      "translation": "La saison après l'hiver quand les plantes commencent à pousser",
+      "phonetic": "/pʁɛ̃tɑ̃/",
+      "example": "Les fleurs fleurissent au printemps.",
+      "exampleTranslation": "Décrire la saison de renouveau et de croissance"
+    },
+    {
+      "word": "Été",
+      "translation": "La saison la plus chaude de l'année",
+      "phonetic": "/ete/",
+      "example": "Nous allons à la plage en été.",
+      "exampleTranslation": "Se référer à la saison chaude"
+    },
+    {
+      "word": "Automne",
+      "translation": "La saison où les feuilles tombent des arbres",
+      "phonetic": "/otɔn/",
+      "example": "Les feuilles deviennent oranges en automne.",
+      "exampleTranslation": "Décrire la saison des récoltes"
+    },
+    {
+      "word": "Hiver",
+      "translation": "La saison la plus froide de l'année",
+      "phonetic": "/ivɛʁ/",
+      "example": "Il neige en hiver.",
+      "exampleTranslation": "Se référer à la saison froide"
+    },
+    {
+      "word": "Saison",
+      "translation": "Une des quatre divisions de l'année",
+      "phonetic": "/sɛzɔ̃/",
+      "example": "Quelle est ta saison préférée?",
+      "exampleTranslation": "Demander la préférence pour la période de l'année"
+    },
+    {
+      "word": "Temps",
+      "translation": "L'état de l'atmosphère à un moment et un lieu particuliers",
+      "phonetic": "/tɑ̃/",
+      "example": "Le temps est agréable aujourd'hui.",
+      "exampleTranslation": "Décrire les conditions atmosphériques"
+    },
+    {
+      "word": "Température",
+      "translation": "À quel point quelque chose est chaud ou froid",
+      "phonetic": "/tɑ̃peʁatyʁ/",
+      "example": "La température baisse.",
+      "exampleTranslation": "Se référer au degré de chaleur"
+    },
+    {
+      "word": "Feuilles",
+      "translation": "Les parties vertes et plates des plantes qui poussent sur les branches",
+      "phonetic": "/fœj/",
+      "example": "Les feuilles changent de couleur en automne.",
+      "exampleTranslation": "Décrire le feuillage d'automne"
+    },
+    {
+      "word": "Neige",
+      "translation": "Eau gelée blanche qui tombe du ciel en hiver",
+      "phonetic": "/nɛʒ/",
+      "example": "Les enfants jouent dans la neige.",
+      "exampleTranslation": "Se référer aux précipitations hivernales"
+    }
+  ]
+}

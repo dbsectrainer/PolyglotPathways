@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Ensoleillé",
+      "translation": "Qui a une lumière du soleil brillante avec un ciel clair",
+      "phonetic": "/ɑ̃sɔleje/",
+      "example": "C'est une journée ensoleillée, parfaite pour un pique-nique.",
+      "exampleTranslation": "Décrire un temps clair et lumineux"
+    },
+    {
+      "word": "Pluvieux",
+      "translation": "Qui a ou est caractérisé par la pluie",
+      "phonetic": "/plyvjø/",
+      "example": "Apporte un parapluie, il fait pluvieux dehors.",
+      "exampleTranslation": "Décrire des conditions météorologiques humides"
+    },
+    {
+      "word": "Nuageux",
+      "translation": "Couvert de ou ayant beaucoup de nuages",
+      "phonetic": "/nɥaʒø/",
+      "example": "Le ciel est nuageux aujourd'hui.",
+      "exampleTranslation": "Décrire un temps couvert"
+    },
+    {
+      "word": "Venteux",
+      "translation": "Qui a un fort mouvement d'air ou du vent",
+      "phonetic": "/vɑ̃tø/",
+      "example": "Il fait trop venteux pour faire voler un cerf-volant en toute sécurité.",
+      "exampleTranslation": "Décrire un temps avec des vents forts"
+    },
+    {
+      "word": "Neige",
+      "translation": "Précipitation blanche gelée qui tombe en hiver",
+      "phonetic": "/nɛʒ/",
+      "example": "La neige tombe fortement.",
+      "exampleTranslation": "Se référer à la précipitation gelée"
+    },
+    {
+      "word": "Tempête",
+      "translation": "Temps violent avec des vents forts, de la pluie ou de la neige",
+      "phonetic": "/tɑ̃pɛt/",
+      "example": "Une tempête approche de la côte.",
+      "exampleTranslation": "Décrire des conditions météorologiques violentes"
+    },
+    {
+      "word": "Température",
+      "translation": "Le degré de chaleur ou de froid dans l'air",
+      "phonetic": "/tɑ̃peʁatyʁ/",
+      "example": "La température va baisser ce soir.",
+      "exampleTranslation": "Se référer à la mesure de chaleur"
+    },
+    {
+      "word": "Vent",
+      "translation": "Air en mouvement, surtout un courant naturel",
+      "phonetic": "/vɑ̃/",
+      "example": "Le vent souffle du nord.",
+      "exampleTranslation": "Décrire le mouvement de l'air"
+    },
+    {
+      "word": "Pluie",
+      "translation": "Eau tombant des nuages en gouttes",
+      "phonetic": "/plɥi/",
+      "example": "La pluie a commencé soudainement.",
+      "exampleTranslation": "Se référer à la précipitation d'eau"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day33_mc1", "type": "multipleChoice", "question": "Was ist eine Farbe?", "options": ["Eine Form", "Das visuelle Attribut der Lichtwahrnehmung", "Eine Zahl", "Ein Geschmack"], "correctOptionIndex": 1},
+    {"id": "day33_mc2", "type": "multipleChoice", "question": "Welche ist eine kühle Farbe?", "options": ["Rot", "Gelb", "Blau", "Orange"], "correctOptionIndex": 2},
+    {"id": "day33_fib1", "type": "fillInBlank", "question": "Füllen Sie aus: 'Der Apfel ist ____.'", "correctAnswer": "rot", "acceptableAlternatives": ["Rot"], "caseSensitive": false},
+    {"id": "day33_fib2", "type": "fillInBlank", "question": "Füllen Sie aus: 'Der Himmel ist ____.'", "correctAnswer": "blau", "acceptableAlternatives": ["Blau"], "caseSensitive": false},
+    {"id": "day33_mc3", "type": "multipleChoice", "question": "Welche ist eine helle Farbe wie die Sonne?", "options": ["Schwarz", "Gelb", "Violett", "Grün"], "correctOptionIndex": 1},
+    {"id": "day33_trans1", "type": "translation", "question": "Was ist die hellste Farbe?", "targetText": "Die hellste Farbe", "correctTranslation": "Weiß", "acceptableAlternatives": ["weiß"]},
+    {"id": "day33_fib3", "type": "fillInBlank", "question": "Füllen Sie aus: 'Das Gras ist ____.'", "correctAnswer": "grün", "acceptableAlternatives": ["Grün"], "caseSensitive": false},
+    {"id": "day33_mc4", "type": "multipleChoice", "question": "Welche Farbe mischt Rot und Blau?", "options": ["Orange", "Violett", "Gelb", "Grün"], "correctOptionIndex": 1}
+  ]
+}

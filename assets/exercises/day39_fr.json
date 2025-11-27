@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day39_mc1",
+      "type": "multipleChoice",
+      "question": "Quel appareil utilisez-vous pour traiter et stocker des données?",
+      "options": [
+        "Télévision",
+        "Ordinateur",
+        "Téléphone",
+        "Écran"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day39_mc2",
+      "type": "multipleChoice",
+      "question": "Comment s'appelle une collection de pages web?",
+      "options": [
+        "Courriel",
+        "Programme",
+        "Site web",
+        "Application"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day39_fib1",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'Envoie-moi un ____ avec l'information.'",
+      "correctAnswer": "courriel",
+      "acceptableAlternatives": ["Courriel", "email", "Email"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day39_fib2",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'Télécharge cette ____ sur ton téléphone.'",
+      "correctAnswer": "application",
+      "acceptableAlternatives": ["Application", "app", "App"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day39_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Internet",
+      "correctTranslation": "Internet",
+      "acceptableAlternatives": ["internet"]
+    },
+    {
+      "id": "day39_mc3",
+      "type": "multipleChoice",
+      "question": "Qu'est-ce qui affiche des images et du texte sur un appareil?",
+      "options": [
+        "Programme",
+        "Site web",
+        "Écran",
+        "Courriel"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day39_fib3",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'Nous regardons les nouvelles à la ____.'",
+      "correctAnswer": "télévision",
+      "acceptableAlternatives": ["Télévision", "TV", "tv", "television"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day39_mc4",
+      "type": "multipleChoice",
+      "question": "Comment s'appelle le logiciel qui s'exécute sur un ordinateur?",
+      "options": [
+        "Écran",
+        "Téléphone",
+        "Programme",
+        "Internet"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

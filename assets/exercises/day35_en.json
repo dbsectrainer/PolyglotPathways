@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day35_mc1",
+      "type": "multipleChoice",
+      "question": "How many fingers are on one hand?",
+      "options": [
+        "Four",
+        "Five",
+        "Six",
+        "Seven"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day35_mc2",
+      "type": "multipleChoice",
+      "question": "How many days are in a week?",
+      "options": [
+        "Five",
+        "Six",
+        "Seven",
+        "Eight"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day35_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'A car has ____ wheels.'",
+      "correctAnswer": "four",
+      "acceptableAlternatives": ["Four", "4"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day35_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'An octopus has ____ legs.'",
+      "correctAnswer": "eight",
+      "acceptableAlternatives": ["Eight", "8"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day35_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Three",
+      "correctTranslation": "Three",
+      "acceptableAlternatives": ["3"]
+    },
+    {
+      "id": "day35_mc3",
+      "type": "multipleChoice",
+      "question": "What comes after eight?",
+      "options": [
+        "Seven",
+        "Nine",
+        "Six",
+        "Ten"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day35_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I have ____ apple.' (singular)",
+      "correctAnswer": "one",
+      "acceptableAlternatives": ["One", "1"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day35_mc4",
+      "type": "multipleChoice",
+      "question": "Which number represents a pair?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

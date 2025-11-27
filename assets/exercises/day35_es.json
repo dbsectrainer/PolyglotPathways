@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day35_mc1",
+      "type": "multipleChoice",
+      "question": "¿Cuántos dedos hay en una mano?",
+      "options": [
+        "Cuatro",
+        "Cinco",
+        "Seis",
+        "Siete"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day35_mc2",
+      "type": "multipleChoice",
+      "question": "¿Cuántos días hay en una semana?",
+      "options": [
+        "Cinco",
+        "Seis",
+        "Siete",
+        "Ocho"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day35_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Un coche tiene ____ ruedas.'",
+      "correctAnswer": "cuatro",
+      "acceptableAlternatives": ["Cuatro", "4"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day35_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Un pulpo tiene ____ patas.'",
+      "correctAnswer": "ocho",
+      "acceptableAlternatives": ["Ocho", "8"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day35_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Three",
+      "correctTranslation": "Tres",
+      "acceptableAlternatives": ["tres", "3"]
+    },
+    {
+      "id": "day35_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué viene después del ocho?",
+      "options": [
+        "Siete",
+        "Nueve",
+        "Seis",
+        "Diez"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day35_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Tengo ____ manzana.' (singular)",
+      "correctAnswer": "una",
+      "acceptableAlternatives": ["Una", "1"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day35_mc4",
+      "type": "multipleChoice",
+      "question": "¿Qué número representa un par?",
+      "options": [
+        "Uno",
+        "Dos",
+        "Tres",
+        "Cuatro"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

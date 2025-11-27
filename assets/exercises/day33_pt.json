@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day33_mc1", "type": "multipleChoice", "question": "O que é uma cor?", "options": ["Uma forma", "O atributo visual da percepção de luz", "Um número", "Um sabor"], "correctOptionIndex": 1},
+    {"id": "day33_mc2", "type": "multipleChoice", "question": "Qual é uma cor fresca?", "options": ["Vermelho", "Amarelo", "Azul", "Laranja"], "correctOptionIndex": 2},
+    {"id": "day33_fib1", "type": "fillInBlank", "question": "Complete o espaço: 'A maçã é ____.'", "correctAnswer": "vermelha", "acceptableAlternatives": ["Vermelha"], "caseSensitive": false},
+    {"id": "day33_fib2", "type": "fillInBlank", "question": "Complete o espaço: 'O céu é ____.'", "correctAnswer": "azul", "acceptableAlternatives": ["Azul"], "caseSensitive": false},
+    {"id": "day33_mc3", "type": "multipleChoice", "question": "Qual é uma cor brilhante como o sol?", "options": ["Preto", "Amarelo", "Roxo", "Verde"], "correctOptionIndex": 1},
+    {"id": "day33_trans1", "type": "translation", "question": "Qual é a cor mais clara?", "targetText": "A cor mais clara", "correctTranslation": "Branco", "acceptableAlternatives": ["branco"]},
+    {"id": "day33_fib3", "type": "fillInBlank", "question": "Complete o espaço: 'A relva é ____.'", "correctAnswer": "verde", "acceptableAlternatives": ["Verde"], "caseSensitive": false},
+    {"id": "day33_mc4", "type": "multipleChoice", "question": "Que cor mistura vermelho e azul?", "options": ["Laranja", "Roxo", "Amarelo", "Verde"], "correctOptionIndex": 1}
+  ]
+}

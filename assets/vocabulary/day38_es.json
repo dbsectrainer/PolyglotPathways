@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Soleado",
+      "translation": "Que tiene luz solar brillante con cielos despejados",
+      "phonetic": "/soleˈaðo/",
+      "example": "Es un día soleado, perfecto para un picnic.",
+      "exampleTranslation": "Describiendo un clima brillante y despejado"
+    },
+    {
+      "word": "Lluvioso",
+      "translation": "Que tiene o se caracteriza por lluvia",
+      "phonetic": "/ʎuˈβjoso/",
+      "example": "Lleva un paraguas, está lluvioso afuera.",
+      "exampleTranslation": "Describiendo condiciones climáticas húmedas"
+    },
+    {
+      "word": "Nublado",
+      "translation": "Cubierto con o que tiene muchas nubes",
+      "phonetic": "/nuˈβlaðo/",
+      "example": "El cielo está nublado hoy.",
+      "exampleTranslation": "Describiendo clima nublado"
+    },
+    {
+      "word": "Ventoso",
+      "translation": "Que tiene fuerte movimiento de aire o viento",
+      "phonetic": "/benˈtoso/",
+      "example": "Está muy ventoso para volar una cometa con seguridad.",
+      "exampleTranslation": "Describiendo clima con vientos fuertes"
+    },
+    {
+      "word": "Nieve",
+      "translation": "Precipitación blanca congelada que cae en invierno",
+      "phonetic": "/ˈnjeβe/",
+      "example": "La nieve está cayendo fuertemente.",
+      "exampleTranslation": "Refiriéndose a la precipitación congelada"
+    },
+    {
+      "word": "Tormenta",
+      "translation": "Clima severo con vientos fuertes, lluvia o nieve",
+      "phonetic": "/toɾˈmenta/",
+      "example": "Una tormenta se acerca a la costa.",
+      "exampleTranslation": "Describiendo condiciones climáticas severas"
+    },
+    {
+      "word": "Temperatura",
+      "translation": "El grado de calor o frío en el aire",
+      "phonetic": "/tempeɾaˈtuɾa/",
+      "example": "La temperatura bajará esta noche.",
+      "exampleTranslation": "Refiriéndose a la medición del calor"
+    },
+    {
+      "word": "Viento",
+      "translation": "Aire en movimiento, especialmente una corriente natural",
+      "phonetic": "/ˈbjento/",
+      "example": "El viento sopla del norte.",
+      "exampleTranslation": "Describiendo el movimiento del aire"
+    },
+    {
+      "word": "Lluvia",
+      "translation": "Agua que cae de las nubes en gotas",
+      "phonetic": "/ˈʎuβja/",
+      "example": "La lluvia comenzó repentinamente.",
+      "exampleTranslation": "Refiriéndose a la precipitación de agua"
+    }
+  ]
+}

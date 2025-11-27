@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Animal", "translation": "Une créature vivante", "phonetic": "/ɑniˈmal/", "example": "L'animal court.", "exampleTranslation": "Un être vivant"},
+    {"word": "Lion", "translation": "Un grand félin sauvage", "phonetic": "/ljɔ̃/", "example": "Le lion est fort.", "exampleTranslation": "Un grand prédateur"},
+    {"word": "Éléphant", "translation": "Un grand animal avec une trompe", "phonetic": "/eˈlefɑ̃/", "example": "L'éléphant est gris.", "exampleTranslation": "Un grand herbivore"},
+    {"word": "Singe", "translation": "Un animal primate", "phonetic": "/sɛ̃ʒ/", "example": "Le singe balance.", "exampleTranslation": "Un primate"},
+    {"word": "Zèbre", "translation": "Un cheval sauvage rayé", "phonetic": "/zɛbʁ/", "example": "Le zèbre a des rayures.", "exampleTranslation": "Un animal rayé"},
+    {"word": "Girafe", "translation": "Un animal grand avec un long cou", "phonetic": "/ʒiˈraf/", "example": "La girafe est grande.", "exampleTranslation": "Un animal au long cou"},
+    {"word": "Tigre", "translation": "Un félin sauvage rayé", "phonetic": "/tiɡʁ/", "example": "Le tigre est orange.", "exampleTranslation": "Un prédateur rayé"},
+    {"word": "Ours", "translation": "Un grand animal poilu", "phonetic": "/uʁs/", "example": "L'ours est fort.", "exampleTranslation": "Un grand animal poilu"},
+    {"word": "Loup", "translation": "Un chien sauvage", "phonetic": "/lu/", "example": "Le loup hurle.", "exampleTranslation": "Un canidé sauvage"}
+  ]
+}

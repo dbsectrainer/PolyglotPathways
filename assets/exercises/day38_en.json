@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day38_mc1",
+      "type": "multipleChoice",
+      "question": "What weather has bright sunlight and clear skies?",
+      "options": [
+        "Cloudy",
+        "Sunny",
+        "Rainy",
+        "Stormy"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day38_mc2",
+      "type": "multipleChoice",
+      "question": "What should you bring when it's rainy?",
+      "options": [
+        "Sunglasses",
+        "Shorts",
+        "An umbrella",
+        "A kite"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day38_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'It's too ____ to fly a kite today.'",
+      "correctAnswer": "windy",
+      "acceptableAlternatives": ["Windy"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day38_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'A ____ has strong winds and heavy rain.'",
+      "correctAnswer": "storm",
+      "acceptableAlternatives": ["Storm"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day38_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Cloudy",
+      "correctTranslation": "Cloudy",
+      "acceptableAlternatives": ["cloudy", "Overcast"]
+    },
+    {
+      "id": "day38_mc3",
+      "type": "multipleChoice",
+      "question": "What measures how hot or cold it is?",
+      "options": [
+        "Wind",
+        "Rain",
+        "Temperature",
+        "Storm"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day38_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'White frozen water that falls is called ____.'",
+      "correctAnswer": "snow",
+      "acceptableAlternatives": ["Snow"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day38_mc4",
+      "type": "multipleChoice",
+      "question": "What is moving air called?",
+      "options": [
+        "Rain",
+        "Wind",
+        "Snow",
+        "Cloud"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

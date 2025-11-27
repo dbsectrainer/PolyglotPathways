@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day34_mc1",
+      "type": "multipleChoice",
+      "question": "Which shape has no corners?",
+      "options": [
+        "Square",
+        "Circle",
+        "Triangle",
+        "Rectangle"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day34_mc2",
+      "type": "multipleChoice",
+      "question": "Which shape has three sides?",
+      "options": [
+        "Circle",
+        "Square",
+        "Triangle",
+        "Oval"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day34_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'A ____ has four equal sides and four right angles.'",
+      "correctAnswer": "square",
+      "acceptableAlternatives": ["Square"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day34_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'A ____ is a 3D shape with six square faces.'",
+      "correctAnswer": "cube",
+      "acceptableAlternatives": ["Cube"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day34_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Circle",
+      "correctTranslation": "Circle",
+      "acceptableAlternatives": ["Round"]
+    },
+    {
+      "id": "day34_mc3",
+      "type": "multipleChoice",
+      "question": "Which shape is like a stretched circle?",
+      "options": [
+        "Diamond",
+        "Oval",
+        "Star",
+        "Cube"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day34_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'A ____ has multiple pointed ends radiating from the center.'",
+      "correctAnswer": "star",
+      "acceptableAlternatives": ["Star"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day34_mc4",
+      "type": "multipleChoice",
+      "question": "Which is a 3D shape?",
+      "options": [
+        "Triangle",
+        "Circle",
+        "Pyramid",
+        "Square"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

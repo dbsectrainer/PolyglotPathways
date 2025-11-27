@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Sonnig",
+      "translation": "Mit hellem Sonnenlicht und klarem Himmel",
+      "phonetic": "/ˈzɔnɪç/",
+      "example": "Es ist ein sonniger Tag, perfekt für ein Picknick.",
+      "exampleTranslation": "Beschreibung von hellem, klarem Wetter"
+    },
+    {
+      "word": "Regnerisch",
+      "translation": "Mit oder gekennzeichnet durch Regen",
+      "phonetic": "/ˈʁeːɡnəʁɪʃ/",
+      "example": "Nimm einen Regenschirm mit, es ist regnerisch draußen.",
+      "exampleTranslation": "Beschreibung nasser Wetterbedingungen"
+    },
+    {
+      "word": "Bewölkt",
+      "translation": "Mit oder habend viele Wolken bedeckt",
+      "phonetic": "/bəˈvœlkt/",
+      "example": "Der Himmel ist heute bewölkt.",
+      "exampleTranslation": "Beschreibung von bedecktem Wetter"
+    },
+    {
+      "word": "Windig",
+      "translation": "Mit starker Luftbewegung oder Wind",
+      "phonetic": "/ˈvɪndɪç/",
+      "example": "Es ist zu windig, um sicher einen Drachen steigen zu lassen.",
+      "exampleTranslation": "Beschreibung von Wetter mit starken Winden"
+    },
+    {
+      "word": "Schnee",
+      "translation": "Gefrorener weißer Niederschlag, der im Winter fällt",
+      "phonetic": "/ʃneː/",
+      "example": "Der Schnee fällt stark.",
+      "exampleTranslation": "Bezugnahme auf gefrorenen Niederschlag"
+    },
+    {
+      "word": "Sturm",
+      "translation": "Schweres Wetter mit starken Winden, Regen oder Schnee",
+      "phonetic": "/ʃtʊʁm/",
+      "example": "Ein Sturm nähert sich der Küste.",
+      "exampleTranslation": "Beschreibung schwerer Wetterbedingungen"
+    },
+    {
+      "word": "Temperatur",
+      "translation": "Der Grad von Wärme oder Kälte in der Luft",
+      "phonetic": "/tɛmpəʁaˈtuːɐ/",
+      "example": "Die Temperatur wird heute Nacht sinken.",
+      "exampleTranslation": "Bezugnahme auf Wärmemessung"
+    },
+    {
+      "word": "Wind",
+      "translation": "Bewegte Luft, besonders eine natürliche Strömung",
+      "phonetic": "/vɪnt/",
+      "example": "Der Wind weht aus dem Norden.",
+      "exampleTranslation": "Beschreibung der Luftbewegung"
+    },
+    {
+      "word": "Regen",
+      "translation": "Wasser, das in Tropfen aus den Wolken fällt",
+      "phonetic": "/ˈʁeːɡn̩/",
+      "example": "Der Regen begann plötzlich.",
+      "exampleTranslation": "Bezugnahme auf Wasserniederschlag"
+    }
+  ]
+}

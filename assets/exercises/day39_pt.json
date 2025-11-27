@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day39_mc1",
+      "type": "multipleChoice",
+      "question": "Qual dispositivo você usa para processar e armazenar dados?",
+      "options": [
+        "Televisão",
+        "Computador",
+        "Telefone",
+        "Tela"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day39_mc2",
+      "type": "multipleChoice",
+      "question": "Como se chama uma coleção de páginas da web?",
+      "options": [
+        "Email",
+        "Programa",
+        "Site",
+        "Aplicativo"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day39_fib1",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Me envie um ____ com a informação.'",
+      "correctAnswer": "email",
+      "acceptableAlternatives": ["Email", "e-mail", "E-mail"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day39_fib2",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Baixe este ____ no seu telefone.'",
+      "correctAnswer": "aplicativo",
+      "acceptableAlternatives": ["Aplicativo", "app", "App"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day39_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Internet",
+      "correctTranslation": "Internet",
+      "acceptableAlternatives": ["internet"]
+    },
+    {
+      "id": "day39_mc3",
+      "type": "multipleChoice",
+      "question": "O que exibe imagens e texto em um dispositivo?",
+      "options": [
+        "Programa",
+        "Site",
+        "Tela",
+        "Email"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day39_fib3",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Assistimos ao noticiário na ____.'",
+      "correctAnswer": "televisão",
+      "acceptableAlternatives": ["Televisão", "TV", "tv"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day39_mc4",
+      "type": "multipleChoice",
+      "question": "Como se chama o software que roda em um computador?",
+      "options": [
+        "Tela",
+        "Telefone",
+        "Programa",
+        "Internet"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

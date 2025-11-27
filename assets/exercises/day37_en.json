@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day37_mc1",
+      "type": "multipleChoice",
+      "question": "Which season comes after winter?",
+      "options": [
+        "Autumn",
+        "Spring",
+        "Summer",
+        "Fall"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day37_mc2",
+      "type": "multipleChoice",
+      "question": "Which season is the warmest?",
+      "options": [
+        "Spring",
+        "Autumn",
+        "Summer",
+        "Winter"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day37_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'The leaves fall from trees in ____.'",
+      "correctAnswer": "autumn",
+      "acceptableAlternatives": ["Autumn", "fall", "Fall"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day37_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'White frozen water that falls from the sky is called ____.'",
+      "correctAnswer": "snow",
+      "acceptableAlternatives": ["Snow"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day37_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Winter",
+      "correctTranslation": "Winter",
+      "acceptableAlternatives": ["winter"]
+    },
+    {
+      "id": "day37_mc3",
+      "type": "multipleChoice",
+      "question": "What describes how hot or cold something is?",
+      "options": [
+        "Season",
+        "Weather",
+        "Temperature",
+        "Leaves"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day37_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Flowers bloom in ____.'",
+      "correctAnswer": "spring",
+      "acceptableAlternatives": ["Spring"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day37_mc4",
+      "type": "multipleChoice",
+      "question": "How many seasons are there in a year?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

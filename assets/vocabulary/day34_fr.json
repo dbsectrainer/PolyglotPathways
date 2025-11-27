@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Cercle",
+      "translation": "Une forme ronde sans coins ni bords",
+      "phonetic": "/sɛʁkl/",
+      "example": "Dessine un cercle sur le papier.",
+      "exampleTranslation": "Créer une forme ronde sans coins"
+    },
+    {
+      "word": "Carré",
+      "translation": "Une forme avec quatre côtés égaux et quatre angles droits",
+      "phonetic": "/kaʁe/",
+      "example": "La boîte a la forme d'un carré.",
+      "exampleTranslation": "Décrire un objet avec quatre côtés égaux"
+    },
+    {
+      "word": "Triangle",
+      "translation": "Une forme avec trois côtés et trois coins",
+      "phonetic": "/tʁijɑ̃ɡl/",
+      "example": "Un triangle a trois points.",
+      "exampleTranslation": "Identifier une forme géométrique à trois côtés"
+    },
+    {
+      "word": "Rectangle",
+      "translation": "Une forme avec quatre côtés et quatre angles droits, avec les côtés opposés égaux",
+      "phonetic": "/ʁɛktɑ̃ɡl/",
+      "example": "La porte est un rectangle.",
+      "exampleTranslation": "Décrire une forme allongée à quatre côtés"
+    },
+    {
+      "word": "Étoile",
+      "translation": "Une forme avec plusieurs pointes rayonnant depuis le centre",
+      "phonetic": "/etwal/",
+      "example": "Elle a dessiné une étoile à cinq branches.",
+      "exampleTranslation": "Créer une forme avec des bords pointus"
+    },
+    {
+      "word": "Losange",
+      "translation": "Une forme avec quatre côtés égaux formant deux angles aigus opposés",
+      "phonetic": "/lozɑ̃ʒ/",
+      "example": "Le cerf-volant a la forme d'un losange.",
+      "exampleTranslation": "Décrire un objet en forme de losange"
+    },
+    {
+      "word": "Ovale",
+      "translation": "Une forme ronde allongée, comme un cercle étiré",
+      "phonetic": "/ɔval/",
+      "example": "Un œuf a une forme ovale.",
+      "exampleTranslation": "Décrire une forme elliptique"
+    },
+    {
+      "word": "Cube",
+      "translation": "Une forme tridimensionnelle avec six faces carrées",
+      "phonetic": "/kyb/",
+      "example": "Le dé est un petit cube.",
+      "exampleTranslation": "Identifier un solide géométrique 3D"
+    },
+    {
+      "word": "Pyramide",
+      "translation": "Une forme tridimensionnelle avec une base et des côtés triangulaires se rejoignant en un point",
+      "phonetic": "/piʁamid/",
+      "example": "Les anciennes pyramides d'Égypte sont célèbres.",
+      "exampleTranslation": "Se référer à une structure 3D pointue"
+    }
+  ]
+}

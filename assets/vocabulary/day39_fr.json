@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Ordinateur",
+      "translation": "Un appareil électronique pour traiter et stocker des données",
+      "phonetic": "/ɔʁdinatœʁ/",
+      "example": "J'utilise mon ordinateur pour travailler et étudier.",
+      "exampleTranslation": "Décrire un appareil pour les tâches numériques"
+    },
+    {
+      "word": "Téléphone",
+      "translation": "Un appareil utilisé pour communiquer avec d'autres par la voix",
+      "phonetic": "/telefɔn/",
+      "example": "Je t'appellerai sur mon téléphone plus tard.",
+      "exampleTranslation": "Se référer à un appareil de communication"
+    },
+    {
+      "word": "Télévision",
+      "translation": "Un appareil qui reçoit et affiche des programmes diffusés",
+      "phonetic": "/televizjɔ̃/",
+      "example": "Nous regardons les nouvelles à la télévision.",
+      "exampleTranslation": "Décrire un appareil pour voir des émissions"
+    },
+    {
+      "word": "Internet",
+      "translation": "Un réseau mondial connectant des ordinateurs dans le monde entier",
+      "phonetic": "/ɛ̃tɛʁnɛt/",
+      "example": "J'ai trouvé l'information sur internet.",
+      "exampleTranslation": "Se référer au réseau mondial"
+    },
+    {
+      "word": "Site web",
+      "translation": "Une collection de pages web sur internet",
+      "phonetic": "/sit wɛb/",
+      "example": "Visitez notre site web pour plus de détails.",
+      "exampleTranslation": "Diriger quelqu'un vers un emplacement en ligne"
+    },
+    {
+      "word": "Courriel",
+      "translation": "Courrier électronique envoyé via internet",
+      "phonetic": "/kuʁjɛl/",
+      "example": "Envoie-moi un courriel avec l'information.",
+      "exampleTranslation": "Demander une correspondance numérique"
+    },
+    {
+      "word": "Programme",
+      "translation": "Logiciel qui s'exécute sur un ordinateur ou un appareil",
+      "phonetic": "/pʁɔɡʁam/",
+      "example": "Ce programme aide à éditer des photos.",
+      "exampleTranslation": "Décrire un logiciel informatique"
+    },
+    {
+      "word": "Écran",
+      "translation": "La surface d'affichage d'un appareil montrant des images et du texte",
+      "phonetic": "/ekʁɑ̃/",
+      "example": "L'écran de mon téléphone est fissuré.",
+      "exampleTranslation": "Se référer à l'affichage d'un appareil"
+    },
+    {
+      "word": "Application",
+      "translation": "Une application logicielle, en particulier sur un appareil mobile",
+      "phonetic": "/aplikasjɔ̃/",
+      "example": "Télécharge cette application pour suivre ta condition physique.",
+      "exampleTranslation": "Recommander un logiciel mobile"
+    }
+  ]
+}

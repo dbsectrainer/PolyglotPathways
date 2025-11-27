@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day36_mc1",
+      "type": "multipleChoice",
+      "question": "Quelle opération combine des nombres pour trouver le total?",
+      "options": [
+        "Soustraire",
+        "Additionner",
+        "Diviser",
+        "Multiplier"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day36_mc2",
+      "type": "multipleChoice",
+      "question": "Combien font 5 + 5?",
+      "options": [
+        "Cinq",
+        "Quinze",
+        "Dix",
+        "Vingt"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day36_fib1",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: '____ signifie séparer un nombre en parties égales.'",
+      "correctAnswer": "Diviser",
+      "acceptableAlternatives": ["diviser"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day36_fib2",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'Deux plus deux ____ quatre.'",
+      "correctAnswer": "est égal à",
+      "acceptableAlternatives": ["égale", "font"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day36_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Multiply",
+      "correctTranslation": "Multiplier",
+      "acceptableAlternatives": ["multiplier"]
+    },
+    {
+      "id": "day36_mc3",
+      "type": "multipleChoice",
+      "question": "Combien font 10 - 3?",
+      "options": [
+        "Six",
+        "Sept",
+        "Huit",
+        "Neuf"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day36_fib3",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'Un ____ est une valeur mathématique utilisée pour compter.'",
+      "correctAnswer": "nombre",
+      "acceptableAlternatives": ["Nombre"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day36_mc4",
+      "type": "multipleChoice",
+      "question": "Quelle opération signifie addition répétée?",
+      "options": [
+        "Soustraire",
+        "Diviser",
+        "Multiplier",
+        "Compter"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

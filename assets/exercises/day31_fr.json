@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day31_mc1", "type": "multipleChoice", "question": "Qu'est-ce qu'un animal?", "options": ["Une plante", "Une créature vivante", "Un bâtiment", "De la nourriture"], "correctOptionIndex": 1},
+    {"id": "day31_mc2", "type": "multipleChoice", "question": "Lequel est un grand félin sauvage?", "options": ["Éléphant", "Lion", "Ours", "Loup"], "correctOptionIndex": 1},
+    {"id": "day31_fib1", "type": "fillInBlank", "question": "Complétez: 'Le ____ est fort.'", "correctAnswer": "lion", "acceptableAlternatives": ["Lion"], "caseSensitive": false},
+    {"id": "day31_fib2", "type": "fillInBlank", "question": "Complétez: 'L'____ est gris.'", "correctAnswer": "éléphant", "acceptableAlternatives": ["Éléphant"], "caseSensitive": false},
+    {"id": "day31_mc3", "type": "multipleChoice", "question": "Quel animal a un long cou?", "options": ["Lion", "Girafe", "Ours", "Zèbre"], "correctOptionIndex": 1},
+    {"id": "day31_trans1", "type": "translation", "question": "Comment s'appelle un cheval sauvage rayé?", "targetText": "Un cheval sauvage rayé", "correctTranslation": "Zèbre", "acceptableAlternatives": ["zèbre"]},
+    {"id": "day31_fib3", "type": "fillInBlank", "question": "Complétez: 'Le ____ hurle.'", "correctAnswer": "loup", "acceptableAlternatives": ["Loup"], "caseSensitive": false},
+    {"id": "day31_mc4", "type": "multipleChoice", "question": "Quel animal est un primate?", "options": ["Tigre", "Singe", "Girafe", "Éléphant"], "correctOptionIndex": 1}
+  ]
+}

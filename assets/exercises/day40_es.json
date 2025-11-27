@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day40_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué tiene cuatro ruedas y es impulsado por un motor?",
+      "options": [
+        "Bicicleta",
+        "Coche",
+        "Barco",
+        "Tren"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day40_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué vuela por el aire con alas?",
+      "options": [
+        "Tren",
+        "Autobús",
+        "Avión",
+        "Camión"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day40_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Una ____ es un vehículo de dos ruedas impulsado por pedales.'",
+      "correctAnswer": "bicicleta",
+      "acceptableAlternatives": ["Bicicleta", "bici", "Bici"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day40_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Llamé un ____ para llevarme al aeropuerto.'",
+      "correctAnswer": "taxi",
+      "acceptableAlternatives": ["Taxi"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day40_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Train",
+      "correctTranslation": "Tren",
+      "acceptableAlternatives": ["tren"]
+    },
+    {
+      "id": "day40_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué viaja en el agua?",
+      "options": [
+        "Avión",
+        "Barco",
+        "Autobús",
+        "Bicicleta"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day40_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Un vehículo grande que transporta mercancías se llama ____.'",
+      "correctAnswer": "camión",
+      "acceptableAlternatives": ["Camión"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day40_mc4",
+      "type": "multipleChoice",
+      "question": "¿Qué es un vehículo de dos ruedas con motor?",
+      "options": [
+        "Bicicleta",
+        "Coche",
+        "Motocicleta",
+        "Autobús"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

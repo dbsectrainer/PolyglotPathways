@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day39_mc1",
+      "type": "multipleChoice",
+      "question": "What device do you use to process and store data?",
+      "options": [
+        "Television",
+        "Computer",
+        "Phone",
+        "Screen"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day39_mc2",
+      "type": "multipleChoice",
+      "question": "What is a collection of web pages called?",
+      "options": [
+        "Email",
+        "Program",
+        "Website",
+        "App"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day39_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Send me an ____ with the information.'",
+      "correctAnswer": "email",
+      "acceptableAlternatives": ["Email", "e-mail", "E-mail"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day39_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Download this ____ on your phone.'",
+      "correctAnswer": "app",
+      "acceptableAlternatives": ["App", "application", "Application"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day39_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Internet",
+      "correctTranslation": "Internet",
+      "acceptableAlternatives": ["internet", "The internet"]
+    },
+    {
+      "id": "day39_mc3",
+      "type": "multipleChoice",
+      "question": "What displays images and text on a device?",
+      "options": [
+        "Program",
+        "Website",
+        "Screen",
+        "Email"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day39_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'We watch the news on ____.'",
+      "correctAnswer": "television",
+      "acceptableAlternatives": ["Television", "TV", "tv"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day39_mc4",
+      "type": "multipleChoice",
+      "question": "What is software that runs on a computer called?",
+      "options": [
+        "Screen",
+        "Phone",
+        "Program",
+        "Internet"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

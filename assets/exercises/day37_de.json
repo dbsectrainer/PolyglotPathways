@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day37_mc1",
+      "type": "multipleChoice",
+      "question": "Welche Jahreszeit kommt nach dem Winter?",
+      "options": [
+        "Herbst",
+        "Frühling",
+        "Sommer",
+        "Winter"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day37_mc2",
+      "type": "multipleChoice",
+      "question": "Welche Jahreszeit ist die wärmste?",
+      "options": [
+        "Frühling",
+        "Herbst",
+        "Sommer",
+        "Winter"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day37_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Die Blätter fallen im ____ von den Bäumen.'",
+      "correctAnswer": "Herbst",
+      "acceptableAlternatives": ["herbst"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day37_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Weißes gefrorenes Wasser, das vom Himmel fällt, heißt ____.'",
+      "correctAnswer": "Schnee",
+      "acceptableAlternatives": ["schnee"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day37_trans1",
+      "type": "translation",
+      "question": "Übersetzen Sie ins Deutsche:",
+      "targetText": "Winter",
+      "correctTranslation": "Winter",
+      "acceptableAlternatives": ["winter"]
+    },
+    {
+      "id": "day37_mc3",
+      "type": "multipleChoice",
+      "question": "Was beschreibt, wie heiß oder kalt etwas ist?",
+      "options": [
+        "Jahreszeit",
+        "Wetter",
+        "Temperatur",
+        "Blätter"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day37_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Blumen blühen im ____.'",
+      "correctAnswer": "Frühling",
+      "acceptableAlternatives": ["frühling", "Fruehling", "fruehling"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day37_mc4",
+      "type": "multipleChoice",
+      "question": "Wie viele Jahreszeiten gibt es in einem Jahr?",
+      "options": [
+        "Zwei",
+        "Drei",
+        "Vier",
+        "Fünf"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

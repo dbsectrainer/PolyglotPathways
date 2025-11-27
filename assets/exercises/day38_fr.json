@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day38_mc1",
+      "type": "multipleChoice",
+      "question": "Quel temps a une lumière du soleil brillante et un ciel clair?",
+      "options": [
+        "Nuageux",
+        "Ensoleillé",
+        "Pluvieux",
+        "Orageux"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day38_mc2",
+      "type": "multipleChoice",
+      "question": "Que devez-vous apporter quand il fait pluvieux?",
+      "options": [
+        "Des lunettes de soleil",
+        "Un short",
+        "Un parapluie",
+        "Un cerf-volant"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day38_fib1",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'Il fait trop ____ pour faire voler un cerf-volant aujourd'hui.'",
+      "correctAnswer": "venteux",
+      "acceptableAlternatives": ["Venteux"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day38_fib2",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'Une ____ a des vents forts et de fortes pluies.'",
+      "correctAnswer": "tempête",
+      "acceptableAlternatives": ["Tempête", "tempete", "Tempete"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day38_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Cloudy",
+      "correctTranslation": "Nuageux",
+      "acceptableAlternatives": ["nuageux"]
+    },
+    {
+      "id": "day38_mc3",
+      "type": "multipleChoice",
+      "question": "Qu'est-ce qui mesure à quel point il fait chaud ou froid?",
+      "options": [
+        "Vent",
+        "Pluie",
+        "Température",
+        "Tempête"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day38_fib3",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: \"L'eau gelée blanche qui tombe s'appelle ____.\"",
+      "correctAnswer": "neige",
+      "acceptableAlternatives": ["Neige"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day38_mc4",
+      "type": "multipleChoice",
+      "question": "Comment s'appelle l'air en mouvement?",
+      "options": [
+        "Pluie",
+        "Vent",
+        "Neige",
+        "Nuage"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

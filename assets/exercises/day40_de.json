@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day40_mc1",
+      "type": "multipleChoice",
+      "question": "Was hat vier Räder und wird von einem Motor angetrieben?",
+      "options": [
+        "Fahrrad",
+        "Auto",
+        "Boot",
+        "Zug"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day40_mc2",
+      "type": "multipleChoice",
+      "question": "Was fliegt durch die Luft mit Flügeln?",
+      "options": [
+        "Zug",
+        "Bus",
+        "Flugzeug",
+        "Lastwagen"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day40_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Ein ____ ist ein zweirädriges Fahrzeug, das durch Treten angetrieben wird.'",
+      "correctAnswer": "Fahrrad",
+      "acceptableAlternatives": ["fahrrad", "Rad", "rad"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day40_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Ich habe ein ____ zum Flughafen gerufen.'",
+      "correctAnswer": "Taxi",
+      "acceptableAlternatives": ["taxi"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day40_trans1",
+      "type": "translation",
+      "question": "Übersetzen Sie ins Deutsche:",
+      "targetText": "Train",
+      "correctTranslation": "Zug",
+      "acceptableAlternatives": ["zug"]
+    },
+    {
+      "id": "day40_mc3",
+      "type": "multipleChoice",
+      "question": "Was fährt auf dem Wasser?",
+      "options": [
+        "Flugzeug",
+        "Boot",
+        "Bus",
+        "Fahrrad"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day40_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Ein großes Fahrzeug, das Güter transportiert, heißt ____.'",
+      "correctAnswer": "Lastwagen",
+      "acceptableAlternatives": ["lastwagen", "LKW", "Lkw", "lkw"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day40_mc4",
+      "type": "multipleChoice",
+      "question": "Was ist ein zweirädriges Fahrzeug mit Motor?",
+      "options": [
+        "Fahrrad",
+        "Auto",
+        "Motorrad",
+        "Bus"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

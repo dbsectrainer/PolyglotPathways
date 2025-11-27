@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day31_mc1", "type": "multipleChoice", "question": "O que é um animal?", "options": ["Uma planta", "Uma criatura vivente", "Um edifício", "Comida"], "correctOptionIndex": 1},
+    {"id": "day31_mc2", "type": "multipleChoice", "question": "Qual é um grande felino selvagem?", "options": ["Elefante", "Leão", "Urso", "Lobo"], "correctOptionIndex": 1},
+    {"id": "day31_fib1", "type": "fillInBlank", "question": "Complete o espaço: 'O ____ é forte.'", "correctAnswer": "leão", "acceptableAlternatives": ["Leão"], "caseSensitive": false},
+    {"id": "day31_fib2", "type": "fillInBlank", "question": "Complete o espaço: 'O ____ é cinza.'", "correctAnswer": "elefante", "acceptableAlternatives": ["Elefante"], "caseSensitive": false},
+    {"id": "day31_mc3", "type": "multipleChoice", "question": "Qual animal tem pescoço longo?", "options": ["Leão", "Girafa", "Urso", "Zebra"], "correctOptionIndex": 1},
+    {"id": "day31_trans1", "type": "translation", "question": "Como é chamado um cavalo selvagem listrado?", "targetText": "Um cavalo selvagem listrado", "correctTranslation": "Zebra", "acceptableAlternatives": ["zebra"]},
+    {"id": "day31_fib3", "type": "fillInBlank", "question": "Complete o espaço: 'O ____ uiva.'", "correctAnswer": "lobo", "acceptableAlternatives": ["Lobo"], "caseSensitive": false},
+    {"id": "day31_mc4", "type": "multipleChoice", "question": "Qual animal é um primata?", "options": ["Tigre", "Macaco", "Girafa", "Elefante"], "correctOptionIndex": 1}
+  ]
+}

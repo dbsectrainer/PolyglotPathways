@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day32_mc1", "type": "multipleChoice", "question": "¿Qué es una mascota?", "options": ["Un animal salvaje", "Un animal doméstico mantenido para compañía", "Una comida", "Una planta"], "correctOptionIndex": 1},
+    {"id": "day32_mc2", "type": "multipleChoice", "question": "¿Cuál es un animal doméstico leal?", "options": ["León", "Perro", "Tigre", "Oso"], "correctOptionIndex": 1},
+    {"id": "day32_fib1", "type": "fillInBlank", "question": "Completa el espacio: 'Mi mascota es un ____.'", "correctAnswer": "gato", "acceptableAlternatives": ["Gato"], "caseSensitive": false},
+    {"id": "day32_fib2", "type": "fillInBlank", "question": "Completa el espacio: 'El ____ ladra.'", "correctAnswer": "perro", "acceptableAlternatives": ["Perro"], "caseSensitive": false},
+    {"id": "day32_mc3", "type": "multipleChoice", "question": "¿Cuál es un pequeño animal saltador?", "options": ["Pez", "Conejo", "Pájaro", "Tortuga"], "correctOptionIndex": 1},
+    {"id": "day32_trans1", "type": "translation", "question": "¿Qué es un animal lento con caparazón?", "targetText": "Un animal lento con caparazón", "correctTranslation": "Tortuga", "acceptableAlternatives": ["tortuga"]},
+    {"id": "day32_fib3", "type": "fillInBlank", "question": "Completa el espacio: 'El ____ nada.'", "correctAnswer": "pez", "acceptableAlternatives": ["Pez"], "caseSensitive": false},
+    {"id": "day32_mc4", "type": "multipleChoice", "question": "¿Cuál es un pájaro colorido que habla?", "options": ["Conejo", "Hámster", "Loro", "Tortuga"], "correctOptionIndex": 2}
+  ]
+}

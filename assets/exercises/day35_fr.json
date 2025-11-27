@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day35_mc1",
+      "type": "multipleChoice",
+      "question": "Combien de doigts y a-t-il sur une main?",
+      "options": [
+        "Quatre",
+        "Cinq",
+        "Six",
+        "Sept"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day35_mc2",
+      "type": "multipleChoice",
+      "question": "Combien de jours y a-t-il dans une semaine?",
+      "options": [
+        "Cinq",
+        "Six",
+        "Sept",
+        "Huit"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day35_fib1",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'Une voiture a ____ roues.'",
+      "correctAnswer": "quatre",
+      "acceptableAlternatives": ["Quatre", "4"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day35_fib2",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'Une pieuvre a ____ pattes.'",
+      "correctAnswer": "huit",
+      "acceptableAlternatives": ["Huit", "8"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day35_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Three",
+      "correctTranslation": "Trois",
+      "acceptableAlternatives": ["trois", "3"]
+    },
+    {
+      "id": "day35_mc3",
+      "type": "multipleChoice",
+      "question": "Qu'est-ce qui vient après huit?",
+      "options": [
+        "Sept",
+        "Neuf",
+        "Six",
+        "Dix"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day35_fib3",
+      "type": "fillInBlank",
+      "question": "Remplissez le blanc: 'J'ai ____ pomme.' (singulier)",
+      "correctAnswer": "une",
+      "acceptableAlternatives": ["Une", "1"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day35_mc4",
+      "type": "multipleChoice",
+      "question": "Quel nombre représente une paire?",
+      "options": [
+        "Un",
+        "Deux",
+        "Trois",
+        "Quatre"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

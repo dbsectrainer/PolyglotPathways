@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Kreis",
+      "translation": "Eine runde Form ohne Ecken oder Kanten",
+      "phonetic": "/kʁaɪs/",
+      "example": "Zeichne einen Kreis auf das Papier.",
+      "exampleTranslation": "Eine runde Form ohne Ecken erstellen"
+    },
+    {
+      "word": "Quadrat",
+      "translation": "Eine Form mit vier gleichen Seiten und vier rechten Winkeln",
+      "phonetic": "/kvaˈdʁaːt/",
+      "example": "Die Box hat die Form eines Quadrats.",
+      "exampleTranslation": "Ein Objekt mit vier gleichen Seiten beschreiben"
+    },
+    {
+      "word": "Dreieck",
+      "translation": "Eine Form mit drei Seiten und drei Ecken",
+      "phonetic": "/ˈdʁaɪˌʔɛk/",
+      "example": "Ein Dreieck hat drei Punkte.",
+      "exampleTranslation": "Eine dreiseitige geometrische Form identifizieren"
+    },
+    {
+      "word": "Rechteck",
+      "translation": "Eine Form mit vier Seiten und vier rechten Winkeln, mit gleichen gegenüberliegenden Seiten",
+      "phonetic": "/ˈʁɛçtˌʔɛk/",
+      "example": "Die Tür ist ein Rechteck.",
+      "exampleTranslation": "Eine längliche vierseitige Form beschreiben"
+    },
+    {
+      "word": "Stern",
+      "translation": "Eine Form mit mehreren spitzen Enden, die von der Mitte ausstrahlen",
+      "phonetic": "/ʃtɛʁn/",
+      "example": "Sie zeichnete einen fünfzackigen Stern.",
+      "exampleTranslation": "Eine Form mit spitzen Kanten erstellen"
+    },
+    {
+      "word": "Raute",
+      "translation": "Eine Form mit vier gleichen Seiten, die zwei gegenüberliegende spitze Winkel bilden",
+      "phonetic": "/ˈʁaʊtə/",
+      "example": "Der Drachen hat die Form einer Raute.",
+      "exampleTranslation": "Ein rautenförmiges Objekt beschreiben"
+    },
+    {
+      "word": "Oval",
+      "translation": "Eine längliche runde Form, wie ein gestreckter Kreis",
+      "phonetic": "/oˈvaːl/",
+      "example": "Ein Ei hat eine ovale Form.",
+      "exampleTranslation": "Eine elliptische Form beschreiben"
+    },
+    {
+      "word": "Würfel",
+      "translation": "Eine dreidimensionale Form mit sechs quadratischen Flächen",
+      "phonetic": "/ˈvʏʁfl̩/",
+      "example": "Der Würfel ist ein kleiner Kubus.",
+      "exampleTranslation": "Einen 3D-geometrischen Körper identifizieren"
+    },
+    {
+      "word": "Pyramide",
+      "translation": "Eine dreidimensionale Form mit einer Basis und dreieckigen Seiten, die sich an einem Punkt treffen",
+      "phonetic": "/pyʁaˈmiːdə/",
+      "example": "Die alten Pyramiden von Ägypten sind berühmt.",
+      "exampleTranslation": "Bezugnahme auf eine spitze 3D-Struktur"
+    }
+  ]
+}

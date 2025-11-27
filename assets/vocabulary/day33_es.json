@@ -1,0 +1,13 @@
+{
+  "vocabulary": [
+    {"word": "Color", "translation": "El atributo visual de la percepción de la luz", "phonetic": "/koˈloɾ/", "example": "El color es rojo.", "exampleTranslation": "Un atributo visual"},
+    {"word": "Rojo", "translation": "Un color primario como la sangre", "phonetic": "/ˈɾoxo/", "example": "La manzana es roja.", "exampleTranslation": "Color cálido"},
+    {"word": "Azul", "translation": "Un color fresco como el cielo", "phonetic": "/ɑˈθul/", "example": "El cielo es azul.", "exampleTranslation": "Color fresco"},
+    {"word": "Amarillo", "translation": "Un color brillante como el sol", "phonetic": "/ɑmɑˈɾiʎo/", "example": "El sol es amarillo.", "exampleTranslation": "Color brillante"},
+    {"word": "Verde", "translation": "Un color como el pasto y los árboles", "phonetic": "/ˈβɛɾðɛ/", "example": "El pasto es verde.", "exampleTranslation": "Color natural"},
+    {"word": "Negro", "translation": "El color más oscuro", "phonetic": "/ˈnɛɡɾo/", "example": "La noche es negra.", "exampleTranslation": "Color oscuro"},
+    {"word": "Blanco", "translation": "El color más claro", "phonetic": "/ˈblɑŋko/", "example": "La nieve es blanca.", "exampleTranslation": "Color claro"},
+    {"word": "Naranja", "translation": "Un color entre rojo y amarillo", "phonetic": "/nɑˈɾɑŋxɑ/", "example": "La naranja es naranja.", "exampleTranslation": "Color mezclado"},
+    {"word": "Púrpura", "translation": "Un color que mezcla rojo y azul", "phonetic": "/ˈpuɾpuɾɑ/", "example": "La flor es púrpura.", "exampleTranslation": "Color mezclado"}
+  ]
+}

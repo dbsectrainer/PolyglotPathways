@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Addieren",
+      "translation": "Zahlen oder Mengen kombinieren, um die Summe zu finden",
+      "phonetic": "/aˈdiːʁən/",
+      "example": "Addiere drei und fünf, um acht zu erhalten.",
+      "exampleTranslation": "Zahlen kombinieren, um ihre Summe zu finden"
+    },
+    {
+      "word": "Subtrahieren",
+      "translation": "Eine Zahl von einer anderen abziehen",
+      "phonetic": "/zʊptʁaˈhiːʁən/",
+      "example": "Subtrahiere zwei von sieben, um fünf zu erhalten.",
+      "exampleTranslation": "Eine kleinere Zahl von einer größeren abziehen"
+    },
+    {
+      "word": "Multiplizieren",
+      "translation": "Eine Zahl eine bestimmte Anzahl von Malen zu sich selbst addieren",
+      "phonetic": "/mʊltipliˈtsiːʁən/",
+      "example": "Multipliziere drei mit vier, um zwölf zu erhalten.",
+      "exampleTranslation": "Wiederholte Addition derselben Zahl"
+    },
+    {
+      "word": "Dividieren",
+      "translation": "Eine Zahl in gleiche Teile aufteilen",
+      "phonetic": "/diviˈdiːʁən/",
+      "example": "Dividiere zehn durch zwei, um fünf zu erhalten.",
+      "exampleTranslation": "Eine Menge in gleiche Portionen aufteilen"
+    },
+    {
+      "word": "Gleich",
+      "translation": "In Menge, Größe oder Wert identisch sein",
+      "phonetic": "/ɡlaɪç/",
+      "example": "Fünf plus fünf ist gleich zehn.",
+      "exampleTranslation": "Zeigen, dass zwei Mengen identisch sind"
+    },
+    {
+      "word": "Zählen",
+      "translation": "Zahlen in Reihenfolge sagen oder die Gesamtzahl finden",
+      "phonetic": "/ˈtsɛːlən/",
+      "example": "Zähle von eins bis zehn.",
+      "exampleTranslation": "Zahlen in Sequenz nennen"
+    },
+    {
+      "word": "Zahl",
+      "translation": "Ein mathematischer Wert zum Zählen oder Messen",
+      "phonetic": "/tsaːl/",
+      "example": "Sieben ist meine Lieblingszahl.",
+      "exampleTranslation": "Bezug auf einen numerischen Wert"
+    },
+    {
+      "word": "Gesamt",
+      "translation": "Die vollständige Summe oder Menge",
+      "phonetic": "/ɡəˈzamt/",
+      "example": "Die Summe von sechs und vier ist zehn.",
+      "exampleTranslation": "Die endgültige Summe nach dem Addieren"
+    },
+    {
+      "word": "Ist gleich",
+      "translation": "Das Symbol oder Wort, das zeigt, dass zwei Werte identisch sind",
+      "phonetic": "/ɪst ɡlaɪç/",
+      "example": "Zwei plus zwei ist gleich vier.",
+      "exampleTranslation": "Mathematische Gleichheit anzeigen"
+    }
+  ]
+}

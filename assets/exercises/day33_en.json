@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    {"id": "day33_mc1", "type": "multipleChoice", "question": "What is a color?", "options": ["A shape", "The visual attribute of light perception", "A number", "A taste"], "correctOptionIndex": 1},
+    {"id": "day33_mc2", "type": "multipleChoice", "question": "Which is a cool color?", "options": ["Red", "Yellow", "Blue", "Orange"], "correctOptionIndex": 2},
+    {"id": "day33_fib1", "type": "fillInBlank", "question": "Fill in the blank: 'The apple is ____.'", "correctAnswer": "red", "acceptableAlternatives": ["Red"], "caseSensitive": false},
+    {"id": "day33_fib2", "type": "fillInBlank", "question": "Fill in the blank: 'The sky is ____.'", "correctAnswer": "blue", "acceptableAlternatives": ["Blue"], "caseSensitive": false},
+    {"id": "day33_mc3", "type": "multipleChoice", "question": "What is a bright color like the sun?", "options": ["Black", "Yellow", "Purple", "Green"], "correctOptionIndex": 1},
+    {"id": "day33_trans1", "type": "translation", "question": "What is the lightest color?", "targetText": "The lightest color", "correctTranslation": "White", "acceptableAlternatives": ["white"]},
+    {"id": "day33_fib3", "type": "fillInBlank", "question": "Fill in the blank: 'The grass is ____.'", "correctAnswer": "green", "acceptableAlternatives": ["Green"], "caseSensitive": false},
+    {"id": "day33_mc4", "type": "multipleChoice", "question": "What color mixes red and blue?", "options": ["Orange", "Purple", "Yellow", "Green"], "correctOptionIndex": 1}
+  ]
+}

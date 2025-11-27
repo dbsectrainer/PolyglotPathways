@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day34_mc1",
+      "type": "multipleChoice",
+      "question": "Qual forma não tem cantos?",
+      "options": [
+        "Quadrado",
+        "Círculo",
+        "Triângulo",
+        "Retângulo"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day34_mc2",
+      "type": "multipleChoice",
+      "question": "Qual forma tem três lados?",
+      "options": [
+        "Círculo",
+        "Quadrado",
+        "Triângulo",
+        "Oval"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day34_fib1",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Um ____ tem quatro lados iguais e quatro ângulos retos.'",
+      "correctAnswer": "quadrado",
+      "acceptableAlternatives": ["Quadrado"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day34_fib2",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Um ____ é uma forma 3D com seis faces quadradas.'",
+      "correctAnswer": "cubo",
+      "acceptableAlternatives": ["Cubo"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day34_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Circle",
+      "correctTranslation": "Círculo",
+      "acceptableAlternatives": ["círculo"]
+    },
+    {
+      "id": "day34_mc3",
+      "type": "multipleChoice",
+      "question": "Qual forma é como um círculo esticado?",
+      "options": [
+        "Diamante",
+        "Oval",
+        "Estrela",
+        "Cubo"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day34_fib3",
+      "type": "fillInBlank",
+      "question": "Preencha o espaço: 'Uma ____ tem múltiplas pontas irradiando do centro.'",
+      "correctAnswer": "estrela",
+      "acceptableAlternatives": ["Estrela"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day34_mc4",
+      "type": "multipleChoice",
+      "question": "Qual é uma forma 3D?",
+      "options": [
+        "Triângulo",
+        "Círculo",
+        "Pirâmide",
+        "Quadrado"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

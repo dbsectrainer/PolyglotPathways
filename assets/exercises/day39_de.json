@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day39_mc1",
+      "type": "multipleChoice",
+      "question": "Welches Gerät verwenden Sie zur Verarbeitung und Speicherung von Daten?",
+      "options": [
+        "Fernsehen",
+        "Computer",
+        "Telefon",
+        "Bildschirm"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day39_mc2",
+      "type": "multipleChoice",
+      "question": "Wie nennt man eine Sammlung von Webseiten?",
+      "options": [
+        "E-Mail",
+        "Programm",
+        "Website",
+        "App"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day39_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Schick mir eine ____ mit den Informationen.'",
+      "correctAnswer": "E-Mail",
+      "acceptableAlternatives": ["e-mail", "Email", "email"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day39_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Lade diese ____ auf dein Telefon herunter.'",
+      "correctAnswer": "App",
+      "acceptableAlternatives": ["app", "Anwendung", "anwendung"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day39_trans1",
+      "type": "translation",
+      "question": "Übersetzen Sie ins Deutsche:",
+      "targetText": "Internet",
+      "correctTranslation": "Internet",
+      "acceptableAlternatives": ["internet"]
+    },
+    {
+      "id": "day39_mc3",
+      "type": "multipleChoice",
+      "question": "Was zeigt Bilder und Text auf einem Gerät?",
+      "options": [
+        "Programm",
+        "Website",
+        "Bildschirm",
+        "E-Mail"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day39_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Wir schauen die Nachrichten im ____.'",
+      "correctAnswer": "Fernsehen",
+      "acceptableAlternatives": ["fernsehen", "TV", "tv"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day39_mc4",
+      "type": "multipleChoice",
+      "question": "Wie nennt man Software, die auf einem Computer läuft?",
+      "options": [
+        "Bildschirm",
+        "Telefon",
+        "Programm",
+        "Internet"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

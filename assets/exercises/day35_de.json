@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day35_mc1",
+      "type": "multipleChoice",
+      "question": "Wie viele Finger sind an einer Hand?",
+      "options": [
+        "Vier",
+        "Fünf",
+        "Sechs",
+        "Sieben"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day35_mc2",
+      "type": "multipleChoice",
+      "question": "Wie viele Tage hat eine Woche?",
+      "options": [
+        "Fünf",
+        "Sechs",
+        "Sieben",
+        "Acht"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day35_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Ein Auto hat ____ Räder.'",
+      "correctAnswer": "vier",
+      "acceptableAlternatives": ["Vier", "4"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day35_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Ein Oktopus hat ____ Beine.'",
+      "correctAnswer": "acht",
+      "acceptableAlternatives": ["Acht", "8"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day35_trans1",
+      "type": "translation",
+      "question": "Übersetzen Sie ins Deutsche:",
+      "targetText": "Three",
+      "correctTranslation": "Drei",
+      "acceptableAlternatives": ["drei", "3"]
+    },
+    {
+      "id": "day35_mc3",
+      "type": "multipleChoice",
+      "question": "Was kommt nach acht?",
+      "options": [
+        "Sieben",
+        "Neun",
+        "Sechs",
+        "Zehn"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day35_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Ich habe ____ Apfel.' (Singular)",
+      "correctAnswer": "einen",
+      "acceptableAlternatives": ["Einen", "1"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day35_mc4",
+      "type": "multipleChoice",
+      "question": "Welche Zahl repräsentiert ein Paar?",
+      "options": [
+        "Eins",
+        "Zwei",
+        "Drei",
+        "Vier"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}
