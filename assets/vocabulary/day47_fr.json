@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Horloge",
+      "translation": "Un appareil qui montre l'heure",
+      "phonetic": "/ɔʁlɔʒ/",
+      "example": "Regarde l'horloge sur le mur.",
+      "exampleTranslation": "Diriger quelqu'un pour vérifier l'heure"
+    },
+    {
+      "word": "Heure",
+      "translation": "Une période de soixante minutes",
+      "phonetic": "/œʁ/",
+      "example": "La réunion dure une heure.",
+      "exampleTranslation": "Décrire la durée"
+    },
+    {
+      "word": "Minute",
+      "translation": "Une période de soixante secondes",
+      "phonetic": "/minyt/",
+      "example": "Attends juste une minute, s'il te plaît.",
+      "exampleTranslation": "Demander à quelqu'un d'attendre brièvement"
+    },
+    {
+      "word": "Seconde",
+      "translation": "Une unité de temps très courte",
+      "phonetic": "/səɡɔ̃d/",
+      "example": "Cela ne prendra qu'une seconde.",
+      "exampleTranslation": "Indiquer une action brève"
+    },
+    {
+      "word": "Matin",
+      "translation": "La première partie de la journée",
+      "phonetic": "/matɛ̃/",
+      "example": "Je bois du café tous les matins.",
+      "exampleTranslation": "Décrire une routine quotidienne"
+    },
+    {
+      "word": "Soir",
+      "translation": "La partie postérieure de la journée",
+      "phonetic": "/swaʁ/",
+      "example": "Nous dînons le soir.",
+      "exampleTranslation": "Décrire l'heure du repas"
+    },
+    {
+      "word": "Nuit",
+      "translation": "Le moment où il fait noir",
+      "phonetic": "/nɥi/",
+      "example": "Les étoiles brillent la nuit.",
+      "exampleTranslation": "Décrire la période nocturne"
+    },
+    {
+      "word": "Jour",
+      "translation": "Une période de vingt-quatre heures",
+      "phonetic": "/ʒuʁ/",
+      "example": "Je travaille cinq jours par semaine.",
+      "exampleTranslation": "Décrire l'horaire de travail"
+    },
+    {
+      "word": "Semaine",
+      "translation": "Une période de sept jours",
+      "phonetic": "/səmɛn/",
+      "example": "Je te verrai la semaine prochaine.",
+      "exampleTranslation": "Faire des plans futurs"
+    }
+  ]
+}

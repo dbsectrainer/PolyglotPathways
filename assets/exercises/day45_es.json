@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day45_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué emoción sientes cuando algo bueno sucede?",
+      "options": [
+        "Triste",
+        "Feliz",
+        "Enojado",
+        "Cansado"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day45_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué sientes cuando necesitas descanso o sueño?",
+      "options": [
+        "Emocionado",
+        "Sorprendido",
+        "Cansado",
+        "Tranquilo"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day45_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué emoción describe estar pacífico y no agitado?",
+      "options": [
+        "Enojado",
+        "Asustado",
+        "Tranquilo",
+        "Solitario"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day45_mc4",
+      "type": "multipleChoice",
+      "question": "¿Qué sientes cuando algo inesperado sucede?",
+      "options": [
+        "Sorprendido",
+        "Cansado",
+        "Tranquilo",
+        "Solitario"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day45_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '¡Estoy muy ____ hoy!'",
+      "correctAnswer": "feliz",
+      "acceptableAlternatives": ["emocionado"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day45_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'El niño está ____ de la oscuridad.'",
+      "correctAnswer": "asustado",
+      "acceptableAlternatives": ["con miedo"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day45_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Él se siente ____ sin sus amigos.'",
+      "correctAnswer": "solitario",
+      "acceptableAlternatives": ["triste", "solo"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day45_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Angry",
+      "correctTranslation": "Enojado",
+      "acceptableAlternatives": ["Enfadado", "Molesto"]
+    }
+  ]
+}

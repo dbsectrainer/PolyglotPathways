@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day47_mc1",
+      "type": "multipleChoice",
+      "question": "Que dispositivo mostra as horas?",
+      "options": [
+        "Telefone",
+        "Relógio",
+        "Computador",
+        "Relógio de pulso"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day47_mc2",
+      "type": "multipleChoice",
+      "question": "Quantos minutos há em uma hora?",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "90"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day47_mc3",
+      "type": "multipleChoice",
+      "question": "Como se chama a parte inicial do dia?",
+      "options": [
+        "Tarde",
+        "Noite",
+        "Manhã",
+        "Meio-dia"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day47_mc4",
+      "type": "multipleChoice",
+      "question": "Quantos dias há em uma semana?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day47_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'A reunião dura uma ____.'",
+      "correctAnswer": "hora",
+      "caseSensitive": false
+    },
+    {
+      "id": "day47_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Espere apenas um ____, por favor.'",
+      "correctAnswer": "minuto",
+      "acceptableAlternatives": ["segundo", "momento"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day47_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'As estrelas brilham à ____.'",
+      "correctAnswer": "noite",
+      "caseSensitive": false
+    },
+    {
+      "id": "day47_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Day",
+      "correctTranslation": "Dia",
+      "acceptableAlternatives": []
+    }
+  ]
+}

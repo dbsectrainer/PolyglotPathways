@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day49_mc1",
+      "type": "multipleChoice",
+      "question": "Was ist das Gegenteil von groß?",
+      "options": [
+        "Heiß",
+        "Klein",
+        "Schnell",
+        "Stark"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day49_mc2",
+      "type": "multipleChoice",
+      "question": "Was beschreibt etwas mit hoher Temperatur?",
+      "options": [
+        "Kalt",
+        "Schwach",
+        "Heiß",
+        "Langsam"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day49_mc3",
+      "type": "multipleChoice",
+      "question": "Was beschreibt jemanden mit physischer Kraft?",
+      "options": [
+        "Schwach",
+        "Klein",
+        "Stark",
+        "Langsam"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day49_mc4",
+      "type": "multipleChoice",
+      "question": "Was ist das Gegenteil von schnell?",
+      "options": [
+        "Groß",
+        "Heiß",
+        "Stark",
+        "Langsam"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "day49_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Der Sonnenuntergang ist ____.'",
+      "correctAnswer": "schön",
+      "acceptableAlternatives": ["wunderschön", "herrlich"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day49_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Draußen ist es heute ____.'",
+      "correctAnswer": "kalt",
+      "acceptableAlternatives": ["heiß"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day49_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Er läuft sehr ____.'",
+      "correctAnswer": "schnell",
+      "caseSensitive": false
+    },
+    {
+      "id": "day49_trans1",
+      "type": "translation",
+      "question": "Übersetzen Sie ins Deutsche:",
+      "targetText": "Big",
+      "correctTranslation": "Groß",
+      "acceptableAlternatives": ["Riesig"]
+    }
+  ]
+}

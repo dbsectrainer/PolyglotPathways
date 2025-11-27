@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Ball",
+      "translation": "A round object used in many sports",
+      "phonetic": "/bɔːl/",
+      "example": "Throw me the ball!",
+      "exampleTranslation": "A request during a game"
+    },
+    {
+      "word": "Racket",
+      "translation": "Equipment with strings used to hit a ball",
+      "phonetic": "/ˈrækɪt/",
+      "example": "I need a new tennis racket.",
+      "exampleTranslation": "Expressing sports equipment needs"
+    },
+    {
+      "word": "Bat",
+      "translation": "A stick used to hit a ball in sports",
+      "phonetic": "/bæt/",
+      "example": "He swung the bat and hit the ball.",
+      "exampleTranslation": "Describing a sports action"
+    },
+    {
+      "word": "Glove",
+      "translation": "Protective hand covering used in sports",
+      "phonetic": "/ɡlʌv/",
+      "example": "The baseball player caught the ball with his glove.",
+      "exampleTranslation": "Describing sports equipment use"
+    },
+    {
+      "word": "Net",
+      "translation": "A mesh barrier used in various sports",
+      "phonetic": "/nɛt/",
+      "example": "The ball went over the net.",
+      "exampleTranslation": "Describing game play"
+    },
+    {
+      "word": "Helmet",
+      "translation": "Protective headgear worn in sports",
+      "phonetic": "/ˈhɛlmɪt/",
+      "example": "Always wear a helmet when riding a bike.",
+      "exampleTranslation": "Safety advice"
+    },
+    {
+      "word": "Shoes",
+      "translation": "Special footwear designed for sports",
+      "phonetic": "/ʃuːz/",
+      "example": "I bought new running shoes.",
+      "exampleTranslation": "Describing a purchase"
+    },
+    {
+      "word": "Pad",
+      "translation": "Protective cushioning worn during sports",
+      "phonetic": "/pæd/",
+      "example": "Hockey players wear knee pads.",
+      "exampleTranslation": "Describing protective equipment"
+    },
+    {
+      "word": "Stick",
+      "translation": "A long piece of equipment used in sports like hockey",
+      "phonetic": "/stɪk/",
+      "example": "He controls the puck with his hockey stick.",
+      "exampleTranslation": "Describing sports technique"
+    }
+  ]
+}

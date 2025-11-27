@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day41_mc1",
+      "type": "multipleChoice",
+      "question": "Welches Möbelstück benutzen Sie zum Schlafen?",
+      "options": [
+        "Stuhl",
+        "Tisch",
+        "Bett",
+        "Schreibtisch"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day41_mc2",
+      "type": "multipleChoice",
+      "question": "Was öffnen Sie, um frische Luft in einen Raum zu lassen?",
+      "options": [
+        "Schrank",
+        "Fenster",
+        "Lampe",
+        "Sofa"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day41_mc3",
+      "type": "multipleChoice",
+      "question": "Wo würden Sie normalerweise einen Computer zum Arbeiten finden?",
+      "options": [
+        "Auf einem Bett",
+        "Auf einem Sofa",
+        "Auf einem Schreibtisch",
+        "Auf einem Stuhl"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day41_mc4",
+      "type": "multipleChoice",
+      "question": "Was liefert künstliches Licht in einem Raum?",
+      "options": [
+        "Tür",
+        "Fenster",
+        "Lampe",
+        "Tisch"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day41_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Bitte setzen Sie sich auf den ____.'",
+      "correctAnswer": "Stuhl",
+      "acceptableAlternatives": ["Tisch", "Sofa"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day41_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Schließen Sie bitte die ____.'",
+      "correctAnswer": "Tür",
+      "acceptableAlternatives": ["Fenster"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day41_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Das Geschirr ist im ____.'",
+      "correctAnswer": "Schrank",
+      "caseSensitive": false
+    },
+    {
+      "id": "day41_trans1",
+      "type": "translation",
+      "question": "Übersetzen Sie ins Deutsche:",
+      "targetText": "Table",
+      "correctTranslation": "Tisch",
+      "acceptableAlternatives": ["Schreibtisch"]
+    }
+  ]
+}

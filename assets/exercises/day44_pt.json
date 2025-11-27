@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day44_mc1",
+      "type": "multipleChoice",
+      "question": "Qual fruta é longa, curva e amarela?",
+      "options": [
+        "Maçã",
+        "Laranja",
+        "Banana",
+        "Uva"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day44_mc2",
+      "type": "multipleChoice",
+      "question": "Qual vegetal é laranja e bom para seus olhos?",
+      "options": [
+        "Alface",
+        "Cenoura",
+        "Pepino",
+        "Batata"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day44_mc3",
+      "type": "multipleChoice",
+      "question": "Qual é um vegetal de folhas verdes usado em saladas?",
+      "options": [
+        "Tomate",
+        "Batata",
+        "Alface",
+        "Laranja"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day44_mc4",
+      "type": "multipleChoice",
+      "question": "Qual fruta cresce em cachos e pode ser verde ou roxa?",
+      "options": [
+        "Maçã",
+        "Uva",
+        "Banana",
+        "Laranja"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day44_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Eu como uma ____ todos os dias.'",
+      "correctAnswer": "maçã",
+      "caseSensitive": false
+    },
+    {
+      "id": "day44_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Adicione ____ à salada.'",
+      "correctAnswer": "tomates",
+      "acceptableAlternatives": ["tomate"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day44_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Corte o ____ para o sanduíche.'",
+      "correctAnswer": "pepino",
+      "caseSensitive": false
+    },
+    {
+      "id": "day44_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Potato",
+      "correctTranslation": "Batata",
+      "acceptableAlternatives": ["Batatas"]
+    }
+  ]
+}

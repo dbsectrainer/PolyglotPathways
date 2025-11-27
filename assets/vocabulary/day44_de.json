@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Apfel",
+      "translation": "Eine runde Frucht mit roter, grüner oder gelber Schale",
+      "phonetic": "/ˈapfəl/",
+      "example": "Ich esse jeden Tag einen Apfel.",
+      "exampleTranslation": "Beschreibung einer gesunden Gewohnheit"
+    },
+    {
+      "word": "Banane",
+      "translation": "Eine lange, gebogene Frucht mit gelber Schale",
+      "phonetic": "/baˈnaːnə/",
+      "example": "Bananen sind meine Lieblingsfrucht.",
+      "exampleTranslation": "Ausdruck einer Vorliebe"
+    },
+    {
+      "word": "Orange",
+      "translation": "Eine runde Zitrusfrucht mit oranger Schale",
+      "phonetic": "/oˈʁaŋʒə/",
+      "example": "Diese Orange ist sehr saftig.",
+      "exampleTranslation": "Kommentar zur Obstqualität"
+    },
+    {
+      "word": "Weintraube",
+      "translation": "Eine kleine runde Frucht, die in Trauben wächst",
+      "phonetic": "/ˈvaɪ̯nˌtʁaʊ̯bə/",
+      "example": "Ich liebe grüne Weintrauben.",
+      "exampleTranslation": "Ausdruck einer Lebensmittelpräferenz"
+    },
+    {
+      "word": "Karotte",
+      "translation": "Ein orangefarbenes Wurzelgemüse",
+      "phonetic": "/kaˈʁɔtə/",
+      "example": "Karotten sind gut für deine Augen.",
+      "exampleTranslation": "Teilen von Ernährungsinformationen"
+    },
+    {
+      "word": "Tomate",
+      "translation": "Eine rote Frucht, die oft als Gemüse verwendet wird",
+      "phonetic": "/toˈmaːtə/",
+      "example": "Fügen Sie Tomaten zum Salat hinzu.",
+      "exampleTranslation": "Kochanweisungen geben"
+    },
+    {
+      "word": "Salat",
+      "translation": "Ein grünes Blattgemüse für Salate verwendet",
+      "phonetic": "/zaˈlaːt/",
+      "example": "Der Salat ist frisch und knackig.",
+      "exampleTranslation": "Beschreibung der Gemüsequalität"
+    },
+    {
+      "word": "Gurke",
+      "translation": "Ein langes grünes Gemüse mit wässrigem Fleisch",
+      "phonetic": "/ˈɡʊʁkə/",
+      "example": "Schneiden Sie die Gurke für das Sandwich.",
+      "exampleTranslation": "Anweisungen zur Essenszubereitung geben"
+    },
+    {
+      "word": "Kartoffel",
+      "translation": "Ein stärkehaltiges Wurzelgemüse mit brauner Schale",
+      "phonetic": "/kaʁˈtɔfəl/",
+      "example": "Ich mag Backkartoffeln.",
+      "exampleTranslation": "Ausdruck einer Lebensmittelpräferenz"
+    }
+  ]
+}

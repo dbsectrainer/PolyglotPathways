@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Silla",
+      "translation": "Un mueble para que una persona se siente",
+      "phonetic": "/ˈsiʎa/",
+      "example": "Por favor, siéntate en la silla.",
+      "exampleTranslation": "Una invitación a tomar asiento"
+    },
+    {
+      "word": "Mesa",
+      "translation": "Un mueble con una superficie plana y patas",
+      "phonetic": "/ˈmesa/",
+      "example": "El libro está sobre la mesa.",
+      "exampleTranslation": "Describiendo la ubicación de un objeto"
+    },
+    {
+      "word": "Cama",
+      "translation": "Un mueble para dormir",
+      "phonetic": "/ˈkama/",
+      "example": "Duermo en mi cama todas las noches.",
+      "exampleTranslation": "Describiendo tu rutina de sueño"
+    },
+    {
+      "word": "Puerta",
+      "translation": "Una barrera con bisagras para abrir o cerrar una entrada",
+      "phonetic": "/ˈpweɾta/",
+      "example": "Cierra la puerta, por favor.",
+      "exampleTranslation": "Una petición para cerrar la entrada"
+    },
+    {
+      "word": "Ventana",
+      "translation": "Una abertura en la pared con vidrio para dejar entrar luz",
+      "phonetic": "/benˈtana/",
+      "example": "Abre la ventana para que entre aire fresco.",
+      "exampleTranslation": "Una petición para dejar entrar aire"
+    },
+    {
+      "word": "Lámpara",
+      "translation": "Un dispositivo que produce luz artificial",
+      "phonetic": "/ˈlampaɾa/",
+      "example": "Enciende la lámpara, está oscuro.",
+      "exampleTranslation": "Una petición de iluminación"
+    },
+    {
+      "word": "Sofá",
+      "translation": "Un asiento largo tapizado para varias personas",
+      "phonetic": "/soˈfa/",
+      "example": "Nos sentamos juntos en el sofá.",
+      "exampleTranslation": "Describiendo donde se sentaron las personas"
+    },
+    {
+      "word": "Escritorio",
+      "translation": "Una mesa usada para escribir o trabajar",
+      "phonetic": "/eskɾiˈtoɾjo/",
+      "example": "Mi computadora está en mi escritorio.",
+      "exampleTranslation": "Describiendo la configuración del espacio de trabajo"
+    },
+    {
+      "word": "Gabinete",
+      "translation": "Un mueble con estantes o cajones para almacenamiento",
+      "phonetic": "/ɡaβiˈnete/",
+      "example": "Los platos están en el gabinete.",
+      "exampleTranslation": "Describiendo donde se guardan los objetos"
+    }
+  ]
+}

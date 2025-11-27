@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day47_mc1",
+      "type": "multipleChoice",
+      "question": "Quel appareil montre l'heure?",
+      "options": [
+        "Téléphone",
+        "Horloge",
+        "Ordinateur",
+        "Montre"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day47_mc2",
+      "type": "multipleChoice",
+      "question": "Combien de minutes y a-t-il dans une heure?",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "90"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day47_mc3",
+      "type": "multipleChoice",
+      "question": "Comment s'appelle la première partie de la journée?",
+      "options": [
+        "Soir",
+        "Nuit",
+        "Matin",
+        "Après-midi"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day47_mc4",
+      "type": "multipleChoice",
+      "question": "Combien de jours y a-t-il dans une semaine?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day47_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'La réunion dure une ____.'",
+      "correctAnswer": "heure",
+      "caseSensitive": false
+    },
+    {
+      "id": "day47_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Attends juste une ____, s'il te plaît.'",
+      "correctAnswer": "minute",
+      "acceptableAlternatives": ["seconde", "moment"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day47_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Les étoiles brillent la ____.'",
+      "correctAnswer": "nuit",
+      "caseSensitive": false
+    },
+    {
+      "id": "day47_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Day",
+      "correctTranslation": "Jour",
+      "acceptableAlternatives": ["Journée"]
+    }
+  ]
+}

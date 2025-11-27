@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day45_mc1",
+      "type": "multipleChoice",
+      "question": "Quelle émotion ressentez-vous lorsque quelque chose de bien se produit?",
+      "options": [
+        "Triste",
+        "Heureux",
+        "En colère",
+        "Fatigué"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day45_mc2",
+      "type": "multipleChoice",
+      "question": "Que ressentez-vous lorsque vous avez besoin de repos ou de sommeil?",
+      "options": [
+        "Excité",
+        "Surpris",
+        "Fatigué",
+        "Calme"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day45_mc3",
+      "type": "multipleChoice",
+      "question": "Quelle émotion décrit être paisible et non agité?",
+      "options": [
+        "En colère",
+        "Effrayé",
+        "Calme",
+        "Seul"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day45_mc4",
+      "type": "multipleChoice",
+      "question": "Que ressentez-vous lorsque quelque chose d'inattendu se produit?",
+      "options": [
+        "Surpris",
+        "Fatigué",
+        "Calme",
+        "Seul"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day45_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Je suis très ____ aujourd'hui!'",
+      "correctAnswer": "heureux",
+      "acceptableAlternatives": ["excité"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day45_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'L'enfant est ____ par l'obscurité.'",
+      "correctAnswer": "effrayé",
+      "acceptableAlternatives": ["apeuré"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day45_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Il se sent ____ sans ses amis.'",
+      "correctAnswer": "seul",
+      "acceptableAlternatives": ["triste", "solitaire"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day45_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Angry",
+      "correctTranslation": "En colère",
+      "acceptableAlternatives": ["Fâché", "Énervé"]
+    }
+  ]
+}

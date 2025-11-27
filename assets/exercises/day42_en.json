@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day42_mc1",
+      "type": "multipleChoice",
+      "question": "What do you wear on your feet?",
+      "options": [
+        "Hat",
+        "Shoes",
+        "Tie",
+        "Coat"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day42_mc2",
+      "type": "multipleChoice",
+      "question": "What is a one-piece garment typically worn by women?",
+      "options": [
+        "Shirt",
+        "Pants",
+        "Dress",
+        "Jacket"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day42_mc3",
+      "type": "multipleChoice",
+      "question": "What do you wear around your neck for formal occasions?",
+      "options": [
+        "Socks",
+        "Hat",
+        "Tie",
+        "Shoes"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day42_mc4",
+      "type": "multipleChoice",
+      "question": "What long outer garment keeps you warm in winter?",
+      "options": [
+        "Shirt",
+        "Dress",
+        "Coat",
+        "Socks"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day42_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Don't forget your ____, it's cold outside.'",
+      "correctAnswer": "jacket",
+      "acceptableAlternatives": ["coat"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day42_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I put on my ____ before my shoes.'",
+      "correctAnswer": "socks",
+      "caseSensitive": false
+    },
+    {
+      "id": "day42_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'He wears a ____ to protect from the sun.'",
+      "correctAnswer": "hat",
+      "caseSensitive": false
+    },
+    {
+      "id": "day42_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Pants",
+      "correctTranslation": "Pants",
+      "acceptableAlternatives": ["Trousers"]
+    }
+  ]
+}

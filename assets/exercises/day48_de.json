@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day48_mc1",
+      "type": "multipleChoice",
+      "question": "Welche Aktion machen Sie, wenn Sie nachts mit geschlossenen Augen ruhen?",
+      "options": [
+        "Laufen",
+        "Gehen",
+        "Schlafen",
+        "Spielen"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day48_mc2",
+      "type": "multipleChoice",
+      "question": "Was tun Sie, wenn Sie sich schnell zu Fuß bewegen?",
+      "options": [
+        "Sitzen",
+        "Gehen",
+        "Stehen",
+        "Laufen"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "day48_mc3",
+      "type": "multipleChoice",
+      "question": "Welche Aktion beinhaltet, Nahrung in den Mund zu nehmen?",
+      "options": [
+        "Trinken",
+        "Essen",
+        "Schlafen",
+        "Springen"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day48_mc4",
+      "type": "multipleChoice",
+      "question": "Was tun Sie, wenn Sie in aufrechter Position auf Ihren Füßen sind?",
+      "options": [
+        "Sitzen",
+        "Schlafen",
+        "Stehen",
+        "Gehen"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day48_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Lass uns zum Park ____.'",
+      "correctAnswer": "gehen",
+      "acceptableAlternatives": ["laufen"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day48_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: '____ Sie täglich viel Wasser.'",
+      "correctAnswer": "Trinken",
+      "caseSensitive": false
+    },
+    {
+      "id": "day48_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Die Kinder ____ im Garten.'",
+      "correctAnswer": "spielen",
+      "caseSensitive": false
+    },
+    {
+      "id": "day48_trans1",
+      "type": "translation",
+      "question": "Übersetzen Sie ins Deutsche:",
+      "targetText": "Jump",
+      "correctTranslation": "Springen",
+      "acceptableAlternatives": ["Hüpfen"]
+    }
+  ]
+}

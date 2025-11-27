@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day45_mc1",
+      "type": "multipleChoice",
+      "question": "Que emoção você sente quando algo bom acontece?",
+      "options": [
+        "Triste",
+        "Feliz",
+        "Bravo",
+        "Cansado"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day45_mc2",
+      "type": "multipleChoice",
+      "question": "O que você sente quando precisa de descanso ou sono?",
+      "options": [
+        "Animado",
+        "Surpreso",
+        "Cansado",
+        "Calmo"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day45_mc3",
+      "type": "multipleChoice",
+      "question": "Que emoção descreve estar pacífico e não agitado?",
+      "options": [
+        "Bravo",
+        "Assustado",
+        "Calmo",
+        "Solitário"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day45_mc4",
+      "type": "multipleChoice",
+      "question": "O que você sente quando algo inesperado acontece?",
+      "options": [
+        "Surpreso",
+        "Cansado",
+        "Calmo",
+        "Solitário"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day45_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Estou muito ____ hoje!'",
+      "correctAnswer": "feliz",
+      "acceptableAlternatives": ["animado"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day45_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'A criança está ____ com o escuro.'",
+      "correctAnswer": "assustada",
+      "acceptableAlternatives": ["com medo"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day45_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Ele se sente ____ sem seus amigos.'",
+      "correctAnswer": "solitário",
+      "acceptableAlternatives": ["triste", "sozinho"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day45_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Angry",
+      "correctTranslation": "Bravo",
+      "acceptableAlternatives": ["Zangado", "Irritado"]
+    }
+  ]
+}

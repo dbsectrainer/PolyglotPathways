@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day41_mc1",
+      "type": "multipleChoice",
+      "question": "What furniture do you use for sleeping?",
+      "options": [
+        "Chair",
+        "Table",
+        "Bed",
+        "Desk"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day41_mc2",
+      "type": "multipleChoice",
+      "question": "What do you open to let fresh air into a room?",
+      "options": [
+        "Cabinet",
+        "Window",
+        "Lamp",
+        "Sofa"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day41_mc3",
+      "type": "multipleChoice",
+      "question": "Where would you typically find a computer for work?",
+      "options": [
+        "On a bed",
+        "On a sofa",
+        "On a desk",
+        "On a chair"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day41_mc4",
+      "type": "multipleChoice",
+      "question": "What provides artificial light in a room?",
+      "options": [
+        "Door",
+        "Window",
+        "Lamp",
+        "Table"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day41_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Please sit on the ____.'",
+      "correctAnswer": "chair",
+      "acceptableAlternatives": ["sofa"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day41_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Close the ____, please.'",
+      "correctAnswer": "door",
+      "acceptableAlternatives": ["window"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day41_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'The dishes are in the ____.'",
+      "correctAnswer": "cabinet",
+      "caseSensitive": false
+    },
+    {
+      "id": "day41_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Table",
+      "correctTranslation": "Table",
+      "acceptableAlternatives": ["Desk"]
+    }
+  ]
+}

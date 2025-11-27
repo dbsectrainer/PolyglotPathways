@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day43_mc1",
+      "type": "multipleChoice",
+      "question": "Que equipamento protetor você usa na cabeça?",
+      "options": [
+        "Luva",
+        "Capacete",
+        "Almofada",
+        "Sapatos"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day43_mc2",
+      "type": "multipleChoice",
+      "question": "O que você usa para bater uma bola no tênis?",
+      "options": [
+        "Bastão",
+        "Taco",
+        "Raquete",
+        "Rede"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day43_mc3",
+      "type": "multipleChoice",
+      "question": "Como se chama a barreira de malha no vôlei?",
+      "options": [
+        "Bola",
+        "Rede",
+        "Luva",
+        "Almofada"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day43_mc4",
+      "type": "multipleChoice",
+      "question": "Que equipamento é usado para pegar uma bola de beisebol?",
+      "options": [
+        "Capacete",
+        "Raquete",
+        "Luva",
+        "Taco"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day43_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Ele balançou o ____ e acertou a bola.'",
+      "correctAnswer": "bastão",
+      "caseSensitive": false
+    },
+    {
+      "id": "day43_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'A bola passou por cima da ____.'",
+      "correctAnswer": "rede",
+      "caseSensitive": false
+    },
+    {
+      "id": "day43_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Jogadores de hóquei usam ____ para os joelhos.'",
+      "correctAnswer": "almofadas",
+      "acceptableAlternatives": ["almofada"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day43_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Ball",
+      "correctTranslation": "Bola",
+      "acceptableAlternatives": ["Balão"]
+    }
+  ]
+}

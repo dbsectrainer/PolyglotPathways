@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day49_mc1",
+      "type": "multipleChoice",
+      "question": "¿Cuál es el opuesto de grande?",
+      "options": [
+        "Caliente",
+        "Pequeño",
+        "Rápido",
+        "Fuerte"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day49_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué describe algo con alta temperatura?",
+      "options": [
+        "Frío",
+        "Débil",
+        "Caliente",
+        "Lento"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day49_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué describe a alguien con poder físico?",
+      "options": [
+        "Débil",
+        "Pequeño",
+        "Fuerte",
+        "Lento"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day49_mc4",
+      "type": "multipleChoice",
+      "question": "¿Cuál es el opuesto de rápido?",
+      "options": [
+        "Grande",
+        "Caliente",
+        "Fuerte",
+        "Lento"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "day49_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'El atardecer es ____.'",
+      "correctAnswer": "hermoso",
+      "acceptableAlternatives": ["bello", "precioso", "lindo"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day49_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Hace ____ afuera hoy.'",
+      "correctAnswer": "frío",
+      "acceptableAlternatives": ["calor"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day49_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Él corre muy ____.'",
+      "correctAnswer": "rápido",
+      "caseSensitive": false
+    },
+    {
+      "id": "day49_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Big",
+      "correctTranslation": "Grande",
+      "acceptableAlternatives": ["Enorme"]
+    }
+  ]
+}

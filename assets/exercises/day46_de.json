@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day46_mc1",
+      "type": "multipleChoice",
+      "question": "Wohin gehen Sie, um Geld abzuheben?",
+      "options": [
+        "Geschäft",
+        "Bank",
+        "Restaurant",
+        "Schule"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day46_mc2",
+      "type": "multipleChoice",
+      "question": "Welches Wort beschreibt etwas, das viel Geld kostet?",
+      "options": [
+        "Billig",
+        "Kostenlos",
+        "Teuer",
+        "Preis"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day46_mc3",
+      "type": "multipleChoice",
+      "question": "Wie nennt man ein kleines rundes Stück Metallgeld?",
+      "options": [
+        "Dollar",
+        "Münze",
+        "Zahlung",
+        "Wechselgeld"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day46_mc4",
+      "type": "multipleChoice",
+      "question": "Was erhalten Sie, wenn Sie mehr als die Kosten zahlen?",
+      "options": [
+        "Preis",
+        "Zahlung",
+        "Wechselgeld",
+        "Münze"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day46_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Ich brauche ____, um Essen zu kaufen.'",
+      "correctAnswer": "Geld",
+      "caseSensitive": false
+    },
+    {
+      "id": "day46_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Das kostet fünf ____.'",
+      "correctAnswer": "Dollar",
+      "caseSensitive": false
+    },
+    {
+      "id": "day46_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Ich habe ein ____ Hotel gefunden.'",
+      "correctAnswer": "billiges",
+      "acceptableAlternatives": ["günstiges"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day46_trans1",
+      "type": "translation",
+      "question": "Übersetzen Sie ins Deutsche:",
+      "targetText": "Bank",
+      "correctTranslation": "Bank",
+      "acceptableAlternatives": []
+    }
+  ]
+}

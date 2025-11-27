@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Camisa",
+      "translation": "Una prenda para la parte superior del cuerpo con mangas",
+      "phonetic": "/kaˈmisa/",
+      "example": "Él llevaba una camisa azul al trabajo.",
+      "exampleTranslation": "Describiendo la vestimenta de trabajo de alguien"
+    },
+    {
+      "word": "Pantalones",
+      "translation": "Una prenda que cubre cada pierna por separado",
+      "phonetic": "/pantaˈlones/",
+      "example": "Necesito comprar pantalones nuevos.",
+      "exampleTranslation": "Expresando una necesidad de compras"
+    },
+    {
+      "word": "Vestido",
+      "translation": "Una prenda de una sola pieza para mujeres o niñas",
+      "phonetic": "/besˈtiðo/",
+      "example": "Ella se ve hermosa con ese vestido.",
+      "exampleTranslation": "Haciendo un cumplido sobre la vestimenta de alguien"
+    },
+    {
+      "word": "Chaqueta",
+      "translation": "Un abrigo corto usado sobre otras prendas",
+      "phonetic": "/tʃaˈketa/",
+      "example": "No olvides tu chaqueta, hace frío afuera.",
+      "exampleTranslation": "Consejo sobre el clima"
+    },
+    {
+      "word": "Sombrero",
+      "translation": "Una cubierta para la cabeza",
+      "phonetic": "/somˈbɾeɾo/",
+      "example": "Él usa un sombrero para protegerse del sol.",
+      "exampleTranslation": "Describiendo protección solar"
+    },
+    {
+      "word": "Zapatos",
+      "translation": "Calzado que cubre los pies",
+      "phonetic": "/θaˈpatos/",
+      "example": "Estos zapatos son muy cómodos.",
+      "exampleTranslation": "Comentando sobre la calidad del calzado"
+    },
+    {
+      "word": "Calcetines",
+      "translation": "Prendas que se usan en los pies bajo los zapatos",
+      "phonetic": "/kalθeˈtines/",
+      "example": "Me pongo los calcetines antes que los zapatos.",
+      "exampleTranslation": "Describiendo el proceso de vestirse"
+    },
+    {
+      "word": "Abrigo",
+      "translation": "Una prenda exterior larga usada para calor",
+      "phonetic": "/aˈβɾiɣo/",
+      "example": "Es invierno, así que uso un abrigo cálido.",
+      "exampleTranslation": "Explicando la ropa de temporada"
+    },
+    {
+      "word": "Corbata",
+      "translation": "Una tira de tela que se usa alrededor del cuello",
+      "phonetic": "/koɾˈβata/",
+      "example": "Él usa corbata para ocasiones formales.",
+      "exampleTranslation": "Describiendo el código de vestimenta formal"
+    }
+  ]
+}

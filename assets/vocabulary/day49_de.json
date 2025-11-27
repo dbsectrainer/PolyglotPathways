@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Groß",
+      "translation": "Von großer Größe oder Ausdehnung",
+      "phonetic": "/ɡʁoːs/",
+      "example": "Das ist ein großes Haus!",
+      "exampleTranslation": "Überraschung über die Größe ausdrücken"
+    },
+    {
+      "word": "Klein",
+      "translation": "Von geringer Größe oder Menge",
+      "phonetic": "/klaɪ̯n/",
+      "example": "Das Zimmer ist zu klein.",
+      "exampleTranslation": "Kommentar über begrenzten Raum"
+    },
+    {
+      "word": "Heiß",
+      "translation": "Mit hoher Temperatur",
+      "phonetic": "/haɪ̯s/",
+      "example": "Der Kaffee ist sehr heiß.",
+      "exampleTranslation": "Warnung vor der Temperatur"
+    },
+    {
+      "word": "Kalt",
+      "translation": "Mit niedriger Temperatur",
+      "phonetic": "/kalt/",
+      "example": "Draußen ist es heute kalt.",
+      "exampleTranslation": "Beschreibung des Wetters"
+    },
+    {
+      "word": "Schnell",
+      "translation": "Sich bewegend oder in der Lage, sich schnell zu bewegen",
+      "phonetic": "/ʃnɛl/",
+      "example": "Er läuft sehr schnell.",
+      "exampleTranslation": "Beschreibung der Geschwindigkeit"
+    },
+    {
+      "word": "Langsam",
+      "translation": "Sich bewegend oder bei niedriger Geschwindigkeit betrieben",
+      "phonetic": "/ˈlaŋzaːm/",
+      "example": "Dieser Computer ist langsam.",
+      "exampleTranslation": "Beschwerde über Leistung"
+    },
+    {
+      "word": "Stark",
+      "translation": "Mit physischer Kraft und Macht",
+      "phonetic": "/ʃtaʁk/",
+      "example": "Er ist sehr stark.",
+      "exampleTranslation": "Beschreibung körperlicher Fähigkeit"
+    },
+    {
+      "word": "Schwach",
+      "translation": "Ohne physische Kraft",
+      "phonetic": "/ʃvax/",
+      "example": "Ich fühle mich schwach nach der Krankheit.",
+      "exampleTranslation": "Beschreibung des körperlichen Zustands"
+    },
+    {
+      "word": "Schön",
+      "translation": "Den Sinnen oder dem Geist gefallend",
+      "phonetic": "/ʃøːn/",
+      "example": "Der Sonnenuntergang ist schön.",
+      "exampleTranslation": "Bewunderung der natürlichen Schönheit"
+    }
+  ]
+}

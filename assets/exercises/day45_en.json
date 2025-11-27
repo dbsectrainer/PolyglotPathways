@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day45_mc1",
+      "type": "multipleChoice",
+      "question": "What emotion do you feel when something good happens?",
+      "options": [
+        "Sad",
+        "Happy",
+        "Angry",
+        "Tired"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day45_mc2",
+      "type": "multipleChoice",
+      "question": "What do you feel when you need rest or sleep?",
+      "options": [
+        "Excited",
+        "Surprised",
+        "Tired",
+        "Calm"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day45_mc3",
+      "type": "multipleChoice",
+      "question": "What emotion describes being peaceful and not agitated?",
+      "options": [
+        "Angry",
+        "Scared",
+        "Calm",
+        "Lonely"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day45_mc4",
+      "type": "multipleChoice",
+      "question": "What do you feel when something unexpected happens?",
+      "options": [
+        "Surprised",
+        "Tired",
+        "Calm",
+        "Lonely"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day45_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I am very ____ today!'",
+      "correctAnswer": "happy",
+      "acceptableAlternatives": ["excited"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day45_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'The child is ____ of the dark.'",
+      "correctAnswer": "scared",
+      "acceptableAlternatives": ["afraid"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day45_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'He feels ____ without his friends.'",
+      "correctAnswer": "lonely",
+      "acceptableAlternatives": ["sad"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day45_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Angry",
+      "correctTranslation": "Angry",
+      "acceptableAlternatives": ["Mad", "Upset"]
+    }
+  ]
+}

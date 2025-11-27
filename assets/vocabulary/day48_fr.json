@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Courir",
+      "translation": "Se déplacer rapidement à pied",
+      "phonetic": "/kuʁiʁ/",
+      "example": "Je cours tous les matins pour faire de l'exercice.",
+      "exampleTranslation": "Décrire l'activité physique"
+    },
+    {
+      "word": "Sauter",
+      "translation": "Se propulser du sol",
+      "phonetic": "/sote/",
+      "example": "Les enfants sautent sur le lit.",
+      "exampleTranslation": "Décrire une activité ludique"
+    },
+    {
+      "word": "Marcher",
+      "translation": "Se déplacer à un rythme régulier en soulevant les pieds",
+      "phonetic": "/maʁʃe/",
+      "example": "Allons marcher jusqu'au parc.",
+      "exampleTranslation": "Suggérer une activité"
+    },
+    {
+      "word": "S'asseoir",
+      "translation": "Être dans une position avec le poids sur les fesses",
+      "phonetic": "/saswaʁ/",
+      "example": "S'il vous plaît, asseyez-vous et détendez-vous.",
+      "exampleTranslation": "Inviter quelqu'un à se reposer"
+    },
+    {
+      "word": "Se tenir debout",
+      "translation": "Être en position verticale sur les pieds",
+      "phonetic": "/sə təniʁ dəbu/",
+      "example": "Levez-vous quand votre nom est appelé.",
+      "exampleTranslation": "Donner des instructions"
+    },
+    {
+      "word": "Dormir",
+      "translation": "Se reposer avec les yeux fermés et l'esprit inactif",
+      "phonetic": "/dɔʁmiʁ/",
+      "example": "Je dors huit heures chaque nuit.",
+      "exampleTranslation": "Décrire les habitudes de repos"
+    },
+    {
+      "word": "Manger",
+      "translation": "Mettre de la nourriture dans la bouche et avaler",
+      "phonetic": "/mɑ̃ʒe/",
+      "example": "Nous mangeons le petit-déjeuner à 8 heures.",
+      "exampleTranslation": "Décrire la routine des repas"
+    },
+    {
+      "word": "Boire",
+      "translation": "Prendre du liquide dans la bouche et avaler",
+      "phonetic": "/bwaʁ/",
+      "example": "Buvez beaucoup d'eau quotidiennement.",
+      "exampleTranslation": "Donner des conseils de santé"
+    },
+    {
+      "word": "Jouer",
+      "translation": "Participer à une activité pour le plaisir",
+      "phonetic": "/ʒwe/",
+      "example": "Les enfants jouent dans le jardin.",
+      "exampleTranslation": "Décrire une activité récréative"
+    }
+  ]
+}

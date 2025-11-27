@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Cadeira",
+      "translation": "Um móvel para uma pessoa sentar",
+      "phonetic": "/kaˈdejɾa/",
+      "example": "Por favor, sente-se na cadeira.",
+      "exampleTranslation": "Um convite para tomar assento"
+    },
+    {
+      "word": "Mesa",
+      "translation": "Um móvel com uma superfície plana e pernas",
+      "phonetic": "/ˈmezɐ/",
+      "example": "O livro está sobre a mesa.",
+      "exampleTranslation": "Descrevendo a localização de um objeto"
+    },
+    {
+      "word": "Cama",
+      "translation": "Um móvel para dormir",
+      "phonetic": "/ˈkɐmɐ/",
+      "example": "Eu durmo na minha cama todas as noites.",
+      "exampleTranslation": "Descrevendo sua rotina de sono"
+    },
+    {
+      "word": "Porta",
+      "translation": "Uma barreira com dobradiças para abrir ou fechar uma entrada",
+      "phonetic": "/ˈpɔɾtɐ/",
+      "example": "Feche a porta, por favor.",
+      "exampleTranslation": "Um pedido para fechar a entrada"
+    },
+    {
+      "word": "Janela",
+      "translation": "Uma abertura na parede com vidro para deixar entrar luz",
+      "phonetic": "/ʒɐˈnɛlɐ/",
+      "example": "Abra a janela para ar fresco.",
+      "exampleTranslation": "Um pedido para deixar entrar ar"
+    },
+    {
+      "word": "Lâmpada",
+      "translation": "Um dispositivo que produz luz artificial",
+      "phonetic": "/ˈlɐ̃pɐdɐ/",
+      "example": "Acenda a lâmpada, está escuro.",
+      "exampleTranslation": "Um pedido de iluminação"
+    },
+    {
+      "word": "Sofá",
+      "translation": "Um assento longo estofado para várias pessoas",
+      "phonetic": "/soˈfa/",
+      "example": "Nós sentamos juntos no sofá.",
+      "exampleTranslation": "Descrevendo onde as pessoas sentaram"
+    },
+    {
+      "word": "Escrivaninha",
+      "translation": "Uma mesa usada para escrever ou trabalhar",
+      "phonetic": "/ʃkɾivɐˈniɲɐ/",
+      "example": "Meu computador está na minha escrivaninha.",
+      "exampleTranslation": "Descrevendo configuração do espaço de trabalho"
+    },
+    {
+      "word": "Armário",
+      "translation": "Um móvel com prateleiras ou gavetas para armazenamento",
+      "phonetic": "/aɾˈmaɾju/",
+      "example": "Os pratos estão no armário.",
+      "exampleTranslation": "Descrevendo onde os itens são guardados"
+    }
+  ]
+}

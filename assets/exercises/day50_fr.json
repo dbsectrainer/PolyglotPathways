@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day50_mc1",
+      "type": "multipleChoice",
+      "question": "Que dites-vous lorsque vous rencontrez quelqu'un?",
+      "options": [
+        "Au revoir",
+        "Bonjour",
+        "Bonne nuit",
+        "Je suis désolé"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day50_mc2",
+      "type": "multipleChoice",
+      "question": "Quelle phrase exprime la gratitude?",
+      "options": [
+        "S'il vous plaît",
+        "Excusez-moi",
+        "Merci",
+        "Bonjour"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day50_mc3",
+      "type": "multipleChoice",
+      "question": "Que dites-vous dans la première partie de la journée?",
+      "options": [
+        "Bonne nuit",
+        "Au revoir",
+        "Bonjour",
+        "Comment allez-vous"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day50_mc4",
+      "type": "multipleChoice",
+      "question": "Que dites-vous lorsque vous faites une erreur?",
+      "options": [
+        "Merci",
+        "S'il vous plaît",
+        "Je suis désolé",
+        "Excusez-moi"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day50_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: '____, comment allez-vous?'",
+      "correctAnswer": "Bonjour",
+      "acceptableAlternatives": ["Salut"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day50_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Pouvez-vous m'aider, ____ ____ ____?'",
+      "correctAnswer": "s'il vous plaît",
+      "caseSensitive": false
+    },
+    {
+      "id": "day50_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: '____ ____, dormez bien!'",
+      "correctAnswer": "Bonne nuit",
+      "caseSensitive": false
+    },
+    {
+      "id": "day50_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Thank You",
+      "correctTranslation": "Merci",
+      "acceptableAlternatives": ["Merci beaucoup"]
+    }
+  ]
+}

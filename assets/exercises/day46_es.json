@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day46_mc1",
+      "type": "multipleChoice",
+      "question": "¿A dónde vas para retirar dinero?",
+      "options": [
+        "Tienda",
+        "Banco",
+        "Restaurante",
+        "Escuela"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day46_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué palabra describe algo que cuesta mucho dinero?",
+      "options": [
+        "Barato",
+        "Gratis",
+        "Caro",
+        "Precio"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day46_mc3",
+      "type": "multipleChoice",
+      "question": "¿Cómo se llama una pequeña pieza redonda de dinero metálico?",
+      "options": [
+        "Dólar",
+        "Moneda",
+        "Pago",
+        "Cambio"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day46_mc4",
+      "type": "multipleChoice",
+      "question": "¿Qué recibes cuando pagas más que el costo?",
+      "options": [
+        "Precio",
+        "Pago",
+        "Cambio",
+        "Moneda"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day46_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Necesito ____ para comprar comida.'",
+      "correctAnswer": "dinero",
+      "acceptableAlternatives": ["efectivo"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day46_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Esto cuesta cinco ____.'",
+      "correctAnswer": "dólares",
+      "caseSensitive": false
+    },
+    {
+      "id": "day46_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Encontré un hotel ____.'",
+      "correctAnswer": "barato",
+      "acceptableAlternatives": ["económico"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day46_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Bank",
+      "correctTranslation": "Banco",
+      "acceptableAlternatives": []
+    }
+  ]
+}

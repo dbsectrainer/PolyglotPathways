@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Chair",
+      "translation": "A piece of furniture for one person to sit on",
+      "phonetic": "/tʃɛər/",
+      "example": "Please sit on the chair.",
+      "exampleTranslation": "An invitation to take a seat"
+    },
+    {
+      "word": "Table",
+      "translation": "A piece of furniture with a flat top and legs",
+      "phonetic": "/ˈteɪbəl/",
+      "example": "The book is on the table.",
+      "exampleTranslation": "Describing the location of an object"
+    },
+    {
+      "word": "Bed",
+      "translation": "A piece of furniture for sleeping",
+      "phonetic": "/bɛd/",
+      "example": "I sleep in my bed every night.",
+      "exampleTranslation": "Describing your sleeping routine"
+    },
+    {
+      "word": "Door",
+      "translation": "A hinged barrier used to open or close an entrance",
+      "phonetic": "/dɔːr/",
+      "example": "Close the door, please.",
+      "exampleTranslation": "A request to shut the entrance"
+    },
+    {
+      "word": "Window",
+      "translation": "An opening in a wall with glass to let in light",
+      "phonetic": "/ˈwɪndoʊ/",
+      "example": "Open the window for fresh air.",
+      "exampleTranslation": "A request to let air in"
+    },
+    {
+      "word": "Lamp",
+      "translation": "A device that produces artificial light",
+      "phonetic": "/læmp/",
+      "example": "Turn on the lamp, it's dark.",
+      "exampleTranslation": "A request for lighting"
+    },
+    {
+      "word": "Sofa",
+      "translation": "A long upholstered seat for multiple people",
+      "phonetic": "/ˈsoʊfə/",
+      "example": "We sat on the sofa together.",
+      "exampleTranslation": "Describing where people sat"
+    },
+    {
+      "word": "Desk",
+      "translation": "A table used for writing or working",
+      "phonetic": "/dɛsk/",
+      "example": "My computer is on my desk.",
+      "exampleTranslation": "Describing workspace setup"
+    },
+    {
+      "word": "Cabinet",
+      "translation": "A piece of furniture with shelves or drawers for storage",
+      "phonetic": "/ˈkæbɪnɪt/",
+      "example": "The dishes are in the cabinet.",
+      "exampleTranslation": "Describing where items are stored"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Geld",
+      "translation": "Währung zum Kauf von Waren und Dienstleistungen",
+      "phonetic": "/ɡɛlt/",
+      "example": "Ich brauche Geld, um Essen zu kaufen.",
+      "exampleTranslation": "Erklärung eines finanziellen Bedarfs"
+    },
+    {
+      "word": "Dollar",
+      "translation": "Eine Währungseinheit in mehreren Ländern verwendet",
+      "phonetic": "/ˈdɔlaʁ/",
+      "example": "Das kostet fünf Dollar.",
+      "exampleTranslation": "Angabe eines Preises"
+    },
+    {
+      "word": "Münze",
+      "translation": "Ein kleines rundes Stück Metallgeld",
+      "phonetic": "/ˈmʏntsə/",
+      "example": "Ich habe Münzen in meiner Tasche.",
+      "exampleTranslation": "Beschreibung dessen, was Sie tragen"
+    },
+    {
+      "word": "Bank",
+      "translation": "Eine Institution, die Geld verwaltet",
+      "phonetic": "/baŋk/",
+      "example": "Ich ging zur Bank, um Geld abzuheben.",
+      "exampleTranslation": "Beschreibung einer Finanztransaktion"
+    },
+    {
+      "word": "Preis",
+      "translation": "Der Geldbetrag, den etwas kostet",
+      "phonetic": "/pʁaɪ̯s/",
+      "example": "Was ist der Preis für diesen Artikel?",
+      "exampleTranslation": "Nach Kosten fragen"
+    },
+    {
+      "word": "Teuer",
+      "translation": "Viel Geld kostend",
+      "phonetic": "/ˈtɔʏ̯ɐ/",
+      "example": "Diese Uhr ist sehr teuer.",
+      "exampleTranslation": "Kommentar zu hohen Kosten"
+    },
+    {
+      "word": "Billig",
+      "translation": "Niedrig im Preis oder Kosten",
+      "phonetic": "/ˈbɪlɪç/",
+      "example": "Ich habe ein billiges Hotel gefunden.",
+      "exampleTranslation": "Beschreibung einer erschwinglichen Option"
+    },
+    {
+      "word": "Zahlung",
+      "translation": "Der Akt des Zahlens oder gezahltes Geld",
+      "phonetic": "/ˈtsaːlʊŋ/",
+      "example": "Die Zahlung ist morgen fällig.",
+      "exampleTranslation": "Diskussion finanzieller Verpflichtungen"
+    },
+    {
+      "word": "Wechselgeld",
+      "translation": "Geld, das zurückgegeben wird, wenn man mehr als die Kosten zahlt",
+      "phonetic": "/ˈvɛksəlˌɡɛlt/",
+      "example": "Hier ist Ihr Wechselgeld von zehn Dollar.",
+      "exampleTranslation": "Rückgabe von überschüssigem Geld"
+    }
+  ]
+}

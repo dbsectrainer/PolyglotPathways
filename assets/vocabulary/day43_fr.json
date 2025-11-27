@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Ballon",
+      "translation": "Un objet rond utilisé dans de nombreux sports",
+      "phonetic": "/balɔ̃/",
+      "example": "Lance-moi le ballon!",
+      "exampleTranslation": "Une demande pendant un jeu"
+    },
+    {
+      "word": "Raquette",
+      "translation": "Équipement avec des cordes utilisé pour frapper une balle",
+      "phonetic": "/ʁakɛt/",
+      "example": "J'ai besoin d'une nouvelle raquette de tennis.",
+      "exampleTranslation": "Exprimer des besoins en équipement sportif"
+    },
+    {
+      "word": "Batte",
+      "translation": "Un bâton utilisé pour frapper une balle dans les sports",
+      "phonetic": "/bat/",
+      "example": "Il a balancé la batte et a frappé la balle.",
+      "exampleTranslation": "Décrire une action sportive"
+    },
+    {
+      "word": "Gant",
+      "translation": "Couvercle protecteur pour les mains utilisé dans les sports",
+      "phonetic": "/ɡɑ̃/",
+      "example": "Le joueur de baseball a attrapé la balle avec son gant.",
+      "exampleTranslation": "Décrire l'utilisation d'équipement sportif"
+    },
+    {
+      "word": "Filet",
+      "translation": "Une barrière en maille utilisée dans divers sports",
+      "phonetic": "/filɛ/",
+      "example": "La balle est passée au-dessus du filet.",
+      "exampleTranslation": "Décrire le jeu"
+    },
+    {
+      "word": "Casque",
+      "translation": "Protection de la tête portée dans les sports",
+      "phonetic": "/kask/",
+      "example": "Portez toujours un casque lorsque vous faites du vélo.",
+      "exampleTranslation": "Conseil de sécurité"
+    },
+    {
+      "word": "Chaussures",
+      "translation": "Chaussures spéciales conçues pour les sports",
+      "phonetic": "/ʃosyʁ/",
+      "example": "J'ai acheté de nouvelles chaussures de course.",
+      "exampleTranslation": "Décrire un achat"
+    },
+    {
+      "word": "Coussin",
+      "translation": "Rembourrage protecteur porté pendant les sports",
+      "phonetic": "/kusɛ̃/",
+      "example": "Les joueurs de hockey portent des coussins pour les genoux.",
+      "exampleTranslation": "Décrire l'équipement de protection"
+    },
+    {
+      "word": "Bâton",
+      "translation": "Un équipement long utilisé dans des sports comme le hockey",
+      "phonetic": "/bɑtɔ̃/",
+      "example": "Il contrôle le palet avec sa crosse de hockey.",
+      "exampleTranslation": "Décrire la technique sportive"
+    }
+  ]
+}

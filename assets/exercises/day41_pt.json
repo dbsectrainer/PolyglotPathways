@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day41_mc1",
+      "type": "multipleChoice",
+      "question": "Qual móvel você usa para dormir?",
+      "options": [
+        "Cadeira",
+        "Mesa",
+        "Cama",
+        "Escrivaninha"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day41_mc2",
+      "type": "multipleChoice",
+      "question": "O que você abre para deixar entrar ar fresco em um quarto?",
+      "options": [
+        "Armário",
+        "Janela",
+        "Lâmpada",
+        "Sofá"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day41_mc3",
+      "type": "multipleChoice",
+      "question": "Onde você normalmente encontraria um computador para trabalhar?",
+      "options": [
+        "Em uma cama",
+        "Em um sofá",
+        "Em uma escrivaninha",
+        "Em uma cadeira"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day41_mc4",
+      "type": "multipleChoice",
+      "question": "O que fornece luz artificial em um quarto?",
+      "options": [
+        "Porta",
+        "Janela",
+        "Lâmpada",
+        "Mesa"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day41_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Por favor, sente-se na ____.'",
+      "correctAnswer": "cadeira",
+      "acceptableAlternatives": ["mesa", "sofá"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day41_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Feche a ____, por favor.'",
+      "correctAnswer": "porta",
+      "acceptableAlternatives": ["janela"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day41_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Os pratos estão no ____.'",
+      "correctAnswer": "armário",
+      "caseSensitive": false
+    },
+    {
+      "id": "day41_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Table",
+      "correctTranslation": "Mesa",
+      "acceptableAlternatives": ["Escrivaninha"]
+    }
+  ]
+}

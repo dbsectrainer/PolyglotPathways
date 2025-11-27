@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day50_mc1",
+      "type": "multipleChoice",
+      "question": "What do you say when meeting someone?",
+      "options": [
+        "Goodbye",
+        "Hello",
+        "Good night",
+        "I'm sorry"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day50_mc2",
+      "type": "multipleChoice",
+      "question": "What phrase expresses gratitude?",
+      "options": [
+        "Please",
+        "Excuse me",
+        "Thank you",
+        "Hello"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day50_mc3",
+      "type": "multipleChoice",
+      "question": "What do you say in the early part of the day?",
+      "options": [
+        "Good night",
+        "Goodbye",
+        "Good morning",
+        "How are you"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day50_mc4",
+      "type": "multipleChoice",
+      "question": "What do you say when you make a mistake?",
+      "options": [
+        "Thank you",
+        "Please",
+        "I'm sorry",
+        "Excuse me"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day50_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: '____, how are you?'",
+      "correctAnswer": "Hello",
+      "acceptableAlternatives": ["Hi"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day50_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Can you help me, ____?'",
+      "correctAnswer": "please",
+      "caseSensitive": false
+    },
+    {
+      "id": "day50_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: '____, sleep well!'",
+      "correctAnswer": "Good night",
+      "acceptableAlternatives": ["Goodnight"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day50_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Thank You",
+      "correctTranslation": "Thank You",
+      "acceptableAlternatives": ["Thanks", "Thank you"]
+    }
+  ]
+}

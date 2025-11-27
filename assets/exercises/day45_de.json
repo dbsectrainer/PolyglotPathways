@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day45_mc1",
+      "type": "multipleChoice",
+      "question": "Welche Emotion fühlen Sie, wenn etwas Gutes passiert?",
+      "options": [
+        "Traurig",
+        "Glücklich",
+        "Wütend",
+        "Müde"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day45_mc2",
+      "type": "multipleChoice",
+      "question": "Was fühlen Sie, wenn Sie Ruhe oder Schlaf brauchen?",
+      "options": [
+        "Aufgeregt",
+        "Überrascht",
+        "Müde",
+        "Ruhig"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day45_mc3",
+      "type": "multipleChoice",
+      "question": "Welche Emotion beschreibt friedlich und nicht aufgeregt zu sein?",
+      "options": [
+        "Wütend",
+        "Ängstlich",
+        "Ruhig",
+        "Einsam"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day45_mc4",
+      "type": "multipleChoice",
+      "question": "Was fühlen Sie, wenn etwas Unerwartetes passiert?",
+      "options": [
+        "Überrascht",
+        "Müde",
+        "Ruhig",
+        "Einsam"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "day45_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Ich bin heute sehr ____!'",
+      "correctAnswer": "glücklich",
+      "acceptableAlternatives": ["aufgeregt"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day45_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Das Kind hat ____ vor der Dunkelheit.'",
+      "correctAnswer": "Angst",
+      "caseSensitive": false
+    },
+    {
+      "id": "day45_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Er fühlt sich ____ ohne seine Freunde.'",
+      "correctAnswer": "einsam",
+      "acceptableAlternatives": ["traurig", "allein"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day45_trans1",
+      "type": "translation",
+      "question": "Übersetzen Sie ins Deutsche:",
+      "targetText": "Angry",
+      "correctTranslation": "Wütend",
+      "acceptableAlternatives": ["Böse", "Sauer"]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day43_mc1",
+      "type": "multipleChoice",
+      "question": "Quel équipement de protection portez-vous sur la tête?",
+      "options": [
+        "Gant",
+        "Casque",
+        "Coussin",
+        "Chaussures"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day43_mc2",
+      "type": "multipleChoice",
+      "question": "Qu'utilisez-vous pour frapper une balle au tennis?",
+      "options": [
+        "Batte",
+        "Bâton",
+        "Raquette",
+        "Filet"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day43_mc3",
+      "type": "multipleChoice",
+      "question": "Comment s'appelle la barrière en maille au volley-ball?",
+      "options": [
+        "Ballon",
+        "Filet",
+        "Gant",
+        "Coussin"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day43_mc4",
+      "type": "multipleChoice",
+      "question": "Quel équipement est utilisé pour attraper une balle de baseball?",
+      "options": [
+        "Casque",
+        "Raquette",
+        "Gant",
+        "Bâton"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day43_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Il a balancé la ____ et a frappé la balle.'",
+      "correctAnswer": "batte",
+      "caseSensitive": false
+    },
+    {
+      "id": "day43_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'La balle est passée au-dessus du ____.'",
+      "correctAnswer": "filet",
+      "caseSensitive": false
+    },
+    {
+      "id": "day43_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Les joueurs de hockey portent des ____ pour les genoux.'",
+      "correctAnswer": "coussins",
+      "acceptableAlternatives": ["coussin"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day43_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Ball",
+      "correctTranslation": "Ballon",
+      "acceptableAlternatives": ["Balle"]
+    }
+  ]
+}

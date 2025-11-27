@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day46_mc1",
+      "type": "multipleChoice",
+      "question": "Where do you go to withdraw money?",
+      "options": [
+        "Store",
+        "Bank",
+        "Restaurant",
+        "School"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day46_mc2",
+      "type": "multipleChoice",
+      "question": "What word describes something that costs a lot of money?",
+      "options": [
+        "Cheap",
+        "Free",
+        "Expensive",
+        "Price"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day46_mc3",
+      "type": "multipleChoice",
+      "question": "What is a small round piece of metal money called?",
+      "options": [
+        "Dollar",
+        "Coin",
+        "Payment",
+        "Change"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day46_mc4",
+      "type": "multipleChoice",
+      "question": "What do you receive when you pay more than the cost?",
+      "options": [
+        "Price",
+        "Payment",
+        "Change",
+        "Coin"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day46_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I need ____ to buy food.'",
+      "correctAnswer": "money",
+      "acceptableAlternatives": ["cash"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day46_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'This costs five ____.'",
+      "correctAnswer": "dollars",
+      "caseSensitive": false
+    },
+    {
+      "id": "day46_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I found a ____ hotel.'",
+      "correctAnswer": "cheap",
+      "acceptableAlternatives": ["affordable", "inexpensive"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day46_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Bank",
+      "correctTranslation": "Bank",
+      "acceptableAlternatives": ["Financial institution"]
+    }
+  ]
+}

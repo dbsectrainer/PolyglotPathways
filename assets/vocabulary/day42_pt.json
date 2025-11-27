@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Camisa",
+      "translation": "Uma peça de roupa para a parte superior do corpo com mangas",
+      "phonetic": "/kɐˈmizɐ/",
+      "example": "Ele usava uma camisa azul no trabalho.",
+      "exampleTranslation": "Descrevendo a roupa de trabalho de alguém"
+    },
+    {
+      "word": "Calças",
+      "translation": "Uma peça de roupa que cobre cada perna separadamente",
+      "phonetic": "/ˈkalsɐʃ/",
+      "example": "Preciso comprar calças novas.",
+      "exampleTranslation": "Expressando uma necessidade de compras"
+    },
+    {
+      "word": "Vestido",
+      "translation": "Uma peça de roupa única para mulheres ou meninas",
+      "phonetic": "/vɨʃˈtidu/",
+      "example": "Ela está linda com esse vestido.",
+      "exampleTranslation": "Elogiando a roupa de alguém"
+    },
+    {
+      "word": "Jaqueta",
+      "translation": "Um casaco curto usado sobre outras roupas",
+      "phonetic": "/ʒɐˈkɛtɐ/",
+      "example": "Não esqueça sua jaqueta, está frio lá fora.",
+      "exampleTranslation": "Conselho sobre o clima"
+    },
+    {
+      "word": "Chapéu",
+      "translation": "Uma cobertura para a cabeça",
+      "phonetic": "/ʃɐˈpɛw/",
+      "example": "Ele usa um chapéu para se proteger do sol.",
+      "exampleTranslation": "Descrevendo proteção solar"
+    },
+    {
+      "word": "Sapatos",
+      "translation": "Calçados que cobrem os pés",
+      "phonetic": "/sɐˈpatuʃ/",
+      "example": "Estes sapatos são muito confortáveis.",
+      "exampleTranslation": "Comentando sobre a qualidade do calçado"
+    },
+    {
+      "word": "Meias",
+      "translation": "Peças de roupa usadas nos pés sob os sapatos",
+      "phonetic": "/ˈmejɐʃ/",
+      "example": "Eu coloco as meias antes dos sapatos.",
+      "exampleTranslation": "Descrevendo o processo de se vestir"
+    },
+    {
+      "word": "Casaco",
+      "translation": "Uma peça externa longa usada para calor",
+      "phonetic": "/kɐˈzaku/",
+      "example": "É inverno, então uso um casaco quente.",
+      "exampleTranslation": "Explicando roupas de temporada"
+    },
+    {
+      "word": "Gravata",
+      "translation": "Uma tira de tecido usada ao redor do pescoço",
+      "phonetic": "/ɡɾɐˈvatɐ/",
+      "example": "Ele usa gravata para ocasiões formais.",
+      "exampleTranslation": "Descrevendo código de vestimenta formal"
+    }
+  ]
+}

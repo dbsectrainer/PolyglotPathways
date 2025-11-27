@@ -1,0 +1,81 @@
+{
+  "exercises": [
+    {
+      "id": "day50_mc1",
+      "type": "multipleChoice",
+      "question": "Was sagen Sie, wenn Sie jemanden treffen?",
+      "options": [
+        "Auf Wiedersehen",
+        "Hallo",
+        "Gute Nacht",
+        "Es tut mir leid"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day50_mc2",
+      "type": "multipleChoice",
+      "question": "Welche Phrase drückt Dankbarkeit aus?",
+      "options": [
+        "Bitte",
+        "Entschuldigung",
+        "Danke",
+        "Hallo"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day50_mc3",
+      "type": "multipleChoice",
+      "question": "Was sagen Sie im frühen Teil des Tages?",
+      "options": [
+        "Gute Nacht",
+        "Auf Wiedersehen",
+        "Guten Morgen",
+        "Wie geht es Ihnen"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day50_mc4",
+      "type": "multipleChoice",
+      "question": "Was sagen Sie, wenn Sie einen Fehler machen?",
+      "options": [
+        "Danke",
+        "Bitte",
+        "Es tut mir leid",
+        "Entschuldigung"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day50_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: '____, wie geht es Ihnen?'",
+      "correctAnswer": "Hallo",
+      "caseSensitive": false
+    },
+    {
+      "id": "day50_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Können Sie mir ____ helfen?'",
+      "correctAnswer": "bitte",
+      "caseSensitive": false
+    },
+    {
+      "id": "day50_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: '____ ____, schlafen Sie gut!'",
+      "correctAnswer": "Gute Nacht",
+      "caseSensitive": false
+    },
+    {
+      "id": "day50_trans1",
+      "type": "translation",
+      "question": "Übersetzen Sie ins Deutsche:",
+      "targetText": "Thank You",
+      "correctTranslation": "Danke",
+      "acceptableAlternatives": ["Vielen Dank", "Dankeschön"]
+    }
+  ]
+}

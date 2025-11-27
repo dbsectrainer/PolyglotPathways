@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day42_mc1",
+      "type": "multipleChoice",
+      "question": "Que portez-vous aux pieds?",
+      "options": [
+        "Chapeau",
+        "Chaussures",
+        "Cravate",
+        "Manteau"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day42_mc2",
+      "type": "multipleChoice",
+      "question": "Quel est un vêtement d'une seule pièce typiquement porté par les femmes?",
+      "options": [
+        "Chemise",
+        "Pantalon",
+        "Robe",
+        "Veste"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day42_mc3",
+      "type": "multipleChoice",
+      "question": "Que portez-vous autour du cou pour les occasions formelles?",
+      "options": [
+        "Chaussettes",
+        "Chapeau",
+        "Cravate",
+        "Chaussures"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day42_mc4",
+      "type": "multipleChoice",
+      "question": "Quel vêtement extérieur long vous garde au chaud en hiver?",
+      "options": [
+        "Chemise",
+        "Robe",
+        "Manteau",
+        "Chaussettes"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day42_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'N'oublie pas ta ____, il fait froid dehors.'",
+      "correctAnswer": "veste",
+      "acceptableAlternatives": ["manteau"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day42_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Je mets mes ____ avant mes chaussures.'",
+      "correctAnswer": "chaussettes",
+      "caseSensitive": false
+    },
+    {
+      "id": "day42_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Il porte un ____ pour se protéger du soleil.'",
+      "correctAnswer": "chapeau",
+      "caseSensitive": false
+    },
+    {
+      "id": "day42_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Pants",
+      "correctTranslation": "Pantalon",
+      "acceptableAlternatives": ["Pantalons"]
+    }
+  ]
+}

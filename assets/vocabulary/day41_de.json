@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Stuhl",
+      "translation": "Ein Möbelstück für eine Person zum Sitzen",
+      "phonetic": "/ʃtuːl/",
+      "example": "Bitte setzen Sie sich auf den Stuhl.",
+      "exampleTranslation": "Eine Einladung, Platz zu nehmen"
+    },
+    {
+      "word": "Tisch",
+      "translation": "Ein Möbelstück mit einer flachen Oberfläche und Beinen",
+      "phonetic": "/tɪʃ/",
+      "example": "Das Buch liegt auf dem Tisch.",
+      "exampleTranslation": "Beschreibung des Standorts eines Objekts"
+    },
+    {
+      "word": "Bett",
+      "translation": "Ein Möbelstück zum Schlafen",
+      "phonetic": "/bɛt/",
+      "example": "Ich schlafe jede Nacht in meinem Bett.",
+      "exampleTranslation": "Beschreibung Ihrer Schlafroutine"
+    },
+    {
+      "word": "Tür",
+      "translation": "Eine Barriere mit Scharnieren zum Öffnen oder Schließen eines Eingangs",
+      "phonetic": "/tyːɐ̯/",
+      "example": "Schließen Sie bitte die Tür.",
+      "exampleTranslation": "Eine Bitte, den Eingang zu schließen"
+    },
+    {
+      "word": "Fenster",
+      "translation": "Eine Öffnung in einer Wand mit Glas, um Licht hereinzulassen",
+      "phonetic": "/ˈfɛnstɐ/",
+      "example": "Öffnen Sie das Fenster für frische Luft.",
+      "exampleTranslation": "Eine Bitte, Luft hereinzulassen"
+    },
+    {
+      "word": "Lampe",
+      "translation": "Ein Gerät, das künstliches Licht erzeugt",
+      "phonetic": "/ˈlampə/",
+      "example": "Schalten Sie die Lampe ein, es ist dunkel.",
+      "exampleTranslation": "Eine Bitte um Beleuchtung"
+    },
+    {
+      "word": "Sofa",
+      "translation": "Ein langer gepolsterter Sitz für mehrere Personen",
+      "phonetic": "/ˈzoːfa/",
+      "example": "Wir saßen zusammen auf dem Sofa.",
+      "exampleTranslation": "Beschreibung, wo die Leute saßen"
+    },
+    {
+      "word": "Schreibtisch",
+      "translation": "Ein Tisch zum Schreiben oder Arbeiten",
+      "phonetic": "/ˈʃʁaɪ̯ptɪʃ/",
+      "example": "Mein Computer steht auf meinem Schreibtisch.",
+      "exampleTranslation": "Beschreibung der Arbeitsplatzeinrichtung"
+    },
+    {
+      "word": "Schrank",
+      "translation": "Ein Möbelstück mit Regalen oder Schubladen zur Aufbewahrung",
+      "phonetic": "/ʃʁaŋk/",
+      "example": "Das Geschirr ist im Schrank.",
+      "exampleTranslation": "Beschreibung, wo Gegenstände aufbewahrt werden"
+    }
+  ]
+}

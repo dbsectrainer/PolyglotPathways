@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day49_mc1",
+      "type": "multipleChoice",
+      "question": "What is the opposite of big?",
+      "options": [
+        "Hot",
+        "Small",
+        "Fast",
+        "Strong"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day49_mc2",
+      "type": "multipleChoice",
+      "question": "What describes something with a high temperature?",
+      "options": [
+        "Cold",
+        "Weak",
+        "Hot",
+        "Slow"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day49_mc3",
+      "type": "multipleChoice",
+      "question": "What describes someone with physical power?",
+      "options": [
+        "Weak",
+        "Small",
+        "Strong",
+        "Slow"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day49_mc4",
+      "type": "multipleChoice",
+      "question": "What is the opposite of fast?",
+      "options": [
+        "Big",
+        "Hot",
+        "Strong",
+        "Slow"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "day49_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'The sunset is ____.'",
+      "correctAnswer": "beautiful",
+      "acceptableAlternatives": ["lovely", "gorgeous"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day49_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'It's ____ outside today.'",
+      "correctAnswer": "cold",
+      "acceptableAlternatives": ["hot"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day49_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'He runs very ____.'",
+      "correctAnswer": "fast",
+      "acceptableAlternatives": ["quickly"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day49_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Big",
+      "correctTranslation": "Big",
+      "acceptableAlternatives": ["Large", "Huge"]
+    }
+  ]
+}

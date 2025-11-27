@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Hallo",
+      "translation": "Eine Begrüßung beim Treffen von jemandem",
+      "phonetic": "/haˈloː/",
+      "example": "Hallo! Wie geht es Ihnen?",
+      "exampleTranslation": "Eine freundliche Begrüßung, um ein Gespräch zu beginnen"
+    },
+    {
+      "word": "Auf Wiedersehen",
+      "translation": "Ein Abschiedsausdruck beim Abschied",
+      "phonetic": "/aʊ̯f ˈviːdɐˌzeːən/",
+      "example": "Auf Wiedersehen! Bis morgen.",
+      "exampleTranslation": "Eine höfliche Art, ein Treffen zu beenden"
+    },
+    {
+      "word": "Danke",
+      "translation": "Ein Ausdruck der Dankbarkeit",
+      "phonetic": "/ˈdaŋkə/",
+      "example": "Danke für Ihre Hilfe!",
+      "exampleTranslation": "Wertschätzung für Unterstützung zeigen"
+    },
+    {
+      "word": "Bitte",
+      "translation": "Ein höfliches Wort bei Bitten",
+      "phonetic": "/ˈbɪtə/",
+      "example": "Können Sie mir bitte helfen?",
+      "exampleTranslation": "Eine höfliche Bitte äußern"
+    },
+    {
+      "word": "Entschuldigung",
+      "translation": "Eine höfliche Phrase, um Aufmerksamkeit zu erregen oder sich zu entschuldigen",
+      "phonetic": "/ɛntˈʃʊldɪɡʊŋ/",
+      "example": "Entschuldigung, wo ist die Toilette?",
+      "exampleTranslation": "Höflich nach Informationen fragen"
+    },
+    {
+      "word": "Wie geht es Ihnen",
+      "translation": "Eine Frage nach dem Wohlbefinden von jemandem",
+      "phonetic": "/viː ɡeːt ɛs ˈiːnən/",
+      "example": "Hallo! Wie geht es Ihnen heute?",
+      "exampleTranslation": "Interesse am Zustand von jemandem zeigen"
+    },
+    {
+      "word": "Guten Morgen",
+      "translation": "Eine Begrüßung im frühen Teil des Tages",
+      "phonetic": "/ˈɡuːtən ˈmɔʁɡən/",
+      "example": "Guten Morgen! Haben Sie gut geschlafen?",
+      "exampleTranslation": "Eine morgendliche Begrüßung mit Frage"
+    },
+    {
+      "word": "Gute Nacht",
+      "translation": "Ein Abschied oder Gruß am Abend",
+      "phonetic": "/ˈɡuːtə naxt/",
+      "example": "Gute Nacht, schlafen Sie gut!",
+      "exampleTranslation": "Erholsamen Schlaf wünschen"
+    },
+    {
+      "word": "Es tut mir leid",
+      "translation": "Ein Ausdruck der Entschuldigung oder des Bedauerns",
+      "phonetic": "/ɛs tuːt miːɐ̯ laɪ̯t/",
+      "example": "Es tut mir leid, dass ich zu spät bin.",
+      "exampleTranslation": "Sich für einen Fehler entschuldigen"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day46_mc1",
+      "type": "multipleChoice",
+      "question": "Onde você vai para sacar dinheiro?",
+      "options": [
+        "Loja",
+        "Banco",
+        "Restaurante",
+        "Escola"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day46_mc2",
+      "type": "multipleChoice",
+      "question": "Que palavra descreve algo que custa muito dinheiro?",
+      "options": [
+        "Barato",
+        "Grátis",
+        "Caro",
+        "Preço"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day46_mc3",
+      "type": "multipleChoice",
+      "question": "Como se chama uma pequena peça redonda de dinheiro de metal?",
+      "options": [
+        "Dólar",
+        "Moeda",
+        "Pagamento",
+        "Troco"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day46_mc4",
+      "type": "multipleChoice",
+      "question": "O que você recebe quando paga mais do que o custo?",
+      "options": [
+        "Preço",
+        "Pagamento",
+        "Troco",
+        "Moeda"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day46_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Preciso de ____ para comprar comida.'",
+      "correctAnswer": "dinheiro",
+      "acceptableAlternatives": ["grana"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day46_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Isto custa cinco ____.'",
+      "correctAnswer": "dólares",
+      "caseSensitive": false
+    },
+    {
+      "id": "day46_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Encontrei um hotel ____.'",
+      "correctAnswer": "barato",
+      "acceptableAlternatives": ["econômico"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day46_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Bank",
+      "correctTranslation": "Banco",
+      "acceptableAlternatives": []
+    }
+  ]
+}

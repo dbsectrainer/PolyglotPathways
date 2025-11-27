@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Ball",
+      "translation": "Ein rundes Objekt, das in vielen Sportarten verwendet wird",
+      "phonetic": "/bal/",
+      "example": "Wirf mir den Ball!",
+      "exampleTranslation": "Eine Bitte während eines Spiels"
+    },
+    {
+      "word": "Schläger",
+      "translation": "Ausrüstung mit Saiten zum Schlagen eines Balls",
+      "phonetic": "/ˈʃlɛːɡɐ/",
+      "example": "Ich brauche einen neuen Tennisschläger.",
+      "exampleTranslation": "Ausdruck von Bedarf an Sportausrüstung"
+    },
+    {
+      "word": "Schlagholz",
+      "translation": "Ein Stock zum Schlagen eines Balls im Sport",
+      "phonetic": "/ˈʃlaːkˌhɔlts/",
+      "example": "Er schwang das Schlagholz und traf den Ball.",
+      "exampleTranslation": "Beschreibung einer sportlichen Aktion"
+    },
+    {
+      "word": "Handschuh",
+      "translation": "Schützende Handbedeckung im Sport verwendet",
+      "phonetic": "/ˈhantʃuː/",
+      "example": "Der Baseballspieler fing den Ball mit seinem Handschuh.",
+      "exampleTranslation": "Beschreibung der Verwendung von Sportausrüstung"
+    },
+    {
+      "word": "Netz",
+      "translation": "Eine Maschenbarriere, die in verschiedenen Sportarten verwendet wird",
+      "phonetic": "/nɛts/",
+      "example": "Der Ball ging über das Netz.",
+      "exampleTranslation": "Beschreibung des Spielverlaufs"
+    },
+    {
+      "word": "Helm",
+      "translation": "Schützende Kopfbedeckung im Sport getragen",
+      "phonetic": "/hɛlm/",
+      "example": "Tragen Sie immer einen Helm beim Radfahren.",
+      "exampleTranslation": "Sicherheitshinweis"
+    },
+    {
+      "word": "Schuhe",
+      "translation": "Spezielle Schuhe für Sport entwickelt",
+      "phonetic": "/ˈʃuːə/",
+      "example": "Ich habe neue Laufschuhe gekauft.",
+      "exampleTranslation": "Beschreibung eines Kaufs"
+    },
+    {
+      "word": "Polster",
+      "translation": "Schützende Polsterung im Sport getragen",
+      "phonetic": "/ˈpɔlstɐ/",
+      "example": "Hockeyspieler tragen Kniepolster.",
+      "exampleTranslation": "Beschreibung von Schutzausrüstung"
+    },
+    {
+      "word": "Stock",
+      "translation": "Ein langes Ausrüstungsstück in Sportarten wie Hockey verwendet",
+      "phonetic": "/ʃtɔk/",
+      "example": "Er kontrolliert den Puck mit seinem Hockeystock.",
+      "exampleTranslation": "Beschreibung der Sporttechnik"
+    }
+  ]
+}

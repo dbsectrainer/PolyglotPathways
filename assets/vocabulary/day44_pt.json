@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Maçã",
+      "translation": "Uma fruta redonda com casca vermelha, verde ou amarela",
+      "phonetic": "/mɐˈsɐ̃/",
+      "example": "Eu como uma maçã todos os dias.",
+      "exampleTranslation": "Descrevendo um hábito saudável"
+    },
+    {
+      "word": "Banana",
+      "translation": "Uma fruta longa e curva com casca amarela",
+      "phonetic": "/bɐˈnɐnɐ/",
+      "example": "Bananas são minha fruta favorita.",
+      "exampleTranslation": "Expressando uma preferência"
+    },
+    {
+      "word": "Laranja",
+      "translation": "Uma fruta cítrica redonda com casca laranja",
+      "phonetic": "/lɐˈɾɐ̃ʒɐ/",
+      "example": "Esta laranja é muito suculenta.",
+      "exampleTranslation": "Comentando sobre a qualidade da fruta"
+    },
+    {
+      "word": "Uva",
+      "translation": "Uma pequena fruta redonda que cresce em cachos",
+      "phonetic": "/ˈuvɐ/",
+      "example": "Eu amo uvas verdes.",
+      "exampleTranslation": "Expressando uma preferência alimentar"
+    },
+    {
+      "word": "Cenoura",
+      "translation": "Uma raiz vegetal laranja",
+      "phonetic": "/seˈnoɾɐ/",
+      "example": "Cenouras são boas para seus olhos.",
+      "exampleTranslation": "Compartilhando informações nutricionais"
+    },
+    {
+      "word": "Tomate",
+      "translation": "Uma fruta vermelha frequentemente usada como vegetal",
+      "phonetic": "/toˈmat͡ʃi/",
+      "example": "Adicione tomates à salada.",
+      "exampleTranslation": "Dando instruções de cozinha"
+    },
+    {
+      "word": "Alface",
+      "translation": "Um vegetal de folhas verdes usado em saladas",
+      "phonetic": "/awˈfasi/",
+      "example": "A alface está fresca e crocante.",
+      "exampleTranslation": "Descrevendo a qualidade do vegetal"
+    },
+    {
+      "word": "Pepino",
+      "translation": "Um vegetal longo e verde com polpa aquosa",
+      "phonetic": "/peˈpinu/",
+      "example": "Corte o pepino para o sanduíche.",
+      "exampleTranslation": "Dando instruções de preparação de alimentos"
+    },
+    {
+      "word": "Batata",
+      "translation": "Um vegetal de raiz amiláceo com casca marrom",
+      "phonetic": "/bɐˈtatɐ/",
+      "example": "Eu gosto de batatas assadas.",
+      "exampleTranslation": "Expressando uma preferência alimentar"
+    }
+  ]
+}

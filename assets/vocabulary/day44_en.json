@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Apple",
+      "translation": "A round fruit with red, green, or yellow skin",
+      "phonetic": "/ˈæpəl/",
+      "example": "I eat an apple every day.",
+      "exampleTranslation": "Describing a healthy habit"
+    },
+    {
+      "word": "Banana",
+      "translation": "A long curved fruit with yellow skin",
+      "phonetic": "/bəˈnænə/",
+      "example": "Bananas are my favorite fruit.",
+      "exampleTranslation": "Expressing a preference"
+    },
+    {
+      "word": "Orange",
+      "translation": "A round citrus fruit with orange skin",
+      "phonetic": "/ˈɔːrɪndʒ/",
+      "example": "This orange is very juicy.",
+      "exampleTranslation": "Commenting on fruit quality"
+    },
+    {
+      "word": "Grape",
+      "translation": "A small round fruit that grows in clusters",
+      "phonetic": "/ɡreɪp/",
+      "example": "I love green grapes.",
+      "exampleTranslation": "Expressing a food preference"
+    },
+    {
+      "word": "Carrot",
+      "translation": "An orange root vegetable",
+      "phonetic": "/ˈkærət/",
+      "example": "Carrots are good for your eyes.",
+      "exampleTranslation": "Sharing nutritional information"
+    },
+    {
+      "word": "Tomato",
+      "translation": "A red fruit often used as a vegetable",
+      "phonetic": "/təˈmeɪtoʊ/",
+      "example": "Add tomatoes to the salad.",
+      "exampleTranslation": "Giving cooking instructions"
+    },
+    {
+      "word": "Lettuce",
+      "translation": "A leafy green vegetable used in salads",
+      "phonetic": "/ˈlɛtɪs/",
+      "example": "The lettuce is fresh and crispy.",
+      "exampleTranslation": "Describing vegetable quality"
+    },
+    {
+      "word": "Cucumber",
+      "translation": "A long green vegetable with watery flesh",
+      "phonetic": "/ˈkjuːkʌmbər/",
+      "example": "Slice the cucumber for the sandwich.",
+      "exampleTranslation": "Giving food preparation instructions"
+    },
+    {
+      "word": "Potato",
+      "translation": "A starchy root vegetable with brown skin",
+      "phonetic": "/pəˈteɪtoʊ/",
+      "example": "I like baked potatoes.",
+      "exampleTranslation": "Expressing a food preference"
+    }
+  ]
+}

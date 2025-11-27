@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Run",
+      "translation": "To move quickly on foot",
+      "phonetic": "/rʌn/",
+      "example": "I run every morning for exercise.",
+      "exampleTranslation": "Describing physical activity"
+    },
+    {
+      "word": "Jump",
+      "translation": "To push oneself off the ground",
+      "phonetic": "/dʒʌmp/",
+      "example": "The children jump on the bed.",
+      "exampleTranslation": "Describing playful activity"
+    },
+    {
+      "word": "Walk",
+      "translation": "To move at a regular pace by lifting feet",
+      "phonetic": "/wɔːk/",
+      "example": "Let's walk to the park.",
+      "exampleTranslation": "Suggesting an activity"
+    },
+    {
+      "word": "Sit",
+      "translation": "To be in a position with weight on buttocks",
+      "phonetic": "/sɪt/",
+      "example": "Please sit down and relax.",
+      "exampleTranslation": "Inviting someone to rest"
+    },
+    {
+      "word": "Stand",
+      "translation": "To be in an upright position on feet",
+      "phonetic": "/stænd/",
+      "example": "Stand up when your name is called.",
+      "exampleTranslation": "Giving instructions"
+    },
+    {
+      "word": "Sleep",
+      "translation": "To rest with eyes closed and mind inactive",
+      "phonetic": "/sliːp/",
+      "example": "I sleep eight hours every night.",
+      "exampleTranslation": "Describing rest habits"
+    },
+    {
+      "word": "Eat",
+      "translation": "To put food in the mouth and swallow",
+      "phonetic": "/iːt/",
+      "example": "We eat breakfast at 8 AM.",
+      "exampleTranslation": "Describing mealtime routine"
+    },
+    {
+      "word": "Drink",
+      "translation": "To take liquid into the mouth and swallow",
+      "phonetic": "/drɪŋk/",
+      "example": "Drink plenty of water daily.",
+      "exampleTranslation": "Giving health advice"
+    },
+    {
+      "word": "Play",
+      "translation": "To engage in activity for enjoyment",
+      "phonetic": "/pleɪ/",
+      "example": "The kids play in the garden.",
+      "exampleTranslation": "Describing recreational activity"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Dinheiro",
+      "translation": "Moeda usada para comprar bens e serviços",
+      "phonetic": "/dʒĩˈɲejɾu/",
+      "example": "Preciso de dinheiro para comprar comida.",
+      "exampleTranslation": "Explicando uma necessidade financeira"
+    },
+    {
+      "word": "Dólar",
+      "translation": "Uma unidade de moeda usada em vários países",
+      "phonetic": "/ˈdɔlaɾ/",
+      "example": "Isto custa cinco dólares.",
+      "exampleTranslation": "Indicando um preço"
+    },
+    {
+      "word": "Moeda",
+      "translation": "Uma pequena peça redonda de dinheiro de metal",
+      "phonetic": "/moˈedɐ/",
+      "example": "Tenho moedas no meu bolso.",
+      "exampleTranslation": "Descrevendo o que você está carregando"
+    },
+    {
+      "word": "Banco",
+      "translation": "Uma instituição que lida com dinheiro",
+      "phonetic": "/ˈbɐ̃ku/",
+      "example": "Fui ao banco para sacar dinheiro.",
+      "exampleTranslation": "Descrevendo uma transação financeira"
+    },
+    {
+      "word": "Preço",
+      "translation": "A quantidade de dinheiro que algo custa",
+      "phonetic": "/ˈpɾesu/",
+      "example": "Qual é o preço deste item?",
+      "exampleTranslation": "Perguntando sobre custo"
+    },
+    {
+      "word": "Caro",
+      "translation": "Que custa muito dinheiro",
+      "phonetic": "/ˈkaɾu/",
+      "example": "Este relógio é muito caro.",
+      "exampleTranslation": "Comentando sobre custo alto"
+    },
+    {
+      "word": "Barato",
+      "translation": "Baixo em preço ou custo",
+      "phonetic": "/bɐˈɾatu/",
+      "example": "Encontrei um hotel barato.",
+      "exampleTranslation": "Descrevendo uma opção acessível"
+    },
+    {
+      "word": "Pagamento",
+      "translation": "O ato de pagar ou dinheiro pago",
+      "phonetic": "/pɐɡɐˈmẽtu/",
+      "example": "O pagamento vence amanhã.",
+      "exampleTranslation": "Discutindo obrigações financeiras"
+    },
+    {
+      "word": "Troco",
+      "translation": "Dinheiro devolvido quando você paga mais do que o custo",
+      "phonetic": "/ˈtɾoku/",
+      "example": "Aqui está seu troco de dez dólares.",
+      "exampleTranslation": "Devolvendo dinheiro em excesso"
+    }
+  ]
+}

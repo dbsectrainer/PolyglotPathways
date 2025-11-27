@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Relógio",
+      "translation": "Um dispositivo que mostra as horas",
+      "phonetic": "/ʁeˈlɔʒju/",
+      "example": "Olhe o relógio na parede.",
+      "exampleTranslation": "Direcionando alguém a verificar as horas"
+    },
+    {
+      "word": "Hora",
+      "translation": "Um período de sessenta minutos",
+      "phonetic": "/ˈɔɾɐ/",
+      "example": "A reunião dura uma hora.",
+      "exampleTranslation": "Descrevendo duração"
+    },
+    {
+      "word": "Minuto",
+      "translation": "Um período de sessenta segundos",
+      "phonetic": "/miˈnutu/",
+      "example": "Espere apenas um minuto, por favor.",
+      "exampleTranslation": "Pedindo a alguém para esperar brevemente"
+    },
+    {
+      "word": "Segundo",
+      "translation": "Uma unidade de tempo muito curta",
+      "phonetic": "/seˈɡũdu/",
+      "example": "Isso só vai levar um segundo.",
+      "exampleTranslation": "Indicando uma ação breve"
+    },
+    {
+      "word": "Manhã",
+      "translation": "A parte inicial do dia",
+      "phonetic": "/mɐˈɲɐ̃/",
+      "example": "Eu bebo café todas as manhãs.",
+      "exampleTranslation": "Descrevendo uma rotina diária"
+    },
+    {
+      "word": "Tarde",
+      "translation": "A parte posterior do dia",
+      "phonetic": "/ˈtaɾdʒi/",
+      "example": "Jantamos à tarde.",
+      "exampleTranslation": "Descrevendo horário de refeição"
+    },
+    {
+      "word": "Noite",
+      "translation": "O tempo quando está escuro",
+      "phonetic": "/ˈnojtʃi/",
+      "example": "As estrelas brilham à noite.",
+      "exampleTranslation": "Descrevendo o período noturno"
+    },
+    {
+      "word": "Dia",
+      "translation": "Um período de vinte e quatro horas",
+      "phonetic": "/ˈdiɐ/",
+      "example": "Trabalho cinco dias por semana.",
+      "exampleTranslation": "Descrevendo agenda de trabalho"
+    },
+    {
+      "word": "Semana",
+      "translation": "Um período de sete dias",
+      "phonetic": "/seˈmɐnɐ/",
+      "example": "Vou te ver na próxima semana.",
+      "exampleTranslation": "Fazendo planos futuros"
+    }
+  ]
+}

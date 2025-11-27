@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Correr",
+      "translation": "Mover-se rapidamente a pé",
+      "phonetic": "/koˈʁeɾ/",
+      "example": "Eu corro todas as manhãs para me exercitar.",
+      "exampleTranslation": "Descrevendo atividade física"
+    },
+    {
+      "word": "Pular",
+      "translation": "Impulsionar-se do chão",
+      "phonetic": "/puˈlaɾ/",
+      "example": "As crianças pulam na cama.",
+      "exampleTranslation": "Descrevendo atividade lúdica"
+    },
+    {
+      "word": "Andar",
+      "translation": "Mover-se em ritmo regular levantando os pés",
+      "phonetic": "/ɐ̃ˈdaɾ/",
+      "example": "Vamos andar até o parque.",
+      "exampleTranslation": "Sugerindo uma atividade"
+    },
+    {
+      "word": "Sentar",
+      "translation": "Estar em uma posição com peso nas nádegas",
+      "phonetic": "/sẽˈtaɾ/",
+      "example": "Por favor, sente-se e relaxe.",
+      "exampleTranslation": "Convidando alguém a descansar"
+    },
+    {
+      "word": "Ficar de pé",
+      "translation": "Estar em posição vertical sobre os pés",
+      "phonetic": "/fiˈkaɾ dʒi pɛ/",
+      "example": "Fique de pé quando chamarem seu nome.",
+      "exampleTranslation": "Dando instruções"
+    },
+    {
+      "word": "Dormir",
+      "translation": "Descansar com os olhos fechados e mente inativa",
+      "phonetic": "/doɾˈmiɾ/",
+      "example": "Eu durmo oito horas todas as noites.",
+      "exampleTranslation": "Descrevendo hábitos de descanso"
+    },
+    {
+      "word": "Comer",
+      "translation": "Colocar comida na boca e engolir",
+      "phonetic": "/koˈmeɾ/",
+      "example": "Comemos café da manhã às 8 da manhã.",
+      "exampleTranslation": "Descrevendo rotina de refeições"
+    },
+    {
+      "word": "Beber",
+      "translation": "Tomar líquido na boca e engolir",
+      "phonetic": "/beˈbeɾ/",
+      "example": "Beba muita água diariamente.",
+      "exampleTranslation": "Dando conselhos de saúde"
+    },
+    {
+      "word": "Brincar",
+      "translation": "Participar de atividade para diversão",
+      "phonetic": "/bɾĩˈkaɾ/",
+      "example": "As crianças brincam no jardim.",
+      "exampleTranslation": "Descrevendo atividade recreativa"
+    }
+  ]
+}

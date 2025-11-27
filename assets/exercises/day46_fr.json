@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day46_mc1",
+      "type": "multipleChoice",
+      "question": "Où allez-vous pour retirer de l'argent?",
+      "options": [
+        "Magasin",
+        "Banque",
+        "Restaurant",
+        "École"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day46_mc2",
+      "type": "multipleChoice",
+      "question": "Quel mot décrit quelque chose qui coûte beaucoup d'argent?",
+      "options": [
+        "Pas cher",
+        "Gratuit",
+        "Cher",
+        "Prix"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day46_mc3",
+      "type": "multipleChoice",
+      "question": "Comment s'appelle une petite pièce ronde d'argent métallique?",
+      "options": [
+        "Dollar",
+        "Pièce",
+        "Paiement",
+        "Monnaie"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day46_mc4",
+      "type": "multipleChoice",
+      "question": "Que recevez-vous lorsque vous payez plus que le coût?",
+      "options": [
+        "Prix",
+        "Paiement",
+        "Monnaie",
+        "Pièce"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day46_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'J'ai besoin d'____ pour acheter de la nourriture.'",
+      "correctAnswer": "argent",
+      "acceptableAlternatives": ["monnaie"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day46_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Cela coûte cinq ____.'",
+      "correctAnswer": "dollars",
+      "caseSensitive": false
+    },
+    {
+      "id": "day46_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'J'ai trouvé un hôtel ____ ____.'",
+      "correctAnswer": "pas cher",
+      "acceptableAlternatives": ["bon marché"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day46_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Bank",
+      "correctTranslation": "Banque",
+      "acceptableAlternatives": []
+    }
+  ]
+}

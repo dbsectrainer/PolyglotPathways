@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Chaise",
+      "translation": "Un meuble pour qu'une personne s'assoie",
+      "phonetic": "/ʃɛz/",
+      "example": "S'il vous plaît, asseyez-vous sur la chaise.",
+      "exampleTranslation": "Une invitation à prendre un siège"
+    },
+    {
+      "word": "Table",
+      "translation": "Un meuble avec une surface plate et des pieds",
+      "phonetic": "/tabl/",
+      "example": "Le livre est sur la table.",
+      "exampleTranslation": "Décrire l'emplacement d'un objet"
+    },
+    {
+      "word": "Lit",
+      "translation": "Un meuble pour dormir",
+      "phonetic": "/li/",
+      "example": "Je dors dans mon lit tous les soirs.",
+      "exampleTranslation": "Décrire votre routine de sommeil"
+    },
+    {
+      "word": "Porte",
+      "translation": "Une barrière articulée pour ouvrir ou fermer une entrée",
+      "phonetic": "/pɔʁt/",
+      "example": "Fermez la porte, s'il vous plaît.",
+      "exampleTranslation": "Une demande de fermer l'entrée"
+    },
+    {
+      "word": "Fenêtre",
+      "translation": "Une ouverture dans un mur avec du verre pour laisser entrer la lumière",
+      "phonetic": "/fənɛtʁ/",
+      "example": "Ouvrez la fenêtre pour l'air frais.",
+      "exampleTranslation": "Une demande de laisser entrer l'air"
+    },
+    {
+      "word": "Lampe",
+      "translation": "Un appareil qui produit de la lumière artificielle",
+      "phonetic": "/lɑ̃p/",
+      "example": "Allumez la lampe, il fait sombre.",
+      "exampleTranslation": "Une demande d'éclairage"
+    },
+    {
+      "word": "Canapé",
+      "translation": "Un siège long rembourré pour plusieurs personnes",
+      "phonetic": "/kanape/",
+      "example": "Nous nous sommes assis ensemble sur le canapé.",
+      "exampleTranslation": "Décrire où les gens se sont assis"
+    },
+    {
+      "word": "Bureau",
+      "translation": "Une table utilisée pour écrire ou travailler",
+      "phonetic": "/byʁo/",
+      "example": "Mon ordinateur est sur mon bureau.",
+      "exampleTranslation": "Décrire la configuration de l'espace de travail"
+    },
+    {
+      "word": "Armoire",
+      "translation": "Un meuble avec des étagères ou des tiroirs pour le rangement",
+      "phonetic": "/aʁmwaʁ/",
+      "example": "La vaisselle est dans l'armoire.",
+      "exampleTranslation": "Décrire où les objets sont rangés"
+    }
+  ]
+}

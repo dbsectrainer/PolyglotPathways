@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Chemise",
+      "translation": "Un vêtement pour le haut du corps avec des manches",
+      "phonetic": "/ʃəmiz/",
+      "example": "Il portait une chemise bleue au travail.",
+      "exampleTranslation": "Décrire la tenue de travail de quelqu'un"
+    },
+    {
+      "word": "Pantalon",
+      "translation": "Un vêtement qui couvre chaque jambe séparément",
+      "phonetic": "/pɑ̃talɔ̃/",
+      "example": "J'ai besoin d'acheter un nouveau pantalon.",
+      "exampleTranslation": "Exprimer un besoin d'achat"
+    },
+    {
+      "word": "Robe",
+      "translation": "Un vêtement d'une seule pièce pour femmes ou filles",
+      "phonetic": "/ʁɔb/",
+      "example": "Elle est magnifique dans cette robe.",
+      "exampleTranslation": "Faire un compliment sur la tenue de quelqu'un"
+    },
+    {
+      "word": "Veste",
+      "translation": "Un manteau court porté sur d'autres vêtements",
+      "phonetic": "/vɛst/",
+      "example": "N'oublie pas ta veste, il fait froid dehors.",
+      "exampleTranslation": "Conseil concernant la météo"
+    },
+    {
+      "word": "Chapeau",
+      "translation": "Un couvre-chef",
+      "phonetic": "/ʃapo/",
+      "example": "Il porte un chapeau pour se protéger du soleil.",
+      "exampleTranslation": "Décrire la protection solaire"
+    },
+    {
+      "word": "Chaussures",
+      "translation": "Des articles chaussants qui couvrent les pieds",
+      "phonetic": "/ʃosyʁ/",
+      "example": "Ces chaussures sont très confortables.",
+      "exampleTranslation": "Commenter la qualité des chaussures"
+    },
+    {
+      "word": "Chaussettes",
+      "translation": "Des vêtements portés sur les pieds sous les chaussures",
+      "phonetic": "/ʃosɛt/",
+      "example": "Je mets mes chaussettes avant mes chaussures.",
+      "exampleTranslation": "Décrire le processus d'habillage"
+    },
+    {
+      "word": "Manteau",
+      "translation": "Un vêtement extérieur long porté pour la chaleur",
+      "phonetic": "/mɑ̃to/",
+      "example": "C'est l'hiver, alors je porte un manteau chaud.",
+      "exampleTranslation": "Expliquer les vêtements saisonniers"
+    },
+    {
+      "word": "Cravate",
+      "translation": "Une bande de tissu portée autour du cou",
+      "phonetic": "/kʁavat/",
+      "example": "Il porte une cravate pour les occasions formelles.",
+      "exampleTranslation": "Décrire le code vestimentaire formel"
+    }
+  ]
+}

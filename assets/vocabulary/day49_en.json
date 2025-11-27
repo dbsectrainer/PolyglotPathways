@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Big",
+      "translation": "Large in size or extent",
+      "phonetic": "/bɪɡ/",
+      "example": "That's a big house!",
+      "exampleTranslation": "Expressing surprise at size"
+    },
+    {
+      "word": "Small",
+      "translation": "Little in size or amount",
+      "phonetic": "/smɔːl/",
+      "example": "The room is too small.",
+      "exampleTranslation": "Commenting on limited space"
+    },
+    {
+      "word": "Hot",
+      "translation": "Having a high temperature",
+      "phonetic": "/hɑːt/",
+      "example": "The coffee is very hot.",
+      "exampleTranslation": "Warning about temperature"
+    },
+    {
+      "word": "Cold",
+      "translation": "Having a low temperature",
+      "phonetic": "/koʊld/",
+      "example": "It's cold outside today.",
+      "exampleTranslation": "Describing the weather"
+    },
+    {
+      "word": "Fast",
+      "translation": "Moving or able to move quickly",
+      "phonetic": "/fæst/",
+      "example": "He runs very fast.",
+      "exampleTranslation": "Describing speed"
+    },
+    {
+      "word": "Slow",
+      "translation": "Moving or operating at a low speed",
+      "phonetic": "/sloʊ/",
+      "example": "This computer is slow.",
+      "exampleTranslation": "Complaining about performance"
+    },
+    {
+      "word": "Strong",
+      "translation": "Having physical power and force",
+      "phonetic": "/strɔːŋ/",
+      "example": "He is very strong.",
+      "exampleTranslation": "Describing physical ability"
+    },
+    {
+      "word": "Weak",
+      "translation": "Lacking physical strength",
+      "phonetic": "/wiːk/",
+      "example": "I feel weak after being sick.",
+      "exampleTranslation": "Describing physical condition"
+    },
+    {
+      "word": "Beautiful",
+      "translation": "Pleasing to the senses or mind",
+      "phonetic": "/ˈbjuːtɪfəl/",
+      "example": "The sunset is beautiful.",
+      "exampleTranslation": "Admiring natural beauty"
+    }
+  ]
+}

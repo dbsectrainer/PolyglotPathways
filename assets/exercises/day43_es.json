@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day43_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué equipo protector usas en la cabeza?",
+      "options": [
+        "Guante",
+        "Casco",
+        "Almohadilla",
+        "Zapatos"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day43_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué usas para golpear una pelota en tenis?",
+      "options": [
+        "Bate",
+        "Palo",
+        "Raqueta",
+        "Red"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day43_mc3",
+      "type": "multipleChoice",
+      "question": "¿Cómo se llama la barrera de malla en voleibol?",
+      "options": [
+        "Pelota",
+        "Red",
+        "Guante",
+        "Almohadilla"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day43_mc4",
+      "type": "multipleChoice",
+      "question": "¿Qué equipo se usa para atrapar una pelota de béisbol?",
+      "options": [
+        "Casco",
+        "Raqueta",
+        "Guante",
+        "Palo"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day43_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Él balanceó el ____ y golpeó la pelota.'",
+      "correctAnswer": "bate",
+      "caseSensitive": false
+    },
+    {
+      "id": "day43_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'La pelota pasó por encima de la ____.'",
+      "correctAnswer": "red",
+      "caseSensitive": false
+    },
+    {
+      "id": "day43_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Los jugadores de hockey usan ____ para las rodillas.'",
+      "correctAnswer": "almohadillas",
+      "acceptableAlternatives": ["almohadilla"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day43_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Ball",
+      "correctTranslation": "Pelota",
+      "acceptableAlternatives": ["Balón"]
+    }
+  ]
+}

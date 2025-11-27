@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day41_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué mueble usas para dormir?",
+      "options": [
+        "Silla",
+        "Mesa",
+        "Cama",
+        "Escritorio"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day41_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué abres para dejar entrar aire fresco a una habitación?",
+      "options": [
+        "Gabinete",
+        "Ventana",
+        "Lámpara",
+        "Sofá"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day41_mc3",
+      "type": "multipleChoice",
+      "question": "¿Dónde normalmente encontrarías una computadora para trabajar?",
+      "options": [
+        "En una cama",
+        "En un sofá",
+        "En un escritorio",
+        "En una silla"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day41_mc4",
+      "type": "multipleChoice",
+      "question": "¿Qué proporciona luz artificial en una habitación?",
+      "options": [
+        "Puerta",
+        "Ventana",
+        "Lámpara",
+        "Mesa"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day41_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Por favor, siéntate en la ____.'",
+      "correctAnswer": "silla",
+      "acceptableAlternatives": ["mesa", "sofá"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day41_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Cierra la ____, por favor.'",
+      "correctAnswer": "puerta",
+      "acceptableAlternatives": ["ventana"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day41_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Los platos están en el ____.'",
+      "correctAnswer": "gabinete",
+      "caseSensitive": false
+    },
+    {
+      "id": "day41_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Table",
+      "correctTranslation": "Mesa",
+      "acceptableAlternatives": ["Escritorio"]
+    }
+  ]
+}

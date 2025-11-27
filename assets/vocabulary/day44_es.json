@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Manzana",
+      "translation": "Una fruta redonda con piel roja, verde o amarilla",
+      "phonetic": "/manˈθana/",
+      "example": "Como una manzana todos los días.",
+      "exampleTranslation": "Describiendo un hábito saludable"
+    },
+    {
+      "word": "Plátano",
+      "translation": "Una fruta larga y curva con piel amarilla",
+      "phonetic": "/ˈplatano/",
+      "example": "Los plátanos son mi fruta favorita.",
+      "exampleTranslation": "Expresando una preferencia"
+    },
+    {
+      "word": "Naranja",
+      "translation": "Una fruta cítrica redonda con piel naranja",
+      "phonetic": "/naˈɾanxa/",
+      "example": "Esta naranja es muy jugosa.",
+      "exampleTranslation": "Comentando sobre la calidad de la fruta"
+    },
+    {
+      "word": "Uva",
+      "translation": "Una pequeña fruta redonda que crece en racimos",
+      "phonetic": "/ˈuβa/",
+      "example": "Me encantan las uvas verdes.",
+      "exampleTranslation": "Expresando una preferencia alimentaria"
+    },
+    {
+      "word": "Zanahoria",
+      "translation": "Una verdura de raíz naranja",
+      "phonetic": "/θanaˈoɾja/",
+      "example": "Las zanahorias son buenas para tus ojos.",
+      "exampleTranslation": "Compartiendo información nutricional"
+    },
+    {
+      "word": "Tomate",
+      "translation": "Una fruta roja a menudo usada como verdura",
+      "phonetic": "/toˈmate/",
+      "example": "Agrega tomates a la ensalada.",
+      "exampleTranslation": "Dando instrucciones de cocina"
+    },
+    {
+      "word": "Lechuga",
+      "translation": "Una verdura de hojas verdes usada en ensaladas",
+      "phonetic": "/leˈtʃuɣa/",
+      "example": "La lechuga está fresca y crujiente.",
+      "exampleTranslation": "Describiendo la calidad de la verdura"
+    },
+    {
+      "word": "Pepino",
+      "translation": "Una verdura larga y verde con carne acuosa",
+      "phonetic": "/peˈpino/",
+      "example": "Corta el pepino para el sándwich.",
+      "exampleTranslation": "Dando instrucciones de preparación de alimentos"
+    },
+    {
+      "word": "Papa",
+      "translation": "Una verdura de raíz con almidón y piel marrón",
+      "phonetic": "/ˈpapa/",
+      "example": "Me gustan las papas al horno.",
+      "exampleTranslation": "Expresando una preferencia alimentaria"
+    }
+  ]
+}

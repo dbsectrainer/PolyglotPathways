@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day48_mc1",
+      "type": "multipleChoice",
+      "question": "Que ação você faz quando descansa com os olhos fechados à noite?",
+      "options": [
+        "Correr",
+        "Andar",
+        "Dormir",
+        "Brincar"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day48_mc2",
+      "type": "multipleChoice",
+      "question": "O que você faz quando se move rapidamente a pé?",
+      "options": [
+        "Sentar",
+        "Andar",
+        "Ficar de pé",
+        "Correr"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "day48_mc3",
+      "type": "multipleChoice",
+      "question": "Que ação envolve colocar comida na sua boca?",
+      "options": [
+        "Beber",
+        "Comer",
+        "Dormir",
+        "Pular"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day48_mc4",
+      "type": "multipleChoice",
+      "question": "O que você faz quando está em posição vertical sobre seus pés?",
+      "options": [
+        "Sentar",
+        "Dormir",
+        "Ficar de pé",
+        "Andar"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day48_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Vamos ____ até o parque.'",
+      "correctAnswer": "andar",
+      "acceptableAlternatives": ["correr", "caminhar"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day48_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: '____ muita água diariamente.'",
+      "correctAnswer": "Beba",
+      "acceptableAlternatives": ["Tome"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day48_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'As crianças ____ no jardim.'",
+      "correctAnswer": "brincam",
+      "caseSensitive": false
+    },
+    {
+      "id": "day48_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Jump",
+      "correctTranslation": "Pular",
+      "acceptableAlternatives": ["Saltar"]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Happy",
+      "translation": "Feeling or showing pleasure or contentment",
+      "phonetic": "/ˈhæpi/",
+      "example": "I am very happy today!",
+      "exampleTranslation": "Expressing joy and positive emotion"
+    },
+    {
+      "word": "Sad",
+      "translation": "Feeling or showing sorrow or unhappiness",
+      "phonetic": "/sæd/",
+      "example": "She feels sad about the news.",
+      "exampleTranslation": "Describing emotional state"
+    },
+    {
+      "word": "Angry",
+      "translation": "Feeling or showing strong displeasure",
+      "phonetic": "/ˈæŋɡri/",
+      "example": "He was angry at the mistake.",
+      "exampleTranslation": "Describing a negative emotion"
+    },
+    {
+      "word": "Scared",
+      "translation": "Feeling fear or anxiety",
+      "phonetic": "/skɛrd/",
+      "example": "The child is scared of the dark.",
+      "exampleTranslation": "Describing a fearful state"
+    },
+    {
+      "word": "Excited",
+      "translation": "Feeling very enthusiastic and eager",
+      "phonetic": "/ɪkˈsaɪtɪd/",
+      "example": "I'm excited about the trip!",
+      "exampleTranslation": "Expressing anticipation and joy"
+    },
+    {
+      "word": "Tired",
+      "translation": "Feeling in need of rest or sleep",
+      "phonetic": "/ˈtaɪərd/",
+      "example": "I'm tired after working all day.",
+      "exampleTranslation": "Describing physical or mental exhaustion"
+    },
+    {
+      "word": "Calm",
+      "translation": "Feeling peaceful and not agitated",
+      "phonetic": "/kɑːm/",
+      "example": "Stay calm during the emergency.",
+      "exampleTranslation": "Advice to remain composed"
+    },
+    {
+      "word": "Surprised",
+      "translation": "Feeling astonishment or shock",
+      "phonetic": "/sərˈpraɪzd/",
+      "example": "I was surprised by the gift.",
+      "exampleTranslation": "Describing an unexpected reaction"
+    },
+    {
+      "word": "Lonely",
+      "translation": "Feeling sad from being alone",
+      "phonetic": "/ˈloʊnli/",
+      "example": "He feels lonely without his friends.",
+      "exampleTranslation": "Describing isolation and sadness"
+    }
+  ]
+}

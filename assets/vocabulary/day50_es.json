@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Hola",
+      "translation": "Un saludo usado al conocer a alguien",
+      "phonetic": "/ˈola/",
+      "example": "¡Hola! ¿Cómo estás?",
+      "exampleTranslation": "Un saludo amigable para iniciar una conversación"
+    },
+    {
+      "word": "Adiós",
+      "translation": "Una expresión de despedida usada al separarse",
+      "phonetic": "/aˈðjos/",
+      "example": "¡Adiós! Nos vemos mañana.",
+      "exampleTranslation": "Una forma educada de terminar un encuentro"
+    },
+    {
+      "word": "Gracias",
+      "translation": "Una expresión de gratitud",
+      "phonetic": "/ˈɡɾaθjas/",
+      "example": "¡Gracias por tu ayuda!",
+      "exampleTranslation": "Mostrando aprecio por la asistencia"
+    },
+    {
+      "word": "Por favor",
+      "translation": "Una palabra educada usada al hacer peticiones",
+      "phonetic": "/poɾ faˈβoɾ/",
+      "example": "¿Puedes ayudarme, por favor?",
+      "exampleTranslation": "Haciendo una petición educada"
+    },
+    {
+      "word": "Disculpe",
+      "translation": "Una frase educada para llamar la atención o disculparse",
+      "phonetic": "/disˈkulpe/",
+      "example": "Disculpe, ¿dónde está el baño?",
+      "exampleTranslation": "Preguntando educadamente por información"
+    },
+    {
+      "word": "¿Cómo estás?",
+      "translation": "Una pregunta sobre el bienestar de alguien",
+      "phonetic": "/ˈkomo esˈtas/",
+      "example": "¡Hola! ¿Cómo estás hoy?",
+      "exampleTranslation": "Mostrando interés en el estado de alguien"
+    },
+    {
+      "word": "Buenos días",
+      "translation": "Un saludo usado en la primera parte del día",
+      "phonetic": "/ˈbwenos ˈdias/",
+      "example": "¡Buenos días! ¿Dormiste bien?",
+      "exampleTranslation": "Un saludo matutino con pregunta"
+    },
+    {
+      "word": "Buenas noches",
+      "translation": "Una despedida o saludo usado por la noche",
+      "phonetic": "/ˈbwenas ˈnotʃes/",
+      "example": "¡Buenas noches, que duermas bien!",
+      "exampleTranslation": "Deseando un sueño reparador"
+    },
+    {
+      "word": "Lo siento",
+      "translation": "Una expresión de disculpa o arrepentimiento",
+      "phonetic": "/lo ˈsjento/",
+      "example": "Lo siento por llegar tarde.",
+      "exampleTranslation": "Disculpándose por un error"
+    }
+  ]
+}

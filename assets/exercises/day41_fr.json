@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day41_mc1",
+      "type": "multipleChoice",
+      "question": "Quel meuble utilisez-vous pour dormir?",
+      "options": [
+        "Chaise",
+        "Table",
+        "Lit",
+        "Bureau"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day41_mc2",
+      "type": "multipleChoice",
+      "question": "Qu'ouvrez-vous pour laisser entrer l'air frais dans une pièce?",
+      "options": [
+        "Armoire",
+        "Fenêtre",
+        "Lampe",
+        "Canapé"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day41_mc3",
+      "type": "multipleChoice",
+      "question": "Où trouveriez-vous généralement un ordinateur pour travailler?",
+      "options": [
+        "Sur un lit",
+        "Sur un canapé",
+        "Sur un bureau",
+        "Sur une chaise"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day41_mc4",
+      "type": "multipleChoice",
+      "question": "Qu'est-ce qui fournit de la lumière artificielle dans une pièce?",
+      "options": [
+        "Porte",
+        "Fenêtre",
+        "Lampe",
+        "Table"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day41_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'S'il vous plaît, asseyez-vous sur la ____.'",
+      "correctAnswer": "chaise",
+      "acceptableAlternatives": ["table", "canapé"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day41_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Fermez la ____, s'il vous plaît.'",
+      "correctAnswer": "porte",
+      "acceptableAlternatives": ["fenêtre"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day41_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'La vaisselle est dans l'____.'",
+      "correctAnswer": "armoire",
+      "caseSensitive": false
+    },
+    {
+      "id": "day41_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Table",
+      "correctTranslation": "Table",
+      "acceptableAlternatives": ["Bureau"]
+    }
+  ]
+}

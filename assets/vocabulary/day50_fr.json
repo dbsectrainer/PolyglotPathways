@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Bonjour",
+      "translation": "Une salutation utilisée lors de la rencontre de quelqu'un",
+      "phonetic": "/bɔ̃ʒuʁ/",
+      "example": "Bonjour! Comment allez-vous?",
+      "exampleTranslation": "Une salutation amicale pour commencer une conversation"
+    },
+    {
+      "word": "Au revoir",
+      "translation": "Une expression d'adieu utilisée lors de la séparation",
+      "phonetic": "/o ʁəvwaʁ/",
+      "example": "Au revoir! À demain.",
+      "exampleTranslation": "Une façon polie de terminer une rencontre"
+    },
+    {
+      "word": "Merci",
+      "translation": "Une expression de gratitude",
+      "phonetic": "/mɛʁsi/",
+      "example": "Merci pour votre aide!",
+      "exampleTranslation": "Montrer l'appréciation pour l'assistance"
+    },
+    {
+      "word": "S'il vous plaît",
+      "translation": "Un mot poli utilisé lors de demandes",
+      "phonetic": "/sil vu plɛ/",
+      "example": "Pouvez-vous m'aider, s'il vous plaît?",
+      "exampleTranslation": "Faire une demande polie"
+    },
+    {
+      "word": "Excusez-moi",
+      "translation": "Une phrase polie pour attirer l'attention ou s'excuser",
+      "phonetic": "/ɛkskyze mwa/",
+      "example": "Excusez-moi, où sont les toilettes?",
+      "exampleTranslation": "Demander poliment des informations"
+    },
+    {
+      "word": "Comment allez-vous",
+      "translation": "Une question sur le bien-être de quelqu'un",
+      "phonetic": "/kɔmɑ̃ tale vu/",
+      "example": "Bonjour! Comment allez-vous aujourd'hui?",
+      "exampleTranslation": "Montrer de l'intérêt pour l'état de quelqu'un"
+    },
+    {
+      "word": "Bonjour",
+      "translation": "Une salutation utilisée dans la première partie de la journée",
+      "phonetic": "/bɔ̃ʒuʁ/",
+      "example": "Bonjour! Avez-vous bien dormi?",
+      "exampleTranslation": "Une salutation matinale avec question"
+    },
+    {
+      "word": "Bonne nuit",
+      "translation": "Un adieu ou salutation utilisé le soir",
+      "phonetic": "/bɔn nɥi/",
+      "example": "Bonne nuit, dormez bien!",
+      "exampleTranslation": "Souhaiter un sommeil réparateur"
+    },
+    {
+      "word": "Je suis désolé",
+      "translation": "Une expression d'excuse ou de regret",
+      "phonetic": "/ʒə sɥi dezɔle/",
+      "example": "Je suis désolé d'être en retard.",
+      "exampleTranslation": "S'excuser pour une erreur"
+    }
+  ]
+}

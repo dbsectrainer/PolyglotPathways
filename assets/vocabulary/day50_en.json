@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Hello",
+      "translation": "A greeting used when meeting someone",
+      "phonetic": "/həˈloʊ/",
+      "example": "Hello! How are you?",
+      "exampleTranslation": "A friendly greeting to start a conversation"
+    },
+    {
+      "word": "Goodbye",
+      "translation": "A farewell expression used when parting",
+      "phonetic": "/ɡʊdˈbaɪ/",
+      "example": "Goodbye! See you tomorrow.",
+      "exampleTranslation": "A polite way to end a meeting"
+    },
+    {
+      "word": "Thank You",
+      "translation": "An expression of gratitude",
+      "phonetic": "/θæŋk juː/",
+      "example": "Thank you for your help!",
+      "exampleTranslation": "Showing appreciation for assistance"
+    },
+    {
+      "word": "Please",
+      "translation": "A polite word used when making requests",
+      "phonetic": "/pliːz/",
+      "example": "Can you help me, please?",
+      "exampleTranslation": "Making a polite request"
+    },
+    {
+      "word": "Excuse Me",
+      "translation": "A polite phrase to get attention or apologize",
+      "phonetic": "/ɪkˈskjuːz miː/",
+      "example": "Excuse me, where is the restroom?",
+      "exampleTranslation": "Politely asking for information"
+    },
+    {
+      "word": "How Are You",
+      "translation": "A question asking about someone's well-being",
+      "phonetic": "/haʊ ɑːr juː/",
+      "example": "Hello! How are you today?",
+      "exampleTranslation": "Showing interest in someone's state"
+    },
+    {
+      "word": "Good Morning",
+      "translation": "A greeting used in the early part of the day",
+      "phonetic": "/ɡʊd ˈmɔːrnɪŋ/",
+      "example": "Good morning! Did you sleep well?",
+      "exampleTranslation": "A morning greeting with inquiry"
+    },
+    {
+      "word": "Good Night",
+      "translation": "A farewell or greeting used in the evening",
+      "phonetic": "/ɡʊd naɪt/",
+      "example": "Good night, sleep well!",
+      "exampleTranslation": "Wishing someone restful sleep"
+    },
+    {
+      "word": "I'm Sorry",
+      "translation": "An expression of apology or regret",
+      "phonetic": "/aɪm ˈsɑːri/",
+      "example": "I'm sorry for being late.",
+      "exampleTranslation": "Apologizing for a mistake"
+    }
+  ]
+}

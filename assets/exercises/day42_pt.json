@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day42_mc1",
+      "type": "multipleChoice",
+      "question": "O que você usa nos pés?",
+      "options": [
+        "Chapéu",
+        "Sapatos",
+        "Gravata",
+        "Casaco"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day42_mc2",
+      "type": "multipleChoice",
+      "question": "O que é uma peça única tipicamente usada por mulheres?",
+      "options": [
+        "Camisa",
+        "Calças",
+        "Vestido",
+        "Jaqueta"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day42_mc3",
+      "type": "multipleChoice",
+      "question": "O que você usa ao redor do pescoço para ocasiões formais?",
+      "options": [
+        "Meias",
+        "Chapéu",
+        "Gravata",
+        "Sapatos"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day42_mc4",
+      "type": "multipleChoice",
+      "question": "Que peça externa longa te mantém aquecido no inverno?",
+      "options": [
+        "Camisa",
+        "Vestido",
+        "Casaco",
+        "Meias"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day42_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Não esqueça sua ____, está frio lá fora.'",
+      "correctAnswer": "jaqueta",
+      "acceptableAlternatives": ["casaco"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day42_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Eu coloco as ____ antes dos sapatos.'",
+      "correctAnswer": "meias",
+      "caseSensitive": false
+    },
+    {
+      "id": "day42_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Ele usa um ____ para se proteger do sol.'",
+      "correctAnswer": "chapéu",
+      "caseSensitive": false
+    },
+    {
+      "id": "day42_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Pants",
+      "correctTranslation": "Calças",
+      "acceptableAlternatives": ["Calça"]
+    }
+  ]
+}

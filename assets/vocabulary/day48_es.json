@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Correr",
+      "translation": "Moverse rápidamente a pie",
+      "phonetic": "/koˈreɾ/",
+      "example": "Corro todas las mañanas para hacer ejercicio.",
+      "exampleTranslation": "Describiendo actividad física"
+    },
+    {
+      "word": "Saltar",
+      "translation": "Impulsarse desde el suelo",
+      "phonetic": "/salˈtaɾ/",
+      "example": "Los niños saltan en la cama.",
+      "exampleTranslation": "Describiendo actividad lúdica"
+    },
+    {
+      "word": "Caminar",
+      "translation": "Moverse a un ritmo regular levantando los pies",
+      "phonetic": "/kamiˈnaɾ/",
+      "example": "Vamos a caminar al parque.",
+      "exampleTranslation": "Sugiriendo una actividad"
+    },
+    {
+      "word": "Sentarse",
+      "translation": "Estar en una posición con el peso sobre los glúteos",
+      "phonetic": "/senˈtaɾse/",
+      "example": "Por favor, siéntate y relájate.",
+      "exampleTranslation": "Invitando a alguien a descansar"
+    },
+    {
+      "word": "Pararse",
+      "translation": "Estar en posición vertical sobre los pies",
+      "phonetic": "/paˈɾaɾse/",
+      "example": "Párate cuando llamen tu nombre.",
+      "exampleTranslation": "Dando instrucciones"
+    },
+    {
+      "word": "Dormir",
+      "translation": "Descansar con los ojos cerrados y la mente inactiva",
+      "phonetic": "/doɾˈmiɾ/",
+      "example": "Duermo ocho horas todas las noches.",
+      "exampleTranslation": "Describiendo hábitos de descanso"
+    },
+    {
+      "word": "Comer",
+      "translation": "Poner comida en la boca y tragar",
+      "phonetic": "/koˈmeɾ/",
+      "example": "Comemos el desayuno a las 8 AM.",
+      "exampleTranslation": "Describiendo rutina de comidas"
+    },
+    {
+      "word": "Beber",
+      "translation": "Tomar líquido en la boca y tragar",
+      "phonetic": "/beˈβeɾ/",
+      "example": "Bebe mucha agua diariamente.",
+      "exampleTranslation": "Dando consejos de salud"
+    },
+    {
+      "word": "Jugar",
+      "translation": "Participar en una actividad para disfrutar",
+      "phonetic": "/xuˈɣaɾ/",
+      "example": "Los niños juegan en el jardín.",
+      "exampleTranslation": "Describiendo actividad recreativa"
+    }
+  ]
+}

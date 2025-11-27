@@ -1,0 +1,81 @@
+{
+  "exercises": [
+    {
+      "id": "day43_mc1",
+      "type": "multipleChoice",
+      "question": "Welche Schutzausrüstung tragen Sie auf dem Kopf?",
+      "options": [
+        "Handschuh",
+        "Helm",
+        "Polster",
+        "Schuhe"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day43_mc2",
+      "type": "multipleChoice",
+      "question": "Was verwenden Sie, um einen Ball im Tennis zu schlagen?",
+      "options": [
+        "Schlagholz",
+        "Stock",
+        "Schläger",
+        "Netz"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day43_mc3",
+      "type": "multipleChoice",
+      "question": "Wie heißt die Maschenbarriere beim Volleyball?",
+      "options": [
+        "Ball",
+        "Netz",
+        "Handschuh",
+        "Polster"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day43_mc4",
+      "type": "multipleChoice",
+      "question": "Welche Ausrüstung wird verwendet, um einen Baseball zu fangen?",
+      "options": [
+        "Helm",
+        "Schläger",
+        "Handschuh",
+        "Stock"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day43_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Er schwang das ____ und traf den Ball.'",
+      "correctAnswer": "Schlagholz",
+      "caseSensitive": false
+    },
+    {
+      "id": "day43_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Der Ball ging über das ____.'",
+      "correctAnswer": "Netz",
+      "caseSensitive": false
+    },
+    {
+      "id": "day43_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Hockeyspieler tragen Knie____.'",
+      "correctAnswer": "polster",
+      "caseSensitive": false
+    },
+    {
+      "id": "day43_trans1",
+      "type": "translation",
+      "question": "Übersetzen Sie ins Deutsche:",
+      "targetText": "Ball",
+      "correctTranslation": "Ball",
+      "acceptableAlternatives": ["Kugel"]
+    }
+  ]
+}

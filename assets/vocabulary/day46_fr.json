@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Argent",
+      "translation": "Monnaie utilisée pour acheter des biens et services",
+      "phonetic": "/aʁʒɑ̃/",
+      "example": "J'ai besoin d'argent pour acheter de la nourriture.",
+      "exampleTranslation": "Expliquer un besoin financier"
+    },
+    {
+      "word": "Dollar",
+      "translation": "Une unité de monnaie utilisée dans plusieurs pays",
+      "phonetic": "/dɔlaʁ/",
+      "example": "Cela coûte cinq dollars.",
+      "exampleTranslation": "Indiquer un prix"
+    },
+    {
+      "word": "Pièce",
+      "translation": "Une petite pièce ronde d'argent métallique",
+      "phonetic": "/pjɛs/",
+      "example": "J'ai des pièces dans ma poche.",
+      "exampleTranslation": "Décrire ce que vous transportez"
+    },
+    {
+      "word": "Banque",
+      "translation": "Une institution qui gère l'argent",
+      "phonetic": "/bɑ̃k/",
+      "example": "Je suis allé à la banque pour retirer de l'argent.",
+      "exampleTranslation": "Décrire une transaction financière"
+    },
+    {
+      "word": "Prix",
+      "translation": "Le montant d'argent que quelque chose coûte",
+      "phonetic": "/pʁi/",
+      "example": "Quel est le prix de cet article?",
+      "exampleTranslation": "Demander le coût"
+    },
+    {
+      "word": "Cher",
+      "translation": "Qui coûte beaucoup d'argent",
+      "phonetic": "/ʃɛʁ/",
+      "example": "Cette montre est très chère.",
+      "exampleTranslation": "Commenter un coût élevé"
+    },
+    {
+      "word": "Pas cher",
+      "translation": "Bas en prix ou coût",
+      "phonetic": "/pa ʃɛʁ/",
+      "example": "J'ai trouvé un hôtel pas cher.",
+      "exampleTranslation": "Décrire une option abordable"
+    },
+    {
+      "word": "Paiement",
+      "translation": "L'acte de payer ou l'argent payé",
+      "phonetic": "/pɛmɑ̃/",
+      "example": "Le paiement est dû demain.",
+      "exampleTranslation": "Discuter des obligations financières"
+    },
+    {
+      "word": "Monnaie",
+      "translation": "Argent rendu quand on paie plus que le coût",
+      "phonetic": "/mɔnɛ/",
+      "example": "Voici votre monnaie de dix dollars.",
+      "exampleTranslation": "Rendre l'argent en excès"
+    }
+  ]
+}

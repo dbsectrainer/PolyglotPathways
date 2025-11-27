@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Pelota",
+      "translation": "Un objeto redondo usado en muchos deportes",
+      "phonetic": "/peˈlota/",
+      "example": "¡Lánzame la pelota!",
+      "exampleTranslation": "Una petición durante un juego"
+    },
+    {
+      "word": "Raqueta",
+      "translation": "Equipo con cuerdas usado para golpear una pelota",
+      "phonetic": "/raˈketa/",
+      "example": "Necesito una nueva raqueta de tenis.",
+      "exampleTranslation": "Expresando necesidades de equipo deportivo"
+    },
+    {
+      "word": "Bate",
+      "translation": "Un palo usado para golpear una pelota en deportes",
+      "phonetic": "/ˈbate/",
+      "example": "Él balanceó el bate y golpeó la pelota.",
+      "exampleTranslation": "Describiendo una acción deportiva"
+    },
+    {
+      "word": "Guante",
+      "translation": "Cobertura protectora para las manos usada en deportes",
+      "phonetic": "/ˈɡwante/",
+      "example": "El jugador de béisbol atrapó la pelota con su guante.",
+      "exampleTranslation": "Describiendo el uso de equipo deportivo"
+    },
+    {
+      "word": "Red",
+      "translation": "Una barrera de malla usada en varios deportes",
+      "phonetic": "/red/",
+      "example": "La pelota pasó por encima de la red.",
+      "exampleTranslation": "Describiendo el juego"
+    },
+    {
+      "word": "Casco",
+      "translation": "Protección para la cabeza usada en deportes",
+      "phonetic": "/ˈkasko/",
+      "example": "Siempre usa un casco cuando montes en bicicleta.",
+      "exampleTranslation": "Consejo de seguridad"
+    },
+    {
+      "word": "Zapatos",
+      "translation": "Calzado especial diseñado para deportes",
+      "phonetic": "/θaˈpatos/",
+      "example": "Compré zapatos nuevos para correr.",
+      "exampleTranslation": "Describiendo una compra"
+    },
+    {
+      "word": "Almohadilla",
+      "translation": "Acolchado protector usado durante deportes",
+      "phonetic": "/almoaˈðiʎa/",
+      "example": "Los jugadores de hockey usan almohadillas para las rodillas.",
+      "exampleTranslation": "Describiendo equipo de protección"
+    },
+    {
+      "word": "Palo",
+      "translation": "Un equipo largo usado en deportes como hockey",
+      "phonetic": "/ˈpalo/",
+      "example": "Él controla el disco con su palo de hockey.",
+      "exampleTranslation": "Describiendo técnica deportiva"
+    }
+  ]
+}

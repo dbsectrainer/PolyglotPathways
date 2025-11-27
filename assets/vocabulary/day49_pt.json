@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Grande",
+      "translation": "De grande tamanho ou extensão",
+      "phonetic": "/ˈɡɾɐ̃dʒi/",
+      "example": "Essa é uma casa grande!",
+      "exampleTranslation": "Expressando surpresa com o tamanho"
+    },
+    {
+      "word": "Pequeno",
+      "translation": "De pouco tamanho ou quantidade",
+      "phonetic": "/peˈkenu/",
+      "example": "O quarto é muito pequeno.",
+      "exampleTranslation": "Comentando sobre espaço limitado"
+    },
+    {
+      "word": "Quente",
+      "translation": "Que tem alta temperatura",
+      "phonetic": "/ˈkẽt͡ʃi/",
+      "example": "O café está muito quente.",
+      "exampleTranslation": "Avisando sobre a temperatura"
+    },
+    {
+      "word": "Frio",
+      "translation": "Que tem baixa temperatura",
+      "phonetic": "/ˈfɾiu/",
+      "example": "Está frio lá fora hoje.",
+      "exampleTranslation": "Descrevendo o clima"
+    },
+    {
+      "word": "Rápido",
+      "translation": "Que se move ou pode se mover rapidamente",
+      "phonetic": "/ˈʁapidu/",
+      "example": "Ele corre muito rápido.",
+      "exampleTranslation": "Descrevendo velocidade"
+    },
+    {
+      "word": "Lento",
+      "translation": "Que se move ou opera em baixa velocidade",
+      "phonetic": "/ˈlẽtu/",
+      "example": "Este computador é lento.",
+      "exampleTranslation": "Reclamando do desempenho"
+    },
+    {
+      "word": "Forte",
+      "translation": "Que tem poder e força física",
+      "phonetic": "/ˈfɔɾt͡ʃi/",
+      "example": "Ele é muito forte.",
+      "exampleTranslation": "Descrevendo capacidade física"
+    },
+    {
+      "word": "Fraco",
+      "translation": "Que não tem força física",
+      "phonetic": "/ˈfɾaku/",
+      "example": "Me sinto fraco depois de ficar doente.",
+      "exampleTranslation": "Descrevendo condição física"
+    },
+    {
+      "word": "Bonito",
+      "translation": "Que agrada aos sentidos ou à mente",
+      "phonetic": "/boˈnitu/",
+      "example": "O pôr do sol é bonito.",
+      "exampleTranslation": "Admirando a beleza natural"
+    }
+  ]
+}

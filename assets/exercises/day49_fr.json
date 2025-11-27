@@ -1,0 +1,84 @@
+{
+  "exercises": [
+    {
+      "id": "day49_mc1",
+      "type": "multipleChoice",
+      "question": "Quel est le contraire de grand?",
+      "options": [
+        "Chaud",
+        "Petit",
+        "Rapide",
+        "Fort"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day49_mc2",
+      "type": "multipleChoice",
+      "question": "Qu'est-ce qui décrit quelque chose avec une température élevée?",
+      "options": [
+        "Froid",
+        "Faible",
+        "Chaud",
+        "Lent"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day49_mc3",
+      "type": "multipleChoice",
+      "question": "Qu'est-ce qui décrit quelqu'un avec du pouvoir physique?",
+      "options": [
+        "Faible",
+        "Petit",
+        "Fort",
+        "Lent"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day49_mc4",
+      "type": "multipleChoice",
+      "question": "Quel est le contraire de rapide?",
+      "options": [
+        "Grand",
+        "Chaud",
+        "Fort",
+        "Lent"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "day49_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Le coucher de soleil est ____.'",
+      "correctAnswer": "beau",
+      "acceptableAlternatives": ["magnifique", "joli"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day49_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Il fait ____ dehors aujourd'hui.'",
+      "correctAnswer": "froid",
+      "acceptableAlternatives": ["chaud"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day49_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Il court très ____.'",
+      "correctAnswer": "rapide",
+      "acceptableAlternatives": ["vite"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day49_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Big",
+      "correctTranslation": "Grand",
+      "acceptableAlternatives": ["Gros", "Énorme"]
+    }
+  ]
+}

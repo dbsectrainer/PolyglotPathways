@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Bola",
+      "translation": "Um objeto redondo usado em muitos esportes",
+      "phonetic": "/ˈbɔlɐ/",
+      "example": "Me jogue a bola!",
+      "exampleTranslation": "Um pedido durante um jogo"
+    },
+    {
+      "word": "Raquete",
+      "translation": "Equipamento com cordas usado para bater uma bola",
+      "phonetic": "/ʁaˈkɛt͡ʃi/",
+      "example": "Preciso de uma nova raquete de tênis.",
+      "exampleTranslation": "Expressando necessidades de equipamento esportivo"
+    },
+    {
+      "word": "Bastão",
+      "translation": "Um taco usado para bater uma bola em esportes",
+      "phonetic": "/bɐʃˈtɐ̃w̃/",
+      "example": "Ele balançou o bastão e acertou a bola.",
+      "exampleTranslation": "Descrevendo uma ação esportiva"
+    },
+    {
+      "word": "Luva",
+      "translation": "Cobertura protetora para as mãos usada em esportes",
+      "phonetic": "/ˈluvɐ/",
+      "example": "O jogador de beisebol pegou a bola com sua luva.",
+      "exampleTranslation": "Descrevendo o uso de equipamento esportivo"
+    },
+    {
+      "word": "Rede",
+      "translation": "Uma barreira de malha usada em vários esportes",
+      "phonetic": "/ˈʁedʒi/",
+      "example": "A bola passou por cima da rede.",
+      "exampleTranslation": "Descrevendo o jogo"
+    },
+    {
+      "word": "Capacete",
+      "translation": "Proteção para a cabeça usada em esportes",
+      "phonetic": "/kɐpɐˈsɛt͡ʃi/",
+      "example": "Sempre use um capacete ao andar de bicicleta.",
+      "exampleTranslation": "Conselho de segurança"
+    },
+    {
+      "word": "Sapatos",
+      "translation": "Calçados especiais projetados para esportes",
+      "phonetic": "/sɐˈpatuʃ/",
+      "example": "Comprei sapatos novos para correr.",
+      "exampleTranslation": "Descrevendo uma compra"
+    },
+    {
+      "word": "Almofada",
+      "translation": "Acolchoamento protetor usado durante esportes",
+      "phonetic": "/awˈmɔfɐdɐ/",
+      "example": "Jogadores de hóquei usam almofadas para os joelhos.",
+      "exampleTranslation": "Descrevendo equipamento de proteção"
+    },
+    {
+      "word": "Taco",
+      "translation": "Um equipamento longo usado em esportes como hóquei",
+      "phonetic": "/ˈtaku/",
+      "example": "Ele controla o disco com seu taco de hóquei.",
+      "exampleTranslation": "Descrevendo técnica esportiva"
+    }
+  ]
+}

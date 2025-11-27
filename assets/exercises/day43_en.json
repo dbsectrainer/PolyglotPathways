@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day43_mc1",
+      "type": "multipleChoice",
+      "question": "What protective gear do you wear on your head?",
+      "options": [
+        "Glove",
+        "Helmet",
+        "Pad",
+        "Shoes"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day43_mc2",
+      "type": "multipleChoice",
+      "question": "What do you use to hit a ball in tennis?",
+      "options": [
+        "Bat",
+        "Stick",
+        "Racket",
+        "Net"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day43_mc3",
+      "type": "multipleChoice",
+      "question": "What is the mesh barrier in volleyball called?",
+      "options": [
+        "Ball",
+        "Net",
+        "Glove",
+        "Pad"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day43_mc4",
+      "type": "multipleChoice",
+      "question": "What equipment is used to catch a baseball?",
+      "options": [
+        "Helmet",
+        "Racket",
+        "Glove",
+        "Stick"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day43_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'He swung the ____ and hit the ball.'",
+      "correctAnswer": "bat",
+      "caseSensitive": false
+    },
+    {
+      "id": "day43_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'The ball went over the ____.'",
+      "correctAnswer": "net",
+      "caseSensitive": false
+    },
+    {
+      "id": "day43_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Hockey players wear knee ____.'",
+      "correctAnswer": "pads",
+      "acceptableAlternatives": ["pad"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day43_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Ball",
+      "correctTranslation": "Ball",
+      "acceptableAlternatives": ["Sphere"]
+    }
+  ]
+}

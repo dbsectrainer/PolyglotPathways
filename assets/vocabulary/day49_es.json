@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Grande",
+      "translation": "De gran tamaño o extensión",
+      "phonetic": "/ˈɡɾande/",
+      "example": "¡Esa es una casa grande!",
+      "exampleTranslation": "Expresando sorpresa por el tamaño"
+    },
+    {
+      "word": "Pequeño",
+      "translation": "De poco tamaño o cantidad",
+      "phonetic": "/peˈkeɲo/",
+      "example": "La habitación es demasiado pequeña.",
+      "exampleTranslation": "Comentando sobre espacio limitado"
+    },
+    {
+      "word": "Caliente",
+      "translation": "Que tiene alta temperatura",
+      "phonetic": "/kaˈljente/",
+      "example": "El café está muy caliente.",
+      "exampleTranslation": "Advirtiendo sobre la temperatura"
+    },
+    {
+      "word": "Frío",
+      "translation": "Que tiene baja temperatura",
+      "phonetic": "/ˈfɾio/",
+      "example": "Hace frío afuera hoy.",
+      "exampleTranslation": "Describiendo el clima"
+    },
+    {
+      "word": "Rápido",
+      "translation": "Que se mueve o puede moverse rápidamente",
+      "phonetic": "/ˈrapido/",
+      "example": "Él corre muy rápido.",
+      "exampleTranslation": "Describiendo velocidad"
+    },
+    {
+      "word": "Lento",
+      "translation": "Que se mueve u opera a baja velocidad",
+      "phonetic": "/ˈlento/",
+      "example": "Esta computadora es lenta.",
+      "exampleTranslation": "Quejándose del rendimiento"
+    },
+    {
+      "word": "Fuerte",
+      "translation": "Que tiene poder y fuerza física",
+      "phonetic": "/ˈfweɾte/",
+      "example": "Él es muy fuerte.",
+      "exampleTranslation": "Describiendo capacidad física"
+    },
+    {
+      "word": "Débil",
+      "translation": "Que carece de fuerza física",
+      "phonetic": "/ˈdeβil/",
+      "example": "Me siento débil después de estar enfermo.",
+      "exampleTranslation": "Describiendo condición física"
+    },
+    {
+      "word": "Hermoso",
+      "translation": "Que agrada a los sentidos o a la mente",
+      "phonetic": "/eɾˈmoso/",
+      "example": "El atardecer es hermoso.",
+      "exampleTranslation": "Admirando la belleza natural"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day48_mc1",
+      "type": "multipleChoice",
+      "question": "What action do you do when you rest with your eyes closed at night?",
+      "options": [
+        "Run",
+        "Walk",
+        "Sleep",
+        "Play"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day48_mc2",
+      "type": "multipleChoice",
+      "question": "What do you do when you move quickly on foot?",
+      "options": [
+        "Sit",
+        "Walk",
+        "Stand",
+        "Run"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "day48_mc3",
+      "type": "multipleChoice",
+      "question": "What action involves putting food in your mouth?",
+      "options": [
+        "Drink",
+        "Eat",
+        "Sleep",
+        "Jump"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day48_mc4",
+      "type": "multipleChoice",
+      "question": "What do you do when you're in an upright position on your feet?",
+      "options": [
+        "Sit",
+        "Sleep",
+        "Stand",
+        "Walk"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day48_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Let's ____ to the park.'",
+      "correctAnswer": "walk",
+      "acceptableAlternatives": ["run"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day48_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: '____ plenty of water daily.'",
+      "correctAnswer": "Drink",
+      "caseSensitive": false
+    },
+    {
+      "id": "day48_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'The kids ____ in the garden.'",
+      "correctAnswer": "play",
+      "caseSensitive": false
+    },
+    {
+      "id": "day48_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Jump",
+      "correctTranslation": "Jump",
+      "acceptableAlternatives": ["Leap", "Hop"]
+    }
+  ]
+}

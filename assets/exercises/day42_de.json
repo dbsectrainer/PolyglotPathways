@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day42_mc1",
+      "type": "multipleChoice",
+      "question": "Was tragen Sie an den Füßen?",
+      "options": [
+        "Hut",
+        "Schuhe",
+        "Krawatte",
+        "Mantel"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day42_mc2",
+      "type": "multipleChoice",
+      "question": "Was ist ein einteiliges Kleidungsstück, das typischerweise von Frauen getragen wird?",
+      "options": [
+        "Hemd",
+        "Hose",
+        "Kleid",
+        "Jacke"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day42_mc3",
+      "type": "multipleChoice",
+      "question": "Was tragen Sie um den Hals für formelle Anlässe?",
+      "options": [
+        "Socken",
+        "Hut",
+        "Krawatte",
+        "Schuhe"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day42_mc4",
+      "type": "multipleChoice",
+      "question": "Welches lange äußere Kleidungsstück hält Sie im Winter warm?",
+      "options": [
+        "Hemd",
+        "Kleid",
+        "Mantel",
+        "Socken"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day42_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Vergiss deine ____ nicht, es ist kalt draußen.'",
+      "correctAnswer": "Jacke",
+      "acceptableAlternatives": ["Mantel"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day42_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Ich ziehe meine ____ vor meinen Schuhen an.'",
+      "correctAnswer": "Socken",
+      "caseSensitive": false
+    },
+    {
+      "id": "day42_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Er trägt einen ____ zum Schutz vor der Sonne.'",
+      "correctAnswer": "Hut",
+      "caseSensitive": false
+    },
+    {
+      "id": "day42_trans1",
+      "type": "translation",
+      "question": "Übersetzen Sie ins Deutsche:",
+      "targetText": "Pants",
+      "correctTranslation": "Hose",
+      "acceptableAlternatives": ["Hosen"]
+    }
+  ]
+}

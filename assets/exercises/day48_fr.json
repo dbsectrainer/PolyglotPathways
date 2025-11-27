@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day48_mc1",
+      "type": "multipleChoice",
+      "question": "Quelle action faites-vous lorsque vous vous reposez les yeux fermés la nuit?",
+      "options": [
+        "Courir",
+        "Marcher",
+        "Dormir",
+        "Jouer"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day48_mc2",
+      "type": "multipleChoice",
+      "question": "Que faites-vous lorsque vous vous déplacez rapidement à pied?",
+      "options": [
+        "S'asseoir",
+        "Marcher",
+        "Se tenir debout",
+        "Courir"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "day48_mc3",
+      "type": "multipleChoice",
+      "question": "Quelle action consiste à mettre de la nourriture dans votre bouche?",
+      "options": [
+        "Boire",
+        "Manger",
+        "Dormir",
+        "Sauter"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day48_mc4",
+      "type": "multipleChoice",
+      "question": "Que faites-vous lorsque vous êtes en position verticale sur vos pieds?",
+      "options": [
+        "S'asseoir",
+        "Dormir",
+        "Se tenir debout",
+        "Marcher"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day48_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Allons ____ jusqu'au parc.'",
+      "correctAnswer": "marcher",
+      "acceptableAlternatives": ["courir"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day48_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: '____ beaucoup d'eau quotidiennement.'",
+      "correctAnswer": "Buvez",
+      "caseSensitive": false
+    },
+    {
+      "id": "day48_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Les enfants ____ dans le jardin.'",
+      "correctAnswer": "jouent",
+      "caseSensitive": false
+    },
+    {
+      "id": "day48_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Jump",
+      "correctTranslation": "Sauter",
+      "acceptableAlternatives": ["Bondir"]
+    }
+  ]
+}

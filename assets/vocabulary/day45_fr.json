@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Heureux",
+      "translation": "Ressentir ou montrer du plaisir ou du contentement",
+      "phonetic": "/øʁø/",
+      "example": "Je suis très heureux aujourd'hui!",
+      "exampleTranslation": "Exprimer la joie et l'émotion positive"
+    },
+    {
+      "word": "Triste",
+      "translation": "Ressentir ou montrer du chagrin ou du malheur",
+      "phonetic": "/tʁist/",
+      "example": "Elle se sent triste à propos de la nouvelle.",
+      "exampleTranslation": "Décrire l'état émotionnel"
+    },
+    {
+      "word": "En colère",
+      "translation": "Ressentir ou montrer un fort mécontentement",
+      "phonetic": "/ɑ̃ kɔlɛʁ/",
+      "example": "Il était en colère à cause de l'erreur.",
+      "exampleTranslation": "Décrire une émotion négative"
+    },
+    {
+      "word": "Effrayé",
+      "translation": "Ressentir la peur ou l'anxiété",
+      "phonetic": "/efʁɛje/",
+      "example": "L'enfant est effrayé par l'obscurité.",
+      "exampleTranslation": "Décrire un état de peur"
+    },
+    {
+      "word": "Excité",
+      "translation": "Se sentir très enthousiaste et impatient",
+      "phonetic": "/ɛksite/",
+      "example": "Je suis excité pour le voyage!",
+      "exampleTranslation": "Exprimer l'anticipation et la joie"
+    },
+    {
+      "word": "Fatigué",
+      "translation": "Ressentir le besoin de repos ou de sommeil",
+      "phonetic": "/fatiɡe/",
+      "example": "Je suis fatigué après avoir travaillé toute la journée.",
+      "exampleTranslation": "Décrire l'épuisement physique ou mental"
+    },
+    {
+      "word": "Calme",
+      "translation": "Se sentir paisible et non agité",
+      "phonetic": "/kalm/",
+      "example": "Restez calme pendant l'urgence.",
+      "exampleTranslation": "Conseil pour rester composé"
+    },
+    {
+      "word": "Surpris",
+      "translation": "Ressentir de l'étonnement ou du choc",
+      "phonetic": "/syʁpʁi/",
+      "example": "J'ai été surpris par le cadeau.",
+      "exampleTranslation": "Décrire une réaction inattendue"
+    },
+    {
+      "word": "Seul",
+      "translation": "Se sentir triste d'être seul",
+      "phonetic": "/sœl/",
+      "example": "Il se sent seul sans ses amis.",
+      "exampleTranslation": "Décrire l'isolement et la tristesse"
+    }
+  ]
+}

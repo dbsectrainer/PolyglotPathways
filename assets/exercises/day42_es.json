@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day42_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué usas en los pies?",
+      "options": [
+        "Sombrero",
+        "Zapatos",
+        "Corbata",
+        "Abrigo"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day42_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué es una prenda de una pieza típicamente usada por mujeres?",
+      "options": [
+        "Camisa",
+        "Pantalones",
+        "Vestido",
+        "Chaqueta"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day42_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué usas alrededor del cuello para ocasiones formales?",
+      "options": [
+        "Calcetines",
+        "Sombrero",
+        "Corbata",
+        "Zapatos"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day42_mc4",
+      "type": "multipleChoice",
+      "question": "¿Qué prenda exterior larga te mantiene caliente en invierno?",
+      "options": [
+        "Camisa",
+        "Vestido",
+        "Abrigo",
+        "Calcetines"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day42_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'No olvides tu ____, hace frío afuera.'",
+      "correctAnswer": "chaqueta",
+      "acceptableAlternatives": ["abrigo"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day42_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Me pongo los ____ antes que los zapatos.'",
+      "correctAnswer": "calcetines",
+      "caseSensitive": false
+    },
+    {
+      "id": "day42_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Él usa un ____ para protegerse del sol.'",
+      "correctAnswer": "sombrero",
+      "caseSensitive": false
+    },
+    {
+      "id": "day42_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Pants",
+      "correctTranslation": "Pantalones",
+      "acceptableAlternatives": ["Pantalón"]
+    }
+  ]
+}

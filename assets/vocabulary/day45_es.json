@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Feliz",
+      "translation": "Sentir o mostrar placer o satisfacción",
+      "phonetic": "/feˈlis/",
+      "example": "¡Estoy muy feliz hoy!",
+      "exampleTranslation": "Expresando alegría y emoción positiva"
+    },
+    {
+      "word": "Triste",
+      "translation": "Sentir o mostrar dolor o infelicidad",
+      "phonetic": "/ˈtɾiste/",
+      "example": "Ella se siente triste por la noticia.",
+      "exampleTranslation": "Describiendo estado emocional"
+    },
+    {
+      "word": "Enojado",
+      "translation": "Sentir o mostrar fuerte disgusto",
+      "phonetic": "/enoˈxaðo/",
+      "example": "Él estaba enojado por el error.",
+      "exampleTranslation": "Describiendo una emoción negativa"
+    },
+    {
+      "word": "Asustado",
+      "translation": "Sentir miedo o ansiedad",
+      "phonetic": "/asusˈtaðo/",
+      "example": "El niño está asustado de la oscuridad.",
+      "exampleTranslation": "Describiendo un estado de temor"
+    },
+    {
+      "word": "Emocionado",
+      "translation": "Sentirse muy entusiasmado y ansioso",
+      "phonetic": "/emoθjoˈnaðo/",
+      "example": "¡Estoy emocionado por el viaje!",
+      "exampleTranslation": "Expresando anticipación y alegría"
+    },
+    {
+      "word": "Cansado",
+      "translation": "Sentir necesidad de descanso o sueño",
+      "phonetic": "/kanˈsaðo/",
+      "example": "Estoy cansado después de trabajar todo el día.",
+      "exampleTranslation": "Describiendo agotamiento físico o mental"
+    },
+    {
+      "word": "Tranquilo",
+      "translation": "Sentirse pacífico y no agitado",
+      "phonetic": "/tɾaŋˈkilo/",
+      "example": "Mantente tranquilo durante la emergencia.",
+      "exampleTranslation": "Consejo para permanecer sereno"
+    },
+    {
+      "word": "Sorprendido",
+      "translation": "Sentir asombro o impresión",
+      "phonetic": "/soɾpɾenˈdiðo/",
+      "example": "Estuve sorprendido por el regalo.",
+      "exampleTranslation": "Describiendo una reacción inesperada"
+    },
+    {
+      "word": "Solitario",
+      "translation": "Sentirse triste por estar solo",
+      "phonetic": "/soliˈtaɾjo/",
+      "example": "Él se siente solitario sin sus amigos.",
+      "exampleTranslation": "Describiendo aislamiento y tristeza"
+    }
+  ]
+}

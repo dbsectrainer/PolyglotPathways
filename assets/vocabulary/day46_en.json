@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Money",
+      "translation": "Currency used to buy goods and services",
+      "phonetic": "/ˈmʌni/",
+      "example": "I need money to buy food.",
+      "exampleTranslation": "Explaining a financial need"
+    },
+    {
+      "word": "Dollar",
+      "translation": "A unit of currency used in several countries",
+      "phonetic": "/ˈdɑːlər/",
+      "example": "This costs five dollars.",
+      "exampleTranslation": "Stating a price"
+    },
+    {
+      "word": "Coin",
+      "translation": "A small round piece of metal money",
+      "phonetic": "/kɔɪn/",
+      "example": "I have coins in my pocket.",
+      "exampleTranslation": "Describing what you're carrying"
+    },
+    {
+      "word": "Bank",
+      "translation": "An institution that handles money",
+      "phonetic": "/bæŋk/",
+      "example": "I went to the bank to withdraw money.",
+      "exampleTranslation": "Describing a financial transaction"
+    },
+    {
+      "word": "Price",
+      "translation": "The amount of money something costs",
+      "phonetic": "/praɪs/",
+      "example": "What's the price of this item?",
+      "exampleTranslation": "Asking about cost"
+    },
+    {
+      "word": "Expensive",
+      "translation": "Costing a lot of money",
+      "phonetic": "/ɪkˈspɛnsɪv/",
+      "example": "This watch is very expensive.",
+      "exampleTranslation": "Commenting on high cost"
+    },
+    {
+      "word": "Cheap",
+      "translation": "Low in price or cost",
+      "phonetic": "/tʃiːp/",
+      "example": "I found a cheap hotel.",
+      "exampleTranslation": "Describing an affordable option"
+    },
+    {
+      "word": "Payment",
+      "translation": "The act of paying or money paid",
+      "phonetic": "/ˈpeɪmənt/",
+      "example": "The payment is due tomorrow.",
+      "exampleTranslation": "Discussing financial obligations"
+    },
+    {
+      "word": "Change",
+      "translation": "Money returned when paying more than the cost",
+      "phonetic": "/tʃeɪndʒ/",
+      "example": "Here's your change from ten dollars.",
+      "exampleTranslation": "Returning excess money"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Uhr",
+      "translation": "Ein Gerät, das die Zeit anzeigt",
+      "phonetic": "/uːɐ̯/",
+      "example": "Schau auf die Uhr an der Wand.",
+      "exampleTranslation": "Jemanden auffordern, die Zeit zu überprüfen"
+    },
+    {
+      "word": "Stunde",
+      "translation": "Ein Zeitraum von sechzig Minuten",
+      "phonetic": "/ˈʃtʊndə/",
+      "example": "Das Meeting dauert eine Stunde.",
+      "exampleTranslation": "Beschreibung der Dauer"
+    },
+    {
+      "word": "Minute",
+      "translation": "Ein Zeitraum von sechzig Sekunden",
+      "phonetic": "/miˈnuːtə/",
+      "example": "Warte bitte nur eine Minute.",
+      "exampleTranslation": "Jemanden bitten, kurz zu warten"
+    },
+    {
+      "word": "Sekunde",
+      "translation": "Eine sehr kurze Zeiteinheit",
+      "phonetic": "/zeˈkʊndə/",
+      "example": "Das dauert nur eine Sekunde.",
+      "exampleTranslation": "Anzeigen einer kurzen Handlung"
+    },
+    {
+      "word": "Morgen",
+      "translation": "Der frühe Teil des Tages",
+      "phonetic": "/ˈmɔʁɡən/",
+      "example": "Ich trinke jeden Morgen Kaffee.",
+      "exampleTranslation": "Beschreibung einer täglichen Routine"
+    },
+    {
+      "word": "Abend",
+      "translation": "Der spätere Teil des Tages",
+      "phonetic": "/ˈaːbənt/",
+      "example": "Wir essen am Abend zu Abend.",
+      "exampleTranslation": "Beschreibung der Essenszeit"
+    },
+    {
+      "word": "Nacht",
+      "translation": "Die Zeit, wenn es dunkel ist",
+      "phonetic": "/naxt/",
+      "example": "Die Sterne leuchten in der Nacht.",
+      "exampleTranslation": "Beschreibung der Nachtzeit"
+    },
+    {
+      "word": "Tag",
+      "translation": "Ein Zeitraum von vierundzwanzig Stunden",
+      "phonetic": "/taːk/",
+      "example": "Ich arbeite fünf Tage pro Woche.",
+      "exampleTranslation": "Beschreibung des Arbeitsplans"
+    },
+    {
+      "word": "Woche",
+      "translation": "Ein Zeitraum von sieben Tagen",
+      "phonetic": "/ˈvɔxə/",
+      "example": "Ich sehe dich nächste Woche.",
+      "exampleTranslation": "Zukünftige Pläne machen"
+    }
+  ]
+}

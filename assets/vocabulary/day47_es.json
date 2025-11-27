@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Reloj",
+      "translation": "Un dispositivo que muestra la hora",
+      "phonetic": "/reˈlox/",
+      "example": "Mira el reloj en la pared.",
+      "exampleTranslation": "Indicando a alguien que verifique la hora"
+    },
+    {
+      "word": "Hora",
+      "translation": "Un período de sesenta minutos",
+      "phonetic": "/ˈoɾa/",
+      "example": "La reunión dura una hora.",
+      "exampleTranslation": "Describiendo duración"
+    },
+    {
+      "word": "Minuto",
+      "translation": "Un período de sesenta segundos",
+      "phonetic": "/miˈnuto/",
+      "example": "Espera solo un minuto, por favor.",
+      "exampleTranslation": "Pidiendo a alguien que espere brevemente"
+    },
+    {
+      "word": "Segundo",
+      "translation": "Una unidad de tiempo muy corta",
+      "phonetic": "/seˈɣundo/",
+      "example": "Esto solo tomará un segundo.",
+      "exampleTranslation": "Indicando una acción breve"
+    },
+    {
+      "word": "Mañana",
+      "translation": "La primera parte del día",
+      "phonetic": "/maˈɲana/",
+      "example": "Tomo café todas las mañanas.",
+      "exampleTranslation": "Describiendo una rutina diaria"
+    },
+    {
+      "word": "Tarde",
+      "translation": "La parte posterior del día",
+      "phonetic": "/ˈtaɾðe/",
+      "example": "Cenamos en la tarde.",
+      "exampleTranslation": "Describiendo hora de comida"
+    },
+    {
+      "word": "Noche",
+      "translation": "El tiempo cuando está oscuro",
+      "phonetic": "/ˈnotʃe/",
+      "example": "Las estrellas brillan en la noche.",
+      "exampleTranslation": "Describiendo el tiempo nocturno"
+    },
+    {
+      "word": "Día",
+      "translation": "Un período de veinticuatro horas",
+      "phonetic": "/ˈdia/",
+      "example": "Trabajo cinco días a la semana.",
+      "exampleTranslation": "Describiendo horario de trabajo"
+    },
+    {
+      "word": "Semana",
+      "translation": "Un período de siete días",
+      "phonetic": "/seˈmana/",
+      "example": "Te veré la próxima semana.",
+      "exampleTranslation": "Haciendo planes futuros"
+    }
+  ]
+}

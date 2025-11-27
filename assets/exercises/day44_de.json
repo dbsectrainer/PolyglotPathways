@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day44_mc1",
+      "type": "multipleChoice",
+      "question": "Welche Frucht ist lang, gebogen und gelb?",
+      "options": [
+        "Apfel",
+        "Orange",
+        "Banane",
+        "Weintraube"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day44_mc2",
+      "type": "multipleChoice",
+      "question": "Welches Gemüse ist orange und gut für Ihre Augen?",
+      "options": [
+        "Salat",
+        "Karotte",
+        "Gurke",
+        "Kartoffel"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day44_mc3",
+      "type": "multipleChoice",
+      "question": "Welches ist ein grünes Blattgemüse, das in Salaten verwendet wird?",
+      "options": [
+        "Tomate",
+        "Kartoffel",
+        "Salat",
+        "Orange"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day44_mc4",
+      "type": "multipleChoice",
+      "question": "Welche Frucht wächst in Trauben und kann grün oder violett sein?",
+      "options": [
+        "Apfel",
+        "Weintraube",
+        "Banane",
+        "Orange"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day44_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Ich esse jeden Tag einen ____.'",
+      "correctAnswer": "Apfel",
+      "caseSensitive": false
+    },
+    {
+      "id": "day44_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Fügen Sie ____ zum Salat hinzu.'",
+      "correctAnswer": "Tomaten",
+      "acceptableAlternatives": ["Tomate"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day44_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Schneiden Sie die ____ für das Sandwich.'",
+      "correctAnswer": "Gurke",
+      "caseSensitive": false
+    },
+    {
+      "id": "day44_trans1",
+      "type": "translation",
+      "question": "Übersetzen Sie ins Deutsche:",
+      "targetText": "Potato",
+      "correctTranslation": "Kartoffel",
+      "acceptableAlternatives": ["Kartoffeln"]
+    }
+  ]
+}

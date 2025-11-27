@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day44_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué fruta es larga, curva y amarilla?",
+      "options": [
+        "Manzana",
+        "Naranja",
+        "Plátano",
+        "Uva"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day44_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué verdura es naranja y buena para tus ojos?",
+      "options": [
+        "Lechuga",
+        "Zanahoria",
+        "Pepino",
+        "Papa"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day44_mc3",
+      "type": "multipleChoice",
+      "question": "¿Cuál es una verdura de hojas verdes usada en ensaladas?",
+      "options": [
+        "Tomate",
+        "Papa",
+        "Lechuga",
+        "Naranja"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day44_mc4",
+      "type": "multipleChoice",
+      "question": "¿Qué fruta crece en racimos y puede ser verde o morada?",
+      "options": [
+        "Manzana",
+        "Uva",
+        "Plátano",
+        "Naranja"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day44_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Como una ____ todos los días.'",
+      "correctAnswer": "manzana",
+      "caseSensitive": false
+    },
+    {
+      "id": "day44_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Agrega ____ a la ensalada.'",
+      "correctAnswer": "tomates",
+      "acceptableAlternatives": ["tomate"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day44_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Corta el ____ para el sándwich.'",
+      "correctAnswer": "pepino",
+      "caseSensitive": false
+    },
+    {
+      "id": "day44_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Potato",
+      "correctTranslation": "Papa",
+      "acceptableAlternatives": ["Patata"]
+    }
+  ]
+}

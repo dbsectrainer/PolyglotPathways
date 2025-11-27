@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day47_mc1",
+      "type": "multipleChoice",
+      "question": "What device shows the time?",
+      "options": [
+        "Phone",
+        "Clock",
+        "Computer",
+        "Watch"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day47_mc2",
+      "type": "multipleChoice",
+      "question": "How many minutes are in one hour?",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "90"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day47_mc3",
+      "type": "multipleChoice",
+      "question": "What is the early part of the day called?",
+      "options": [
+        "Evening",
+        "Night",
+        "Morning",
+        "Afternoon"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day47_mc4",
+      "type": "multipleChoice",
+      "question": "How many days are in a week?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day47_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'The meeting lasts one ____.'",
+      "correctAnswer": "hour",
+      "caseSensitive": false
+    },
+    {
+      "id": "day47_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Wait just a ____, please.'",
+      "correctAnswer": "minute",
+      "acceptableAlternatives": ["second", "moment"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day47_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'The stars shine at ____.'",
+      "correctAnswer": "night",
+      "caseSensitive": false
+    },
+    {
+      "id": "day47_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Day",
+      "correctTranslation": "Day",
+      "acceptableAlternatives": ["Daytime"]
+    }
+  ]
+}

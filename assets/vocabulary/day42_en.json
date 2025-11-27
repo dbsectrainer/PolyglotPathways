@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Shirt",
+      "translation": "A garment for the upper body with sleeves",
+      "phonetic": "/ʃɜːrt/",
+      "example": "He wore a blue shirt to work.",
+      "exampleTranslation": "Describing someone's work attire"
+    },
+    {
+      "word": "Pants",
+      "translation": "A garment covering each leg separately",
+      "phonetic": "/pænts/",
+      "example": "I need to buy new pants.",
+      "exampleTranslation": "Expressing a shopping need"
+    },
+    {
+      "word": "Dress",
+      "translation": "A one-piece garment for women or girls",
+      "phonetic": "/drɛs/",
+      "example": "She looks beautiful in that dress.",
+      "exampleTranslation": "Complimenting someone's outfit"
+    },
+    {
+      "word": "Jacket",
+      "translation": "A short coat worn over other clothes",
+      "phonetic": "/ˈdʒækɪt/",
+      "example": "Don't forget your jacket, it's cold outside.",
+      "exampleTranslation": "Advice about the weather"
+    },
+    {
+      "word": "Hat",
+      "translation": "A covering for the head",
+      "phonetic": "/hæt/",
+      "example": "He wears a hat to protect from the sun.",
+      "exampleTranslation": "Describing sun protection"
+    },
+    {
+      "word": "Shoes",
+      "translation": "Footwear covering the feet",
+      "phonetic": "/ʃuːz/",
+      "example": "These shoes are very comfortable.",
+      "exampleTranslation": "Commenting on footwear quality"
+    },
+    {
+      "word": "Socks",
+      "translation": "Garments worn on the feet under shoes",
+      "phonetic": "/sɑːks/",
+      "example": "I put on my socks before my shoes.",
+      "exampleTranslation": "Describing getting dressed"
+    },
+    {
+      "word": "Coat",
+      "translation": "A long outer garment worn for warmth",
+      "phonetic": "/koʊt/",
+      "example": "It's winter, so I wear a warm coat.",
+      "exampleTranslation": "Explaining seasonal clothing"
+    },
+    {
+      "word": "Tie",
+      "translation": "A strip of cloth worn around the neck",
+      "phonetic": "/taɪ/",
+      "example": "He wears a tie for formal occasions.",
+      "exampleTranslation": "Describing formal dress code"
+    }
+  ]
+}

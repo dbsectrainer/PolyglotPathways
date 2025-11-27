@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day44_mc1",
+      "type": "multipleChoice",
+      "question": "Which fruit is long, curved, and yellow?",
+      "options": [
+        "Apple",
+        "Orange",
+        "Banana",
+        "Grape"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day44_mc2",
+      "type": "multipleChoice",
+      "question": "Which vegetable is orange and good for your eyes?",
+      "options": [
+        "Lettuce",
+        "Carrot",
+        "Cucumber",
+        "Potato"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day44_mc3",
+      "type": "multipleChoice",
+      "question": "Which is a leafy green vegetable used in salads?",
+      "options": [
+        "Tomato",
+        "Potato",
+        "Lettuce",
+        "Orange"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day44_mc4",
+      "type": "multipleChoice",
+      "question": "Which fruit grows in clusters and can be green or purple?",
+      "options": [
+        "Apple",
+        "Grape",
+        "Banana",
+        "Orange"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day44_fib1",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'I eat an ____ every day.'",
+      "correctAnswer": "apple",
+      "caseSensitive": false
+    },
+    {
+      "id": "day44_fib2",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Add ____ to the salad.'",
+      "correctAnswer": "tomatoes",
+      "acceptableAlternatives": ["tomato"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day44_fib3",
+      "type": "fillInBlank",
+      "question": "Fill in the blank: 'Slice the ____ for the sandwich.'",
+      "correctAnswer": "cucumber",
+      "caseSensitive": false
+    },
+    {
+      "id": "day44_trans1",
+      "type": "translation",
+      "question": "Translate to English:",
+      "targetText": "Potato",
+      "correctTranslation": "Potato",
+      "acceptableAlternatives": ["Potatoes"]
+    }
+  ]
+}

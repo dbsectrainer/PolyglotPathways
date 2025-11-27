@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Dinero",
+      "translation": "Moneda usada para comprar bienes y servicios",
+      "phonetic": "/diˈneɾo/",
+      "example": "Necesito dinero para comprar comida.",
+      "exampleTranslation": "Explicando una necesidad financiera"
+    },
+    {
+      "word": "Dólar",
+      "translation": "Una unidad de moneda usada en varios países",
+      "phonetic": "/ˈdolaɾ/",
+      "example": "Esto cuesta cinco dólares.",
+      "exampleTranslation": "Indicando un precio"
+    },
+    {
+      "word": "Moneda",
+      "translation": "Una pequeña pieza redonda de dinero metálico",
+      "phonetic": "/moˈneða/",
+      "example": "Tengo monedas en mi bolsillo.",
+      "exampleTranslation": "Describiendo lo que llevas"
+    },
+    {
+      "word": "Banco",
+      "translation": "Una institución que maneja dinero",
+      "phonetic": "/ˈbaŋko/",
+      "example": "Fui al banco para retirar dinero.",
+      "exampleTranslation": "Describiendo una transacción financiera"
+    },
+    {
+      "word": "Precio",
+      "translation": "La cantidad de dinero que cuesta algo",
+      "phonetic": "/ˈpɾeθjo/",
+      "example": "¿Cuál es el precio de este artículo?",
+      "exampleTranslation": "Preguntando sobre el costo"
+    },
+    {
+      "word": "Caro",
+      "translation": "Que cuesta mucho dinero",
+      "phonetic": "/ˈkaɾo/",
+      "example": "Este reloj es muy caro.",
+      "exampleTranslation": "Comentando sobre un costo alto"
+    },
+    {
+      "word": "Barato",
+      "translation": "Bajo en precio o costo",
+      "phonetic": "/baˈɾato/",
+      "example": "Encontré un hotel barato.",
+      "exampleTranslation": "Describiendo una opción asequible"
+    },
+    {
+      "word": "Pago",
+      "translation": "El acto de pagar o dinero pagado",
+      "phonetic": "/ˈpaɣo/",
+      "example": "El pago vence mañana.",
+      "exampleTranslation": "Discutiendo obligaciones financieras"
+    },
+    {
+      "word": "Cambio",
+      "translation": "Dinero devuelto cuando pagas más que el costo",
+      "phonetic": "/ˈkambjo/",
+      "example": "Aquí está tu cambio de diez dólares.",
+      "exampleTranslation": "Devolviendo dinero en exceso"
+    }
+  ]
+}

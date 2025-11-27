@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day49_mc1",
+      "type": "multipleChoice",
+      "question": "Qual é o oposto de grande?",
+      "options": [
+        "Quente",
+        "Pequeno",
+        "Rápido",
+        "Forte"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day49_mc2",
+      "type": "multipleChoice",
+      "question": "O que descreve algo com alta temperatura?",
+      "options": [
+        "Frio",
+        "Fraco",
+        "Quente",
+        "Lento"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day49_mc3",
+      "type": "multipleChoice",
+      "question": "O que descreve alguém com poder físico?",
+      "options": [
+        "Fraco",
+        "Pequeno",
+        "Forte",
+        "Lento"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day49_mc4",
+      "type": "multipleChoice",
+      "question": "Qual é o oposto de rápido?",
+      "options": [
+        "Grande",
+        "Quente",
+        "Forte",
+        "Lento"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "day49_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'O pôr do sol é ____.'",
+      "correctAnswer": "bonito",
+      "acceptableAlternatives": ["lindo", "belo"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day49_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Está ____ lá fora hoje.'",
+      "correctAnswer": "frio",
+      "acceptableAlternatives": ["quente"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day49_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Ele corre muito ____.'",
+      "correctAnswer": "rápido",
+      "caseSensitive": false
+    },
+    {
+      "id": "day49_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Big",
+      "correctTranslation": "Grande",
+      "acceptableAlternatives": ["Enorme"]
+    }
+  ]
+}

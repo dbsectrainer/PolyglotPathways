@@ -1,0 +1,81 @@
+{
+  "exercises": [
+    {
+      "id": "day50_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué dices cuando conoces a alguien?",
+      "options": [
+        "Adiós",
+        "Hola",
+        "Buenas noches",
+        "Lo siento"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day50_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué frase expresa gratitud?",
+      "options": [
+        "Por favor",
+        "Disculpe",
+        "Gracias",
+        "Hola"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day50_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué dices en la primera parte del día?",
+      "options": [
+        "Buenas noches",
+        "Adiós",
+        "Buenos días",
+        "¿Cómo estás?"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day50_mc4",
+      "type": "multipleChoice",
+      "question": "¿Qué dices cuando cometes un error?",
+      "options": [
+        "Gracias",
+        "Por favor",
+        "Lo siento",
+        "Disculpe"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day50_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '____, ¿cómo estás?'",
+      "correctAnswer": "Hola",
+      "caseSensitive": false
+    },
+    {
+      "id": "day50_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '¿Puedes ayudarme, ____ ____?'",
+      "correctAnswer": "por favor",
+      "caseSensitive": false
+    },
+    {
+      "id": "day50_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '____ ____, ¡que duermas bien!'",
+      "correctAnswer": "Buenas noches",
+      "caseSensitive": false
+    },
+    {
+      "id": "day50_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Thank You",
+      "correctTranslation": "Gracias",
+      "acceptableAlternatives": ["Muchas gracias"]
+    }
+  ]
+}

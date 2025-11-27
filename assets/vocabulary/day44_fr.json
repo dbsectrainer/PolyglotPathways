@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Pomme",
+      "translation": "Un fruit rond avec une peau rouge, verte ou jaune",
+      "phonetic": "/pɔm/",
+      "example": "Je mange une pomme tous les jours.",
+      "exampleTranslation": "Décrire une habitude saine"
+    },
+    {
+      "word": "Banane",
+      "translation": "Un fruit long et courbé avec une peau jaune",
+      "phonetic": "/banan/",
+      "example": "Les bananes sont mon fruit préféré.",
+      "exampleTranslation": "Exprimer une préférence"
+    },
+    {
+      "word": "Orange",
+      "translation": "Un fruit d'agrumes rond avec une peau orange",
+      "phonetic": "/ɔʁɑ̃ʒ/",
+      "example": "Cette orange est très juteuse.",
+      "exampleTranslation": "Commenter la qualité des fruits"
+    },
+    {
+      "word": "Raisin",
+      "translation": "Un petit fruit rond qui pousse en grappes",
+      "phonetic": "/ʁɛzɛ̃/",
+      "example": "J'adore les raisins verts.",
+      "exampleTranslation": "Exprimer une préférence alimentaire"
+    },
+    {
+      "word": "Carotte",
+      "translation": "Un légume-racine orange",
+      "phonetic": "/kaʁɔt/",
+      "example": "Les carottes sont bonnes pour vos yeux.",
+      "exampleTranslation": "Partager des informations nutritionnelles"
+    },
+    {
+      "word": "Tomate",
+      "translation": "Un fruit rouge souvent utilisé comme légume",
+      "phonetic": "/tɔmat/",
+      "example": "Ajoutez des tomates à la salade.",
+      "exampleTranslation": "Donner des instructions de cuisine"
+    },
+    {
+      "word": "Laitue",
+      "translation": "Un légume à feuilles vertes utilisé dans les salades",
+      "phonetic": "/lɛty/",
+      "example": "La laitue est fraîche et croquante.",
+      "exampleTranslation": "Décrire la qualité des légumes"
+    },
+    {
+      "word": "Concombre",
+      "translation": "Un légume long et vert avec une chair aqueuse",
+      "phonetic": "/kɔ̃kɔ̃bʁ/",
+      "example": "Tranchez le concombre pour le sandwich.",
+      "exampleTranslation": "Donner des instructions de préparation des aliments"
+    },
+    {
+      "word": "Pomme de terre",
+      "translation": "Un légume-racine féculent avec une peau brune",
+      "phonetic": "/pɔm də tɛʁ/",
+      "example": "J'aime les pommes de terre au four.",
+      "exampleTranslation": "Exprimer une préférence alimentaire"
+    }
+  ]
+}

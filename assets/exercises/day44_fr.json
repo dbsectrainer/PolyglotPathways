@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day44_mc1",
+      "type": "multipleChoice",
+      "question": "Quel fruit est long, courbé et jaune?",
+      "options": [
+        "Pomme",
+        "Orange",
+        "Banane",
+        "Raisin"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day44_mc2",
+      "type": "multipleChoice",
+      "question": "Quel légume est orange et bon pour vos yeux?",
+      "options": [
+        "Laitue",
+        "Carotte",
+        "Concombre",
+        "Pomme de terre"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day44_mc3",
+      "type": "multipleChoice",
+      "question": "Quel est un légume à feuilles vertes utilisé dans les salades?",
+      "options": [
+        "Tomate",
+        "Pomme de terre",
+        "Laitue",
+        "Orange"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day44_mc4",
+      "type": "multipleChoice",
+      "question": "Quel fruit pousse en grappes et peut être vert ou violet?",
+      "options": [
+        "Pomme",
+        "Raisin",
+        "Banane",
+        "Orange"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day44_fib1",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Je mange une ____ tous les jours.'",
+      "correctAnswer": "pomme",
+      "caseSensitive": false
+    },
+    {
+      "id": "day44_fib2",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Ajoutez des ____ à la salade.'",
+      "correctAnswer": "tomates",
+      "acceptableAlternatives": ["tomate"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day44_fib3",
+      "type": "fillInBlank",
+      "question": "Complétez le blanc: 'Tranchez le ____ pour le sandwich.'",
+      "correctAnswer": "concombre",
+      "caseSensitive": false
+    },
+    {
+      "id": "day44_trans1",
+      "type": "translation",
+      "question": "Traduisez en français:",
+      "targetText": "Potato",
+      "correctTranslation": "Pomme de terre",
+      "acceptableAlternatives": ["Patate"]
+    }
+  ]
+}

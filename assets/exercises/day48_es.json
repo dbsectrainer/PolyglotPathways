@@ -1,0 +1,83 @@
+{
+  "exercises": [
+    {
+      "id": "day48_mc1",
+      "type": "multipleChoice",
+      "question": "¿Qué acción haces cuando descansas con los ojos cerrados por la noche?",
+      "options": [
+        "Correr",
+        "Caminar",
+        "Dormir",
+        "Jugar"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day48_mc2",
+      "type": "multipleChoice",
+      "question": "¿Qué haces cuando te mueves rápidamente a pie?",
+      "options": [
+        "Sentarse",
+        "Caminar",
+        "Pararse",
+        "Correr"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "day48_mc3",
+      "type": "multipleChoice",
+      "question": "¿Qué acción implica poner comida en tu boca?",
+      "options": [
+        "Beber",
+        "Comer",
+        "Dormir",
+        "Saltar"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day48_mc4",
+      "type": "multipleChoice",
+      "question": "¿Qué haces cuando estás en posición vertical sobre tus pies?",
+      "options": [
+        "Sentarse",
+        "Dormir",
+        "Pararse",
+        "Caminar"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day48_fib1",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Vamos a ____ al parque.'",
+      "correctAnswer": "caminar",
+      "acceptableAlternatives": ["correr", "ir"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day48_fib2",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: '____ mucha agua diariamente.'",
+      "correctAnswer": "Bebe",
+      "acceptableAlternatives": ["Toma"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day48_fib3",
+      "type": "fillInBlank",
+      "question": "Completa el espacio: 'Los niños ____ en el jardín.'",
+      "correctAnswer": "juegan",
+      "caseSensitive": false
+    },
+    {
+      "id": "day48_trans1",
+      "type": "translation",
+      "question": "Traduce al español:",
+      "targetText": "Jump",
+      "correctTranslation": "Saltar",
+      "acceptableAlternatives": ["Brincar"]
+    }
+  ]
+}

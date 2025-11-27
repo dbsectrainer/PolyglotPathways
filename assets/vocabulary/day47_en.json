@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Clock",
+      "translation": "A device that shows the time",
+      "phonetic": "/klɑːk/",
+      "example": "Look at the clock on the wall.",
+      "exampleTranslation": "Directing someone to check the time"
+    },
+    {
+      "word": "Hour",
+      "translation": "A period of sixty minutes",
+      "phonetic": "/aʊər/",
+      "example": "The meeting lasts one hour.",
+      "exampleTranslation": "Describing duration"
+    },
+    {
+      "word": "Minute",
+      "translation": "A period of sixty seconds",
+      "phonetic": "/ˈmɪnɪt/",
+      "example": "Wait just a minute, please.",
+      "exampleTranslation": "Asking someone to wait briefly"
+    },
+    {
+      "word": "Second",
+      "translation": "A very short unit of time",
+      "phonetic": "/ˈsɛkənd/",
+      "example": "This will only take a second.",
+      "exampleTranslation": "Indicating a brief action"
+    },
+    {
+      "word": "Morning",
+      "translation": "The early part of the day",
+      "phonetic": "/ˈmɔːrnɪŋ/",
+      "example": "I drink coffee every morning.",
+      "exampleTranslation": "Describing a daily routine"
+    },
+    {
+      "word": "Evening",
+      "translation": "The later part of the day",
+      "phonetic": "/ˈiːvnɪŋ/",
+      "example": "We have dinner in the evening.",
+      "exampleTranslation": "Describing meal time"
+    },
+    {
+      "word": "Night",
+      "translation": "The time when it is dark",
+      "phonetic": "/naɪt/",
+      "example": "The stars shine at night.",
+      "exampleTranslation": "Describing nighttime"
+    },
+    {
+      "word": "Day",
+      "translation": "A twenty-four hour period",
+      "phonetic": "/deɪ/",
+      "example": "I work five days a week.",
+      "exampleTranslation": "Describing work schedule"
+    },
+    {
+      "word": "Week",
+      "translation": "A period of seven days",
+      "phonetic": "/wiːk/",
+      "example": "I'll see you next week.",
+      "exampleTranslation": "Making future plans"
+    }
+  ]
+}

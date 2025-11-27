@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Glücklich",
+      "translation": "Vergnügen oder Zufriedenheit fühlen oder zeigen",
+      "phonetic": "/ˈɡlʏklɪç/",
+      "example": "Ich bin heute sehr glücklich!",
+      "exampleTranslation": "Ausdruck von Freude und positiven Emotionen"
+    },
+    {
+      "word": "Traurig",
+      "translation": "Trauer oder Unglück fühlen oder zeigen",
+      "phonetic": "/ˈtʁaʊ̯ʁɪç/",
+      "example": "Sie fühlt sich traurig wegen der Nachricht.",
+      "exampleTranslation": "Beschreibung des emotionalen Zustands"
+    },
+    {
+      "word": "Wütend",
+      "translation": "Starken Unmut fühlen oder zeigen",
+      "phonetic": "/ˈvyːtənt/",
+      "example": "Er war wütend über den Fehler.",
+      "exampleTranslation": "Beschreibung einer negativen Emotion"
+    },
+    {
+      "word": "Ängstlich",
+      "translation": "Angst oder Sorge fühlen",
+      "phonetic": "/ˈɛŋstlɪç/",
+      "example": "Das Kind hat Angst vor der Dunkelheit.",
+      "exampleTranslation": "Beschreibung eines ängstlichen Zustands"
+    },
+    {
+      "word": "Aufgeregt",
+      "translation": "Sich sehr enthusiastisch und begierig fühlen",
+      "phonetic": "/ˈaʊ̯fɡəʁeːkt/",
+      "example": "Ich bin aufgeregt wegen der Reise!",
+      "exampleTranslation": "Ausdruck von Vorfreude und Freude"
+    },
+    {
+      "word": "Müde",
+      "translation": "Bedürfnis nach Ruhe oder Schlaf fühlen",
+      "phonetic": "/ˈmyːdə/",
+      "example": "Ich bin müde nach der ganzen Arbeit.",
+      "exampleTranslation": "Beschreibung körperlicher oder geistiger Erschöpfung"
+    },
+    {
+      "word": "Ruhig",
+      "translation": "Sich friedlich und nicht aufgeregt fühlen",
+      "phonetic": "/ˈʁuːɪç/",
+      "example": "Bleiben Sie ruhig während des Notfalls.",
+      "exampleTranslation": "Rat, gelassen zu bleiben"
+    },
+    {
+      "word": "Überrascht",
+      "translation": "Erstaunen oder Schock fühlen",
+      "phonetic": "/yːbɐˈʁaʃt/",
+      "example": "Ich war überrascht von dem Geschenk.",
+      "exampleTranslation": "Beschreibung einer unerwarteten Reaktion"
+    },
+    {
+      "word": "Einsam",
+      "translation": "Sich traurig fühlen, weil man allein ist",
+      "phonetic": "/ˈaɪ̯nzaːm/",
+      "example": "Er fühlt sich einsam ohne seine Freunde.",
+      "exampleTranslation": "Beschreibung von Isolation und Traurigkeit"
+    }
+  ]
+}

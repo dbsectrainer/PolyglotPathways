@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Olá",
+      "translation": "Uma saudação usada ao conhecer alguém",
+      "phonetic": "/oˈla/",
+      "example": "Olá! Como você está?",
+      "exampleTranslation": "Uma saudação amigável para iniciar uma conversa"
+    },
+    {
+      "word": "Tchau",
+      "translation": "Uma expressão de despedida usada ao se separar",
+      "phonetic": "/tʃaw/",
+      "example": "Tchau! Te vejo amanhã.",
+      "exampleTranslation": "Uma forma educada de terminar um encontro"
+    },
+    {
+      "word": "Obrigado",
+      "translation": "Uma expressão de gratidão",
+      "phonetic": "/obɾiˈɡadu/",
+      "example": "Obrigado pela sua ajuda!",
+      "exampleTranslation": "Mostrando apreço pela assistência"
+    },
+    {
+      "word": "Por favor",
+      "translation": "Uma palavra educada usada ao fazer pedidos",
+      "phonetic": "/puɾ fɐˈvoɾ/",
+      "example": "Pode me ajudar, por favor?",
+      "exampleTranslation": "Fazendo um pedido educado"
+    },
+    {
+      "word": "Com licença",
+      "translation": "Uma frase educada para chamar atenção ou pedir desculpas",
+      "phonetic": "/kõ liˈsẽsɐ/",
+      "example": "Com licença, onde fica o banheiro?",
+      "exampleTranslation": "Perguntando educadamente por informação"
+    },
+    {
+      "word": "Como você está",
+      "translation": "Uma pergunta sobre o bem-estar de alguém",
+      "phonetic": "/ˈkomu voˈse esˈta/",
+      "example": "Olá! Como você está hoje?",
+      "exampleTranslation": "Mostrando interesse no estado de alguém"
+    },
+    {
+      "word": "Bom dia",
+      "translation": "Uma saudação usada na primeira parte do dia",
+      "phonetic": "/bõ ˈdʒiɐ/",
+      "example": "Bom dia! Você dormiu bem?",
+      "exampleTranslation": "Uma saudação matinal com pergunta"
+    },
+    {
+      "word": "Boa noite",
+      "translation": "Uma despedida ou saudação usada à noite",
+      "phonetic": "/ˈboɐ ˈnojtʃi/",
+      "example": "Boa noite, durma bem!",
+      "exampleTranslation": "Desejando um sono reparador"
+    },
+    {
+      "word": "Desculpe",
+      "translation": "Uma expressão de desculpa ou arrependimento",
+      "phonetic": "/dʒiʃˈkuwpi/",
+      "example": "Desculpe por chegar atrasado.",
+      "exampleTranslation": "Pedindo desculpas por um erro"
+    }
+  ]
+}

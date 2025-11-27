@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Grand",
+      "translation": "De grande taille ou étendue",
+      "phonetic": "/ɡʁɑ̃/",
+      "example": "C'est une grande maison!",
+      "exampleTranslation": "Exprimer la surprise par la taille"
+    },
+    {
+      "word": "Petit",
+      "translation": "De petite taille ou quantité",
+      "phonetic": "/pəti/",
+      "example": "La chambre est trop petite.",
+      "exampleTranslation": "Commenter l'espace limité"
+    },
+    {
+      "word": "Chaud",
+      "translation": "Qui a une température élevée",
+      "phonetic": "/ʃo/",
+      "example": "Le café est très chaud.",
+      "exampleTranslation": "Avertir de la température"
+    },
+    {
+      "word": "Froid",
+      "translation": "Qui a une température basse",
+      "phonetic": "/fʁwa/",
+      "example": "Il fait froid dehors aujourd'hui.",
+      "exampleTranslation": "Décrire le temps"
+    },
+    {
+      "word": "Rapide",
+      "translation": "Qui se déplace ou peut se déplacer rapidement",
+      "phonetic": "/ʁapid/",
+      "example": "Il court très rapide.",
+      "exampleTranslation": "Décrire la vitesse"
+    },
+    {
+      "word": "Lent",
+      "translation": "Qui se déplace ou fonctionne à basse vitesse",
+      "phonetic": "/lɑ̃/",
+      "example": "Cet ordinateur est lent.",
+      "exampleTranslation": "Se plaindre de la performance"
+    },
+    {
+      "word": "Fort",
+      "translation": "Qui a du pouvoir et de la force physique",
+      "phonetic": "/fɔʁ/",
+      "example": "Il est très fort.",
+      "exampleTranslation": "Décrire la capacité physique"
+    },
+    {
+      "word": "Faible",
+      "translation": "Qui manque de force physique",
+      "phonetic": "/fɛbl/",
+      "example": "Je me sens faible après avoir été malade.",
+      "exampleTranslation": "Décrire la condition physique"
+    },
+    {
+      "word": "Beau",
+      "translation": "Qui plaît aux sens ou à l'esprit",
+      "phonetic": "/bo/",
+      "example": "Le coucher de soleil est beau.",
+      "exampleTranslation": "Admirer la beauté naturelle"
+    }
+  ]
+}

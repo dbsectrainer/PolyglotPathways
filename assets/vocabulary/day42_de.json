@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Hemd",
+      "translation": "Ein Kleidungsstück für den Oberkörper mit Ärmeln",
+      "phonetic": "/hɛmt/",
+      "example": "Er trug ein blaues Hemd zur Arbeit.",
+      "exampleTranslation": "Beschreibung der Arbeitskleidung von jemandem"
+    },
+    {
+      "word": "Hose",
+      "translation": "Ein Kleidungsstück, das jedes Bein separat bedeckt",
+      "phonetic": "/ˈhoːzə/",
+      "example": "Ich muss neue Hosen kaufen.",
+      "exampleTranslation": "Ausdruck eines Einkaufsbedarfs"
+    },
+    {
+      "word": "Kleid",
+      "translation": "Ein einteiliges Kleidungsstück für Frauen oder Mädchen",
+      "phonetic": "/klaɪ̯t/",
+      "example": "Sie sieht wunderschön in diesem Kleid aus.",
+      "exampleTranslation": "Kompliment über jemandes Outfit"
+    },
+    {
+      "word": "Jacke",
+      "translation": "Ein kurzer Mantel, der über anderen Kleidungsstücken getragen wird",
+      "phonetic": "/ˈjakə/",
+      "example": "Vergiss deine Jacke nicht, es ist kalt draußen.",
+      "exampleTranslation": "Rat zum Wetter"
+    },
+    {
+      "word": "Hut",
+      "translation": "Eine Kopfbedeckung",
+      "phonetic": "/huːt/",
+      "example": "Er trägt einen Hut zum Schutz vor der Sonne.",
+      "exampleTranslation": "Beschreibung des Sonnenschutzes"
+    },
+    {
+      "word": "Schuhe",
+      "translation": "Schuhwerk, das die Füße bedeckt",
+      "phonetic": "/ˈʃuːə/",
+      "example": "Diese Schuhe sind sehr bequem.",
+      "exampleTranslation": "Kommentar zur Schuhqualität"
+    },
+    {
+      "word": "Socken",
+      "translation": "Kleidungsstücke, die an den Füßen unter Schuhen getragen werden",
+      "phonetic": "/ˈzɔkən/",
+      "example": "Ich ziehe meine Socken vor meinen Schuhen an.",
+      "exampleTranslation": "Beschreibung des Anziehens"
+    },
+    {
+      "word": "Mantel",
+      "translation": "Ein langes äußeres Kleidungsstück für Wärme",
+      "phonetic": "/ˈmantəl/",
+      "example": "Es ist Winter, also trage ich einen warmen Mantel.",
+      "exampleTranslation": "Erklärung saisonaler Kleidung"
+    },
+    {
+      "word": "Krawatte",
+      "translation": "Ein Stoffstreifen, der um den Hals getragen wird",
+      "phonetic": "/kʁaˈvatə/",
+      "example": "Er trägt eine Krawatte für formelle Anlässe.",
+      "exampleTranslation": "Beschreibung formeller Kleiderordnung"
+    }
+  ]
+}

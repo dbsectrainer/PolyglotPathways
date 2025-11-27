@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day50_mc1",
+      "type": "multipleChoice",
+      "question": "O que você diz quando conhece alguém?",
+      "options": [
+        "Tchau",
+        "Olá",
+        "Boa noite",
+        "Desculpe"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day50_mc2",
+      "type": "multipleChoice",
+      "question": "Que frase expressa gratidão?",
+      "options": [
+        "Por favor",
+        "Com licença",
+        "Obrigado",
+        "Olá"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day50_mc3",
+      "type": "multipleChoice",
+      "question": "O que você diz na primeira parte do dia?",
+      "options": [
+        "Boa noite",
+        "Tchau",
+        "Bom dia",
+        "Como você está"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day50_mc4",
+      "type": "multipleChoice",
+      "question": "O que você diz quando comete um erro?",
+      "options": [
+        "Obrigado",
+        "Por favor",
+        "Desculpe",
+        "Com licença"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day50_fib1",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: '____, como você está?'",
+      "correctAnswer": "Olá",
+      "acceptableAlternatives": ["Oi"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day50_fib2",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: 'Pode me ajudar, ____ ____?'",
+      "correctAnswer": "por favor",
+      "caseSensitive": false
+    },
+    {
+      "id": "day50_fib3",
+      "type": "fillInBlank",
+      "question": "Complete o espaço: '____ ____, durma bem!'",
+      "correctAnswer": "Boa noite",
+      "caseSensitive": false
+    },
+    {
+      "id": "day50_trans1",
+      "type": "translation",
+      "question": "Traduza para o português:",
+      "targetText": "Thank You",
+      "correctTranslation": "Obrigado",
+      "acceptableAlternatives": ["Obrigada", "Muito obrigado"]
+    }
+  ]
+}

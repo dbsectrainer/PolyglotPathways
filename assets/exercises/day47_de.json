@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "id": "day47_mc1",
+      "type": "multipleChoice",
+      "question": "Welches Gerät zeigt die Zeit an?",
+      "options": [
+        "Telefon",
+        "Uhr",
+        "Computer",
+        "Armbanduhr"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "day47_mc2",
+      "type": "multipleChoice",
+      "question": "Wie viele Minuten hat eine Stunde?",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "90"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day47_mc3",
+      "type": "multipleChoice",
+      "question": "Wie nennt man den frühen Teil des Tages?",
+      "options": [
+        "Abend",
+        "Nacht",
+        "Morgen",
+        "Mittag"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day47_mc4",
+      "type": "multipleChoice",
+      "question": "Wie viele Tage hat eine Woche?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "day47_fib1",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Das Meeting dauert eine ____.'",
+      "correctAnswer": "Stunde",
+      "caseSensitive": false
+    },
+    {
+      "id": "day47_fib2",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Warte bitte nur eine ____.'",
+      "correctAnswer": "Minute",
+      "acceptableAlternatives": ["Sekunde", "Moment"],
+      "caseSensitive": false
+    },
+    {
+      "id": "day47_fib3",
+      "type": "fillInBlank",
+      "question": "Füllen Sie die Lücke aus: 'Die Sterne leuchten in der ____.'",
+      "correctAnswer": "Nacht",
+      "caseSensitive": false
+    },
+    {
+      "id": "day47_trans1",
+      "type": "translation",
+      "question": "Übersetzen Sie ins Deutsche:",
+      "targetText": "Day",
+      "correctTranslation": "Tag",
+      "acceptableAlternatives": []
+    }
+  ]
+}

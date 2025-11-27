@@ -1,0 +1,67 @@
+{
+  "vocabulary": [
+    {
+      "word": "Laufen",
+      "translation": "Sich schnell zu Fuß bewegen",
+      "phonetic": "/ˈlaʊ̯fən/",
+      "example": "Ich laufe jeden Morgen zur Übung.",
+      "exampleTranslation": "Beschreibung körperlicher Aktivität"
+    },
+    {
+      "word": "Springen",
+      "translation": "Sich vom Boden abstoßen",
+      "phonetic": "/ˈʃpʁɪŋən/",
+      "example": "Die Kinder springen auf dem Bett.",
+      "exampleTranslation": "Beschreibung spielerischer Aktivität"
+    },
+    {
+      "word": "Gehen",
+      "translation": "Sich in regelmäßigem Tempo durch Heben der Füße bewegen",
+      "phonetic": "/ˈɡeːən/",
+      "example": "Lass uns zum Park gehen.",
+      "exampleTranslation": "Eine Aktivität vorschlagen"
+    },
+    {
+      "word": "Sitzen",
+      "translation": "In einer Position mit Gewicht auf dem Gesäß sein",
+      "phonetic": "/ˈzɪtsən/",
+      "example": "Bitte setzen Sie sich und entspannen Sie sich.",
+      "exampleTranslation": "Jemanden zum Ausruhen einladen"
+    },
+    {
+      "word": "Stehen",
+      "translation": "In aufrechter Position auf den Füßen sein",
+      "phonetic": "/ˈʃteːən/",
+      "example": "Stehen Sie auf, wenn Ihr Name gerufen wird.",
+      "exampleTranslation": "Anweisungen geben"
+    },
+    {
+      "word": "Schlafen",
+      "translation": "Mit geschlossenen Augen und inaktivem Geist ruhen",
+      "phonetic": "/ˈʃlaːfən/",
+      "example": "Ich schlafe jede Nacht acht Stunden.",
+      "exampleTranslation": "Beschreibung von Ruhegewohnheiten"
+    },
+    {
+      "word": "Essen",
+      "translation": "Nahrung in den Mund nehmen und schlucken",
+      "phonetic": "/ˈɛsən/",
+      "example": "Wir essen um 8 Uhr morgens Frühstück.",
+      "exampleTranslation": "Beschreibung der Mahlzeitenroutine"
+    },
+    {
+      "word": "Trinken",
+      "translation": "Flüssigkeit in den Mund nehmen und schlucken",
+      "phonetic": "/ˈtʁɪŋkən/",
+      "example": "Trinken Sie täglich viel Wasser.",
+      "exampleTranslation": "Gesundheitsrat geben"
+    },
+    {
+      "word": "Spielen",
+      "translation": "An einer Aktivität zum Vergnügen teilnehmen",
+      "phonetic": "/ˈʃpiːlən/",
+      "example": "Die Kinder spielen im Garten.",
+      "exampleTranslation": "Beschreibung von Freizeitaktivitäten"
+    }
+  ]
+}
