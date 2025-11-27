@@ -70,6 +70,10 @@ ios/Flutter/flutter_assets/
 ios/ServiceDefinitions.json
 ios/Runner/GeneratedPluginRegistrant.*
 
+# Bundler (Ruby)
+ios/vendor/bundle/
+ios/.bundle/
+
 # Web specific
 web/flutter.js
 
@@ -82,3 +86,4 @@ coverage/
 *.swp
 *.swo
 .idea/
+/vendor

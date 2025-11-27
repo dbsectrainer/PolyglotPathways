@@ -1,0 +1,112 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Generate screenshots for all languages and devices"
+  lane :screenshots do
+    project_root = File.expand_path('..', __dir__)
+    languages = ["en", "es", "pt", "fr", "de"]
+    
+    languages.each do |language|
+      UI.message("Generating screenshots for language: #{language}")
+      
+      # Get available devices dynamically or use device IDs
+      # Using device IDs is more reliable than names
+      devices = [
+        { name: "iPhone 16 Pro Max", id: "85C0BAEC-DDE4-4B2A-BEF2-00F7D1BB38EE" },  # iPhone 16 Pro Max (6.7")
+        { name: "iPhone 16 Pro", id: "7EF56B80-3DB4-4F03-BCD3-F58EA5340725" }       # iPhone 16 Pro (6.3")
+      ]
+      
+      # Try to find additional devices if available
+      # You can add more device IDs by running: flutter devices
+      
+      devices.each do |device|
+        device_name = device[:name]
+        device_id = device[:id]
+        UI.message("Generating screenshots for #{device_name} in #{language}")
+        
+        # Create screenshot directory
+        screenshot_dir = "./fastlane/screenshots/#{language}/#{device_name.gsub(/[^a-zA-Z0-9]/, '_')}"
+        sh("mkdir -p #{screenshot_dir}")
+        
+        # Run Flutter integration test using device ID
+        sh("cd #{project_root} && flutter drive --driver=test_driver/screenshot_driver.dart --target=integration_test/screenshot_test.dart -d #{device_id} --dart-define=SCREENSHOT_LANGUAGE=#{language}")
+        
+        # Move screenshots from various possible locations to organized location
+        # Flutter integration_test saves screenshots to project_root/screenshots/ by default
+        sh("find #{project_root}/screenshots -name '*.png' -exec mv {} #{screenshot_dir}/ \\; 2>/dev/null || true")
+        sh("find #{project_root}/integration_test -name '*.png' -exec mv {} #{screenshot_dir}/ \\; 2>/dev/null || true")
+        sh("find #{project_root} -maxdepth 1 -name '*.png' -exec mv {} #{screenshot_dir}/ \\; 2>/dev/null || true")
+      end
+      
+      # Frame screenshots after all devices are done
+      frameit(
+        path: "./fastlane/screenshots/#{language}",
+        white: false,
+        silver: false
+      )
+    end
+    
+    UI.success("✅ All screenshots generated successfully!")
+  end
+
+  desc "Generate screenshots for a specific language"
+  lane :screenshots_for_language do |options|
+    language = options[:language] || "en"
+    project_root = File.expand_path('..', __dir__)
+    
+    UI.message("Generating screenshots for language: #{language}")
+    
+    devices = [
+      { name: "iPhone 16 Pro Max", id: "85C0BAEC-DDE4-4B2A-BEF2-00F7D1BB38EE" },
+      { name: "iPhone 16 Pro", id: "7EF56B80-3DB4-4F03-BCD3-F58EA5340725" }
+    ]
+    
+    devices.each do |device|
+      device_name = device[:name]
+      device_id = device[:id]
+      screenshot_dir = "./fastlane/screenshots/#{language}/#{device_name.gsub(/[^a-zA-Z0-9]/, '_')}"
+      sh("mkdir -p #{screenshot_dir}")
+      
+      sh("cd #{project_root} && flutter drive --driver=test_driver/screenshot_driver.dart --target=integration_test/screenshot_test.dart -d #{device_id} --dart-define=SCREENSHOT_LANGUAGE=#{language}")
+      
+      # Move screenshots from various possible locations to organized location
+      sh("find #{project_root}/screenshots -name '*.png' -exec mv {} #{screenshot_dir}/ \\; 2>/dev/null || true")
+      sh("find #{project_root}/integration_test -name '*.png' -exec mv {} #{screenshot_dir}/ \\; 2>/dev/null || true")
+      sh("find #{project_root} -maxdepth 1 -name '*.png' -exec mv {} #{screenshot_dir}/ \\; 2>/dev/null || true")
+    end
+    
+    frameit(
+      path: "./fastlane/screenshots/#{language}",
+      white: false,
+      silver: false
+    )
+    
+    UI.success("✅ Screenshots generated for #{language}!")
+  end
+
+  desc "Frame existing screenshots"
+  lane :add_frames do |options|
+    path = options[:path] || "./fastlane/screenshots"
+    
+    frameit(
+      path: path,
+      white: false,
+      silver: false
+    )
+    
+    UI.success("✅ Screenshots framed successfully!")
+  end
+end
+

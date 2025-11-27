@@ -1,0 +1,51 @@
+{
+  "default": {
+    "keyword": {
+      "font": "./fonts/HelveticaNeue.ttc"
+    },
+    "title": {
+      "font": "./fonts/HelveticaNeue.ttc"
+    },
+    "background": "./background.jpg",
+    "padding": 50
+  },
+  "data": [
+    {
+      "filter": "iPhone 15 Pro Max",
+      "keyword": {
+        "font": "./fonts/HelveticaNeue.ttc"
+      },
+      "title": {
+        "font": "./fonts/HelveticaNeue.ttc"
+      }
+    },
+    {
+      "filter": "iPhone 14 Pro Max",
+      "keyword": {
+        "font": "./fonts/HelveticaNeue.ttc"
+      },
+      "title": {
+        "font": "./fonts/HelveticaNeue.ttc"
+      }
+    },
+    {
+      "filter": "iPhone 11 Pro Max",
+      "keyword": {
+        "font": "./fonts/HelveticaNeue.ttc"
+      },
+      "title": {
+        "font": "./fonts/HelveticaNeue.ttc"
+      }
+    },
+    {
+      "filter": "iPad Pro",
+      "keyword": {
+        "font": "./fonts/HelveticaNeue.ttc"
+      },
+      "title": {
+        "font": "./fonts/HelveticaNeue.ttc"
+      }
+    }
+  ]
+}
+
